@@ -1,0 +1,385 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2018-20783",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-20783"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-122",
+      "name": "CVE-2019-11034",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11034"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-122",
+      "name": "CVE-2019-11035",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11035"
+    },
+    {
+      "cvss3BaseScore": "4.0",
+      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-122",
+      "name": "CVE-2019-11036",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11036"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "cwe": "CWE-190->CWE-125",
+      "name": "CVE-2019-11039",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11039"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "cwe": "CWE-125",
+      "name": "CVE-2019-11040",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11040"
+    },
+    {
+      "cvss3BaseScore": "3.7",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-120",
+      "name": "CVE-2019-11041",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11041"
+    },
+    {
+      "cvss3BaseScore": "3.7",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-120",
+      "name": "CVE-2019-11042",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11042"
+    },
+    {
+      "cvss3BaseScore": "7.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "cwe": "CWE-119",
+      "name": "CVE-2019-9020",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9020"
+    },
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-122",
+      "name": "CVE-2019-9021",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9021"
+    },
+    {
+      "cvss3BaseScore": "4.6",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:L/I:N/A:L",
+      "cwe": "CWE-119",
+      "name": "CVE-2019-9022",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9022"
+    },
+    {
+      "cvss3BaseScore": "5.4",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:L",
+      "cwe": "CWE-122",
+      "name": "CVE-2019-9023",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9023"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+      "cwe": "CWE-125",
+      "name": "CVE-2019-9024",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9024"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-266",
+      "name": "CVE-2019-9637",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9637"
+    },
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-665",
+      "name": "CVE-2019-9638",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9638"
+    },
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-665",
+      "name": "CVE-2019-9639",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9639"
+    },
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-125",
+      "name": "CVE-2019-9640",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9640"
+    }
+  ],
+  "description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\n\nThe following packages have been upgraded to a later upstream version: php (7.2.24). (BZ#1726981)\n\nSecurity Fix(es):\n\n* php: Invalid memory access in function xmlrpc_decode() (CVE-2019-9020)\n\n* php: File rename across filesystems may allow unwanted access during processing (CVE-2019-9637)\n\n* php: Uninitialized read in exif_process_IFD_in_MAKERNOTE (CVE-2019-9638)\n\n* php: Uninitialized read in exif_process_IFD_in_MAKERNOTE (CVE-2019-9639)\n\n* php: Invalid read in exif_process_SOFn() (CVE-2019-9640)\n\n* php: Out-of-bounds read due to integer overflow in iconv_mime_decode_headers() (CVE-2019-11039)\n\n* php: Buffer over-read in exif_read_data() (CVE-2019-11040)\n\n* php: Buffer over-read in PHAR reading functions (CVE-2018-20783)\n\n* php: Heap-based buffer over-read in PHAR reading functions (CVE-2019-9021)\n\n* php: memcpy with negative length via crafted DNS response (CVE-2019-9022)\n\n* php: Heap-based buffer over-read in mbstring regular expression functions (CVE-2019-9023)\n\n* php: Out-of-bounds read in base64_decode_xmlrpc in ext/xmlrpc/libxmlrpc/base64.c (CVE-2019-9024)\n\n* php: Heap buffer overflow in function exif_process_IFD_TAG() (CVE-2019-11034)\n\n* php: Heap buffer overflow in function exif_iif_add_value() (CVE-2019-11035)\n\n* php: Buffer over-read in exif_process_IFD_TAG() leading to information disclosure (CVE-2019-11036)\n\n* php: Heap buffer over-read in exif_scan_thumbnail() (CVE-2019-11041)\n\n* php: Heap buffer over-read in exif_process_user_comment() (CVE-2019-11042)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1680545",
+      "ticket": "1680545"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1685123",
+      "ticket": "1685123"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1685132",
+      "ticket": "1685132"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1685398",
+      "ticket": "1685398"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1685404",
+      "ticket": "1685404"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1685412",
+      "ticket": "1685412"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1688897",
+      "ticket": "1688897"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1688922",
+      "ticket": "1688922"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1688934",
+      "ticket": "1688934"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1688939",
+      "ticket": "1688939"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1702246",
+      "ticket": "1702246"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1702256",
+      "ticket": "1702256"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1707299",
+      "ticket": "1707299"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1724152",
+      "ticket": "1724152"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1724154",
+      "ticket": "1724154"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1739459",
+      "ticket": "1739459"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1739465",
+      "ticket": "1739465"
+    }
+  ],
+  "name": "RLSA-2020:1624",
+  "publishedAt": "2020-04-28T08:57:54Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "apcu-panel-0:5.1.12-2.module+el8.4.0+413+c9202dda.noarch.rpm",
+        "libzip-0:1.5.1-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "libzip-0:1.5.1-2.module+el8.4.0+413+c9202dda.src.rpm",
+        "libzip-0:1.5.1-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "libzip-debuginfo-0:1.5.1-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "libzip-debuginfo-0:1.5.1-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "libzip-debugsource-0:1.5.1-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "libzip-debugsource-0:1.5.1-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "libzip-devel-0:1.5.1-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "libzip-devel-0:1.5.1-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "libzip-tools-0:1.5.1-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "libzip-tools-0:1.5.1-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "libzip-tools-debuginfo-0:1.5.1-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "libzip-tools-debuginfo-0:1.5.1-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-0:7.2.24-1.module+el8.4.0+413+c9202dda.src.rpm",
+        "php-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-bcmath-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-bcmath-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-bcmath-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-bcmath-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-cli-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-cli-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-cli-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-cli-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-common-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-common-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-common-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-common-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-dba-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-dba-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-dba-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-dba-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-dbg-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-dbg-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-dbg-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-dbg-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-debugsource-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-debugsource-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-devel-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-devel-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-embedded-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-embedded-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-embedded-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-embedded-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-enchant-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-enchant-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-enchant-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-enchant-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-fpm-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-fpm-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-fpm-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-fpm-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-gd-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-gd-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-gd-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-gd-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-gmp-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-gmp-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-gmp-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-gmp-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-intl-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-intl-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-intl-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-intl-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-json-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-json-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-json-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-json-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-ldap-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-ldap-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-ldap-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-ldap-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-mbstring-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-mbstring-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-mbstring-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-mbstring-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-mysqlnd-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-mysqlnd-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-mysqlnd-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-mysqlnd-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-odbc-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-odbc-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-odbc-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-odbc-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-opcache-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-opcache-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-opcache-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-opcache-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pdo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pdo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pdo-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pdo-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pear-1:1.10.5-9.module+el8.4.0+413+c9202dda.noarch.rpm",
+        "php-pear-1:1.10.5-9.module+el8.4.0+413+c9202dda.src.rpm",
+        "php-pecl-apcu-0:5.1.12-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-apcu-0:5.1.12-2.module+el8.4.0+413+c9202dda.src.rpm",
+        "php-pecl-apcu-0:5.1.12-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pecl-apcu-debuginfo-0:5.1.12-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-apcu-debuginfo-0:5.1.12-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pecl-apcu-debugsource-0:5.1.12-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-apcu-debugsource-0:5.1.12-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pecl-apcu-devel-0:5.1.12-2.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-apcu-devel-0:5.1.12-2.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pecl-zip-0:1.15.3-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-zip-0:1.15.3-1.module+el8.4.0+413+c9202dda.src.rpm",
+        "php-pecl-zip-0:1.15.3-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pecl-zip-debuginfo-0:1.15.3-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-zip-debuginfo-0:1.15.3-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pecl-zip-debugsource-0:1.15.3-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pecl-zip-debugsource-0:1.15.3-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pgsql-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pgsql-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-pgsql-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-pgsql-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-process-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-process-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-process-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-process-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-recode-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-recode-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-recode-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-recode-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-snmp-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-snmp-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-snmp-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-snmp-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-soap-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-soap-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-soap-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-soap-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-xml-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-xml-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-xml-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-xml-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-xmlrpc-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-xmlrpc-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm",
+        "php-xmlrpc-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.aarch64.rpm",
+        "php-xmlrpc-debuginfo-0:7.2.24-1.module+el8.4.0+413+c9202dda.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: php:7.2 security, bug fix, and enhancement update",
+  "topic": "An update is available for php-pear, php, php-pecl-apcu, libzip, php-pecl-zip.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

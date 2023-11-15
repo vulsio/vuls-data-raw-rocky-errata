@@ -1,0 +1,67 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2020-17541",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-17541"
+    }
+  ],
+  "description": "The libjpeg-turbo packages contain a library of functions for manipulating JPEG images. They also contain simple client programs for accessing the libjpeg functions. These packages provide the same functionality and API as libjpeg but with better performance.\n\nSecurity Fix(es):\n\n* libjpeg-turbo: Stack-based buffer overflow in the \"transform\" component (CVE-2020-17541)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1968036",
+      "ticket": "1968036"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1982572",
+      "ticket": "1982572"
+    }
+  ],
+  "name": "RLSA-2021:4288",
+  "publishedAt": "2021-11-09T08:56:07Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libjpeg-turbo-0:1.5.3-12.el8.aarch64.rpm",
+        "libjpeg-turbo-0:1.5.3-12.el8.i686.rpm",
+        "libjpeg-turbo-0:1.5.3-12.el8.src.rpm",
+        "libjpeg-turbo-0:1.5.3-12.el8.x86_64.rpm",
+        "libjpeg-turbo-debuginfo-0:1.5.3-12.el8.aarch64.rpm",
+        "libjpeg-turbo-debuginfo-0:1.5.3-12.el8.i686.rpm",
+        "libjpeg-turbo-debuginfo-0:1.5.3-12.el8.x86_64.rpm",
+        "libjpeg-turbo-debugsource-0:1.5.3-12.el8.aarch64.rpm",
+        "libjpeg-turbo-debugsource-0:1.5.3-12.el8.i686.rpm",
+        "libjpeg-turbo-debugsource-0:1.5.3-12.el8.x86_64.rpm",
+        "libjpeg-turbo-devel-0:1.5.3-12.el8.aarch64.rpm",
+        "libjpeg-turbo-devel-0:1.5.3-12.el8.i686.rpm",
+        "libjpeg-turbo-devel-0:1.5.3-12.el8.x86_64.rpm",
+        "libjpeg-turbo-utils-0:1.5.3-12.el8.aarch64.rpm",
+        "libjpeg-turbo-utils-0:1.5.3-12.el8.x86_64.rpm",
+        "libjpeg-turbo-utils-debuginfo-0:1.5.3-12.el8.aarch64.rpm",
+        "libjpeg-turbo-utils-debuginfo-0:1.5.3-12.el8.x86_64.rpm",
+        "turbojpeg-0:1.5.3-12.el8.aarch64.rpm",
+        "turbojpeg-0:1.5.3-12.el8.i686.rpm",
+        "turbojpeg-0:1.5.3-12.el8.x86_64.rpm",
+        "turbojpeg-debuginfo-0:1.5.3-12.el8.aarch64.rpm",
+        "turbojpeg-debuginfo-0:1.5.3-12.el8.i686.rpm",
+        "turbojpeg-debuginfo-0:1.5.3-12.el8.x86_64.rpm",
+        "turbojpeg-devel-0:1.5.3-12.el8.aarch64.rpm",
+        "turbojpeg-devel-0:1.5.3-12.el8.i686.rpm",
+        "turbojpeg-devel-0:1.5.3-12.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libjpeg-turbo security and bug fix update",
+  "topic": "An update is available for libjpeg-turbo.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

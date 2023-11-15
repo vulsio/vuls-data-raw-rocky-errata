@@ -1,0 +1,204 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-22624",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22624"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-22628",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22628"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2022-22629",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22629"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2022-22662",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22662"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-1173",
+      "name": "CVE-2022-26700",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26700"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-26709",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26709"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-26710",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26710"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-1173",
+      "name": "CVE-2022-26716",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26716"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-26717",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26717"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-1173",
+      "name": "CVE-2022-26719",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26719"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-787",
+      "name": "CVE-2022-30293",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30293"
+    }
+  ],
+  "description": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nGLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-22624)\n\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-22628)\n\n* webkitgtk: Buffer overflow leading to arbitrary code execution (CVE-2022-22629)\n\n* webkitgtk: Cookie management issue leading to sensitive user information disclosure (CVE-2022-22662)\n\n* webkitgtk: Memory corruption issue leading to arbitrary code execution (CVE-2022-26700)\n\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-26709)\n\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-26710)\n\n* webkitgtk: Memory corruption issue leading to arbitrary code execution (CVE-2022-26716)\n\n* webkitgtk: Use-after-free leading to arbitrary code execution (CVE-2022-26717)\n\n* webkitgtk: Memory corruption issue leading to arbitrary code execution (CVE-2022-26719)\n\n* webkitgtk: Heap buffer overflow in WebCore::TextureMapperLayer::setContentsLayer leading to arbitrary code execution (CVE-2022-30293)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061994",
+      "ticket": "2061994"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2073893",
+      "ticket": "2073893"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2073896",
+      "ticket": "2073896"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2073899",
+      "ticket": "2073899"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082548",
+      "ticket": "2082548"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092732",
+      "ticket": "2092732"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092733",
+      "ticket": "2092733"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092734",
+      "ticket": "2092734"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092735",
+      "ticket": "2092735"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092736",
+      "ticket": "2092736"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2099334",
+      "ticket": "2099334"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104787",
+      "ticket": "2104787"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104789",
+      "ticket": "2104789"
+    }
+  ],
+  "name": "RLSA-2022:7704",
+  "publishedAt": "2022-11-08T06:26:46Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "webkit2gtk3-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-0:2.36.7-1.el8_6.src.rpm",
+        "webkit2gtk3-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-debuginfo-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-debuginfo-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-debuginfo-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-debugsource-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-debugsource-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-debugsource-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-devel-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-devel-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-devel-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-jsc-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-jsc-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-jsc-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-jsc-devel-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-jsc-devel-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-jsc-devel-0:2.36.7-1.el8_6.x86_64.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.36.7-1.el8_6.aarch64.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.36.7-1.el8_6.i686.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.36.7-1.el8_6.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: webkit2gtk3 security and bug fix update",
+  "topic": "An update is available for webkit2gtk3.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

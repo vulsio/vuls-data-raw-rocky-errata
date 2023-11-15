@@ -1,0 +1,71 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-400->CWE-770",
+      "name": "CVE-2022-0918",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0918"
+    },
+    {
+      "cvss3BaseScore": "5.7",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-287",
+      "name": "CVE-2022-0996",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0996"
+    }
+  ],
+  "description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: sending crafted message could result in DoS (CVE-2022-0918)\n\n* 389-ds-base: expired password was still allowed to access the database (CVE-2022-0996)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2055815",
+      "ticket": "2055815"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064769",
+      "ticket": "2064769"
+    }
+  ],
+  "name": "RLSA-2022:5823",
+  "publishedAt": "2022-08-02T07:05:16Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "389-ds-base-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.src.rpm",
+        "389-ds-base-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-debugsource-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-debugsource-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-devel-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-devel-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-legacy-tools-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-legacy-tools-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-legacy-tools-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-legacy-tools-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-libs-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-libs-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-libs-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-libs-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-snmp-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-snmp-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "389-ds-base-snmp-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.aarch64.rpm",
+        "389-ds-base-snmp-debuginfo-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.x86_64.rpm",
+        "python3-lib389-0:1.4.3.28-7.module+el8.6.0+994+f0479f39.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: 389-ds:1.4 security update",
+  "topic": "An update is available for 389-ds-base.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

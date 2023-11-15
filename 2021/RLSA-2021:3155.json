@@ -1,0 +1,115 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-908",
+      "name": "CVE-2021-29980",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29980"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2021-29984",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29984"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2021-29985",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29985"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-367",
+      "name": "CVE-2021-29986",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29986"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2021-29988",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29988"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2021-29989",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29989"
+    }
+  ],
+  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 78.13.0.\n\nSecurity Fix(es):\n\n* Mozilla: Uninitialized memory in a canvas object could have led to memory corruption (CVE-2021-29980)\n\n* Mozilla: Incorrect instruction reordering during JIT optimization (CVE-2021-29984)\n\n* Mozilla: Race condition when resolving DNS names could have led to memory corruption (CVE-2021-29986)\n\n* Mozilla: Memory corruption as a result of incorrect style treatment (CVE-2021-29988)\n\n* Mozilla: Memory safety bugs fixed in Thunderbird 78.13 (CVE-2021-29989)\n\n* Mozilla: Use-after-free media channels (CVE-2021-29985)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992417",
+      "ticket": "1992417"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992419",
+      "ticket": "1992419"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992420",
+      "ticket": "1992420"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992421",
+      "ticket": "1992421"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992422",
+      "ticket": "1992422"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992423",
+      "ticket": "1992423"
+    }
+  ],
+  "name": "RLSA-2021:3155",
+  "publishedAt": "2021-08-16T09:09:01Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "thunderbird-0:78.13.0-1.el8_4.aarch64.rpm",
+        "thunderbird-0:78.13.0-1.el8.aarch64.rpm",
+        "thunderbird-0:78.13.0-1.el8_4.src.rpm",
+        "thunderbird-0:78.13.0-1.el8.src.rpm",
+        "thunderbird-0:78.13.0-1.el8_4.x86_64.rpm",
+        "thunderbird-0:78.13.0-1.el8.x86_64.rpm",
+        "thunderbird-debuginfo-0:78.13.0-1.el8_4.aarch64.rpm",
+        "thunderbird-debuginfo-0:78.13.0-1.el8.aarch64.rpm",
+        "thunderbird-debuginfo-0:78.13.0-1.el8_4.x86_64.rpm",
+        "thunderbird-debuginfo-0:78.13.0-1.el8.x86_64.rpm",
+        "thunderbird-debugsource-0:78.13.0-1.el8_4.aarch64.rpm",
+        "thunderbird-debugsource-0:78.13.0-1.el8.aarch64.rpm",
+        "thunderbird-debugsource-0:78.13.0-1.el8_4.x86_64.rpm",
+        "thunderbird-debugsource-0:78.13.0-1.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: thunderbird security update",
+  "topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

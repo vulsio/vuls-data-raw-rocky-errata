@@ -1,0 +1,62 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "cwe": "CWE-362",
+      "name": "CVE-2019-13627",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13627"
+    }
+  ],
+  "description": "The libgcrypt library provides general-purpose implementations of various cryptographic algorithms.\n\nThe following packages have been upgraded to a later upstream version: libgcrypt (1.8.5). (BZ#1764918)\n\nSecurity Fix(es):\n\n* libgcrypt: ECDSA timing attack allowing private key leak (CVE-2019-13627)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1762741",
+      "ticket": "1762741"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1762765",
+      "ticket": "1762765"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1764018",
+      "ticket": "1764018"
+    }
+  ],
+  "name": "RLSA-2020:4482",
+  "publishedAt": "2020-11-03T12:08:44Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libgcrypt-0:1.8.5-4.el8.aarch64.rpm",
+        "libgcrypt-0:1.8.5-4.el8.i686.rpm",
+        "libgcrypt-0:1.8.5-4.el8.src.rpm",
+        "libgcrypt-0:1.8.5-4.el8.x86_64.rpm",
+        "libgcrypt-debuginfo-0:1.8.5-4.el8.aarch64.rpm",
+        "libgcrypt-debuginfo-0:1.8.5-4.el8.i686.rpm",
+        "libgcrypt-debuginfo-0:1.8.5-4.el8.x86_64.rpm",
+        "libgcrypt-debugsource-0:1.8.5-4.el8.aarch64.rpm",
+        "libgcrypt-debugsource-0:1.8.5-4.el8.i686.rpm",
+        "libgcrypt-debugsource-0:1.8.5-4.el8.x86_64.rpm",
+        "libgcrypt-devel-0:1.8.5-4.el8.aarch64.rpm",
+        "libgcrypt-devel-0:1.8.5-4.el8.i686.rpm",
+        "libgcrypt-devel-0:1.8.5-4.el8.x86_64.rpm",
+        "libgcrypt-devel-debuginfo-0:1.8.5-4.el8.aarch64.rpm",
+        "libgcrypt-devel-debuginfo-0:1.8.5-4.el8.i686.rpm",
+        "libgcrypt-devel-debuginfo-0:1.8.5-4.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libgcrypt security, bug fix, and enhancement update",
+  "topic": "An update is available for libgcrypt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,48 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-287",
+      "name": "CVE-2022-2553",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2553"
+    }
+  ],
+  "description": "The Booth cluster ticket manager is a component to bridge high availability clusters spanning multiple sites, in particular, to provide decision inputs to local Pacemaker cluster resource managers. It operates as a distributed consensus-based service, presumably on a separate physical network. Tickets facilitated by a Booth formation are the units of authorization that can be bound to certain resources. This will ensure that the resources are run at only one (granted) site at a time.\n\nSecurity Fix(es):\n\n* booth: authfile directive in booth config file is completely ignored. (CVE-2022-2553)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2109251",
+      "ticket": "2109251"
+    }
+  ],
+  "name": "RLSA-2022:6439",
+  "publishedAt": "2022-09-13T07:36:36Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "booth-0:1.0-199.1.ac1d34c.git.el8_6.1.aarch64.rpm",
+        "booth-0:1.0-199.1.ac1d34c.git.el8_6.1.src.rpm",
+        "booth-0:1.0-199.1.ac1d34c.git.el8_6.1.x86_64.rpm",
+        "booth-arbitrator-0:1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm",
+        "booth-core-0:1.0-199.1.ac1d34c.git.el8_6.1.aarch64.rpm",
+        "booth-core-0:1.0-199.1.ac1d34c.git.el8_6.1.x86_64.rpm",
+        "booth-core-debuginfo-0:1.0-199.1.ac1d34c.git.el8_6.1.aarch64.rpm",
+        "booth-core-debuginfo-0:1.0-199.1.ac1d34c.git.el8_6.1.x86_64.rpm",
+        "booth-debugsource-0:1.0-199.1.ac1d34c.git.el8_6.1.aarch64.rpm",
+        "booth-debugsource-0:1.0-199.1.ac1d34c.git.el8_6.1.x86_64.rpm",
+        "booth-site-0:1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm",
+        "booth-test-0:1.0-199.1.ac1d34c.git.el8_6.1.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: booth security update",
+  "topic": "An update is available for booth.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

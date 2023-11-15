@@ -1,0 +1,43 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-295",
+      "name": "CVE-2021-39358",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39358"
+    }
+  ],
+  "description": "GLib/GObject wrapper for the Facebook Graph API that integrates with GNOME Online Accounts.\n\nThe following packages have been upgraded to a later upstream version: gfbgraph (0.2.4). (BZ#1997941)\n\nSecurity Fix(es):\n\n* gfbgraph: missing TLS certificate verification (CVE-2021-39358)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997139",
+      "ticket": "1997139"
+    }
+  ],
+  "name": "RLSA-2022:1801",
+  "publishedAt": "2022-05-10T06:27:52Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "gfbgraph-0:0.2.4-1.el8.i686.rpm",
+        "gfbgraph-0:0.2.4-1.el8.src.rpm",
+        "gfbgraph-0:0.2.4-1.el8.x86_64.rpm",
+        "gfbgraph-debuginfo-0:0.2.4-1.el8.i686.rpm",
+        "gfbgraph-debuginfo-0:0.2.4-1.el8.x86_64.rpm",
+        "gfbgraph-debugsource-0:0.2.4-1.el8.i686.rpm",
+        "gfbgraph-debugsource-0:0.2.4-1.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: gfbgraph security update",
+  "topic": "An update is available for gfbgraph.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

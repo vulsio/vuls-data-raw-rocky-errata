@@ -1,0 +1,65 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "3.9",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-94",
+      "name": "CVE-2022-24735",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24735"
+    },
+    {
+      "cvss3BaseScore": "3.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-476",
+      "name": "CVE-2022-24736",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24736"
+    }
+  ],
+  "description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nThe following packages have been upgraded to a later upstream version: redis (6.2.7). (BZ#1999873)\n\nSecurity Fix(es):\n\n* redis: Code injection via Lua script execution environment (CVE-2022-24735)\n\n* redis: Malformed Lua script can crash Redis (CVE-2022-24736)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "description": "The following packages have been upgraded to a later upstream version: redis (6.2.7).",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1999873",
+      "ticket": "1999873"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2080286",
+      "ticket": "2080286"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2080289",
+      "ticket": "2080289"
+    }
+  ],
+  "name": "RLSA-2022:7541",
+  "publishedAt": "2022-11-08T06:22:23Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "redis-0:6.2.7-1.module+el8.7.0+1105+8815ce78.aarch64.rpm",
+        "redis-0:6.2.7-1.module+el8.7.0+1105+8815ce78.src.rpm",
+        "redis-0:6.2.7-1.module+el8.7.0+1105+8815ce78.x86_64.rpm",
+        "redis-debuginfo-0:6.2.7-1.module+el8.7.0+1105+8815ce78.aarch64.rpm",
+        "redis-debuginfo-0:6.2.7-1.module+el8.7.0+1105+8815ce78.x86_64.rpm",
+        "redis-debugsource-0:6.2.7-1.module+el8.7.0+1105+8815ce78.aarch64.rpm",
+        "redis-debugsource-0:6.2.7-1.module+el8.7.0+1105+8815ce78.x86_64.rpm",
+        "redis-devel-0:6.2.7-1.module+el8.7.0+1105+8815ce78.aarch64.rpm",
+        "redis-devel-0:6.2.7-1.module+el8.7.0+1105+8815ce78.x86_64.rpm",
+        "redis-doc-0:6.2.7-1.module+el8.7.0+1105+8815ce78.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_LOW",
+  "shortCode": "RL",
+  "synopsis": "Low: redis:6 security, bug fix, and enhancement update",
+  "topic": "An update is available for redis.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

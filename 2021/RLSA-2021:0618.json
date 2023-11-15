@@ -1,0 +1,43 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-295",
+      "name": "CVE-2021-20230",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20230"
+    }
+  ],
+  "description": "Stunnel is a wrapper for network connections. It can be used to tunnel an unencrypted network connection over an encrypted connection (encrypted using SSL or TLS) or to provide an encrypted means of connecting to services that do not natively support encryption.\n\nSecurity Fix(es):\n\n* stunnel: client certificate not correctly verified when redirect and verifyChain options are used (CVE-2021-20230)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1925226",
+      "ticket": "1925226"
+    }
+  ],
+  "name": "RLSA-2021:0618",
+  "publishedAt": "2021-02-22T09:54:57Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "stunnel-debuginfo-0:5.56-5.el8_3.x86_64.rpm",
+        "stunnel-0:5.56-5.el8_3.aarch64.rpm",
+        "stunnel-0:5.56-5.el8_3.src.rpm",
+        "stunnel-0:5.56-5.el8_3.x86_64.rpm",
+        "stunnel-debuginfo-0:5.56-5.el8_3.aarch64.rpm",
+        "stunnel-debugsource-0:5.56-5.el8_3.aarch64.rpm",
+        "stunnel-debugsource-0:5.56-5.el8_3.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: stunnel security update",
+  "topic": "An update is available for stunnel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

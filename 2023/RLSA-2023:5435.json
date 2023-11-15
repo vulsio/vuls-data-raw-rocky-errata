@@ -1,0 +1,92 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-3600",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3600"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-5169",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5169"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-5171",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5171"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-5176",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5176"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-5217",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5217"
+    }
+  ],
+  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 115.3.1.\n\nSecurity Fix(es):\n\n* firefox: use-after-free in workers (CVE-2023-3600)\n\n* Mozilla: Out-of-bounds write in PathOps (CVE-2023-5169)\n\n* Mozilla: Use-after-free in Ion Compiler (CVE-2023-5171)\n\n* Mozilla: Memory safety bugs fixed in Firefox 118, Firefox ESR 115.3, and Thunderbird 115.3 (CVE-2023-5176)\n\n* libvpx: Heap buffer overflow in vp8 encoding in libvpx (CVE-2023-5217)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2222652",
+      "ticket": "2222652"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2240893",
+      "ticket": "2240893"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2240894",
+      "ticket": "2240894"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2240896",
+      "ticket": "2240896"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2241191",
+      "ticket": "2241191"
+    }
+  ],
+  "name": "RLSA-2023:5435",
+  "publishedAt": "2023-10-05T21:35:58.089742Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "thunderbird-0:115.3.1-1.el9_2.aarch64.rpm",
+        "thunderbird-0:115.3.1-1.el9_2.src.rpm",
+        "thunderbird-debuginfo-0:115.3.1-1.el9_2.aarch64.rpm",
+        "thunderbird-debugsource-0:115.3.1-1.el9_2.aarch64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: thunderbird security update",
+  "topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

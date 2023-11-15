@@ -1,0 +1,97 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-444",
+      "name": "CVE-2022-1705",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1705"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-1325",
+      "name": "CVE-2022-30630",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30630"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-1325",
+      "name": "CVE-2022-30631",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30631"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-1325",
+      "name": "CVE-2022-30632",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30632"
+    }
+  ],
+  "description": "Toolbox is a tool for Linux operating systems, which allows the use of containerized command line environments. It is built on top of Podman and other standard container technologies from OCI.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2089194",
+      "ticket": "2089194"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107342",
+      "ticket": "2107342"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107371",
+      "ticket": "2107371"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107374",
+      "ticket": "2107374"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107386",
+      "ticket": "2107386"
+    }
+  ],
+  "name": "RLSA-2022:8098",
+  "publishedAt": "2022-11-15T06:15:31Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "toolbox-0:0.0.99.3-5.el9.rocky.0.1.aarch64.rpm",
+        "toolbox-0:0.0.99.3-5.el9.rocky.0.1.ppc64le.rpm",
+        "toolbox-0:0.0.99.3-5.el9.rocky.0.1.s390x.rpm",
+        "toolbox-0:0.0.99.3-5.el9.rocky.0.1.src.rpm",
+        "toolbox-0:0.0.99.3-5.el9.rocky.0.1.x86_64.rpm",
+        "toolbox-debuginfo-0:0.0.99.3-5.el9.rocky.0.1.aarch64.rpm",
+        "toolbox-debuginfo-0:0.0.99.3-5.el9.rocky.0.1.ppc64le.rpm",
+        "toolbox-debuginfo-0:0.0.99.3-5.el9.rocky.0.1.s390x.rpm",
+        "toolbox-debuginfo-0:0.0.99.3-5.el9.rocky.0.1.x86_64.rpm",
+        "toolbox-debugsource-0:0.0.99.3-5.el9.rocky.0.1.aarch64.rpm",
+        "toolbox-debugsource-0:0.0.99.3-5.el9.rocky.0.1.ppc64le.rpm",
+        "toolbox-debugsource-0:0.0.99.3-5.el9.rocky.0.1.s390x.rpm",
+        "toolbox-debugsource-0:0.0.99.3-5.el9.rocky.0.1.x86_64.rpm",
+        "toolbox-tests-0:0.0.99.3-5.el9.rocky.0.1.aarch64.rpm",
+        "toolbox-tests-0:0.0.99.3-5.el9.rocky.0.1.ppc64le.rpm",
+        "toolbox-tests-0:0.0.99.3-5.el9.rocky.0.1.s390x.rpm",
+        "toolbox-tests-0:0.0.99.3-5.el9.rocky.0.1.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: toolbox security and bug fix update",
+  "topic": "An update is available for toolbox.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

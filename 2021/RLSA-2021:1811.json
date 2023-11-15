@@ -1,0 +1,101 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2018-21247",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21247"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2019-20839",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20839"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2020-14397",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14397"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-20->CWE-770",
+      "name": "CVE-2020-14405",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14405"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-369",
+      "name": "CVE-2020-25708",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25708"
+    }
+  ],
+  "description": "LibVNCServer is a C library that enables you to implement VNC server functionality into own programs.\n\nSecurity Fix(es):\n\n* libvncserver: uninitialized memory contents are vulnerable to Information Leak (CVE-2018-21247)\n\n* libvncserver: buffer overflow in ConnectClientToUnixSock() (CVE-2019-20839)\n\n* libvncserver: libvncserver/rfbregion.c has a NULL pointer dereference (CVE-2020-14397)\n\n* libvncserver: libvncclient/rfbproto.c does not limit TextChat size (CVE-2020-14405)\n\n* libvncserver: libvncserver/rfbserver.c has a divide by zero which could result in DoS (CVE-2020-25708)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1849877",
+      "ticket": "1849877"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1849886",
+      "ticket": "1849886"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1860325",
+      "ticket": "1860325"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1860344",
+      "ticket": "1860344"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1896739",
+      "ticket": "1896739"
+    }
+  ],
+  "name": "RLSA-2021:1811",
+  "publishedAt": "2021-05-18T06:09:01Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libvncserver-0:0.9.11-17.el8.aarch64.rpm",
+        "libvncserver-0:0.9.11-17.el8.i686.rpm",
+        "libvncserver-0:0.9.11-17.el8.src.rpm",
+        "libvncserver-0:0.9.11-17.el8.x86_64.rpm",
+        "libvncserver-debuginfo-0:0.9.11-17.el8.aarch64.rpm",
+        "libvncserver-debuginfo-0:0.9.11-17.el8.i686.rpm",
+        "libvncserver-debuginfo-0:0.9.11-17.el8.x86_64.rpm",
+        "libvncserver-debugsource-0:0.9.11-17.el8.aarch64.rpm",
+        "libvncserver-debugsource-0:0.9.11-17.el8.i686.rpm",
+        "libvncserver-debugsource-0:0.9.11-17.el8.x86_64.rpm",
+        "libvncserver-devel-0:0.9.11-17.el8.aarch64.rpm",
+        "libvncserver-devel-0:0.9.11-17.el8.i686.rpm",
+        "libvncserver-devel-0:0.9.11-17.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libvncserver security update",
+  "topic": "An update is available for libvncserver.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

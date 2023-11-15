@@ -1,0 +1,125 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.4",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-24936",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24936"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-29331",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29331"
+    },
+    {
+      "cvss3BaseScore": "7.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-29337",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29337"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:H/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-32032",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32032"
+    },
+    {
+      "cvss3BaseScore": "7.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-33128",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-33128"
+    }
+  ],
+  "description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 7.0.107 and .NET Runtime 7.0.7.\n\nThe following packages have been upgraded to a later upstream version: dotnet7.0 (7.0.107). (BZ#2211876)\n\nSecurity Fix(es):\n\n* dotnet: .NET Kestrel: Denial of Service processing X509 Certificates (CVE-2023-29331)\n\n* dotnet: vulnerability exists in NuGet where a potential race condition can lead to a symlink attack (CVE-2023-29337)\n\n* dotnet: Elevation of privilege - TarFile.ExtractToDirectory ignores extraction directory argument (CVE-2023-32032)\n\n* dotnet: Remote Code Execution - Source generators issue can lead to a crash due to unmanaged heap corruption (CVE-2023-33128)\n\n* dotnet: Bypass restrictions when deserializing a DataSet or DataTable from XML (CVE-2023-24936)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2192438",
+      "ticket": "2192438"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2212615",
+      "ticket": "2212615"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2212617",
+      "ticket": "2212617"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2212618",
+      "ticket": "2212618"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2213703",
+      "ticket": "2213703"
+    }
+  ],
+  "name": "RLSA-2023:3593",
+  "publishedAt": "2023-08-31T16:54:34.048467Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "aspnetcore-runtime-7.0-0:7.0.7-1.el8_8.aarch64.rpm",
+        "aspnetcore-runtime-7.0-0:7.0.7-1.el8_8.x86_64.rpm",
+        "aspnetcore-targeting-pack-7.0-0:7.0.7-1.el8_8.aarch64.rpm",
+        "aspnetcore-targeting-pack-7.0-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-0:7.0.107-1.el8_8.aarch64.rpm",
+        "dotnet-0:7.0.107-1.el8_8.x86_64.rpm",
+        "dotnet7.0-0:7.0.107-1.el8_8.src.rpm",
+        "dotnet7.0-debuginfo-0:7.0.107-1.el8_8.aarch64.rpm",
+        "dotnet7.0-debuginfo-0:7.0.107-1.el8_8.x86_64.rpm",
+        "dotnet-apphost-pack-7.0-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-apphost-pack-7.0-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-apphost-pack-7.0-debuginfo-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-apphost-pack-7.0-debuginfo-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-host-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-host-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-host-debuginfo-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-host-debuginfo-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-hostfxr-7.0-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-hostfxr-7.0-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-hostfxr-7.0-debuginfo-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-hostfxr-7.0-debuginfo-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-runtime-7.0-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-runtime-7.0-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-runtime-7.0-debuginfo-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-runtime-7.0-debuginfo-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-sdk-7.0-0:7.0.107-1.el8_8.aarch64.rpm",
+        "dotnet-sdk-7.0-0:7.0.107-1.el8_8.x86_64.rpm",
+        "dotnet-sdk-7.0-debuginfo-0:7.0.107-1.el8_8.aarch64.rpm",
+        "dotnet-sdk-7.0-debuginfo-0:7.0.107-1.el8_8.x86_64.rpm",
+        "dotnet-sdk-7.0-source-built-artifacts-0:7.0.107-1.el8_8.aarch64.rpm",
+        "dotnet-sdk-7.0-source-built-artifacts-0:7.0.107-1.el8_8.x86_64.rpm",
+        "dotnet-targeting-pack-7.0-0:7.0.7-1.el8_8.aarch64.rpm",
+        "dotnet-targeting-pack-7.0-0:7.0.7-1.el8_8.x86_64.rpm",
+        "dotnet-templates-7.0-0:7.0.107-1.el8_8.aarch64.rpm",
+        "dotnet-templates-7.0-0:7.0.107-1.el8_8.x86_64.rpm",
+        "netstandard-targeting-pack-2.1-0:7.0.107-1.el8_8.aarch64.rpm",
+        "netstandard-targeting-pack-2.1-0:7.0.107-1.el8_8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: .NET 7.0 security, bug fix, and enhancement update",
+  "topic": "An update is available for dotnet7.0.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,107 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.6",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "cwe": "CWE-20->CWE-119",
+      "name": "CVE-2022-4904",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4904"
+    },
+    {
+      "cvss3BaseScore": "3.7",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "cwe": "CWE-330",
+      "name": "CVE-2023-31124",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31124"
+    },
+    {
+      "cvss3BaseScore": "5.7",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:H/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-31130",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31130"
+    },
+    {
+      "cvss3BaseScore": "5.9",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-330",
+      "name": "CVE-2023-31147",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31147"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-400",
+      "name": "CVE-2023-32067",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32067"
+    }
+  ],
+  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* c-ares: 0-byte UDP payload Denial of Service (CVE-2023-32067)\n\n* c-ares: buffer overflow in config_sortlist() due to missing string length check (CVE-2022-4904)\n\n* c-ares: Buffer Underwrite in ares_inet_net_pton() (CVE-2023-31130)\n\n* c-ares: Insufficient randomness in generation of DNS query IDs (CVE-2023-31147)\n\n* c-ares: AutoTools does not set CARES_RANDOM_FILE during cross compilation (CVE-2023-31124)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2168631",
+      "ticket": "2168631"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2209494",
+      "ticket": "2209494"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2209497",
+      "ticket": "2209497"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2209501",
+      "ticket": "2209501"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2209502",
+      "ticket": "2209502"
+    }
+  ],
+  "name": "RLSA-2023:4035",
+  "publishedAt": "2023-08-31T16:54:34.048467Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "nodejs-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.aarch64.rpm",
+        "nodejs-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.src.rpm",
+        "nodejs-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.x86_64.rpm",
+        "nodejs-debuginfo-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.aarch64.rpm",
+        "nodejs-debuginfo-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.x86_64.rpm",
+        "nodejs-debugsource-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.aarch64.rpm",
+        "nodejs-debugsource-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.x86_64.rpm",
+        "nodejs-devel-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.aarch64.rpm",
+        "nodejs-devel-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.x86_64.rpm",
+        "nodejs-docs-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.noarch.rpm",
+        "nodejs-full-i18n-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.aarch64.rpm",
+        "nodejs-full-i18n-1:18.14.2-3.module+el8.8.0+1337+7ea46b57.x86_64.rpm",
+        "nodejs-nodemon-0:2.0.20-2.module+el8.7.0+1177+510ae886.noarch.rpm",
+        "nodejs-nodemon-0:2.0.20-2.module+el8.7.0+1177+510ae886.src.rpm",
+        "nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
+        "nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.src.rpm",
+        "nodejs-packaging-bundler-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
+        "npm-1:9.5.0-1.18.14.2.3.module+el8.8.0+1337+7ea46b57.aarch64.rpm",
+        "npm-1:9.5.0-1.18.14.2.3.module+el8.8.0+1337+7ea46b57.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: nodejs:18 security update",
+  "topic": "An update is available for nodejs-nodemon, module.nodejs, nodejs, module.nodejs-nodemon, module.nodejs-packaging, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

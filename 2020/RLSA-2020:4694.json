@@ -1,0 +1,251 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:L/I:L/A:L",
+      "cwe": "CWE-300",
+      "name": "CVE-2020-10749",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10749"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "cwe": "CWE-125",
+      "name": "CVE-2020-10756",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10756"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-835",
+      "name": "CVE-2020-14040",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14040"
+    }
+  ],
+  "description": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* containernetworking/plugins: IPv6 router advertisements allow for MitM attacks on IPv4 clusters (CVE-2020-10749)\n\n* QEMU: slirp: networking out-of-bounds read information disclosure vulnerability (CVE-2020-10756)\n\n* golang.org/x/text: possibility to trigger an infinite loop in encoding/unicode could lead to crash (CVE-2020-14040)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1682970",
+      "ticket": "1682970"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1752079",
+      "ticket": "1752079"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1785242",
+      "ticket": "1785242"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1800815",
+      "ticket": "1800815"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1801874",
+      "ticket": "1801874"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1804193",
+      "ticket": "1804193"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1804195",
+      "ticket": "1804195"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1813845",
+      "ticket": "1813845"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1814928",
+      "ticket": "1814928"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1818694",
+      "ticket": "1818694"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1821193",
+      "ticket": "1821193"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1822038",
+      "ticket": "1822038"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1825789",
+      "ticket": "1825789"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1827794",
+      "ticket": "1827794"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1833220",
+      "ticket": "1833220"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1835986",
+      "ticket": "1835986"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1837755",
+      "ticket": "1837755"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1847544",
+      "ticket": "1847544"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1849557",
+      "ticket": "1849557"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1850230",
+      "ticket": "1850230"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1853230",
+      "ticket": "1853230"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1853652",
+      "ticket": "1853652"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1857606",
+      "ticket": "1857606"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1858862",
+      "ticket": "1858862"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1860126",
+      "ticket": "1860126"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1866153",
+      "ticket": "1866153"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1866833",
+      "ticket": "1866833"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1867447",
+      "ticket": "1867447"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1868612",
+      "ticket": "1868612"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1872263",
+      "ticket": "1872263"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1877463",
+      "ticket": "1877463"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1879622",
+      "ticket": "1879622"
+    }
+  ],
+  "name": "RLSA-2020:4694",
+  "publishedAt": "2020-11-03T12:27:37Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libslirp-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.4.0+556+40122d08.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.5.0+709+440d5e7e.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.6.0+783+10209741.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+770+e2f49861.noarch.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.4.0+559+c02fa3b2.noarch.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+708+6758137d.noarch.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+770+e2f49861.src.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.4.0+559+c02fa3b2.src.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+708+6758137d.src.rpm",
+        "toolbox-0:0.0.8-1.module+el8.4.0+556+40122d08.noarch.rpm",
+        "toolbox-0:0.0.8-1.module+el8.4.0+556+40122d08.src.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
+  "topic": "An update is available for python-podman-api, libslirp, toolbox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

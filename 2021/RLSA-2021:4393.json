@@ -1,0 +1,87 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-120",
+      "name": "CVE-2020-10001",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10001"
+    }
+  ],
+  "description": "The Common UNIX Printing System (CUPS) provides a portable printing layer for Linux, UNIX, and similar operating systems.\n\nSecurity Fix(es):\n\n* cups: access to uninitialized buffer in ipp.c (CVE-2020-10001)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1782216",
+      "ticket": "1782216"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1921680",
+      "ticket": "1921680"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1938384",
+      "ticket": "1938384"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1941437",
+      "ticket": "1941437"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1955964",
+      "ticket": "1955964"
+    }
+  ],
+  "name": "RLSA-2021:4393",
+  "publishedAt": "2021-11-09T09:16:27Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "cups-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-1:2.2.6-40.el8.src.rpm",
+        "cups-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-client-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-client-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-client-debuginfo-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-client-debuginfo-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-debuginfo-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-debuginfo-1:2.2.6-40.el8.i686.rpm",
+        "cups-debuginfo-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-debugsource-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-debugsource-1:2.2.6-40.el8.i686.rpm",
+        "cups-debugsource-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-devel-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-devel-1:2.2.6-40.el8.i686.rpm",
+        "cups-devel-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-filesystem-1:2.2.6-40.el8.noarch.rpm",
+        "cups-ipptool-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-ipptool-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-ipptool-debuginfo-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-ipptool-debuginfo-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-libs-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-libs-1:2.2.6-40.el8.i686.rpm",
+        "cups-libs-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-libs-debuginfo-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-libs-debuginfo-1:2.2.6-40.el8.i686.rpm",
+        "cups-libs-debuginfo-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-lpd-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-lpd-1:2.2.6-40.el8.x86_64.rpm",
+        "cups-lpd-debuginfo-1:2.2.6-40.el8.aarch64.rpm",
+        "cups-lpd-debuginfo-1:2.2.6-40.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: cups security and bug fix update",
+  "topic": "An update is available for cups.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,75 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cwe": "CWE-838",
+      "name": "CVE-2021-42574",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42574"
+    }
+  ],
+  "description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries. \n\nSecurity Fix(es):\n\n* Developer environment: Unicode's bidirectional (BiDi) override characters can cause trojan source attacks (CVE-2021-42574)\n\nThe following changes were introduced in rust in order to facilitate detection of BiDi Unicode characters:\n\nRust introduces two new lints to detect and reject code containing the affected codepoints. These new deny-by-default lints detect affected codepoints in string literals and comments. The lints will prevent source code file containing these codepoints from being compiled. If your code has legitimate uses for the codepoints we recommend replacing them with the related escape sequence. The error messages will suggest the right escapes to use.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2005819",
+      "ticket": "2005819"
+    }
+  ],
+  "name": "RLSA-2021:4590",
+  "publishedAt": "2021-11-10T08:37:57Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "cargo-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "cargo-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "cargo-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "cargo-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "cargo-doc-0:1.54.0-3.module+el8.5.0+712+d335422a.noarch.rpm",
+        "clippy-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "clippy-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "clippy-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "clippy-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rls-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rls-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rls-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rls-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-0:1.54.0-3.module+el8.5.0+712+d335422a.src.rpm",
+        "rust-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-analysis-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-analysis-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-debugger-common-0:1.54.0-3.module+el8.5.0+712+d335422a.noarch.rpm",
+        "rust-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-debugsource-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-debugsource-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-doc-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-doc-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rustfmt-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rustfmt-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rustfmt-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rustfmt-debuginfo-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-gdb-0:1.54.0-3.module+el8.5.0+712+d335422a.noarch.rpm",
+        "rust-lldb-0:1.54.0-3.module+el8.5.0+712+d335422a.noarch.rpm",
+        "rust-src-0:1.54.0-3.module+el8.5.0+712+d335422a.noarch.rpm",
+        "rust-std-static-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-std-static-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-std-static-wasm32-unknown-unknown-0:1.54.0-3.module+el8.5.0+712+d335422a.aarch64.rpm",
+        "rust-std-static-wasm32-unknown-unknown-0:1.54.0-3.module+el8.5.0+712+d335422a.x86_64.rpm",
+        "rust-toolset-0:1.54.0-1.module+el8.5.0+678+cf7bc64b.aarch64.rpm",
+        "rust-toolset-0:1.54.0-1.module+el8.5.0+678+cf7bc64b.src.rpm",
+        "rust-toolset-0:1.54.0-1.module+el8.5.0+678+cf7bc64b.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: rust-toolset:rhel8 security update",
+  "topic": "An update is available for rust-toolset, rust.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

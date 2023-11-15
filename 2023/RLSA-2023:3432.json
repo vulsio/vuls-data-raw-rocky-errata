@@ -1,0 +1,90 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-28204",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28204"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-32373",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32373"
+    }
+  ],
+  "description": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* webkitgtk: a use-after-free when processing maliciously crafted web content (CVE-2023-32373)\n\n* webkitgtk: an out-of-bounds read when processing malicious content (CVE-2023-28204)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2209208",
+      "ticket": "2209208"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2209214",
+      "ticket": "2209214"
+    }
+  ],
+  "name": "RLSA-2023:3432",
+  "publishedAt": "2023-06-13T19:55:27.757120Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "webkit2gtk3-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-0:2.38.5-1.el9_2.2.src.rpm",
+        "webkit2gtk3-debuginfo-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-debugsource-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-devel-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-jsc-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-jsc-devel-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.38.5-1.el9_2.2.aarch64.rpm",
+        "webkit2gtk3-0:2.38.5-1.el9_2.2.i686.rpm",
+        "webkit2gtk3-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-debuginfo-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-debuginfo-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-debuginfo-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-debugsource-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-debugsource-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-debugsource-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-devel-0:2.38.5-1.el9_2.2.i686.rpm",
+        "webkit2gtk3-devel-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-devel-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-devel-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-devel-debuginfo-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-jsc-0:2.38.5-1.el9_2.2.i686.rpm",
+        "webkit2gtk3-jsc-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-jsc-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-jsc-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-jsc-debuginfo-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-jsc-devel-0:2.38.5-1.el9_2.2.i686.rpm",
+        "webkit2gtk3-jsc-devel-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-jsc-devel-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-jsc-devel-0:2.38.5-1.el9_2.2.x86_64.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.38.5-1.el9_2.2.ppc64le.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.38.5-1.el9_2.2.s390x.rpm",
+        "webkit2gtk3-jsc-devel-debuginfo-0:2.38.5-1.el9_2.2.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: webkit2gtk3 security update",
+  "topic": "An update is available for webkit2gtk3.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

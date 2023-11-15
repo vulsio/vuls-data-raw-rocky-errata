@@ -1,0 +1,61 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "2.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-367->CWE-59->CWE-203",
+      "name": "CVE-2021-23239",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23239"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-367->CWE-59",
+      "name": "CVE-2021-23240",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23240"
+    }
+  ],
+  "description": "The sudo packages contain the sudo utility which allows system administrators to provide certain users with the permission to execute privileged commands, which are used for system management purposes, without having to log in as root.\n\nSecurity Fix(es):\n\n* sudo: symbolic link attack in SELinux-enabled sudoedit (CVE-2021-23240)\n\n* sudo: possible directory existence test due to race condition in sudoedit (CVE-2021-23239)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915052",
+      "ticket": "1915052"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915053",
+      "ticket": "1915053"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1923825",
+      "ticket": "1923825"
+    }
+  ],
+  "name": "RLSA-2021:1723",
+  "publishedAt": "2021-05-18T05:55:11Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "sudo-0:1.8.29-7.el8.aarch64.rpm",
+        "sudo-0:1.8.29-7.el8.src.rpm",
+        "sudo-0:1.8.29-7.el8.x86_64.rpm",
+        "sudo-debuginfo-0:1.8.29-7.el8.aarch64.rpm",
+        "sudo-debuginfo-0:1.8.29-7.el8.x86_64.rpm",
+        "sudo-debugsource-0:1.8.29-7.el8.aarch64.rpm",
+        "sudo-debugsource-0:1.8.29-7.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_LOW",
+  "shortCode": "RL",
+  "synopsis": "Low: sudo security and bug fix update",
+  "topic": "An update is available for sudo.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

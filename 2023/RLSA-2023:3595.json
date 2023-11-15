@@ -1,0 +1,73 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-20",
+      "name": "CVE-2023-24329",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24329"
+    }
+  ],
+  "description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: urllib.parse url blocklisting bypass (CVE-2023-24329)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2173917",
+      "ticket": "2173917"
+    }
+  ],
+  "name": "RLSA-2023:3595",
+  "publishedAt": "2023-08-31T16:55:39.127366Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "python3-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python3.9-0:3.9.16-1.el9_2.1.src.rpm",
+        "python3-debug-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-debug-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-debug-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-debug-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-debug-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python3-devel-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-devel-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-devel-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-devel-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-devel-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python3-idle-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-idle-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-idle-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-idle-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-idle-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python3-libs-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-libs-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-libs-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-libs-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-libs-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python3-test-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-test-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-test-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-test-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-test-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python3-tkinter-0:3.9.16-1.el9_2.1.aarch64.rpm",
+        "python3-tkinter-0:3.9.16-1.el9_2.1.i686.rpm",
+        "python3-tkinter-0:3.9.16-1.el9_2.1.ppc64le.rpm",
+        "python3-tkinter-0:3.9.16-1.el9_2.1.s390x.rpm",
+        "python3-tkinter-0:3.9.16-1.el9_2.1.x86_64.rpm",
+        "python-unversioned-command-0:3.9.16-1.el9_2.1.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: python3.9 security update",
+  "topic": "An update is available for python3.9.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

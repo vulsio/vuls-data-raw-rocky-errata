@@ -1,0 +1,153 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-402",
+      "name": "CVE-2022-21540",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21540"
+    },
+    {
+      "cvss3BaseScore": "5.9",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-284",
+      "name": "CVE-2022-21541",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21541"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-192",
+      "name": "CVE-2022-34169",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34169"
+    }
+  ],
+  "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nThe following packages have been upgraded to a later upstream version: java-11-openjdk (11.0.16.0.8). (BZ#2084649)\n\nSecurity Fix(es):\n\n* OpenJDK: integer truncation issue in Xalan-J (JAXP, 8285407) (CVE-2022-34169)\n\n* OpenJDK: class compilation issue (Hotspot, 8281859) (CVE-2022-21540)\n\n* OpenJDK: improper restriction of MethodHandle.invokeBasic() (Hotspot, 8281866) (CVE-2022-21541)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* rh1991003 patch breaks sun.security.pkcs11.wrapper.PKCS11.getInstance() [Rocky Linux-8, openjdk-11] (BZ#2099917)\n\n* Revert to disabling system security properties and FIPS mode support together [Rocky Linux-8, openjdk-11] (BZ#2108248)\n\n* SecretKey generate/import operations don't add the CKA_SIGN attribute in FIPS mode [Rocky Linux-8, openjdk-11] (BZ#2108251)",
+  "fixes": [
+    {
+      "description": "The following packages have been upgraded to a later upstream version: java-11-openjdk (11.0.16.0.8).",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2084649",
+      "ticket": "2084649"
+    },
+    {
+      "description": "* rh1991003 patch breaks sun.security.pkcs11.wrapper.PKCS11.getInstance() [rhel-8, openjdk-11]",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2099917",
+      "ticket": "2099917"
+    },
+    {
+      "description": "* Revert to disabling system security properties and FIPS mode support together [rhel-8, openjdk-11]",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108248",
+      "ticket": "2108248"
+    },
+    {
+      "description": "* SecretKey generate/import operations don't add the CKA_SIGN attribute in FIPS mode [rhel-8, openjdk-11]",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108251",
+      "ticket": "2108251"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108540",
+      "ticket": "2108540"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108543",
+      "ticket": "2108543"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108554",
+      "ticket": "2108554"
+    }
+  ],
+  "name": "RLSA-2022:5683",
+  "publishedAt": "2022-07-21T13:41:28Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "java-11-openjdk-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-1:11.0.16.0.8-1.el8_6.src.rpm",
+        "java-11-openjdk-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-debugsource-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-debugsource-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-demo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-demo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-demo-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-demo-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-demo-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-demo-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-devel-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-devel-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-devel-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-devel-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-devel-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-devel-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-devel-fastdebug-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-devel-fastdebug-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-devel-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-devel-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-devel-slowdebug-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-devel-slowdebug-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-fastdebug-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-fastdebug-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-headless-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-headless-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-headless-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-headless-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-headless-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-headless-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-headless-fastdebug-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-headless-fastdebug-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-headless-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-headless-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-headless-slowdebug-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-headless-slowdebug-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-javadoc-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-javadoc-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-javadoc-zip-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-javadoc-zip-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-jmods-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-jmods-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-jmods-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-jmods-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-jmods-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-jmods-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-slowdebug-debuginfo-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-slowdebug-debuginfo-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-src-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-src-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-src-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-src-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-src-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-src-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-static-libs-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-static-libs-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-static-libs-fastdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-static-libs-fastdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm",
+        "java-11-openjdk-static-libs-slowdebug-1:11.0.16.0.8-1.el8_6.aarch64.rpm",
+        "java-11-openjdk-static-libs-slowdebug-1:11.0.16.0.8-1.el8_6.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: java-11-openjdk security, bug fix, and enhancement update",
+  "topic": "An update is available for java-11-openjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,92 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2020-35521",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35521"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2020-35522",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35522"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-190",
+      "name": "CVE-2020-35523",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35523"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-787",
+      "name": "CVE-2020-35524",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35524"
+    }
+  ],
+  "description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: Integer overflow in tif_getimage.c (CVE-2020-35523)\n\n* libtiff: Heap-based buffer overflow in TIFF2PDF tool (CVE-2020-35524)\n\n* libtiff: Memory allocation failure in tiff2rgba (CVE-2020-35521)\n\n* libtiff: Memory allocation failure in tiff2rgba (CVE-2020-35522)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932034",
+      "ticket": "1932034"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932037",
+      "ticket": "1932037"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932040",
+      "ticket": "1932040"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932044",
+      "ticket": "1932044"
+    }
+  ],
+  "name": "RLSA-2021:4241",
+  "publishedAt": "2021-11-09T08:50:38Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libtiff-0:4.0.9-20.el8.aarch64.rpm",
+        "libtiff-0:4.0.9-20.el8.i686.rpm",
+        "libtiff-0:4.0.9-20.el8.src.rpm",
+        "libtiff-0:4.0.9-20.el8.x86_64.rpm",
+        "libtiff-debuginfo-0:4.0.9-20.el8.aarch64.rpm",
+        "libtiff-debuginfo-0:4.0.9-20.el8.i686.rpm",
+        "libtiff-debuginfo-0:4.0.9-20.el8.x86_64.rpm",
+        "libtiff-debugsource-0:4.0.9-20.el8.aarch64.rpm",
+        "libtiff-debugsource-0:4.0.9-20.el8.i686.rpm",
+        "libtiff-debugsource-0:4.0.9-20.el8.x86_64.rpm",
+        "libtiff-devel-0:4.0.9-20.el8.aarch64.rpm",
+        "libtiff-devel-0:4.0.9-20.el8.i686.rpm",
+        "libtiff-devel-0:4.0.9-20.el8.x86_64.rpm",
+        "libtiff-tools-0:4.0.9-20.el8.aarch64.rpm",
+        "libtiff-tools-0:4.0.9-20.el8.x86_64.rpm",
+        "libtiff-tools-debuginfo-0:4.0.9-20.el8.aarch64.rpm",
+        "libtiff-tools-debuginfo-0:4.0.9-20.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libtiff security and bug fix update",
+  "topic": "An update is available for libtiff.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

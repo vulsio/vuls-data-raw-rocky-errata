@@ -1,0 +1,54 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-400",
+      "name": "CVE-2021-20201",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20201"
+    }
+  ],
+  "description": "The Simple Protocol for Independent Computing Environments (SPICE) is a remote display system built for virtual environments which allows the user to view a computing 'desktop' environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures.\n\nSecurity Fix(es):\n\n* spice: Client initiated renegotiation denial of service (CVE-2021-20201)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1904459",
+      "ticket": "1904459"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1921846",
+      "ticket": "1921846"
+    }
+  ],
+  "name": "RLSA-2021:1924",
+  "publishedAt": "2021-05-18T06:24:46Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "spice-server-0:0.14.3-4.el8.i686.rpm",
+        "spice-0:0.14.3-4.el8.src.rpm",
+        "spice-debugsource-0:0.14.3-4.el8.aarch64.rpm",
+        "spice-debugsource-0:0.14.3-4.el8.i686.rpm",
+        "spice-debugsource-0:0.14.3-4.el8.x86_64.rpm",
+        "spice-server-0:0.14.3-4.el8.aarch64.rpm",
+        "spice-server-0:0.14.3-4.el8.x86_64.rpm",
+        "spice-server-debuginfo-0:0.14.3-4.el8.aarch64.rpm",
+        "spice-server-debuginfo-0:0.14.3-4.el8.i686.rpm",
+        "spice-server-debuginfo-0:0.14.3-4.el8.x86_64.rpm",
+        "spice-server-devel-0:0.14.3-4.el8.aarch64.rpm",
+        "spice-server-devel-0:0.14.3-4.el8.i686.rpm",
+        "spice-server-devel-0:0.14.3-4.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_LOW",
+  "shortCode": "RL",
+  "synopsis": "Low: spice security update",
+  "topic": "An update is available for spice.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

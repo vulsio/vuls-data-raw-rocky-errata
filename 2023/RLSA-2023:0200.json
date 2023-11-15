@@ -1,0 +1,122 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-400",
+      "name": "CVE-2023-21835",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21835"
+    },
+    {
+      "cvss3BaseScore": "3.7",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "cwe": "CWE-646",
+      "name": "CVE-2023-21843",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21843"
+    }
+  ],
+  "description": "The java-11-openjdk packages provide the OpenJDK 11 Java Runtime Environment and the OpenJDK 11 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: handshake DoS attack against DTLS connections (JSSE, 8287411) (CVE-2023-21835)\n\n* OpenJDK: soundbank URL remote loading (Sound, 8293742) (CVE-2023-21843)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2023-01, 11.0.18) [Rocky Linux-8] (BZ#2157797)",
+  "fixes": [
+    {
+      "description": "* Prepare for the next quarterly OpenJDK upstream release (2023-01, 11.0.18) [rhel-8]",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2157797",
+      "ticket": "2157797"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2160421",
+      "ticket": "2160421"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2160475",
+      "ticket": "2160475"
+    }
+  ],
+  "name": "RLSA-2023:0200",
+  "publishedAt": "2023-01-18T09:47:59Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "java-11-openjdk-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-1:11.0.18.0.10-2.el8_7.src.rpm",
+        "java-11-openjdk-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-debugsource-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-debugsource-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-demo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-demo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-demo-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-demo-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-demo-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-demo-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-devel-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-devel-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-devel-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-devel-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-devel-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-devel-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-devel-fastdebug-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-devel-fastdebug-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-devel-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-devel-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-devel-slowdebug-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-devel-slowdebug-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-fastdebug-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-fastdebug-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-headless-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-headless-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-headless-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-headless-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-headless-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-headless-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-headless-fastdebug-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-headless-fastdebug-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-headless-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-headless-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-headless-slowdebug-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-headless-slowdebug-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-javadoc-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-javadoc-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-javadoc-zip-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-javadoc-zip-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-jmods-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-jmods-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-jmods-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-jmods-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-jmods-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-jmods-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-slowdebug-debuginfo-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-slowdebug-debuginfo-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-src-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-src-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-src-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-src-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-src-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-src-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-static-libs-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-static-libs-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-static-libs-fastdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-static-libs-fastdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm",
+        "java-11-openjdk-static-libs-slowdebug-1:11.0.18.0.10-2.el8_7.aarch64.rpm",
+        "java-11-openjdk-static-libs-slowdebug-1:11.0.18.0.10-2.el8_7.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: java-11-openjdk security and bug fix update",
+  "topic": "An update is available for java-11-openjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,49 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2021-3571",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3571"
+    }
+  ],
+  "description": "The linuxptp packages provide Precision Time Protocol (PTP) implementation for Linux according to IEEE standard 1588 for Linux. The dual design goals are to provide a robust implementation of the standard and to use the most relevant and modern Application Programming Interfaces (API) offered by the Linux kernel. \n\nThe following packages have been upgraded to a later upstream version: linuxptp (3.1.1). (BZ#1895005)\n\nSecurity Fix(es):\n\n* linuxptp: wrong length of one-step follow-up in transparent clock (CVE-2021-3571)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "description": "The following packages have been upgraded to a later upstream version: linuxptp (3.1.1).",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1895005",
+      "ticket": "1895005"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966241",
+      "ticket": "1966241"
+    }
+  ],
+  "name": "RLSA-2021:4321",
+  "publishedAt": "2021-11-09T09:00:47Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "linuxptp-0:3.1.1-1.el8.aarch64.rpm",
+        "linuxptp-0:3.1.1-1.el8.src.rpm",
+        "linuxptp-0:3.1.1-1.el8.x86_64.rpm",
+        "linuxptp-debuginfo-0:3.1.1-1.el8.aarch64.rpm",
+        "linuxptp-debuginfo-0:3.1.1-1.el8.x86_64.rpm",
+        "linuxptp-debugsource-0:3.1.1-1.el8.aarch64.rpm",
+        "linuxptp-debugsource-0:3.1.1-1.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: linuxptp security, bug fix, and enhancement update",
+  "topic": "An update is available for linuxptp.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,102 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "4.4",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-665",
+      "name": "CVE-2021-20317",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20317"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-20",
+      "name": "CVE-2021-43267",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43267"
+    }
+  ],
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: Insufficient validation of user-supplied sizes for the MSG_CRYPTO message type (CVE-2021-43267)\n\n* kernel: timer tree corruption leads to missing wakeup and system freeze (CVE-2021-20317)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2005258",
+      "ticket": "2005258"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2020362",
+      "ticket": "2020362"
+    }
+  ],
+  "name": "RLSA-2021:4647",
+  "publishedAt": "2021-11-15T09:57:15Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "kernel-0:4.18.0-348.2.1.el8_5.src.rpm",
+        "bpftool-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "bpftool-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "bpftool-debuginfo-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "bpftool-debuginfo-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-abi-stablelists-0:4.18.0-348.2.1.el8_5.noarch.rpm",
+        "kernel-core-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-core-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-cross-headers-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-cross-headers-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debug-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debug-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debug-core-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debug-core-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debug-debuginfo-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debug-debuginfo-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debug-devel-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debug-devel-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debuginfo-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debuginfo-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debuginfo-common-aarch64-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debuginfo-common-x86_64-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debug-modules-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debug-modules-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-debug-modules-extra-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-debug-modules-extra-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-devel-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-devel-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-doc-0:4.18.0-348.2.1.el8_5.noarch.rpm",
+        "kernel-headers-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-headers-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-modules-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-modules-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-modules-extra-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-modules-extra-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-tools-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-tools-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-tools-debuginfo-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-tools-debuginfo-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-tools-libs-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-tools-libs-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "kernel-tools-libs-devel-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "kernel-tools-libs-devel-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "perf-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "perf-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "perf-debuginfo-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "perf-debuginfo-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "python3-perf-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "python3-perf-0:4.18.0-348.2.1.el8_5.x86_64.rpm",
+        "python3-perf-debuginfo-0:4.18.0-348.2.1.el8_5.aarch64.rpm",
+        "python3-perf-debuginfo-0:4.18.0-348.2.1.el8_5.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: kernel security update",
+  "topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

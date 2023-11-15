@@ -1,0 +1,52 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2022-37434",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-37434"
+    }
+  ],
+  "description": "The zlib packages provide a general-purpose lossless data compression library that is used by many different programs.\n\nSecurity Fix(es):\n\n* zlib: a heap-based buffer over-read or buffer overflow in inflate in inflate.c via a large gzip header extra field (CVE-2022-37434)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2116639",
+      "ticket": "2116639"
+    }
+  ],
+  "name": "RLSA-2022:7106",
+  "publishedAt": "2022-10-25T07:22:56Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "zlib-0:1.2.11-19.el8_6.aarch64.rpm",
+        "zlib-0:1.2.11-19.el8_6.i686.rpm",
+        "zlib-0:1.2.11-19.el8_6.src.rpm",
+        "zlib-0:1.2.11-19.el8_6.x86_64.rpm",
+        "zlib-debuginfo-0:1.2.11-19.el8_6.aarch64.rpm",
+        "zlib-debuginfo-0:1.2.11-19.el8_6.i686.rpm",
+        "zlib-debuginfo-0:1.2.11-19.el8_6.x86_64.rpm",
+        "zlib-debugsource-0:1.2.11-19.el8_6.aarch64.rpm",
+        "zlib-debugsource-0:1.2.11-19.el8_6.i686.rpm",
+        "zlib-debugsource-0:1.2.11-19.el8_6.x86_64.rpm",
+        "zlib-devel-0:1.2.11-19.el8_6.aarch64.rpm",
+        "zlib-devel-0:1.2.11-19.el8_6.i686.rpm",
+        "zlib-devel-0:1.2.11-19.el8_6.x86_64.rpm",
+        "zlib-static-0:1.2.11-19.el8_6.aarch64.rpm",
+        "zlib-static-0:1.2.11-19.el8_6.i686.rpm",
+        "zlib-static-0:1.2.11-19.el8_6.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: zlib security update",
+  "topic": "An update is available for zlib.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

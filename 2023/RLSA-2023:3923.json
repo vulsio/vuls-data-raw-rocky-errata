@@ -1,0 +1,94 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-29402",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29402"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-29403",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29403"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-29404",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29404"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-29405",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29405"
+    }
+  ],
+  "description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nThe golang packages provide the Go programming language compiler.\n\nSecurity Fix(es):\n\n* golang: cmd/go: go command may generate unexpected code at build time when using cgo (CVE-2023-29402)\n\n* golang: cmd/go: go command may execute arbitrary code at build time when using cgo (CVE-2023-29404)\n\n* golang: cmd/cgo: Arbitratry code execution triggered by linker flags (CVE-2023-29405)\n\n* golang: runtime: unexpected behavior of setuid/setgid binaries (CVE-2023-29403)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2216965",
+      "ticket": "2216965"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2217562",
+      "ticket": "2217562"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2217565",
+      "ticket": "2217565"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2217569",
+      "ticket": "2217569"
+    }
+  ],
+  "name": "RLSA-2023:3923",
+  "publishedAt": "2023-07-08T02:54:41.143214Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "golang-0:1.19.10-1.el9_2.s390x.rpm",
+        "golang-0:1.19.10-1.el9_2.src.rpm",
+        "golang-0:1.19.10-1.el9_2.x86_64.rpm",
+        "golang-bin-0:1.19.10-1.el9_2.s390x.rpm",
+        "golang-bin-0:1.19.10-1.el9_2.x86_64.rpm",
+        "golang-docs-0:1.19.10-1.el9_2.noarch.rpm",
+        "golang-misc-0:1.19.10-1.el9_2.noarch.rpm",
+        "golang-race-0:1.19.10-1.el9_2.x86_64.rpm",
+        "golang-src-0:1.19.10-1.el9_2.noarch.rpm",
+        "golang-tests-0:1.19.10-1.el9_2.noarch.rpm",
+        "go-toolset-0:1.19.10-1.el9_2.s390x.rpm",
+        "go-toolset-0:1.19.10-1.el9_2.src.rpm",
+        "go-toolset-0:1.19.10-1.el9_2.x86_64.rpm",
+        "golang-0:1.19.10-1.el9_2.aarch64.rpm",
+        "golang-0:1.19.10-1.el9_2.ppc64le.rpm",
+        "golang-bin-0:1.19.10-1.el9_2.aarch64.rpm",
+        "golang-bin-0:1.19.10-1.el9_2.ppc64le.rpm",
+        "go-toolset-0:1.19.10-1.el9_2.aarch64.rpm",
+        "go-toolset-0:1.19.10-1.el9_2.ppc64le.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_CRITICAL",
+  "shortCode": "RL",
+  "synopsis": "Critical: go-toolset and golang security update",
+  "topic": "An update is available for go-toolset, golang.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,90 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-2879",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2879"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-444",
+      "name": "CVE-2022-2880",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2880"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-41715",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41715"
+    }
+  ],
+  "description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: archive/tar: unbounded memory consumption when reading headers (CVE-2022-2879)\n\n* golang: net/http/httputil: ReverseProxy should not forward unparseable query parameters (CVE-2022-2880)\n\n* golang: regexp/syntax: limit memory used by parsing regexps (CVE-2022-41715)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Internal linking fails on ppc64le (BZ#2144545)\n\n* crypto testcases fail on golang on s390x [Rocky Linux-8] (BZ#2149313)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2132867",
+      "ticket": "2132867"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2132868",
+      "ticket": "2132868"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2132872",
+      "ticket": "2132872"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2139718",
+      "ticket": "2139718"
+    },
+    {
+      "description": "* crypto testcases fail on golang on s390x [rhel-8]",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2149313",
+      "ticket": "2149313"
+    }
+  ],
+  "name": "RLSA-2023:0446",
+  "publishedAt": "2023-01-25T08:59:15Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "delve-0:1.8.3-1.module+el8.7.0+1073+99e3b3cd.src.rpm",
+        "delve-0:1.8.3-1.module+el8.7.0+1073+99e3b3cd.x86_64.rpm",
+        "delve-debuginfo-0:1.8.3-1.module+el8.7.0+1073+99e3b3cd.x86_64.rpm",
+        "delve-debugsource-0:1.8.3-1.module+el8.7.0+1073+99e3b3cd.x86_64.rpm",
+        "golang-0:1.18.9-1.module+el8.7.0+1133+56289a01.aarch64.rpm",
+        "golang-0:1.18.9-1.module+el8.7.0+1133+56289a01.src.rpm",
+        "golang-0:1.18.9-1.module+el8.7.0+1133+56289a01.x86_64.rpm",
+        "golang-bin-0:1.18.9-1.module+el8.7.0+1133+56289a01.aarch64.rpm",
+        "golang-bin-0:1.18.9-1.module+el8.7.0+1133+56289a01.x86_64.rpm",
+        "golang-docs-0:1.18.9-1.module+el8.7.0+1133+56289a01.noarch.rpm",
+        "golang-misc-0:1.18.9-1.module+el8.7.0+1133+56289a01.noarch.rpm",
+        "golang-race-0:1.18.9-1.module+el8.7.0+1133+56289a01.x86_64.rpm",
+        "golang-src-0:1.18.9-1.module+el8.7.0+1133+56289a01.noarch.rpm",
+        "golang-tests-0:1.18.9-1.module+el8.7.0+1133+56289a01.noarch.rpm",
+        "go-toolset-0:1.18.9-1.module+el8.7.0+1133+56289a01.aarch64.rpm",
+        "go-toolset-0:1.18.9-1.module+el8.7.0+1133+56289a01.src.rpm",
+        "go-toolset-0:1.18.9-1.module+el8.7.0+1133+56289a01.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: go-toolset:rhel8 security and bug fix update",
+  "topic": "An update is available for delve, golang, go-toolset.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

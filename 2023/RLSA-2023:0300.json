@@ -1,0 +1,116 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-667->CWE-416",
+      "name": "CVE-2022-2959",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2959"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2022-2964",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2964"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-276",
+      "name": "CVE-2022-30594",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30594"
+    },
+    {
+      "cvss3BaseScore": "4.4",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2022-3077",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3077"
+    },
+    {
+      "cvss3BaseScore": "7.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-281",
+      "name": "CVE-2022-4139",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4139"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-770",
+      "name": "CVE-2022-43945",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43945"
+    }
+  ],
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: watch queue race condition can lead to privilege escalation (CVE-2022-2959)\n\n* kernel: memory corruption in AX88179_178A based USB ethernet device. (CVE-2022-2964)\n\n* kernel: i915: Incorrect GPU TLB flush can lead to random memory access (CVE-2022-4139)\n\n* kernel: nfsd buffer overflow by RPC message over TCP with garbage data (CVE-2022-43945)\n\n* kernel: i2c: unbounded length leads to buffer overflow in ismt_access() (CVE-2022-3077)\n\n* kernel: Unprivileged users may use PTRACE_SEIZE to set PTRACE_O_SUSPEND_SECCOMP option (CVE-2022-30594)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* DELL EMC: System is not booting into RT Kernel with perc12 [kernel-rt] (BZ#2139863)\n\n* kernel-rt: update RT source tree to the latest Rocky Linux-9.1.z1 Batch (BZ#2141817)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2067482",
+      "ticket": "2067482"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2085300",
+      "ticket": "2085300"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2103681",
+      "ticket": "2103681"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2123309",
+      "ticket": "2123309"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2141752",
+      "ticket": "2141752"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2147572",
+      "ticket": "2147572"
+    }
+  ],
+  "name": "RLSA-2023:0300",
+  "publishedAt": "2023-01-23T14:29:55Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "kernel-rt-0:5.14.0-162.12.1.rt21.175.el9_1.src.rpm",
+        "kernel-rt-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-core-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-core-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-debuginfo-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-devel-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debuginfo-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-kvm-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-modules-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-debug-modules-extra-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-devel-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-kvm-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-modules-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm",
+        "kernel-rt-modules-extra-0:5.14.0-162.12.1.rt21.175.el9_1.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: kernel-rt security and bug fix update",
+  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

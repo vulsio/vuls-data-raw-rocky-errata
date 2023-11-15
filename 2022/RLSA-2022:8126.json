@@ -1,0 +1,70 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:L",
+      "cwe": "CWE-863",
+      "name": "CVE-2022-1706",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1706"
+    }
+  ],
+  "description": "Ignition is a utility used to manipulate systems during the initramfs. This includes partitioning disks, formatting partitions, writing files (regular files, systemd units, etc.), and configuring users. On first boot, Ignition reads its configuration from a source of truth (remote URL, network metadata service, hypervisor bridge, etc.) and applies the configuration.\n\nThe following packages have been upgraded to a later upstream version: ignition (2.14.0). (BZ#2090647)\n\nSecurity Fix(es):\n\n* ignition: configs are accessible from unprivileged containers in VMs running on VMware products (CVE-2022-1706)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2066829",
+      "ticket": "2066829"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082274",
+      "ticket": "2082274"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2085130",
+      "ticket": "2085130"
+    },
+    {
+      "description": "The following packages have been upgraded to a later upstream version: ignition (2.14.0).",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2090647",
+      "ticket": "2090647"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2117606",
+      "ticket": "2117606"
+    }
+  ],
+  "name": "RLSA-2022:8126",
+  "publishedAt": "2022-11-15T06:16:21Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "ignition-0:2.14.0-1.el9.aarch64.rpm",
+        "ignition-0:2.14.0-1.el9.ppc64le.rpm",
+        "ignition-0:2.14.0-1.el9.s390x.rpm",
+        "ignition-0:2.14.0-1.el9.src.rpm",
+        "ignition-0:2.14.0-1.el9.x86_64.rpm",
+        "ignition-debuginfo-0:2.14.0-1.el9.aarch64.rpm",
+        "ignition-debuginfo-0:2.14.0-1.el9.ppc64le.rpm",
+        "ignition-debuginfo-0:2.14.0-1.el9.s390x.rpm",
+        "ignition-debuginfo-0:2.14.0-1.el9.x86_64.rpm",
+        "ignition-debugsource-0:2.14.0-1.el9.aarch64.rpm",
+        "ignition-debugsource-0:2.14.0-1.el9.ppc64le.rpm",
+        "ignition-debugsource-0:2.14.0-1.el9.s390x.rpm",
+        "ignition-debugsource-0:2.14.0-1.el9.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: ignition security, bug fix, and enhancement update",
+  "topic": "An update is available for ignition.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

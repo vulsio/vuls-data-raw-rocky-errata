@@ -1,0 +1,173 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.6",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+      "cwe": "CWE-79",
+      "name": "CVE-2019-11358",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-11358"
+    },
+    {
+      "cvss3BaseScore": "6.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cwe": "CWE-79",
+      "name": "CVE-2020-11023",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11023"
+    },
+    {
+      "cvss3BaseScore": "5.4",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+      "cwe": "CWE-79",
+      "name": "CVE-2020-7656",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7656"
+    }
+  ],
+  "description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nThe following packages have been upgraded to a later upstream version: pcs (0.10.10). (BZ#1935594)\n\nSecurity Fix(es):\n\n* jquery: Cross-site scripting (XSS) via <script> HTML tags containing whitespaces (CVE-2020-7656)\n\n* jquery: Untrusted code execution via <option> tag in HTML passed to DOM manipulation methods (CVE-2020-11023)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1290830",
+      "ticket": "1290830"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1432097",
+      "ticket": "1432097"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1678273",
+      "ticket": "1678273"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1690419",
+      "ticket": "1690419"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1720221",
+      "ticket": "1720221"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1759995",
+      "ticket": "1759995"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1841019",
+      "ticket": "1841019"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1850004",
+      "ticket": "1850004"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1850119",
+      "ticket": "1850119"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854238",
+      "ticket": "1854238"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1872378",
+      "ticket": "1872378"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885293",
+      "ticket": "1885293"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885302",
+      "ticket": "1885302"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1896458",
+      "ticket": "1896458"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1909901",
+      "ticket": "1909901"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1922996",
+      "ticket": "1922996"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1927384",
+      "ticket": "1927384"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1927394",
+      "ticket": "1927394"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1930886",
+      "ticket": "1930886"
+    },
+    {
+      "description": "The following packages have been upgraded to a later upstream version: pcs (0.10.10).",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1935594",
+      "ticket": "1935594"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1984901",
+      "ticket": "1984901"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1991654",
+      "ticket": "1991654"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992668",
+      "ticket": "1992668"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1998454",
+      "ticket": "1998454"
+    }
+  ],
+  "name": "RLSA-2021:4142",
+  "publishedAt": "2021-11-09T08:21:49Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "pcs-0:0.10.10-4.el8.aarch64.rpm",
+        "pcs-0:0.10.10-4.el8.src.rpm",
+        "pcs-0:0.10.10-4.el8.x86_64.rpm",
+        "pcs-snmp-0:0.10.10-4.el8.aarch64.rpm",
+        "pcs-snmp-0:0.10.10-4.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_LOW",
+  "shortCode": "RL",
+  "synopsis": "Low: pcs security, bug fix, and enhancement update",
+  "topic": "An update is available for pcs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

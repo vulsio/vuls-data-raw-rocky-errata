@@ -1,0 +1,96 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2021-33928",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33928"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2021-33929",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33929"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2021-33930",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33930"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2021-33938",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33938"
+    }
+  ],
+  "description": "The libsolv packages provide a library for resolving package dependencies using a satisfiability algorithm.\n\nSecurity Fix(es):\n\n* libsolv: heap-based buffer overflow in pool_installable() in src/repo.h (CVE-2021-33928)\n\n* libsolv: heap-based buffer overflow in pool_disabled_solvable() in src/repo.h (CVE-2021-33929)\n\n* libsolv: heap-based buffer overflow in pool_installable_whatprovides() in src/repo.h (CVE-2021-33930)\n\n* libsolv: heap-based buffer overflow in prune_to_recommended() in src/policy.c (CVE-2021-33938)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000699",
+      "ticket": "2000699"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000703",
+      "ticket": "2000703"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000705",
+      "ticket": "2000705"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000707",
+      "ticket": "2000707"
+    }
+  ],
+  "name": "RLSA-2021:4060",
+  "publishedAt": "2021-11-02T07:49:29Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libsolv-0:0.7.16-3.el8_4.aarch64.rpm",
+        "libsolv-0:0.7.16-3.el8_4.i686.rpm",
+        "libsolv-0:0.7.16-3.el8_4.src.rpm",
+        "libsolv-0:0.7.16-3.el8_4.x86_64.rpm",
+        "libsolv-debuginfo-0:0.7.16-3.el8_4.aarch64.rpm",
+        "libsolv-debuginfo-0:0.7.16-3.el8_4.i686.rpm",
+        "libsolv-debuginfo-0:0.7.16-3.el8_4.x86_64.rpm",
+        "libsolv-debugsource-0:0.7.16-3.el8_4.aarch64.rpm",
+        "libsolv-debugsource-0:0.7.16-3.el8_4.i686.rpm",
+        "libsolv-debugsource-0:0.7.16-3.el8_4.x86_64.rpm",
+        "libsolv-devel-0:0.7.16-3.el8_4.aarch64.rpm",
+        "libsolv-devel-0:0.7.16-3.el8_4.i686.rpm",
+        "libsolv-devel-0:0.7.16-3.el8_4.x86_64.rpm",
+        "libsolv-tools-0:0.7.16-3.el8_4.aarch64.rpm",
+        "libsolv-tools-0:0.7.16-3.el8_4.x86_64.rpm",
+        "libsolv-tools-debuginfo-0:0.7.16-3.el8_4.aarch64.rpm",
+        "libsolv-tools-debuginfo-0:0.7.16-3.el8_4.x86_64.rpm",
+        "python3-solv-0:0.7.16-3.el8_4.aarch64.rpm",
+        "python3-solv-0:0.7.16-3.el8_4.x86_64.rpm",
+        "python3-solv-debuginfo-0:0.7.16-3.el8_4.aarch64.rpm",
+        "python3-solv-debuginfo-0:0.7.16-3.el8_4.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libsolv security update",
+  "topic": "An update is available for libsolv.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

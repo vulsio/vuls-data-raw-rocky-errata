@@ -1,0 +1,66 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.9",
+      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+      "cwe": "CWE-349",
+      "name": "CVE-2021-4122",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4122"
+    }
+  ],
+  "description": "The cryptsetup packages provide a utility for setting up disk encryption using the dm-crypt kernel module.\n\nSecurity Fix(es):\n\n* cryptsetup: disable encryption via header rewrite (CVE-2021-4122)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2032401",
+      "ticket": "2032401"
+    }
+  ],
+  "name": "RLSA-2022:0370",
+  "publishedAt": "2022-02-01T20:13:30Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "cryptsetup-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-0:2.3.3-4.el8_5.1.src.rpm",
+        "cryptsetup-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-debuginfo-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-debuginfo-0:2.3.3-4.el8_5.1.i686.rpm",
+        "cryptsetup-debuginfo-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-debugsource-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-debugsource-0:2.3.3-4.el8_5.1.i686.rpm",
+        "cryptsetup-debugsource-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-devel-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-devel-0:2.3.3-4.el8_5.1.i686.rpm",
+        "cryptsetup-devel-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-libs-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-libs-0:2.3.3-4.el8_5.1.i686.rpm",
+        "cryptsetup-libs-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-libs-debuginfo-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-libs-debuginfo-0:2.3.3-4.el8_5.1.i686.rpm",
+        "cryptsetup-libs-debuginfo-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-reencrypt-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-reencrypt-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "cryptsetup-reencrypt-debuginfo-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "cryptsetup-reencrypt-debuginfo-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "integritysetup-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "integritysetup-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "integritysetup-debuginfo-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "integritysetup-debuginfo-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "veritysetup-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "veritysetup-0:2.3.3-4.el8_5.1.x86_64.rpm",
+        "veritysetup-debuginfo-0:2.3.3-4.el8_5.1.aarch64.rpm",
+        "veritysetup-debuginfo-0:2.3.3-4.el8_5.1.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: cryptsetup security update",
+  "topic": "An update is available for cryptsetup.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

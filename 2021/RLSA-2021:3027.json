@@ -1,0 +1,152 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2020-0543",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0543"
+    },
+    {
+      "cvss3BaseScore": "2.8",
+      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "cwe": "CWE-203->CWE-200",
+      "name": "CVE-2020-0548",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0548"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "cwe": "CWE-203->CWE-200",
+      "name": "CVE-2020-0549",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0549"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cwe": "CWE-459",
+      "name": "CVE-2020-24489",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24489"
+    },
+    {
+      "cvss3BaseScore": "5.6",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2020-24511",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24511"
+    },
+    {
+      "cvss3BaseScore": "2.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2020-24512",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24512"
+    },
+    {
+      "cvss3BaseScore": "5.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2020-8695",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8695"
+    },
+    {
+      "cvss3BaseScore": "2.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N",
+      "cwe": "CWE-212",
+      "name": "CVE-2020-8696",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8696"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-212",
+      "name": "CVE-2020-8698",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8698"
+    }
+  ],
+  "description": "The microcode_ctl packages provide microcode updates for Intel.\n\nSecurity Fix(es):\n\n* hw: Special Register Buffer Data Sampling (SRBDS) (CVE-2020-0543)\n\n* hw: Vector Register Data Sampling (CVE-2020-0548)\n\n* hw: L1D Cache Eviction Sampling (CVE-2020-0549)\n\n* hw: vt-d related privilege escalation (CVE-2020-24489)\n\n* hw: improper isolation of shared resources in some Intel Processors\n(CVE-2020-24511)\n\n* hw: observable timing discrepancy in some Intel Processors\n(CVE-2020-24512)\n\n* hw: Information disclosure issue in Intel SGX via RAPL interface\n(CVE-2020-8695)\n\n* hw: Vector Register Leakage-Active (CVE-2020-8696)\n\n* hw: Fast forward store predictor (CVE-2020-8698)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1788786",
+      "ticket": "1788786"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1788788",
+      "ticket": "1788788"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1827165",
+      "ticket": "1827165"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1828583",
+      "ticket": "1828583"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1890355",
+      "ticket": "1890355"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1890356",
+      "ticket": "1890356"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962650",
+      "ticket": "1962650"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962702",
+      "ticket": "1962702"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962722",
+      "ticket": "1962722"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1972325",
+      "ticket": "1972325"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1972328",
+      "ticket": "1972328"
+    }
+  ],
+  "name": "RLSA-2021:3027",
+  "publishedAt": "2021-08-09T09:19:57Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "microcode_ctl-4:20210216-1.20210608.1.el8_4.src.rpm",
+        "microcode_ctl-4:20210216-1.20210608.1.el8_4.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: microcode_ctl security, bug fix and enhancement update",
+  "topic": "An update is available for microcode_ctl.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

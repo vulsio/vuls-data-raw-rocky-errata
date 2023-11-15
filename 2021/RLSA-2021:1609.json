@@ -1,0 +1,95 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-190",
+      "name": "CVE-2020-29361",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29361"
+    },
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-125",
+      "name": "CVE-2020-29362",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29362"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-787",
+      "name": "CVE-2020-29363",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-29363"
+    }
+  ],
+  "description": "The p11-kit packages provide a mechanism to manage PKCS#11 modules. The p11-kit-trust subpackage includes a PKCS#11 trust module that provides certificate anchors and black lists based on configuration files.\n\nThe following packages have been upgraded to a later upstream version: p11-kit (0.23.22). (BZ#1887853)\n\nSecurity Fix(es):\n\n* p11-kit: integer overflow when allocating memory for arrays or attributes and object identifiers (CVE-2020-29361)\n\n* p11-kit: out-of-bounds read in p11_rpc_buffer_get_byte_array function in rpc-message.c (CVE-2020-29362)\n\n* p11-kit: out-of-bounds write in p11_rpc_buffer_get_byte_array_value function in rpc-message.c (CVE-2020-29363)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1665172",
+      "ticket": "1665172"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1890464",
+      "ticket": "1890464"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903588",
+      "ticket": "1903588"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903590",
+      "ticket": "1903590"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903592",
+      "ticket": "1903592"
+    }
+  ],
+  "name": "RLSA-2021:1609",
+  "publishedAt": "2021-05-18T05:38:50Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "p11-kit-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-0:0.23.22-1.el8.i686.rpm",
+        "p11-kit-0:0.23.22-1.el8.src.rpm",
+        "p11-kit-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-debuginfo-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-debuginfo-0:0.23.22-1.el8.i686.rpm",
+        "p11-kit-debuginfo-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-debugsource-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-debugsource-0:0.23.22-1.el8.i686.rpm",
+        "p11-kit-debugsource-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-devel-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-devel-0:0.23.22-1.el8.i686.rpm",
+        "p11-kit-devel-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-server-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-server-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-server-debuginfo-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-server-debuginfo-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-trust-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-trust-0:0.23.22-1.el8.i686.rpm",
+        "p11-kit-trust-0:0.23.22-1.el8.x86_64.rpm",
+        "p11-kit-trust-debuginfo-0:0.23.22-1.el8.aarch64.rpm",
+        "p11-kit-trust-debuginfo-0:0.23.22-1.el8.i686.rpm",
+        "p11-kit-trust-debuginfo-0:0.23.22-1.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: p11-kit security, bug fix, and enhancement update",
+  "topic": "An update is available for p11-kit.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

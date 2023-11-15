@@ -1,0 +1,43 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "4.4",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-665->CWE-200",
+      "name": "CVE-2021-3565",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3565"
+    }
+  ],
+  "description": "The tpm2-tools packages add a set of utilities for management and utilization of Trusted Platform Module (TPM) 2.0 devices from user space.\n\nSecurity Fix(es):\n\n* tpm2-tools: fixed AES wrapping key in tpm2_import (CVE-2021-3565)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1964427",
+      "ticket": "1964427"
+    }
+  ],
+  "name": "RLSA-2021:4413",
+  "publishedAt": "2021-11-09T09:19:19Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "tpm2-tools-0:4.1.1-5.el8.aarch64.rpm",
+        "tpm2-tools-0:4.1.1-5.el8.src.rpm",
+        "tpm2-tools-0:4.1.1-5.el8.x86_64.rpm",
+        "tpm2-tools-debuginfo-0:4.1.1-5.el8.aarch64.rpm",
+        "tpm2-tools-debuginfo-0:4.1.1-5.el8.x86_64.rpm",
+        "tpm2-tools-debugsource-0:4.1.1-5.el8.aarch64.rpm",
+        "tpm2-tools-debugsource-0:4.1.1-5.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: tpm2-tools security and enhancement update",
+  "topic": "An update is available for tpm2-tools.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

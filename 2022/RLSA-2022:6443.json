@@ -1,0 +1,545 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-20",
+      "name": "CVE-2021-46659",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46659"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-20",
+      "name": "CVE-2021-46661",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46661"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-20",
+      "name": "CVE-2021-46663",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46663"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-476",
+      "name": "CVE-2021-46664",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46664"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-20",
+      "name": "CVE-2021-46665",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46665"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-400",
+      "name": "CVE-2021-46668",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46668"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2021-46669",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46669"
+    },
+    {
+      "cvss3BaseScore": "4.9",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-21427",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21427"
+    },
+    {
+      "cvss3BaseScore": "4.4",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-21595",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21595"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2022-24048",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24048"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-1173",
+      "name": "CVE-2022-24050",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24050"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-20->CWE-120",
+      "name": "CVE-2022-24051",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24051"
+    },
+    {
+      "cvss3BaseScore": "7.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-122",
+      "name": "CVE-2022-24052",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-24052"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27376",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27376"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-27377",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27377"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-89",
+      "name": "CVE-2022-27378",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27378"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-89",
+      "name": "CVE-2022-27379",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27379"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-89",
+      "name": "CVE-2022-27380",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27380"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-89",
+      "name": "CVE-2022-27381",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27381"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-27383",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27383"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-89",
+      "name": "CVE-2022-27384",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27384"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-89",
+      "name": "CVE-2022-27386",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27386"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2022-27387",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27387"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-27445",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27445"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27447",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27447"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27448",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27448"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27449",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27449"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27452",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27452"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27456",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27456"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-617",
+      "name": "CVE-2022-27458",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27458"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-404",
+      "name": "CVE-2022-31622",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31622"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-667",
+      "name": "CVE-2022-31623",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31623"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-229",
+      "name": "CVE-2022-32083",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32083"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-229",
+      "name": "CVE-2022-32085",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32085"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-229",
+      "name": "CVE-2022-32087",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32087"
+    },
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-229",
+      "name": "CVE-2022-32088",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32088"
+    }
+  ],
+  "description": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL. \n\nThe following packages have been upgraded to a later upstream version: mariadb (10.3.35), galera (25.3.35).\n\nSecurity Fix(es):\n\n* mariadb: MariaDB through 10.5.9 allows attackers to trigger a convert_const_to_int use-after-free when the BIGINT data type is used (CVE-2021-46669)\n\n* mysql: Server: FTS unspecified vulnerability (CPU Apr 2022) (CVE-2022-21427)\n\n* mariadb: lack of proper validation of the length of user-supplied data prior to copying it to a fixed-length stack-based buffer (CVE-2022-24048)\n\n* mariadb: lack of validating the existence of an object prior to performing operations on the object (CVE-2022-24050)\n\n* mariadb: lack of proper validation of a user-supplied string before using it as a format specifier (CVE-2022-24051)\n\n* mariadb: CONNECT storage engine heap-based buffer overflow (CVE-2022-24052)\n\n* mariadb: assertion failure in Item_args::walk_arg (CVE-2022-27376)\n\n* mariadb: use-after-poison when complex conversion is involved in blob (CVE-2022-27377)\n\n* mariadb: server crash in create_tmp_table::finalize (CVE-2022-27378)\n\n* mariadb: server crash in component arg_comparator::compare_real_fixed (CVE-2022-27379)\n\n* mariadb: server crash at my_decimal::operator= (CVE-2022-27380)\n\n* mariadb: server crash at Field::set_default via specially crafted SQL statements (CVE-2022-27381)\n\n* mariadb: use-after-poison in my_strcasecmp_8bit() of ctype-simple.c (CVE-2022-27383)\n\n* mariadb: crash via component Item_subselect::init_expr_cache_tracker (CVE-2022-27384)\n\n* mariadb: server crashes in query_arena::set_query_arena upon SELECT from view (CVE-2022-27386)\n\n* mariadb: assertion failures in decimal_bin_size (CVE-2022-27387)\n\n* mariadb: assertion failure in compare_order_elements (CVE-2022-27445)\n\n* mariadb: use-after-poison in Binary_string::free_buffer (CVE-2022-27447)\n\n* mariadb: crash in multi-update and implicit grouping (CVE-2022-27448)\n\n* mariadb: assertion failure in sql/item_func.cc (CVE-2022-27449)\n\n* mariadb: assertion failure in sql/item_cmpfunc.cc (CVE-2022-27452)\n\n* mariadb: assertion failure in VDec::VDec at /sql/sql_type.cc (CVE-2022-27456)\n\n* mariadb: use-after-poison in Binary_string::free_buffer (CVE-2022-27458)\n\n* mariadb: improper locking due to the unreleased lock in extra/mariabackup/ds_compress.cc (CVE-2022-31622)\n\n* mariadb: improper locking due to the unreleased lock in extra/mariabackup/ds_compress.cc (CVE-2022-31623)\n\n* mariadb: server crash at Item_subselect::init_expr_cache_tracker (CVE-2022-32083)\n\n* mariadb: server crash in Item_func_in::cleanup/Item::cleanup_processor (CVE-2022-32085)\n\n* mariadb: server crash in Item_args::walk_args (CVE-2022-32087)\n\n* mariadb: segmentation fault in Exec_time_tracker::get_loops/Filesort_tracker::report_use/filesort (CVE-2022-32088)\n\n* mariadb: Crash executing query with VIEW, aggregate and subquery (CVE-2021-46659)\n\n* mariadb: MariaDB allows an application crash in find_field_in_tables and find_order_in_list via an unused common table expression (CTE) (CVE-2021-46661)\n\n* mariadb: MariaDB through 10.5.13 allows a ha_maria::extra application crash via certain SELECT statements (CVE-2021-46663)\n\n* mariadb: MariaDB through 10.5.9 allows an application crash in sub_select_postjoin_aggr for a NULL value of aggr (CVE-2021-46664)\n\n* mariadb: MariaDB through 10.5.9 allows a sql_parse.cc application crash because of incorrect used_tables expectations (CVE-2021-46665)\n\n* mariadb: MariaDB through 10.5.9 allows an application crash via certain long SELECT DISTINCT statements (CVE-2021-46668)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* [Tracker] Rebase to Galera 25.3.35 for MariaDB-10.3 (BZ#2107075)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2049302",
+      "ticket": "2049302"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050017",
+      "ticket": "2050017"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050022",
+      "ticket": "2050022"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050024",
+      "ticket": "2050024"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050026",
+      "ticket": "2050026"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050032",
+      "ticket": "2050032"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050034",
+      "ticket": "2050034"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2068211",
+      "ticket": "2068211"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2068233",
+      "ticket": "2068233"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2068234",
+      "ticket": "2068234"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2069833",
+      "ticket": "2069833"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074817",
+      "ticket": "2074817"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074947",
+      "ticket": "2074947"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074949",
+      "ticket": "2074949"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074951",
+      "ticket": "2074951"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074966",
+      "ticket": "2074966"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074981",
+      "ticket": "2074981"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074996",
+      "ticket": "2074996"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2074999",
+      "ticket": "2074999"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075005",
+      "ticket": "2075005"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075006",
+      "ticket": "2075006"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075691",
+      "ticket": "2075691"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075693",
+      "ticket": "2075693"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075694",
+      "ticket": "2075694"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075695",
+      "ticket": "2075695"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075697",
+      "ticket": "2075697"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075700",
+      "ticket": "2075700"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2076145",
+      "ticket": "2076145"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082644",
+      "ticket": "2082644"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092354",
+      "ticket": "2092354"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092360",
+      "ticket": "2092360"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104425",
+      "ticket": "2104425"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104431",
+      "ticket": "2104431"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104434",
+      "ticket": "2104434"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2106008",
+      "ticket": "2106008"
+    }
+  ],
+  "name": "RLSA-2022:6443",
+  "publishedAt": "2022-09-13T07:36:42Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "galera-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "galera-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.src.rpm",
+        "galera-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "galera-debuginfo-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "galera-debuginfo-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "galera-debugsource-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "galera-debugsource-0:25.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "Judy-0:1.0.5-18.module+el8.4.0+427+adf35707.aarch64.rpm",
+        "Judy-0:1.0.5-18.module+el8.4.0+427+adf35707.src.rpm",
+        "Judy-0:1.0.5-18.module+el8.4.0+427+adf35707.x86_64.rpm",
+        "Judy-debuginfo-0:1.0.5-18.module+el8.4.0+427+adf35707.aarch64.rpm",
+        "Judy-debuginfo-0:1.0.5-18.module+el8.4.0+427+adf35707.x86_64.rpm",
+        "Judy-debugsource-0:1.0.5-18.module+el8.4.0+427+adf35707.aarch64.rpm",
+        "Judy-debugsource-0:1.0.5-18.module+el8.4.0+427+adf35707.x86_64.rpm",
+        "mariadb-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.src.rpm",
+        "mariadb-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-backup-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-backup-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-backup-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-backup-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-common-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-common-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-debugsource-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-debugsource-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-devel-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-devel-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-embedded-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-embedded-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-embedded-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-embedded-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-embedded-devel-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-embedded-devel-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-errmsg-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-errmsg-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-gssapi-server-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-gssapi-server-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-gssapi-server-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-gssapi-server-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-oqgraph-engine-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-oqgraph-engine-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-oqgraph-engine-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-oqgraph-engine-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-server-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-server-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-server-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-server-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-server-galera-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-server-galera-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-server-utils-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-server-utils-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-server-utils-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-server-utils-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-test-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-test-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm",
+        "mariadb-test-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.aarch64.rpm",
+        "mariadb-test-debuginfo-3:10.3.35-1.module+el8.6.0+1005+cdf19c22.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: mariadb:10.3 security and bug fix update",
+  "topic": "An update is available for Judy, mariadb, galera.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

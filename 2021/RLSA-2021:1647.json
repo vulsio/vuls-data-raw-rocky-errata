@@ -1,0 +1,232 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "4.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-266",
+      "name": "CVE-2020-14318",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14318"
+    },
+    {
+      "cvss3BaseScore": "5.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-170",
+      "name": "CVE-2020-14323",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14323"
+    },
+    {
+      "cvss3BaseScore": "9.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-287",
+      "name": "CVE-2020-1472",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1472"
+    }
+  ],
+  "description": "Samba is an open-source implementation of the Server Message Block (SMB) protocol and the related Common Internet File System (CIFS) protocol, which allow PC-compatible machines to share files, printers, and various information.\n\nThe following packages have been upgraded to a later upstream version: samba (4.13.3). (BZ#1878109)\n\nSecurity Fix(es):\n\n* samba: Netlogon elevation of privilege vulnerability (Zerologon) (CVE-2020-1472)\n\n* samba: Missing handle permissions check in SMB1/2/3 ChangeNotify (CVE-2020-14318)\n\n* samba: Unprivileged user can crash winbind (CVE-2020-14323)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1818038",
+      "ticket": "1818038"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1869702",
+      "ticket": "1869702"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1872833",
+      "ticket": "1872833"
+    },
+    {
+      "description": "The following packages have been upgraded to a later upstream version: samba (4.13.3).",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1878109",
+      "ticket": "1878109"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1879822",
+      "ticket": "1879822"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888990",
+      "ticket": "1888990"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1891685",
+      "ticket": "1891685"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1892631",
+      "ticket": "1892631"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1896736",
+      "ticket": "1896736"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1898866",
+      "ticket": "1898866"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1902198",
+      "ticket": "1902198"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1904174",
+      "ticket": "1904174"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1924571",
+      "ticket": "1924571"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1924615",
+      "ticket": "1924615"
+    }
+  ],
+  "name": "RLSA-2021:1647",
+  "publishedAt": "2021-05-18T05:44:25Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "ctdb-0:4.13.3-3.el8.aarch64.rpm",
+        "ctdb-0:4.13.3-3.el8.x86_64.rpm",
+        "ctdb-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "ctdb-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "ctdb-tests-0:4.13.3-3.el8.aarch64.rpm",
+        "ctdb-tests-0:4.13.3-3.el8.x86_64.rpm",
+        "ctdb-tests-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "ctdb-tests-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "libsmbclient-0:4.13.3-3.el8.aarch64.rpm",
+        "libsmbclient-0:4.13.3-3.el8.i686.rpm",
+        "libsmbclient-0:4.13.3-3.el8.x86_64.rpm",
+        "libsmbclient-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "libsmbclient-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "libsmbclient-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "libsmbclient-devel-0:4.13.3-3.el8.aarch64.rpm",
+        "libsmbclient-devel-0:4.13.3-3.el8.i686.rpm",
+        "libsmbclient-devel-0:4.13.3-3.el8.x86_64.rpm",
+        "libwbclient-0:4.13.3-3.el8.aarch64.rpm",
+        "libwbclient-0:4.13.3-3.el8.i686.rpm",
+        "libwbclient-0:4.13.3-3.el8.x86_64.rpm",
+        "libwbclient-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "libwbclient-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "libwbclient-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "libwbclient-devel-0:4.13.3-3.el8.aarch64.rpm",
+        "libwbclient-devel-0:4.13.3-3.el8.i686.rpm",
+        "libwbclient-devel-0:4.13.3-3.el8.x86_64.rpm",
+        "openchange-0:2.3-27.el8.aarch64.rpm",
+        "openchange-0:2.3-27.el8.i686.rpm",
+        "openchange-0:2.3-27.el8.src.rpm",
+        "openchange-0:2.3-27.el8.x86_64.rpm",
+        "openchange-debuginfo-0:2.3-27.el8.aarch64.rpm",
+        "openchange-debuginfo-0:2.3-27.el8.i686.rpm",
+        "openchange-debuginfo-0:2.3-27.el8.x86_64.rpm",
+        "openchange-debugsource-0:2.3-27.el8.aarch64.rpm",
+        "openchange-debugsource-0:2.3-27.el8.i686.rpm",
+        "openchange-debugsource-0:2.3-27.el8.x86_64.rpm",
+        "python3-samba-0:4.13.3-3.el8.aarch64.rpm",
+        "python3-samba-0:4.13.3-3.el8.i686.rpm",
+        "python3-samba-0:4.13.3-3.el8.x86_64.rpm",
+        "python3-samba-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "python3-samba-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "python3-samba-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "python3-samba-test-0:4.13.3-3.el8.aarch64.rpm",
+        "python3-samba-test-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-0:4.13.3-3.el8.src.rpm",
+        "samba-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-client-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-client-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-client-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-client-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-client-libs-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-client-libs-0:4.13.3-3.el8.i686.rpm",
+        "samba-client-libs-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-client-libs-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-client-libs-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "samba-client-libs-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-common-0:4.13.3-3.el8.noarch.rpm",
+        "samba-common-libs-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-common-libs-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-common-libs-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-common-libs-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-common-tools-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-common-tools-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-common-tools-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-common-tools-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "samba-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-debugsource-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-debugsource-0:4.13.3-3.el8.i686.rpm",
+        "samba-debugsource-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-devel-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-devel-0:4.13.3-3.el8.i686.rpm",
+        "samba-devel-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-krb5-printing-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-krb5-printing-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-krb5-printing-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-krb5-printing-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-libs-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-libs-0:4.13.3-3.el8.i686.rpm",
+        "samba-libs-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-libs-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-libs-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "samba-libs-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-pidl-0:4.13.3-3.el8.noarch.rpm",
+        "samba-test-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-test-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-test-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-test-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-test-libs-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-test-libs-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-test-libs-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-test-libs-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-clients-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-clients-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-clients-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-clients-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-krb5-locator-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-krb5-locator-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-krb5-locator-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-krb5-locator-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-modules-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-modules-0:4.13.3-3.el8.i686.rpm",
+        "samba-winbind-modules-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winbind-modules-debuginfo-0:4.13.3-3.el8.aarch64.rpm",
+        "samba-winbind-modules-debuginfo-0:4.13.3-3.el8.i686.rpm",
+        "samba-winbind-modules-debuginfo-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winexe-0:4.13.3-3.el8.x86_64.rpm",
+        "samba-winexe-debuginfo-0:4.13.3-3.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: samba security, bug fix, and enhancement update",
+  "topic": "An update is available for samba, openchange.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

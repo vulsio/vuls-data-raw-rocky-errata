@@ -1,0 +1,52 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-327",
+      "name": "CVE-2023-37464",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37464"
+    }
+  ],
+  "description": "The mod_auth_openidc is an OpenID Connect authentication module for Apache HTTP Server. It enables an Apache HTTP Server to operate as an OpenID Connect Relying Party and/or OAuth 2.0 Resource Server. \n\nSecurity Fix(es):\n\n* cjose: AES GCM decryption uses the Tag length from the actual Authentication Tag provided in the JWE (CVE-2023-37464)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2223295",
+      "ticket": "2223295"
+    }
+  ],
+  "name": "RLSA-2023:4418",
+  "publishedAt": "2023-08-08T12:34:39.911838Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "cjose-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.aarch64.rpm",
+        "cjose-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.src.rpm",
+        "cjose-debuginfo-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.aarch64.rpm",
+        "cjose-debugsource-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.aarch64.rpm",
+        "cjose-devel-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.aarch64.rpm",
+        "mod_auth_openidc-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.aarch64.rpm",
+        "mod_auth_openidc-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.src.rpm",
+        "mod_auth_openidc-debuginfo-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.aarch64.rpm",
+        "mod_auth_openidc-debugsource-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.aarch64.rpm",
+        "cjose-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.x86_64.rpm",
+        "cjose-debuginfo-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.x86_64.rpm",
+        "cjose-debugsource-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.x86_64.rpm",
+        "cjose-devel-0:0.6.1-3.module+el8.8.0+1406+4a7f5371.x86_64.rpm",
+        "mod_auth_openidc-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.x86_64.rpm",
+        "mod_auth_openidc-debuginfo-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.x86_64.rpm",
+        "mod_auth_openidc-debugsource-0:2.4.9.4-1.module+el8.7.0+1061+55d14382.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: mod_auth_openidc:2.3 security update",
+  "topic": "An update is available for module.mod_auth_openidc, cjose, module.cjose, mod_auth_openidc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

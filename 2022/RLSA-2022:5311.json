@@ -1,0 +1,52 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.9",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2021-40528",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40528"
+    }
+  ],
+  "description": "The libgcrypt library provides general-purpose implementations of various cryptographic algorithms.\n\nSecurity Fix(es):\n\n* libgcrypt: ElGamal implementation allows plaintext recovery (CVE-2021-40528)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2002816",
+      "ticket": "2002816"
+    }
+  ],
+  "name": "RLSA-2022:5311",
+  "publishedAt": "2022-06-28T10:51:57Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libgcrypt-0:1.8.5-7.el8_6.aarch64.rpm",
+        "libgcrypt-0:1.8.5-7.el8_6.i686.rpm",
+        "libgcrypt-0:1.8.5-7.el8_6.src.rpm",
+        "libgcrypt-0:1.8.5-7.el8_6.x86_64.rpm",
+        "libgcrypt-debuginfo-0:1.8.5-7.el8_6.aarch64.rpm",
+        "libgcrypt-debuginfo-0:1.8.5-7.el8_6.i686.rpm",
+        "libgcrypt-debuginfo-0:1.8.5-7.el8_6.x86_64.rpm",
+        "libgcrypt-debugsource-0:1.8.5-7.el8_6.aarch64.rpm",
+        "libgcrypt-debugsource-0:1.8.5-7.el8_6.i686.rpm",
+        "libgcrypt-debugsource-0:1.8.5-7.el8_6.x86_64.rpm",
+        "libgcrypt-devel-0:1.8.5-7.el8_6.aarch64.rpm",
+        "libgcrypt-devel-0:1.8.5-7.el8_6.i686.rpm",
+        "libgcrypt-devel-0:1.8.5-7.el8_6.x86_64.rpm",
+        "libgcrypt-devel-debuginfo-0:1.8.5-7.el8_6.aarch64.rpm",
+        "libgcrypt-devel-debuginfo-0:1.8.5-7.el8_6.i686.rpm",
+        "libgcrypt-devel-debuginfo-0:1.8.5-7.el8_6.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libgcrypt security update",
+  "topic": "An update is available for libgcrypt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

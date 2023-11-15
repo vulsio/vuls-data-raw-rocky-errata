@@ -1,0 +1,66 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-27535",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27535"
+    }
+  ],
+  "description": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.\n\nSecurity Fix(es):\n\n* curl: FTP too eager connection reuse (CVE-2023-27535)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Cannot upload files to Jscape SFTP server: file gets created empty (BZ#2188029)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2179073",
+      "ticket": "2179073"
+    },
+    {
+      "description": "* Cannot upload files to Jscape SFTP server: file gets created empty",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2188029",
+      "ticket": "2188029"
+    }
+  ],
+  "name": "RLSA-2023:3106",
+  "publishedAt": "2023-05-18T19:18:14.459089Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "curl-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "curl-0:7.61.1-30.el8_8.2.src.rpm",
+        "curl-debuginfo-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "curl-debugsource-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "libcurl-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "libcurl-debuginfo-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "libcurl-devel-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "libcurl-minimal-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "libcurl-minimal-debuginfo-0:7.61.1-30.el8_8.2.aarch64.rpm",
+        "curl-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "curl-debuginfo-0:7.61.1-30.el8_8.2.i686.rpm",
+        "curl-debuginfo-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "curl-debugsource-0:7.61.1-30.el8_8.2.i686.rpm",
+        "curl-debugsource-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "libcurl-0:7.61.1-30.el8_8.2.i686.rpm",
+        "libcurl-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "libcurl-debuginfo-0:7.61.1-30.el8_8.2.i686.rpm",
+        "libcurl-debuginfo-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "libcurl-devel-0:7.61.1-30.el8_8.2.i686.rpm",
+        "libcurl-devel-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "libcurl-minimal-0:7.61.1-30.el8_8.2.i686.rpm",
+        "libcurl-minimal-0:7.61.1-30.el8_8.2.x86_64.rpm",
+        "libcurl-minimal-debuginfo-0:7.61.1-30.el8_8.2.i686.rpm",
+        "libcurl-minimal-debuginfo-0:7.61.1-30.el8_8.2.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: curl security and bug fix update",
+  "topic": "An update is available for curl.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,65 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "4.3",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:N",
+      "cwe": "CWE-79",
+      "name": "CVE-2019-13345",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-13345"
+    }
+  ],
+  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: XSS via user_name or auth parameter in cachemgr.cgi (CVE-2019-13345)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.1 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1679526",
+      "ticket": "1679526"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1683527",
+      "ticket": "1683527"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1703117",
+      "ticket": "1703117"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1717046",
+      "ticket": "1717046"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1727744",
+      "ticket": "1727744"
+    }
+  ],
+  "name": "RLSA-2019:3476",
+  "publishedAt": "2019-11-05T17:50:00Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.src.rpm",
+        "libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: squid:4 security and bug fix update",
+  "topic": "An update is available for libecap.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

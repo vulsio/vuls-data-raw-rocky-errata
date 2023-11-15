@@ -1,0 +1,63 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "4.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2021-42096",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42096"
+    },
+    {
+      "cvss3BaseScore": "8.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-352",
+      "name": "CVE-2021-42097",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42097"
+    }
+  ],
+  "description": "Mailman is a program used to help manage e-mail discussion lists.\n\nSecurity Fix(es):\n\n* mailman: CSRF token bypass allows to perform CSRF attacks and account takeover (CVE-2021-42097)\n\n* mailman: CSRF token derived from admin password allows offline brute-force attack (CVE-2021-42096)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2020568",
+      "ticket": "2020568"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2020575",
+      "ticket": "2020575"
+    }
+  ],
+  "name": "RLSA-2021:4826",
+  "publishedAt": "2021-11-23T20:17:35Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "mailman-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.aarch64.rpm",
+        "mailman-3:2.1.29-12.module+el8.5.0+703+19300c10.aarch64.rpm",
+        "mailman-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.src.rpm",
+        "mailman-3:2.1.29-12.module+el8.5.0+703+19300c10.src.rpm",
+        "mailman-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.x86_64.rpm",
+        "mailman-3:2.1.29-12.module+el8.5.0+703+19300c10.x86_64.rpm",
+        "mailman-debuginfo-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.aarch64.rpm",
+        "mailman-debuginfo-3:2.1.29-12.module+el8.5.0+703+19300c10.aarch64.rpm",
+        "mailman-debuginfo-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.x86_64.rpm",
+        "mailman-debuginfo-3:2.1.29-12.module+el8.5.0+703+19300c10.x86_64.rpm",
+        "mailman-debugsource-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.aarch64.rpm",
+        "mailman-debugsource-3:2.1.29-12.module+el8.5.0+703+19300c10.aarch64.rpm",
+        "mailman-debugsource-3:2.1.29-12.module+el8.5.0+717+27fd1ba7.2.x86_64.rpm",
+        "mailman-debugsource-3:2.1.29-12.module+el8.5.0+703+19300c10.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: mailman:2.1 security update",
+  "topic": "An update is available for mailman.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

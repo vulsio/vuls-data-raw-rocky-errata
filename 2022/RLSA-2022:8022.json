@@ -1,0 +1,46 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-427",
+      "name": "CVE-2022-25255",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25255"
+    }
+  ],
+  "description": "The Qt5 libraries packages provide Qt 5, version 5 of the Qt cross-platform application framework.\n\nSecurity Fix(es):\n\n* qt: QProcess could execute a binary from the current working directory when not found in the PATH (CVE-2022-25255)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2055505",
+      "ticket": "2055505"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061352",
+      "ticket": "2061352"
+    }
+  ],
+  "name": "RLSA-2022:8022",
+  "publishedAt": "2022-11-15T06:13:53Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "qt5-0:5.15.3-1.el9.noarch.rpm",
+        "qt5-0:5.15.3-1.el9.src.rpm",
+        "qt5-devel-0:5.15.3-1.el9.noarch.rpm",
+        "qt5-rpm-macros-0:5.15.3-1.el9.noarch.rpm",
+        "qt5-srpm-macros-0:5.15.3-1.el9.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: qt5 security and bug fix update",
+  "topic": "An update is available for qt5.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

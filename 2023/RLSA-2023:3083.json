@@ -1,0 +1,72 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-41724",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41724"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-41725",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41725"
+    }
+  ],
+  "description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: crypto/tls: large handshake records may cause panics (CVE-2022-41724)\n\n* golang: net/http, mime/multipart: denial of service from excessive resource consumption (CVE-2022-41725)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Backport fix for https://github.com/golang/go/issues/56891 (BZ#2167412)\n\n* Update Go to 1.19.6 (BZ#2174430)",
+  "fixes": [
+    {
+      "description": "* Backport fix for https://github.com/golang/go/issues/56891",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2167412",
+      "ticket": "2167412"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2178488",
+      "ticket": "2178488"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2178492",
+      "ticket": "2178492"
+    }
+  ],
+  "name": "RLSA-2023:3083",
+  "publishedAt": "2023-05-18T19:17:56.497129Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "delve-0:1.9.1-1.module+el8.8.0+1263+19d1a562.src.rpm",
+        "delve-0:1.9.1-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "delve-debuginfo-0:1.9.1-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "delve-debugsource-0:1.9.1-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "golang-0:1.19.6-1.module+el8.8.0+1263+19d1a562.aarch64.rpm",
+        "golang-0:1.19.6-1.module+el8.8.0+1263+19d1a562.src.rpm",
+        "golang-0:1.19.6-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "golang-bin-0:1.19.6-1.module+el8.8.0+1263+19d1a562.aarch64.rpm",
+        "golang-bin-0:1.19.6-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "golang-docs-0:1.19.6-1.module+el8.8.0+1263+19d1a562.noarch.rpm",
+        "golang-misc-0:1.19.6-1.module+el8.8.0+1263+19d1a562.noarch.rpm",
+        "golang-race-0:1.19.6-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "golang-src-0:1.19.6-1.module+el8.8.0+1263+19d1a562.noarch.rpm",
+        "golang-tests-0:1.19.6-1.module+el8.8.0+1263+19d1a562.noarch.rpm",
+        "go-toolset-0:1.19.6-1.module+el8.8.0+1263+19d1a562.aarch64.rpm",
+        "go-toolset-0:1.19.6-1.module+el8.8.0+1263+19d1a562.src.rpm",
+        "go-toolset-0:1.19.6-1.module+el8.8.0+1263+19d1a562.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: go-toolset:Rocky Linux8 security and bug fix update",
+  "topic": "An update is available for delve, module.go-toolset, golang, module.golang, go-toolset, module.delve.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

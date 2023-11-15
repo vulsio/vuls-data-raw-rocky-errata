@@ -1,0 +1,78 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N",
+      "cwe": "CWE-459",
+      "name": "CVE-2022-21123",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21123"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-459",
+      "name": "CVE-2022-21125",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21125"
+    },
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-459",
+      "name": "CVE-2022-21166",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21166"
+    }
+  ],
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* Incomplete cleanup of multi-core shared buffers (aka SBDR) (CVE-2022-21123)\n\n* Incomplete cleanup of microarchitectural fill buffers (aka SBDS) (CVE-2022-21125)\n\n* Incomplete cleanup in specific special register write operations (aka DRPW) (CVE-2022-21166)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* The latest Rocky Linux 8.6.z3 kernel changes need to be merged into the RT source tree to keep source parity between the two kernels. (BZ#2111112)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2090237",
+      "ticket": "2090237"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2090240",
+      "ticket": "2090240"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2090241",
+      "ticket": "2090241"
+    }
+  ],
+  "name": "RLSA-2022:6437",
+  "publishedAt": "2022-09-13T07:36:33Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "kernel-rt-0:4.18.0-372.26.1.rt7.183.el8_6.src.rpm",
+        "kernel-rt-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-core-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-core-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-debuginfo-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-devel-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debuginfo-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debuginfo-common-x86_64-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-kvm-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-modules-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-debug-modules-extra-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-devel-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-kvm-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-modules-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm",
+        "kernel-rt-modules-extra-0:4.18.0-372.26.1.rt7.183.el8_6.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: kernel-rt security and bug fix update",
+  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

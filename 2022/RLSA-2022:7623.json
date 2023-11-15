@@ -1,0 +1,61 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+      "cwe": "CWE-284",
+      "name": "CVE-2022-30550",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30550"
+    }
+  ],
+  "description": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: Privilege escalation when similar master and non-master passdbs are used (CVE-2022-30550)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105070",
+      "ticket": "2105070"
+    }
+  ],
+  "name": "RLSA-2022:7623",
+  "publishedAt": "2022-11-08T06:24:56Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "dovecot-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-1:2.3.16-3.el8.i686.rpm",
+        "dovecot-1:2.3.16-3.el8.src.rpm",
+        "dovecot-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-debuginfo-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-debuginfo-1:2.3.16-3.el8.i686.rpm",
+        "dovecot-debuginfo-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-debugsource-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-debugsource-1:2.3.16-3.el8.i686.rpm",
+        "dovecot-debugsource-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-devel-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-devel-1:2.3.16-3.el8.i686.rpm",
+        "dovecot-devel-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-mysql-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-mysql-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-mysql-debuginfo-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-mysql-debuginfo-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-pgsql-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-pgsql-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-pgsql-debuginfo-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-pgsql-debuginfo-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-pigeonhole-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-pigeonhole-1:2.3.16-3.el8.x86_64.rpm",
+        "dovecot-pigeonhole-debuginfo-1:2.3.16-3.el8.aarch64.rpm",
+        "dovecot-pigeonhole-debuginfo-1:2.3.16-3.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: dovecot security update",
+  "topic": "An update is available for dovecot.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

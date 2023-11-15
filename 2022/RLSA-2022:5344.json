@@ -1,0 +1,65 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:H",
+      "cwe": "CWE-125",
+      "name": "CVE-2020-28915",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28915"
+    },
+    {
+      "cvss3BaseScore": "7.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-122",
+      "name": "CVE-2022-27666",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27666"
+    }
+  ],
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: buffer overflow in IPsec ESP transformation code (CVE-2022-27666)\n\n* kernel: out-of-bounds read in fbcon_get_font function (CVE-2020-28915)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the latest Rocky Linux-8.6.z0 Batch (BZ#2081704)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1899177",
+      "ticket": "1899177"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061633",
+      "ticket": "2061633"
+    }
+  ],
+  "name": "RLSA-2022:5344",
+  "publishedAt": "2022-06-28T10:55:48Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "kernel-rt-0:4.18.0-372.13.1.rt7.170.el8_6.src.rpm",
+        "kernel-rt-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-core-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-core-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-debuginfo-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-devel-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debuginfo-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debuginfo-common-x86_64-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-kvm-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-modules-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-debug-modules-extra-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-devel-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-kvm-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-modules-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm",
+        "kernel-rt-modules-extra-0:4.18.0-372.13.1.rt7.170.el8_6.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: kernel-rt security and bug fix update",
+  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

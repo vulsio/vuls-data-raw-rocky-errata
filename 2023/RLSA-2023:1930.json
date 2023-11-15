@@ -1,0 +1,57 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-28617",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28617"
+    }
+  ],
+  "description": "GNU Emacs is a powerful, customizable, self-documenting text editor. It provides special code editing features, a scripting language (elisp), and the capability to read e-mail and news.\n\nSecurity Fix(es):\n\n* emacs: command injection vulnerability in org-mode (CVE-2023-28617)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2180544",
+      "ticket": "2180544"
+    }
+  ],
+  "name": "RLSA-2023:1930",
+  "publishedAt": "2023-04-26T15:28:03.592590Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "emacs-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-1:26.1-7.el8_7.1.src.rpm",
+        "emacs-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-common-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-common-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-common-debuginfo-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-common-debuginfo-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-debuginfo-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-debuginfo-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-debugsource-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-debugsource-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-filesystem-1:26.1-7.el8_7.1.noarch.rpm",
+        "emacs-lucid-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-lucid-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-lucid-debuginfo-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-lucid-debuginfo-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-nox-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-nox-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-nox-debuginfo-1:26.1-7.el8_7.1.aarch64.rpm",
+        "emacs-nox-debuginfo-1:26.1-7.el8_7.1.x86_64.rpm",
+        "emacs-terminal-1:26.1-7.el8_7.1.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: emacs security update",
+  "topic": "An update is available for emacs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

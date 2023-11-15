@@ -1,0 +1,134 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "10.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "cwe": "CWE-732",
+      "name": "CVE-2021-38503",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38503"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2021-38504",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38504"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-1021",
+      "name": "CVE-2021-38506",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38506"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-829",
+      "name": "CVE-2021-38507",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38507"
+    },
+    {
+      "cvss3BaseScore": "6.1",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cwe": "CWE-1021",
+      "name": "CVE-2021-38508",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38508"
+    },
+    {
+      "cvss3BaseScore": "6.1",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cwe": "CWE-1021",
+      "name": "CVE-2021-38509",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38509"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2021-43534",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43534"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2021-43535",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43535"
+    }
+  ],
+  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 91.3.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Use-after-free in HTTP2 Session object\n\n* Mozilla: Memory safety bugs fixed in Firefox 94 and Firefox ESR 91.3\n\n* Mozilla: iframe sandbox rules did not apply to XSLT stylesheets (CVE-2021-38503)\n\n* Mozilla: Use-after-free in file picker dialog (CVE-2021-38504)\n\n* Mozilla: Firefox could be coaxed into going into fullscreen mode without notification or warning (CVE-2021-38506)\n\n* Mozilla: Opportunistic Encryption in HTTP2 could be used to bypass the Same-Origin-Policy on services hosted on other ports (CVE-2021-38507)\n\n* Mozilla: Permission Prompt could be overlaid, resulting in user confusion and potential spoofing (CVE-2021-38508)\n\n* Mozilla: Javascript alert box could have been spoofed onto an arbitrary domain (CVE-2021-38509)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019621",
+      "ticket": "2019621"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019622",
+      "ticket": "2019622"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019624",
+      "ticket": "2019624"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019625",
+      "ticket": "2019625"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019626",
+      "ticket": "2019626"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019627",
+      "ticket": "2019627"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019628",
+      "ticket": "2019628"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2019630",
+      "ticket": "2019630"
+    }
+  ],
+  "name": "RLSA-2021:4123",
+  "publishedAt": "2021-11-03T19:23:08Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "firefox-0:91.3.0-1.el8.aarch64.rpm",
+        "firefox-0:91.3.0-1.el8.src.rpm",
+        "firefox-0:91.3.0-1.el8.x86_64.rpm",
+        "firefox-debuginfo-0:91.3.0-1.el8.aarch64.rpm",
+        "firefox-debuginfo-0:91.3.0-1.el8.x86_64.rpm",
+        "firefox-debugsource-0:91.3.0-1.el8.aarch64.rpm",
+        "firefox-debugsource-0:91.3.0-1.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: firefox security update",
+  "topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

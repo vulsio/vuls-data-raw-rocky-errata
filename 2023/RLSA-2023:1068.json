@@ -1,0 +1,77 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2021-46822",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46822"
+    }
+  ],
+  "description": "The libjpeg-turbo packages contain a library of functions for manipulating JPEG images. They also contain simple client programs for accessing the libjpeg functions. These packages provide the same functionality and API as libjpeg but with better performance.\n\nSecurity Fix(es):\n\n* libjpeg-turbo: heap buffer overflow in get_word_rgb_row() in rdppm.c (CVE-2021-46822)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2100044",
+      "ticket": "2100044"
+    }
+  ],
+  "name": "RLSA-2023:1068",
+  "publishedAt": "2023-03-08T16:38:23.030848Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "libjpeg-turbo-0:2.0.90-6.el9_1.aarch64.rpm",
+        "libjpeg-turbo-0:2.0.90-6.el9_1.i686.rpm",
+        "libjpeg-turbo-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "libjpeg-turbo-0:2.0.90-6.el9_1.src.rpm",
+        "libjpeg-turbo-0:2.0.90-6.el9_1.x86_64.rpm",
+        "libjpeg-turbo-debuginfo-0:2.0.90-6.el9_1.aarch64.rpm",
+        "libjpeg-turbo-debuginfo-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "libjpeg-turbo-debuginfo-0:2.0.90-6.el9_1.x86_64.rpm",
+        "libjpeg-turbo-debugsource-0:2.0.90-6.el9_1.aarch64.rpm",
+        "libjpeg-turbo-debugsource-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "libjpeg-turbo-debugsource-0:2.0.90-6.el9_1.x86_64.rpm",
+        "libjpeg-turbo-devel-0:2.0.90-6.el9_1.aarch64.rpm",
+        "libjpeg-turbo-devel-0:2.0.90-6.el9_1.i686.rpm",
+        "libjpeg-turbo-devel-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "libjpeg-turbo-devel-0:2.0.90-6.el9_1.x86_64.rpm",
+        "libjpeg-turbo-utils-0:2.0.90-6.el9_1.aarch64.rpm",
+        "libjpeg-turbo-utils-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "libjpeg-turbo-utils-0:2.0.90-6.el9_1.x86_64.rpm",
+        "libjpeg-turbo-utils-debuginfo-0:2.0.90-6.el9_1.aarch64.rpm",
+        "libjpeg-turbo-utils-debuginfo-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "libjpeg-turbo-utils-debuginfo-0:2.0.90-6.el9_1.x86_64.rpm",
+        "turbojpeg-0:2.0.90-6.el9_1.aarch64.rpm",
+        "turbojpeg-0:2.0.90-6.el9_1.i686.rpm",
+        "turbojpeg-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "turbojpeg-0:2.0.90-6.el9_1.x86_64.rpm",
+        "turbojpeg-debuginfo-0:2.0.90-6.el9_1.aarch64.rpm",
+        "turbojpeg-debuginfo-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "turbojpeg-debuginfo-0:2.0.90-6.el9_1.x86_64.rpm",
+        "turbojpeg-devel-0:2.0.90-6.el9_1.aarch64.rpm",
+        "turbojpeg-devel-0:2.0.90-6.el9_1.i686.rpm",
+        "turbojpeg-devel-0:2.0.90-6.el9_1.ppc64le.rpm",
+        "turbojpeg-devel-0:2.0.90-6.el9_1.x86_64.rpm",
+        "libjpeg-turbo-0:2.0.90-6.el9_1.s390x.rpm",
+        "libjpeg-turbo-debuginfo-0:2.0.90-6.el9_1.s390x.rpm",
+        "libjpeg-turbo-debugsource-0:2.0.90-6.el9_1.s390x.rpm",
+        "libjpeg-turbo-devel-0:2.0.90-6.el9_1.s390x.rpm",
+        "libjpeg-turbo-utils-0:2.0.90-6.el9_1.s390x.rpm",
+        "libjpeg-turbo-utils-debuginfo-0:2.0.90-6.el9_1.s390x.rpm",
+        "turbojpeg-0:2.0.90-6.el9_1.s390x.rpm",
+        "turbojpeg-debuginfo-0:2.0.90-6.el9_1.s390x.rpm",
+        "turbojpeg-devel-0:2.0.90-6.el9_1.s390x.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: libjpeg-turbo security update",
+  "topic": "An update is available for libjpeg-turbo.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,67 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-36799",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36799"
+    }
+  ],
+  "description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.124 and .NET Runtime 6.0.24.\n\nSecurity Fix(es):\n\n* dotnet: Denial of Service with Client Certificates using .NET Kestrel (CVE-2023-36799)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2237317",
+      "ticket": "2237317"
+    }
+  ],
+  "name": "RLSA-2023:6245",
+  "publishedAt": "2023-11-11T22:59:08.669026Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "aspnetcore-runtime-6.0-0:6.0.24-1.el8_8.aarch64.rpm",
+        "aspnetcore-runtime-6.0-0:6.0.24-1.el8_8.x86_64.rpm",
+        "aspnetcore-targeting-pack-6.0-0:6.0.24-1.el8_8.aarch64.rpm",
+        "aspnetcore-targeting-pack-6.0-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet6.0-0:6.0.124-1.el8_8.src.rpm",
+        "dotnet6.0-debuginfo-0:6.0.124-1.el8_8.aarch64.rpm",
+        "dotnet6.0-debuginfo-0:6.0.124-1.el8_8.x86_64.rpm",
+        "dotnet6.0-debugsource-0:6.0.124-1.el8_8.aarch64.rpm",
+        "dotnet6.0-debugsource-0:6.0.124-1.el8_8.x86_64.rpm",
+        "dotnet-apphost-pack-6.0-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-apphost-pack-6.0-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-apphost-pack-6.0-debuginfo-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-apphost-pack-6.0-debuginfo-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-hostfxr-6.0-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-hostfxr-6.0-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-hostfxr-6.0-debuginfo-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-hostfxr-6.0-debuginfo-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-runtime-6.0-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-runtime-6.0-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-runtime-6.0-debuginfo-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-runtime-6.0-debuginfo-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-sdk-6.0-0:6.0.124-1.el8_8.aarch64.rpm",
+        "dotnet-sdk-6.0-0:6.0.124-1.el8_8.x86_64.rpm",
+        "dotnet-sdk-6.0-debuginfo-0:6.0.124-1.el8_8.aarch64.rpm",
+        "dotnet-sdk-6.0-debuginfo-0:6.0.124-1.el8_8.x86_64.rpm",
+        "dotnet-sdk-6.0-source-built-artifacts-0:6.0.124-1.el8_8.aarch64.rpm",
+        "dotnet-sdk-6.0-source-built-artifacts-0:6.0.124-1.el8_8.x86_64.rpm",
+        "dotnet-targeting-pack-6.0-0:6.0.24-1.el8_8.aarch64.rpm",
+        "dotnet-targeting-pack-6.0-0:6.0.24-1.el8_8.x86_64.rpm",
+        "dotnet-templates-6.0-0:6.0.124-1.el8_8.aarch64.rpm",
+        "dotnet-templates-6.0-0:6.0.124-1.el8_8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: .NET 6.0 security update",
+  "topic": "An update is available for dotnet6.0.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,113 @@
+{
+  "affectedProducts": [
+    "Rocky Linux SIG Cloud 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.2",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-131",
+      "name": "CVE-2022-2873",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2873"
+    },
+    {
+      "cvss3BaseScore": "7.0",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-41222",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-41222"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-770",
+      "name": "CVE-2022-43945",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43945"
+    }
+  ],
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: mm/mremap.c use-after-free vulnerability (CVE-2022-41222)\n\n* kernel: nfsd buffer overflow by RPC message over TCP with garbage data (CVE-2022-43945)\n\n* kernel: an out-of-bounds vulnerability in i2c-ismt driver (CVE-2022-2873)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* WARNING: CPU: 116 PID: 3440 at arch/x86/mm/extable.c:105 ex_handler_fprestore+0x3f/0x50 (BZ#2134586)\n\n* Hardware error: RIP: copy_user_enhanced_fast_string+0xe (BZ#2137592)\n\n* Cannot trigger kernel dump using NMI on SNO node running PAO and RT kernel (BZ#2139580)\n\n* MEI support for Alder Lake-S (BZ#2141783)\n\n* Host Pod -> Cluster IP Service traffic (Pod Backend - Different Node) Flow Iperf Cannot Connect (BZ#2141959)\n\n* Rocky Linux SIG Cloud8.7: Xorg cannot display resolution higher than 1024x768 on system using ast graphics driver (BZ#2149287)\n\n* Intel 8.7 Bug: OS doesn't boot when vmd and interrupt remapping are enabled (BZ#2149474)\n\n* i40e,iavf: SR-IOV VF devices send GARP with wrong MAC address (BZ#2149745)\n\n* Rocky Linux SIG Cloud8.4 - boot: Add secure boot trailer (BZ#2151530)\n\n* error 524 from seccomp(2) when trying to load filter (BZ#2152138)\n\n* Workqueue: WQ_MEM_RECLAIM iscsi_ctrl_1:98 __iscsi_unbind_session [scsi_transport_iscsi] (BZ#2152734)\n\n* Connectivity issue with vDPA driver (BZ#2152912)\n\n* High Load average due to cfs cpu throttling (BZ#2153108)\n\n* The \"kernel BUG at mm/usercopy.c:103!\" from BZ 2041529 is back on rhel-8.5 (BZ#2153230)\n\n* Rocky Linux SIG Cloud8: tick storm on nohz (isolated) CPU cores (BZ#2153653)\n\n* kernel BUG: scheduling while atomic: crio/7295/0x00000002 (BZ#2154460)\n\n* Azure Rocky Linux SIG Cloud 8 z-stream: Sometimes newly deployed VMs are not getting accelerated network during provisioning (BZ#2155272)\n\n* Azure: VM Deployment Failures Patch Request (BZ#2155280)\n\n* Azure vPCI Rocky Linux SIG Cloud-8: add the support of multi-MSI (BZ#2155289)\n\n* MSFT MANA NET Patch Rocky Linux SIG Cloud-8: Fix race on per-CQ variable napi_iperf panic fix (BZ#2155437)\n\n* GSS: OCP 4.10.30 node crash after ODF upgrade : unable to handle kernel NULL pointer dereference at 0000000000000000 : ceph_get_snap_realm+0x68/0xa0 [ceph] (BZ#2155797)\n\n* Error in /usr/src/kernels/4.18.0-423.el8.x86_64/scripts/kernel-doc script causing irdma build to fail (BZ#2157905)\n\n* Rocky Linux SIG Cloud8.8: Backport upstream patches to reduce memory cgroup memory consumption and OOM problem (BZ#2157922)\n\n* The 'date' command shows wrong time in nested KVM s390x guest (BZ#2158813)\n\n* ethtool -m results in an out-of-bounds slab write in the be2net driver (BZ#2160182)\n\n* (Redhat OpenShift)Error downloading big ZIP files inside pod on power OCP and pod getting restarted (BZ#2160221)\n\n* i40e/iavf: VF reset task fails \"Never saw reset\" with 5 second timeout per VF (BZ#2160460)\n\n* iavf: It takes long time to create multiple VF interfaces and the VF interface names are not consistent (BZ#2163257)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2119048",
+      "ticket": "2119048"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2138818",
+      "ticket": "2138818"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2141752",
+      "ticket": "2141752"
+    }
+  ],
+  "name": "RXSA-2023:0832",
+  "publishedAt": "2023-03-08T16:55:13.024897Z",
+  "rpms": {
+    "Rocky Linux SIG Cloud 8": {
+      "nvras": [
+        "bpftool-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "bpftool-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "bpftool-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "bpftool-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-0:4.18.0-425.13.1.el8_7.cloud.src.rpm",
+        "kernel-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-abi-stablelists-0:4.18.0-425.13.1.el8_7.cloud.noarch.rpm",
+        "kernel-core-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-core-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-cross-headers-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-cross-headers-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debug-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debug-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debug-core-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debug-core-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debug-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debug-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debug-devel-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debug-devel-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debug-modules-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debug-modules-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-debug-modules-extra-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-debug-modules-extra-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-devel-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-devel-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-doc-0:4.18.0-425.13.1.el8_7.cloud.noarch.rpm",
+        "kernel-headers-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-headers-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-modules-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-modules-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-modules-extra-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-modules-extra-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-tools-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-tools-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-tools-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-tools-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-tools-libs-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-tools-libs-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "kernel-tools-libs-devel-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "kernel-tools-libs-devel-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "perf-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "perf-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "perf-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "perf-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "python3-perf-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "python3-perf-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm",
+        "python3-perf-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.aarch64.rpm",
+        "python3-perf-debuginfo-0:4.18.0-425.13.1.el8_7.cloud.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RX",
+  "synopsis": "Important: kernel security and bug fix update",
+  "topic": "An update is available for kernel.\nThis update affects Rocky Linux SIG Cloud 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

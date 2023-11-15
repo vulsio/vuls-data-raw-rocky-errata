@@ -1,0 +1,71 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "(CWE-179|CWE-1173)",
+      "name": "CVE-2022-1271",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1271"
+    }
+  ],
+  "description": "XZ Utils is an integrated collection of user-space file compression utilities based on the Lempel-Ziv-Markov chain algorithm (LZMA), which performs lossless data compression. The algorithm provides a high compression ratio while keeping the decompression time short.\n\nSecurity Fix(es):\n\n* gzip: arbitrary-file-write vulnerability (CVE-2022-1271)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2073310",
+      "ticket": "2073310"
+    }
+  ],
+  "name": "RLSA-2022:4940",
+  "publishedAt": "2022-06-08T08:20:11Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "xz-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-0:5.2.5-8.el9_0.src.rpm",
+        "xz-debuginfo-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-debuginfo-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-debuginfo-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-debuginfo-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-debugsource-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-debugsource-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-debugsource-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-debugsource-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-devel-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-devel-0:5.2.5-8.el9_0.i686.rpm",
+        "xz-devel-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-devel-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-devel-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-libs-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-libs-0:5.2.5-8.el9_0.i686.rpm",
+        "xz-libs-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-libs-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-libs-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-libs-debuginfo-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-libs-debuginfo-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-libs-debuginfo-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-libs-debuginfo-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-lzma-compat-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-lzma-compat-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-lzma-compat-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-lzma-compat-0:5.2.5-8.el9_0.x86_64.rpm",
+        "xz-lzma-compat-debuginfo-0:5.2.5-8.el9_0.aarch64.rpm",
+        "xz-lzma-compat-debuginfo-0:5.2.5-8.el9_0.ppc64le.rpm",
+        "xz-lzma-compat-debuginfo-0:5.2.5-8.el9_0.s390x.rpm",
+        "xz-lzma-compat-debuginfo-0:5.2.5-8.el9_0.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: xz security update",
+  "topic": "An update is available for xz.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

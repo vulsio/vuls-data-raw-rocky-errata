@@ -1,0 +1,267 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "cwe": "CWE-212",
+      "name": "CVE-2020-14370",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14370"
+    }
+  ],
+  "description": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* podman: environment variables leak between containers when started via Varlink or Docker-compatible REST API (CVE-2020-14370)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1678546",
+      "ticket": "1678546"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1701359",
+      "ticket": "1701359"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1701361",
+      "ticket": "1701361"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1843168",
+      "ticket": "1843168"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1846629",
+      "ticket": "1846629"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848150",
+      "ticket": "1848150"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1873064",
+      "ticket": "1873064"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1873204",
+      "ticket": "1873204"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1874268",
+      "ticket": "1874268"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1876576",
+      "ticket": "1876576"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1877865",
+      "ticket": "1877865"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1880987",
+      "ticket": "1880987"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1881218",
+      "ticket": "1881218"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883945",
+      "ticket": "1883945"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1884668",
+      "ticket": "1884668"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1895105",
+      "ticket": "1895105"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1897012",
+      "ticket": "1897012"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1898911",
+      "ticket": "1898911"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1902673",
+      "ticket": "1902673"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903412",
+      "ticket": "1903412"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1925928",
+      "ticket": "1925928"
+    }
+  ],
+  "name": "RLSA-2021:0531",
+  "publishedAt": "2021-02-16T07:31:27Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "crit-0:3.15-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "crit-0:3.15-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "crit-0:3.15-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "crit-0:3.15-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "crit-0:3.15-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "crit-0:3.15-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "crit-0:3.15-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "crit-0:3.15-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "criu-0:3.15-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "criu-0:3.15-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "criu-0:3.15-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "criu-0:3.15-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "criu-0:3.15-1.module+el8.7.0+1076+9b1c11c1.src.rpm",
+        "criu-0:3.15-1.module+el8.4.0+556+40122d08.src.rpm",
+        "criu-0:3.15-1.module+el8.5.0+709+440d5e7e.src.rpm",
+        "criu-0:3.15-1.module+el8.6.0+783+10209741.src.rpm",
+        "criu-0:3.15-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "criu-0:3.15-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "criu-0:3.15-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "criu-0:3.15-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "criu-debuginfo-0:3.15-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "criu-debugsource-0:3.15-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.4.0+556+40122d08.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.5.0+709+440d5e7e.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.6.0+783+10209741.src.rpm",
+        "libslirp-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-debuginfo-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-debugsource-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "libslirp-devel-0:4.3.1-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "oci-seccomp-bpf-hook-0:1.2.0-1.module+el8.4.0+558+7340b765.aarch64.rpm",
+        "oci-seccomp-bpf-hook-0:1.2.0-1.module+el8.4.0+558+7340b765.src.rpm",
+        "oci-seccomp-bpf-hook-0:1.2.0-1.module+el8.4.0+558+7340b765.x86_64.rpm",
+        "oci-seccomp-bpf-hook-debuginfo-0:1.2.0-1.module+el8.4.0+558+7340b765.aarch64.rpm",
+        "oci-seccomp-bpf-hook-debuginfo-0:1.2.0-1.module+el8.4.0+558+7340b765.x86_64.rpm",
+        "oci-seccomp-bpf-hook-debugsource-0:1.2.0-1.module+el8.4.0+558+7340b765.aarch64.rpm",
+        "oci-seccomp-bpf-hook-debugsource-0:1.2.0-1.module+el8.4.0+558+7340b765.x86_64.rpm",
+        "python3-criu-0:3.15-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "python3-criu-0:3.15-1.module+el8.4.0+556+40122d08.aarch64.rpm",
+        "python3-criu-0:3.15-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "python3-criu-0:3.15-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "python3-criu-0:3.15-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "python3-criu-0:3.15-1.module+el8.4.0+556+40122d08.x86_64.rpm",
+        "python3-criu-0:3.15-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "python3-criu-0:3.15-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+770+e2f49861.noarch.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.4.0+559+c02fa3b2.noarch.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+708+6758137d.noarch.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+770+e2f49861.src.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.4.0+559+c02fa3b2.src.rpm",
+        "python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+708+6758137d.src.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.4.0+537+38cf4e42.aarch64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.src.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.4.0+537+38cf4e42.src.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.5.0+709+440d5e7e.src.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.6.0+783+10209741.src.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.4.0+537+38cf4e42.x86_64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "slirp4netns-0:1.1.8-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.4.0+537+38cf4e42.aarch64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.4.0+537+38cf4e42.x86_64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "slirp4netns-debuginfo-0:1.1.8-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.aarch64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.4.0+537+38cf4e42.aarch64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.5.0+709+440d5e7e.aarch64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.6.0+783+10209741.aarch64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.7.0+1076+9b1c11c1.x86_64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.4.0+537+38cf4e42.x86_64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.5.0+709+440d5e7e.x86_64.rpm",
+        "slirp4netns-debugsource-0:1.1.8-1.module+el8.6.0+783+10209741.x86_64.rpm",
+        "toolbox-0:0.0.8-1.module+el8.4.0+556+40122d08.noarch.rpm",
+        "toolbox-0:0.0.8-1.module+el8.4.0+556+40122d08.src.rpm",
+        "udica-0:0.2.4-1.module+el8.7.0+1076+9b1c11c1.noarch.rpm",
+        "udica-0:0.2.4-1.module+el8.4.0+556+40122d08.noarch.rpm",
+        "udica-0:0.2.4-1.module+el8.5.0+709+440d5e7e.noarch.rpm",
+        "udica-0:0.2.4-1.module+el8.6.0+783+10209741.noarch.rpm",
+        "udica-0:0.2.4-1.module+el8.7.0+1076+9b1c11c1.src.rpm",
+        "udica-0:0.2.4-1.module+el8.4.0+556+40122d08.src.rpm",
+        "udica-0:0.2.4-1.module+el8.5.0+709+440d5e7e.src.rpm",
+        "udica-0:0.2.4-1.module+el8.6.0+783+10209741.src.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
+  "topic": "An update is available for udica, toolbox, python-podman-api, libslirp, oci-seccomp-bpf-hook, slirp4netns, criu.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

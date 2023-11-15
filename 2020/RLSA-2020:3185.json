@@ -1,0 +1,58 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-122",
+      "name": "CVE-2020-11538",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11538"
+    },
+    {
+      "cvss3BaseScore": "8.2",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+      "cwe": "CWE-125",
+      "name": "CVE-2020-5313",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-5313"
+    }
+  ],
+  "description": "The python-pillow packages contain a Python image processing library that provides extensive file format support, an efficient internal representation, and powerful image-processing capabilities.\n\nSecurity Fix(es):\n\n* python-pillow: out-of-bounds reads/writes in the parsing of SGI image files in expandrow/expandrow2 (CVE-2020-11538)\n\n* python-pillow: out-of-bounds read in ImagingFliDecode when loading FLI images (CVE-2020-5313)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1789532",
+      "ticket": "1789532"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1852814",
+      "ticket": "1852814"
+    }
+  ],
+  "name": "RLSA-2020:3185",
+  "publishedAt": "2020-07-28T13:17:06Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "python3-pillow-0:5.1.1-12.el8_2.aarch64.rpm",
+        "python3-pillow-0:5.1.1-12.el8_2.x86_64.rpm",
+        "python3-pillow-debuginfo-0:5.1.1-12.el8_2.aarch64.rpm",
+        "python3-pillow-debuginfo-0:5.1.1-12.el8_2.x86_64.rpm",
+        "python-pillow-0:5.1.1-12.el8_2.src.rpm",
+        "python-pillow-debuginfo-0:5.1.1-12.el8_2.aarch64.rpm",
+        "python-pillow-debuginfo-0:5.1.1-12.el8_2.x86_64.rpm",
+        "python-pillow-debugsource-0:5.1.1-12.el8_2.aarch64.rpm",
+        "python-pillow-debugsource-0:5.1.1-12.el8_2.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: python-pillow security update",
+  "topic": "An update is available for python-pillow.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

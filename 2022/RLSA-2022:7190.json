@@ -1,0 +1,141 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "4.3",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+      "cwe": "CWE-20",
+      "name": "CVE-2022-39236",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39236"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "(CWE-287|CWE-322)",
+      "name": "CVE-2022-39249",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39249"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "(CWE-287|CWE-322)",
+      "name": "CVE-2022-39250",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39250"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "(CWE-287|CWE-322)",
+      "name": "CVE-2022-39251",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-39251"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-829",
+      "name": "CVE-2022-42927",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42927"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2022-42928",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42928"
+    },
+    {
+      "cvss3BaseScore": "6.1",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cwe": "CWE-400",
+      "name": "CVE-2022-42929",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42929"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2022-42932",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42932"
+    }
+  ],
+  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.4.0.\n\nSecurity Fix(es):\n\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to an impersonation attack by malicious server administrators (CVE-2022-39249)\n\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to a device verification attack (CVE-2022-39250)\n\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to an impersonation attack (CVE-2022-39251)\n\n* Mozilla: Same-origin policy violation could have leaked cross-origin URLs (CVE-2022-42927)\n\n* Mozilla: Memory Corruption in JS Engine (CVE-2022-42928)\n\n* Mozilla: Matrix SDK bundled with Thunderbird vulnerable to a data corruption issue (CVE-2022-39236)\n\n* Mozilla: Denial of Service via window.print (CVE-2022-42929)\n\n* Mozilla: Memory safety bugs fixed in Firefox ESR 102.4 and Thunderbird 102.4 (CVE-2022-42932)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2135391",
+      "ticket": "2135391"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2135393",
+      "ticket": "2135393"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2135395",
+      "ticket": "2135395"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2135396",
+      "ticket": "2135396"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2136156",
+      "ticket": "2136156"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2136157",
+      "ticket": "2136157"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2136158",
+      "ticket": "2136158"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2136159",
+      "ticket": "2136159"
+    }
+  ],
+  "name": "RLSA-2022:7190",
+  "publishedAt": "2022-10-25T14:29:50Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "thunderbird-0:102.4.0-1.el8_6.aarch64.rpm",
+        "thunderbird-0:102.4.0-1.el8_6.src.rpm",
+        "thunderbird-0:102.4.0-1.el8_6.x86_64.rpm",
+        "thunderbird-debuginfo-0:102.4.0-1.el8_6.aarch64.rpm",
+        "thunderbird-debuginfo-0:102.4.0-1.el8_6.x86_64.rpm",
+        "thunderbird-debugsource-0:102.4.0-1.el8_6.aarch64.rpm",
+        "thunderbird-debugsource-0:102.4.0-1.el8_6.x86_64.rpm",
+        "thunderbird-0:102.4.0-1.el8_6.0.1.aarch64.rpm",
+        "thunderbird-0:102.4.0-1.el8_6.0.1.src.rpm",
+        "thunderbird-0:102.4.0-1.el8_6.0.1.x86_64.rpm",
+        "thunderbird-debuginfo-0:102.4.0-1.el8_6.0.1.aarch64.rpm",
+        "thunderbird-debuginfo-0:102.4.0-1.el8_6.0.1.x86_64.rpm",
+        "thunderbird-debugsource-0:102.4.0-1.el8_6.0.1.aarch64.rpm",
+        "thunderbird-debugsource-0:102.4.0-1.el8_6.0.1.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: thunderbird security update",
+  "topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

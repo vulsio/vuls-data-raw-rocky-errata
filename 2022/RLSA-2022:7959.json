@@ -1,0 +1,72 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "5.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2022-2211",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2211"
+    }
+  ],
+  "description": "guestfs-tools is a set of tools that can be used to make batch configuration changes to guests, get disk used/free statistics, perform backups and guest clones, change registry/UUID/hostname info, build guests from scratch, and much more.\n\nSecurity Fix(es):\n\n* libguestfs: Buffer overflow in get_keys leads to DoS (CVE-2022-2211)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2059286",
+      "ticket": "2059286"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2072493",
+      "ticket": "2072493"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075718",
+      "ticket": "2075718"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2089748",
+      "ticket": "2089748"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2100862",
+      "ticket": "2100862"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2106286",
+      "ticket": "2106286"
+    }
+  ],
+  "name": "RLSA-2022:7959",
+  "publishedAt": "2022-11-15T06:12:07Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "guestfs-tools-0:1.48.2-5.el9.aarch64.rpm",
+        "guestfs-tools-0:1.48.2-5.el9.s390x.rpm",
+        "guestfs-tools-0:1.48.2-5.el9.src.rpm",
+        "guestfs-tools-0:1.48.2-5.el9.x86_64.rpm",
+        "guestfs-tools-debuginfo-0:1.48.2-5.el9.aarch64.rpm",
+        "guestfs-tools-debuginfo-0:1.48.2-5.el9.s390x.rpm",
+        "guestfs-tools-debuginfo-0:1.48.2-5.el9.x86_64.rpm",
+        "guestfs-tools-debugsource-0:1.48.2-5.el9.aarch64.rpm",
+        "guestfs-tools-debugsource-0:1.48.2-5.el9.s390x.rpm",
+        "guestfs-tools-debugsource-0:1.48.2-5.el9.x86_64.rpm",
+        "virt-win-reg-0:1.48.2-5.el9.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_LOW",
+  "shortCode": "RL",
+  "synopsis": "Low: guestfs-tools security, bug fix, and enhancement update",
+  "topic": "An update is available for guestfs-tools.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

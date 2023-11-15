@@ -1,0 +1,251 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+      "cwe": "CWE-20",
+      "name": "CVE-2020-1695",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1695"
+    }
+  ],
+  "description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* resteasy: Improper validation of response header in MediaTypeHeaderDelegate.java class (CVE-2020-1695)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1584550",
+      "ticket": "1584550"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1590942",
+      "ticket": "1590942"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1656772",
+      "ticket": "1656772"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1664435",
+      "ticket": "1664435"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1730462",
+      "ticket": "1730462"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1787115",
+      "ticket": "1787115"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1843416",
+      "ticket": "1843416"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1868233",
+      "ticket": "1868233"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1875563",
+      "ticket": "1875563"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883656",
+      "ticket": "1883656"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883996",
+      "ticket": "1883996"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1889691",
+      "ticket": "1889691"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1890639",
+      "ticket": "1890639"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1891577",
+      "ticket": "1891577"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1897120",
+      "ticket": "1897120"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1908541",
+      "ticket": "1908541"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1912418",
+      "ticket": "1912418"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1912493",
+      "ticket": "1912493"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1916686",
+      "ticket": "1916686"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1919282",
+      "ticket": "1919282"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1929067",
+      "ticket": "1929067"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932803",
+      "ticket": "1932803"
+    }
+  ],
+  "name": "RLSA-2021:1775",
+  "publishedAt": "2021-05-18T06:04:17Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+53+ea062990.noarch.rpm",
+        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+53+ea062990.src.rpm",
+        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+74+855e3f5d.src.rpm",
+        "apache-commons-lang-0:2.6-21.module+el8.3.0+53+ea062990.noarch.rpm",
+        "apache-commons-lang-0:2.6-21.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "apache-commons-lang-0:2.6-21.module+el8.3.0+53+ea062990.src.rpm",
+        "apache-commons-lang-0:2.6-21.module+el8.3.0+74+855e3f5d.src.rpm",
+        "apache-commons-net-0:3.6-3.module+el8.3.0+53+ea062990.noarch.rpm",
+        "apache-commons-net-0:3.6-3.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "apache-commons-net-0:3.6-3.module+el8.3.0+53+ea062990.src.rpm",
+        "apache-commons-net-0:3.6-3.module+el8.3.0+74+855e3f5d.src.rpm",
+        "bea-stax-0:1.2.0-16.module+el8.3.0+53+ea062990.src.rpm",
+        "bea-stax-api-0:1.2.0-16.module+el8.3.0+53+ea062990.noarch.rpm",
+        "glassfish-fastinfoset-0:1.2.13-9.module+el8.3.0+53+ea062990.noarch.rpm",
+        "glassfish-fastinfoset-0:1.2.13-9.module+el8.3.0+53+ea062990.src.rpm",
+        "glassfish-jaxb-0:2.2.11-11.module+el8.3.0+53+ea062990.src.rpm",
+        "glassfish-jaxb-api-0:2.2.12-8.module+el8.3.0+53+ea062990.noarch.rpm",
+        "glassfish-jaxb-api-0:2.2.12-8.module+el8.3.0+53+ea062990.src.rpm",
+        "glassfish-jaxb-core-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
+        "glassfish-jaxb-runtime-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
+        "glassfish-jaxb-txw2-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-annotations-0:2.10.0-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-annotations-0:2.10.0-1.module+el8.3.0+53+ea062990.src.rpm",
+        "jackson-core-0:2.10.0-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-core-0:2.10.0-1.module+el8.3.0+53+ea062990.src.rpm",
+        "jackson-databind-0:2.10.0-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-databind-0:2.10.0-1.module+el8.3.0+53+ea062990.src.rpm",
+        "jackson-jaxrs-json-provider-0:2.9.9-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-jaxrs-providers-0:2.9.9-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-jaxrs-providers-0:2.9.9-1.module+el8.3.0+53+ea062990.src.rpm",
+        "jackson-module-jaxb-annotations-0:2.7.6-4.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jackson-module-jaxb-annotations-0:2.7.6-4.module+el8.3.0+53+ea062990.src.rpm",
+        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+53+ea062990.noarch.rpm",
+        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+53+ea062990.src.rpm",
+        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+74+855e3f5d.src.rpm",
+        "javassist-0:3.18.1-8.module+el8.3.0+53+ea062990.src.rpm",
+        "javassist-0:3.18.1-8.module+el8.3.0+53+ea062990.noarch.rpm",
+        "javassist-0:3.18.1-8.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "javassist-0:3.18.1-8.module+el8.3.0+74+855e3f5d.src.rpm",
+        "javassist-javadoc-0:3.18.1-8.module+el8.3.0+53+ea062990.noarch.rpm",
+        "javassist-javadoc-0:3.18.1-8.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+        "jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.src.rpm",
+        "jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+        "jss-debuginfo-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+        "jss-debuginfo-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+        "jss-debugsource-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+        "jss-debugsource-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+        "jss-javadoc-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+        "jss-javadoc-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+        "ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+        "ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.src.rpm",
+        "ldapjdk-javadoc-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+        "pki-servlet-4.0-api-1:9.0.30-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "pki-servlet-engine-1:9.0.30-1.module+el8.3.0+53+ea062990.noarch.rpm",
+        "pki-servlet-engine-1:9.0.30-1.module+el8.3.0+53+ea062990.src.rpm",
+        "python3-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+        "python3-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+        "python3-nss-debuginfo-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+        "python3-nss-debuginfo-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+        "python-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.src.rpm",
+        "python-nss-debugsource-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+        "python-nss-debugsource-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+        "python-nss-doc-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+        "python-nss-doc-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+        "relaxngDatatype-0:2011.1-7.module+el8.3.0+53+ea062990.noarch.rpm",
+        "relaxngDatatype-0:2011.1-7.module+el8.3.0+53+ea062990.src.rpm",
+        "resteasy-0:3.0.26-6.module+el8.5.0+697+f586bb30.noarch.rpm",
+        "resteasy-0:3.0.26-6.module+el8.5.0+697+f586bb30.src.rpm",
+        "slf4j-0:1.7.25-4.module+el8.5.0+697+f586bb30.noarch.rpm",
+        "slf4j-0:1.7.25-4.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "slf4j-0:1.7.25-4.module+el8.3.0+133+b8b54b58.noarch.rpm",
+        "slf4j-0:1.7.25-4.module+el8.5.0+697+f586bb30.src.rpm",
+        "slf4j-0:1.7.25-4.module+el8.3.0+74+855e3f5d.src.rpm",
+        "slf4j-0:1.7.25-4.module+el8.3.0+133+b8b54b58.src.rpm",
+        "slf4j-jdk14-0:1.7.25-4.module+el8.5.0+697+f586bb30.noarch.rpm",
+        "slf4j-jdk14-0:1.7.25-4.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "slf4j-jdk14-0:1.7.25-4.module+el8.3.0+53+ea062990.noarch.rpm",
+        "stax-ex-0:1.7.7-8.module+el8.3.0+53+ea062990.noarch.rpm",
+        "stax-ex-0:1.7.7-8.module+el8.3.0+53+ea062990.src.rpm",
+        "tomcatjss-0:7.6.1-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+        "tomcatjss-0:7.6.1-1.module+el8.4.0+418+b7ae1d4a.src.rpm",
+        "velocity-0:1.7-24.module+el8.3.0+53+ea062990.noarch.rpm",
+        "velocity-0:1.7-24.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "velocity-0:1.7-24.module+el8.3.0+53+ea062990.src.rpm",
+        "velocity-0:1.7-24.module+el8.3.0+74+855e3f5d.src.rpm",
+        "xalan-j2-0:2.7.1-38.module+el8.3.0+53+ea062990.noarch.rpm",
+        "xalan-j2-0:2.7.1-38.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "xalan-j2-0:2.7.1-38.module+el8.3.0+53+ea062990.src.rpm",
+        "xalan-j2-0:2.7.1-38.module+el8.3.0+74+855e3f5d.src.rpm",
+        "xerces-j2-0:2.11.0-34.module+el8.3.0+53+ea062990.noarch.rpm",
+        "xerces-j2-0:2.11.0-34.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "xerces-j2-0:2.11.0-34.module+el8.3.0+53+ea062990.src.rpm",
+        "xerces-j2-0:2.11.0-34.module+el8.3.0+74+855e3f5d.src.rpm",
+        "xml-commons-apis-0:1.4.01-25.module+el8.5.0+697+f586bb30.noarch.rpm",
+        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+53+ea062990.noarch.rpm",
+        "xml-commons-apis-0:1.4.01-25.module+el8.5.0+697+f586bb30.src.rpm",
+        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+74+855e3f5d.src.rpm",
+        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+53+ea062990.src.rpm",
+        "xml-commons-resolver-0:1.2-26.module+el8.3.0+53+ea062990.noarch.rpm",
+        "xml-commons-resolver-0:1.2-26.module+el8.3.0+74+855e3f5d.noarch.rpm",
+        "xmlstreambuffer-0:1.5.4-8.module+el8.3.0+53+ea062990.src.rpm",
+        "xml-commons-resolver-0:1.2-26.module+el8.3.0+53+ea062990.src.rpm",
+        "xml-commons-resolver-0:1.2-26.module+el8.3.0+74+855e3f5d.src.rpm",
+        "xmlstreambuffer-0:1.5.4-8.module+el8.3.0+53+ea062990.noarch.rpm",
+        "xsom-0:0-19.20110809svn.module+el8.3.0+53+ea062990.noarch.rpm",
+        "xsom-0:0-19.20110809svn.module+el8.3.0+53+ea062990.src.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: pki-core:10.6 and pki-deps:10.6 security, bug fix, and enhancement update",
+  "topic": "An update is available for jackson-core, ldapjdk, glassfish-jaxb-api, glassfish-fastinfoset, xalan-j2, apache-commons-net, xmlstreambuffer, jackson-annotations, jackson-databind, pki-servlet-engine, apache-commons-lang, jackson-module-jaxb-annotations, apache-commons-collections, tomcatjss, javassist, python-nss, bea-stax, velocity, xml-commons-apis, resteasy, xsom, slf4j, jackson-jaxrs-providers, stax-ex, xerces-j2, jss, jakarta-commons-httpclient, glassfish-jaxb, xml-commons-resolver, relaxngDatatype.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,66 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-39325",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-44487",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487"
+    }
+  ],
+  "description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: rapid stream resets can cause excessive work [CVE-2023-44487] (CVE-2023-39325)\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2242803",
+      "ticket": "2242803"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2243296",
+      "ticket": "2243296"
+    }
+  ],
+  "name": "RLSA-2023:5721",
+  "publishedAt": "2023-10-24T18:35:47.290826Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "delve-0:1.9.1-1.module+el8.8.0+1263+19d1a562.src.rpm",
+        "delve-0:1.9.1-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "delve-debuginfo-0:1.9.1-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "delve-debugsource-0:1.9.1-1.module+el8.8.0+1263+19d1a562.x86_64.rpm",
+        "golang-0:1.19.13-1.module+el8.8.0+1526+386b5e05.aarch64.rpm",
+        "golang-0:1.19.13-1.module+el8.8.0+1526+386b5e05.src.rpm",
+        "golang-0:1.19.13-1.module+el8.8.0+1526+386b5e05.x86_64.rpm",
+        "golang-bin-0:1.19.13-1.module+el8.8.0+1526+386b5e05.aarch64.rpm",
+        "golang-bin-0:1.19.13-1.module+el8.8.0+1526+386b5e05.x86_64.rpm",
+        "golang-docs-0:1.19.13-1.module+el8.8.0+1526+386b5e05.noarch.rpm",
+        "golang-misc-0:1.19.13-1.module+el8.8.0+1526+386b5e05.noarch.rpm",
+        "golang-race-0:1.19.13-1.module+el8.8.0+1526+386b5e05.x86_64.rpm",
+        "golang-src-0:1.19.13-1.module+el8.8.0+1526+386b5e05.noarch.rpm",
+        "golang-tests-0:1.19.13-1.module+el8.8.0+1526+386b5e05.noarch.rpm",
+        "go-toolset-0:1.19.13-1.module+el8.8.0+1526+386b5e05.aarch64.rpm",
+        "go-toolset-0:1.19.13-1.module+el8.8.0+1526+386b5e05.src.rpm",
+        "go-toolset-0:1.19.13-1.module+el8.8.0+1526+386b5e05.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: go-toolset:rhel8 security update",
+  "topic": "An update is available for module.golang, go-toolset, delve, module.go-toolset, module.delve, golang.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

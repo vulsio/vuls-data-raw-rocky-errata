@@ -1,0 +1,116 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-824",
+      "name": "CVE-2020-27778",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27778"
+    }
+  ],
+  "description": "Poppler is a Portable Document Format (PDF) rendering library, used by applications such as Evince.\n\nThe evince packages provide a simple multi-page document viewer for Portable Document Format (PDF), PostScript (PS), Encapsulated PostScript (EPS) files, and, with additional back-ends, also the Device Independent File format (DVI) files.\n\nThe following packages have been upgraded to a later upstream version: poppler (20.11.0). (BZ#1644423)\n\nSecurity Fix(es):\n\n* poppler: pdftohtml: access to uninitialized pointer could lead to DoS (CVE-2020-27778)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1889793",
+      "ticket": "1889793"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1900712",
+      "ticket": "1900712"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1919423",
+      "ticket": "1919423"
+    }
+  ],
+  "name": "RLSA-2021:1881",
+  "publishedAt": "2021-05-18T06:18:48Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "evince-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-0:3.28.4-11.el8.src.rpm",
+        "evince-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-browser-plugin-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-browser-plugin-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-browser-plugin-debuginfo-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-browser-plugin-debuginfo-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-debuginfo-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-debuginfo-0:3.28.4-11.el8.i686.rpm",
+        "evince-debuginfo-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-debugsource-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-debugsource-0:3.28.4-11.el8.i686.rpm",
+        "evince-debugsource-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-devel-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-devel-0:3.28.4-11.el8.i686.rpm",
+        "evince-devel-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-libs-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-libs-0:3.28.4-11.el8.i686.rpm",
+        "evince-libs-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-libs-debuginfo-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-libs-debuginfo-0:3.28.4-11.el8.i686.rpm",
+        "evince-libs-debuginfo-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-nautilus-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-nautilus-0:3.28.4-11.el8.x86_64.rpm",
+        "evince-nautilus-debuginfo-0:3.28.4-11.el8.aarch64.rpm",
+        "evince-nautilus-debuginfo-0:3.28.4-11.el8.x86_64.rpm",
+        "poppler-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-0:20.11.0-2.el8.i686.rpm",
+        "poppler-0:20.11.0-2.el8.src.rpm",
+        "poppler-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-cpp-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-cpp-0:20.11.0-2.el8.i686.rpm",
+        "poppler-cpp-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-cpp-debuginfo-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-cpp-debuginfo-0:20.11.0-2.el8.i686.rpm",
+        "poppler-cpp-debuginfo-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-cpp-devel-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-cpp-devel-0:20.11.0-2.el8.i686.rpm",
+        "poppler-cpp-devel-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-debuginfo-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-debuginfo-0:20.11.0-2.el8.i686.rpm",
+        "poppler-debuginfo-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-debugsource-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-debugsource-0:20.11.0-2.el8.i686.rpm",
+        "poppler-debugsource-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-devel-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-devel-0:20.11.0-2.el8.i686.rpm",
+        "poppler-devel-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-glib-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-glib-0:20.11.0-2.el8.i686.rpm",
+        "poppler-glib-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-glib-debuginfo-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-glib-debuginfo-0:20.11.0-2.el8.i686.rpm",
+        "poppler-glib-debuginfo-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-glib-devel-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-glib-devel-0:20.11.0-2.el8.i686.rpm",
+        "poppler-glib-devel-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-qt5-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-qt5-0:20.11.0-2.el8.i686.rpm",
+        "poppler-qt5-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-qt5-debuginfo-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-qt5-debuginfo-0:20.11.0-2.el8.i686.rpm",
+        "poppler-qt5-debuginfo-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-qt5-devel-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-qt5-devel-0:20.11.0-2.el8.i686.rpm",
+        "poppler-qt5-devel-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-utils-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-utils-0:20.11.0-2.el8.x86_64.rpm",
+        "poppler-utils-debuginfo-0:20.11.0-2.el8.aarch64.rpm",
+        "poppler-utils-debuginfo-0:20.11.0-2.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: poppler and evince security, bug fix, and enhancement update",
+  "topic": "An update is available for evince, poppler.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

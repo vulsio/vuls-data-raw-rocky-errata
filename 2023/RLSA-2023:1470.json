@@ -1,0 +1,91 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-4269",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4269"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-4744",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4744"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-0266",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0266"
+    }
+  ],
+  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: tun: avoid double free in tun_free_netdev (CVE-2022-4744)\n\n* ALSA: pcm: Move rwsem lock inside snd_ctl_elem_read to prevent UAF (CVE-2023-0266)\n\n* kernel: net: CPU soft lockup in TC mirred egress-to-ingress action (CVE-2022-4269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Rocky Linux9.0 - zfcp: fix missing auto port scan and thus missing target ports (BZ#2127880)\n\n* Cgroups_v2, when creating new cgroup/container, resets the cpu affinity masks for all usr processes on the system. (BZ#2143766)\n\n* Rocky Linux9.0 - boot: Add secure boot trailer (BZ#2151528)\n\n* kernel-rt-debug: WARNING: possible circular locking dependency detected (&n->list_lock->&p->pi_lock->&lock->wait_lock) (BZ#2160614)\n\n* Support cpuset.sched_load_balance by changing default CPUset directory structure (BZ#2161105)\n\n* Rocky Linux9.0 -  s390/kexec: fix ipl report address for kdump (BZ#2166903)\n\n* libgpiod doesn't seem to work with Interphase gpiochip (BZ#2166956)\n\n* Azure Rocky Linux9 scsi: storvsc: Fix swiotlb bounce buffer leak in confidential VM (BZ#2170227)\n\nEnhancement(s):\n\n* IBM 9.2 FEAT: Upgrade the QETH driver to latest from upstream, e.g. kernel 6.0 (BZ#2166304)\n\n* Intel 9.2 FEAT SPR CPU: AMX: Improve the init_fpstate setup code (BZ#2168382)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2150272",
+      "ticket": "2150272"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2156322",
+      "ticket": "2156322"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2163379",
+      "ticket": "2163379"
+    }
+  ],
+  "name": "RLSA-2023:1470",
+  "publishedAt": "2023-04-06T15:23:59.970870Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "kernel-0:5.14.0-162.22.2.el9_1.src.rpm",
+        "bpftool-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "bpftool-debuginfo-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-abi-stablelists-0:5.14.0-162.22.2.el9_1.noarch.rpm",
+        "kernel-core-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-cross-headers-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-core-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-debuginfo-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-devel-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-devel-matched-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debuginfo-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-modules-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-debug-modules-extra-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-devel-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-devel-matched-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-doc-0:5.14.0-162.22.2.el9_1.noarch.rpm",
+        "kernel-headers-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-modules-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-modules-extra-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-tools-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-tools-debuginfo-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-tools-libs-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "kernel-tools-libs-devel-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "perf-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "perf-debuginfo-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "python3-perf-0:5.14.0-162.22.2.el9_1.aarch64.rpm",
+        "python3-perf-debuginfo-0:5.14.0-162.22.2.el9_1.aarch64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: kernel security, bug fix, and enhancement update",
+  "topic": "An update is available for kernel.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

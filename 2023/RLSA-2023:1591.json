@@ -1,0 +1,41 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-28154",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28154"
+    }
+  ],
+  "description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* webpack: avoid cross-realm objects (CVE-2023-28154)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2179227",
+      "ticket": "2179227"
+    }
+  ],
+  "name": "RLSA-2023:1591",
+  "publishedAt": "2023-04-06T15:23:56.046465Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "pcs-0:0.11.3-4.el9_1.3.aarch64.rpm",
+        "pcs-0:0.11.3-4.el9_1.3.src.rpm",
+        "pcs-0:0.11.3-4.el9_1.3.x86_64.rpm",
+        "pcs-snmp-0:0.11.3-4.el9_1.3.aarch64.rpm",
+        "pcs-snmp-0:0.11.3-4.el9_1.3.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: pcs security update",
+  "topic": "An update is available for pcs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

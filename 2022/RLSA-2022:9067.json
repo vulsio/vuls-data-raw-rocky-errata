@@ -1,0 +1,105 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.6",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "cwe": "CWE-200",
+      "name": "CVE-2022-46872",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46872"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-222",
+      "name": "CVE-2022-46874",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46874"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-120",
+      "name": "CVE-2022-46878",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46878"
+    },
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-46880",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46880"
+    },
+    {
+      "cvss3BaseScore": "8.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-119",
+      "name": "CVE-2022-46881",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46881"
+    },
+    {
+      "cvss3BaseScore": "8.1",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-416",
+      "name": "CVE-2022-46882",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46882"
+    }
+  ],
+  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.6.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Arbitrary file read from a compromised content process (CVE-2022-46872)\n\n* Mozilla: Memory safety bugs fixed in Firefox ESR 102.6 and Thunderbird 102.6 (CVE-2022-46878)\n\n* Mozilla: Use-after-free in WebGL (CVE-2022-46880)\n\n* Mozilla: Memory corruption in WebGL (CVE-2022-46881)\n\n* Mozilla: Drag and Dropped Filenames could have been truncated to malicious extensions (CVE-2022-46874)\n\n* Mozilla: Use-after-free in WebGL (CVE-2022-46882)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2153441",
+      "ticket": "2153441"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2153449",
+      "ticket": "2153449"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2153454",
+      "ticket": "2153454"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2153463",
+      "ticket": "2153463"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2153466",
+      "ticket": "2153466"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2153467",
+      "ticket": "2153467"
+    }
+  ],
+  "name": "RLSA-2022:9067",
+  "publishedAt": "2022-12-15T15:32:10Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "firefox-0:102.6.0-1.el8_7.src.rpm",
+        "firefox-0:102.6.0-1.el8_7.x86_64.rpm",
+        "firefox-debuginfo-0:102.6.0-1.el8_7.x86_64.rpm",
+        "firefox-debugsource-0:102.6.0-1.el8_7.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: firefox security update",
+  "topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,50 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-20->CWE-119",
+      "name": "CVE-2021-38201",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38201"
+    }
+  ],
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: slab-out-of-bounds access in xdr_set_page_base() in net/sunrpc/xdr.c (CVE-2021-38201)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* OSLAT spikes on subset of cpus (BZ#1986063)\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.4.z source tree (BZ#1990013)\n\n* Failure to enter full_nohz due to needless SCHED softirqs (BZ#1990272)\n\n* kernel-rt: Make rcu_normal_after_boot writable (BZ#1995431)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992731",
+      "ticket": "1992731"
+    }
+  ],
+  "name": "RLSA-2021:3440",
+  "publishedAt": "2021-09-07T14:16:43Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "kernel-rt-0:4.18.0-305.17.1.rt7.89.el8_4.src.rpm",
+        "kernel-rt-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-core-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debug-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debug-core-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debug-debuginfo-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debug-devel-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debuginfo-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debuginfo-common-x86_64-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debug-modules-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-debug-modules-extra-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-devel-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-modules-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm",
+        "kernel-rt-modules-extra-0:4.18.0-305.17.1.rt7.89.el8_4.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: kernel-rt security and bug fix update",
+  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

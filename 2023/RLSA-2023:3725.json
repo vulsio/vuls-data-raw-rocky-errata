@@ -1,0 +1,49 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2022-46663",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46663"
+    }
+  ],
+  "description": "The \"less\" utility is a text file browser that resembles \"more\", but allows users to move backwards in the file as well as forwards. Since \"less\" does not read the entire input file at startup, it also starts more quickly than ordinary text editors.\n\nSecurity Fix(es):\n\n* less: crafted data can result in \"less -R\" not filtering ANSI escape sequences sent to the terminal (CVE-2022-46663)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2169621",
+      "ticket": "2169621"
+    }
+  ],
+  "name": "RLSA-2023:3725",
+  "publishedAt": "2023-08-31T16:55:39.127366Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "less-0:590-2.el9_2.aarch64.rpm",
+        "less-0:590-2.el9_2.ppc64le.rpm",
+        "less-0:590-2.el9_2.s390x.rpm",
+        "less-0:590-2.el9_2.src.rpm",
+        "less-0:590-2.el9_2.x86_64.rpm",
+        "less-debuginfo-0:590-2.el9_2.aarch64.rpm",
+        "less-debuginfo-0:590-2.el9_2.ppc64le.rpm",
+        "less-debuginfo-0:590-2.el9_2.s390x.rpm",
+        "less-debuginfo-0:590-2.el9_2.x86_64.rpm",
+        "less-debugsource-0:590-2.el9_2.aarch64.rpm",
+        "less-debugsource-0:590-2.el9_2.ppc64le.rpm",
+        "less-debugsource-0:590-2.el9_2.s390x.rpm",
+        "less-debugsource-0:590-2.el9_2.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: less security update",
+  "topic": "An update is available for less.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

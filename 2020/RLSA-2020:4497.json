@@ -1,0 +1,116 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "7.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-400",
+      "name": "CVE-2019-19906",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-19906"
+    }
+  ],
+  "description": "The cyrus-sasl packages contain the Cyrus implementation of Simple Authentication and Security Layer (SASL). SASL is a method for adding authentication support to connection-based protocols.\n\nSecurity Fix(es):\n\n* cyrus-sasl: denial of service in _sasl_add_string function (CVE-2019-19906)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1791854",
+      "ticket": "1791854"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1817054",
+      "ticket": "1817054"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1822133",
+      "ticket": "1822133"
+    }
+  ],
+  "name": "RLSA-2020:4497",
+  "publishedAt": "2020-11-03T12:10:00Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "cyrus-sasl-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-0:2.1.27-5.el8.src.rpm",
+        "cyrus-sasl-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-debugsource-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-debugsource-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-debugsource-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-devel-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-devel-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-devel-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-devel-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-devel-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-devel-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-gs2-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-gs2-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-gs2-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-gs2-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-gs2-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-gs2-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-gssapi-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-gssapi-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-gssapi-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-gssapi-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-gssapi-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-gssapi-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-ldap-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-ldap-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-ldap-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-ldap-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-ldap-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-ldap-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-lib-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-lib-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-lib-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-lib-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-lib-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-lib-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-md5-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-md5-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-md5-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-md5-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-md5-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-md5-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-ntlm-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-ntlm-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-ntlm-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-ntlm-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-ntlm-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-ntlm-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-plain-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-plain-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-plain-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-plain-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-plain-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-plain-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-scram-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-scram-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-scram-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-scram-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-scram-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-scram-debuginfo-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-sql-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-sql-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-sql-0:2.1.27-5.el8.x86_64.rpm",
+        "cyrus-sasl-sql-debuginfo-0:2.1.27-5.el8.aarch64.rpm",
+        "cyrus-sasl-sql-debuginfo-0:2.1.27-5.el8.i686.rpm",
+        "cyrus-sasl-sql-debuginfo-0:2.1.27-5.el8.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: cyrus-sasl security, bug fix, and enhancement update",
+  "topic": "An update is available for cyrus-sasl.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

@@ -1,0 +1,170 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-1637",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1637"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-20593",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20593"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-21102",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21102"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-31248",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31248"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-3390",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3390"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-35001",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-35001"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-3610",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3610"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-3776",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3776"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-4004",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4004"
+    },
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-4147",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4147"
+    }
+  ],
+  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: UAF in nftables when nft_set_lookup_global triggered after handling named and anonymous sets in batch requests (CVE-2023-3390)\n\n* kernel: netfilter: nf_tables: fix chain binding transaction logic in the abort path of NFT_MSG_NEWRULE (CVE-2023-3610)\n\n* kernel: net/sched: cls_fw component can be exploited as result of failure in tcf_change_indev function (CVE-2023-3776)\n\n* kernel: netfilter: use-after-free due to improper element removal in nft_pipapo_remove() (CVE-2023-4004)\n\n* kernel: netfilter: nf_tables_newrule when adding a rule with NFTA_RULE_CHAIN_ID leads to use-after-free (CVE-2023-4147)\n\n* kernel: nf_tables: use-after-free in nft_chain_lookup_byid() (CVE-2023-31248)\n\n* kernel: nf_tables: stack-out-of-bounds-read in nft_byteorder_eval() (CVE-2023-35001)\n\n* kernel: save/restore speculative MSRs during S3 suspend/resume (CVE-2023-1637)\n\n* hw: amd: Cross-Process Information Leak (CVE-2023-20593)\n\n* kernel: bypass of shadow stack protection due to a logic error (CVE-2023-21102)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the latest Rocky Linux-9.2.z3 Batch (BZ#2228482)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2181891",
+      "ticket": "2181891"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2213260",
+      "ticket": "2213260"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2213455",
+      "ticket": "2213455"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2217845",
+      "ticket": "2217845"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2220892",
+      "ticket": "2220892"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2220893",
+      "ticket": "2220893"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2225097",
+      "ticket": "2225097"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2225198",
+      "ticket": "2225198"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2225239",
+      "ticket": "2225239"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2225275",
+      "ticket": "2225275"
+    }
+  ],
+  "name": "RLSA-2023:5091",
+  "publishedAt": "2023-09-19T12:09:59.109271Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "kernel-rt-0:5.14.0-284.30.1.rt14.315.el9_2.src.rpm",
+        "kernel-rt-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-core-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-core-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-debuginfo-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-devel-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debuginfo-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-kvm-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-modules-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-modules-core-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-debug-modules-extra-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-devel-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-kvm-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-modules-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-modules-core-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm",
+        "kernel-rt-modules-extra-0:5.14.0-284.30.1.rt14.315.el9_2.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: kernel-rt security and bug fix update",
+  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

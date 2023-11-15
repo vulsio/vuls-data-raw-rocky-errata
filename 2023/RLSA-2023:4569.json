@@ -1,0 +1,88 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 9"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "UNKNOWN",
+      "cvss3ScoringVector": "UNKNOWN",
+      "cwe": "UNKNOWN",
+      "name": "CVE-2023-34969",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34969"
+    }
+  ],
+  "description": "D-Bus is a system for sending messages between applications. It is used both for the system-wide message bus service, and as a per-user-login-session messaging facility.\n\nSecurity Fix(es):\n\n* dbus: dbus-daemon: assertion failure when a monitor is active and a message from the driver cannot be delivered (CVE-2023-34969)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2213166",
+      "ticket": "2213166"
+    }
+  ],
+  "name": "RLSA-2023:4569",
+  "publishedAt": "2023-08-24T04:21:33.856417Z",
+  "rpms": {
+    "Rocky Linux 9": {
+      "nvras": [
+        "dbus-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-1:1.12.20-7.el9_2.1.src.rpm",
+        "dbus-common-1:1.12.20-7.el9_2.1.noarch.rpm",
+        "dbus-daemon-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-daemon-debuginfo-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-debuginfo-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-debugsource-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-devel-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-libs-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-libs-debuginfo-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-tools-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-tools-debuginfo-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-x11-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-x11-debuginfo-1:1.12.20-7.el9_2.1.aarch64.rpm",
+        "dbus-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-daemon-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-daemon-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-daemon-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-daemon-debuginfo-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-daemon-debuginfo-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-daemon-debuginfo-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-debuginfo-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-debuginfo-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-debuginfo-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-debugsource-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-debugsource-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-debugsource-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-devel-1:1.12.20-7.el9_2.1.i686.rpm",
+        "dbus-devel-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-devel-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-devel-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-libs-1:1.12.20-7.el9_2.1.i686.rpm",
+        "dbus-libs-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-libs-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-libs-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-libs-debuginfo-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-libs-debuginfo-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-libs-debuginfo-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-tools-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-tools-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-tools-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-tools-debuginfo-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-tools-debuginfo-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-tools-debuginfo-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-x11-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-x11-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-x11-1:1.12.20-7.el9_2.1.x86_64.rpm",
+        "dbus-x11-debuginfo-1:1.12.20-7.el9_2.1.ppc64le.rpm",
+        "dbus-x11-debuginfo-1:1.12.20-7.el9_2.1.s390x.rpm",
+        "dbus-x11-debuginfo-1:1.12.20-7.el9_2.1.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: dbus security update",
+  "topic": "An update is available for dbus.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

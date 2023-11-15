@@ -1,0 +1,87 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "6.5",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+      "cwe": "CWE-476",
+      "name": "CVE-2021-3514",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3514"
+    }
+  ],
+  "description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: sync_repl NULL pointer dereference in sync_create_state_control() (CVE-2021-3514)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* ACIs are being evaluated against the Replication Manager account in a replication context. (BZ#1968588)\n\n* A connection can be erroneously flagged as replication conn during evaluation of an aci with ip bind rule (BZ#1970791)\n\n* Large updates can reset the CLcache to the beginning of the changelog (BZ#1972721)\n\n* Changelog cache can upload updates from a wrong starting point (CSN) (BZ#1972738)",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1952907",
+      "ticket": "1952907"
+    },
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1960720",
+      "ticket": "1960720"
+    },
+    {
+      "description": "* ACIs are being evaluated against the Replication Manager account in a replication context.",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1968588",
+      "ticket": "1968588"
+    },
+    {
+      "description": "* A connection can be erroneously flagged as replication conn during evaluation of an aci with ip bind rule",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1970791",
+      "ticket": "1970791"
+    },
+    {
+      "description": "* Large updates can reset the CLcache to the beginning of the changelog",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1972721",
+      "ticket": "1972721"
+    },
+    {
+      "description": "* Changelog cache can upload updates from a wrong starting point (CSN)",
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1972738",
+      "ticket": "1972738"
+    }
+  ],
+  "name": "RLSA-2021:2595",
+  "publishedAt": "2021-06-29T14:00:08Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "389-ds-base-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-0:1.4.3.16-16.module+el8.4.0+596+159889e5.src.rpm",
+        "389-ds-base-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-debugsource-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-debugsource-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-devel-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-devel-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-legacy-tools-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-legacy-tools-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-legacy-tools-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-legacy-tools-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-libs-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-libs-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-libs-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-libs-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-snmp-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-snmp-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "389-ds-base-snmp-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.aarch64.rpm",
+        "389-ds-base-snmp-debuginfo-0:1.4.3.16-16.module+el8.4.0+596+159889e5.x86_64.rpm",
+        "python3-lib389-0:1.4.3.16-16.module+el8.4.0+596+159889e5.noarch.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_MODERATE",
+  "shortCode": "RL",
+  "synopsis": "Moderate: 389-ds:1.4 security and bug fix update",
+  "topic": "An update is available for 389-ds-base.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

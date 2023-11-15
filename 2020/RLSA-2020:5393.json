@@ -1,0 +1,49 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "9.8",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cwe": "CWE-190",
+      "name": "CVE-2020-0452",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0452"
+    }
+  ],
+  "description": "The libexif packages provide a library for extracting extra information from image files.\n\nSecurity Fix(es):\n\n* libexif: out of bounds write due to an integer overflow in exif-entry.c (CVE-2020-0452)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1902004",
+      "ticket": "1902004"
+    }
+  ],
+  "name": "RLSA-2020:5393",
+  "publishedAt": "2020-12-14T11:19:49Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libexif-0:0.6.22-5.el8_3.src.rpm",
+        "libexif-0:0.6.22-5.el8_3.aarch64.rpm",
+        "libexif-0:0.6.22-5.el8_3.i686.rpm",
+        "libexif-0:0.6.22-5.el8_3.x86_64.rpm",
+        "libexif-debuginfo-0:0.6.22-5.el8_3.aarch64.rpm",
+        "libexif-debuginfo-0:0.6.22-5.el8_3.i686.rpm",
+        "libexif-debuginfo-0:0.6.22-5.el8_3.x86_64.rpm",
+        "libexif-debugsource-0:0.6.22-5.el8_3.aarch64.rpm",
+        "libexif-debugsource-0:0.6.22-5.el8_3.i686.rpm",
+        "libexif-debugsource-0:0.6.22-5.el8_3.x86_64.rpm",
+        "libexif-devel-0:0.6.22-5.el8_3.aarch64.rpm",
+        "libexif-devel-0:0.6.22-5.el8_3.i686.rpm",
+        "libexif-devel-0:0.6.22-5.el8_3.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: libexif security update",
+  "topic": "An update is available for libexif.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}

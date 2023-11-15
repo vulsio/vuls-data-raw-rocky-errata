@@ -1,0 +1,52 @@
+{
+  "affectedProducts": [
+    "Rocky Linux 8"
+  ],
+  "cves": [
+    {
+      "cvss3BaseScore": "8.6",
+      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "cwe": "CWE-444",
+      "name": "CVE-2020-25097",
+      "sourceBy": "MITRE",
+      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25097"
+    }
+  ],
+  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: improper input validation may allow a trusted client to perform HTTP request smuggling (CVE-2020-25097)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+  "fixes": [
+    {
+      "sourceBy": "Red Hat",
+      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1939925",
+      "ticket": "1939925"
+    }
+  ],
+  "name": "RLSA-2021:1979",
+  "publishedAt": "2021-05-18T17:06:56Z",
+  "rpms": {
+    "Rocky Linux 8": {
+      "nvras": [
+        "libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.src.rpm",
+        "libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+        "libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+        "squid-7:4.11-4.module+el8.4.0+404+316a0dc5.2.aarch64.rpm",
+        "squid-7:4.11-4.module+el8.4.0+404+316a0dc5.2.src.rpm",
+        "squid-7:4.11-4.module+el8.4.0+404+316a0dc5.2.x86_64.rpm",
+        "squid-debuginfo-7:4.11-4.module+el8.4.0+404+316a0dc5.2.aarch64.rpm",
+        "squid-debuginfo-7:4.11-4.module+el8.4.0+404+316a0dc5.2.x86_64.rpm",
+        "squid-debugsource-7:4.11-4.module+el8.4.0+404+316a0dc5.2.aarch64.rpm",
+        "squid-debugsource-7:4.11-4.module+el8.4.0+404+316a0dc5.2.x86_64.rpm"
+      ]
+    }
+  },
+  "severity": "SEVERITY_IMPORTANT",
+  "shortCode": "RL",
+  "synopsis": "Important: squid:4 security update",
+  "topic": "An update is available for squid, libecap.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+  "type": "TYPE_SECURITY"
+}
