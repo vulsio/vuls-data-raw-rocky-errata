@@ -1,155 +1,155 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-99",
-      "name": "CVE-2018-11784",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11784"
-    },
-    {
-      "cvss3BaseScore": "5.7",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-284",
-      "name": "CVE-2018-8014",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8014"
-    },
-    {
-      "cvss3BaseScore": "4.3",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-20",
-      "name": "CVE-2018-8034",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8034"
-    },
-    {
-      "cvss3BaseScore": "9.1",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2018-8037",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8037"
-    }
-  ],
-  "description": "The Public Key Infrastructure (PKI) Deps module contains fundamental packages required as dependencies for the pki-core module by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* tomcat: Due to a mishandling of close in NIO/NIO2 connectors user sessions can get mixed up (CVE-2018-8037)\n\n* tomcat: Insecure defaults in CORS filter enable 'supportsCredentials' for all origins (CVE-2018-8014)\n\n* tomcat: Open redirect in default servlet (CVE-2018-11784)\n\n* tomcat: Host name verification missing in WebSocket client (CVE-2018-8034)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1579611",
-      "ticket": "1579611"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1607580",
-      "ticket": "1607580"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1607582",
-      "ticket": "1607582"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1636512",
-      "ticket": "1636512"
-    }
-  ],
-  "name": "RLSA-2019:1529",
-  "publishedAt": "2019-06-18T16:36:21Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+53+ea062990.noarch.rpm",
-        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+53+ea062990.src.rpm",
-        "apache-commons-collections-0:3.2.2-10.module+el8.3.0+74+855e3f5d.src.rpm",
-        "apache-commons-lang-0:2.6-21.module+el8.3.0+53+ea062990.noarch.rpm",
-        "apache-commons-lang-0:2.6-21.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "apache-commons-lang-0:2.6-21.module+el8.3.0+53+ea062990.src.rpm",
-        "apache-commons-lang-0:2.6-21.module+el8.3.0+74+855e3f5d.src.rpm",
-        "bea-stax-0:1.2.0-16.module+el8.3.0+53+ea062990.src.rpm",
-        "bea-stax-api-0:1.2.0-16.module+el8.3.0+53+ea062990.noarch.rpm",
-        "glassfish-fastinfoset-0:1.2.13-9.module+el8.3.0+53+ea062990.noarch.rpm",
-        "glassfish-fastinfoset-0:1.2.13-9.module+el8.3.0+53+ea062990.src.rpm",
-        "glassfish-jaxb-0:2.2.11-11.module+el8.3.0+53+ea062990.src.rpm",
-        "glassfish-jaxb-api-0:2.2.12-8.module+el8.3.0+53+ea062990.noarch.rpm",
-        "glassfish-jaxb-api-0:2.2.12-8.module+el8.3.0+53+ea062990.src.rpm",
-        "glassfish-jaxb-core-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
-        "glassfish-jaxb-runtime-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
-        "glassfish-jaxb-txw2-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
-        "jackson-module-jaxb-annotations-0:2.7.6-4.module+el8.3.0+53+ea062990.noarch.rpm",
-        "jackson-module-jaxb-annotations-0:2.7.6-4.module+el8.3.0+53+ea062990.src.rpm",
-        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+53+ea062990.noarch.rpm",
-        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+53+ea062990.src.rpm",
-        "jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+74+855e3f5d.src.rpm",
-        "javassist-0:3.18.1-8.module+el8.3.0+53+ea062990.noarch.rpm",
-        "javassist-0:3.18.1-8.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "javassist-0:3.18.1-8.module+el8.3.0+53+ea062990.src.rpm",
-        "javassist-0:3.18.1-8.module+el8.3.0+74+855e3f5d.src.rpm",
-        "javassist-javadoc-0:3.18.1-8.module+el8.3.0+53+ea062990.noarch.rpm",
-        "javassist-javadoc-0:3.18.1-8.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "python3-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
-        "python3-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
-        "python3-nss-debuginfo-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
-        "python3-nss-debuginfo-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
-        "python-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.src.rpm",
-        "python-nss-debugsource-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
-        "python-nss-debugsource-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
-        "python-nss-doc-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
-        "python-nss-doc-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
-        "relaxngDatatype-0:2011.1-7.module+el8.3.0+53+ea062990.noarch.rpm",
-        "relaxngDatatype-0:2011.1-7.module+el8.3.0+53+ea062990.src.rpm",
-        "resteasy-0:3.0.26-3.module+el8.3.0+53+ea062990.noarch.rpm",
-        "resteasy-0:3.0.26-3.module+el8.3.0+53+ea062990.src.rpm",
-        "slf4j-0:1.7.25-4.module+el8.5.0+697+f586bb30.noarch.rpm",
-        "slf4j-0:1.7.25-4.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "slf4j-0:1.7.25-4.module+el8.3.0+133+b8b54b58.noarch.rpm",
-        "slf4j-0:1.7.25-4.module+el8.5.0+697+f586bb30.src.rpm",
-        "slf4j-0:1.7.25-4.module+el8.3.0+74+855e3f5d.src.rpm",
-        "slf4j-0:1.7.25-4.module+el8.3.0+133+b8b54b58.src.rpm",
-        "slf4j-jdk14-0:1.7.25-4.module+el8.5.0+697+f586bb30.noarch.rpm",
-        "slf4j-jdk14-0:1.7.25-4.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "slf4j-jdk14-0:1.7.25-4.module+el8.3.0+53+ea062990.noarch.rpm",
-        "stax-ex-0:1.7.7-8.module+el8.3.0+53+ea062990.noarch.rpm",
-        "stax-ex-0:1.7.7-8.module+el8.3.0+53+ea062990.src.rpm",
-        "velocity-0:1.7-24.module+el8.3.0+53+ea062990.noarch.rpm",
-        "velocity-0:1.7-24.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "velocity-0:1.7-24.module+el8.3.0+53+ea062990.src.rpm",
-        "velocity-0:1.7-24.module+el8.3.0+74+855e3f5d.src.rpm",
-        "xalan-j2-0:2.7.1-38.module+el8.3.0+53+ea062990.noarch.rpm",
-        "xalan-j2-0:2.7.1-38.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "xalan-j2-0:2.7.1-38.module+el8.3.0+53+ea062990.src.rpm",
-        "xalan-j2-0:2.7.1-38.module+el8.3.0+74+855e3f5d.src.rpm",
-        "xerces-j2-0:2.11.0-34.module+el8.3.0+53+ea062990.noarch.rpm",
-        "xerces-j2-0:2.11.0-34.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "xerces-j2-0:2.11.0-34.module+el8.3.0+53+ea062990.src.rpm",
-        "xerces-j2-0:2.11.0-34.module+el8.3.0+74+855e3f5d.src.rpm",
-        "xml-commons-apis-0:1.4.01-25.module+el8.5.0+697+f586bb30.noarch.rpm",
-        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+53+ea062990.noarch.rpm",
-        "xml-commons-apis-0:1.4.01-25.module+el8.5.0+697+f586bb30.src.rpm",
-        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+74+855e3f5d.src.rpm",
-        "xml-commons-apis-0:1.4.01-25.module+el8.3.0+53+ea062990.src.rpm",
-        "xml-commons-resolver-0:1.2-26.module+el8.3.0+53+ea062990.noarch.rpm",
-        "xml-commons-resolver-0:1.2-26.module+el8.3.0+74+855e3f5d.noarch.rpm",
-        "xml-commons-resolver-0:1.2-26.module+el8.3.0+53+ea062990.src.rpm",
-        "xml-commons-resolver-0:1.2-26.module+el8.3.0+74+855e3f5d.src.rpm",
-        "xmlstreambuffer-0:1.5.4-8.module+el8.3.0+53+ea062990.noarch.rpm",
-        "xmlstreambuffer-0:1.5.4-8.module+el8.3.0+53+ea062990.src.rpm",
-        "xsom-0:0-19.20110809svn.module+el8.3.0+53+ea062990.noarch.rpm",
-        "xsom-0:0-19.20110809svn.module+el8.3.0+53+ea062990.src.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: pki-deps:10.6 security update",
-  "topic": "An update is available for glassfish-jaxb-api, glassfish-fastinfoset, xalan-j2, xmlstreambuffer, apache-commons-lang, jackson-module-jaxb-annotations, apache-commons-collections, javassist, python-nss, bea-stax, velocity, xml-commons-apis, resteasy, xsom, slf4j, stax-ex, xerces-j2, jakarta-commons-httpclient, glassfish-jaxb, xml-commons-resolver, relaxngDatatype.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-99",
+			"name": "CVE-2018-11784",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11784"
+		},
+		{
+			"cvss3BaseScore": "5.7",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-284",
+			"name": "CVE-2018-8014",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8014"
+		},
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-20",
+			"name": "CVE-2018-8034",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8034"
+		},
+		{
+			"cvss3BaseScore": "9.1",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2018-8037",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-8037"
+		}
+	],
+	"description": "The Public Key Infrastructure (PKI) Deps module contains fundamental packages required as dependencies for the pki-core module by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* tomcat: Due to a mishandling of close in NIO/NIO2 connectors user sessions can get mixed up (CVE-2018-8037)\n\n* tomcat: Insecure defaults in CORS filter enable 'supportsCredentials' for all origins (CVE-2018-8014)\n\n* tomcat: Open redirect in default servlet (CVE-2018-11784)\n\n* tomcat: Host name verification missing in WebSocket client (CVE-2018-8034)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1579611",
+			"ticket": "1579611"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1607580",
+			"ticket": "1607580"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1607582",
+			"ticket": "1607582"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1636512",
+			"ticket": "1636512"
+		}
+	],
+	"name": "RLSA-2019:1529",
+	"publishedAt": "2019-06-18T16:36:21Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"apache-commons-collections-0:3.2.2-10.module+el8.3.0+53+ea062990.noarch.rpm",
+				"apache-commons-collections-0:3.2.2-10.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"apache-commons-collections-0:3.2.2-10.module+el8.3.0+53+ea062990.src.rpm",
+				"apache-commons-collections-0:3.2.2-10.module+el8.3.0+74+855e3f5d.src.rpm",
+				"apache-commons-lang-0:2.6-21.module+el8.3.0+53+ea062990.noarch.rpm",
+				"apache-commons-lang-0:2.6-21.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"apache-commons-lang-0:2.6-21.module+el8.3.0+53+ea062990.src.rpm",
+				"apache-commons-lang-0:2.6-21.module+el8.3.0+74+855e3f5d.src.rpm",
+				"bea-stax-0:1.2.0-16.module+el8.3.0+53+ea062990.src.rpm",
+				"bea-stax-api-0:1.2.0-16.module+el8.3.0+53+ea062990.noarch.rpm",
+				"glassfish-fastinfoset-0:1.2.13-9.module+el8.3.0+53+ea062990.noarch.rpm",
+				"glassfish-fastinfoset-0:1.2.13-9.module+el8.3.0+53+ea062990.src.rpm",
+				"glassfish-jaxb-0:2.2.11-11.module+el8.3.0+53+ea062990.src.rpm",
+				"glassfish-jaxb-api-0:2.2.12-8.module+el8.3.0+53+ea062990.noarch.rpm",
+				"glassfish-jaxb-api-0:2.2.12-8.module+el8.3.0+53+ea062990.src.rpm",
+				"glassfish-jaxb-core-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
+				"glassfish-jaxb-runtime-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
+				"glassfish-jaxb-txw2-0:2.2.11-11.module+el8.3.0+53+ea062990.noarch.rpm",
+				"jackson-module-jaxb-annotations-0:2.7.6-4.module+el8.3.0+53+ea062990.noarch.rpm",
+				"jackson-module-jaxb-annotations-0:2.7.6-4.module+el8.3.0+53+ea062990.src.rpm",
+				"jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+53+ea062990.noarch.rpm",
+				"jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+53+ea062990.src.rpm",
+				"jakarta-commons-httpclient-1:3.1-28.module+el8.3.0+74+855e3f5d.src.rpm",
+				"javassist-0:3.18.1-8.module+el8.3.0+53+ea062990.noarch.rpm",
+				"javassist-0:3.18.1-8.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"javassist-0:3.18.1-8.module+el8.3.0+53+ea062990.src.rpm",
+				"javassist-0:3.18.1-8.module+el8.3.0+74+855e3f5d.src.rpm",
+				"javassist-javadoc-0:3.18.1-8.module+el8.3.0+53+ea062990.noarch.rpm",
+				"javassist-javadoc-0:3.18.1-8.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"python3-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+				"python3-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+				"python3-nss-debuginfo-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+				"python3-nss-debuginfo-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+				"python-nss-0:1.0.1-10.module+el8.3.0+53+ea062990.src.rpm",
+				"python-nss-debugsource-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+				"python-nss-debugsource-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+				"python-nss-doc-0:1.0.1-10.module+el8.3.0+53+ea062990.aarch64.rpm",
+				"python-nss-doc-0:1.0.1-10.module+el8.3.0+53+ea062990.x86_64.rpm",
+				"relaxngDatatype-0:2011.1-7.module+el8.3.0+53+ea062990.noarch.rpm",
+				"relaxngDatatype-0:2011.1-7.module+el8.3.0+53+ea062990.src.rpm",
+				"resteasy-0:3.0.26-3.module+el8.3.0+53+ea062990.noarch.rpm",
+				"resteasy-0:3.0.26-3.module+el8.3.0+53+ea062990.src.rpm",
+				"slf4j-0:1.7.25-4.module+el8.5.0+697+f586bb30.noarch.rpm",
+				"slf4j-0:1.7.25-4.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"slf4j-0:1.7.25-4.module+el8.3.0+133+b8b54b58.noarch.rpm",
+				"slf4j-0:1.7.25-4.module+el8.5.0+697+f586bb30.src.rpm",
+				"slf4j-0:1.7.25-4.module+el8.3.0+74+855e3f5d.src.rpm",
+				"slf4j-0:1.7.25-4.module+el8.3.0+133+b8b54b58.src.rpm",
+				"slf4j-jdk14-0:1.7.25-4.module+el8.5.0+697+f586bb30.noarch.rpm",
+				"slf4j-jdk14-0:1.7.25-4.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"slf4j-jdk14-0:1.7.25-4.module+el8.3.0+53+ea062990.noarch.rpm",
+				"stax-ex-0:1.7.7-8.module+el8.3.0+53+ea062990.noarch.rpm",
+				"stax-ex-0:1.7.7-8.module+el8.3.0+53+ea062990.src.rpm",
+				"velocity-0:1.7-24.module+el8.3.0+53+ea062990.noarch.rpm",
+				"velocity-0:1.7-24.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"velocity-0:1.7-24.module+el8.3.0+53+ea062990.src.rpm",
+				"velocity-0:1.7-24.module+el8.3.0+74+855e3f5d.src.rpm",
+				"xalan-j2-0:2.7.1-38.module+el8.3.0+53+ea062990.noarch.rpm",
+				"xalan-j2-0:2.7.1-38.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"xalan-j2-0:2.7.1-38.module+el8.3.0+53+ea062990.src.rpm",
+				"xalan-j2-0:2.7.1-38.module+el8.3.0+74+855e3f5d.src.rpm",
+				"xerces-j2-0:2.11.0-34.module+el8.3.0+53+ea062990.noarch.rpm",
+				"xerces-j2-0:2.11.0-34.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"xerces-j2-0:2.11.0-34.module+el8.3.0+53+ea062990.src.rpm",
+				"xerces-j2-0:2.11.0-34.module+el8.3.0+74+855e3f5d.src.rpm",
+				"xml-commons-apis-0:1.4.01-25.module+el8.5.0+697+f586bb30.noarch.rpm",
+				"xml-commons-apis-0:1.4.01-25.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"xml-commons-apis-0:1.4.01-25.module+el8.3.0+53+ea062990.noarch.rpm",
+				"xml-commons-apis-0:1.4.01-25.module+el8.5.0+697+f586bb30.src.rpm",
+				"xml-commons-apis-0:1.4.01-25.module+el8.3.0+74+855e3f5d.src.rpm",
+				"xml-commons-apis-0:1.4.01-25.module+el8.3.0+53+ea062990.src.rpm",
+				"xml-commons-resolver-0:1.2-26.module+el8.3.0+53+ea062990.noarch.rpm",
+				"xml-commons-resolver-0:1.2-26.module+el8.3.0+74+855e3f5d.noarch.rpm",
+				"xml-commons-resolver-0:1.2-26.module+el8.3.0+53+ea062990.src.rpm",
+				"xml-commons-resolver-0:1.2-26.module+el8.3.0+74+855e3f5d.src.rpm",
+				"xmlstreambuffer-0:1.5.4-8.module+el8.3.0+53+ea062990.noarch.rpm",
+				"xmlstreambuffer-0:1.5.4-8.module+el8.3.0+53+ea062990.src.rpm",
+				"xsom-0:0-19.20110809svn.module+el8.3.0+53+ea062990.noarch.rpm",
+				"xsom-0:0-19.20110809svn.module+el8.3.0+53+ea062990.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: pki-deps:10.6 security update",
+	"topic": "An update is available for glassfish-jaxb-api, glassfish-fastinfoset, xalan-j2, xmlstreambuffer, apache-commons-lang, jackson-module-jaxb-annotations, apache-commons-collections, javassist, python-nss, bea-stax, velocity, xml-commons-apis, resteasy, xsom, slf4j, stax-ex, xerces-j2, jakarta-commons-httpclient, glassfish-jaxb, xml-commons-resolver, relaxngDatatype.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

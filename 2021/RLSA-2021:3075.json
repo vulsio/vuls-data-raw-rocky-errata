@@ -1,49 +1,49 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-22918",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918"
-    }
-  ],
-  "description": "libuv is a multi-platform support library with a focus on asynchronous I/O. \n\nSecurity Fix(es):\n\n* libuv: out-of-bounds read in uv__idna_toascii() can lead to information disclosures or crashes (CVE-2021-22918)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1979338",
-      "ticket": "1979338"
-    }
-  ],
-  "name": "RLSA-2021:3075",
-  "publishedAt": "2021-08-10T12:00:55Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libuv-debuginfo-1:1.41.1-1.el8_4.aarch64.rpm",
-        "libuv-debugsource-1:1.41.1-1.el8_4.i686.rpm",
-        "libuv-debuginfo-1:1.41.1-1.el8_4.i686.rpm",
-        "libuv-debuginfo-1:1.41.1-1.el8_4.x86_64.rpm",
-        "libuv-debugsource-1:1.41.1-1.el8_4.aarch64.rpm",
-        "libuv-1:1.41.1-1.el8_4.src.rpm",
-        "libuv-1:1.41.1-1.el8_4.x86_64.rpm",
-        "libuv-1:1.41.1-1.el8_4.aarch64.rpm",
-        "libuv-1:1.41.1-1.el8_4.i686.rpm",
-        "libuv-debugsource-1:1.41.1-1.el8_4.x86_64.rpm",
-        "libuv-devel-1:1.41.1-1.el8_4.aarch64.rpm",
-        "libuv-devel-1:1.41.1-1.el8_4.i686.rpm",
-        "libuv-devel-1:1.41.1-1.el8_4.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: libuv security update",
-  "topic": "An update is available for libuv.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-22918",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918"
+		}
+	],
+	"description": "libuv is a multi-platform support library with a focus on asynchronous I/O. \n\nSecurity Fix(es):\n\n* libuv: out-of-bounds read in uv__idna_toascii() can lead to information disclosures or crashes (CVE-2021-22918)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1979338",
+			"ticket": "1979338"
+		}
+	],
+	"name": "RLSA-2021:3075",
+	"publishedAt": "2021-08-10T12:00:55Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libuv-debuginfo-1:1.41.1-1.el8_4.aarch64.rpm",
+				"libuv-debugsource-1:1.41.1-1.el8_4.i686.rpm",
+				"libuv-debuginfo-1:1.41.1-1.el8_4.i686.rpm",
+				"libuv-debuginfo-1:1.41.1-1.el8_4.x86_64.rpm",
+				"libuv-debugsource-1:1.41.1-1.el8_4.aarch64.rpm",
+				"libuv-1:1.41.1-1.el8_4.src.rpm",
+				"libuv-1:1.41.1-1.el8_4.x86_64.rpm",
+				"libuv-1:1.41.1-1.el8_4.aarch64.rpm",
+				"libuv-1:1.41.1-1.el8_4.i686.rpm",
+				"libuv-debugsource-1:1.41.1-1.el8_4.x86_64.rpm",
+				"libuv-devel-1:1.41.1-1.el8_4.aarch64.rpm",
+				"libuv-devel-1:1.41.1-1.el8_4.i686.rpm",
+				"libuv-devel-1:1.41.1-1.el8_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: libuv security update",
+	"topic": "An update is available for libuv.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

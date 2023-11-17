@@ -1,53 +1,53 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "6.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-      "cwe": "CWE-79",
-      "name": "CVE-2016-3709",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3709"
-    }
-  ],
-  "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: Incorrect server side include parsing can lead to XSS (CVE-2016-3709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2112766",
-      "ticket": "2112766"
-    }
-  ],
-  "name": "RLSA-2022:7715",
-  "publishedAt": "2022-11-08T06:26:57Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libxml2-0:2.9.7-15.el8.aarch64.rpm",
-        "libxml2-0:2.9.7-15.el8.i686.rpm",
-        "libxml2-0:2.9.7-15.el8.src.rpm",
-        "libxml2-0:2.9.7-15.el8.x86_64.rpm",
-        "libxml2-debuginfo-0:2.9.7-15.el8.aarch64.rpm",
-        "libxml2-debuginfo-0:2.9.7-15.el8.i686.rpm",
-        "libxml2-debuginfo-0:2.9.7-15.el8.x86_64.rpm",
-        "libxml2-debugsource-0:2.9.7-15.el8.aarch64.rpm",
-        "libxml2-debugsource-0:2.9.7-15.el8.i686.rpm",
-        "libxml2-debugsource-0:2.9.7-15.el8.x86_64.rpm",
-        "libxml2-devel-0:2.9.7-15.el8.aarch64.rpm",
-        "libxml2-devel-0:2.9.7-15.el8.i686.rpm",
-        "libxml2-devel-0:2.9.7-15.el8.x86_64.rpm",
-        "python3-libxml2-0:2.9.7-15.el8.aarch64.rpm",
-        "python3-libxml2-0:2.9.7-15.el8.x86_64.rpm",
-        "python3-libxml2-debuginfo-0:2.9.7-15.el8.aarch64.rpm",
-        "python3-libxml2-debuginfo-0:2.9.7-15.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: libxml2 security update",
-  "topic": "An update is available for libxml2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2016-3709",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2016-3709"
+		}
+	],
+	"description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: Incorrect server side include parsing can lead to XSS (CVE-2016-3709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2112766",
+			"ticket": "2112766"
+		}
+	],
+	"name": "RLSA-2022:7715",
+	"publishedAt": "2022-11-08T06:26:57Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libxml2-0:2.9.7-15.el8.aarch64.rpm",
+				"libxml2-0:2.9.7-15.el8.i686.rpm",
+				"libxml2-0:2.9.7-15.el8.src.rpm",
+				"libxml2-0:2.9.7-15.el8.x86_64.rpm",
+				"libxml2-debuginfo-0:2.9.7-15.el8.aarch64.rpm",
+				"libxml2-debuginfo-0:2.9.7-15.el8.i686.rpm",
+				"libxml2-debuginfo-0:2.9.7-15.el8.x86_64.rpm",
+				"libxml2-debugsource-0:2.9.7-15.el8.aarch64.rpm",
+				"libxml2-debugsource-0:2.9.7-15.el8.i686.rpm",
+				"libxml2-debugsource-0:2.9.7-15.el8.x86_64.rpm",
+				"libxml2-devel-0:2.9.7-15.el8.aarch64.rpm",
+				"libxml2-devel-0:2.9.7-15.el8.i686.rpm",
+				"libxml2-devel-0:2.9.7-15.el8.x86_64.rpm",
+				"python3-libxml2-0:2.9.7-15.el8.aarch64.rpm",
+				"python3-libxml2-0:2.9.7-15.el8.x86_64.rpm",
+				"python3-libxml2-debuginfo-0:2.9.7-15.el8.aarch64.rpm",
+				"python3-libxml2-debuginfo-0:2.9.7-15.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libxml2 security update",
+	"topic": "An update is available for libxml2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

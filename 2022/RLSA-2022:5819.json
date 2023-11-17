@@ -1,102 +1,102 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-200",
-      "name": "CVE-2022-1012",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1012"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2022-32250",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32250"
-    }
-  ],
-  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak (CVE-2022-1012)\n\n* kernel: a use-after-free write in the netfilter subsystem can lead to privilege escalation to root (CVE-2022-32250)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Softirq hrtimers are being placed on the per-CPU softirq clocks on isolcpu’s. (BZ#2090484)\n\n* enable/disable multiqueues repeatedly while ping local host, guest kernel panic (BZ#2093416)\n\n* Backport kernel audit enhancements and fixes from v5.13-rc1 to v5.16-rc6 (BZ#2095434)\n\n* blk_update_request: I/O error, dev nvme0n3, during xfs creation (BZ#2100150)\n\n* SCSI updates for Rocky Linux 8.7 (BZ#2100254)\n\n* Kernel bug on mm/slub.c:314 (BZ#2102251)\n\n* Implement new tc action for check_pkt_len (BZ#2102333)\n\n* too long timeout value with TIME_WAIT status of conntrack entry (BZ#2104002)\n\n* Connectx6-DX, mlx5 , backport   087032ee7021 (\"net/mlx5e: TC, Fix ct_clear overwriting ct action metadata\") (BZ#2104012)\n\n* mlx5: Software steering memory allocation failure, netperf  TCP_CRR with ct(). (BZ#2104013)\n\n* tcp: request_sock leak in Calico OCP (BZ#2104670)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064604",
-      "ticket": "2064604"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092427",
-      "ticket": "2092427"
-    }
-  ],
-  "name": "RLSA-2022:5819",
-  "publishedAt": "2022-08-02T07:00:14Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "bpftool-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "bpftool-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "bpftool-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "bpftool-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-0:4.18.0-372.19.1.el8_6.src.rpm",
-        "kernel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-abi-stablelists-0:4.18.0-372.19.1.el8_6.noarch.rpm",
-        "kernel-core-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-core-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-cross-headers-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-cross-headers-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debug-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debug-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debug-core-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debug-core-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debug-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debug-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debug-devel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debug-devel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debuginfo-common-aarch64-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debuginfo-common-x86_64-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debug-modules-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debug-modules-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-debug-modules-extra-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-debug-modules-extra-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-devel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-devel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-doc-0:4.18.0-372.19.1.el8_6.noarch.rpm",
-        "kernel-headers-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-headers-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-modules-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-modules-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-modules-extra-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-modules-extra-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-tools-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-tools-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-tools-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-tools-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-tools-libs-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-tools-libs-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "kernel-tools-libs-devel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "kernel-tools-libs-devel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "perf-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "perf-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "perf-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "perf-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "python3-perf-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "python3-perf-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
-        "python3-perf-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
-        "python3-perf-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: kernel security and bug fix update",
-  "topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-200",
+			"name": "CVE-2022-1012",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1012"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-32250",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32250"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: Small table perturb size in the TCP source port generation algorithm can lead to information leak (CVE-2022-1012)\n\n* kernel: a use-after-free write in the netfilter subsystem can lead to privilege escalation to root (CVE-2022-32250)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Softirq hrtimers are being placed on the per-CPU softirq clocks on isolcpu’s. (BZ#2090484)\n\n* enable/disable multiqueues repeatedly while ping local host, guest kernel panic (BZ#2093416)\n\n* Backport kernel audit enhancements and fixes from v5.13-rc1 to v5.16-rc6 (BZ#2095434)\n\n* blk_update_request: I/O error, dev nvme0n3, during xfs creation (BZ#2100150)\n\n* SCSI updates for Rocky Linux 8.7 (BZ#2100254)\n\n* Kernel bug on mm/slub.c:314 (BZ#2102251)\n\n* Implement new tc action for check_pkt_len (BZ#2102333)\n\n* too long timeout value with TIME_WAIT status of conntrack entry (BZ#2104002)\n\n* Connectx6-DX, mlx5 , backport   087032ee7021 (\"net/mlx5e: TC, Fix ct_clear overwriting ct action metadata\") (BZ#2104012)\n\n* mlx5: Software steering memory allocation failure, netperf  TCP_CRR with ct(). (BZ#2104013)\n\n* tcp: request_sock leak in Calico OCP (BZ#2104670)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064604",
+			"ticket": "2064604"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092427",
+			"ticket": "2092427"
+		}
+	],
+	"name": "RLSA-2022:5819",
+	"publishedAt": "2022-08-02T07:00:14Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bpftool-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"bpftool-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"bpftool-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"bpftool-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-0:4.18.0-372.19.1.el8_6.src.rpm",
+				"kernel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-abi-stablelists-0:4.18.0-372.19.1.el8_6.noarch.rpm",
+				"kernel-core-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-core-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-cross-headers-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-cross-headers-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debug-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debug-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debug-core-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debug-core-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debug-devel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debug-devel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debuginfo-common-aarch64-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debuginfo-common-x86_64-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debug-modules-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debug-modules-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-devel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-devel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-doc-0:4.18.0-372.19.1.el8_6.noarch.rpm",
+				"kernel-headers-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-headers-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-modules-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-modules-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-modules-extra-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-modules-extra-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-tools-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-tools-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-tools-libs-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-tools-libs-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"perf-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"perf-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"perf-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"perf-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"python3-perf-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"python3-perf-0:4.18.0-372.19.1.el8_6.x86_64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-372.19.1.el8_6.aarch64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-372.19.1.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel security and bug fix update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

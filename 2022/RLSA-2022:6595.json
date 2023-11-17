@@ -1,167 +1,167 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2020-28469",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28469"
-    },
-    {
-      "cvss3BaseScore": "7.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-      "cwe": "CWE-400",
-      "name": "CVE-2020-7788",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-33502",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33502"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-3807",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3807"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-212",
-      "name": "CVE-2022-29244",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29244"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-703",
-      "name": "CVE-2022-32212",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32212"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-444",
-      "name": "CVE-2022-32213",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32213"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-444",
-      "name": "CVE-2022-32214",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32214"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-444",
-      "name": "CVE-2022-32215",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32215"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-601",
-      "name": "CVE-2022-33987",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33987"
-    }
-  ],
-  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (16.16.0), nodejs-nodemon (2.0.19). (BZ#2124230, BZ#2124233)\n\nSecurity Fix(es):\n\n* nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788)\n\n* nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469)\n\n* nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807)\n\n* normalize-url: ReDoS for data URLs (CVE-2021-33502)\n\n* nodejs: npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace (CVE-2022-29244)\n\n* nodejs: DNS rebinding in --inspect via invalid IP addresses (CVE-2022-32212)\n\n* nodejs: HTTP request smuggling due to flawed parsing of Transfer-Encoding (CVE-2022-32213)\n\n* nodejs: HTTP request smuggling due to improper delimiting of header fields (CVE-2022-32214)\n\n* nodejs: HTTP request smuggling due to incorrect parsing of multi-line Transfer-Encoding (CVE-2022-32215)\n\n* got: missing verification of requested URLs allows redirects to UNIX sockets (CVE-2022-33987)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Rebase to the latest Nodejs 16 release [Rocky Linux-9] (BZ#2121019)\n\n* nodejs: Specify --with-default-icu-data-dir when using bootstrap build (BZ#2124299)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1907444",
-      "ticket": "1907444"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1945459",
-      "ticket": "1945459"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1964461",
-      "ticket": "1964461"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2007557",
-      "ticket": "2007557"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2098556",
-      "ticket": "2098556"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102001",
-      "ticket": "2102001"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105422",
-      "ticket": "2105422"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105426",
-      "ticket": "2105426"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105428",
-      "ticket": "2105428"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105430",
-      "ticket": "2105430"
-    },
-    {
-      "description": "* nodejs:16/nodejs: Rebase to the latest Nodejs 16 release [rhel-9]",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2121019",
-      "ticket": "2121019"
-    },
-    {
-      "description": "* nodejs: Specify --with-default-icu-data-dir when using bootstrap build",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2124299",
-      "ticket": "2124299"
-    }
-  ],
-  "name": "RLSA-2022:6595",
-  "publishedAt": "2022-09-20T11:37:49Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "nodejs-nodemon-0:2.0.19-1.el9_0.noarch.rpm",
-        "nodejs-nodemon-0:2.0.19-1.el9_0.src.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: nodejs and nodejs-nodemon security and bug fix update",
-  "topic": "An update is available for nodejs-nodemon.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2020-28469",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28469"
+		},
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-400",
+			"name": "CVE-2020-7788",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-33502",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33502"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-3807",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3807"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-212",
+			"name": "CVE-2022-29244",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29244"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-703",
+			"name": "CVE-2022-32212",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32212"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-32213",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32213"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-32214",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32214"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-32215",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32215"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-601",
+			"name": "CVE-2022-33987",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-33987"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (16.16.0), nodejs-nodemon (2.0.19). (BZ#2124230, BZ#2124233)\n\nSecurity Fix(es):\n\n* nodejs-ini: Prototype pollution via malicious INI file (CVE-2020-7788)\n\n* nodejs-glob-parent: Regular expression denial of service (CVE-2020-28469)\n\n* nodejs-ansi-regex: Regular expression denial of service (ReDoS) matching ANSI escape codes (CVE-2021-3807)\n\n* normalize-url: ReDoS for data URLs (CVE-2021-33502)\n\n* nodejs: npm pack ignores root-level .gitignore and .npmignore file exclusion directives when run in a workspace (CVE-2022-29244)\n\n* nodejs: DNS rebinding in --inspect via invalid IP addresses (CVE-2022-32212)\n\n* nodejs: HTTP request smuggling due to flawed parsing of Transfer-Encoding (CVE-2022-32213)\n\n* nodejs: HTTP request smuggling due to improper delimiting of header fields (CVE-2022-32214)\n\n* nodejs: HTTP request smuggling due to incorrect parsing of multi-line Transfer-Encoding (CVE-2022-32215)\n\n* got: missing verification of requested URLs allows redirects to UNIX sockets (CVE-2022-33987)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Rebase to the latest Nodejs 16 release [Rocky Linux-9] (BZ#2121019)\n\n* nodejs: Specify --with-default-icu-data-dir when using bootstrap build (BZ#2124299)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1907444",
+			"ticket": "1907444"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1945459",
+			"ticket": "1945459"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1964461",
+			"ticket": "1964461"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2007557",
+			"ticket": "2007557"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2098556",
+			"ticket": "2098556"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102001",
+			"ticket": "2102001"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105422",
+			"ticket": "2105422"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105426",
+			"ticket": "2105426"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105428",
+			"ticket": "2105428"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2105430",
+			"ticket": "2105430"
+		},
+		{
+			"description": "* nodejs:16/nodejs: Rebase to the latest Nodejs 16 release [rhel-9]",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2121019",
+			"ticket": "2121019"
+		},
+		{
+			"description": "* nodejs: Specify --with-default-icu-data-dir when using bootstrap build",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2124299",
+			"ticket": "2124299"
+		}
+	],
+	"name": "RLSA-2022:6595",
+	"publishedAt": "2022-09-20T11:37:49Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"nodejs-nodemon-0:2.0.19-1.el9_0.noarch.rpm",
+				"nodejs-nodemon-0:2.0.19-1.el9_0.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nodejs and nodejs-nodemon security and bug fix update",
+	"topic": "An update is available for nodejs-nodemon.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

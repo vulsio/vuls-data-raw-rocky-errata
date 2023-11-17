@@ -1,54 +1,54 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-770",
-      "name": "CVE-2020-11080",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11080"
-    }
-  ],
-  "description": "libnghttp2 is a library implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C.\n\nSecurity Fix(es):\n\n* nghttp2: overly large SETTINGS frames can lead to DoS (CVE-2020-11080)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1844929",
-      "ticket": "1844929"
-    }
-  ],
-  "name": "RLSA-2020:2755",
-  "publishedAt": "2020-06-25T16:31:29Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libnghttp2-0:1.33.0-3.el8_3.1.aarch64.rpm",
-        "libnghttp2-0:1.33.0-3.el8_3.1.i686.rpm",
-        "libnghttp2-0:1.33.0-3.el8_3.1.x86_64.rpm",
-        "libnghttp2-debuginfo-0:1.33.0-3.el8_3.1.aarch64.rpm",
-        "libnghttp2-debuginfo-0:1.33.0-3.el8_3.1.i686.rpm",
-        "libnghttp2-debuginfo-0:1.33.0-3.el8_3.1.x86_64.rpm",
-        "libnghttp2-devel-0:1.33.0-3.el8_3.1.aarch64.rpm",
-        "libnghttp2-devel-0:1.33.0-3.el8_3.1.i686.rpm",
-        "libnghttp2-devel-0:1.33.0-3.el8_3.1.x86_64.rpm",
-        "nghttp2-0:1.33.0-3.el8_3.1.aarch64.rpm",
-        "nghttp2-0:1.33.0-3.el8_3.1.src.rpm",
-        "nghttp2-0:1.33.0-3.el8_3.1.x86_64.rpm",
-        "nghttp2-debuginfo-0:1.33.0-3.el8_3.1.aarch64.rpm",
-        "nghttp2-debuginfo-0:1.33.0-3.el8_3.1.i686.rpm",
-        "nghttp2-debuginfo-0:1.33.0-3.el8_3.1.x86_64.rpm",
-        "nghttp2-debugsource-0:1.33.0-3.el8_3.1.aarch64.rpm",
-        "nghttp2-debugsource-0:1.33.0-3.el8_3.1.i686.rpm",
-        "nghttp2-debugsource-0:1.33.0-3.el8_3.1.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: nghttp2 security update",
-  "topic": "An update is available for nghttp2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-770",
+			"name": "CVE-2020-11080",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11080"
+		}
+	],
+	"description": "libnghttp2 is a library implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C.\n\nSecurity Fix(es):\n\n* nghttp2: overly large SETTINGS frames can lead to DoS (CVE-2020-11080)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1844929",
+			"ticket": "1844929"
+		}
+	],
+	"name": "RLSA-2020:2755",
+	"publishedAt": "2020-06-25T16:31:29Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libnghttp2-0:1.33.0-3.el8_3.1.aarch64.rpm",
+				"libnghttp2-0:1.33.0-3.el8_3.1.i686.rpm",
+				"libnghttp2-0:1.33.0-3.el8_3.1.x86_64.rpm",
+				"libnghttp2-debuginfo-0:1.33.0-3.el8_3.1.aarch64.rpm",
+				"libnghttp2-debuginfo-0:1.33.0-3.el8_3.1.i686.rpm",
+				"libnghttp2-debuginfo-0:1.33.0-3.el8_3.1.x86_64.rpm",
+				"libnghttp2-devel-0:1.33.0-3.el8_3.1.aarch64.rpm",
+				"libnghttp2-devel-0:1.33.0-3.el8_3.1.i686.rpm",
+				"libnghttp2-devel-0:1.33.0-3.el8_3.1.x86_64.rpm",
+				"nghttp2-0:1.33.0-3.el8_3.1.aarch64.rpm",
+				"nghttp2-0:1.33.0-3.el8_3.1.src.rpm",
+				"nghttp2-0:1.33.0-3.el8_3.1.x86_64.rpm",
+				"nghttp2-debuginfo-0:1.33.0-3.el8_3.1.aarch64.rpm",
+				"nghttp2-debuginfo-0:1.33.0-3.el8_3.1.i686.rpm",
+				"nghttp2-debuginfo-0:1.33.0-3.el8_3.1.x86_64.rpm",
+				"nghttp2-debugsource-0:1.33.0-3.el8_3.1.aarch64.rpm",
+				"nghttp2-debugsource-0:1.33.0-3.el8_3.1.i686.rpm",
+				"nghttp2-debugsource-0:1.33.0-3.el8_3.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nghttp2 security update",
+	"topic": "An update is available for nghttp2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

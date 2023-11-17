@@ -1,52 +1,52 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-32233",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32233"
-    }
-  ],
-  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: netfilter: use-after-free in nf_tables when processing batch requests can lead to privilege escalation (CVE-2023-32233)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* smpboot: Scheduler frequency invariance went wobbly, disabling! (BZ#2188316)\n\n* Crash: kernel BUG at kernel/locking/rtmutex.c:1338! (BZ#2188722)\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.8.z0 source tree. (BZ#2196667)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2196105",
-      "ticket": "2196105"
-    }
-  ],
-  "name": "RLSA-2023:3350",
-  "publishedAt": "2023-06-13T19:54:33.297987Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "kernel-rt-0:4.18.0-477.13.1.rt7.276.el8_8.src.rpm",
-        "kernel-rt-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-core-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-core-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-debuginfo-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-devel-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debuginfo-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debuginfo-common-x86_64-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-kvm-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-modules-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-debug-modules-extra-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-devel-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-kvm-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-modules-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
-        "kernel-rt-modules-extra-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: kernel-rt security and bug fix update",
-  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-32233",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32233"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: netfilter: use-after-free in nf_tables when processing batch requests can lead to privilege escalation (CVE-2023-32233)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* smpboot: Scheduler frequency invariance went wobbly, disabling! (BZ#2188316)\n\n* Crash: kernel BUG at kernel/locking/rtmutex.c:1338! (BZ#2188722)\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.8.z0 source tree. (BZ#2196667)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2196105",
+			"ticket": "2196105"
+		}
+	],
+	"name": "RLSA-2023:3350",
+	"publishedAt": "2023-06-13T19:54:33.297987Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-477.13.1.rt7.276.el8_8.src.rpm",
+				"kernel-rt-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-477.13.1.rt7.276.el8_8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

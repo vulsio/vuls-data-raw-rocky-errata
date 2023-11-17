@@ -1,64 +1,64 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-285",
-      "name": "CVE-2022-3787",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3787"
-    }
-  ],
-  "description": "The device-mapper-multipath packages provide tools that use the device-mapper multipath kernel module to manage multipath devices.\n\nSecurity Fix(es):\n\n* device-mapper-multipath: Regression of CVE-2022-41974 fix in Rocky Linux (CVE-2022-3787)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2138959",
-      "ticket": "2138959"
-    }
-  ],
-  "name": "RLSA-2022:7928",
-  "publishedAt": "2022-11-14T08:45:46Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "device-mapper-multipath-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "device-mapper-multipath-0:0.8.4-28.el8_7.1.src.rpm",
-        "device-mapper-multipath-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "device-mapper-multipath-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "device-mapper-multipath-debuginfo-0:0.8.4-28.el8_7.1.i686.rpm",
-        "device-mapper-multipath-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "device-mapper-multipath-debugsource-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "device-mapper-multipath-debugsource-0:0.8.4-28.el8_7.1.i686.rpm",
-        "device-mapper-multipath-debugsource-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "device-mapper-multipath-devel-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "device-mapper-multipath-devel-0:0.8.4-28.el8_7.1.i686.rpm",
-        "device-mapper-multipath-devel-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "device-mapper-multipath-libs-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "device-mapper-multipath-libs-0:0.8.4-28.el8_7.1.i686.rpm",
-        "device-mapper-multipath-libs-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "device-mapper-multipath-libs-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "device-mapper-multipath-libs-debuginfo-0:0.8.4-28.el8_7.1.i686.rpm",
-        "device-mapper-multipath-libs-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "kpartx-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "kpartx-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "kpartx-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "kpartx-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "libdmmp-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "libdmmp-0:0.8.4-28.el8_7.1.i686.rpm",
-        "libdmmp-0:0.8.4-28.el8_7.1.x86_64.rpm",
-        "libdmmp-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
-        "libdmmp-debuginfo-0:0.8.4-28.el8_7.1.i686.rpm",
-        "libdmmp-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: device-mapper-multipath security update",
-  "topic": "An update is available for device-mapper-multipath.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-285",
+			"name": "CVE-2022-3787",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3787"
+		}
+	],
+	"description": "The device-mapper-multipath packages provide tools that use the device-mapper multipath kernel module to manage multipath devices.\n\nSecurity Fix(es):\n\n* device-mapper-multipath: Regression of CVE-2022-41974 fix in Rocky Linux (CVE-2022-3787)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2138959",
+			"ticket": "2138959"
+		}
+	],
+	"name": "RLSA-2022:7928",
+	"publishedAt": "2022-11-14T08:45:46Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"device-mapper-multipath-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"device-mapper-multipath-0:0.8.4-28.el8_7.1.src.rpm",
+				"device-mapper-multipath-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"device-mapper-multipath-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"device-mapper-multipath-debuginfo-0:0.8.4-28.el8_7.1.i686.rpm",
+				"device-mapper-multipath-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"device-mapper-multipath-debugsource-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"device-mapper-multipath-debugsource-0:0.8.4-28.el8_7.1.i686.rpm",
+				"device-mapper-multipath-debugsource-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"device-mapper-multipath-devel-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"device-mapper-multipath-devel-0:0.8.4-28.el8_7.1.i686.rpm",
+				"device-mapper-multipath-devel-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"device-mapper-multipath-libs-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"device-mapper-multipath-libs-0:0.8.4-28.el8_7.1.i686.rpm",
+				"device-mapper-multipath-libs-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"device-mapper-multipath-libs-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"device-mapper-multipath-libs-debuginfo-0:0.8.4-28.el8_7.1.i686.rpm",
+				"device-mapper-multipath-libs-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"kpartx-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"kpartx-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"kpartx-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"kpartx-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"libdmmp-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"libdmmp-0:0.8.4-28.el8_7.1.i686.rpm",
+				"libdmmp-0:0.8.4-28.el8_7.1.x86_64.rpm",
+				"libdmmp-debuginfo-0:0.8.4-28.el8_7.1.aarch64.rpm",
+				"libdmmp-debuginfo-0:0.8.4-28.el8_7.1.i686.rpm",
+				"libdmmp-debuginfo-0:0.8.4-28.el8_7.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: device-mapper-multipath security update",
+	"topic": "An update is available for device-mapper-multipath.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

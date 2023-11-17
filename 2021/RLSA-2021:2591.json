@@ -1,39 +1,39 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "6.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-120",
-      "name": "CVE-2021-28211",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28211"
-    }
-  ],
-  "description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: possible heap corruption with LzmaUefiDecompressGetInfo (CVE-2021-28211)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883529",
-      "ticket": "1883529"
-    }
-  ],
-  "name": "RLSA-2021:2591",
-  "publishedAt": "2021-06-29T13:59:11Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "edk2-0:20200602gitca407c7246bf-4.el8_4.1.src.rpm",
-        "edk2-aarch64-0:20200602gitca407c7246bf-4.el8_4.1.noarch.rpm",
-        "edk2-ovmf-0:20200602gitca407c7246bf-4.el8_4.1.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: edk2 security update",
-  "topic": "An update is available for edk2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2021-28211",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28211"
+		}
+	],
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: possible heap corruption with LzmaUefiDecompressGetInfo (CVE-2021-28211)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883529",
+			"ticket": "1883529"
+		}
+	],
+	"name": "RLSA-2021:2591",
+	"publishedAt": "2021-06-29T13:59:11Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"edk2-0:20200602gitca407c7246bf-4.el8_4.1.src.rpm",
+				"edk2-aarch64-0:20200602gitca407c7246bf-4.el8_4.1.noarch.rpm",
+				"edk2-ovmf-0:20200602gitca407c7246bf-4.el8_4.1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: edk2 security update",
+	"topic": "An update is available for edk2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

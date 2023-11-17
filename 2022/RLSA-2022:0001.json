@@ -1,41 +1,41 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-44716",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716"
-    }
-  ],
-  "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang: net/http: limit growth of header canonicalization cache (CVE-2021-44716)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030801",
-      "ticket": "2030801"
-    }
-  ],
-  "name": "RLSA-2022:0001",
-  "publishedAt": "2022-01-03T07:30:31Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "grafana-0:7.5.9-5.el8_5.aarch64.rpm",
-        "grafana-0:7.5.9-5.el8_5.src.rpm",
-        "grafana-0:7.5.9-5.el8_5.x86_64.rpm",
-        "grafana-debuginfo-0:7.5.9-5.el8_5.aarch64.rpm",
-        "grafana-debuginfo-0:7.5.9-5.el8_5.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: grafana security update",
-  "topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-44716",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nSecurity Fix(es):\n\n* golang: net/http: limit growth of header canonicalization cache (CVE-2021-44716)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030801",
+			"ticket": "2030801"
+		}
+	],
+	"name": "RLSA-2022:0001",
+	"publishedAt": "2022-01-03T07:30:31Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-0:7.5.9-5.el8_5.aarch64.rpm",
+				"grafana-0:7.5.9-5.el8_5.src.rpm",
+				"grafana-0:7.5.9-5.el8_5.x86_64.rpm",
+				"grafana-debuginfo-0:7.5.9-5.el8_5.aarch64.rpm",
+				"grafana-debuginfo-0:7.5.9-5.el8_5.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: grafana security update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

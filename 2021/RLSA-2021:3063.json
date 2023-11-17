@@ -1,151 +1,151 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
-      "cwe": "CWE-20",
-      "name": "CVE-2020-36323",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36323"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2021-28875",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28875"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2021-28876",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28876"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2021-28877",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28877"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2021-28878",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28878"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->CWE-119",
-      "name": "CVE-2021-28879",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28879"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2021-31162",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31162"
-    }
-  ],
-  "description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries.\n\nThe following packages have been upgraded to a later upstream version: rust (1.52.1). (BZ#1953002)\n\nSecurity Fix(es):\n\n* rust: optimization for joining strings can cause uninitialized bytes to be exposed (CVE-2020-36323)\n\n* rust: heap-based buffer overflow in read_to_end() because it does not validate the return value from Read in an unsafe context (CVE-2021-28875)\n\n* rust: panic safety issue in Zip implementation (CVE-2021-28876)\n\n* rust: memory safety violation in Zip implementation for nested iter::Zips (CVE-2021-28877)\n\n* rust: memory safety violation in Zip implementation when next_back() and next() are used together (CVE-2021-28878)\n\n* rust: integer overflow in the Zip implementation can lead to a buffer overflow (CVE-2021-28879)\n\n* rust: double free in Vec::from_iter function if freeing the element panics (CVE-2021-31162)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nFor information on usage, see Using Rust Toolset linked in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949194",
-      "ticket": "1949194"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949198",
-      "ticket": "1949198"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949204",
-      "ticket": "1949204"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949207",
-      "ticket": "1949207"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949211",
-      "ticket": "1949211"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1950396",
-      "ticket": "1950396"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1950398",
-      "ticket": "1950398"
-    }
-  ],
-  "name": "RLSA-2021:3063",
-  "publishedAt": "2021-08-10T11:59:11Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "cargo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "cargo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "cargo-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "cargo-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "cargo-doc-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
-        "clippy-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "clippy-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "clippy-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "clippy-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rls-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rls-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rls-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rls-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-0:1.52.1-1.module+el8.4.0+641+ca238f88.src.rpm",
-        "rust-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-analysis-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-analysis-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-debugger-common-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
-        "rust-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-debugsource-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-debugsource-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-doc-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-doc-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rustfmt-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rustfmt-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rustfmt-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rustfmt-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-gdb-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
-        "rust-lldb-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
-        "rust-src-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
-        "rust-std-static-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-std-static-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
-        "rust-toolset-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
-        "rust-toolset-0:1.52.1-1.module+el8.4.0+641+ca238f88.src.rpm",
-        "rust-toolset-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: rust-toolset:rhel8 security, bug fix, and enhancement update",
-  "topic": "An update is available for rust-toolset, rust.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2020-36323",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36323"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-28875",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28875"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-28876",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28876"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-28877",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28877"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-28878",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28878"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->CWE-119",
+			"name": "CVE-2021-28879",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28879"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-31162",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31162"
+		}
+	],
+	"description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries.\n\nThe following packages have been upgraded to a later upstream version: rust (1.52.1). (BZ#1953002)\n\nSecurity Fix(es):\n\n* rust: optimization for joining strings can cause uninitialized bytes to be exposed (CVE-2020-36323)\n\n* rust: heap-based buffer overflow in read_to_end() because it does not validate the return value from Read in an unsafe context (CVE-2021-28875)\n\n* rust: panic safety issue in Zip implementation (CVE-2021-28876)\n\n* rust: memory safety violation in Zip implementation for nested iter::Zips (CVE-2021-28877)\n\n* rust: memory safety violation in Zip implementation when next_back() and next() are used together (CVE-2021-28878)\n\n* rust: integer overflow in the Zip implementation can lead to a buffer overflow (CVE-2021-28879)\n\n* rust: double free in Vec::from_iter function if freeing the element panics (CVE-2021-31162)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nFor information on usage, see Using Rust Toolset linked in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949194",
+			"ticket": "1949194"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949198",
+			"ticket": "1949198"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949204",
+			"ticket": "1949204"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949207",
+			"ticket": "1949207"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1949211",
+			"ticket": "1949211"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1950396",
+			"ticket": "1950396"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1950398",
+			"ticket": "1950398"
+		}
+	],
+	"name": "RLSA-2021:3063",
+	"publishedAt": "2021-08-10T11:59:11Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cargo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"cargo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"cargo-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"cargo-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"cargo-doc-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
+				"clippy-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"clippy-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"clippy-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"clippy-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rls-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rls-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rls-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rls-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-0:1.52.1-1.module+el8.4.0+641+ca238f88.src.rpm",
+				"rust-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-analysis-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-analysis-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-debugger-common-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
+				"rust-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-debugsource-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-debugsource-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-doc-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-doc-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rustfmt-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rustfmt-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rustfmt-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rustfmt-debuginfo-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-gdb-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
+				"rust-lldb-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
+				"rust-src-0:1.52.1-1.module+el8.4.0+641+ca238f88.noarch.rpm",
+				"rust-std-static-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-std-static-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm",
+				"rust-toolset-0:1.52.1-1.module+el8.4.0+641+ca238f88.aarch64.rpm",
+				"rust-toolset-0:1.52.1-1.module+el8.4.0+641+ca238f88.src.rpm",
+				"rust-toolset-0:1.52.1-1.module+el8.4.0+641+ca238f88.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: rust-toolset:rhel8 security, bug fix, and enhancement update",
+	"topic": "An update is available for rust-toolset, rust.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

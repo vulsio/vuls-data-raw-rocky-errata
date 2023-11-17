@@ -1,120 +1,120 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
-      "cwe": "CWE-190->CWE-122->CWE-787",
-      "name": "CVE-2020-10543",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10543"
-    },
-    {
-      "cvss3BaseScore": "8.6",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
-      "cwe": "CWE-190->CWE-185",
-      "name": "CVE-2020-10878",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10878"
-    }
-  ],
-  "description": "Perl is a high-level programming language that is commonly used for system administration utilities and web programming.\n\nSecurity Fix(es):\n\n* perl: heap-based buffer overflow in regular expression compiler leads to DoS (CVE-2020-10543)\n\n* perl: corruption of intermediate language state of compiled regular expression due to integer overflow leads to DoS (CVE-2020-10878)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1807120",
-      "ticket": "1807120"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1837975",
-      "ticket": "1837975"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1837988",
-      "ticket": "1837988"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903503",
-      "ticket": "1903503"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1913693",
-      "ticket": "1913693"
-    }
-  ],
-  "name": "RLSA-2021:1678",
-  "publishedAt": "2021-05-18T05:49:06Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "perl-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-4:5.26.3-419.el8.src.rpm",
-        "perl-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-Attribute-Handlers-0:0.99-419.el8.noarch.rpm",
-        "perl-debuginfo-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-debuginfo-4:5.26.3-419.el8.i686.rpm",
-        "perl-debuginfo-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-debugsource-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-debugsource-4:5.26.3-419.el8.i686.rpm",
-        "perl-debugsource-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-devel-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-devel-4:5.26.3-419.el8.i686.rpm",
-        "perl-devel-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-Devel-Peek-0:1.26-419.el8.aarch64.rpm",
-        "perl-Devel-Peek-0:1.26-419.el8.x86_64.rpm",
-        "perl-Devel-Peek-debuginfo-0:1.26-419.el8.aarch64.rpm",
-        "perl-Devel-Peek-debuginfo-0:1.26-419.el8.x86_64.rpm",
-        "perl-Devel-SelfStubber-0:1.06-419.el8.noarch.rpm",
-        "perl-Errno-0:1.28-419.el8.aarch64.rpm",
-        "perl-Errno-0:1.28-419.el8.x86_64.rpm",
-        "perl-ExtUtils-Embed-0:1.34-419.el8.noarch.rpm",
-        "perl-ExtUtils-Miniperl-0:1.06-419.el8.noarch.rpm",
-        "perl-interpreter-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-interpreter-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-interpreter-debuginfo-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-interpreter-debuginfo-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-IO-0:1.38-419.el8.aarch64.rpm",
-        "perl-IO-0:1.38-419.el8.x86_64.rpm",
-        "perl-IO-debuginfo-0:1.38-419.el8.aarch64.rpm",
-        "perl-IO-debuginfo-0:1.38-419.el8.x86_64.rpm",
-        "perl-IO-Zlib-1:1.10-419.el8.noarch.rpm",
-        "perl-libnetcfg-4:5.26.3-419.el8.noarch.rpm",
-        "perl-libs-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-libs-4:5.26.3-419.el8.i686.rpm",
-        "perl-libs-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-libs-debuginfo-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-libs-debuginfo-4:5.26.3-419.el8.i686.rpm",
-        "perl-libs-debuginfo-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-Locale-Maketext-Simple-1:0.21-419.el8.noarch.rpm",
-        "perl-macros-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-macros-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-Math-Complex-0:1.59-419.el8.noarch.rpm",
-        "perl-Memoize-0:1.03-419.el8.noarch.rpm",
-        "perl-Module-Loaded-1:0.08-419.el8.noarch.rpm",
-        "perl-Net-Ping-0:2.55-419.el8.noarch.rpm",
-        "perl-open-0:1.11-419.el8.noarch.rpm",
-        "perl-Pod-Html-0:1.22.02-419.el8.noarch.rpm",
-        "perl-SelfLoader-0:1.23-419.el8.noarch.rpm",
-        "perl-Test-0:1.30-419.el8.noarch.rpm",
-        "perl-tests-4:5.26.3-419.el8.aarch64.rpm",
-        "perl-tests-4:5.26.3-419.el8.x86_64.rpm",
-        "perl-Time-Piece-0:1.31-419.el8.aarch64.rpm",
-        "perl-Time-Piece-0:1.31-419.el8.x86_64.rpm",
-        "perl-Time-Piece-debuginfo-0:1.31-419.el8.aarch64.rpm",
-        "perl-Time-Piece-debuginfo-0:1.31-419.el8.x86_64.rpm",
-        "perl-utils-0:5.26.3-419.el8.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: perl security and bug fix update",
-  "topic": "An update is available for perl.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-190->CWE-122->CWE-787",
+			"name": "CVE-2020-10543",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10543"
+		},
+		{
+			"cvss3BaseScore": "8.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-190->CWE-185",
+			"name": "CVE-2020-10878",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10878"
+		}
+	],
+	"description": "Perl is a high-level programming language that is commonly used for system administration utilities and web programming.\n\nSecurity Fix(es):\n\n* perl: heap-based buffer overflow in regular expression compiler leads to DoS (CVE-2020-10543)\n\n* perl: corruption of intermediate language state of compiled regular expression due to integer overflow leads to DoS (CVE-2020-10878)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1807120",
+			"ticket": "1807120"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1837975",
+			"ticket": "1837975"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1837988",
+			"ticket": "1837988"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903503",
+			"ticket": "1903503"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1913693",
+			"ticket": "1913693"
+		}
+	],
+	"name": "RLSA-2021:1678",
+	"publishedAt": "2021-05-18T05:49:06Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"perl-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-4:5.26.3-419.el8.src.rpm",
+				"perl-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-Attribute-Handlers-0:0.99-419.el8.noarch.rpm",
+				"perl-debuginfo-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-debuginfo-4:5.26.3-419.el8.i686.rpm",
+				"perl-debuginfo-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-debugsource-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-debugsource-4:5.26.3-419.el8.i686.rpm",
+				"perl-debugsource-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-devel-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-devel-4:5.26.3-419.el8.i686.rpm",
+				"perl-devel-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-Devel-Peek-0:1.26-419.el8.aarch64.rpm",
+				"perl-Devel-Peek-0:1.26-419.el8.x86_64.rpm",
+				"perl-Devel-Peek-debuginfo-0:1.26-419.el8.aarch64.rpm",
+				"perl-Devel-Peek-debuginfo-0:1.26-419.el8.x86_64.rpm",
+				"perl-Devel-SelfStubber-0:1.06-419.el8.noarch.rpm",
+				"perl-Errno-0:1.28-419.el8.aarch64.rpm",
+				"perl-Errno-0:1.28-419.el8.x86_64.rpm",
+				"perl-ExtUtils-Embed-0:1.34-419.el8.noarch.rpm",
+				"perl-ExtUtils-Miniperl-0:1.06-419.el8.noarch.rpm",
+				"perl-interpreter-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-interpreter-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-interpreter-debuginfo-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-interpreter-debuginfo-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-IO-0:1.38-419.el8.aarch64.rpm",
+				"perl-IO-0:1.38-419.el8.x86_64.rpm",
+				"perl-IO-debuginfo-0:1.38-419.el8.aarch64.rpm",
+				"perl-IO-debuginfo-0:1.38-419.el8.x86_64.rpm",
+				"perl-IO-Zlib-1:1.10-419.el8.noarch.rpm",
+				"perl-libnetcfg-4:5.26.3-419.el8.noarch.rpm",
+				"perl-libs-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-libs-4:5.26.3-419.el8.i686.rpm",
+				"perl-libs-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-libs-debuginfo-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-libs-debuginfo-4:5.26.3-419.el8.i686.rpm",
+				"perl-libs-debuginfo-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-Locale-Maketext-Simple-1:0.21-419.el8.noarch.rpm",
+				"perl-macros-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-macros-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-Math-Complex-0:1.59-419.el8.noarch.rpm",
+				"perl-Memoize-0:1.03-419.el8.noarch.rpm",
+				"perl-Module-Loaded-1:0.08-419.el8.noarch.rpm",
+				"perl-Net-Ping-0:2.55-419.el8.noarch.rpm",
+				"perl-open-0:1.11-419.el8.noarch.rpm",
+				"perl-Pod-Html-0:1.22.02-419.el8.noarch.rpm",
+				"perl-SelfLoader-0:1.23-419.el8.noarch.rpm",
+				"perl-Test-0:1.30-419.el8.noarch.rpm",
+				"perl-tests-4:5.26.3-419.el8.aarch64.rpm",
+				"perl-tests-4:5.26.3-419.el8.x86_64.rpm",
+				"perl-Time-Piece-0:1.31-419.el8.aarch64.rpm",
+				"perl-Time-Piece-0:1.31-419.el8.x86_64.rpm",
+				"perl-Time-Piece-debuginfo-0:1.31-419.el8.aarch64.rpm",
+				"perl-Time-Piece-debuginfo-0:1.31-419.el8.x86_64.rpm",
+				"perl-utils-0:5.26.3-419.el8.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: perl security and bug fix update",
+	"topic": "An update is available for perl.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

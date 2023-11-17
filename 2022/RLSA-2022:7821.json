@@ -1,68 +1,68 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
-      "cwe": "CWE-338",
-      "name": "CVE-2022-35255",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35255"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-444",
-      "name": "CVE-2022-35256",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35256"
-    }
-  ],
-  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.9.1). (BZ#2130559, BZ#2131750)\n\nSecurity Fix(es):\n\n* nodejs: weak randomness in WebCrypto keygen (CVE-2022-35255)\n\n* nodejs: HTTP Request Smuggling due to incorrect parsing of header fields (CVE-2022-35256)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2130517",
-      "ticket": "2130517"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2130518",
-      "ticket": "2130518"
-    }
-  ],
-  "name": "RLSA-2022:7821",
-  "publishedAt": "2022-11-08T10:51:14Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "nodejs-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
-        "nodejs-1:18.9.1-1.module+el8.7.0+1072+5b168780.src.rpm",
-        "nodejs-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
-        "nodejs-debuginfo-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
-        "nodejs-debuginfo-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
-        "nodejs-debugsource-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
-        "nodejs-debugsource-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
-        "nodejs-devel-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
-        "nodejs-devel-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
-        "nodejs-docs-1:18.9.1-1.module+el8.7.0+1072+5b168780.noarch.rpm",
-        "nodejs-full-i18n-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
-        "nodejs-full-i18n-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
-        "nodejs-nodemon-0:2.0.19-1.module+el8.7.0+1072+5b168780.noarch.rpm",
-        "nodejs-nodemon-0:2.0.19-1.module+el8.7.0+1072+5b168780.src.rpm",
-        "nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
-        "nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.src.rpm",
-        "nodejs-packaging-bundler-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
-        "npm-1:8.19.1-1.18.9.1.1.module+el8.7.0+1072+5b168780.aarch64.rpm",
-        "npm-1:8.19.1-1.18.9.1.1.module+el8.7.0+1072+5b168780.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: nodejs:18 security update",
-  "topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+			"cwe": "CWE-338",
+			"name": "CVE-2022-35255",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35255"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-35256",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-35256"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (18.9.1). (BZ#2130559, BZ#2131750)\n\nSecurity Fix(es):\n\n* nodejs: weak randomness in WebCrypto keygen (CVE-2022-35255)\n\n* nodejs: HTTP Request Smuggling due to incorrect parsing of header fields (CVE-2022-35256)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2130517",
+			"ticket": "2130517"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2130518",
+			"ticket": "2130518"
+		}
+	],
+	"name": "RLSA-2022:7821",
+	"publishedAt": "2022-11-08T10:51:14Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
+				"nodejs-1:18.9.1-1.module+el8.7.0+1072+5b168780.src.rpm",
+				"nodejs-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
+				"nodejs-debuginfo-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
+				"nodejs-debuginfo-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
+				"nodejs-debugsource-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
+				"nodejs-debugsource-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
+				"nodejs-devel-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
+				"nodejs-devel-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
+				"nodejs-docs-1:18.9.1-1.module+el8.7.0+1072+5b168780.noarch.rpm",
+				"nodejs-full-i18n-1:18.9.1-1.module+el8.7.0+1072+5b168780.aarch64.rpm",
+				"nodejs-full-i18n-1:18.9.1-1.module+el8.7.0+1072+5b168780.x86_64.rpm",
+				"nodejs-nodemon-0:2.0.19-1.module+el8.7.0+1072+5b168780.noarch.rpm",
+				"nodejs-nodemon-0:2.0.19-1.module+el8.7.0+1072+5b168780.src.rpm",
+				"nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
+				"nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.src.rpm",
+				"nodejs-packaging-bundler-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
+				"npm-1:8.19.1-1.18.9.1.1.module+el8.7.0+1072+5b168780.aarch64.rpm",
+				"npm-1:8.19.1-1.18.9.1.1.module+el8.7.0+1072+5b168780.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nodejs:18 security update",
+	"topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

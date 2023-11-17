@@ -1,81 +1,81 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
-      "cwe": "CWE-119->CWE-122",
-      "name": "CVE-2019-17594",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17594"
-    },
-    {
-      "cvss3BaseScore": "5.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-119->CWE-122",
-      "name": "CVE-2019-17595",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17595"
-    }
-  ],
-  "description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo.\n\nSecurity Fix(es):\n\n* ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c (CVE-2019-17594)\n\n* ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c (CVE-2019-17595)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1766617",
-      "ticket": "1766617"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1766745",
-      "ticket": "1766745"
-    }
-  ],
-  "name": "RLSA-2021:4426",
-  "publishedAt": "2021-11-09T09:21:17Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "ncurses-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-0:6.1-9.20180224.el8.src.rpm",
-        "ncurses-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-base-0:6.1-9.20180224.el8.noarch.rpm",
-        "ncurses-c++-libs-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-c++-libs-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-c++-libs-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-c++-libs-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-c++-libs-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-c++-libs-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-compat-libs-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-compat-libs-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-compat-libs-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-compat-libs-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-compat-libs-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-compat-libs-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-debugsource-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-debugsource-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-debugsource-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-devel-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-devel-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-devel-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-libs-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-libs-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-libs-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-libs-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
-        "ncurses-libs-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
-        "ncurses-libs-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
-        "ncurses-term-0:6.1-9.20180224.el8.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: ncurses security update",
-  "topic": "An update is available for ncurses.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-119->CWE-122",
+			"name": "CVE-2019-17594",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17594"
+		},
+		{
+			"cvss3BaseScore": "5.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-119->CWE-122",
+			"name": "CVE-2019-17595",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-17595"
+		}
+	],
+	"description": "The ncurses (new curses) library routines are a terminal-independent method of updating character screens with reasonable optimization. The ncurses packages contain support utilities including a terminfo compiler tic, a decompiler infocmp, clear, tput, tset, and a termcap conversion tool captoinfo.\n\nSecurity Fix(es):\n\n* ncurses: heap-based buffer overflow in the _nc_find_entry function in tinfo/comp_hash.c (CVE-2019-17594)\n\n* ncurses: heap-based buffer overflow in the fmt_entry function in tinfo/comp_hash.c (CVE-2019-17595)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1766617",
+			"ticket": "1766617"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1766745",
+			"ticket": "1766745"
+		}
+	],
+	"name": "RLSA-2021:4426",
+	"publishedAt": "2021-11-09T09:21:17Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"ncurses-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-0:6.1-9.20180224.el8.src.rpm",
+				"ncurses-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-base-0:6.1-9.20180224.el8.noarch.rpm",
+				"ncurses-c++-libs-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-c++-libs-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-c++-libs-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-c++-libs-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-c++-libs-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-c++-libs-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-compat-libs-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-compat-libs-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-compat-libs-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-compat-libs-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-compat-libs-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-compat-libs-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-debugsource-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-debugsource-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-debugsource-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-devel-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-devel-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-devel-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-libs-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-libs-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-libs-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-libs-debuginfo-0:6.1-9.20180224.el8.aarch64.rpm",
+				"ncurses-libs-debuginfo-0:6.1-9.20180224.el8.i686.rpm",
+				"ncurses-libs-debuginfo-0:6.1-9.20180224.el8.x86_64.rpm",
+				"ncurses-term-0:6.1-9.20180224.el8.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: ncurses security update",
+	"topic": "An update is available for ncurses.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

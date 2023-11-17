@@ -1,77 +1,77 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-32002",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32002"
-    },
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-32006",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32006"
-    },
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-32559",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32559"
-    }
-  ],
-  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Permissions policies can be bypassed via Module._load (CVE-2023-32002)\n\n* nodejs: Permissions policies can impersonate other modules in using module.constructor.createRequire() (CVE-2023-32006)\n\n* nodejs: Permissions policies can be bypassed via process.binding (CVE-2023-32559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs: Rebase to the latest Nodejs 16 release [rhel-9] (BZ#2236434)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2230948",
-      "ticket": "2230948"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2230955",
-      "ticket": "2230955"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2230956",
-      "ticket": "2230956"
-    },
-    {
-      "description": "* nodejs: Rebase to the latest Nodejs 16 release [rhel-9]",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2236434",
-      "ticket": "2236434"
-    }
-  ],
-  "name": "RLSA-2023:5532",
-  "publishedAt": "2023-10-14T02:08:35.099316Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "nodejs-1:16.20.2-1.el9_2.aarch64.rpm",
-        "nodejs-1:16.20.2-1.el9_2.src.rpm",
-        "nodejs-debuginfo-1:16.20.2-1.el9_2.aarch64.rpm",
-        "nodejs-debugsource-1:16.20.2-1.el9_2.aarch64.rpm",
-        "nodejs-docs-1:16.20.2-1.el9_2.noarch.rpm",
-        "nodejs-full-i18n-1:16.20.2-1.el9_2.aarch64.rpm",
-        "nodejs-libs-1:16.20.2-1.el9_2.aarch64.rpm",
-        "nodejs-libs-debuginfo-1:16.20.2-1.el9_2.aarch64.rpm",
-        "npm-1:8.19.4-1.16.20.2.1.el9_2.aarch64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: nodejs security and bug fix update",
-  "topic": "An update is available for nodejs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-32002",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32002"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-32006",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32006"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-32559",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-32559"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Permissions policies can be bypassed via Module._load (CVE-2023-32002)\n\n* nodejs: Permissions policies can impersonate other modules in using module.constructor.createRequire() (CVE-2023-32006)\n\n* nodejs: Permissions policies can be bypassed via process.binding (CVE-2023-32559)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs: Rebase to the latest Nodejs 16 release [rhel-9] (BZ#2236434)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2230948",
+			"ticket": "2230948"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2230955",
+			"ticket": "2230955"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2230956",
+			"ticket": "2230956"
+		},
+		{
+			"description": "* nodejs: Rebase to the latest Nodejs 16 release [rhel-9]",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2236434",
+			"ticket": "2236434"
+		}
+	],
+	"name": "RLSA-2023:5532",
+	"publishedAt": "2023-10-14T02:08:35.099316Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"nodejs-1:16.20.2-1.el9_2.aarch64.rpm",
+				"nodejs-1:16.20.2-1.el9_2.src.rpm",
+				"nodejs-debuginfo-1:16.20.2-1.el9_2.aarch64.rpm",
+				"nodejs-debugsource-1:16.20.2-1.el9_2.aarch64.rpm",
+				"nodejs-docs-1:16.20.2-1.el9_2.noarch.rpm",
+				"nodejs-full-i18n-1:16.20.2-1.el9_2.aarch64.rpm",
+				"nodejs-libs-1:16.20.2-1.el9_2.aarch64.rpm",
+				"nodejs-libs-debuginfo-1:16.20.2-1.el9_2.aarch64.rpm",
+				"npm-1:8.19.4-1.16.20.2.1.el9_2.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nodejs security and bug fix update",
+	"topic": "An update is available for nodejs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

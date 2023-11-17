@@ -1,44 +1,44 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-863",
-      "name": "CVE-2021-20179",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20179"
-    }
-  ],
-  "description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* pki-core: Unprivileged users can renew any certificate (CVE-2021-20179)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1914379",
-      "ticket": "1914379"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1933146",
-      "ticket": "1933146"
-    }
-  ],
-  "name": "RLSA-2021:0966",
-  "publishedAt": "2021-03-23T10:29:41Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
-        "ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.src.rpm",
-        "ldapjdk-javadoc-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: pki-core:10.6 security update",
-  "topic": "An update is available for ldapjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-863",
+			"name": "CVE-2021-20179",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20179"
+		}
+	],
+	"description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* pki-core: Unprivileged users can renew any certificate (CVE-2021-20179)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1914379",
+			"ticket": "1914379"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1933146",
+			"ticket": "1933146"
+		}
+	],
+	"name": "RLSA-2021:0966",
+	"publishedAt": "2021-03-23T10:29:41Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+				"ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.src.rpm",
+				"ldapjdk-javadoc-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: pki-core:10.6 security update",
+	"topic": "An update is available for ldapjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

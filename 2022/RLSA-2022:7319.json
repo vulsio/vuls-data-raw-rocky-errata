@@ -1,64 +1,64 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2022-2585",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2585"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-276",
-      "name": "CVE-2022-30594",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30594"
-    }
-  ],
-  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* posix cpu timer use-after-free may lead to local privilege escalation (CVE-2022-2585)\n\n* Unprivileged users may use PTRACE_SEIZE to set PTRACE_O_SUSPEND_SECCOMP option (CVE-2022-30594)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Update RT source tree to the latest Rocky Linux-9.0.z4 Batch (BZ#2123498)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2085300",
-      "ticket": "2085300"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2114874",
-      "ticket": "2114874"
-    }
-  ],
-  "name": "RLSA-2022:7319",
-  "publishedAt": "2022-11-02T13:52:24Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "kernel-rt-0:5.14.0-70.30.1.rt21.102.el9.src.rpm",
-        "kernel-rt-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-core-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-core-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-debuginfo-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-devel-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debuginfo-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-kvm-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-modules-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-debug-modules-extra-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-devel-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-kvm-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-modules-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
-        "kernel-rt-modules-extra-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: kernel-rt security and bug fix update",
-  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-2585",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2585"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-276",
+			"name": "CVE-2022-30594",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30594"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* posix cpu timer use-after-free may lead to local privilege escalation (CVE-2022-2585)\n\n* Unprivileged users may use PTRACE_SEIZE to set PTRACE_O_SUSPEND_SECCOMP option (CVE-2022-30594)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Update RT source tree to the latest Rocky Linux-9.0.z4 Batch (BZ#2123498)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2085300",
+			"ticket": "2085300"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2114874",
+			"ticket": "2114874"
+		}
+	],
+	"name": "RLSA-2022:7319",
+	"publishedAt": "2022-11-02T13:52:24Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"kernel-rt-0:5.14.0-70.30.1.rt21.102.el9.src.rpm",
+				"kernel-rt-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-core-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-core-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-devel-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debuginfo-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-modules-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-devel-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-kvm-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-modules-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm",
+				"kernel-rt-modules-extra-0:5.14.0-70.30.1.rt21.102.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

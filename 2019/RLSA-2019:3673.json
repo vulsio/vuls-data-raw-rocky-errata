@@ -1,51 +1,51 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "4.3",
-      "cvss3ScoringVector": "CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-117",
-      "name": "CVE-2018-10932",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10932"
-    }
-  ],
-  "description": "The lldpad packages provide the Linux user space daemon and configuration tool for Intel's Link Layer Discovery Protocol (LLDP) Agent with Enhanced Ethernet support.\n\nSecurity Fix(es):\n\n* lldptool: improper sanitization of shell-escape codes (CVE-2018-10932)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.1 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1614896",
-      "ticket": "1614896"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1727326",
-      "ticket": "1727326"
-    }
-  ],
-  "name": "RLSA-2019:3673",
-  "publishedAt": "2019-11-05T18:14:00Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "lldpad-0:1.0.1-13.git036e314.el8.aarch64.rpm",
-        "lldpad-0:1.0.1-13.git036e314.el8.i686.rpm",
-        "lldpad-0:1.0.1-13.git036e314.el8.src.rpm",
-        "lldpad-0:1.0.1-13.git036e314.el8.x86_64.rpm",
-        "lldpad-debuginfo-0:1.0.1-13.git036e314.el8.aarch64.rpm",
-        "lldpad-debuginfo-0:1.0.1-13.git036e314.el8.i686.rpm",
-        "lldpad-debuginfo-0:1.0.1-13.git036e314.el8.x86_64.rpm",
-        "lldpad-debugsource-0:1.0.1-13.git036e314.el8.aarch64.rpm",
-        "lldpad-debugsource-0:1.0.1-13.git036e314.el8.i686.rpm",
-        "lldpad-debugsource-0:1.0.1-13.git036e314.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: lldpad security and bug fix update",
-  "topic": "An update is available for lldpad.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-117",
+			"name": "CVE-2018-10932",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10932"
+		}
+	],
+	"description": "The lldpad packages provide the Linux user space daemon and configuration tool for Intel's Link Layer Discovery Protocol (LLDP) Agent with Enhanced Ethernet support.\n\nSecurity Fix(es):\n\n* lldptool: improper sanitization of shell-escape codes (CVE-2018-10932)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1614896",
+			"ticket": "1614896"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1727326",
+			"ticket": "1727326"
+		}
+	],
+	"name": "RLSA-2019:3673",
+	"publishedAt": "2019-11-05T18:14:00Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"lldpad-0:1.0.1-13.git036e314.el8.aarch64.rpm",
+				"lldpad-0:1.0.1-13.git036e314.el8.i686.rpm",
+				"lldpad-0:1.0.1-13.git036e314.el8.src.rpm",
+				"lldpad-0:1.0.1-13.git036e314.el8.x86_64.rpm",
+				"lldpad-debuginfo-0:1.0.1-13.git036e314.el8.aarch64.rpm",
+				"lldpad-debuginfo-0:1.0.1-13.git036e314.el8.i686.rpm",
+				"lldpad-debuginfo-0:1.0.1-13.git036e314.el8.x86_64.rpm",
+				"lldpad-debugsource-0:1.0.1-13.git036e314.el8.aarch64.rpm",
+				"lldpad-debugsource-0:1.0.1-13.git036e314.el8.i686.rpm",
+				"lldpad-debugsource-0:1.0.1-13.git036e314.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: lldpad security and bug fix update",
+	"topic": "An update is available for lldpad.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,192 +1,192 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-682->CWE-130",
-      "name": "CVE-2021-45960",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45960"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2021-46143",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-22822",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-22823",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-22824",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-22825",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-22826",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-22827",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-23852",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23852"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-838",
-      "name": "CVE-2022-25235",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25235"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-179",
-      "name": "CVE-2022-25236",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25236"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->CWE-787",
-      "name": "CVE-2022-25315",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25315"
-    }
-  ],
-  "description": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235)\n\n* expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236)\n\n* expat: Integer overflow in storeRawNames() (CVE-2022-25315)\n\n* expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960)\n\n* expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143)\n\n* expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822)\n\n* expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823)\n\n* expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824)\n\n* expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825)\n\n* expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826)\n\n* expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827)\n\n* expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044451",
-      "ticket": "2044451"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044455",
-      "ticket": "2044455"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044457",
-      "ticket": "2044457"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044464",
-      "ticket": "2044464"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044467",
-      "ticket": "2044467"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044479",
-      "ticket": "2044479"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044484",
-      "ticket": "2044484"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044488",
-      "ticket": "2044488"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044613",
-      "ticket": "2044613"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056363",
-      "ticket": "2056363"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056366",
-      "ticket": "2056366"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056370",
-      "ticket": "2056370"
-    }
-  ],
-  "name": "RLSA-2022:0951",
-  "publishedAt": "2022-03-16T15:13:06Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "expat-0:2.2.5-4.el8_5.3.aarch64.rpm",
-        "expat-0:2.2.5-4.el8_5.3.i686.rpm",
-        "expat-0:2.2.5-4.el8_5.3.src.rpm",
-        "expat-0:2.2.5-4.el8_5.3.x86_64.rpm",
-        "expat-debuginfo-0:2.2.5-4.el8_5.3.aarch64.rpm",
-        "expat-debuginfo-0:2.2.5-4.el8_5.3.i686.rpm",
-        "expat-debuginfo-0:2.2.5-4.el8_5.3.x86_64.rpm",
-        "expat-debugsource-0:2.2.5-4.el8_5.3.aarch64.rpm",
-        "expat-debugsource-0:2.2.5-4.el8_5.3.i686.rpm",
-        "expat-debugsource-0:2.2.5-4.el8_5.3.x86_64.rpm",
-        "expat-devel-0:2.2.5-4.el8_5.3.aarch64.rpm",
-        "expat-devel-0:2.2.5-4.el8_5.3.i686.rpm",
-        "expat-devel-0:2.2.5-4.el8_5.3.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: expat security update",
-  "topic": "An update is available for expat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-682->CWE-130",
+			"name": "CVE-2021-45960",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45960"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2021-46143",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22822",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22823",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22824",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22825",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22826",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22827",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-23852",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23852"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-838",
+			"name": "CVE-2022-25235",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25235"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-179",
+			"name": "CVE-2022-25236",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25236"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->CWE-787",
+			"name": "CVE-2022-25315",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25315"
+		}
+	],
+	"description": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: Malformed 2- and 3-byte UTF-8 sequences can lead to arbitrary code execution (CVE-2022-25235)\n\n* expat: Namespace-separator characters in \"xmlns[:prefix]\" attribute values can lead to arbitrary code execution (CVE-2022-25236)\n\n* expat: Integer overflow in storeRawNames() (CVE-2022-25315)\n\n* expat: Large number of prefixed XML attributes on a single tag can crash libexpat (CVE-2021-45960)\n\n* expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143)\n\n* expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822)\n\n* expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823)\n\n* expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824)\n\n* expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825)\n\n* expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826)\n\n* expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827)\n\n* expat: Integer overflow in function XML_GetBuffer (CVE-2022-23852)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044451",
+			"ticket": "2044451"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044455",
+			"ticket": "2044455"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044457",
+			"ticket": "2044457"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044464",
+			"ticket": "2044464"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044467",
+			"ticket": "2044467"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044479",
+			"ticket": "2044479"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044484",
+			"ticket": "2044484"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044488",
+			"ticket": "2044488"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044613",
+			"ticket": "2044613"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056363",
+			"ticket": "2056363"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056366",
+			"ticket": "2056366"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056370",
+			"ticket": "2056370"
+		}
+	],
+	"name": "RLSA-2022:0951",
+	"publishedAt": "2022-03-16T15:13:06Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"expat-0:2.2.5-4.el8_5.3.aarch64.rpm",
+				"expat-0:2.2.5-4.el8_5.3.i686.rpm",
+				"expat-0:2.2.5-4.el8_5.3.src.rpm",
+				"expat-0:2.2.5-4.el8_5.3.x86_64.rpm",
+				"expat-debuginfo-0:2.2.5-4.el8_5.3.aarch64.rpm",
+				"expat-debuginfo-0:2.2.5-4.el8_5.3.i686.rpm",
+				"expat-debuginfo-0:2.2.5-4.el8_5.3.x86_64.rpm",
+				"expat-debugsource-0:2.2.5-4.el8_5.3.aarch64.rpm",
+				"expat-debugsource-0:2.2.5-4.el8_5.3.i686.rpm",
+				"expat-debugsource-0:2.2.5-4.el8_5.3.x86_64.rpm",
+				"expat-devel-0:2.2.5-4.el8_5.3.aarch64.rpm",
+				"expat-devel-0:2.2.5-4.el8_5.3.i686.rpm",
+				"expat-devel-0:2.2.5-4.el8_5.3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: expat security update",
+	"topic": "An update is available for expat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

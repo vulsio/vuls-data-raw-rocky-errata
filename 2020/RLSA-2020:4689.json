@@ -1,68 +1,68 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-835",
-      "name": "CVE-2019-3833",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3833"
-    }
-  ],
-  "description": "Openwsman is a project intended to provide an open source implementation of the Web Services Management specification (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol. WS-Management is based on a suite of web services specifications and usage requirements that cover all system management aspects.\n\nSecurity Fix(es):\n\n* openwsman: Infinite loop in process_connection() allows denial of service (CVE-2019-3833)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1674478",
-      "ticket": "1674478"
-    }
-  ],
-  "name": "RLSA-2020:4689",
-  "publishedAt": "2020-11-03T12:27:08Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libwsman1-0:2.6.5-7.el8_3.aarch64.rpm",
-        "libwsman1-0:2.6.5-7.el8_3.i686.rpm",
-        "libwsman1-0:2.6.5-7.el8_3.x86_64.rpm",
-        "libwsman1-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
-        "libwsman1-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
-        "libwsman1-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
-        "libwsman-devel-0:2.6.5-7.el8_3.aarch64.rpm",
-        "libwsman-devel-0:2.6.5-7.el8_3.i686.rpm",
-        "libwsman-devel-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-0:2.6.5-7.el8_3.src.rpm",
-        "openwsman-client-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-client-0:2.6.5-7.el8_3.i686.rpm",
-        "openwsman-client-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-client-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-client-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
-        "openwsman-client-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
-        "openwsman-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-debugsource-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-debugsource-0:2.6.5-7.el8_3.i686.rpm",
-        "openwsman-debugsource-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-python3-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-python3-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-python3-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-python3-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-server-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-server-0:2.6.5-7.el8_3.i686.rpm",
-        "openwsman-server-0:2.6.5-7.el8_3.x86_64.rpm",
-        "openwsman-server-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
-        "openwsman-server-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
-        "openwsman-server-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: openwsman security update",
-  "topic": "An update is available for openwsman.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-835",
+			"name": "CVE-2019-3833",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3833"
+		}
+	],
+	"description": "Openwsman is a project intended to provide an open source implementation of the Web Services Management specification (WS-Management) and to expose system management information on the Linux operating system using the WS-Management protocol. WS-Management is based on a suite of web services specifications and usage requirements that cover all system management aspects.\n\nSecurity Fix(es):\n\n* openwsman: Infinite loop in process_connection() allows denial of service (CVE-2019-3833)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1674478",
+			"ticket": "1674478"
+		}
+	],
+	"name": "RLSA-2020:4689",
+	"publishedAt": "2020-11-03T12:27:08Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libwsman1-0:2.6.5-7.el8_3.aarch64.rpm",
+				"libwsman1-0:2.6.5-7.el8_3.i686.rpm",
+				"libwsman1-0:2.6.5-7.el8_3.x86_64.rpm",
+				"libwsman1-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
+				"libwsman1-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
+				"libwsman1-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
+				"libwsman-devel-0:2.6.5-7.el8_3.aarch64.rpm",
+				"libwsman-devel-0:2.6.5-7.el8_3.i686.rpm",
+				"libwsman-devel-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-0:2.6.5-7.el8_3.src.rpm",
+				"openwsman-client-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-client-0:2.6.5-7.el8_3.i686.rpm",
+				"openwsman-client-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-client-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-client-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
+				"openwsman-client-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
+				"openwsman-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-debugsource-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-debugsource-0:2.6.5-7.el8_3.i686.rpm",
+				"openwsman-debugsource-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-python3-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-python3-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-python3-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-python3-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-server-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-server-0:2.6.5-7.el8_3.i686.rpm",
+				"openwsman-server-0:2.6.5-7.el8_3.x86_64.rpm",
+				"openwsman-server-debuginfo-0:2.6.5-7.el8_3.aarch64.rpm",
+				"openwsman-server-debuginfo-0:2.6.5-7.el8_3.i686.rpm",
+				"openwsman-server-debuginfo-0:2.6.5-7.el8_3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: openwsman security update",
+	"topic": "An update is available for openwsman.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

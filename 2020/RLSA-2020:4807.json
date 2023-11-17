@@ -1,38 +1,38 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.6",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
-      "cwe": "CWE-776->CWE-122",
-      "name": "CVE-2017-18640",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18640"
-    }
-  ],
-  "description": "Prometheus JMX Exporter is a JMX to Prometheus exporter: a collector that can be configured to scrape and expose MBeans of a JMX target.\n\nSecurity Fix(es):\n\n* snakeyaml: Billion laughs attack via alias feature (CVE-2017-18640)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1785376",
-      "ticket": "1785376"
-    }
-  ],
-  "name": "RLSA-2020:4807",
-  "publishedAt": "2020-11-03T12:37:53Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "prometheus-jmx-exporter-0:0.12.0-6.el8.noarch.rpm",
-        "prometheus-jmx-exporter-0:0.12.0-6.el8.src.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: prometheus-jmx-exporter security update",
-  "topic": "An update is available for prometheus-jmx-exporter.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-776->CWE-122",
+			"name": "CVE-2017-18640",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2017-18640"
+		}
+	],
+	"description": "Prometheus JMX Exporter is a JMX to Prometheus exporter: a collector that can be configured to scrape and expose MBeans of a JMX target.\n\nSecurity Fix(es):\n\n* snakeyaml: Billion laughs attack via alias feature (CVE-2017-18640)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1785376",
+			"ticket": "1785376"
+		}
+	],
+	"name": "RLSA-2020:4807",
+	"publishedAt": "2020-11-03T12:37:53Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"prometheus-jmx-exporter-0:0.12.0-6.el8.noarch.rpm",
+				"prometheus-jmx-exporter-0:0.12.0-6.el8.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: prometheus-jmx-exporter security update",
+	"topic": "An update is available for prometheus-jmx-exporter.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

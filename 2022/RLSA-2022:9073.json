@@ -1,139 +1,139 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-295",
-      "name": "CVE-2021-44531",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-295",
-      "name": "CVE-2021-44532",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-295",
-      "name": "CVE-2021-44533",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44533"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-1321",
-      "name": "CVE-2021-44906",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44906"
-    },
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
-      "cwe": "CWE-915",
-      "name": "CVE-2022-21824",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21824"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2022-3517",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3517"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
-      "cwe": "CWE-350",
-      "name": "CVE-2022-43548",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43548"
-    }
-  ],
-  "description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages were updated to later upstream versions: nodejs (16.18.1), nodejs-nodemon (2.0.20).\n\nSecurity Fix(es):\n\n* nodejs: Improper handling of URI Subject Alternative Names (CVE-2021-44531)\n\n* nodejs: Certificate Verification Bypass via String Injection (CVE-2021-44532)\n\n* nodejs: Incorrect handling of certificate subject and issuer fields (CVE-2021-44533)\n\n* minimist: prototype pollution (CVE-2021-44906)\n\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n\n* nodejs: Prototype pollution via console.table properties (CVE-2022-21824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Packaged version of undici does not fit with declared version. [Rocky Linux-8] (BZ#2151625)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040839",
-      "ticket": "2040839"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040846",
-      "ticket": "2040846"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040856",
-      "ticket": "2040856"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040862",
-      "ticket": "2040862"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2066009",
-      "ticket": "2066009"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2134609",
-      "ticket": "2134609"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2140911",
-      "ticket": "2140911"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2142806",
-      "ticket": "2142806"
-    }
-  ],
-  "name": "RLSA-2022:9073",
-  "publishedAt": "2022-12-15T15:42:25Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "nodejs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
-        "nodejs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.src.rpm",
-        "nodejs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
-        "nodejs-debuginfo-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
-        "nodejs-debuginfo-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
-        "nodejs-debugsource-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
-        "nodejs-debugsource-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
-        "nodejs-devel-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
-        "nodejs-devel-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
-        "nodejs-docs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.noarch.rpm",
-        "nodejs-full-i18n-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
-        "nodejs-full-i18n-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
-        "nodejs-nodemon-0:2.0.20-2.module+el8.7.0+1108+49363b0d.noarch.rpm",
-        "nodejs-nodemon-0:2.0.20-2.module+el8.7.0+1108+49363b0d.src.rpm",
-        "nodejs-packaging-0:25-1.module+el8.6.0+1046+80feca58.noarch.rpm",
-        "nodejs-packaging-0:25-1.module+el8.5.0+702+221f14e6.noarch.rpm",
-        "nodejs-packaging-0:25-1.module+el8.6.0+1046+80feca58.src.rpm",
-        "nodejs-packaging-0:25-1.module+el8.5.0+702+221f14e6.src.rpm",
-        "npm-1:8.19.2-1.16.18.1.3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
-        "npm-1:8.19.2-1.16.18.1.3.module+el8.7.0+1108+49363b0d.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: nodejs:16 security, bug fix, and enhancement update",
-  "topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-295",
+			"name": "CVE-2021-44531",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44531"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-295",
+			"name": "CVE-2021-44532",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44532"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-295",
+			"name": "CVE-2021-44533",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44533"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1321",
+			"name": "CVE-2021-44906",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44906"
+		},
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-915",
+			"name": "CVE-2022-21824",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21824"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2022-3517",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3517"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-350",
+			"name": "CVE-2022-43548",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-43548"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages were updated to later upstream versions: nodejs (16.18.1), nodejs-nodemon (2.0.20).\n\nSecurity Fix(es):\n\n* nodejs: Improper handling of URI Subject Alternative Names (CVE-2021-44531)\n\n* nodejs: Certificate Verification Bypass via String Injection (CVE-2021-44532)\n\n* nodejs: Incorrect handling of certificate subject and issuer fields (CVE-2021-44533)\n\n* minimist: prototype pollution (CVE-2021-44906)\n\n* nodejs-minimatch: ReDoS via the braceExpand function (CVE-2022-3517)\n\n* nodejs: DNS rebinding in inspect via invalid octal IP address (CVE-2022-43548)\n\n* nodejs: Prototype pollution via console.table properties (CVE-2022-21824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:16/nodejs: Packaged version of undici does not fit with declared version. [Rocky Linux-8] (BZ#2151625)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040839",
+			"ticket": "2040839"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040846",
+			"ticket": "2040846"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040856",
+			"ticket": "2040856"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040862",
+			"ticket": "2040862"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2066009",
+			"ticket": "2066009"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2134609",
+			"ticket": "2134609"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2140911",
+			"ticket": "2140911"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2142806",
+			"ticket": "2142806"
+		}
+	],
+	"name": "RLSA-2022:9073",
+	"publishedAt": "2022-12-15T15:42:25Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
+				"nodejs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.src.rpm",
+				"nodejs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
+				"nodejs-debuginfo-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
+				"nodejs-debuginfo-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
+				"nodejs-debugsource-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
+				"nodejs-debugsource-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
+				"nodejs-devel-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
+				"nodejs-devel-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
+				"nodejs-docs-1:16.18.1-3.module+el8.7.0+1108+49363b0d.noarch.rpm",
+				"nodejs-full-i18n-1:16.18.1-3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
+				"nodejs-full-i18n-1:16.18.1-3.module+el8.7.0+1108+49363b0d.x86_64.rpm",
+				"nodejs-nodemon-0:2.0.20-2.module+el8.7.0+1108+49363b0d.noarch.rpm",
+				"nodejs-nodemon-0:2.0.20-2.module+el8.7.0+1108+49363b0d.src.rpm",
+				"nodejs-packaging-0:25-1.module+el8.6.0+1046+80feca58.noarch.rpm",
+				"nodejs-packaging-0:25-1.module+el8.5.0+702+221f14e6.noarch.rpm",
+				"nodejs-packaging-0:25-1.module+el8.6.0+1046+80feca58.src.rpm",
+				"nodejs-packaging-0:25-1.module+el8.5.0+702+221f14e6.src.rpm",
+				"npm-1:8.19.2-1.16.18.1.3.module+el8.7.0+1108+49363b0d.aarch64.rpm",
+				"npm-1:8.19.2-1.16.18.1.3.module+el8.7.0+1108+49363b0d.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nodejs:16 security, bug fix, and enhancement update",
+	"topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

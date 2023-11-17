@@ -1,282 +1,282 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-20",
-      "name": "CVE-2021-20297",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20297"
-    }
-  ],
-  "description": "NetworkManager is a system network service that manages network devices and connections, attempting to keep active network connectivity when available. Its capabilities include managing Ethernet, wireless, mobile broadband (WWAN), and PPPoE devices, as well as providing VPN integration with a variety of different VPN services.\n\nThe following packages have been upgraded to a later upstream version: NetworkManager (1.30.0). (BZ#1878783)\n\nSecurity Fix(es):\n\n* NetworkManager: Profile with match.path setting triggers crash (CVE-2021-20297)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1436535",
-      "ticket": "1436535"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1623084",
-      "ticket": "1623084"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1766944",
-      "ticket": "1766944"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1813334",
-      "ticket": "1813334"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1818697",
-      "ticket": "1818697"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1861296",
-      "ticket": "1861296"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1866227",
-      "ticket": "1866227"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1867997",
-      "ticket": "1867997"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1869079",
-      "ticket": "1869079"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1870691",
-      "ticket": "1870691"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1876577",
-      "ticket": "1876577"
-    },
-    {
-      "description": "The following packages have been upgraded to a later upstream version: NetworkManager (1.30.0).",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1878783",
-      "ticket": "1878783"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1882380",
-      "ticket": "1882380"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883958",
-      "ticket": "1883958"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886336",
-      "ticket": "1886336"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1887523",
-      "ticket": "1887523"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888051",
-      "ticket": "1888051"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888229",
-      "ticket": "1888229"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888348",
-      "ticket": "1888348"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894839",
-      "ticket": "1894839"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1898294",
-      "ticket": "1898294"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1900536",
-      "ticket": "1900536"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1901523",
-      "ticket": "1901523"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903175",
-      "ticket": "1903175"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1904099",
-      "ticket": "1904099"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915457",
-      "ticket": "1915457"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915493",
-      "ticket": "1915493"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1917713",
-      "ticket": "1917713"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1917773",
-      "ticket": "1917773"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1920838",
-      "ticket": "1920838"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1921107",
-      "ticket": "1921107"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1923248",
-      "ticket": "1923248"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1923999",
-      "ticket": "1923999"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1925123",
-      "ticket": "1925123"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1937723",
-      "ticket": "1937723"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1943282",
-      "ticket": "1943282"
-    }
-  ],
-  "name": "RLSA-2021:1574",
-  "publishedAt": "2021-05-18T05:33:20Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libnma-0:1.8.30-2.el8.aarch64.rpm",
-        "libnma-0:1.8.30-2.el8.i686.rpm",
-        "libnma-0:1.8.30-2.el8.src.rpm",
-        "libnma-0:1.8.30-2.el8.x86_64.rpm",
-        "libnma-debuginfo-0:1.8.30-2.el8.aarch64.rpm",
-        "libnma-debuginfo-0:1.8.30-2.el8.i686.rpm",
-        "libnma-debuginfo-0:1.8.30-2.el8.x86_64.rpm",
-        "libnma-debugsource-0:1.8.30-2.el8.aarch64.rpm",
-        "libnma-debugsource-0:1.8.30-2.el8.i686.rpm",
-        "libnma-debugsource-0:1.8.30-2.el8.x86_64.rpm",
-        "libnma-devel-0:1.8.30-2.el8.aarch64.rpm",
-        "libnma-devel-0:1.8.30-2.el8.i686.rpm",
-        "libnma-devel-0:1.8.30-2.el8.x86_64.rpm",
-        "NetworkManager-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-1:1.30.0-7.el8.src.rpm",
-        "NetworkManager-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-adsl-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-adsl-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-adsl-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-adsl-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-bluetooth-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-bluetooth-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-bluetooth-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-bluetooth-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-cloud-setup-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-cloud-setup-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-cloud-setup-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-cloud-setup-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-config-connectivity-redhat-1:1.30.0-7.el8.noarch.rpm",
-        "NetworkManager-config-server-1:1.30.0-7.el8.noarch.rpm",
-        "NetworkManager-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-debuginfo-1:1.30.0-7.el8.i686.rpm",
-        "NetworkManager-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-debugsource-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-debugsource-1:1.30.0-7.el8.i686.rpm",
-        "NetworkManager-debugsource-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-dispatcher-routing-rules-1:1.30.0-7.el8.noarch.rpm",
-        "NetworkManager-libnm-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-libnm-1:1.30.0-7.el8.i686.rpm",
-        "NetworkManager-libnm-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-libnm-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-libnm-debuginfo-1:1.30.0-7.el8.i686.rpm",
-        "NetworkManager-libnm-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-libnm-devel-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-libnm-devel-1:1.30.0-7.el8.i686.rpm",
-        "NetworkManager-libnm-devel-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-ovs-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-ovs-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-ovs-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-ovs-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-ppp-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-ppp-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-ppp-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-ppp-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-team-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-team-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-team-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-team-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-tui-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-tui-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-tui-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-tui-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-wifi-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-wifi-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-wifi-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-wifi-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-wwan-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-wwan-1:1.30.0-7.el8.x86_64.rpm",
-        "NetworkManager-wwan-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
-        "NetworkManager-wwan-debuginfo-1:1.30.0-7.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: NetworkManager and libnma security, bug fix, and enhancement update",
-  "topic": "An update is available for libnma, NetworkManager.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-20297",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20297"
+		}
+	],
+	"description": "NetworkManager is a system network service that manages network devices and connections, attempting to keep active network connectivity when available. Its capabilities include managing Ethernet, wireless, mobile broadband (WWAN), and PPPoE devices, as well as providing VPN integration with a variety of different VPN services.\n\nThe following packages have been upgraded to a later upstream version: NetworkManager (1.30.0). (BZ#1878783)\n\nSecurity Fix(es):\n\n* NetworkManager: Profile with match.path setting triggers crash (CVE-2021-20297)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1436535",
+			"ticket": "1436535"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1623084",
+			"ticket": "1623084"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1766944",
+			"ticket": "1766944"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1813334",
+			"ticket": "1813334"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1818697",
+			"ticket": "1818697"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1861296",
+			"ticket": "1861296"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1866227",
+			"ticket": "1866227"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1867997",
+			"ticket": "1867997"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1869079",
+			"ticket": "1869079"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1870691",
+			"ticket": "1870691"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1876577",
+			"ticket": "1876577"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: NetworkManager (1.30.0).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1878783",
+			"ticket": "1878783"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1882380",
+			"ticket": "1882380"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883958",
+			"ticket": "1883958"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886336",
+			"ticket": "1886336"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1887523",
+			"ticket": "1887523"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888051",
+			"ticket": "1888051"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888229",
+			"ticket": "1888229"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888348",
+			"ticket": "1888348"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894839",
+			"ticket": "1894839"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1898294",
+			"ticket": "1898294"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1900536",
+			"ticket": "1900536"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1901523",
+			"ticket": "1901523"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1903175",
+			"ticket": "1903175"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1904099",
+			"ticket": "1904099"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915457",
+			"ticket": "1915457"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915493",
+			"ticket": "1915493"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1917713",
+			"ticket": "1917713"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1917773",
+			"ticket": "1917773"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1920838",
+			"ticket": "1920838"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1921107",
+			"ticket": "1921107"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1923248",
+			"ticket": "1923248"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1923999",
+			"ticket": "1923999"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1925123",
+			"ticket": "1925123"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1937723",
+			"ticket": "1937723"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1943282",
+			"ticket": "1943282"
+		}
+	],
+	"name": "RLSA-2021:1574",
+	"publishedAt": "2021-05-18T05:33:20Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libnma-0:1.8.30-2.el8.aarch64.rpm",
+				"libnma-0:1.8.30-2.el8.i686.rpm",
+				"libnma-0:1.8.30-2.el8.src.rpm",
+				"libnma-0:1.8.30-2.el8.x86_64.rpm",
+				"libnma-debuginfo-0:1.8.30-2.el8.aarch64.rpm",
+				"libnma-debuginfo-0:1.8.30-2.el8.i686.rpm",
+				"libnma-debuginfo-0:1.8.30-2.el8.x86_64.rpm",
+				"libnma-debugsource-0:1.8.30-2.el8.aarch64.rpm",
+				"libnma-debugsource-0:1.8.30-2.el8.i686.rpm",
+				"libnma-debugsource-0:1.8.30-2.el8.x86_64.rpm",
+				"libnma-devel-0:1.8.30-2.el8.aarch64.rpm",
+				"libnma-devel-0:1.8.30-2.el8.i686.rpm",
+				"libnma-devel-0:1.8.30-2.el8.x86_64.rpm",
+				"NetworkManager-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-1:1.30.0-7.el8.src.rpm",
+				"NetworkManager-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-adsl-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-adsl-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-adsl-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-adsl-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-bluetooth-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-bluetooth-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-bluetooth-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-bluetooth-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-cloud-setup-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-cloud-setup-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-cloud-setup-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-cloud-setup-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-config-connectivity-redhat-1:1.30.0-7.el8.noarch.rpm",
+				"NetworkManager-config-server-1:1.30.0-7.el8.noarch.rpm",
+				"NetworkManager-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-debuginfo-1:1.30.0-7.el8.i686.rpm",
+				"NetworkManager-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-debugsource-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-debugsource-1:1.30.0-7.el8.i686.rpm",
+				"NetworkManager-debugsource-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-dispatcher-routing-rules-1:1.30.0-7.el8.noarch.rpm",
+				"NetworkManager-libnm-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-libnm-1:1.30.0-7.el8.i686.rpm",
+				"NetworkManager-libnm-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-libnm-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-libnm-debuginfo-1:1.30.0-7.el8.i686.rpm",
+				"NetworkManager-libnm-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-libnm-devel-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-libnm-devel-1:1.30.0-7.el8.i686.rpm",
+				"NetworkManager-libnm-devel-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-ovs-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-ovs-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-ovs-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-ovs-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-ppp-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-ppp-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-ppp-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-ppp-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-team-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-team-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-team-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-team-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-tui-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-tui-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-tui-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-tui-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-wifi-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-wifi-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-wifi-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-wifi-debuginfo-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-wwan-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-wwan-1:1.30.0-7.el8.x86_64.rpm",
+				"NetworkManager-wwan-debuginfo-1:1.30.0-7.el8.aarch64.rpm",
+				"NetworkManager-wwan-debuginfo-1:1.30.0-7.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: NetworkManager and libnma security, bug fix, and enhancement update",
+	"topic": "An update is available for libnma, NetworkManager.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

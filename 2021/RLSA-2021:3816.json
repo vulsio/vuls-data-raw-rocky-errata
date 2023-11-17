@@ -1,108 +1,108 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2021-26691",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26691"
-    },
-    {
-      "cvss3BaseScore": "9.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
-      "cwe": "CWE-918",
-      "name": "CVE-2021-40438",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40438"
-    }
-  ],
-  "description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_proxy: SSRF via a crafted request uri-path containing \"unix:\" (CVE-2021-40438)\n\n* httpd: mod_session: Heap overflow via a crafted SessionHeader value (CVE-2021-26691)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966732",
-      "ticket": "1966732"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2005117",
-      "ticket": "2005117"
-    }
-  ],
-  "name": "RLSA-2021:3816",
-  "publishedAt": "2021-10-12T15:53:03Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "httpd-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "httpd-0:2.4.37-39.module+el8.4.0+571+fd70afb1.src.rpm",
-        "httpd-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "httpd-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "httpd-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "httpd-debugsource-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "httpd-debugsource-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "httpd-devel-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "httpd-devel-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "httpd-filesystem-0:2.4.37-39.module+el8.4.0+571+fd70afb1.noarch.rpm",
-        "httpd-manual-0:2.4.37-39.module+el8.4.0+571+fd70afb1.noarch.rpm",
-        "httpd-tools-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "httpd-tools-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "httpd-tools-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "httpd-tools-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_http2-0:1.15.7-3.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_http2-0:1.15.7-3.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_http2-0:1.15.7-3.module+el8.4.0+553+7a69454b.src.rpm",
-        "mod_http2-0:1.15.7-3.module+el8.5.0+695+1fa8055e.src.rpm",
-        "mod_http2-0:1.15.7-3.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_http2-0:1.15.7-3.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_http2-debuginfo-0:1.15.7-3.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_http2-debuginfo-0:1.15.7-3.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_http2-debuginfo-0:1.15.7-3.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_http2-debuginfo-0:1.15.7-3.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_http2-debugsource-0:1.15.7-3.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_http2-debugsource-0:1.15.7-3.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_http2-debugsource-0:1.15.7-3.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_http2-debugsource-0:1.15.7-3.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_ldap-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_ldap-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_ldap-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_ldap-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
-        "mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.src.rpm",
-        "mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_proxy_html-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_proxy_html-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_proxy_html-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_proxy_html-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_session-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_session-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_session-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_session-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_ssl-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_ssl-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
-        "mod_ssl-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
-        "mod_ssl-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: httpd:2.4 security update",
-  "topic": "An update is available for httpd, mod_http2, mod_md.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-26691",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26691"
+		},
+		{
+			"cvss3BaseScore": "9.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:H",
+			"cwe": "CWE-918",
+			"name": "CVE-2021-40438",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-40438"
+		}
+	],
+	"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_proxy: SSRF via a crafted request uri-path containing \"unix:\" (CVE-2021-40438)\n\n* httpd: mod_session: Heap overflow via a crafted SessionHeader value (CVE-2021-26691)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966732",
+			"ticket": "1966732"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2005117",
+			"ticket": "2005117"
+		}
+	],
+	"name": "RLSA-2021:3816",
+	"publishedAt": "2021-10-12T15:53:03Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"httpd-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"httpd-0:2.4.37-39.module+el8.4.0+571+fd70afb1.src.rpm",
+				"httpd-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"httpd-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"httpd-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"httpd-debugsource-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"httpd-debugsource-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"httpd-devel-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"httpd-devel-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"httpd-filesystem-0:2.4.37-39.module+el8.4.0+571+fd70afb1.noarch.rpm",
+				"httpd-manual-0:2.4.37-39.module+el8.4.0+571+fd70afb1.noarch.rpm",
+				"httpd-tools-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"httpd-tools-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"httpd-tools-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"httpd-tools-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_http2-0:1.15.7-3.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_http2-0:1.15.7-3.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_http2-0:1.15.7-3.module+el8.4.0+553+7a69454b.src.rpm",
+				"mod_http2-0:1.15.7-3.module+el8.5.0+695+1fa8055e.src.rpm",
+				"mod_http2-0:1.15.7-3.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_http2-0:1.15.7-3.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-3.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-3.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-3.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-3.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_http2-debugsource-0:1.15.7-3.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_http2-debugsource-0:1.15.7-3.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_http2-debugsource-0:1.15.7-3.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_http2-debugsource-0:1.15.7-3.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_ldap-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_ldap-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_ldap-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_ldap-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
+				"mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.src.rpm",
+				"mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_proxy_html-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_proxy_html-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_proxy_html-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_proxy_html-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_session-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_session-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_session-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_session-debuginfo-0:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_ssl-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_ssl-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm",
+				"mod_ssl-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.aarch64.rpm",
+				"mod_ssl-debuginfo-1:2.4.37-39.module+el8.4.0+571+fd70afb1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: httpd:2.4 security update",
+	"topic": "An update is available for httpd, mod_http2, mod_md.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

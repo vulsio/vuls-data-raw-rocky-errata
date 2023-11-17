@@ -1,38 +1,38 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-532",
-      "name": "CVE-2021-3429",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3429"
-    }
-  ],
-  "description": "The cloud-init packages provide a set of init scripts for cloud instances. Cloud instances need special scripts to run during initialization to retrieve and install SSH keys, and to let the user run various scripts.\n\nSecurity Fix(es):\n\n* cloud-init: randomly generated passwords logged in clear-text to world-readable file (CVE-2021-3429)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1940967",
-      "ticket": "1940967"
-    }
-  ],
-  "name": "RLSA-2021:3081",
-  "publishedAt": "2021-08-10T12:01:15Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "cloud-init-0:20.3-10.el8_4.5.noarch.rpm",
-        "cloud-init-0:20.3-10.el8_4.5.src.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: cloud-init security update",
-  "topic": "An update is available for cloud-init.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-532",
+			"name": "CVE-2021-3429",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3429"
+		}
+	],
+	"description": "The cloud-init packages provide a set of init scripts for cloud instances. Cloud instances need special scripts to run during initialization to retrieve and install SSH keys, and to let the user run various scripts.\n\nSecurity Fix(es):\n\n* cloud-init: randomly generated passwords logged in clear-text to world-readable file (CVE-2021-3429)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1940967",
+			"ticket": "1940967"
+		}
+	],
+	"name": "RLSA-2021:3081",
+	"publishedAt": "2021-08-10T12:01:15Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cloud-init-0:20.3-10.el8_4.5.noarch.rpm",
+				"cloud-init-0:20.3-10.el8_4.5.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: cloud-init security update",
+	"topic": "An update is available for cloud-init.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,95 +1,95 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2023-37201",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37201"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2023-37202",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37202"
-    },
-    {
-      "cvss3BaseScore": "6.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-      "cwe": "CWE-290",
-      "name": "CVE-2023-37207",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37207"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-1127",
-      "name": "CVE-2023-37208",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37208"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-120",
-      "name": "CVE-2023-37211",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37211"
-    }
-  ],
-  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.13.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Use-after-free in WebRTC certificate generation (CVE-2023-37201)\n\n* Mozilla: Potential use-after-free from compartment mismatch in SpiderMonkey (CVE-2023-37202)\n\n* Mozilla: Memory safety bugs fixed in Firefox 115, Firefox ESR 102.13, and Thunderbird 102.13 (CVE-2023-37211)\n\n* Mozilla: Fullscreen notification obscured (CVE-2023-37207)\n\n* Mozilla: Lack of warning when opening Diagcab files (CVE-2023-37208)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219747",
-      "ticket": "2219747"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219748",
-      "ticket": "2219748"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219749",
-      "ticket": "2219749"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219750",
-      "ticket": "2219750"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219751",
-      "ticket": "2219751"
-    }
-  ],
-  "name": "RLSA-2023:4076",
-  "publishedAt": "2023-08-31T16:54:34.048467Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "firefox-0:102.13.0-2.el8_8.aarch64.rpm",
-        "firefox-0:102.13.0-2.el8_8.src.rpm",
-        "firefox-0:102.13.0-2.el8_8.x86_64.rpm",
-        "firefox-debuginfo-0:102.13.0-2.el8_8.aarch64.rpm",
-        "firefox-debuginfo-0:102.13.0-2.el8_8.x86_64.rpm",
-        "firefox-debugsource-0:102.13.0-2.el8_8.aarch64.rpm",
-        "firefox-debugsource-0:102.13.0-2.el8_8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: firefox security update",
-  "topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-37201",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37201"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-37202",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37202"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-290",
+			"name": "CVE-2023-37207",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37207"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1127",
+			"name": "CVE-2023-37208",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37208"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2023-37211",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37211"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.13.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Use-after-free in WebRTC certificate generation (CVE-2023-37201)\n\n* Mozilla: Potential use-after-free from compartment mismatch in SpiderMonkey (CVE-2023-37202)\n\n* Mozilla: Memory safety bugs fixed in Firefox 115, Firefox ESR 102.13, and Thunderbird 102.13 (CVE-2023-37211)\n\n* Mozilla: Fullscreen notification obscured (CVE-2023-37207)\n\n* Mozilla: Lack of warning when opening Diagcab files (CVE-2023-37208)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219747",
+			"ticket": "2219747"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219748",
+			"ticket": "2219748"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219749",
+			"ticket": "2219749"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219750",
+			"ticket": "2219750"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219751",
+			"ticket": "2219751"
+		}
+	],
+	"name": "RLSA-2023:4076",
+	"publishedAt": "2023-08-31T16:54:34.048467Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"firefox-0:102.13.0-2.el8_8.aarch64.rpm",
+				"firefox-0:102.13.0-2.el8_8.src.rpm",
+				"firefox-0:102.13.0-2.el8_8.x86_64.rpm",
+				"firefox-debuginfo-0:102.13.0-2.el8_8.aarch64.rpm",
+				"firefox-debuginfo-0:102.13.0-2.el8_8.x86_64.rpm",
+				"firefox-debugsource-0:102.13.0-2.el8_8.aarch64.rpm",
+				"firefox-debugsource-0:102.13.0-2.el8_8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

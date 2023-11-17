@@ -1,62 +1,62 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2022-0934",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0934"
-    }
-  ],
-  "description": "The dnsmasq packages contain Dnsmasq, a lightweight DNS (Domain Name Server) forwarder and DHCP (Dynamic Host Configuration Protocol) server.\n\nSecurity Fix(es):\n\n* dnsmasq: Heap use after free in dhcp6_no_relay (CVE-2022-0934)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2057075",
-      "ticket": "2057075"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2120711",
-      "ticket": "2120711"
-    }
-  ],
-  "name": "RLSA-2022:8070",
-  "publishedAt": "2022-11-15T06:15:01Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "dnsmasq-0:2.85-5.el9.aarch64.rpm",
-        "dnsmasq-0:2.85-5.el9.ppc64le.rpm",
-        "dnsmasq-0:2.85-5.el9.s390x.rpm",
-        "dnsmasq-0:2.85-5.el9.src.rpm",
-        "dnsmasq-0:2.85-5.el9.x86_64.rpm",
-        "dnsmasq-debuginfo-0:2.85-5.el9.aarch64.rpm",
-        "dnsmasq-debuginfo-0:2.85-5.el9.ppc64le.rpm",
-        "dnsmasq-debuginfo-0:2.85-5.el9.s390x.rpm",
-        "dnsmasq-debuginfo-0:2.85-5.el9.x86_64.rpm",
-        "dnsmasq-debugsource-0:2.85-5.el9.aarch64.rpm",
-        "dnsmasq-debugsource-0:2.85-5.el9.ppc64le.rpm",
-        "dnsmasq-debugsource-0:2.85-5.el9.s390x.rpm",
-        "dnsmasq-debugsource-0:2.85-5.el9.x86_64.rpm",
-        "dnsmasq-utils-0:2.85-5.el9.aarch64.rpm",
-        "dnsmasq-utils-0:2.85-5.el9.ppc64le.rpm",
-        "dnsmasq-utils-0:2.85-5.el9.s390x.rpm",
-        "dnsmasq-utils-0:2.85-5.el9.x86_64.rpm",
-        "dnsmasq-utils-debuginfo-0:2.85-5.el9.aarch64.rpm",
-        "dnsmasq-utils-debuginfo-0:2.85-5.el9.ppc64le.rpm",
-        "dnsmasq-utils-debuginfo-0:2.85-5.el9.s390x.rpm",
-        "dnsmasq-utils-debuginfo-0:2.85-5.el9.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: dnsmasq security and bug fix update",
-  "topic": "An update is available for dnsmasq.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-0934",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0934"
+		}
+	],
+	"description": "The dnsmasq packages contain Dnsmasq, a lightweight DNS (Domain Name Server) forwarder and DHCP (Dynamic Host Configuration Protocol) server.\n\nSecurity Fix(es):\n\n* dnsmasq: Heap use after free in dhcp6_no_relay (CVE-2022-0934)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2057075",
+			"ticket": "2057075"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2120711",
+			"ticket": "2120711"
+		}
+	],
+	"name": "RLSA-2022:8070",
+	"publishedAt": "2022-11-15T06:15:01Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"dnsmasq-0:2.85-5.el9.aarch64.rpm",
+				"dnsmasq-0:2.85-5.el9.ppc64le.rpm",
+				"dnsmasq-0:2.85-5.el9.s390x.rpm",
+				"dnsmasq-0:2.85-5.el9.src.rpm",
+				"dnsmasq-0:2.85-5.el9.x86_64.rpm",
+				"dnsmasq-debuginfo-0:2.85-5.el9.aarch64.rpm",
+				"dnsmasq-debuginfo-0:2.85-5.el9.ppc64le.rpm",
+				"dnsmasq-debuginfo-0:2.85-5.el9.s390x.rpm",
+				"dnsmasq-debuginfo-0:2.85-5.el9.x86_64.rpm",
+				"dnsmasq-debugsource-0:2.85-5.el9.aarch64.rpm",
+				"dnsmasq-debugsource-0:2.85-5.el9.ppc64le.rpm",
+				"dnsmasq-debugsource-0:2.85-5.el9.s390x.rpm",
+				"dnsmasq-debugsource-0:2.85-5.el9.x86_64.rpm",
+				"dnsmasq-utils-0:2.85-5.el9.aarch64.rpm",
+				"dnsmasq-utils-0:2.85-5.el9.ppc64le.rpm",
+				"dnsmasq-utils-0:2.85-5.el9.s390x.rpm",
+				"dnsmasq-utils-0:2.85-5.el9.x86_64.rpm",
+				"dnsmasq-utils-debuginfo-0:2.85-5.el9.aarch64.rpm",
+				"dnsmasq-utils-debuginfo-0:2.85-5.el9.ppc64le.rpm",
+				"dnsmasq-utils-debuginfo-0:2.85-5.el9.s390x.rpm",
+				"dnsmasq-utils-debuginfo-0:2.85-5.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: dnsmasq security and bug fix update",
+	"topic": "An update is available for dnsmasq.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

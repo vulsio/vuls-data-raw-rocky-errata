@@ -1,121 +1,121 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-787",
-      "name": "CVE-2021-32626",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32626"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->(CWE-125|CWE-787)",
-      "name": "CVE-2021-32627",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32627"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->(CWE-125|CWE-787)",
-      "name": "CVE-2021-32628",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32628"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-770",
-      "name": "CVE-2021-32675",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32675"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->(CWE-125|CWE-787)",
-      "name": "CVE-2021-32687",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32687"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->(CWE-125|CWE-787)",
-      "name": "CVE-2021-41099",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41099"
-    }
-  ],
-  "description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Lua scripts can overflow the heap-based Lua stack (CVE-2021-32626)\n\n* redis: Integer overflow issue with Streams (CVE-2021-32627)\n\n* redis: Integer overflow bug in the ziplist data structure (CVE-2021-32628)\n\n* redis: Denial of service via Redis Standard Protocol (RESP) request (CVE-2021-32675)\n\n* redis: Integer overflow issue with intsets (CVE-2021-32687)\n\n* redis: Integer overflow issue with strings (CVE-2021-41099)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2010991",
-      "ticket": "2010991"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011000",
-      "ticket": "2011000"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011004",
-      "ticket": "2011004"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011010",
-      "ticket": "2011010"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011017",
-      "ticket": "2011017"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011020",
-      "ticket": "2011020"
-    }
-  ],
-  "name": "RLSA-2021:3945",
-  "publishedAt": "2021-10-20T12:46:40Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "redis-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
-        "redis-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
-        "redis-0:6.0.9-5.module+el8.5.0+658+72172854.src.rpm",
-        "redis-0:6.0.9-5.module+el8.4.0+660+a8447b97.src.rpm",
-        "redis-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
-        "redis-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
-        "redis-debuginfo-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
-        "redis-debuginfo-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
-        "redis-debuginfo-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
-        "redis-debuginfo-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
-        "redis-debugsource-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
-        "redis-debugsource-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
-        "redis-debugsource-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
-        "redis-debugsource-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
-        "redis-devel-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
-        "redis-devel-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
-        "redis-devel-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
-        "redis-devel-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
-        "redis-doc-0:6.0.9-5.module+el8.5.0+658+72172854.noarch.rpm",
-        "redis-doc-0:6.0.9-5.module+el8.4.0+660+a8447b97.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: redis:6 security update",
-  "topic": "An update is available for redis.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2021-32626",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32626"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->(CWE-125|CWE-787)",
+			"name": "CVE-2021-32627",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32627"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->(CWE-125|CWE-787)",
+			"name": "CVE-2021-32628",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32628"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-770",
+			"name": "CVE-2021-32675",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32675"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->(CWE-125|CWE-787)",
+			"name": "CVE-2021-32687",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32687"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->(CWE-125|CWE-787)",
+			"name": "CVE-2021-41099",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41099"
+		}
+	],
+	"description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Lua scripts can overflow the heap-based Lua stack (CVE-2021-32626)\n\n* redis: Integer overflow issue with Streams (CVE-2021-32627)\n\n* redis: Integer overflow bug in the ziplist data structure (CVE-2021-32628)\n\n* redis: Denial of service via Redis Standard Protocol (RESP) request (CVE-2021-32675)\n\n* redis: Integer overflow issue with intsets (CVE-2021-32687)\n\n* redis: Integer overflow issue with strings (CVE-2021-41099)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2010991",
+			"ticket": "2010991"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011000",
+			"ticket": "2011000"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011004",
+			"ticket": "2011004"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011010",
+			"ticket": "2011010"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011017",
+			"ticket": "2011017"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011020",
+			"ticket": "2011020"
+		}
+	],
+	"name": "RLSA-2021:3945",
+	"publishedAt": "2021-10-20T12:46:40Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"redis-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
+				"redis-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
+				"redis-0:6.0.9-5.module+el8.5.0+658+72172854.src.rpm",
+				"redis-0:6.0.9-5.module+el8.4.0+660+a8447b97.src.rpm",
+				"redis-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
+				"redis-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
+				"redis-debuginfo-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
+				"redis-debuginfo-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
+				"redis-debuginfo-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
+				"redis-debuginfo-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
+				"redis-debugsource-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
+				"redis-debugsource-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
+				"redis-debugsource-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
+				"redis-debugsource-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
+				"redis-devel-0:6.0.9-5.module+el8.5.0+658+72172854.aarch64.rpm",
+				"redis-devel-0:6.0.9-5.module+el8.4.0+660+a8447b97.aarch64.rpm",
+				"redis-devel-0:6.0.9-5.module+el8.5.0+658+72172854.x86_64.rpm",
+				"redis-devel-0:6.0.9-5.module+el8.4.0+660+a8447b97.x86_64.rpm",
+				"redis-doc-0:6.0.9-5.module+el8.5.0+658+72172854.noarch.rpm",
+				"redis-doc-0:6.0.9-5.module+el8.4.0+660+a8447b97.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: redis:6 security update",
+	"topic": "An update is available for redis.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

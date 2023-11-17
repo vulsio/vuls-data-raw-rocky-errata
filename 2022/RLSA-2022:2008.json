@@ -1,107 +1,107 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "4.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-1021",
-      "name": "CVE-2021-3660",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3660"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-295",
-      "name": "CVE-2021-3698",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3698"
-    }
-  ],
-  "description": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.\n\nThe following packages have been upgraded to a later upstream version: cockpit (264.1). (BZ#1984902, BZ#1992620, BZ#2004041, BZ#2008208)\n\nSecurity Fix(es):\n\n* cockpit: authenticates with revoked certificates (CVE-2021-3698)\n\n* cockpit: pages vulnerable to clickjacking (CVE-2021-3660)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1792270",
-      "ticket": "1792270"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1980688",
-      "ticket": "1980688"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992149",
-      "ticket": "1992149"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2004041",
-      "ticket": "2004041"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2008208",
-      "ticket": "2008208"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2016998",
-      "ticket": "2016998"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018382",
-      "ticket": "2018382"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018384",
-      "ticket": "2018384"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018417",
-      "ticket": "2018417"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2029982",
-      "ticket": "2029982"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056386",
-      "ticket": "2056386"
-    }
-  ],
-  "name": "RLSA-2022:2008",
-  "publishedAt": "2022-05-10T06:44:59Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "cockpit-0:264.1-1.el8.aarch64.rpm",
-        "cockpit-0:264.1-1.el8.src.rpm",
-        "cockpit-0:264.1-1.el8.x86_64.rpm",
-        "cockpit-bridge-0:264.1-1.el8.aarch64.rpm",
-        "cockpit-bridge-0:264.1-1.el8.x86_64.rpm",
-        "cockpit-debuginfo-0:264.1-1.el8.aarch64.rpm",
-        "cockpit-debuginfo-0:264.1-1.el8.x86_64.rpm",
-        "cockpit-debugsource-0:264.1-1.el8.aarch64.rpm",
-        "cockpit-debugsource-0:264.1-1.el8.x86_64.rpm",
-        "cockpit-doc-0:264.1-1.el8.noarch.rpm",
-        "cockpit-system-0:264.1-1.el8.noarch.rpm",
-        "cockpit-ws-0:264.1-1.el8.aarch64.rpm",
-        "cockpit-ws-0:264.1-1.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: cockpit security, bug fix, and enhancement update",
-  "topic": "An update is available for cockpit.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-1021",
+			"name": "CVE-2021-3660",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3660"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-295",
+			"name": "CVE-2021-3698",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3698"
+		}
+	],
+	"description": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.\n\nThe following packages have been upgraded to a later upstream version: cockpit (264.1). (BZ#1984902, BZ#1992620, BZ#2004041, BZ#2008208)\n\nSecurity Fix(es):\n\n* cockpit: authenticates with revoked certificates (CVE-2021-3698)\n\n* cockpit: pages vulnerable to clickjacking (CVE-2021-3660)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1792270",
+			"ticket": "1792270"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1980688",
+			"ticket": "1980688"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992149",
+			"ticket": "1992149"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2004041",
+			"ticket": "2004041"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2008208",
+			"ticket": "2008208"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2016998",
+			"ticket": "2016998"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018382",
+			"ticket": "2018382"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018384",
+			"ticket": "2018384"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018417",
+			"ticket": "2018417"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2029982",
+			"ticket": "2029982"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056386",
+			"ticket": "2056386"
+		}
+	],
+	"name": "RLSA-2022:2008",
+	"publishedAt": "2022-05-10T06:44:59Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cockpit-0:264.1-1.el8.aarch64.rpm",
+				"cockpit-0:264.1-1.el8.src.rpm",
+				"cockpit-0:264.1-1.el8.x86_64.rpm",
+				"cockpit-bridge-0:264.1-1.el8.aarch64.rpm",
+				"cockpit-bridge-0:264.1-1.el8.x86_64.rpm",
+				"cockpit-debuginfo-0:264.1-1.el8.aarch64.rpm",
+				"cockpit-debuginfo-0:264.1-1.el8.x86_64.rpm",
+				"cockpit-debugsource-0:264.1-1.el8.aarch64.rpm",
+				"cockpit-debugsource-0:264.1-1.el8.x86_64.rpm",
+				"cockpit-doc-0:264.1-1.el8.noarch.rpm",
+				"cockpit-system-0:264.1-1.el8.noarch.rpm",
+				"cockpit-ws-0:264.1-1.el8.aarch64.rpm",
+				"cockpit-ws-0:264.1-1.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: cockpit security, bug fix, and enhancement update",
+	"topic": "An update is available for cockpit.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

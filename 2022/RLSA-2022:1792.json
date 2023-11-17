@@ -1,72 +1,72 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
-      "cwe": "CWE-276",
-      "name": "CVE-2021-43860",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43860"
-    }
-  ],
-  "description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nSecurity Fix(es):\n\n* flatpak: Permissions granted to applications can be hidden from the user at install time (CVE-2021-43860)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1980438",
-      "ticket": "1980438"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2010533",
-      "ticket": "2010533"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041590",
-      "ticket": "2041590"
-    }
-  ],
-  "name": "RLSA-2022:1792",
-  "publishedAt": "2022-05-10T08:01:39Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "flatpak-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-0:1.8.7-1.el8.src.rpm",
-        "flatpak-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-debuginfo-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-debuginfo-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-debuginfo-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-debugsource-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-debugsource-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-debugsource-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-devel-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-devel-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-devel-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-libs-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-libs-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-libs-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-libs-debuginfo-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-libs-debuginfo-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-libs-debuginfo-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-selinux-0:1.8.7-1.el8.noarch.rpm",
-        "flatpak-session-helper-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-session-helper-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-session-helper-0:1.8.7-1.el8.x86_64.rpm",
-        "flatpak-session-helper-debuginfo-0:1.8.7-1.el8.aarch64.rpm",
-        "flatpak-session-helper-debuginfo-0:1.8.7-1.el8.i686.rpm",
-        "flatpak-session-helper-debuginfo-0:1.8.7-1.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: flatpak security and bug fix update",
-  "topic": "An update is available for flatpak.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+			"cwe": "CWE-276",
+			"name": "CVE-2021-43860",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43860"
+		}
+	],
+	"description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nSecurity Fix(es):\n\n* flatpak: Permissions granted to applications can be hidden from the user at install time (CVE-2021-43860)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1980438",
+			"ticket": "1980438"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2010533",
+			"ticket": "2010533"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041590",
+			"ticket": "2041590"
+		}
+	],
+	"name": "RLSA-2022:1792",
+	"publishedAt": "2022-05-10T08:01:39Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"flatpak-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-0:1.8.7-1.el8.src.rpm",
+				"flatpak-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-debuginfo-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-debuginfo-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-debuginfo-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-debugsource-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-debugsource-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-debugsource-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-devel-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-devel-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-devel-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-libs-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-libs-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-libs-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-libs-debuginfo-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-libs-debuginfo-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-libs-debuginfo-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-selinux-0:1.8.7-1.el8.noarch.rpm",
+				"flatpak-session-helper-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-session-helper-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-session-helper-0:1.8.7-1.el8.x86_64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.8.7-1.el8.aarch64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.8.7-1.el8.i686.rpm",
+				"flatpak-session-helper-debuginfo-0:1.8.7-1.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: flatpak security and bug fix update",
+	"topic": "An update is available for flatpak.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

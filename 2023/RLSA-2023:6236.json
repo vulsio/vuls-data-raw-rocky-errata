@@ -1,41 +1,41 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2022-4285",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4285"
-    }
-  ],
-  "description": "The binutils packages provide a collection of binary utilities for the manipulation of object code in various object file formats. It includes the ar, as, gprof, ld, nm, objcopy, objdump, ranlib, readelf, size, strings, strip, and addr2line utilities.\n\nSecurity Fix(es):\n\n* binutils: NULL pointer dereference in _bfd_elf_get_symbol_version_string leads to segfault (CVE-2022-4285)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2150768",
-      "ticket": "2150768"
-    }
-  ],
-  "name": "RLSA-2023:6236",
-  "publishedAt": "2023-11-11T22:59:34.304122Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "binutils-0:2.30-119.el8_8.2.aarch64.rpm",
-        "binutils-0:2.30-119.el8_8.2.src.rpm",
-        "binutils-debuginfo-0:2.30-119.el8_8.2.aarch64.rpm",
-        "binutils-debugsource-0:2.30-119.el8_8.2.aarch64.rpm",
-        "binutils-devel-0:2.30-119.el8_8.2.aarch64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: binutils security update",
-  "topic": "An update is available for binutils.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-4285",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4285"
+		}
+	],
+	"description": "The binutils packages provide a collection of binary utilities for the manipulation of object code in various object file formats. It includes the ar, as, gprof, ld, nm, objcopy, objdump, ranlib, readelf, size, strings, strip, and addr2line utilities.\n\nSecurity Fix(es):\n\n* binutils: NULL pointer dereference in _bfd_elf_get_symbol_version_string leads to segfault (CVE-2022-4285)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2150768",
+			"ticket": "2150768"
+		}
+	],
+	"name": "RLSA-2023:6236",
+	"publishedAt": "2023-11-11T22:59:34.304122Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"binutils-0:2.30-119.el8_8.2.aarch64.rpm",
+				"binutils-0:2.30-119.el8_8.2.src.rpm",
+				"binutils-debuginfo-0:2.30-119.el8_8.2.aarch64.rpm",
+				"binutils-debugsource-0:2.30-119.el8_8.2.aarch64.rpm",
+				"binutils-devel-0:2.30-119.el8_8.2.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: binutils security update",
+	"topic": "An update is available for binutils.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

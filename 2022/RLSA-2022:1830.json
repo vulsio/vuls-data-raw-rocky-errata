@@ -1,97 +1,97 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-89",
-      "name": "CVE-2021-23214",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23214"
-    }
-  ],
-  "description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (10.19). (BZ#2023231)\n\nSecurity Fix(es):\n\n* postgresql: server processes unencrypted bytes from man-in-the-middle (CVE-2021-23214)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992263",
-      "ticket": "1992263"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2022666",
-      "ticket": "2022666"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2024568",
-      "ticket": "2024568"
-    }
-  ],
-  "name": "RLSA-2022:1830",
-  "publishedAt": "2022-05-10T08:03:34Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "postgresql-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-0:10.19-1.module+el8.6.0+802+f92d3c38.src.rpm",
-        "postgresql-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-contrib-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-contrib-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-contrib-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-contrib-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-debugsource-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-debugsource-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-docs-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-docs-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-docs-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-docs-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-plperl-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-plperl-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-plperl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-plperl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-plpython3-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-plpython3-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-plpython3-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-plpython3-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-pltcl-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-pltcl-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-pltcl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-pltcl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-server-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-server-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-server-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-server-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-server-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-server-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-server-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-server-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-static-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-static-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-test-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-test-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-test-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-test-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-test-rpm-macros-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-test-rpm-macros-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-upgrade-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-upgrade-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-upgrade-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-upgrade-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-upgrade-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-upgrade-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
-        "postgresql-upgrade-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
-        "postgresql-upgrade-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: postgresql:10 security update",
-  "topic": "An update is available for postgresql.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-89",
+			"name": "CVE-2021-23214",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23214"
+		}
+	],
+	"description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (10.19). (BZ#2023231)\n\nSecurity Fix(es):\n\n* postgresql: server processes unencrypted bytes from man-in-the-middle (CVE-2021-23214)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992263",
+			"ticket": "1992263"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2022666",
+			"ticket": "2022666"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2024568",
+			"ticket": "2024568"
+		}
+	],
+	"name": "RLSA-2022:1830",
+	"publishedAt": "2022-05-10T08:03:34Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"postgresql-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-0:10.19-1.module+el8.6.0+802+f92d3c38.src.rpm",
+				"postgresql-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-contrib-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-contrib-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-contrib-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-contrib-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-debugsource-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-debugsource-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-docs-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-docs-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-docs-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-docs-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-plperl-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-plperl-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-plperl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-plperl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-plpython3-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-plpython3-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-plpython3-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-plpython3-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-pltcl-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-pltcl-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-pltcl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-pltcl-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-server-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-server-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-server-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-server-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-server-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-server-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-server-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-server-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-static-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-static-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-test-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-test-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-test-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-test-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-test-rpm-macros-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-test-rpm-macros-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-upgrade-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-upgrade-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-upgrade-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-upgrade-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-upgrade-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-upgrade-devel-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm",
+				"postgresql-upgrade-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.aarch64.rpm",
+				"postgresql-upgrade-devel-debuginfo-0:10.19-1.module+el8.6.0+802+f92d3c38.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: postgresql:10 security update",
+	"topic": "An update is available for postgresql.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

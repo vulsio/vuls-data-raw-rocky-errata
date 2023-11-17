@@ -1,71 +1,71 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-1300",
-      "name": "CVE-2023-0361",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0361"
-    }
-  ],
-  "description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nSecurity Fix(es):\n\n* gnutls: timing side-channel in the TLS RSA key exchange code (CVE-2023-0361)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* trap invalid opcode ip:7feef81809fe sp:7fee997419c0 error:0 in libgnutls.so.30.28.2[7feef8040000+1dd000] (BZ#2131152)",
-  "fixes": [
-    {
-      "description": "* trap invalid opcode ip:7feef81809fe sp:7fee997419c0 error:0 in libgnutls.so.30.28.2[7feef8040000+1dd000]",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2131152",
-      "ticket": "2131152"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162596",
-      "ticket": "2162596"
-    }
-  ],
-  "name": "RLSA-2023:1569",
-  "publishedAt": "2023-04-06T15:52:32.606534Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "gnutls-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-0:3.6.16-6.el8_7.src.rpm",
-        "gnutls-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-c++-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-c++-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-c++-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-c++-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-c++-debuginfo-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-c++-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-dane-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-dane-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-dane-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-dane-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-dane-debuginfo-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-dane-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-debuginfo-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-debugsource-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-debugsource-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-debugsource-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-devel-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-devel-0:3.6.16-6.el8_7.i686.rpm",
-        "gnutls-devel-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-utils-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-utils-0:3.6.16-6.el8_7.x86_64.rpm",
-        "gnutls-utils-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
-        "gnutls-utils-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: gnutls security and bug fix update",
-  "topic": "An update is available for gnutls.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-1300",
+			"name": "CVE-2023-0361",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0361"
+		}
+	],
+	"description": "The gnutls packages provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nSecurity Fix(es):\n\n* gnutls: timing side-channel in the TLS RSA key exchange code (CVE-2023-0361)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* trap invalid opcode ip:7feef81809fe sp:7fee997419c0 error:0 in libgnutls.so.30.28.2[7feef8040000+1dd000] (BZ#2131152)",
+	"fixes": [
+		{
+			"description": "* trap invalid opcode ip:7feef81809fe sp:7fee997419c0 error:0 in libgnutls.so.30.28.2[7feef8040000+1dd000]",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2131152",
+			"ticket": "2131152"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162596",
+			"ticket": "2162596"
+		}
+	],
+	"name": "RLSA-2023:1569",
+	"publishedAt": "2023-04-06T15:52:32.606534Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gnutls-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-0:3.6.16-6.el8_7.src.rpm",
+				"gnutls-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-c++-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-c++-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-c++-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-c++-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-c++-debuginfo-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-c++-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-dane-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-dane-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-dane-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-dane-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-dane-debuginfo-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-dane-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-debuginfo-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-debugsource-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-debugsource-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-debugsource-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-devel-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-devel-0:3.6.16-6.el8_7.i686.rpm",
+				"gnutls-devel-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-utils-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-utils-0:3.6.16-6.el8_7.x86_64.rpm",
+				"gnutls-utils-debuginfo-0:3.6.16-6.el8_7.aarch64.rpm",
+				"gnutls-utils-debuginfo-0:3.6.16-6.el8_7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gnutls security and bug fix update",
+	"topic": "An update is available for gnutls.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

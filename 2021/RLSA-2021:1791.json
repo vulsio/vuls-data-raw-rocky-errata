@@ -1,92 +1,92 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "3.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-770",
-      "name": "CVE-2020-25650",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25650"
-    },
-    {
-      "cvss3BaseScore": "6.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
-      "cwe": "CWE-362->CWE-200",
-      "name": "CVE-2020-25651",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25651"
-    },
-    {
-      "cvss3BaseScore": "3.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-770",
-      "name": "CVE-2020-25652",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25652"
-    },
-    {
-      "cvss3BaseScore": "6.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
-      "cwe": "CWE-362->CWE-200",
-      "name": "CVE-2020-25653",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25653"
-    }
-  ],
-  "description": "The spice-vdagent packages provide a SPICE agent for Linux guests.\n\nSecurity Fix(es):\n\n* spice-vdagent: possible file transfer DoS and information leak via active_xfers hash map (CVE-2020-25651)\n\n* spice-vdagent: UNIX domain socket peer PID retrieved via SO_PEERCRED is subject to race condition (CVE-2020-25653)\n\n* spice-vdagent: memory DoS via arbitrary entries in active_xfers hash table (CVE-2020-25650)\n\n* spice-vdagent: possibility to exhaust file descriptors in vdagentd (CVE-2020-25652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1790904",
-      "ticket": "1790904"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1824610",
-      "ticket": "1824610"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886345",
-      "ticket": "1886345"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886359",
-      "ticket": "1886359"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886366",
-      "ticket": "1886366"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886372",
-      "ticket": "1886372"
-    }
-  ],
-  "name": "RLSA-2021:1791",
-  "publishedAt": "2021-05-18T06:05:33Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "spice-vdagent-0:0.20.0-3.el8.aarch64.rpm",
-        "spice-vdagent-0:0.20.0-3.el8.src.rpm",
-        "spice-vdagent-0:0.20.0-3.el8.x86_64.rpm",
-        "spice-vdagent-debuginfo-0:0.20.0-3.el8.aarch64.rpm",
-        "spice-vdagent-debuginfo-0:0.20.0-3.el8.x86_64.rpm",
-        "spice-vdagent-debugsource-0:0.20.0-3.el8.aarch64.rpm",
-        "spice-vdagent-debugsource-0:0.20.0-3.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: spice-vdagent security and bug fix update",
-  "topic": "An update is available for spice-vdagent.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-770",
+			"name": "CVE-2020-25650",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25650"
+		},
+		{
+			"cvss3BaseScore": "6.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
+			"cwe": "CWE-362->CWE-200",
+			"name": "CVE-2020-25651",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25651"
+		},
+		{
+			"cvss3BaseScore": "3.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-770",
+			"name": "CVE-2020-25652",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25652"
+		},
+		{
+			"cvss3BaseScore": "6.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:N/A:L",
+			"cwe": "CWE-362->CWE-200",
+			"name": "CVE-2020-25653",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25653"
+		}
+	],
+	"description": "The spice-vdagent packages provide a SPICE agent for Linux guests.\n\nSecurity Fix(es):\n\n* spice-vdagent: possible file transfer DoS and information leak via active_xfers hash map (CVE-2020-25651)\n\n* spice-vdagent: UNIX domain socket peer PID retrieved via SO_PEERCRED is subject to race condition (CVE-2020-25653)\n\n* spice-vdagent: memory DoS via arbitrary entries in active_xfers hash table (CVE-2020-25650)\n\n* spice-vdagent: possibility to exhaust file descriptors in vdagentd (CVE-2020-25652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1790904",
+			"ticket": "1790904"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1824610",
+			"ticket": "1824610"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886345",
+			"ticket": "1886345"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886359",
+			"ticket": "1886359"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886366",
+			"ticket": "1886366"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1886372",
+			"ticket": "1886372"
+		}
+	],
+	"name": "RLSA-2021:1791",
+	"publishedAt": "2021-05-18T06:05:33Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"spice-vdagent-0:0.20.0-3.el8.aarch64.rpm",
+				"spice-vdagent-0:0.20.0-3.el8.src.rpm",
+				"spice-vdagent-0:0.20.0-3.el8.x86_64.rpm",
+				"spice-vdagent-debuginfo-0:0.20.0-3.el8.aarch64.rpm",
+				"spice-vdagent-debuginfo-0:0.20.0-3.el8.x86_64.rpm",
+				"spice-vdagent-debugsource-0:0.20.0-3.el8.aarch64.rpm",
+				"spice-vdagent-debugsource-0:0.20.0-3.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: spice-vdagent security and bug fix update",
+	"topic": "An update is available for spice-vdagent.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

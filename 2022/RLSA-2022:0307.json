@@ -1,250 +1,250 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "3.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-502",
-      "name": "CVE-2022-21248",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21248"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-212",
-      "name": "CVE-2022-21282",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21282"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-248",
-      "name": "CVE-2022-21283",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21283"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-1173->CWE-502",
-      "name": "CVE-2022-21293",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21293"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-770",
-      "name": "CVE-2022-21294",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21294"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-285->CWE-212",
-      "name": "CVE-2022-21296",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21296"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-835",
-      "name": "CVE-2022-21299",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21299"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-21305",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21305"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-770",
-      "name": "CVE-2022-21340",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21340"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-1173->CWE-502",
-      "name": "CVE-2022-21341",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21341"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-770",
-      "name": "CVE-2022-21360",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21360"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-190->CWE-770",
-      "name": "CVE-2022-21365",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21365"
-    }
-  ],
-  "description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Incomplete deserialization class filtering in ObjectInputStream (Serialization, 8264934) (CVE-2022-21248)\n\n* OpenJDK: Insufficient URI checks in the XSLT TransformerImpl (JAXP, 8270492) (CVE-2022-21282)\n\n* OpenJDK: Unexpected exception thrown in regex Pattern (Libraries, 8268813) (CVE-2022-21283)\n\n* OpenJDK: Incomplete checks of StringBuffer and StringBuilder during deserialization (Libraries, 8270392) (CVE-2022-21293)\n\n* OpenJDK: Incorrect IdentityHashMap size checks during deserialization (Libraries, 8270416) (CVE-2022-21294)\n\n* OpenJDK: Incorrect access checks in XMLEntityManager (JAXP, 8270498) (CVE-2022-21296)\n\n* OpenJDK: Infinite loop related to incorrect handling of newlines in XMLEntityScanner (JAXP, 8270646) (CVE-2022-21299)\n\n* OpenJDK: Array indexing issues in LIRGenerator (Hotspot, 8272014) (CVE-2022-21305)\n\n* OpenJDK: Excessive resource use when reading JAR manifest attributes (Libraries, 8272026) (CVE-2022-21340)\n\n* OpenJDK: Insufficient checks when deserializing exceptions in ObjectInputStream (Serialization, 8272236) (CVE-2022-21341)\n\n* OpenJDK: Excessive memory allocation in BMPImageReader (ImageIO, 8273756) (CVE-2022-21360)\n\n* OpenJDK: Integer overflow in BMPImageReader (ImageIO, 8273838) (CVE-2022-21365)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Previously, OpenJDK would crash when running the Java Flight Recorder (JFR) on PowerPC 64 (ppc64) machines. This was found to be due to missing crash protection in the ppc64 port. With this update, JFR should be run without crashing on ppc64. (BZ#2038935)",
-  "fixes": [
-    {
-      "description": "* Previously, OpenJDK would crash when running the Java Flight Recorder (JFR) on PowerPC 64 (ppc64) machines. This was found to be due to missing crash protection in the ppc64 port. With this update, JFR should be run without crashing on ppc64.",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2038935",
-      "ticket": "2038935"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041400",
-      "ticket": "2041400"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041417",
-      "ticket": "2041417"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041427",
-      "ticket": "2041427"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041435",
-      "ticket": "2041435"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041439",
-      "ticket": "2041439"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041472",
-      "ticket": "2041472"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041491",
-      "ticket": "2041491"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041785",
-      "ticket": "2041785"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041801",
-      "ticket": "2041801"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041878",
-      "ticket": "2041878"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041884",
-      "ticket": "2041884"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041897",
-      "ticket": "2041897"
-    }
-  ],
-  "name": "RLSA-2022:0307",
-  "publishedAt": "2022-01-27T13:47:36Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "java-1.8.0-openjdk-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-1:1.8.0.322.b06-2.el8_5.src.rpm",
-        "java-1.8.0-openjdk-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-accessibility-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-accessibility-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-debugsource-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-debugsource-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-javadoc-1:1.8.0.322.b06-2.el8_5.noarch.rpm",
-        "java-1.8.0-openjdk-javadoc-zip-1:1.8.0.322.b06-2.el8_5.noarch.rpm",
-        "java-1.8.0-openjdk-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-src-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-src-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-src-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-src-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
-        "java-1.8.0-openjdk-src-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
-        "java-1.8.0-openjdk-src-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: java-1.8.0-openjdk security and bug fix update",
-  "topic": "An update is available for java-1.8.0-openjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-502",
+			"name": "CVE-2022-21248",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21248"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-212",
+			"name": "CVE-2022-21282",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21282"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-248",
+			"name": "CVE-2022-21283",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21283"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-1173->CWE-502",
+			"name": "CVE-2022-21293",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21293"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-770",
+			"name": "CVE-2022-21294",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21294"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-285->CWE-212",
+			"name": "CVE-2022-21296",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21296"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-835",
+			"name": "CVE-2022-21299",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21299"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-21305",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21305"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-770",
+			"name": "CVE-2022-21340",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21340"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-1173->CWE-502",
+			"name": "CVE-2022-21341",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21341"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-770",
+			"name": "CVE-2022-21360",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21360"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-190->CWE-770",
+			"name": "CVE-2022-21365",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21365"
+		}
+	],
+	"description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: Incomplete deserialization class filtering in ObjectInputStream (Serialization, 8264934) (CVE-2022-21248)\n\n* OpenJDK: Insufficient URI checks in the XSLT TransformerImpl (JAXP, 8270492) (CVE-2022-21282)\n\n* OpenJDK: Unexpected exception thrown in regex Pattern (Libraries, 8268813) (CVE-2022-21283)\n\n* OpenJDK: Incomplete checks of StringBuffer and StringBuilder during deserialization (Libraries, 8270392) (CVE-2022-21293)\n\n* OpenJDK: Incorrect IdentityHashMap size checks during deserialization (Libraries, 8270416) (CVE-2022-21294)\n\n* OpenJDK: Incorrect access checks in XMLEntityManager (JAXP, 8270498) (CVE-2022-21296)\n\n* OpenJDK: Infinite loop related to incorrect handling of newlines in XMLEntityScanner (JAXP, 8270646) (CVE-2022-21299)\n\n* OpenJDK: Array indexing issues in LIRGenerator (Hotspot, 8272014) (CVE-2022-21305)\n\n* OpenJDK: Excessive resource use when reading JAR manifest attributes (Libraries, 8272026) (CVE-2022-21340)\n\n* OpenJDK: Insufficient checks when deserializing exceptions in ObjectInputStream (Serialization, 8272236) (CVE-2022-21341)\n\n* OpenJDK: Excessive memory allocation in BMPImageReader (ImageIO, 8273756) (CVE-2022-21360)\n\n* OpenJDK: Integer overflow in BMPImageReader (ImageIO, 8273838) (CVE-2022-21365)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Previously, OpenJDK would crash when running the Java Flight Recorder (JFR) on PowerPC 64 (ppc64) machines. This was found to be due to missing crash protection in the ppc64 port. With this update, JFR should be run without crashing on ppc64. (BZ#2038935)",
+	"fixes": [
+		{
+			"description": "* Previously, OpenJDK would crash when running the Java Flight Recorder (JFR) on PowerPC 64 (ppc64) machines. This was found to be due to missing crash protection in the ppc64 port. With this update, JFR should be run without crashing on ppc64.",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2038935",
+			"ticket": "2038935"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041400",
+			"ticket": "2041400"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041417",
+			"ticket": "2041417"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041427",
+			"ticket": "2041427"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041435",
+			"ticket": "2041435"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041439",
+			"ticket": "2041439"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041472",
+			"ticket": "2041472"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041491",
+			"ticket": "2041491"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041785",
+			"ticket": "2041785"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041801",
+			"ticket": "2041801"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041878",
+			"ticket": "2041878"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041884",
+			"ticket": "2041884"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041897",
+			"ticket": "2041897"
+		}
+	],
+	"name": "RLSA-2022:0307",
+	"publishedAt": "2022-01-27T13:47:36Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"java-1.8.0-openjdk-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-1:1.8.0.322.b06-2.el8_5.src.rpm",
+				"java-1.8.0-openjdk-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-accessibility-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-accessibility-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-debugsource-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-debugsource-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-javadoc-1:1.8.0.322.b06-2.el8_5.noarch.rpm",
+				"java-1.8.0-openjdk-javadoc-zip-1:1.8.0.322.b06-2.el8_5.noarch.rpm",
+				"java-1.8.0-openjdk-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-src-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-src-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-src-fastdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-src-fastdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm",
+				"java-1.8.0-openjdk-src-slowdebug-1:1.8.0.322.b06-2.el8_5.aarch64.rpm",
+				"java-1.8.0-openjdk-src-slowdebug-1:1.8.0.322.b06-2.el8_5.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: java-1.8.0-openjdk security and bug fix update",
+	"topic": "An update is available for java-1.8.0-openjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

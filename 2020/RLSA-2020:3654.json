@@ -1,49 +1,49 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
-      "cwe": "CWE-674->CWE-121",
-      "name": "CVE-2020-12825",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12825"
-    }
-  ],
-  "description": "The libcroco is a standalone Cascading Style Sheet level 2 (CSS2) parsing and manipulation library. \n\nSecurity Fix(es):\n\n* libcroco: Stack overflow in function cr_parser_parse_any_core in cr-parser.c (CVE-2020-12825)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1835377",
-      "ticket": "1835377"
-    }
-  ],
-  "name": "RLSA-2020:3654",
-  "publishedAt": "2020-09-08T08:36:30Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libcroco-0:0.6.12-4.el8_2.1.aarch64.rpm",
-        "libcroco-0:0.6.12-4.el8_2.1.i686.rpm",
-        "libcroco-0:0.6.12-4.el8_2.1.src.rpm",
-        "libcroco-0:0.6.12-4.el8_2.1.x86_64.rpm",
-        "libcroco-debuginfo-0:0.6.12-4.el8_2.1.aarch64.rpm",
-        "libcroco-debuginfo-0:0.6.12-4.el8_2.1.i686.rpm",
-        "libcroco-debuginfo-0:0.6.12-4.el8_2.1.x86_64.rpm",
-        "libcroco-debugsource-0:0.6.12-4.el8_2.1.aarch64.rpm",
-        "libcroco-debugsource-0:0.6.12-4.el8_2.1.i686.rpm",
-        "libcroco-debugsource-0:0.6.12-4.el8_2.1.x86_64.rpm",
-        "libcroco-devel-0:0.6.12-4.el8_2.1.aarch64.rpm",
-        "libcroco-devel-0:0.6.12-4.el8_2.1.i686.rpm",
-        "libcroco-devel-0:0.6.12-4.el8_2.1.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: libcroco security update",
-  "topic": "An update is available for libcroco.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-674->CWE-121",
+			"name": "CVE-2020-12825",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12825"
+		}
+	],
+	"description": "The libcroco is a standalone Cascading Style Sheet level 2 (CSS2) parsing and manipulation library. \n\nSecurity Fix(es):\n\n* libcroco: Stack overflow in function cr_parser_parse_any_core in cr-parser.c (CVE-2020-12825)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1835377",
+			"ticket": "1835377"
+		}
+	],
+	"name": "RLSA-2020:3654",
+	"publishedAt": "2020-09-08T08:36:30Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libcroco-0:0.6.12-4.el8_2.1.aarch64.rpm",
+				"libcroco-0:0.6.12-4.el8_2.1.i686.rpm",
+				"libcroco-0:0.6.12-4.el8_2.1.src.rpm",
+				"libcroco-0:0.6.12-4.el8_2.1.x86_64.rpm",
+				"libcroco-debuginfo-0:0.6.12-4.el8_2.1.aarch64.rpm",
+				"libcroco-debuginfo-0:0.6.12-4.el8_2.1.i686.rpm",
+				"libcroco-debuginfo-0:0.6.12-4.el8_2.1.x86_64.rpm",
+				"libcroco-debugsource-0:0.6.12-4.el8_2.1.aarch64.rpm",
+				"libcroco-debugsource-0:0.6.12-4.el8_2.1.i686.rpm",
+				"libcroco-debugsource-0:0.6.12-4.el8_2.1.x86_64.rpm",
+				"libcroco-devel-0:0.6.12-4.el8_2.1.aarch64.rpm",
+				"libcroco-devel-0:0.6.12-4.el8_2.1.i686.rpm",
+				"libcroco-devel-0:0.6.12-4.el8_2.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libcroco security update",
+	"topic": "An update is available for libcroco.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

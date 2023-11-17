@@ -1,69 +1,69 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "4.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-522",
-      "name": "CVE-2021-29956",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29956"
-    },
-    {
-      "cvss3BaseScore": "3.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-347",
-      "name": "CVE-2021-29957",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29957"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-120",
-      "name": "CVE-2021-29967",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29967"
-    }
-  ],
-  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 78.11.0.\n\nSecurity Fix(es):\n\n* Mozilla: Memory safety bugs fixed in Firefox 89 and Firefox ESR 78.11 (CVE-2021-29967)\n\n* Mozilla: Thunderbird stored OpenPGP secret keys without master password protection (CVE-2021-29956)\n\n* Mozilla: Partial protection of inline OpenPGP message not indicated (CVE-2021-29957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961503",
-      "ticket": "1961503"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961504",
-      "ticket": "1961504"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966831",
-      "ticket": "1966831"
-    }
-  ],
-  "name": "RLSA-2021:2264",
-  "publishedAt": "2021-06-07T11:20:44Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "thunderbird-0:78.11.0-1.el8_4.aarch64.rpm",
-        "thunderbird-0:78.11.0-1.el8_4.src.rpm",
-        "thunderbird-0:78.11.0-1.el8_4.x86_64.rpm",
-        "thunderbird-debuginfo-0:78.11.0-1.el8_4.aarch64.rpm",
-        "thunderbird-debuginfo-0:78.11.0-1.el8_4.x86_64.rpm",
-        "thunderbird-debugsource-0:78.11.0-1.el8_4.aarch64.rpm",
-        "thunderbird-debugsource-0:78.11.0-1.el8_4.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: thunderbird security update",
-  "topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:R/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-522",
+			"name": "CVE-2021-29956",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29956"
+		},
+		{
+			"cvss3BaseScore": "3.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-347",
+			"name": "CVE-2021-29957",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29957"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2021-29967",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29967"
+		}
+	],
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 78.11.0.\n\nSecurity Fix(es):\n\n* Mozilla: Memory safety bugs fixed in Firefox 89 and Firefox ESR 78.11 (CVE-2021-29967)\n\n* Mozilla: Thunderbird stored OpenPGP secret keys without master password protection (CVE-2021-29956)\n\n* Mozilla: Partial protection of inline OpenPGP message not indicated (CVE-2021-29957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961503",
+			"ticket": "1961503"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961504",
+			"ticket": "1961504"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966831",
+			"ticket": "1966831"
+		}
+	],
+	"name": "RLSA-2021:2264",
+	"publishedAt": "2021-06-07T11:20:44Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"thunderbird-0:78.11.0-1.el8_4.aarch64.rpm",
+				"thunderbird-0:78.11.0-1.el8_4.src.rpm",
+				"thunderbird-0:78.11.0-1.el8_4.x86_64.rpm",
+				"thunderbird-debuginfo-0:78.11.0-1.el8_4.aarch64.rpm",
+				"thunderbird-debuginfo-0:78.11.0-1.el8_4.x86_64.rpm",
+				"thunderbird-debugsource-0:78.11.0-1.el8_4.aarch64.rpm",
+				"thunderbird-debugsource-0:78.11.0-1.el8_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: thunderbird security update",
+	"topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

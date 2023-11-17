@@ -1,73 +1,73 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-476",
-      "name": "CVE-2020-35525",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35525"
-    },
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2020-35527",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35527"
-    }
-  ],
-  "description": "SQLite is a C library that implements an SQL database engine. A large subset of SQL92 is supported. A complete database is stored in a single disk file. The API is designed for convenience and ease of use. Applications that link against SQLite can enjoy the power and flexibility of an SQL database without the administrative hassles of supporting a separate database server.\n\nSecurity Fix(es):\n\n* sqlite: Out of bounds access during table rename (CVE-2020-35527)\n\n* sqlite: Null pointer derreference in src/select.c (CVE-2020-35525)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122324",
-      "ticket": "2122324"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122329",
-      "ticket": "2122329"
-    }
-  ],
-  "name": "RLSA-2022:7108",
-  "publishedAt": "2022-10-25T07:23:23Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "lemon-0:3.26.0-16.el8_6.aarch64.rpm",
-        "lemon-0:3.26.0-16.el8_6.x86_64.rpm",
-        "lemon-debuginfo-0:3.26.0-16.el8_6.aarch64.rpm",
-        "lemon-debuginfo-0:3.26.0-16.el8_6.x86_64.rpm",
-        "sqlite-0:3.26.0-16.el8_6.aarch64.rpm",
-        "sqlite-0:3.26.0-16.el8_6.i686.rpm",
-        "sqlite-0:3.26.0-16.el8_6.src.rpm",
-        "sqlite-0:3.26.0-16.el8_6.x86_64.rpm",
-        "sqlite-debuginfo-0:3.26.0-16.el8_6.aarch64.rpm",
-        "sqlite-debuginfo-0:3.26.0-16.el8_6.i686.rpm",
-        "sqlite-debuginfo-0:3.26.0-16.el8_6.x86_64.rpm",
-        "sqlite-debugsource-0:3.26.0-16.el8_6.aarch64.rpm",
-        "sqlite-debugsource-0:3.26.0-16.el8_6.i686.rpm",
-        "sqlite-debugsource-0:3.26.0-16.el8_6.x86_64.rpm",
-        "sqlite-devel-0:3.26.0-16.el8_6.aarch64.rpm",
-        "sqlite-devel-0:3.26.0-16.el8_6.i686.rpm",
-        "sqlite-devel-0:3.26.0-16.el8_6.x86_64.rpm",
-        "sqlite-doc-0:3.26.0-16.el8_6.noarch.rpm",
-        "sqlite-libs-0:3.26.0-16.el8_6.aarch64.rpm",
-        "sqlite-libs-0:3.26.0-16.el8_6.i686.rpm",
-        "sqlite-libs-0:3.26.0-16.el8_6.x86_64.rpm",
-        "sqlite-libs-debuginfo-0:3.26.0-16.el8_6.aarch64.rpm",
-        "sqlite-libs-debuginfo-0:3.26.0-16.el8_6.i686.rpm",
-        "sqlite-libs-debuginfo-0:3.26.0-16.el8_6.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: sqlite security update",
-  "topic": "An update is available for sqlite.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2020-35525",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35525"
+		},
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2020-35527",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-35527"
+		}
+	],
+	"description": "SQLite is a C library that implements an SQL database engine. A large subset of SQL92 is supported. A complete database is stored in a single disk file. The API is designed for convenience and ease of use. Applications that link against SQLite can enjoy the power and flexibility of an SQL database without the administrative hassles of supporting a separate database server.\n\nSecurity Fix(es):\n\n* sqlite: Out of bounds access during table rename (CVE-2020-35527)\n\n* sqlite: Null pointer derreference in src/select.c (CVE-2020-35525)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122324",
+			"ticket": "2122324"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122329",
+			"ticket": "2122329"
+		}
+	],
+	"name": "RLSA-2022:7108",
+	"publishedAt": "2022-10-25T07:23:23Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"lemon-0:3.26.0-16.el8_6.aarch64.rpm",
+				"lemon-0:3.26.0-16.el8_6.x86_64.rpm",
+				"lemon-debuginfo-0:3.26.0-16.el8_6.aarch64.rpm",
+				"lemon-debuginfo-0:3.26.0-16.el8_6.x86_64.rpm",
+				"sqlite-0:3.26.0-16.el8_6.aarch64.rpm",
+				"sqlite-0:3.26.0-16.el8_6.i686.rpm",
+				"sqlite-0:3.26.0-16.el8_6.src.rpm",
+				"sqlite-0:3.26.0-16.el8_6.x86_64.rpm",
+				"sqlite-debuginfo-0:3.26.0-16.el8_6.aarch64.rpm",
+				"sqlite-debuginfo-0:3.26.0-16.el8_6.i686.rpm",
+				"sqlite-debuginfo-0:3.26.0-16.el8_6.x86_64.rpm",
+				"sqlite-debugsource-0:3.26.0-16.el8_6.aarch64.rpm",
+				"sqlite-debugsource-0:3.26.0-16.el8_6.i686.rpm",
+				"sqlite-debugsource-0:3.26.0-16.el8_6.x86_64.rpm",
+				"sqlite-devel-0:3.26.0-16.el8_6.aarch64.rpm",
+				"sqlite-devel-0:3.26.0-16.el8_6.i686.rpm",
+				"sqlite-devel-0:3.26.0-16.el8_6.x86_64.rpm",
+				"sqlite-doc-0:3.26.0-16.el8_6.noarch.rpm",
+				"sqlite-libs-0:3.26.0-16.el8_6.aarch64.rpm",
+				"sqlite-libs-0:3.26.0-16.el8_6.i686.rpm",
+				"sqlite-libs-0:3.26.0-16.el8_6.x86_64.rpm",
+				"sqlite-libs-debuginfo-0:3.26.0-16.el8_6.aarch64.rpm",
+				"sqlite-libs-debuginfo-0:3.26.0-16.el8_6.i686.rpm",
+				"sqlite-libs-debuginfo-0:3.26.0-16.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: sqlite security update",
+	"topic": "An update is available for sqlite.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

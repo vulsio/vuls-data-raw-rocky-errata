@@ -1,71 +1,71 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "6.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-252->CWE-770->CWE-120",
-      "name": "CVE-2022-30067",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30067"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "(CWE-393|CWE-755)->CWE-125",
-      "name": "CVE-2022-32990",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32990"
-    }
-  ],
-  "description": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.\n\nSecurity Fix(es):\n\n* gimp: buffer overflow through a crafted XCF file (CVE-2022-30067)\n\n* gimp: unhandled exception via a crafted XCF file may lead to DoS (CVE-2022-32990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2087591",
-      "ticket": "2087591"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2103202",
-      "ticket": "2103202"
-    }
-  ],
-  "name": "RLSA-2022:7978",
-  "publishedAt": "2022-11-15T06:12:43Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "gimp-2:2.99.8-3.el9.aarch64.rpm",
-        "gimp-2:2.99.8-3.el9.ppc64le.rpm",
-        "gimp-2:2.99.8-3.el9.s390x.rpm",
-        "gimp-2:2.99.8-3.el9.src.rpm",
-        "gimp-2:2.99.8-3.el9.x86_64.rpm",
-        "gimp-debuginfo-2:2.99.8-3.el9.aarch64.rpm",
-        "gimp-debuginfo-2:2.99.8-3.el9.ppc64le.rpm",
-        "gimp-debuginfo-2:2.99.8-3.el9.s390x.rpm",
-        "gimp-debuginfo-2:2.99.8-3.el9.x86_64.rpm",
-        "gimp-debugsource-2:2.99.8-3.el9.aarch64.rpm",
-        "gimp-debugsource-2:2.99.8-3.el9.ppc64le.rpm",
-        "gimp-debugsource-2:2.99.8-3.el9.s390x.rpm",
-        "gimp-debugsource-2:2.99.8-3.el9.x86_64.rpm",
-        "gimp-libs-2:2.99.8-3.el9.aarch64.rpm",
-        "gimp-libs-2:2.99.8-3.el9.i686.rpm",
-        "gimp-libs-2:2.99.8-3.el9.ppc64le.rpm",
-        "gimp-libs-2:2.99.8-3.el9.s390x.rpm",
-        "gimp-libs-2:2.99.8-3.el9.x86_64.rpm",
-        "gimp-libs-debuginfo-2:2.99.8-3.el9.aarch64.rpm",
-        "gimp-libs-debuginfo-2:2.99.8-3.el9.ppc64le.rpm",
-        "gimp-libs-debuginfo-2:2.99.8-3.el9.s390x.rpm",
-        "gimp-libs-debuginfo-2:2.99.8-3.el9.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: gimp security and enhancement update",
-  "topic": "An update is available for gimp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-252->CWE-770->CWE-120",
+			"name": "CVE-2022-30067",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30067"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "(CWE-393|CWE-755)->CWE-125",
+			"name": "CVE-2022-32990",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32990"
+		}
+	],
+	"description": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.\n\nSecurity Fix(es):\n\n* gimp: buffer overflow through a crafted XCF file (CVE-2022-30067)\n\n* gimp: unhandled exception via a crafted XCF file may lead to DoS (CVE-2022-32990)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2087591",
+			"ticket": "2087591"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2103202",
+			"ticket": "2103202"
+		}
+	],
+	"name": "RLSA-2022:7978",
+	"publishedAt": "2022-11-15T06:12:43Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"gimp-2:2.99.8-3.el9.aarch64.rpm",
+				"gimp-2:2.99.8-3.el9.ppc64le.rpm",
+				"gimp-2:2.99.8-3.el9.s390x.rpm",
+				"gimp-2:2.99.8-3.el9.src.rpm",
+				"gimp-2:2.99.8-3.el9.x86_64.rpm",
+				"gimp-debuginfo-2:2.99.8-3.el9.aarch64.rpm",
+				"gimp-debuginfo-2:2.99.8-3.el9.ppc64le.rpm",
+				"gimp-debuginfo-2:2.99.8-3.el9.s390x.rpm",
+				"gimp-debuginfo-2:2.99.8-3.el9.x86_64.rpm",
+				"gimp-debugsource-2:2.99.8-3.el9.aarch64.rpm",
+				"gimp-debugsource-2:2.99.8-3.el9.ppc64le.rpm",
+				"gimp-debugsource-2:2.99.8-3.el9.s390x.rpm",
+				"gimp-debugsource-2:2.99.8-3.el9.x86_64.rpm",
+				"gimp-libs-2:2.99.8-3.el9.aarch64.rpm",
+				"gimp-libs-2:2.99.8-3.el9.i686.rpm",
+				"gimp-libs-2:2.99.8-3.el9.ppc64le.rpm",
+				"gimp-libs-2:2.99.8-3.el9.s390x.rpm",
+				"gimp-libs-2:2.99.8-3.el9.x86_64.rpm",
+				"gimp-libs-debuginfo-2:2.99.8-3.el9.aarch64.rpm",
+				"gimp-libs-debuginfo-2:2.99.8-3.el9.ppc64le.rpm",
+				"gimp-libs-debuginfo-2:2.99.8-3.el9.s390x.rpm",
+				"gimp-libs-debuginfo-2:2.99.8-3.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gimp security and enhancement update",
+	"topic": "An update is available for gimp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,49 +1,49 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-295",
-      "name": "CVE-2021-39365",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39365"
-    }
-  ],
-  "description": "Grilo is a framework that provides access to different sources of multimedia content, using a pluggable system. The grilo package contains the core library and elements.\n\nSecurity Fix(es):\n\n* grilo: missing TLS certificate verification (CVE-2021-39365)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997161",
-      "ticket": "1997161"
-    }
-  ],
-  "name": "RLSA-2021:4339",
-  "publishedAt": "2021-11-09T09:02:57Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "grilo-0:0.3.6-3.el8.aarch64.rpm",
-        "grilo-0:0.3.6-3.el8.i686.rpm",
-        "grilo-0:0.3.6-3.el8.src.rpm",
-        "grilo-0:0.3.6-3.el8.x86_64.rpm",
-        "grilo-debuginfo-0:0.3.6-3.el8.aarch64.rpm",
-        "grilo-debuginfo-0:0.3.6-3.el8.i686.rpm",
-        "grilo-debuginfo-0:0.3.6-3.el8.x86_64.rpm",
-        "grilo-debugsource-0:0.3.6-3.el8.aarch64.rpm",
-        "grilo-debugsource-0:0.3.6-3.el8.i686.rpm",
-        "grilo-debugsource-0:0.3.6-3.el8.x86_64.rpm",
-        "grilo-devel-0:0.3.6-3.el8.aarch64.rpm",
-        "grilo-devel-0:0.3.6-3.el8.i686.rpm",
-        "grilo-devel-0:0.3.6-3.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: grilo security update",
-  "topic": "An update is available for grilo.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-295",
+			"name": "CVE-2021-39365",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-39365"
+		}
+	],
+	"description": "Grilo is a framework that provides access to different sources of multimedia content, using a pluggable system. The grilo package contains the core library and elements.\n\nSecurity Fix(es):\n\n* grilo: missing TLS certificate verification (CVE-2021-39365)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997161",
+			"ticket": "1997161"
+		}
+	],
+	"name": "RLSA-2021:4339",
+	"publishedAt": "2021-11-09T09:02:57Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grilo-0:0.3.6-3.el8.aarch64.rpm",
+				"grilo-0:0.3.6-3.el8.i686.rpm",
+				"grilo-0:0.3.6-3.el8.src.rpm",
+				"grilo-0:0.3.6-3.el8.x86_64.rpm",
+				"grilo-debuginfo-0:0.3.6-3.el8.aarch64.rpm",
+				"grilo-debuginfo-0:0.3.6-3.el8.i686.rpm",
+				"grilo-debuginfo-0:0.3.6-3.el8.x86_64.rpm",
+				"grilo-debugsource-0:0.3.6-3.el8.aarch64.rpm",
+				"grilo-debugsource-0:0.3.6-3.el8.i686.rpm",
+				"grilo-debugsource-0:0.3.6-3.el8.x86_64.rpm",
+				"grilo-devel-0:0.3.6-3.el8.aarch64.rpm",
+				"grilo-devel-0:0.3.6-3.el8.i686.rpm",
+				"grilo-devel-0:0.3.6-3.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grilo security update",
+	"topic": "An update is available for grilo.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

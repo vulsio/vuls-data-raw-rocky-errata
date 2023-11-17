@@ -1,43 +1,43 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "3.9",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L",
-      "cwe": "CWE-22",
-      "name": "CVE-2020-36314",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36314"
-    }
-  ],
-  "description": "File Roller is an application for creating and viewing archives files, such as tar or zip files.\n\nSecurity Fix(es):\n\n* file-roller: directory traversal via directory symlink pointing outside of the target directory (incomplete fix for CVE-2020-11736) (CVE-2020-36314)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1947534",
-      "ticket": "1947534"
-    }
-  ],
-  "name": "RLSA-2021:4179",
-  "publishedAt": "2021-11-09T08:32:50Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "file-roller-0:3.28.1-4.el8.aarch64.rpm",
-        "file-roller-0:3.28.1-4.el8.src.rpm",
-        "file-roller-0:3.28.1-4.el8.x86_64.rpm",
-        "file-roller-debuginfo-0:3.28.1-4.el8.aarch64.rpm",
-        "file-roller-debuginfo-0:3.28.1-4.el8.x86_64.rpm",
-        "file-roller-debugsource-0:3.28.1-4.el8.aarch64.rpm",
-        "file-roller-debugsource-0:3.28.1-4.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: file-roller security update",
-  "topic": "An update is available for file-roller.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:L",
+			"cwe": "CWE-22",
+			"name": "CVE-2020-36314",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-36314"
+		}
+	],
+	"description": "File Roller is an application for creating and viewing archives files, such as tar or zip files.\n\nSecurity Fix(es):\n\n* file-roller: directory traversal via directory symlink pointing outside of the target directory (incomplete fix for CVE-2020-11736) (CVE-2020-36314)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1947534",
+			"ticket": "1947534"
+		}
+	],
+	"name": "RLSA-2021:4179",
+	"publishedAt": "2021-11-09T08:32:50Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"file-roller-0:3.28.1-4.el8.aarch64.rpm",
+				"file-roller-0:3.28.1-4.el8.src.rpm",
+				"file-roller-0:3.28.1-4.el8.x86_64.rpm",
+				"file-roller-debuginfo-0:3.28.1-4.el8.aarch64.rpm",
+				"file-roller-debuginfo-0:3.28.1-4.el8.x86_64.rpm",
+				"file-roller-debugsource-0:3.28.1-4.el8.aarch64.rpm",
+				"file-roller-debugsource-0:3.28.1-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: file-roller security update",
+	"topic": "An update is available for file-roller.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

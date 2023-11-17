@@ -1,61 +1,61 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-193",
-      "name": "CVE-2020-18032",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-18032"
-    }
-  ],
-  "description": "Graphviz is open-source graph-visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.\n\nSecurity Fix(es):\n\n* graphviz: off-by-one in parse_reclbl() in lib/common/shapes.c (CVE-2020-18032)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966272",
-      "ticket": "1966272"
-    }
-  ],
-  "name": "RLSA-2021:4256",
-  "publishedAt": "2021-11-09T08:52:05Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "graphviz-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-0:2.40.1-43.el8.i686.rpm",
-        "graphviz-0:2.40.1-43.el8.src.rpm",
-        "graphviz-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-debuginfo-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-debuginfo-0:2.40.1-43.el8.i686.rpm",
-        "graphviz-debuginfo-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-debugsource-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-debugsource-0:2.40.1-43.el8.i686.rpm",
-        "graphviz-debugsource-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-devel-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-devel-0:2.40.1-43.el8.i686.rpm",
-        "graphviz-devel-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-doc-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-doc-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-gd-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-gd-0:2.40.1-43.el8.i686.rpm",
-        "graphviz-gd-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-gd-debuginfo-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-gd-debuginfo-0:2.40.1-43.el8.i686.rpm",
-        "graphviz-gd-debuginfo-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-python3-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-python3-0:2.40.1-43.el8.x86_64.rpm",
-        "graphviz-python3-debuginfo-0:2.40.1-43.el8.aarch64.rpm",
-        "graphviz-python3-debuginfo-0:2.40.1-43.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: graphviz security update",
-  "topic": "An update is available for graphviz.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-193",
+			"name": "CVE-2020-18032",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-18032"
+		}
+	],
+	"description": "Graphviz is open-source graph-visualization software. Graph visualization is a way of representing structural information as diagrams of abstract graphs and networks. It has important applications in networking, bioinformatics, software engineering, database and web design, machine learning, and in visual interfaces for other technical domains.\n\nSecurity Fix(es):\n\n* graphviz: off-by-one in parse_reclbl() in lib/common/shapes.c (CVE-2020-18032)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1966272",
+			"ticket": "1966272"
+		}
+	],
+	"name": "RLSA-2021:4256",
+	"publishedAt": "2021-11-09T08:52:05Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"graphviz-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-0:2.40.1-43.el8.i686.rpm",
+				"graphviz-0:2.40.1-43.el8.src.rpm",
+				"graphviz-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-debuginfo-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-debuginfo-0:2.40.1-43.el8.i686.rpm",
+				"graphviz-debuginfo-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-debugsource-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-debugsource-0:2.40.1-43.el8.i686.rpm",
+				"graphviz-debugsource-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-devel-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-devel-0:2.40.1-43.el8.i686.rpm",
+				"graphviz-devel-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-doc-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-doc-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-gd-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-gd-0:2.40.1-43.el8.i686.rpm",
+				"graphviz-gd-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-gd-debuginfo-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-gd-debuginfo-0:2.40.1-43.el8.i686.rpm",
+				"graphviz-gd-debuginfo-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-python3-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-python3-0:2.40.1-43.el8.x86_64.rpm",
+				"graphviz-python3-debuginfo-0:2.40.1-43.el8.aarch64.rpm",
+				"graphviz-python3-debuginfo-0:2.40.1-43.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: graphviz security update",
+	"topic": "An update is available for graphviz.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

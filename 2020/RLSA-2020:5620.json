@@ -1,122 +1,122 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-20",
-      "name": "CVE-2020-14349",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14349"
-    },
-    {
-      "cvss3BaseScore": "7.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-20",
-      "name": "CVE-2020-14350",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14350"
-    },
-    {
-      "cvss3BaseScore": "3.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-285",
-      "name": "CVE-2020-1720",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1720"
-    },
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-327",
-      "name": "CVE-2020-25694",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25694"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-89",
-      "name": "CVE-2020-25695",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25695"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-183->CWE-270",
-      "name": "CVE-2020-25696",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25696"
-    }
-  ],
-  "description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (12.5).\n\nSecurity Fix(es):\n\n* postgresql: Reconnection can downgrade connection security settings (CVE-2020-25694)\n\n* postgresql: Multiple features escape \"security restricted operation\" sandbox (CVE-2020-25695)\n\n* postgresql: Uncontrolled search path element in logical replication (CVE-2020-14349)\n\n* postgresql: Uncontrolled search path element in CREATE EXTENSION (CVE-2020-14350)\n\n* postgresql: psql's \\gset allows overwriting specially treated variables (CVE-2020-25696)\n\n* postgresql: ALTER ... DEPENDS ON EXTENSION is missing authorization checks (CVE-2020-1720)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1798852",
-      "ticket": "1798852"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1865744",
-      "ticket": "1865744"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1865746",
-      "ticket": "1865746"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894423",
-      "ticket": "1894423"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894425",
-      "ticket": "1894425"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894430",
-      "ticket": "1894430"
-    }
-  ],
-  "name": "RLSA-2020:5620",
-  "publishedAt": "2020-12-17T15:30:10Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "pgaudit-0:1.4.0-4.module+el8.4.0+545+ca56da2e.aarch64.rpm",
-        "pgaudit-0:1.4.0-4.module+el8.4.0+545+ca56da2e.src.rpm",
-        "pgaudit-0:1.4.0-4.module+el8.4.0+545+ca56da2e.x86_64.rpm",
-        "pgaudit-debuginfo-0:1.4.0-4.module+el8.4.0+545+ca56da2e.aarch64.rpm",
-        "pgaudit-debuginfo-0:1.4.0-4.module+el8.4.0+545+ca56da2e.x86_64.rpm",
-        "pgaudit-debugsource-0:1.4.0-4.module+el8.4.0+545+ca56da2e.aarch64.rpm",
-        "pgaudit-debugsource-0:1.4.0-4.module+el8.4.0+545+ca56da2e.x86_64.rpm",
-        "postgres-decoderbufs-0:0.10.0-2.module+el8.5.0+684+c3892ef9.aarch64.rpm",
-        "postgres-decoderbufs-0:0.10.0-2.module+el8.4.0+424+71d47d9a.aarch64.rpm",
-        "postgres-decoderbufs-0:0.10.0-2.module+el8.5.0+684+c3892ef9.src.rpm",
-        "postgres-decoderbufs-0:0.10.0-2.module+el8.4.0+424+71d47d9a.src.rpm",
-        "postgres-decoderbufs-0:0.10.0-2.module+el8.5.0+684+c3892ef9.x86_64.rpm",
-        "postgres-decoderbufs-0:0.10.0-2.module+el8.4.0+424+71d47d9a.x86_64.rpm",
-        "postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.5.0+684+c3892ef9.aarch64.rpm",
-        "postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.4.0+424+71d47d9a.aarch64.rpm",
-        "postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.5.0+684+c3892ef9.x86_64.rpm",
-        "postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.4.0+424+71d47d9a.x86_64.rpm",
-        "postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.5.0+684+c3892ef9.aarch64.rpm",
-        "postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.4.0+424+71d47d9a.aarch64.rpm",
-        "postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.5.0+684+c3892ef9.x86_64.rpm",
-        "postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.4.0+424+71d47d9a.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: postgresql:12 security update",
-  "topic": "An update is available for pgaudit, postgres-decoderbufs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2020-14349",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14349"
+		},
+		{
+			"cvss3BaseScore": "7.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2020-14350",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14350"
+		},
+		{
+			"cvss3BaseScore": "3.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-285",
+			"name": "CVE-2020-1720",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1720"
+		},
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-327",
+			"name": "CVE-2020-25694",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25694"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-89",
+			"name": "CVE-2020-25695",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25695"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-183->CWE-270",
+			"name": "CVE-2020-25696",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-25696"
+		}
+	],
+	"description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nThe following packages have been upgraded to a later upstream version: postgresql (12.5).\n\nSecurity Fix(es):\n\n* postgresql: Reconnection can downgrade connection security settings (CVE-2020-25694)\n\n* postgresql: Multiple features escape \"security restricted operation\" sandbox (CVE-2020-25695)\n\n* postgresql: Uncontrolled search path element in logical replication (CVE-2020-14349)\n\n* postgresql: Uncontrolled search path element in CREATE EXTENSION (CVE-2020-14350)\n\n* postgresql: psql's \\gset allows overwriting specially treated variables (CVE-2020-25696)\n\n* postgresql: ALTER ... DEPENDS ON EXTENSION is missing authorization checks (CVE-2020-1720)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1798852",
+			"ticket": "1798852"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1865744",
+			"ticket": "1865744"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1865746",
+			"ticket": "1865746"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894423",
+			"ticket": "1894423"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894425",
+			"ticket": "1894425"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1894430",
+			"ticket": "1894430"
+		}
+	],
+	"name": "RLSA-2020:5620",
+	"publishedAt": "2020-12-17T15:30:10Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pgaudit-0:1.4.0-4.module+el8.4.0+545+ca56da2e.aarch64.rpm",
+				"pgaudit-0:1.4.0-4.module+el8.4.0+545+ca56da2e.src.rpm",
+				"pgaudit-0:1.4.0-4.module+el8.4.0+545+ca56da2e.x86_64.rpm",
+				"pgaudit-debuginfo-0:1.4.0-4.module+el8.4.0+545+ca56da2e.aarch64.rpm",
+				"pgaudit-debuginfo-0:1.4.0-4.module+el8.4.0+545+ca56da2e.x86_64.rpm",
+				"pgaudit-debugsource-0:1.4.0-4.module+el8.4.0+545+ca56da2e.aarch64.rpm",
+				"pgaudit-debugsource-0:1.4.0-4.module+el8.4.0+545+ca56da2e.x86_64.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.5.0+684+c3892ef9.aarch64.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.4.0+424+71d47d9a.aarch64.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.5.0+684+c3892ef9.src.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.4.0+424+71d47d9a.src.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.5.0+684+c3892ef9.x86_64.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.4.0+424+71d47d9a.x86_64.rpm",
+				"postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.5.0+684+c3892ef9.aarch64.rpm",
+				"postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.4.0+424+71d47d9a.aarch64.rpm",
+				"postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.5.0+684+c3892ef9.x86_64.rpm",
+				"postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.4.0+424+71d47d9a.x86_64.rpm",
+				"postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.5.0+684+c3892ef9.aarch64.rpm",
+				"postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.4.0+424+71d47d9a.aarch64.rpm",
+				"postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.5.0+684+c3892ef9.x86_64.rpm",
+				"postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.4.0+424+71d47d9a.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: postgresql:12 security update",
+	"topic": "An update is available for pgaudit, postgres-decoderbufs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

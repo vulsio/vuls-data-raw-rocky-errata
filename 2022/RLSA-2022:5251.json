@@ -1,87 +1,87 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2022-1586",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1586"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2022-1587",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1587"
-    }
-  ],
-  "description": "The pcre2 package contains a new generation of the Perl Compatible Regular Expression libraries for implementing regular expression pattern matching using the same syntax and semantics as Perl. \n\nSecurity Fix(es):\n\n* pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c (CVE-2022-1586)\n\n* pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c (CVE-2022-1587)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2077976",
-      "ticket": "2077976"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2077983",
-      "ticket": "2077983"
-    }
-  ],
-  "name": "RLSA-2022:5251",
-  "publishedAt": "2022-06-28T08:27:30Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "pcre2-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-0:10.37-5.el9_0.i686.rpm",
-        "pcre2-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-0:10.37-5.el9_0.src.rpm",
-        "pcre2-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-debuginfo-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-debuginfo-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-debuginfo-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-debuginfo-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-debugsource-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-debugsource-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-debugsource-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-debugsource-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-devel-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-devel-0:10.37-5.el9_0.i686.rpm",
-        "pcre2-devel-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-devel-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-devel-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-syntax-0:10.37-5.el9_0.noarch.rpm",
-        "pcre2-utf16-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-utf16-0:10.37-5.el9_0.i686.rpm",
-        "pcre2-utf16-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-utf16-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-utf16-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-utf16-debuginfo-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-utf16-debuginfo-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-utf16-debuginfo-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-utf16-debuginfo-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-utf32-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-utf32-0:10.37-5.el9_0.i686.rpm",
-        "pcre2-utf32-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-utf32-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-utf32-0:10.37-5.el9_0.x86_64.rpm",
-        "pcre2-utf32-debuginfo-0:10.37-5.el9_0.aarch64.rpm",
-        "pcre2-utf32-debuginfo-0:10.37-5.el9_0.ppc64le.rpm",
-        "pcre2-utf32-debuginfo-0:10.37-5.el9_0.s390x.rpm",
-        "pcre2-utf32-debuginfo-0:10.37-5.el9_0.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: pcre2 security update",
-  "topic": "An update is available for pcre2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2022-1586",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1586"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2022-1587",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1587"
+		}
+	],
+	"description": "The pcre2 package contains a new generation of the Perl Compatible Regular Expression libraries for implementing regular expression pattern matching using the same syntax and semantics as Perl. \n\nSecurity Fix(es):\n\n* pcre2: Out-of-bounds read in compile_xclass_matchingpath in pcre2_jit_compile.c (CVE-2022-1586)\n\n* pcre2: Out-of-bounds read in get_recurse_data_length in pcre2_jit_compile.c (CVE-2022-1587)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2077976",
+			"ticket": "2077976"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2077983",
+			"ticket": "2077983"
+		}
+	],
+	"name": "RLSA-2022:5251",
+	"publishedAt": "2022-06-28T08:27:30Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"pcre2-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-0:10.37-5.el9_0.i686.rpm",
+				"pcre2-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-0:10.37-5.el9_0.src.rpm",
+				"pcre2-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-debuginfo-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-debuginfo-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-debuginfo-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-debuginfo-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-debugsource-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-debugsource-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-debugsource-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-debugsource-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-devel-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-devel-0:10.37-5.el9_0.i686.rpm",
+				"pcre2-devel-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-devel-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-devel-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-syntax-0:10.37-5.el9_0.noarch.rpm",
+				"pcre2-utf16-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-utf16-0:10.37-5.el9_0.i686.rpm",
+				"pcre2-utf16-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-utf16-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-utf16-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-utf16-debuginfo-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-utf16-debuginfo-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-utf16-debuginfo-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-utf16-debuginfo-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-utf32-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-utf32-0:10.37-5.el9_0.i686.rpm",
+				"pcre2-utf32-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-utf32-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-utf32-0:10.37-5.el9_0.x86_64.rpm",
+				"pcre2-utf32-debuginfo-0:10.37-5.el9_0.aarch64.rpm",
+				"pcre2-utf32-debuginfo-0:10.37-5.el9_0.ppc64le.rpm",
+				"pcre2-utf32-debuginfo-0:10.37-5.el9_0.s390x.rpm",
+				"pcre2-utf32-debuginfo-0:10.37-5.el9_0.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: pcre2 security update",
+	"topic": "An update is available for pcre2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

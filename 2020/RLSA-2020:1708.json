@@ -1,86 +1,86 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "4.3",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-400",
-      "name": "CVE-2018-11577",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11577"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-121",
-      "name": "CVE-2018-11684",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11684"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-121",
-      "name": "CVE-2018-11685",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11685"
-    },
-    {
-      "cvss3BaseScore": "3.3",
-      "cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-121",
-      "name": "CVE-2018-12085",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12085"
-    }
-  ],
-  "description": "Liblouis is an open source braille translator and back-translator named in honor of Louis Braille. It features support for computer and literary braille, supports contracted and uncontracted translation for many languages and has support for hyphenation. New languages can easily be added through tables that support a rule or dictionary based approach. Liblouis also supports math braille (Nemeth and Marburg).\n\nSecurity Fix(es):\n\n* liblouis: Stack-based buffer overflow in function includeFile in compileTranslationTable.c (CVE-2018-11684)\n\n* liblouis: Stack-based buffer overflow in function compileHyphenation in compileTranslationTable.c (CVE-2018-11685)\n\n* liblouis: Segmentation fault in logging.c:lou_logPrint() (CVE-2018-11577)\n\n* liblouis: Stack-based buffer overflow in compileTranslationTable.c (CVE-2018-12085)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1585905",
-      "ticket": "1585905"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1588631",
-      "ticket": "1588631"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1588636",
-      "ticket": "1588636"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1589940",
-      "ticket": "1589940"
-    }
-  ],
-  "name": "RLSA-2020:1708",
-  "publishedAt": "2020-04-28T09:07:17Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "liblouis-debuginfo-0:2.6.2-21.el8.x86_64.rpm",
-        "liblouis-0:2.6.2-21.el8.aarch64.rpm",
-        "liblouis-0:2.6.2-21.el8.i686.rpm",
-        "liblouis-0:2.6.2-21.el8.src.rpm",
-        "liblouis-0:2.6.2-21.el8.x86_64.rpm",
-        "liblouis-debuginfo-0:2.6.2-21.el8.aarch64.rpm",
-        "liblouis-debuginfo-0:2.6.2-21.el8.i686.rpm",
-        "liblouis-debugsource-0:2.6.2-21.el8.aarch64.rpm",
-        "liblouis-debugsource-0:2.6.2-21.el8.i686.rpm",
-        "liblouis-debugsource-0:2.6.2-21.el8.x86_64.rpm",
-        "python3-louis-0:2.6.2-21.el8.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: liblouis security and bug fix update",
-  "topic": "An update is available for liblouis.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-400",
+			"name": "CVE-2018-11577",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11577"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-121",
+			"name": "CVE-2018-11684",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11684"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-121",
+			"name": "CVE-2018-11685",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-11685"
+		},
+		{
+			"cvss3BaseScore": "3.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-121",
+			"name": "CVE-2018-12085",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12085"
+		}
+	],
+	"description": "Liblouis is an open source braille translator and back-translator named in honor of Louis Braille. It features support for computer and literary braille, supports contracted and uncontracted translation for many languages and has support for hyphenation. New languages can easily be added through tables that support a rule or dictionary based approach. Liblouis also supports math braille (Nemeth and Marburg).\n\nSecurity Fix(es):\n\n* liblouis: Stack-based buffer overflow in function includeFile in compileTranslationTable.c (CVE-2018-11684)\n\n* liblouis: Stack-based buffer overflow in function compileHyphenation in compileTranslationTable.c (CVE-2018-11685)\n\n* liblouis: Segmentation fault in logging.c:lou_logPrint() (CVE-2018-11577)\n\n* liblouis: Stack-based buffer overflow in compileTranslationTable.c (CVE-2018-12085)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1585905",
+			"ticket": "1585905"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1588631",
+			"ticket": "1588631"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1588636",
+			"ticket": "1588636"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1589940",
+			"ticket": "1589940"
+		}
+	],
+	"name": "RLSA-2020:1708",
+	"publishedAt": "2020-04-28T09:07:17Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"liblouis-debuginfo-0:2.6.2-21.el8.x86_64.rpm",
+				"liblouis-0:2.6.2-21.el8.aarch64.rpm",
+				"liblouis-0:2.6.2-21.el8.i686.rpm",
+				"liblouis-0:2.6.2-21.el8.src.rpm",
+				"liblouis-0:2.6.2-21.el8.x86_64.rpm",
+				"liblouis-debuginfo-0:2.6.2-21.el8.aarch64.rpm",
+				"liblouis-debuginfo-0:2.6.2-21.el8.i686.rpm",
+				"liblouis-debugsource-0:2.6.2-21.el8.aarch64.rpm",
+				"liblouis-debugsource-0:2.6.2-21.el8.i686.rpm",
+				"liblouis-debugsource-0:2.6.2-21.el8.x86_64.rpm",
+				"python3-louis-0:2.6.2-21.el8.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: liblouis security and bug fix update",
+	"topic": "An update is available for liblouis.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

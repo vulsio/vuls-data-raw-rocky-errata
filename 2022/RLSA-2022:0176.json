@@ -1,64 +1,64 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-131",
-      "name": "CVE-2021-4155",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4155"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-0185",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0185"
-    }
-  ],
-  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: xfs: raw block device data leak in XFS_IOC_ALLOCSP IOCTL (CVE-2021-4155)\n\n* kernel: fs_context: heap overflow in legacy parameter handling (CVE-2022-0185)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernnel-rt-debug: do not call blocking ops when !TASK_RUNNING; state=1 set at [<0000000050e86018>] handle_userfault+0x530/0x1820 (BZ#2029422)\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.5.z source tree (BZ#2032059)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2034813",
-      "ticket": "2034813"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040358",
-      "ticket": "2040358"
-    }
-  ],
-  "name": "RLSA-2022:0176",
-  "publishedAt": "2022-01-19T09:43:06Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "kernel-rt-0:4.18.0-348.12.2.rt7.143.el8_5.src.rpm",
-        "kernel-rt-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-core-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debug-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debug-core-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debug-debuginfo-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debug-devel-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debuginfo-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debuginfo-common-x86_64-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debug-modules-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-debug-modules-extra-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-devel-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-kvm-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-modules-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
-        "kernel-rt-modules-extra-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: kernel-rt security and bug fix update",
-  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-131",
+			"name": "CVE-2021-4155",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4155"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-0185",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0185"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: xfs: raw block device data leak in XFS_IOC_ALLOCSP IOCTL (CVE-2021-4155)\n\n* kernel: fs_context: heap overflow in legacy parameter handling (CVE-2022-0185)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernnel-rt-debug: do not call blocking ops when !TASK_RUNNING; state=1 set at [<0000000050e86018>] handle_userfault+0x530/0x1820 (BZ#2029422)\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.5.z source tree (BZ#2032059)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2034813",
+			"ticket": "2034813"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040358",
+			"ticket": "2040358"
+		}
+	],
+	"name": "RLSA-2022:0176",
+	"publishedAt": "2022-01-19T09:43:06Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-348.12.2.rt7.143.el8_5.src.rpm",
+				"kernel-rt-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-348.12.2.rt7.143.el8_5.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

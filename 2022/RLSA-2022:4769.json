@@ -1,56 +1,56 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-843",
-      "name": "CVE-2022-1529",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1529"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-843",
-      "name": "CVE-2022-1802",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1802"
-    }
-  ],
-  "description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 91.9.1.\n\nSecurity Fix(es):\n\n* Mozilla: Untrusted input used in JavaScript object indexing, leading to prototype pollution (CVE-2022-1529)\n\n* Mozilla: Prototype pollution in Top-Level Await implementation (CVE-2022-1802)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2089217",
-      "ticket": "2089217"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2089218",
-      "ticket": "2089218"
-    }
-  ],
-  "name": "RLSA-2022:4769",
-  "publishedAt": "2022-05-27T18:24:54Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "thunderbird-0:91.9.1-1.el8_6.aarch64.rpm",
-        "thunderbird-0:91.9.1-1.el8_6.src.rpm",
-        "thunderbird-0:91.9.1-1.el8_6.x86_64.rpm",
-        "thunderbird-debuginfo-0:91.9.1-1.el8_6.aarch64.rpm",
-        "thunderbird-debuginfo-0:91.9.1-1.el8_6.x86_64.rpm",
-        "thunderbird-debugsource-0:91.9.1-1.el8_6.aarch64.rpm",
-        "thunderbird-debugsource-0:91.9.1-1.el8_6.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_CRITICAL",
-  "shortCode": "RL",
-  "synopsis": "Critical: thunderbird security update",
-  "topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-843",
+			"name": "CVE-2022-1529",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1529"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-843",
+			"name": "CVE-2022-1802",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1802"
+		}
+	],
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 91.9.1.\n\nSecurity Fix(es):\n\n* Mozilla: Untrusted input used in JavaScript object indexing, leading to prototype pollution (CVE-2022-1529)\n\n* Mozilla: Prototype pollution in Top-Level Await implementation (CVE-2022-1802)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2089217",
+			"ticket": "2089217"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2089218",
+			"ticket": "2089218"
+		}
+	],
+	"name": "RLSA-2022:4769",
+	"publishedAt": "2022-05-27T18:24:54Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"thunderbird-0:91.9.1-1.el8_6.aarch64.rpm",
+				"thunderbird-0:91.9.1-1.el8_6.src.rpm",
+				"thunderbird-0:91.9.1-1.el8_6.x86_64.rpm",
+				"thunderbird-debuginfo-0:91.9.1-1.el8_6.aarch64.rpm",
+				"thunderbird-debuginfo-0:91.9.1-1.el8_6.x86_64.rpm",
+				"thunderbird-debugsource-0:91.9.1-1.el8_6.aarch64.rpm",
+				"thunderbird-debugsource-0:91.9.1-1.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_CRITICAL",
+	"shortCode": "RL",
+	"synopsis": "Critical: thunderbird security update",
+	"topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,134 +1,134 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-1321",
-      "name": "CVE-2022-2200",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2200"
-    },
-    {
-      "cvss3BaseScore": "6.1",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-      "cwe": "CWE-79",
-      "name": "CVE-2022-31744",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31744"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-79",
-      "name": "CVE-2022-34468",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34468"
-    },
-    {
-      "cvss3BaseScore": "9.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2022-34470",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34470"
-    },
-    {
-      "cvss3BaseScore": "6.1",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
-      "cwe": "CWE-393",
-      "name": "CVE-2022-34472",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34472"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-1021",
-      "name": "CVE-2022-34479",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34479"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-34481",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34481"
-    },
-    {
-      "cvss3BaseScore": "8.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-120",
-      "name": "CVE-2022-34484",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34484"
-    }
-  ],
-  "description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 91.11 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: CSP sandbox header without `allow-scripts` can be bypassed via retargeted javascript: URI (CVE-2022-34468)\n\n* Mozilla: Use-after-free in nsSHistory (CVE-2022-34470)\n\n* Mozilla: A popup window could be resized in a way to overlay the address bar with web content (CVE-2022-34479)\n\n* Mozilla: Memory safety bugs fixed in Firefox 102 and Firefox ESR 91.11 (CVE-2022-34484)\n\n* Mozilla: Undesired attributes could be set as part of prototype pollution (CVE-2022-2200)\n\n* Mozilla: CSP bypass enabling stylesheet injection (CVE-2022-31744)\n\n* Mozilla: Unavailable PAC file resulted in OCSP requests being blocked (CVE-2022-34472)\n\n* Mozilla: Potential integer overflow in ReplaceElementsAt (CVE-2022-34481)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102161",
-      "ticket": "2102161"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102162",
-      "ticket": "2102162"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102163",
-      "ticket": "2102163"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102164",
-      "ticket": "2102164"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102165",
-      "ticket": "2102165"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102166",
-      "ticket": "2102166"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102168",
-      "ticket": "2102168"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102169",
-      "ticket": "2102169"
-    }
-  ],
-  "name": "RLSA-2022:5469",
-  "publishedAt": "2022-06-30T21:27:52Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "firefox-0:91.11.0-2.el8_6.aarch64.rpm",
-        "firefox-0:91.11.0-2.el8_6.src.rpm",
-        "firefox-0:91.11.0-2.el8_6.x86_64.rpm",
-        "firefox-debuginfo-0:91.11.0-2.el8_6.aarch64.rpm",
-        "firefox-debuginfo-0:91.11.0-2.el8_6.x86_64.rpm",
-        "firefox-debugsource-0:91.11.0-2.el8_6.aarch64.rpm",
-        "firefox-debugsource-0:91.11.0-2.el8_6.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: firefox security update",
-  "topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1321",
+			"name": "CVE-2022-2200",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2200"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2022-31744",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31744"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-79",
+			"name": "CVE-2022-34468",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34468"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-34470",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34470"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-393",
+			"name": "CVE-2022-34472",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34472"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1021",
+			"name": "CVE-2022-34479",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34479"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-34481",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34481"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2022-34484",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34484"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 91.11 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: CSP sandbox header without `allow-scripts` can be bypassed via retargeted javascript: URI (CVE-2022-34468)\n\n* Mozilla: Use-after-free in nsSHistory (CVE-2022-34470)\n\n* Mozilla: A popup window could be resized in a way to overlay the address bar with web content (CVE-2022-34479)\n\n* Mozilla: Memory safety bugs fixed in Firefox 102 and Firefox ESR 91.11 (CVE-2022-34484)\n\n* Mozilla: Undesired attributes could be set as part of prototype pollution (CVE-2022-2200)\n\n* Mozilla: CSP bypass enabling stylesheet injection (CVE-2022-31744)\n\n* Mozilla: Unavailable PAC file resulted in OCSP requests being blocked (CVE-2022-34472)\n\n* Mozilla: Potential integer overflow in ReplaceElementsAt (CVE-2022-34481)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102161",
+			"ticket": "2102161"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102162",
+			"ticket": "2102162"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102163",
+			"ticket": "2102163"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102164",
+			"ticket": "2102164"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102165",
+			"ticket": "2102165"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102166",
+			"ticket": "2102166"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102168",
+			"ticket": "2102168"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102169",
+			"ticket": "2102169"
+		}
+	],
+	"name": "RLSA-2022:5469",
+	"publishedAt": "2022-06-30T21:27:52Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"firefox-0:91.11.0-2.el8_6.aarch64.rpm",
+				"firefox-0:91.11.0-2.el8_6.src.rpm",
+				"firefox-0:91.11.0-2.el8_6.x86_64.rpm",
+				"firefox-debuginfo-0:91.11.0-2.el8_6.aarch64.rpm",
+				"firefox-debuginfo-0:91.11.0-2.el8_6.x86_64.rpm",
+				"firefox-debugsource-0:91.11.0-2.el8_6.aarch64.rpm",
+				"firefox-debugsource-0:91.11.0-2.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

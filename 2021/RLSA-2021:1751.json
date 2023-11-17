@@ -1,56 +1,56 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
-      "cwe": "CWE-79",
-      "name": "CVE-2020-12108",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12108"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
-      "cwe": "CWE-79",
-      "name": "CVE-2020-15011",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15011"
-    }
-  ],
-  "description": "Mailman is a program used to help manage e-mail discussion lists.\n\nSecurity Fix(es):\n\n* mailman: arbitrary content injection via the options login page (CVE-2020-12108)\n\n* mailman: arbitrary content injection via the private archive login page (CVE-2020-15011)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848856",
-      "ticket": "1848856"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1850684",
-      "ticket": "1850684"
-    }
-  ],
-  "name": "RLSA-2021:1751",
-  "publishedAt": "2021-05-18T06:00:19Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "mailman-3:2.1.29-11.module+el8.4.0+539+54f8785b.aarch64.rpm",
-        "mailman-3:2.1.29-11.module+el8.4.0+539+54f8785b.src.rpm",
-        "mailman-3:2.1.29-11.module+el8.4.0+539+54f8785b.x86_64.rpm",
-        "mailman-debuginfo-3:2.1.29-11.module+el8.4.0+539+54f8785b.aarch64.rpm",
-        "mailman-debuginfo-3:2.1.29-11.module+el8.4.0+539+54f8785b.x86_64.rpm",
-        "mailman-debugsource-3:2.1.29-11.module+el8.4.0+539+54f8785b.aarch64.rpm",
-        "mailman-debugsource-3:2.1.29-11.module+el8.4.0+539+54f8785b.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: mailman:2.1 security update",
-  "topic": "An update is available for mailman.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2020-12108",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12108"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2020-15011",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15011"
+		}
+	],
+	"description": "Mailman is a program used to help manage e-mail discussion lists.\n\nSecurity Fix(es):\n\n* mailman: arbitrary content injection via the options login page (CVE-2020-12108)\n\n* mailman: arbitrary content injection via the private archive login page (CVE-2020-15011)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848856",
+			"ticket": "1848856"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1850684",
+			"ticket": "1850684"
+		}
+	],
+	"name": "RLSA-2021:1751",
+	"publishedAt": "2021-05-18T06:00:19Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"mailman-3:2.1.29-11.module+el8.4.0+539+54f8785b.aarch64.rpm",
+				"mailman-3:2.1.29-11.module+el8.4.0+539+54f8785b.src.rpm",
+				"mailman-3:2.1.29-11.module+el8.4.0+539+54f8785b.x86_64.rpm",
+				"mailman-debuginfo-3:2.1.29-11.module+el8.4.0+539+54f8785b.aarch64.rpm",
+				"mailman-debuginfo-3:2.1.29-11.module+el8.4.0+539+54f8785b.x86_64.rpm",
+				"mailman-debugsource-3:2.1.29-11.module+el8.4.0+539+54f8785b.aarch64.rpm",
+				"mailman-debugsource-3:2.1.29-11.module+el8.4.0+539+54f8785b.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: mailman:2.1 security update",
+	"topic": "An update is available for mailman.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

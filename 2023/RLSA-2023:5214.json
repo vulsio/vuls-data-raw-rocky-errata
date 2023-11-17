@@ -1,71 +1,71 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "9.6",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
-      "cwe": "CWE-122",
-      "name": "CVE-2023-4863",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4863"
-    },
-    {
-      "cvss3BaseScore": "0.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:N/A:N",
-      "cwe": "CWE-122",
-      "name": "CVE-2023-5129",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5129"
-    }
-  ],
-  "description": "The libwebp packages provide a library and tools for the WebP graphics format. WebP is an image format with a lossy compression of digital photographic images. WebP consists of a codec based on the VP8 format, and a container based on the Resource Interchange File Format (RIFF). Webmasters, web developers and browser developers can use WebP to compress, archive, and distribute digital images more efficiently.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238431",
-      "ticket": "2238431"
-    }
-  ],
-  "name": "RLSA-2023:5214",
-  "publishedAt": "2023-10-06T22:58:06.912675Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "libwebp-0:1.2.0-7.el9_2.x86_64.rpm",
-        "libwebp-0:1.2.0-7.el9_2.aarch64.rpm",
-        "libwebp-0:1.2.0-7.el9_2.i686.rpm",
-        "libwebp-0:1.2.0-7.el9_2.ppc64le.rpm",
-        "libwebp-0:1.2.0-7.el9_2.s390x.rpm",
-        "libwebp-0:1.2.0-7.el9_2.src.rpm",
-        "libwebp-debuginfo-0:1.2.0-7.el9_2.aarch64.rpm",
-        "libwebp-debuginfo-0:1.2.0-7.el9_2.ppc64le.rpm",
-        "libwebp-debuginfo-0:1.2.0-7.el9_2.s390x.rpm",
-        "libwebp-debuginfo-0:1.2.0-7.el9_2.x86_64.rpm",
-        "libwebp-debugsource-0:1.2.0-7.el9_2.aarch64.rpm",
-        "libwebp-debugsource-0:1.2.0-7.el9_2.ppc64le.rpm",
-        "libwebp-debugsource-0:1.2.0-7.el9_2.s390x.rpm",
-        "libwebp-debugsource-0:1.2.0-7.el9_2.x86_64.rpm",
-        "libwebp-devel-0:1.2.0-7.el9_2.aarch64.rpm",
-        "libwebp-devel-0:1.2.0-7.el9_2.i686.rpm",
-        "libwebp-devel-0:1.2.0-7.el9_2.ppc64le.rpm",
-        "libwebp-devel-0:1.2.0-7.el9_2.s390x.rpm",
-        "libwebp-devel-0:1.2.0-7.el9_2.x86_64.rpm",
-        "libwebp-tools-0:1.2.0-7.el9_2.aarch64.rpm",
-        "libwebp-tools-0:1.2.0-7.el9_2.ppc64le.rpm",
-        "libwebp-tools-0:1.2.0-7.el9_2.s390x.rpm",
-        "libwebp-tools-0:1.2.0-7.el9_2.x86_64.rpm",
-        "libwebp-tools-debuginfo-0:1.2.0-7.el9_2.aarch64.rpm",
-        "libwebp-tools-debuginfo-0:1.2.0-7.el9_2.ppc64le.rpm",
-        "libwebp-tools-debuginfo-0:1.2.0-7.el9_2.s390x.rpm",
-        "libwebp-tools-debuginfo-0:1.2.0-7.el9_2.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: libwebp security update",
-  "topic": "An update is available for libwebp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "9.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+			"cwe": "CWE-122",
+			"name": "CVE-2023-4863",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4863"
+		},
+		{
+			"cvss3BaseScore": "0.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:N/A:N",
+			"cwe": "CWE-122",
+			"name": "CVE-2023-5129",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5129"
+		}
+	],
+	"description": "The libwebp packages provide a library and tools for the WebP graphics format. WebP is an image format with a lossy compression of digital photographic images. WebP consists of a codec based on the VP8 format, and a container based on the Resource Interchange File Format (RIFF). Webmasters, web developers and browser developers can use WebP to compress, archive, and distribute digital images more efficiently.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238431",
+			"ticket": "2238431"
+		}
+	],
+	"name": "RLSA-2023:5214",
+	"publishedAt": "2023-10-06T22:58:06.912675Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"libwebp-0:1.2.0-7.el9_2.x86_64.rpm",
+				"libwebp-0:1.2.0-7.el9_2.aarch64.rpm",
+				"libwebp-0:1.2.0-7.el9_2.i686.rpm",
+				"libwebp-0:1.2.0-7.el9_2.ppc64le.rpm",
+				"libwebp-0:1.2.0-7.el9_2.s390x.rpm",
+				"libwebp-0:1.2.0-7.el9_2.src.rpm",
+				"libwebp-debuginfo-0:1.2.0-7.el9_2.aarch64.rpm",
+				"libwebp-debuginfo-0:1.2.0-7.el9_2.ppc64le.rpm",
+				"libwebp-debuginfo-0:1.2.0-7.el9_2.s390x.rpm",
+				"libwebp-debuginfo-0:1.2.0-7.el9_2.x86_64.rpm",
+				"libwebp-debugsource-0:1.2.0-7.el9_2.aarch64.rpm",
+				"libwebp-debugsource-0:1.2.0-7.el9_2.ppc64le.rpm",
+				"libwebp-debugsource-0:1.2.0-7.el9_2.s390x.rpm",
+				"libwebp-debugsource-0:1.2.0-7.el9_2.x86_64.rpm",
+				"libwebp-devel-0:1.2.0-7.el9_2.aarch64.rpm",
+				"libwebp-devel-0:1.2.0-7.el9_2.i686.rpm",
+				"libwebp-devel-0:1.2.0-7.el9_2.ppc64le.rpm",
+				"libwebp-devel-0:1.2.0-7.el9_2.s390x.rpm",
+				"libwebp-devel-0:1.2.0-7.el9_2.x86_64.rpm",
+				"libwebp-tools-0:1.2.0-7.el9_2.aarch64.rpm",
+				"libwebp-tools-0:1.2.0-7.el9_2.ppc64le.rpm",
+				"libwebp-tools-0:1.2.0-7.el9_2.s390x.rpm",
+				"libwebp-tools-0:1.2.0-7.el9_2.x86_64.rpm",
+				"libwebp-tools-debuginfo-0:1.2.0-7.el9_2.aarch64.rpm",
+				"libwebp-tools-debuginfo-0:1.2.0-7.el9_2.ppc64le.rpm",
+				"libwebp-tools-debuginfo-0:1.2.0-7.el9_2.s390x.rpm",
+				"libwebp-tools-debuginfo-0:1.2.0-7.el9_2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: libwebp security update",
+	"topic": "An update is available for libwebp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

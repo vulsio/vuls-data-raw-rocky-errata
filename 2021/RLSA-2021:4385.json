@@ -1,87 +1,87 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-59",
-      "name": "CVE-2021-28153",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28153"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-200",
-      "name": "CVE-2021-3800",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3800"
-    }
-  ],
-  "description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib2: Possible privilege escalation thourgh pkexec and aliases (CVE-2021-3800)\n\n* glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink (CVE-2021-28153)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1938284",
-      "ticket": "1938284"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1938291",
-      "ticket": "1938291"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1948988",
-      "ticket": "1948988"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1971533",
-      "ticket": "1971533"
-    }
-  ],
-  "name": "RLSA-2021:4385",
-  "publishedAt": "2021-11-09T09:16:02Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "glib2-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-0:2.56.4-156.el8.i686.rpm",
-        "glib2-0:2.56.4-156.el8.src.rpm",
-        "glib2-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-debuginfo-0:2.56.4-156.el8.i686.rpm",
-        "glib2-debuginfo-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-debugsource-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-debugsource-0:2.56.4-156.el8.i686.rpm",
-        "glib2-debugsource-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-devel-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-devel-0:2.56.4-156.el8.i686.rpm",
-        "glib2-devel-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-devel-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-devel-debuginfo-0:2.56.4-156.el8.i686.rpm",
-        "glib2-devel-debuginfo-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-doc-0:2.56.4-156.el8.noarch.rpm",
-        "glib2-fam-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-fam-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-fam-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-fam-debuginfo-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-static-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-static-0:2.56.4-156.el8.i686.rpm",
-        "glib2-static-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-tests-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-tests-0:2.56.4-156.el8.x86_64.rpm",
-        "glib2-tests-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
-        "glib2-tests-debuginfo-0:2.56.4-156.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: glib2 security and bug fix update",
-  "topic": "An update is available for glib2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-59",
+			"name": "CVE-2021-28153",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28153"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2021-3800",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3800"
+		}
+	],
+	"description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib2: Possible privilege escalation thourgh pkexec and aliases (CVE-2021-3800)\n\n* glib: g_file_replace() with G_FILE_CREATE_REPLACE_DESTINATION creates empty target for dangling symlink (CVE-2021-28153)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1938284",
+			"ticket": "1938284"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1938291",
+			"ticket": "1938291"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1948988",
+			"ticket": "1948988"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1971533",
+			"ticket": "1971533"
+		}
+	],
+	"name": "RLSA-2021:4385",
+	"publishedAt": "2021-11-09T09:16:02Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"glib2-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-0:2.56.4-156.el8.i686.rpm",
+				"glib2-0:2.56.4-156.el8.src.rpm",
+				"glib2-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-debuginfo-0:2.56.4-156.el8.i686.rpm",
+				"glib2-debuginfo-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-debugsource-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-debugsource-0:2.56.4-156.el8.i686.rpm",
+				"glib2-debugsource-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-devel-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-devel-0:2.56.4-156.el8.i686.rpm",
+				"glib2-devel-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-devel-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-devel-debuginfo-0:2.56.4-156.el8.i686.rpm",
+				"glib2-devel-debuginfo-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-doc-0:2.56.4-156.el8.noarch.rpm",
+				"glib2-fam-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-fam-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-fam-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-fam-debuginfo-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-static-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-static-0:2.56.4-156.el8.i686.rpm",
+				"glib2-static-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-tests-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-tests-0:2.56.4-156.el8.x86_64.rpm",
+				"glib2-tests-debuginfo-0:2.56.4-156.el8.aarch64.rpm",
+				"glib2-tests-debuginfo-0:2.56.4-156.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: glib2 security and bug fix update",
+	"topic": "An update is available for glib2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

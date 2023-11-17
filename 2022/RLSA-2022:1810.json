@@ -1,53 +1,53 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2020-19131",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-19131"
-    }
-  ],
-  "description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: a buffer overflow via the \"invertImage()\" may lead to DoS (CVE-2020-19131)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2004031",
-      "ticket": "2004031"
-    }
-  ],
-  "name": "RLSA-2022:1810",
-  "publishedAt": "2022-05-10T08:02:19Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libtiff-0:4.0.9-21.el8.aarch64.rpm",
-        "libtiff-0:4.0.9-21.el8.i686.rpm",
-        "libtiff-0:4.0.9-21.el8.src.rpm",
-        "libtiff-0:4.0.9-21.el8.x86_64.rpm",
-        "libtiff-debuginfo-0:4.0.9-21.el8.aarch64.rpm",
-        "libtiff-debuginfo-0:4.0.9-21.el8.i686.rpm",
-        "libtiff-debuginfo-0:4.0.9-21.el8.x86_64.rpm",
-        "libtiff-debugsource-0:4.0.9-21.el8.aarch64.rpm",
-        "libtiff-debugsource-0:4.0.9-21.el8.i686.rpm",
-        "libtiff-debugsource-0:4.0.9-21.el8.x86_64.rpm",
-        "libtiff-devel-0:4.0.9-21.el8.aarch64.rpm",
-        "libtiff-devel-0:4.0.9-21.el8.i686.rpm",
-        "libtiff-devel-0:4.0.9-21.el8.x86_64.rpm",
-        "libtiff-tools-0:4.0.9-21.el8.aarch64.rpm",
-        "libtiff-tools-0:4.0.9-21.el8.x86_64.rpm",
-        "libtiff-tools-debuginfo-0:4.0.9-21.el8.aarch64.rpm",
-        "libtiff-tools-debuginfo-0:4.0.9-21.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: libtiff security update",
-  "topic": "An update is available for libtiff.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2020-19131",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-19131"
+		}
+	],
+	"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: a buffer overflow via the \"invertImage()\" may lead to DoS (CVE-2020-19131)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2004031",
+			"ticket": "2004031"
+		}
+	],
+	"name": "RLSA-2022:1810",
+	"publishedAt": "2022-05-10T08:02:19Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libtiff-0:4.0.9-21.el8.aarch64.rpm",
+				"libtiff-0:4.0.9-21.el8.i686.rpm",
+				"libtiff-0:4.0.9-21.el8.src.rpm",
+				"libtiff-0:4.0.9-21.el8.x86_64.rpm",
+				"libtiff-debuginfo-0:4.0.9-21.el8.aarch64.rpm",
+				"libtiff-debuginfo-0:4.0.9-21.el8.i686.rpm",
+				"libtiff-debuginfo-0:4.0.9-21.el8.x86_64.rpm",
+				"libtiff-debugsource-0:4.0.9-21.el8.aarch64.rpm",
+				"libtiff-debugsource-0:4.0.9-21.el8.i686.rpm",
+				"libtiff-debugsource-0:4.0.9-21.el8.x86_64.rpm",
+				"libtiff-devel-0:4.0.9-21.el8.aarch64.rpm",
+				"libtiff-devel-0:4.0.9-21.el8.i686.rpm",
+				"libtiff-devel-0:4.0.9-21.el8.x86_64.rpm",
+				"libtiff-tools-0:4.0.9-21.el8.aarch64.rpm",
+				"libtiff-tools-0:4.0.9-21.el8.x86_64.rpm",
+				"libtiff-tools-debuginfo-0:4.0.9-21.el8.aarch64.rpm",
+				"libtiff-tools-debuginfo-0:4.0.9-21.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libtiff security update",
+	"topic": "An update is available for libtiff.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

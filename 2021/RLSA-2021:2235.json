@@ -1,70 +1,70 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-312",
-      "name": "CVE-2021-3551",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3551"
-    }
-  ],
-  "description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* pki-server: Dogtag installer \"pkispawn\" logs admin credentials into a world-readable log file (CVE-2021-3551)\n\nThe PKI installer \"pkispawn\" logs admin credentials into a\nworld-readable log file. It also looks like the installer is passing the\npassword as an insecure command line argument. The credentials are the\n389-DS LDAP server's Directory Manager credentials. The Directory\nManager is 389-DS' equivalent of unrestricted root account. The user\nbypasses permission checks and grants full access to data. In an IdM /\nFreeIPA installation the DM user is able to read and manipulate Kerberos\nKDC master password, Kerberos keytabs, hashed user passwords, and more.\nAny and all IdM and FreeIPA installations with PKI 10.10 should be\nconsidered compromised.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1959971",
-      "ticket": "1959971"
-    }
-  ],
-  "name": "RLSA-2021:2235",
-  "publishedAt": "2021-06-03T07:53:39Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
-        "jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.src.rpm",
-        "jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
-        "jss-debuginfo-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
-        "jss-debuginfo-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
-        "jss-debugsource-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
-        "jss-debugsource-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
-        "jss-javadoc-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
-        "jss-javadoc-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
-        "ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
-        "ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.src.rpm",
-        "ldapjdk-javadoc-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
-        "pki-acme-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "pki-base-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "pki-base-java-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "pki-ca-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "pki-core-0:10.10.5-3.module+el8.4.0+554+92b527a1.src.rpm",
-        "pki-core-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
-        "pki-core-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
-        "pki-core-debugsource-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
-        "pki-core-debugsource-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
-        "pki-kra-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "pki-server-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "pki-symkey-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
-        "pki-symkey-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
-        "pki-symkey-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
-        "pki-symkey-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
-        "pki-tools-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
-        "pki-tools-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
-        "pki-tools-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
-        "pki-tools-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
-        "python3-pki-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
-        "tomcatjss-0:7.6.1-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
-        "tomcatjss-0:7.6.1-1.module+el8.4.0+418+b7ae1d4a.src.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: pki-core:10.6 security update",
-  "topic": "An update is available for tomcatjss, jss, pki-core, ldapjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-312",
+			"name": "CVE-2021-3551",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3551"
+		}
+	],
+	"description": "The Public Key Infrastructure (PKI) Core contains fundamental packages required by Rocky Enterprise Software Foundation Certificate System.\n\nSecurity Fix(es):\n\n* pki-server: Dogtag installer \"pkispawn\" logs admin credentials into a world-readable log file (CVE-2021-3551)\n\nThe PKI installer \"pkispawn\" logs admin credentials into a\nworld-readable log file. It also looks like the installer is passing the\npassword as an insecure command line argument. The credentials are the\n389-DS LDAP server's Directory Manager credentials. The Directory\nManager is 389-DS' equivalent of unrestricted root account. The user\nbypasses permission checks and grants full access to data. In an IdM /\nFreeIPA installation the DM user is able to read and manipulate Kerberos\nKDC master password, Kerberos keytabs, hashed user passwords, and more.\nAny and all IdM and FreeIPA installations with PKI 10.10 should be\nconsidered compromised.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1959971",
+			"ticket": "1959971"
+		}
+	],
+	"name": "RLSA-2021:2235",
+	"publishedAt": "2021-06-03T07:53:39Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+				"jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.src.rpm",
+				"jss-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+				"jss-debuginfo-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+				"jss-debuginfo-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+				"jss-debugsource-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+				"jss-debugsource-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+				"jss-javadoc-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.aarch64.rpm",
+				"jss-javadoc-0:4.8.1-2.module+el8.4.0+418+b7ae1d4a.x86_64.rpm",
+				"ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+				"ldapjdk-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.src.rpm",
+				"ldapjdk-javadoc-0:4.22.0-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+				"pki-acme-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"pki-base-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"pki-base-java-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"pki-ca-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"pki-core-0:10.10.5-3.module+el8.4.0+554+92b527a1.src.rpm",
+				"pki-core-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
+				"pki-core-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
+				"pki-core-debugsource-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
+				"pki-core-debugsource-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
+				"pki-kra-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"pki-server-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"pki-symkey-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
+				"pki-symkey-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
+				"pki-symkey-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
+				"pki-symkey-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
+				"pki-tools-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
+				"pki-tools-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
+				"pki-tools-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.aarch64.rpm",
+				"pki-tools-debuginfo-0:10.10.5-3.module+el8.4.0+554+92b527a1.x86_64.rpm",
+				"python3-pki-0:10.10.5-3.module+el8.4.0+554+92b527a1.noarch.rpm",
+				"tomcatjss-0:7.6.1-1.module+el8.4.0+418+b7ae1d4a.noarch.rpm",
+				"tomcatjss-0:7.6.1-1.module+el8.4.0+418+b7ae1d4a.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: pki-core:10.6 security update",
+	"topic": "An update is available for tomcatjss, jss, pki-core, ldapjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

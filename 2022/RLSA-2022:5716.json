@@ -1,45 +1,45 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L",
-      "cwe": "CWE-287",
-      "name": "CVE-2022-31107",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31107"
-    }
-  ],
-  "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for\nGraphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: OAuth account takeover (CVE-2022-31107)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104367",
-      "ticket": "2104367"
-    }
-  ],
-  "name": "RLSA-2022:5716",
-  "publishedAt": "2022-07-26T13:52:05Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "grafana-0:7.5.11-5.el9_0.aarch64.rpm",
-        "grafana-0:7.5.11-5.el9_0.ppc64le.rpm",
-        "grafana-0:7.5.11-5.el9_0.s390x.rpm",
-        "grafana-0:7.5.11-5.el9_0.src.rpm",
-        "grafana-0:7.5.11-5.el9_0.x86_64.rpm",
-        "grafana-debuginfo-0:7.5.11-5.el9_0.aarch64.rpm",
-        "grafana-debuginfo-0:7.5.11-5.el9_0.ppc64le.rpm",
-        "grafana-debuginfo-0:7.5.11-5.el9_0.s390x.rpm",
-        "grafana-debuginfo-0:7.5.11-5.el9_0.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: grafana security update",
-  "topic": "An update is available for grafana.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:L",
+			"cwe": "CWE-287",
+			"name": "CVE-2022-31107",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31107"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for\nGraphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: OAuth account takeover (CVE-2022-31107)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2104367",
+			"ticket": "2104367"
+		}
+	],
+	"name": "RLSA-2022:5716",
+	"publishedAt": "2022-07-26T13:52:05Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"grafana-0:7.5.11-5.el9_0.aarch64.rpm",
+				"grafana-0:7.5.11-5.el9_0.ppc64le.rpm",
+				"grafana-0:7.5.11-5.el9_0.s390x.rpm",
+				"grafana-0:7.5.11-5.el9_0.src.rpm",
+				"grafana-0:7.5.11-5.el9_0.x86_64.rpm",
+				"grafana-debuginfo-0:7.5.11-5.el9_0.aarch64.rpm",
+				"grafana-debuginfo-0:7.5.11-5.el9_0.ppc64le.rpm",
+				"grafana-debuginfo-0:7.5.11-5.el9_0.s390x.rpm",
+				"grafana-debuginfo-0:7.5.11-5.el9_0.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: grafana security update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

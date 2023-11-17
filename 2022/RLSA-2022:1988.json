@@ -1,663 +1,663 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-284",
-      "name": "CVE-2020-0404",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0404"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2020-13974",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13974"
-    },
-    {
-      "cvss3BaseScore": "4.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2020-27820",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27820"
-    },
-    {
-      "cvss3BaseScore": "5.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-200",
-      "name": "CVE-2020-4788",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4788"
-    },
-    {
-      "cvss3BaseScore": "6.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416->CWE-125",
-      "name": "CVE-2021-0941",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-0941"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-330",
-      "name": "CVE-2021-20322",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20322"
-    },
-    {
-      "cvss3BaseScore": "4.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-908",
-      "name": "CVE-2021-21781",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21781"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2021-26401",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26401"
-    },
-    {
-      "cvss3BaseScore": "7.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2021-29154",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29154"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-20->CWE-119",
-      "name": "CVE-2021-3612",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3612"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-3669",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3669"
-    },
-    {
-      "cvss3BaseScore": "6.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2021-37159",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37159"
-    },
-    {
-      "cvss3BaseScore": "6.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-3743",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3743"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-401",
-      "name": "CVE-2021-3744",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3744"
-    },
-    {
-      "cvss3BaseScore": "7.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2021-3752",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3752"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-3759",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3759"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-401",
-      "name": "CVE-2021-3764",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3764"
-    },
-    {
-      "cvss3BaseScore": "5.9",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-354",
-      "name": "CVE-2021-3772",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3772"
-    },
-    {
-      "cvss3BaseScore": "5.9",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-200",
-      "name": "CVE-2021-3773",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3773"
-    },
-    {
-      "cvss3BaseScore": "5.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-459",
-      "name": "CVE-2021-4002",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4002"
-    },
-    {
-      "cvss3BaseScore": "4.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-284",
-      "name": "CVE-2021-4037",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4037"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2021-4083",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4083"
-    },
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
-      "cwe": "(CWE-125|CWE-787)",
-      "name": "CVE-2021-4093",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4093"
-    },
-    {
-      "cvss3BaseScore": "5.9",
-      "cvss3ScoringVector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2021-4157",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4157"
-    },
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->CWE-787",
-      "name": "CVE-2021-41864",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41864"
-    },
-    {
-      "cvss3BaseScore": "6.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
-      "cwe": "CWE-287",
-      "name": "CVE-2021-4197",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4197"
-    },
-    {
-      "cvss3BaseScore": "5.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:L",
-      "cwe": "CWE-362->CWE-416",
-      "name": "CVE-2021-4203",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4203"
-    },
-    {
-      "cvss3BaseScore": "6.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2021-42739",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42739"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-252",
-      "name": "CVE-2021-43056",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43056"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-129->CWE-125",
-      "name": "CVE-2021-43389",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43389"
-    },
-    {
-      "cvss3BaseScore": "4.6",
-      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-459",
-      "name": "CVE-2021-43976",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43976"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-908",
-      "name": "CVE-2021-44733",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44733"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-327",
-      "name": "CVE-2021-45485",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45485"
-    },
-    {
-      "cvss3BaseScore": "3.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-330->CWE-200",
-      "name": "CVE-2021-45486",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45486"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2022-0001",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0001"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2022-0002",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0002"
-    },
-    {
-      "cvss3BaseScore": "5.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-476",
-      "name": "CVE-2022-0286",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0286"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-681",
-      "name": "CVE-2022-0322",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0322"
-    },
-    {
-      "cvss3BaseScore": "7.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2022-1011",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1011"
-    }
-  ],
-  "description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: fget: check that the fd still exists after getting a ref to it (CVE-2021-4083)\n\n* kernel: avoid cyclic entity chains due to malformed USB descriptors (CVE-2020-0404)\n\n* kernel: speculation on incompletely validated data on IBM Power9 (CVE-2020-4788)\n\n* kernel: integer overflow in k_ascii() in drivers/tty/vt/keyboard.c (CVE-2020-13974)\n\n* kernel: out-of-bounds read in bpf_skb_change_head() of filter.c due to a use-after-free (CVE-2021-0941)\n\n* kernel: joydev: zero size passed to joydev_handle_JSIOCSBTNMAP() (CVE-2021-3612)\n\n* kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts (CVE-2021-3669)\n\n* kernel: out-of-bound Read in qrtr_endpoint_post in net/qrtr/qrtr.c (CVE-2021-3743)\n\n* kernel: crypto: ccp - fix resource leaks in ccp_run_aes_gcm_cmd() (CVE-2021-3744)\n\n* kernel: possible use-after-free in bluetooth module (CVE-2021-3752)\n\n* kernel: unaccounted ipc objects in Linux kernel lead to breaking memcg limits and DoS attacks (CVE-2021-3759)\n\n* kernel: DoS in ccp_run_aes_gcm_cmd() function (CVE-2021-3764)\n\n* kernel: sctp: Invalid chunks may be used to remotely remove existing associations (CVE-2021-3772)\n\n* kernel: lack of port sanity checking in natd and netfilter leads to exploit of OpenVPN clients (CVE-2021-3773)\n\n* kernel: possible leak or coruption of data residing on hugetlbfs (CVE-2021-4002)\n\n* kernel: security regression for CVE-2018-13405 (CVE-2021-4037)\n\n* kernel: Buffer overwrite in decode_nfs_fh function (CVE-2021-4157)\n\n* kernel: cgroup: Use open-time creds and namespace for migration perm checks (CVE-2021-4197)\n\n* kernel: Race condition in races in sk_peer_pid and sk_peer_cred accesses (CVE-2021-4203)\n\n* kernel: new DNS Cache Poisoning Attack based on ICMP fragment needed packets replies (CVE-2021-20322)\n\n* kernel: arm: SIGPAGE information disclosure vulnerability (CVE-2021-21781)\n\n* hw: cpu: LFENCE/JMP Mitigation Update for CVE-2017-5715 (CVE-2021-26401)\n\n* kernel: Local privilege escalation due to incorrect BPF JIT branch displacement computation (CVE-2021-29154)\n\n* kernel: use-after-free in hso_free_net_device() in drivers/net/usb/hso.c (CVE-2021-37159)\n\n* kernel: eBPF multiplication integer overflow in prealloc_elems_and_freelist() in kernel/bpf/stackmap.c leads to out-of-bounds write (CVE-2021-41864)\n\n* kernel: Heap buffer overflow in firedtv driver (CVE-2021-42739)\n\n* kernel: ppc: kvm: allows a malicious KVM guest to crash the host (CVE-2021-43056)\n\n* kernel: an array-index-out-bounds in detach_capi_ctr in drivers/isdn/capi/kcapi.c (CVE-2021-43389)\n\n* kernel: mwifiex_usb_recv() in drivers/net/wireless/marvell/mwifiex/usb.c allows an attacker to cause DoS via crafted USB device (CVE-2021-43976)\n\n* kernel: use-after-free in the TEE subsystem (CVE-2021-44733)\n\n* kernel: information leak in the IPv6 implementation (CVE-2021-45485)\n\n* kernel: information leak in the IPv4 implementation (CVE-2021-45486)\n\n* hw: cpu: intel: Branch History Injection (BHI) (CVE-2022-0001)\n\n* hw: cpu: intel: Intra-Mode BTI (CVE-2022-0002)\n\n* kernel: Local denial of service in bond_ipsec_add_sa (CVE-2022-0286)\n\n* kernel: DoS in sctp_addto_chunk in net/sctp/sm_make_chunk.c (CVE-2022-0322)\n\n* kernel: FUSE allows UAF reads of write() buffers, allowing theft of (partial) /etc/shadow hashes (CVE-2022-1011)\n\n* kernel: use-after-free in nouveau kernel module (CVE-2020-27820)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888433",
-      "ticket": "1888433"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1901726",
-      "ticket": "1901726"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1919791",
-      "ticket": "1919791"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1946684",
-      "ticket": "1946684"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951739",
-      "ticket": "1951739"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1957375",
-      "ticket": "1957375"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1974079",
-      "ticket": "1974079"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1981950",
-      "ticket": "1981950"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1983894",
-      "ticket": "1983894"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1985353",
-      "ticket": "1985353"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1986473",
-      "ticket": "1986473"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1994390",
-      "ticket": "1994390"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997338",
-      "ticket": "1997338"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997467",
-      "ticket": "1997467"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997961",
-      "ticket": "1997961"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1999544",
-      "ticket": "1999544"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1999675",
-      "ticket": "1999675"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000627",
-      "ticket": "2000627"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000694",
-      "ticket": "2000694"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2004949",
-      "ticket": "2004949"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2009312",
-      "ticket": "2009312"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2009521",
-      "ticket": "2009521"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2010463",
-      "ticket": "2010463"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011104",
-      "ticket": "2011104"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2013180",
-      "ticket": "2013180"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2014230",
-      "ticket": "2014230"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2015525",
-      "ticket": "2015525"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2015755",
-      "ticket": "2015755"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2016169",
-      "ticket": "2016169"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2017073",
-      "ticket": "2017073"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2017796",
-      "ticket": "2017796"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018205",
-      "ticket": "2018205"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2022814",
-      "ticket": "2022814"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2025003",
-      "ticket": "2025003"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2025726",
-      "ticket": "2025726"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2027239",
-      "ticket": "2027239"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2029923",
-      "ticket": "2029923"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030476",
-      "ticket": "2030476"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030747",
-      "ticket": "2030747"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2031200",
-      "ticket": "2031200"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2034342",
-      "ticket": "2034342"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2035652",
-      "ticket": "2035652"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2036934",
-      "ticket": "2036934"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2037019",
-      "ticket": "2037019"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2039911",
-      "ticket": "2039911"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2039914",
-      "ticket": "2039914"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2042798",
-      "ticket": "2042798"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2042822",
-      "ticket": "2042822"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2043453",
-      "ticket": "2043453"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2046021",
-      "ticket": "2046021"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2048251",
-      "ticket": "2048251"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061700",
-      "ticket": "2061700"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061712",
-      "ticket": "2061712"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061721",
-      "ticket": "2061721"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064855",
-      "ticket": "2064855"
-    }
-  ],
-  "name": "RLSA-2022:1988",
-  "publishedAt": "2022-05-10T08:11:36Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "bpftool-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "bpftool-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "bpftool-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "bpftool-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-0:4.18.0-372.9.1.el8.src.rpm",
-        "kernel-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-abi-stablelists-0:4.18.0-372.9.1.el8.noarch.rpm",
-        "kernel-core-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-core-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-cross-headers-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-cross-headers-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debug-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debug-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debug-core-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debug-core-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debug-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debug-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debug-devel-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debug-devel-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debuginfo-common-aarch64-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debuginfo-common-x86_64-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debug-modules-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debug-modules-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-debug-modules-extra-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-debug-modules-extra-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-devel-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-devel-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-doc-0:4.18.0-372.9.1.el8.noarch.rpm",
-        "kernel-headers-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-headers-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-modules-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-modules-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-modules-extra-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-modules-extra-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-tools-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-tools-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-tools-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-tools-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-tools-libs-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-tools-libs-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "kernel-tools-libs-devel-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "kernel-tools-libs-devel-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "perf-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "perf-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "perf-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "perf-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "python3-perf-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "python3-perf-0:4.18.0-372.9.1.el8.x86_64.rpm",
-        "python3-perf-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
-        "python3-perf-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: kernel security, bug fix, and enhancement update",
-  "topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-284",
+			"name": "CVE-2020-0404",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0404"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2020-13974",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13974"
+		},
+		{
+			"cvss3BaseScore": "4.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2020-27820",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27820"
+		},
+		{
+			"cvss3BaseScore": "5.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2020-4788",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4788"
+		},
+		{
+			"cvss3BaseScore": "6.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416->CWE-125",
+			"name": "CVE-2021-0941",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-0941"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-330",
+			"name": "CVE-2021-20322",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20322"
+		},
+		{
+			"cvss3BaseScore": "4.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-908",
+			"name": "CVE-2021-21781",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-21781"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-26401",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-26401"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-29154",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29154"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20->CWE-119",
+			"name": "CVE-2021-3612",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3612"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-3669",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3669"
+		},
+		{
+			"cvss3BaseScore": "6.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-37159",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37159"
+		},
+		{
+			"cvss3BaseScore": "6.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-3743",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3743"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-401",
+			"name": "CVE-2021-3744",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3744"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-3752",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3752"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-3759",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3759"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-401",
+			"name": "CVE-2021-3764",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3764"
+		},
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-354",
+			"name": "CVE-2021-3772",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3772"
+		},
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2021-3773",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3773"
+		},
+		{
+			"cvss3BaseScore": "5.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-459",
+			"name": "CVE-2021-4002",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4002"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-284",
+			"name": "CVE-2021-4037",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4037"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-4083",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4083"
+		},
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+			"cwe": "(CWE-125|CWE-787)",
+			"name": "CVE-2021-4093",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4093"
+		},
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:A/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-4157",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4157"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->CWE-787",
+			"name": "CVE-2021-41864",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41864"
+		},
+		{
+			"cvss3BaseScore": "6.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-287",
+			"name": "CVE-2021-4197",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4197"
+		},
+		{
+			"cvss3BaseScore": "5.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:L/A:L",
+			"cwe": "CWE-362->CWE-416",
+			"name": "CVE-2021-4203",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-4203"
+		},
+		{
+			"cvss3BaseScore": "6.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-42739",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-42739"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-252",
+			"name": "CVE-2021-43056",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43056"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-129->CWE-125",
+			"name": "CVE-2021-43389",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43389"
+		},
+		{
+			"cvss3BaseScore": "4.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:P/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-459",
+			"name": "CVE-2021-43976",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43976"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-908",
+			"name": "CVE-2021-44733",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44733"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-327",
+			"name": "CVE-2021-45485",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45485"
+		},
+		{
+			"cvss3BaseScore": "3.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-330->CWE-200",
+			"name": "CVE-2021-45486",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45486"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-0001",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0001"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-0002",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0002"
+		},
+		{
+			"cvss3BaseScore": "5.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2022-0286",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0286"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-681",
+			"name": "CVE-2022-0322",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-0322"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-1011",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1011"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: fget: check that the fd still exists after getting a ref to it (CVE-2021-4083)\n\n* kernel: avoid cyclic entity chains due to malformed USB descriptors (CVE-2020-0404)\n\n* kernel: speculation on incompletely validated data on IBM Power9 (CVE-2020-4788)\n\n* kernel: integer overflow in k_ascii() in drivers/tty/vt/keyboard.c (CVE-2020-13974)\n\n* kernel: out-of-bounds read in bpf_skb_change_head() of filter.c due to a use-after-free (CVE-2021-0941)\n\n* kernel: joydev: zero size passed to joydev_handle_JSIOCSBTNMAP() (CVE-2021-3612)\n\n* kernel: reading /proc/sysvipc/shm does not scale with large shared memory segment counts (CVE-2021-3669)\n\n* kernel: out-of-bound Read in qrtr_endpoint_post in net/qrtr/qrtr.c (CVE-2021-3743)\n\n* kernel: crypto: ccp - fix resource leaks in ccp_run_aes_gcm_cmd() (CVE-2021-3744)\n\n* kernel: possible use-after-free in bluetooth module (CVE-2021-3752)\n\n* kernel: unaccounted ipc objects in Linux kernel lead to breaking memcg limits and DoS attacks (CVE-2021-3759)\n\n* kernel: DoS in ccp_run_aes_gcm_cmd() function (CVE-2021-3764)\n\n* kernel: sctp: Invalid chunks may be used to remotely remove existing associations (CVE-2021-3772)\n\n* kernel: lack of port sanity checking in natd and netfilter leads to exploit of OpenVPN clients (CVE-2021-3773)\n\n* kernel: possible leak or coruption of data residing on hugetlbfs (CVE-2021-4002)\n\n* kernel: security regression for CVE-2018-13405 (CVE-2021-4037)\n\n* kernel: Buffer overwrite in decode_nfs_fh function (CVE-2021-4157)\n\n* kernel: cgroup: Use open-time creds and namespace for migration perm checks (CVE-2021-4197)\n\n* kernel: Race condition in races in sk_peer_pid and sk_peer_cred accesses (CVE-2021-4203)\n\n* kernel: new DNS Cache Poisoning Attack based on ICMP fragment needed packets replies (CVE-2021-20322)\n\n* kernel: arm: SIGPAGE information disclosure vulnerability (CVE-2021-21781)\n\n* hw: cpu: LFENCE/JMP Mitigation Update for CVE-2017-5715 (CVE-2021-26401)\n\n* kernel: Local privilege escalation due to incorrect BPF JIT branch displacement computation (CVE-2021-29154)\n\n* kernel: use-after-free in hso_free_net_device() in drivers/net/usb/hso.c (CVE-2021-37159)\n\n* kernel: eBPF multiplication integer overflow in prealloc_elems_and_freelist() in kernel/bpf/stackmap.c leads to out-of-bounds write (CVE-2021-41864)\n\n* kernel: Heap buffer overflow in firedtv driver (CVE-2021-42739)\n\n* kernel: ppc: kvm: allows a malicious KVM guest to crash the host (CVE-2021-43056)\n\n* kernel: an array-index-out-bounds in detach_capi_ctr in drivers/isdn/capi/kcapi.c (CVE-2021-43389)\n\n* kernel: mwifiex_usb_recv() in drivers/net/wireless/marvell/mwifiex/usb.c allows an attacker to cause DoS via crafted USB device (CVE-2021-43976)\n\n* kernel: use-after-free in the TEE subsystem (CVE-2021-44733)\n\n* kernel: information leak in the IPv6 implementation (CVE-2021-45485)\n\n* kernel: information leak in the IPv4 implementation (CVE-2021-45486)\n\n* hw: cpu: intel: Branch History Injection (BHI) (CVE-2022-0001)\n\n* hw: cpu: intel: Intra-Mode BTI (CVE-2022-0002)\n\n* kernel: Local denial of service in bond_ipsec_add_sa (CVE-2022-0286)\n\n* kernel: DoS in sctp_addto_chunk in net/sctp/sm_make_chunk.c (CVE-2022-0322)\n\n* kernel: FUSE allows UAF reads of write() buffers, allowing theft of (partial) /etc/shadow hashes (CVE-2022-1011)\n\n* kernel: use-after-free in nouveau kernel module (CVE-2020-27820)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888433",
+			"ticket": "1888433"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1901726",
+			"ticket": "1901726"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1919791",
+			"ticket": "1919791"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1946684",
+			"ticket": "1946684"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951739",
+			"ticket": "1951739"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1957375",
+			"ticket": "1957375"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1974079",
+			"ticket": "1974079"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1981950",
+			"ticket": "1981950"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1983894",
+			"ticket": "1983894"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1985353",
+			"ticket": "1985353"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1986473",
+			"ticket": "1986473"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1994390",
+			"ticket": "1994390"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997338",
+			"ticket": "1997338"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997467",
+			"ticket": "1997467"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1997961",
+			"ticket": "1997961"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1999544",
+			"ticket": "1999544"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1999675",
+			"ticket": "1999675"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000627",
+			"ticket": "2000627"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2000694",
+			"ticket": "2000694"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2004949",
+			"ticket": "2004949"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2009312",
+			"ticket": "2009312"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2009521",
+			"ticket": "2009521"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2010463",
+			"ticket": "2010463"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2011104",
+			"ticket": "2011104"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2013180",
+			"ticket": "2013180"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2014230",
+			"ticket": "2014230"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2015525",
+			"ticket": "2015525"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2015755",
+			"ticket": "2015755"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2016169",
+			"ticket": "2016169"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2017073",
+			"ticket": "2017073"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2017796",
+			"ticket": "2017796"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018205",
+			"ticket": "2018205"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2022814",
+			"ticket": "2022814"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2025003",
+			"ticket": "2025003"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2025726",
+			"ticket": "2025726"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2027239",
+			"ticket": "2027239"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2029923",
+			"ticket": "2029923"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030476",
+			"ticket": "2030476"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030747",
+			"ticket": "2030747"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2031200",
+			"ticket": "2031200"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2034342",
+			"ticket": "2034342"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2035652",
+			"ticket": "2035652"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2036934",
+			"ticket": "2036934"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2037019",
+			"ticket": "2037019"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2039911",
+			"ticket": "2039911"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2039914",
+			"ticket": "2039914"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2042798",
+			"ticket": "2042798"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2042822",
+			"ticket": "2042822"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2043453",
+			"ticket": "2043453"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2046021",
+			"ticket": "2046021"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2048251",
+			"ticket": "2048251"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061700",
+			"ticket": "2061700"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061712",
+			"ticket": "2061712"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2061721",
+			"ticket": "2061721"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064855",
+			"ticket": "2064855"
+		}
+	],
+	"name": "RLSA-2022:1988",
+	"publishedAt": "2022-05-10T08:11:36Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bpftool-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"bpftool-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"bpftool-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"bpftool-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-0:4.18.0-372.9.1.el8.src.rpm",
+				"kernel-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-abi-stablelists-0:4.18.0-372.9.1.el8.noarch.rpm",
+				"kernel-core-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-core-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-cross-headers-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-cross-headers-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debug-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debug-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debug-core-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debug-core-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debug-devel-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debug-devel-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debuginfo-common-aarch64-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debuginfo-common-x86_64-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debug-modules-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debug-modules-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-devel-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-devel-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-doc-0:4.18.0-372.9.1.el8.noarch.rpm",
+				"kernel-headers-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-headers-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-modules-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-modules-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-modules-extra-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-modules-extra-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-tools-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-tools-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-tools-libs-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-tools-libs-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"perf-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"perf-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"perf-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"perf-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"python3-perf-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"python3-perf-0:4.18.0-372.9.1.el8.x86_64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-372.9.1.el8.aarch64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-372.9.1.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel security, bug fix, and enhancement update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

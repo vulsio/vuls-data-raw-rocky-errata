@@ -1,62 +1,62 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400->CWE-770",
-      "name": "CVE-2022-25313",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25313"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2022-25314",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25314"
-    }
-  ],
-  "description": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: stack exhaustion in doctype parsing (CVE-2022-25313)\n\n* expat: integer overflow in copyString() (CVE-2022-25314)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056350",
-      "ticket": "2056350"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056354",
-      "ticket": "2056354"
-    }
-  ],
-  "name": "RLSA-2022:5314",
-  "publishedAt": "2022-06-28T10:52:05Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "expat-0:2.2.5-8.el8_6.2.aarch64.rpm",
-        "expat-0:2.2.5-8.el8_6.2.i686.rpm",
-        "expat-0:2.2.5-8.el8_6.2.src.rpm",
-        "expat-0:2.2.5-8.el8_6.2.x86_64.rpm",
-        "expat-debuginfo-0:2.2.5-8.el8_6.2.aarch64.rpm",
-        "expat-debuginfo-0:2.2.5-8.el8_6.2.i686.rpm",
-        "expat-debuginfo-0:2.2.5-8.el8_6.2.x86_64.rpm",
-        "expat-debugsource-0:2.2.5-8.el8_6.2.aarch64.rpm",
-        "expat-debugsource-0:2.2.5-8.el8_6.2.i686.rpm",
-        "expat-debugsource-0:2.2.5-8.el8_6.2.x86_64.rpm",
-        "expat-devel-0:2.2.5-8.el8_6.2.aarch64.rpm",
-        "expat-devel-0:2.2.5-8.el8_6.2.i686.rpm",
-        "expat-devel-0:2.2.5-8.el8_6.2.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: expat security update",
-  "topic": "An update is available for expat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400->CWE-770",
+			"name": "CVE-2022-25313",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25313"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-25314",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-25314"
+		}
+	],
+	"description": "Expat is a C library for parsing XML documents.\n\nSecurity Fix(es):\n\n* expat: stack exhaustion in doctype parsing (CVE-2022-25313)\n\n* expat: integer overflow in copyString() (CVE-2022-25314)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056350",
+			"ticket": "2056350"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2056354",
+			"ticket": "2056354"
+		}
+	],
+	"name": "RLSA-2022:5314",
+	"publishedAt": "2022-06-28T10:52:05Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"expat-0:2.2.5-8.el8_6.2.aarch64.rpm",
+				"expat-0:2.2.5-8.el8_6.2.i686.rpm",
+				"expat-0:2.2.5-8.el8_6.2.src.rpm",
+				"expat-0:2.2.5-8.el8_6.2.x86_64.rpm",
+				"expat-debuginfo-0:2.2.5-8.el8_6.2.aarch64.rpm",
+				"expat-debuginfo-0:2.2.5-8.el8_6.2.i686.rpm",
+				"expat-debuginfo-0:2.2.5-8.el8_6.2.x86_64.rpm",
+				"expat-debugsource-0:2.2.5-8.el8_6.2.aarch64.rpm",
+				"expat-debugsource-0:2.2.5-8.el8_6.2.i686.rpm",
+				"expat-debugsource-0:2.2.5-8.el8_6.2.x86_64.rpm",
+				"expat-devel-0:2.2.5-8.el8_6.2.aarch64.rpm",
+				"expat-devel-0:2.2.5-8.el8_6.2.i686.rpm",
+				"expat-devel-0:2.2.5-8.el8_6.2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: expat security update",
+	"topic": "An update is available for expat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

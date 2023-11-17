@@ -1,40 +1,40 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-119",
-      "name": "CVE-2021-38575",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38575"
-    }
-  ],
-  "description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: remote buffer overflow in IScsiHexToBin function in NetworkPkg/IScsiDxe (BZ#1956284)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "description": "* edk2: remote buffer overflow in IScsiHexToBin function in NetworkPkg/IScsiDxe",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1956284",
-      "ticket": "1956284"
-    }
-  ],
-  "name": "RLSA-2021:3066",
-  "publishedAt": "2021-08-10T11:59:49Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "edk2-0:20200602gitca407c7246bf-4.el8_4.2.src.rpm",
-        "edk2-aarch64-0:20200602gitca407c7246bf-4.el8_4.2.noarch.rpm",
-        "edk2-ovmf-0:20200602gitca407c7246bf-4.el8_4.2.noarch.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: edk2 security update",
-  "topic": "An update is available for edk2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-38575",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38575"
+		}
+	],
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: remote buffer overflow in IScsiHexToBin function in NetworkPkg/IScsiDxe (BZ#1956284)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"description": "* edk2: remote buffer overflow in IScsiHexToBin function in NetworkPkg/IScsiDxe",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1956284",
+			"ticket": "1956284"
+		}
+	],
+	"name": "RLSA-2021:3066",
+	"publishedAt": "2021-08-10T11:59:49Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"edk2-0:20200602gitca407c7246bf-4.el8_4.2.src.rpm",
+				"edk2-aarch64-0:20200602gitca407c7246bf-4.el8_4.2.noarch.rpm",
+				"edk2-ovmf-0:20200602gitca407c7246bf-4.el8_4.2.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: edk2 security update",
+	"topic": "An update is available for edk2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

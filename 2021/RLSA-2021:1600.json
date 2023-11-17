@@ -1,92 +1,92 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "6.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-122->CWE-787",
-      "name": "CVE-2020-26570",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26570"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H",
-      "cwe": "CWE-121->CWE-787",
-      "name": "CVE-2020-26571",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26571"
-    },
-    {
-      "cvss3BaseScore": "6.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-121->CWE-787",
-      "name": "CVE-2020-26572",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26572"
-    }
-  ],
-  "description": "The OpenSC set of libraries and utilities provides support for working with smart cards. OpenSC focuses on cards that support cryptographic operations and enables their use for authentication, mail encryption, or digital signatures.\n\nSecurity Fix(es):\n\n* opensc: heap-based buffer overflow in sc_oberthur_read_file (CVE-2020-26570)\n\n* opensc: stack-based buffer overflow in sc_pkcs15emu_gemsafeGPK_init (CVE-2020-26571)\n\n* opensc: stack-based buffer overflow in tcos_decipher (CVE-2020-26572)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1830901",
-      "ticket": "1830901"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1877973",
-      "ticket": "1877973"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885947",
-      "ticket": "1885947"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885950",
-      "ticket": "1885950"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885954",
-      "ticket": "1885954"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1892810",
-      "ticket": "1892810"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1895401",
-      "ticket": "1895401"
-    }
-  ],
-  "name": "RLSA-2021:1600",
-  "publishedAt": "2021-05-18T05:37:30Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "opensc-0:0.20.0-4.el8.aarch64.rpm",
-        "opensc-0:0.20.0-4.el8.i686.rpm",
-        "opensc-0:0.20.0-4.el8.src.rpm",
-        "opensc-0:0.20.0-4.el8.x86_64.rpm",
-        "opensc-debuginfo-0:0.20.0-4.el8.aarch64.rpm",
-        "opensc-debuginfo-0:0.20.0-4.el8.i686.rpm",
-        "opensc-debuginfo-0:0.20.0-4.el8.x86_64.rpm",
-        "opensc-debugsource-0:0.20.0-4.el8.aarch64.rpm",
-        "opensc-debugsource-0:0.20.0-4.el8.i686.rpm",
-        "opensc-debugsource-0:0.20.0-4.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: opensc security, bug fix, and enhancement update",
-  "topic": "An update is available for opensc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-122->CWE-787",
+			"name": "CVE-2020-26570",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26570"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-121->CWE-787",
+			"name": "CVE-2020-26571",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26571"
+		},
+		{
+			"cvss3BaseScore": "6.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:P/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-121->CWE-787",
+			"name": "CVE-2020-26572",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26572"
+		}
+	],
+	"description": "The OpenSC set of libraries and utilities provides support for working with smart cards. OpenSC focuses on cards that support cryptographic operations and enables their use for authentication, mail encryption, or digital signatures.\n\nSecurity Fix(es):\n\n* opensc: heap-based buffer overflow in sc_oberthur_read_file (CVE-2020-26570)\n\n* opensc: stack-based buffer overflow in sc_pkcs15emu_gemsafeGPK_init (CVE-2020-26571)\n\n* opensc: stack-based buffer overflow in tcos_decipher (CVE-2020-26572)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1830901",
+			"ticket": "1830901"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1877973",
+			"ticket": "1877973"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885947",
+			"ticket": "1885947"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885950",
+			"ticket": "1885950"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885954",
+			"ticket": "1885954"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1892810",
+			"ticket": "1892810"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1895401",
+			"ticket": "1895401"
+		}
+	],
+	"name": "RLSA-2021:1600",
+	"publishedAt": "2021-05-18T05:37:30Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"opensc-0:0.20.0-4.el8.aarch64.rpm",
+				"opensc-0:0.20.0-4.el8.i686.rpm",
+				"opensc-0:0.20.0-4.el8.src.rpm",
+				"opensc-0:0.20.0-4.el8.x86_64.rpm",
+				"opensc-debuginfo-0:0.20.0-4.el8.aarch64.rpm",
+				"opensc-debuginfo-0:0.20.0-4.el8.i686.rpm",
+				"opensc-debuginfo-0:0.20.0-4.el8.x86_64.rpm",
+				"opensc-debugsource-0:0.20.0-4.el8.aarch64.rpm",
+				"opensc-debugsource-0:0.20.0-4.el8.i686.rpm",
+				"opensc-debugsource-0:0.20.0-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: opensc security, bug fix, and enhancement update",
+	"topic": "An update is available for opensc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

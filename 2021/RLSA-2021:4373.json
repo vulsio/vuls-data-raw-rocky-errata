@@ -1,83 +1,83 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2019-20838",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20838"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-190",
-      "name": "CVE-2020-14155",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14155"
-    }
-  ],
-  "description": "PCRE is a Perl-compatible regular expression library. \n\nSecurity Fix(es):\n\n* pcre: Buffer over-read in JIT when UTF is disabled and \\X or \\R has fixed quantifier greater than 1 (CVE-2019-20838)\n\n* pcre: Integer overflow when parsing callout numeric arguments (CVE-2020-14155)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848436",
-      "ticket": "1848436"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848444",
-      "ticket": "1848444"
-    }
-  ],
-  "name": "RLSA-2021:4373",
-  "publishedAt": "2021-11-09T09:12:45Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "pcre-0:8.42-6.el8.aarch64.rpm",
-        "pcre-0:8.42-6.el8.i686.rpm",
-        "pcre-0:8.42-6.el8.src.rpm",
-        "pcre-0:8.42-6.el8.x86_64.rpm",
-        "pcre-cpp-0:8.42-6.el8.aarch64.rpm",
-        "pcre-cpp-0:8.42-6.el8.i686.rpm",
-        "pcre-cpp-0:8.42-6.el8.x86_64.rpm",
-        "pcre-cpp-debuginfo-0:8.42-6.el8.aarch64.rpm",
-        "pcre-cpp-debuginfo-0:8.42-6.el8.i686.rpm",
-        "pcre-cpp-debuginfo-0:8.42-6.el8.x86_64.rpm",
-        "pcre-debuginfo-0:8.42-6.el8.aarch64.rpm",
-        "pcre-debuginfo-0:8.42-6.el8.i686.rpm",
-        "pcre-debuginfo-0:8.42-6.el8.x86_64.rpm",
-        "pcre-debugsource-0:8.42-6.el8.aarch64.rpm",
-        "pcre-debugsource-0:8.42-6.el8.i686.rpm",
-        "pcre-debugsource-0:8.42-6.el8.x86_64.rpm",
-        "pcre-devel-0:8.42-6.el8.aarch64.rpm",
-        "pcre-devel-0:8.42-6.el8.i686.rpm",
-        "pcre-devel-0:8.42-6.el8.x86_64.rpm",
-        "pcre-static-0:8.42-6.el8.aarch64.rpm",
-        "pcre-static-0:8.42-6.el8.i686.rpm",
-        "pcre-static-0:8.42-6.el8.x86_64.rpm",
-        "pcre-utf16-0:8.42-6.el8.aarch64.rpm",
-        "pcre-utf16-0:8.42-6.el8.i686.rpm",
-        "pcre-utf16-0:8.42-6.el8.x86_64.rpm",
-        "pcre-utf16-debuginfo-0:8.42-6.el8.aarch64.rpm",
-        "pcre-utf16-debuginfo-0:8.42-6.el8.i686.rpm",
-        "pcre-utf16-debuginfo-0:8.42-6.el8.x86_64.rpm",
-        "pcre-utf32-0:8.42-6.el8.aarch64.rpm",
-        "pcre-utf32-0:8.42-6.el8.i686.rpm",
-        "pcre-utf32-0:8.42-6.el8.x86_64.rpm",
-        "pcre-utf32-debuginfo-0:8.42-6.el8.aarch64.rpm",
-        "pcre-utf32-debuginfo-0:8.42-6.el8.i686.rpm",
-        "pcre-utf32-debuginfo-0:8.42-6.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: pcre security update",
-  "topic": "An update is available for pcre.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2019-20838",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20838"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-190",
+			"name": "CVE-2020-14155",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14155"
+		}
+	],
+	"description": "PCRE is a Perl-compatible regular expression library. \n\nSecurity Fix(es):\n\n* pcre: Buffer over-read in JIT when UTF is disabled and \\X or \\R has fixed quantifier greater than 1 (CVE-2019-20838)\n\n* pcre: Integer overflow when parsing callout numeric arguments (CVE-2020-14155)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848436",
+			"ticket": "1848436"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1848444",
+			"ticket": "1848444"
+		}
+	],
+	"name": "RLSA-2021:4373",
+	"publishedAt": "2021-11-09T09:12:45Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pcre-0:8.42-6.el8.aarch64.rpm",
+				"pcre-0:8.42-6.el8.i686.rpm",
+				"pcre-0:8.42-6.el8.src.rpm",
+				"pcre-0:8.42-6.el8.x86_64.rpm",
+				"pcre-cpp-0:8.42-6.el8.aarch64.rpm",
+				"pcre-cpp-0:8.42-6.el8.i686.rpm",
+				"pcre-cpp-0:8.42-6.el8.x86_64.rpm",
+				"pcre-cpp-debuginfo-0:8.42-6.el8.aarch64.rpm",
+				"pcre-cpp-debuginfo-0:8.42-6.el8.i686.rpm",
+				"pcre-cpp-debuginfo-0:8.42-6.el8.x86_64.rpm",
+				"pcre-debuginfo-0:8.42-6.el8.aarch64.rpm",
+				"pcre-debuginfo-0:8.42-6.el8.i686.rpm",
+				"pcre-debuginfo-0:8.42-6.el8.x86_64.rpm",
+				"pcre-debugsource-0:8.42-6.el8.aarch64.rpm",
+				"pcre-debugsource-0:8.42-6.el8.i686.rpm",
+				"pcre-debugsource-0:8.42-6.el8.x86_64.rpm",
+				"pcre-devel-0:8.42-6.el8.aarch64.rpm",
+				"pcre-devel-0:8.42-6.el8.i686.rpm",
+				"pcre-devel-0:8.42-6.el8.x86_64.rpm",
+				"pcre-static-0:8.42-6.el8.aarch64.rpm",
+				"pcre-static-0:8.42-6.el8.i686.rpm",
+				"pcre-static-0:8.42-6.el8.x86_64.rpm",
+				"pcre-utf16-0:8.42-6.el8.aarch64.rpm",
+				"pcre-utf16-0:8.42-6.el8.i686.rpm",
+				"pcre-utf16-0:8.42-6.el8.x86_64.rpm",
+				"pcre-utf16-debuginfo-0:8.42-6.el8.aarch64.rpm",
+				"pcre-utf16-debuginfo-0:8.42-6.el8.i686.rpm",
+				"pcre-utf16-debuginfo-0:8.42-6.el8.x86_64.rpm",
+				"pcre-utf32-0:8.42-6.el8.aarch64.rpm",
+				"pcre-utf32-0:8.42-6.el8.i686.rpm",
+				"pcre-utf32-0:8.42-6.el8.x86_64.rpm",
+				"pcre-utf32-debuginfo-0:8.42-6.el8.aarch64.rpm",
+				"pcre-utf32-debuginfo-0:8.42-6.el8.i686.rpm",
+				"pcre-utf32-debuginfo-0:8.42-6.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: pcre security update",
+	"topic": "An update is available for pcre.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

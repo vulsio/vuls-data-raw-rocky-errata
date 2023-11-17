@@ -1,81 +1,81 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "8.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
-      "cwe": "CWE-122->CWE-787",
-      "name": "CVE-2022-2601",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2601"
-    },
-    {
-      "cvss3BaseScore": "7.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
-      "cwe": "CWE-787",
-      "name": "CVE-2022-3775",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3775"
-    }
-  ],
-  "description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.\n\nSecurity Fix(es):\n\n* grub2: Buffer overflow in grub_font_construct_glyph() can lead to out-of-bound write and possible secure boot bypass (CVE-2022-2601)\n\n* grub2: Heap based out-of-bounds write when redering certain unicode sequences (CVE-2022-3775)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2112975",
-      "ticket": "2112975"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2138880",
-      "ticket": "2138880"
-    }
-  ],
-  "name": "RLSA-2023:0752",
-  "publishedAt": "2023-02-16T06:35:52.323618Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "grub2-1:2.06-46.el9_1.3.rocky.0.2.src.rpm",
-        "grub2-common-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
-        "grub2-efi-aa64-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-efi-aa64-cdboot-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-efi-aa64-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
-        "grub2-efi-x64-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-efi-x64-cdboot-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-efi-x64-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
-        "grub2-pc-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-pc-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
-        "grub2-ppc64le-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-ppc64le-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
-        "grub2-tools-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-tools-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-tools-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-tools-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-tools-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-efi-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-efi-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-extra-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-tools-extra-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-tools-extra-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-extra-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-tools-extra-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-tools-extra-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-minimal-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-tools-minimal-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-tools-minimal-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
-        "grub2-tools-minimal-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
-        "grub2-tools-minimal-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
-        "grub2-tools-minimal-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: grub2 security update",
-  "topic": "An update is available for grub2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+			"cwe": "CWE-122->CWE-787",
+			"name": "CVE-2022-2601",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2601"
+		},
+		{
+			"cvss3BaseScore": "7.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2022-3775",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3775"
+		}
+	],
+	"description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.\n\nSecurity Fix(es):\n\n* grub2: Buffer overflow in grub_font_construct_glyph() can lead to out-of-bound write and possible secure boot bypass (CVE-2022-2601)\n\n* grub2: Heap based out-of-bounds write when redering certain unicode sequences (CVE-2022-3775)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2112975",
+			"ticket": "2112975"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2138880",
+			"ticket": "2138880"
+		}
+	],
+	"name": "RLSA-2023:0752",
+	"publishedAt": "2023-02-16T06:35:52.323618Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"grub2-1:2.06-46.el9_1.3.rocky.0.2.src.rpm",
+				"grub2-common-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
+				"grub2-efi-aa64-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-efi-aa64-cdboot-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-efi-aa64-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
+				"grub2-efi-x64-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-efi-x64-cdboot-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-efi-x64-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
+				"grub2-pc-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-pc-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
+				"grub2-ppc64le-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-ppc64le-modules-1:2.06-46.el9_1.3.rocky.0.2.noarch.rpm",
+				"grub2-tools-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-tools-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-tools-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-tools-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-tools-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-efi-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-efi-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-extra-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-tools-extra-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-tools-extra-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-extra-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-tools-extra-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-tools-extra-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-minimal-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-tools-minimal-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-tools-minimal-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm",
+				"grub2-tools-minimal-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.aarch64.rpm",
+				"grub2-tools-minimal-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.ppc64le.rpm",
+				"grub2-tools-minimal-debuginfo-1:2.06-46.el9_1.3.rocky.0.2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grub2 security update",
+	"topic": "An update is available for grub2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,51 +1,51 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-362",
-      "name": "CVE-2021-20321",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20321"
-    }
-  ],
-  "description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: In Overlayfs missing a check for a negative dentry before calling vfs_rename() (CVE-2021-20321)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.5.z1 source tree (BZ#2023988)\n\n* [rt] Rocky Linux-8.6: disable KASAN, KCSAN and UBSAN for kernel-rt (BZ#2026384)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2013242",
-      "ticket": "2013242"
-    }
-  ],
-  "name": "RLSA-2021:5241",
-  "publishedAt": "2021-12-21T09:12:29Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "kernel-rt-0:4.18.0-348.7.1.rt7.137.el8_5.src.rpm",
-        "kernel-rt-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-core-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debug-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debug-core-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debug-debuginfo-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debug-devel-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debuginfo-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debuginfo-common-x86_64-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debug-modules-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-debug-modules-extra-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-devel-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-kvm-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-modules-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
-        "kernel-rt-modules-extra-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: kernel-rt security and bug fix update",
-  "topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-362",
+			"name": "CVE-2021-20321",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20321"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: In Overlayfs missing a check for a negative dentry before calling vfs_rename() (CVE-2021-20321)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the Rocky Linux-8.5.z1 source tree (BZ#2023988)\n\n* [rt] Rocky Linux-8.6: disable KASAN, KCSAN and UBSAN for kernel-rt (BZ#2026384)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2013242",
+			"ticket": "2013242"
+		}
+	],
+	"name": "RLSA-2021:5241",
+	"publishedAt": "2021-12-21T09:12:29Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-348.7.1.rt7.137.el8_5.src.rpm",
+				"kernel-rt-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-348.7.1.rt7.137.el8_5.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

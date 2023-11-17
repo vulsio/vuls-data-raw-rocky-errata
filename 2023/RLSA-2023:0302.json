@@ -1,131 +1,131 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-369",
-      "name": "CVE-2022-2056",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2056"
-    },
-    {
-      "cvss3BaseScore": "5.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-369",
-      "name": "CVE-2022-2057",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2057"
-    },
-    {
-      "cvss3BaseScore": "5.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-369",
-      "name": "CVE-2022-2058",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2058"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-415",
-      "name": "CVE-2022-2519",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2519"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-131",
-      "name": "CVE-2022-2520",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2520"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-763",
-      "name": "CVE-2022-2521",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2521"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-122",
-      "name": "CVE-2022-2953",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2953"
-    }
-  ],
-  "description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* LibTiff: DoS from Divide By Zero Error (CVE-2022-2056, CVE-2022-2057, CVE-2022-2058)\n\n* libtiff: Double free or corruption in rotateImage() function at tiffcrop.c (CVE-2022-2519)\n\n* libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c (CVE-2022-2953)\n\n* libtiff: Assertion fail in rotateImage() function at tiffcrop.c (CVE-2022-2520)\n\n* libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c (CVE-2022-2521)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2103222",
-      "ticket": "2103222"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122789",
-      "ticket": "2122789"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122792",
-      "ticket": "2122792"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122799",
-      "ticket": "2122799"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2134432",
-      "ticket": "2134432"
-    }
-  ],
-  "name": "RLSA-2023:0302",
-  "publishedAt": "2023-01-23T14:29:57Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "libtiff-0:4.4.0-5.el9_1.src.rpm",
-        "libtiff-0:4.4.0-5.el9_1.x86_64.rpm",
-        "libtiff-0:4.4.0-5.el9_1.aarch64.rpm",
-        "libtiff-0:4.4.0-5.el9_1.i686.rpm",
-        "libtiff-0:4.4.0-5.el9_1.ppc64le.rpm",
-        "libtiff-0:4.4.0-5.el9_1.s390x.rpm",
-        "libtiff-debuginfo-0:4.4.0-5.el9_1.aarch64.rpm",
-        "libtiff-debuginfo-0:4.4.0-5.el9_1.ppc64le.rpm",
-        "libtiff-debuginfo-0:4.4.0-5.el9_1.s390x.rpm",
-        "libtiff-debuginfo-0:4.4.0-5.el9_1.x86_64.rpm",
-        "libtiff-debugsource-0:4.4.0-5.el9_1.aarch64.rpm",
-        "libtiff-debugsource-0:4.4.0-5.el9_1.ppc64le.rpm",
-        "libtiff-debugsource-0:4.4.0-5.el9_1.s390x.rpm",
-        "libtiff-debugsource-0:4.4.0-5.el9_1.x86_64.rpm",
-        "libtiff-devel-0:4.4.0-5.el9_1.aarch64.rpm",
-        "libtiff-devel-0:4.4.0-5.el9_1.i686.rpm",
-        "libtiff-devel-0:4.4.0-5.el9_1.ppc64le.rpm",
-        "libtiff-devel-0:4.4.0-5.el9_1.s390x.rpm",
-        "libtiff-devel-0:4.4.0-5.el9_1.x86_64.rpm",
-        "libtiff-tools-0:4.4.0-5.el9_1.aarch64.rpm",
-        "libtiff-tools-0:4.4.0-5.el9_1.ppc64le.rpm",
-        "libtiff-tools-0:4.4.0-5.el9_1.s390x.rpm",
-        "libtiff-tools-0:4.4.0-5.el9_1.x86_64.rpm",
-        "libtiff-tools-debuginfo-0:4.4.0-5.el9_1.aarch64.rpm",
-        "libtiff-tools-debuginfo-0:4.4.0-5.el9_1.ppc64le.rpm",
-        "libtiff-tools-debuginfo-0:4.4.0-5.el9_1.s390x.rpm",
-        "libtiff-tools-debuginfo-0:4.4.0-5.el9_1.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: libtiff security update",
-  "topic": "An update is available for libtiff.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-369",
+			"name": "CVE-2022-2056",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2056"
+		},
+		{
+			"cvss3BaseScore": "5.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-369",
+			"name": "CVE-2022-2057",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2057"
+		},
+		{
+			"cvss3BaseScore": "5.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-369",
+			"name": "CVE-2022-2058",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2058"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-415",
+			"name": "CVE-2022-2519",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2519"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-131",
+			"name": "CVE-2022-2520",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2520"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-763",
+			"name": "CVE-2022-2521",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2521"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-122",
+			"name": "CVE-2022-2953",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2953"
+		}
+	],
+	"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* LibTiff: DoS from Divide By Zero Error (CVE-2022-2056, CVE-2022-2057, CVE-2022-2058)\n\n* libtiff: Double free or corruption in rotateImage() function at tiffcrop.c (CVE-2022-2519)\n\n* libtiff: tiffcrop: heap-buffer-overflow in extractImageSection in tiffcrop.c (CVE-2022-2953)\n\n* libtiff: Assertion fail in rotateImage() function at tiffcrop.c (CVE-2022-2520)\n\n* libtiff: Invalid pointer free operation in TIFFClose() at tif_close.c (CVE-2022-2521)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2103222",
+			"ticket": "2103222"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122789",
+			"ticket": "2122789"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122792",
+			"ticket": "2122792"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122799",
+			"ticket": "2122799"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2134432",
+			"ticket": "2134432"
+		}
+	],
+	"name": "RLSA-2023:0302",
+	"publishedAt": "2023-01-23T14:29:57Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"libtiff-0:4.4.0-5.el9_1.src.rpm",
+				"libtiff-0:4.4.0-5.el9_1.x86_64.rpm",
+				"libtiff-0:4.4.0-5.el9_1.aarch64.rpm",
+				"libtiff-0:4.4.0-5.el9_1.i686.rpm",
+				"libtiff-0:4.4.0-5.el9_1.ppc64le.rpm",
+				"libtiff-0:4.4.0-5.el9_1.s390x.rpm",
+				"libtiff-debuginfo-0:4.4.0-5.el9_1.aarch64.rpm",
+				"libtiff-debuginfo-0:4.4.0-5.el9_1.ppc64le.rpm",
+				"libtiff-debuginfo-0:4.4.0-5.el9_1.s390x.rpm",
+				"libtiff-debuginfo-0:4.4.0-5.el9_1.x86_64.rpm",
+				"libtiff-debugsource-0:4.4.0-5.el9_1.aarch64.rpm",
+				"libtiff-debugsource-0:4.4.0-5.el9_1.ppc64le.rpm",
+				"libtiff-debugsource-0:4.4.0-5.el9_1.s390x.rpm",
+				"libtiff-debugsource-0:4.4.0-5.el9_1.x86_64.rpm",
+				"libtiff-devel-0:4.4.0-5.el9_1.aarch64.rpm",
+				"libtiff-devel-0:4.4.0-5.el9_1.i686.rpm",
+				"libtiff-devel-0:4.4.0-5.el9_1.ppc64le.rpm",
+				"libtiff-devel-0:4.4.0-5.el9_1.s390x.rpm",
+				"libtiff-devel-0:4.4.0-5.el9_1.x86_64.rpm",
+				"libtiff-tools-0:4.4.0-5.el9_1.aarch64.rpm",
+				"libtiff-tools-0:4.4.0-5.el9_1.ppc64le.rpm",
+				"libtiff-tools-0:4.4.0-5.el9_1.s390x.rpm",
+				"libtiff-tools-0:4.4.0-5.el9_1.x86_64.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-5.el9_1.aarch64.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-5.el9_1.ppc64le.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-5.el9_1.s390x.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-5.el9_1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libtiff security update",
+	"topic": "An update is available for libtiff.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

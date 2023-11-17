@@ -1,66 +1,66 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-44716",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716"
-    },
-    {
-      "cvss3BaseScore": "4.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
-      "cwe": "CWE-200",
-      "name": "CVE-2021-44717",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44717"
-    }
-  ],
-  "description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: net/http: limit growth of header canonicalization cache (CVE-2021-44716)\n\n* golang: syscall: don't close fd 0 on ForkExec error (CVE-2021-44717)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Rebase Go to 1.16.12 (BZ#2031125)",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030801",
-      "ticket": "2030801"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030806",
-      "ticket": "2030806"
-    }
-  ],
-  "name": "RLSA-2021:5160",
-  "publishedAt": "2021-12-15T16:11:05Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "delve-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.src.rpm",
-        "delve-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.x86_64.rpm",
-        "delve-debuginfo-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.x86_64.rpm",
-        "delve-debugsource-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.x86_64.rpm",
-        "golang-0:1.16.12-1.module+el8.5.0+720+c057d5cf.aarch64.rpm",
-        "golang-0:1.16.12-1.module+el8.5.0+720+c057d5cf.src.rpm",
-        "golang-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm",
-        "golang-bin-0:1.16.12-1.module+el8.5.0+720+c057d5cf.aarch64.rpm",
-        "golang-bin-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm",
-        "golang-docs-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
-        "golang-misc-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
-        "golang-race-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm",
-        "golang-src-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
-        "golang-tests-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
-        "go-toolset-0:1.16.12-1.module+el8.5.0+720+c057d5cf.aarch64.rpm",
-        "go-toolset-0:1.16.12-1.module+el8.5.0+720+c057d5cf.src.rpm",
-        "go-toolset-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: go-toolset:rhel8 security and bug fix update",
-  "topic": "An update is available for delve, golang, go-toolset.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-44716",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44716"
+		},
+		{
+			"cvss3BaseScore": "4.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2021-44717",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-44717"
+		}
+	],
+	"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: net/http: limit growth of header canonicalization cache (CVE-2021-44716)\n\n* golang: syscall: don't close fd 0 on ForkExec error (CVE-2021-44717)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Rebase Go to 1.16.12 (BZ#2031125)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030801",
+			"ticket": "2030801"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2030806",
+			"ticket": "2030806"
+		}
+	],
+	"name": "RLSA-2021:5160",
+	"publishedAt": "2021-12-15T16:11:05Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"delve-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.src.rpm",
+				"delve-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.x86_64.rpm",
+				"delve-debuginfo-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.x86_64.rpm",
+				"delve-debugsource-0:1.6.0-1.module+el8.5.0+694+f77f0bfd.x86_64.rpm",
+				"golang-0:1.16.12-1.module+el8.5.0+720+c057d5cf.aarch64.rpm",
+				"golang-0:1.16.12-1.module+el8.5.0+720+c057d5cf.src.rpm",
+				"golang-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm",
+				"golang-bin-0:1.16.12-1.module+el8.5.0+720+c057d5cf.aarch64.rpm",
+				"golang-bin-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm",
+				"golang-docs-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
+				"golang-misc-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
+				"golang-race-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm",
+				"golang-src-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
+				"golang-tests-0:1.16.12-1.module+el8.5.0+720+c057d5cf.noarch.rpm",
+				"go-toolset-0:1.16.12-1.module+el8.5.0+720+c057d5cf.aarch64.rpm",
+				"go-toolset-0:1.16.12-1.module+el8.5.0+720+c057d5cf.src.rpm",
+				"go-toolset-0:1.16.12-1.module+el8.5.0+720+c057d5cf.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: go-toolset:rhel8 security and bug fix update",
+	"topic": "An update is available for delve, golang, go-toolset.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

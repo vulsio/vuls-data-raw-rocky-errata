@@ -1,203 +1,203 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-20->CWE-787",
-      "name": "CVE-2021-29457",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29457"
-    },
-    {
-      "cvss3BaseScore": "6.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
-      "cwe": "CWE-190->CWE-125",
-      "name": "CVE-2021-29458",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29458"
-    },
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-29463",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29463"
-    },
-    {
-      "cvss3BaseScore": "7.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-704->CWE-120",
-      "name": "CVE-2021-29464",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29464"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-29470",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29470"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-29473",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29473"
-    },
-    {
-      "cvss3BaseScore": "4.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-125->CWE-908",
-      "name": "CVE-2021-29623",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29623"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-190->CWE-125",
-      "name": "CVE-2021-31292",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31292"
-    },
-    {
-      "cvss3BaseScore": "6.2",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-32617",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32617"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-20->CWE-119",
-      "name": "CVE-2021-3482",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3482"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-37618",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37618"
-    },
-    {
-      "cvss3BaseScore": "4.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125",
-      "name": "CVE-2021-37619",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37619"
-    }
-  ],
-  "description": "Exiv2 is a C++ library to access image metadata, supporting read and write access to the Exif, IPTC and XMP metadata, Exif MakerNote support, extract and delete methods for Exif thumbnails, classes to access Ifd, and support for various image formats.\n\nThe following packages have been upgraded to a later upstream version: exiv2 (0.27.4). (BZ#1989860)\n\nSecurity Fix(es):\n\n* exiv2: Heap-based buffer overflow in Jp2Image::readMetadata() (CVE-2021-3482)\n\n* exiv2: Heap-based buffer overflow in Exiv2::Jp2Image::doWriteMetadata (CVE-2021-29457)\n\n* exiv2: Out-of-bounds read in Exiv2::Internal::CrwMap::encode (CVE-2021-29458)\n\n* exiv2: Heap-based buffer overflow in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-29464)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-29470)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::doWriteMetadata (CVE-2021-29473)\n\n* exiv2: Integer overflow in CrwMap:encode0x1810 leading to heap-based buffer overflow and DoS (CVE-2021-31292)\n\n* exiv2: Out-of-bounds read in Exiv2::WebPImage::doWriteMetadata (CVE-2021-29463)\n\n* exiv2: Use of uninitialized memory in isWebPType() may lead to information leak (CVE-2021-29623)\n\n* exiv2: DoS due to quadratic complexity in ProcessUTF8Portion (CVE-2021-32617)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::printStructure (CVE-2021-37618)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-37619)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1946314",
-      "ticket": "1946314"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1952607",
-      "ticket": "1952607"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1952612",
-      "ticket": "1952612"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1953708",
-      "ticket": "1953708"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954065",
-      "ticket": "1954065"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961650",
-      "ticket": "1961650"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961691",
-      "ticket": "1961691"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1978100",
-      "ticket": "1978100"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1978105",
-      "ticket": "1978105"
-    },
-    {
-      "description": "The following packages have been upgraded to a later upstream version: exiv2 (0.27.4).",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1989860",
-      "ticket": "1989860"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1990330",
-      "ticket": "1990330"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992165",
-      "ticket": "1992165"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992174",
-      "ticket": "1992174"
-    }
-  ],
-  "name": "RLSA-2021:4173",
-  "publishedAt": "2021-11-09T08:31:22Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "exiv2-0:0.27.4-5.el8.aarch64.rpm",
-        "exiv2-0:0.27.4-5.el8.src.rpm",
-        "exiv2-0:0.27.4-5.el8.x86_64.rpm",
-        "exiv2-debuginfo-0:0.27.4-5.el8.aarch64.rpm",
-        "exiv2-debuginfo-0:0.27.4-5.el8.i686.rpm",
-        "exiv2-debuginfo-0:0.27.4-5.el8.x86_64.rpm",
-        "exiv2-debugsource-0:0.27.4-5.el8.aarch64.rpm",
-        "exiv2-debugsource-0:0.27.4-5.el8.x86_64.rpm",
-        "exiv2-devel-0:0.27.4-5.el8.aarch64.rpm",
-        "exiv2-devel-0:0.27.4-5.el8.i686.rpm",
-        "exiv2-devel-0:0.27.4-5.el8.x86_64.rpm",
-        "exiv2-doc-0:0.27.4-5.el8.noarch.rpm",
-        "exiv2-libs-0:0.27.4-5.el8.aarch64.rpm",
-        "exiv2-libs-0:0.27.4-5.el8.i686.rpm",
-        "exiv2-libs-0:0.27.4-5.el8.x86_64.rpm",
-        "exiv2-libs-debuginfo-0:0.27.4-5.el8.aarch64.rpm",
-        "exiv2-libs-debuginfo-0:0.27.4-5.el8.i686.rpm",
-        "exiv2-libs-debuginfo-0:0.27.4-5.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: exiv2 security, bug fix, and enhancement update",
-  "topic": "An update is available for exiv2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20->CWE-787",
+			"name": "CVE-2021-29457",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29457"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+			"cwe": "CWE-190->CWE-125",
+			"name": "CVE-2021-29458",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29458"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-29463",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29463"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-704->CWE-120",
+			"name": "CVE-2021-29464",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29464"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-29470",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29470"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-29473",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29473"
+		},
+		{
+			"cvss3BaseScore": "4.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-125->CWE-908",
+			"name": "CVE-2021-29623",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29623"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-190->CWE-125",
+			"name": "CVE-2021-31292",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31292"
+		},
+		{
+			"cvss3BaseScore": "6.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-32617",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32617"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-20->CWE-119",
+			"name": "CVE-2021-3482",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3482"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-37618",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37618"
+		},
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-37619",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37619"
+		}
+	],
+	"description": "Exiv2 is a C++ library to access image metadata, supporting read and write access to the Exif, IPTC and XMP metadata, Exif MakerNote support, extract and delete methods for Exif thumbnails, classes to access Ifd, and support for various image formats.\n\nThe following packages have been upgraded to a later upstream version: exiv2 (0.27.4). (BZ#1989860)\n\nSecurity Fix(es):\n\n* exiv2: Heap-based buffer overflow in Jp2Image::readMetadata() (CVE-2021-3482)\n\n* exiv2: Heap-based buffer overflow in Exiv2::Jp2Image::doWriteMetadata (CVE-2021-29457)\n\n* exiv2: Out-of-bounds read in Exiv2::Internal::CrwMap::encode (CVE-2021-29458)\n\n* exiv2: Heap-based buffer overflow in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-29464)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-29470)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::doWriteMetadata (CVE-2021-29473)\n\n* exiv2: Integer overflow in CrwMap:encode0x1810 leading to heap-based buffer overflow and DoS (CVE-2021-31292)\n\n* exiv2: Out-of-bounds read in Exiv2::WebPImage::doWriteMetadata (CVE-2021-29463)\n\n* exiv2: Use of uninitialized memory in isWebPType() may lead to information leak (CVE-2021-29623)\n\n* exiv2: DoS due to quadratic complexity in ProcessUTF8Portion (CVE-2021-32617)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::printStructure (CVE-2021-37618)\n\n* exiv2: Out-of-bounds read in Exiv2::Jp2Image::encodeJp2Header (CVE-2021-37619)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1946314",
+			"ticket": "1946314"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1952607",
+			"ticket": "1952607"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1952612",
+			"ticket": "1952612"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1953708",
+			"ticket": "1953708"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954065",
+			"ticket": "1954065"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961650",
+			"ticket": "1961650"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961691",
+			"ticket": "1961691"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1978100",
+			"ticket": "1978100"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1978105",
+			"ticket": "1978105"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: exiv2 (0.27.4).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1989860",
+			"ticket": "1989860"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1990330",
+			"ticket": "1990330"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992165",
+			"ticket": "1992165"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992174",
+			"ticket": "1992174"
+		}
+	],
+	"name": "RLSA-2021:4173",
+	"publishedAt": "2021-11-09T08:31:22Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"exiv2-0:0.27.4-5.el8.aarch64.rpm",
+				"exiv2-0:0.27.4-5.el8.src.rpm",
+				"exiv2-0:0.27.4-5.el8.x86_64.rpm",
+				"exiv2-debuginfo-0:0.27.4-5.el8.aarch64.rpm",
+				"exiv2-debuginfo-0:0.27.4-5.el8.i686.rpm",
+				"exiv2-debuginfo-0:0.27.4-5.el8.x86_64.rpm",
+				"exiv2-debugsource-0:0.27.4-5.el8.aarch64.rpm",
+				"exiv2-debugsource-0:0.27.4-5.el8.x86_64.rpm",
+				"exiv2-devel-0:0.27.4-5.el8.aarch64.rpm",
+				"exiv2-devel-0:0.27.4-5.el8.i686.rpm",
+				"exiv2-devel-0:0.27.4-5.el8.x86_64.rpm",
+				"exiv2-doc-0:0.27.4-5.el8.noarch.rpm",
+				"exiv2-libs-0:0.27.4-5.el8.aarch64.rpm",
+				"exiv2-libs-0:0.27.4-5.el8.i686.rpm",
+				"exiv2-libs-0:0.27.4-5.el8.x86_64.rpm",
+				"exiv2-libs-debuginfo-0:0.27.4-5.el8.aarch64.rpm",
+				"exiv2-libs-debuginfo-0:0.27.4-5.el8.i686.rpm",
+				"exiv2-libs-debuginfo-0:0.27.4-5.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: exiv2 security, bug fix, and enhancement update",
+	"topic": "An update is available for exiv2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

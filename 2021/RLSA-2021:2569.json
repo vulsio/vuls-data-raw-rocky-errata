@@ -1,105 +1,105 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2021-3516",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3516"
-    },
-    {
-      "cvss3BaseScore": "8.6",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
-      "cwe": "CWE-787",
-      "name": "CVE-2021-3517",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3517"
-    },
-    {
-      "cvss3BaseScore": "8.6",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
-      "cwe": "CWE-416",
-      "name": "CVE-2021-3518",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3518"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-476",
-      "name": "CVE-2021-3537",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3537"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-400",
-      "name": "CVE-2021-3541",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3541"
-    }
-  ],
-  "description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: Use-after-free in xmlEncodeEntitiesInternal() in entities.c (CVE-2021-3516)\n\n* libxml2: Heap-based buffer overflow in xmlEncodeEntitiesInternal() in entities.c (CVE-2021-3517)\n\n* libxml2: Use-after-free in xmlXIncludeDoProcess() in xinclude.c (CVE-2021-3518)\n\n* libxml2: NULL pointer dereference when post-validating mixed content parsed in recovery mode (CVE-2021-3537)\n\n* libxml2: Exponential entity expansion attack bypasses all existing protection mechanisms (CVE-2021-3541)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1950515",
-      "ticket": "1950515"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954225",
-      "ticket": "1954225"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954232",
-      "ticket": "1954232"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954242",
-      "ticket": "1954242"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1956522",
-      "ticket": "1956522"
-    }
-  ],
-  "name": "RLSA-2021:2569",
-  "publishedAt": "2021-06-29T13:42:19Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libxml2-0:2.9.7-9.el8_4.2.aarch64.rpm",
-        "libxml2-0:2.9.7-9.el8_4.2.i686.rpm",
-        "libxml2-0:2.9.7-9.el8_4.2.src.rpm",
-        "libxml2-0:2.9.7-9.el8_4.2.x86_64.rpm",
-        "libxml2-debuginfo-0:2.9.7-9.el8_4.2.aarch64.rpm",
-        "libxml2-debuginfo-0:2.9.7-9.el8_4.2.i686.rpm",
-        "libxml2-debuginfo-0:2.9.7-9.el8_4.2.x86_64.rpm",
-        "libxml2-debugsource-0:2.9.7-9.el8_4.2.aarch64.rpm",
-        "libxml2-debugsource-0:2.9.7-9.el8_4.2.i686.rpm",
-        "libxml2-debugsource-0:2.9.7-9.el8_4.2.x86_64.rpm",
-        "libxml2-devel-0:2.9.7-9.el8_4.2.aarch64.rpm",
-        "libxml2-devel-0:2.9.7-9.el8_4.2.i686.rpm",
-        "libxml2-devel-0:2.9.7-9.el8_4.2.x86_64.rpm",
-        "python3-libxml2-0:2.9.7-9.el8_4.2.aarch64.rpm",
-        "python3-libxml2-0:2.9.7-9.el8_4.2.x86_64.rpm",
-        "python3-libxml2-debuginfo-0:2.9.7-9.el8_4.2.aarch64.rpm",
-        "python3-libxml2-debuginfo-0:2.9.7-9.el8_4.2.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: libxml2 security update",
-  "topic": "An update is available for libxml2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-3516",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3516"
+		},
+		{
+			"cvss3BaseScore": "8.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2021-3517",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3517"
+		},
+		{
+			"cvss3BaseScore": "8.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-3518",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3518"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2021-3537",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3537"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-3541",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3541"
+		}
+	],
+	"description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: Use-after-free in xmlEncodeEntitiesInternal() in entities.c (CVE-2021-3516)\n\n* libxml2: Heap-based buffer overflow in xmlEncodeEntitiesInternal() in entities.c (CVE-2021-3517)\n\n* libxml2: Use-after-free in xmlXIncludeDoProcess() in xinclude.c (CVE-2021-3518)\n\n* libxml2: NULL pointer dereference when post-validating mixed content parsed in recovery mode (CVE-2021-3537)\n\n* libxml2: Exponential entity expansion attack bypasses all existing protection mechanisms (CVE-2021-3541)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1950515",
+			"ticket": "1950515"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954225",
+			"ticket": "1954225"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954232",
+			"ticket": "1954232"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1954242",
+			"ticket": "1954242"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1956522",
+			"ticket": "1956522"
+		}
+	],
+	"name": "RLSA-2021:2569",
+	"publishedAt": "2021-06-29T13:42:19Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libxml2-0:2.9.7-9.el8_4.2.aarch64.rpm",
+				"libxml2-0:2.9.7-9.el8_4.2.i686.rpm",
+				"libxml2-0:2.9.7-9.el8_4.2.src.rpm",
+				"libxml2-0:2.9.7-9.el8_4.2.x86_64.rpm",
+				"libxml2-debuginfo-0:2.9.7-9.el8_4.2.aarch64.rpm",
+				"libxml2-debuginfo-0:2.9.7-9.el8_4.2.i686.rpm",
+				"libxml2-debuginfo-0:2.9.7-9.el8_4.2.x86_64.rpm",
+				"libxml2-debugsource-0:2.9.7-9.el8_4.2.aarch64.rpm",
+				"libxml2-debugsource-0:2.9.7-9.el8_4.2.i686.rpm",
+				"libxml2-debugsource-0:2.9.7-9.el8_4.2.x86_64.rpm",
+				"libxml2-devel-0:2.9.7-9.el8_4.2.aarch64.rpm",
+				"libxml2-devel-0:2.9.7-9.el8_4.2.i686.rpm",
+				"libxml2-devel-0:2.9.7-9.el8_4.2.x86_64.rpm",
+				"python3-libxml2-0:2.9.7-9.el8_4.2.aarch64.rpm",
+				"python3-libxml2-0:2.9.7-9.el8_4.2.x86_64.rpm",
+				"python3-libxml2-debuginfo-0:2.9.7-9.el8_4.2.aarch64.rpm",
+				"python3-libxml2-debuginfo-0:2.9.7-9.el8_4.2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libxml2 security update",
+	"topic": "An update is available for libxml2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

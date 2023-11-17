@@ -1,120 +1,120 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "3.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-125",
-      "name": "CVE-2023-22045",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045"
-    },
-    {
-      "cvss3BaseScore": "3.7",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
-      "cwe": "CWE-22",
-      "name": "CVE-2023-22049",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049"
-    }
-  ],
-  "description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper handling of slash characters in URI-to-path conversion (8305312) (CVE-2023-22049)\n\n* OpenJDK: array indexing integer overflow issue (8304468) (CVE-2023-22045)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2023-07, 8u382) [rhel-8] (BZ#2219727)",
-  "fixes": [
-    {
-      "description": "* Prepare for the next quarterly OpenJDK upstream release (2023-07, 8u382) [rhel-8]",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219727",
-      "ticket": "2219727"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2221645",
-      "ticket": "2221645"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2221647",
-      "ticket": "2221647"
-    }
-  ],
-  "name": "RLSA-2023:4176",
-  "publishedAt": "2023-08-08T12:34:39.911838Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "java-1.8.0-openjdk-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-1:1.8.0.382.b05-2.el8.src.rpm",
-        "java-1.8.0-openjdk-accessibility-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-debugsource-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-javadoc-1:1.8.0.382.b05-2.el8.noarch.rpm",
-        "java-1.8.0-openjdk-javadoc-zip-1:1.8.0.382.b05-2.el8.noarch.rpm",
-        "java-1.8.0-openjdk-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-src-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-src-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-src-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
-        "java-1.8.0-openjdk-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-accessibility-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-debugsource-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-src-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-src-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
-        "java-1.8.0-openjdk-src-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: java-1.8.0-openjdk security and bug fix update",
-  "topic": "An update is available for java-1.8.0-openjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-125",
+			"name": "CVE-2023-22045",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22045"
+		},
+		{
+			"cvss3BaseScore": "3.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-22",
+			"name": "CVE-2023-22049",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-22049"
+		}
+	],
+	"description": "The java-1.8.0-openjdk packages provide the OpenJDK 8 Java Runtime Environment and the OpenJDK 8 Java Software Development Kit.\n\nSecurity Fix(es):\n\n* OpenJDK: improper handling of slash characters in URI-to-path conversion (8305312) (CVE-2023-22049)\n\n* OpenJDK: array indexing integer overflow issue (8304468) (CVE-2023-22045)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Prepare for the next quarterly OpenJDK upstream release (2023-07, 8u382) [rhel-8] (BZ#2219727)",
+	"fixes": [
+		{
+			"description": "* Prepare for the next quarterly OpenJDK upstream release (2023-07, 8u382) [rhel-8]",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219727",
+			"ticket": "2219727"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2221645",
+			"ticket": "2221645"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2221647",
+			"ticket": "2221647"
+		}
+	],
+	"name": "RLSA-2023:4176",
+	"publishedAt": "2023-08-08T12:34:39.911838Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"java-1.8.0-openjdk-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-1:1.8.0.382.b05-2.el8.src.rpm",
+				"java-1.8.0-openjdk-accessibility-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-debugsource-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-javadoc-1:1.8.0.382.b05-2.el8.noarch.rpm",
+				"java-1.8.0-openjdk-javadoc-zip-1:1.8.0.382.b05-2.el8.noarch.rpm",
+				"java-1.8.0-openjdk-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-src-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-src-fastdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-src-slowdebug-1:1.8.0.382.b05-2.el8.aarch64.rpm",
+				"java-1.8.0-openjdk-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-accessibility-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-accessibility-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-accessibility-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-debugsource-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-demo-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-devel-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-fastdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-headless-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-slowdebug-debuginfo-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-src-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-src-fastdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm",
+				"java-1.8.0-openjdk-src-slowdebug-1:1.8.0.382.b05-2.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: java-1.8.0-openjdk security and bug fix update",
+	"topic": "An update is available for java-1.8.0-openjdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

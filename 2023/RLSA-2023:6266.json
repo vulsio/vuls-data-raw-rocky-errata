@@ -1,72 +1,72 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-46846",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46846"
-    },
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-46847",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46847"
-    },
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-46848",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46848"
-    }
-  ],
-  "description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* SQUID-2023:3 squid: Denial of Service in HTTP Digest Authentication (CVE-2023-46847)\n\n* SQUID-2023:1 squid: Request/Response smuggling in HTTP/1.1 and ICAP (CVE-2023-46846)\n\n* SQUID-2023:5 squid: denial of Service in FTP (CVE-2023-46848)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245910",
-      "ticket": "2245910"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245916",
-      "ticket": "2245916"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245919",
-      "ticket": "2245919"
-    }
-  ],
-  "name": "RLSA-2023:6266",
-  "publishedAt": "2023-11-11T23:00:06.080015Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "squid-7:5.5-5.el9_2.1.aarch64.rpm",
-        "squid-7:5.5-5.el9_2.1.ppc64le.rpm",
-        "squid-7:5.5-5.el9_2.1.src.rpm",
-        "squid-7:5.5-5.el9_2.1.x86_64.rpm",
-        "squid-debuginfo-7:5.5-5.el9_2.1.aarch64.rpm",
-        "squid-debuginfo-7:5.5-5.el9_2.1.ppc64le.rpm",
-        "squid-debuginfo-7:5.5-5.el9_2.1.x86_64.rpm",
-        "squid-debugsource-7:5.5-5.el9_2.1.aarch64.rpm",
-        "squid-debugsource-7:5.5-5.el9_2.1.ppc64le.rpm",
-        "squid-debugsource-7:5.5-5.el9_2.1.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_CRITICAL",
-  "shortCode": "RL",
-  "synopsis": "Critical: squid security update",
-  "topic": "An update is available for squid.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-46846",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46846"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-46847",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46847"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-46848",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46848"
+		}
+	],
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* SQUID-2023:3 squid: Denial of Service in HTTP Digest Authentication (CVE-2023-46847)\n\n* SQUID-2023:1 squid: Request/Response smuggling in HTTP/1.1 and ICAP (CVE-2023-46846)\n\n* SQUID-2023:5 squid: denial of Service in FTP (CVE-2023-46848)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245910",
+			"ticket": "2245910"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245916",
+			"ticket": "2245916"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245919",
+			"ticket": "2245919"
+		}
+	],
+	"name": "RLSA-2023:6266",
+	"publishedAt": "2023-11-11T23:00:06.080015Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"squid-7:5.5-5.el9_2.1.aarch64.rpm",
+				"squid-7:5.5-5.el9_2.1.ppc64le.rpm",
+				"squid-7:5.5-5.el9_2.1.src.rpm",
+				"squid-7:5.5-5.el9_2.1.x86_64.rpm",
+				"squid-debuginfo-7:5.5-5.el9_2.1.aarch64.rpm",
+				"squid-debuginfo-7:5.5-5.el9_2.1.ppc64le.rpm",
+				"squid-debuginfo-7:5.5-5.el9_2.1.x86_64.rpm",
+				"squid-debugsource-7:5.5-5.el9_2.1.aarch64.rpm",
+				"squid-debugsource-7:5.5-5.el9_2.1.ppc64le.rpm",
+				"squid-debugsource-7:5.5-5.el9_2.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_CRITICAL",
+	"shortCode": "RL",
+	"synopsis": "Critical: squid security update",
+	"topic": "An update is available for squid.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

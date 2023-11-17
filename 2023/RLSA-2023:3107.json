@@ -1,43 +1,43 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-2295",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2295"
-    }
-  ],
-  "description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Regression of CVE-2023-30570 fixes in the Rocky Linux (CVE-2023-2295)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2189777",
-      "ticket": "2189777"
-    }
-  ],
-  "name": "RLSA-2023:3107",
-  "publishedAt": "2023-05-18T19:17:56.497129Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "libreswan-0:4.9-3.el8_8.aarch64.rpm",
-        "libreswan-0:4.9-3.el8_8.src.rpm",
-        "libreswan-0:4.9-3.el8_8.x86_64.rpm",
-        "libreswan-debuginfo-0:4.9-3.el8_8.aarch64.rpm",
-        "libreswan-debuginfo-0:4.9-3.el8_8.x86_64.rpm",
-        "libreswan-debugsource-0:4.9-3.el8_8.aarch64.rpm",
-        "libreswan-debugsource-0:4.9-3.el8_8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: libreswan security update",
-  "topic": "An update is available for libreswan.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-2295",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2295"
+		}
+	],
+	"description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Regression of CVE-2023-30570 fixes in the Rocky Linux (CVE-2023-2295)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2189777",
+			"ticket": "2189777"
+		}
+	],
+	"name": "RLSA-2023:3107",
+	"publishedAt": "2023-05-18T19:17:56.497129Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libreswan-0:4.9-3.el8_8.aarch64.rpm",
+				"libreswan-0:4.9-3.el8_8.src.rpm",
+				"libreswan-0:4.9-3.el8_8.x86_64.rpm",
+				"libreswan-debuginfo-0:4.9-3.el8_8.aarch64.rpm",
+				"libreswan-debuginfo-0:4.9-3.el8_8.x86_64.rpm",
+				"libreswan-debugsource-0:4.9-3.el8_8.aarch64.rpm",
+				"libreswan-debugsource-0:4.9-3.el8_8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: libreswan security update",
+	"topic": "An update is available for libreswan.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

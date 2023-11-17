@@ -1,84 +1,84 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "UNKNOWN",
-      "cvss3ScoringVector": "UNKNOWN",
-      "cwe": "UNKNOWN",
-      "name": "CVE-2023-0767",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0767"
-    }
-  ],
-  "description": "Network Security Services (NSS) is a set of libraries designed to support the cross-platform development of security-enabled client and server applications.\n\nSecurity Fix(es):\n\n* nss: Arbitrary memory write via PKCS 12 (CVE-2023-0767)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170377",
-      "ticket": "2170377"
-    }
-  ],
-  "name": "RLSA-2023:1252",
-  "publishedAt": "2023-03-16T15:23:16.810324Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "nss-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-0:3.79.0-11.el8_7.src.rpm",
-        "nss-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-debugsource-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-debugsource-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-debugsource-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-devel-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-devel-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-devel-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-softokn-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-softokn-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-softokn-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-softokn-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-softokn-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-softokn-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-softokn-devel-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-softokn-devel-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-softokn-devel-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-softokn-freebl-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-softokn-freebl-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-softokn-freebl-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-softokn-freebl-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-softokn-freebl-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-softokn-freebl-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-softokn-freebl-devel-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-softokn-freebl-devel-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-softokn-freebl-devel-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-sysinit-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-sysinit-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-sysinit-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-sysinit-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-tools-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-tools-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-tools-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-tools-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-util-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-util-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-util-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-util-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-util-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-util-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
-        "nss-util-devel-0:3.79.0-11.el8_7.aarch64.rpm",
-        "nss-util-devel-0:3.79.0-11.el8_7.i686.rpm",
-        "nss-util-devel-0:3.79.0-11.el8_7.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: nss security update",
-  "topic": "An update is available for nss.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-0767",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0767"
+		}
+	],
+	"description": "Network Security Services (NSS) is a set of libraries designed to support the cross-platform development of security-enabled client and server applications.\n\nSecurity Fix(es):\n\n* nss: Arbitrary memory write via PKCS 12 (CVE-2023-0767)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170377",
+			"ticket": "2170377"
+		}
+	],
+	"name": "RLSA-2023:1252",
+	"publishedAt": "2023-03-16T15:23:16.810324Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nss-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-0:3.79.0-11.el8_7.src.rpm",
+				"nss-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-debugsource-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-debugsource-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-debugsource-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-devel-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-devel-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-devel-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-softokn-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-softokn-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-softokn-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-softokn-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-softokn-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-softokn-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-softokn-devel-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-softokn-devel-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-softokn-devel-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-softokn-freebl-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-softokn-freebl-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-softokn-freebl-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-softokn-freebl-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-softokn-freebl-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-softokn-freebl-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-softokn-freebl-devel-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-softokn-freebl-devel-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-softokn-freebl-devel-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-sysinit-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-sysinit-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-sysinit-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-sysinit-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-tools-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-tools-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-tools-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-tools-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-util-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-util-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-util-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-util-debuginfo-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-util-debuginfo-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-util-debuginfo-0:3.79.0-11.el8_7.x86_64.rpm",
+				"nss-util-devel-0:3.79.0-11.el8_7.aarch64.rpm",
+				"nss-util-devel-0:3.79.0-11.el8_7.i686.rpm",
+				"nss-util-devel-0:3.79.0-11.el8_7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nss security update",
+	"topic": "An update is available for nss.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,89 +1,89 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-787",
-      "name": "CVE-2021-38593",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38593"
-    }
-  ],
-  "description": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qt: out-of-bounds write in QOutlineMapper::convertPath called from QRasterPaintEngine::fill and QPaintEngineEx::stroke (CVE-2021-38593)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1994719",
-      "ticket": "1994719"
-    }
-  ],
-  "name": "RLSA-2022:1796",
-  "publishedAt": "2022-05-10T08:01:44Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "qt5-qtbase-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-0:5.15.2-4.el8.src.rpm",
-        "qt5-qtbase-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-common-0:5.15.2-4.el8.noarch.rpm",
-        "qt5-qtbase-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-debugsource-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-debugsource-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-debugsource-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-devel-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-devel-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-devel-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-devel-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-devel-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-devel-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-examples-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-examples-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-examples-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-examples-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-examples-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-examples-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-gui-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-gui-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-gui-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-gui-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-gui-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-gui-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-mysql-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-mysql-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-mysql-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-mysql-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-mysql-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-mysql-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-odbc-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-odbc-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-odbc-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-odbc-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-odbc-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-odbc-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-postgresql-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-postgresql-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-postgresql-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-postgresql-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-postgresql-debuginfo-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-postgresql-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-private-devel-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-private-devel-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-private-devel-0:5.15.2-4.el8.x86_64.rpm",
-        "qt5-qtbase-static-0:5.15.2-4.el8.aarch64.rpm",
-        "qt5-qtbase-static-0:5.15.2-4.el8.i686.rpm",
-        "qt5-qtbase-static-0:5.15.2-4.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: qt5-qtbase security update",
-  "topic": "An update is available for qt5-qtbase.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2021-38593",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38593"
+		}
+	],
+	"description": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qt: out-of-bounds write in QOutlineMapper::convertPath called from QRasterPaintEngine::fill and QPaintEngineEx::stroke (CVE-2021-38593)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1994719",
+			"ticket": "1994719"
+		}
+	],
+	"name": "RLSA-2022:1796",
+	"publishedAt": "2022-05-10T08:01:44Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"qt5-qtbase-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-0:5.15.2-4.el8.src.rpm",
+				"qt5-qtbase-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-common-0:5.15.2-4.el8.noarch.rpm",
+				"qt5-qtbase-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-debugsource-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-debugsource-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-debugsource-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-devel-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-devel-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-devel-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-devel-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-devel-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-devel-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-examples-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-examples-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-examples-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-examples-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-examples-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-examples-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-gui-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-gui-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-gui-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-gui-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-gui-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-gui-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-mysql-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-mysql-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-mysql-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-mysql-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-mysql-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-mysql-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-odbc-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-odbc-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-odbc-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-odbc-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-odbc-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-odbc-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-postgresql-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-postgresql-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-postgresql-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-postgresql-debuginfo-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-postgresql-debuginfo-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-postgresql-debuginfo-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-private-devel-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-private-devel-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-private-devel-0:5.15.2-4.el8.x86_64.rpm",
+				"qt5-qtbase-static-0:5.15.2-4.el8.aarch64.rpm",
+				"qt5-qtbase-static-0:5.15.2-4.el8.i686.rpm",
+				"qt5-qtbase-static-0:5.15.2-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: qt5-qtbase security update",
+	"topic": "An update is available for qt5-qtbase.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

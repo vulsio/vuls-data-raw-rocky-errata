@@ -1,47 +1,47 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "4.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-22",
-      "name": "CVE-2021-43813",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43813"
-    }
-  ],
-  "description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.5.11). (BZ#1993214)\n\nSecurity Fix(es):\n\n* grafana: directory traversal vulnerability (CVE-2021-43813)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "description": "The following packages have been upgraded to a later upstream version: grafana (7.5.11).",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1993214",
-      "ticket": "1993214"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2031228",
-      "ticket": "2031228"
-    }
-  ],
-  "name": "RLSA-2022:1781",
-  "publishedAt": "2022-05-10T06:25:23Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "grafana-0:7.5.11-2.el8.aarch64.rpm",
-        "grafana-0:7.5.11-2.el8.src.rpm",
-        "grafana-0:7.5.11-2.el8.x86_64.rpm",
-        "grafana-debuginfo-0:7.5.11-2.el8.aarch64.rpm",
-        "grafana-debuginfo-0:7.5.11-2.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: grafana security, bug fix, and enhancement update",
-  "topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-22",
+			"name": "CVE-2021-43813",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43813"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.5.11). (BZ#1993214)\n\nSecurity Fix(es):\n\n* grafana: directory traversal vulnerability (CVE-2021-43813)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"description": "The following packages have been upgraded to a later upstream version: grafana (7.5.11).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1993214",
+			"ticket": "1993214"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2031228",
+			"ticket": "2031228"
+		}
+	],
+	"name": "RLSA-2022:1781",
+	"publishedAt": "2022-05-10T06:25:23Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-0:7.5.11-2.el8.aarch64.rpm",
+				"grafana-0:7.5.11-2.el8.src.rpm",
+				"grafana-0:7.5.11-2.el8.x86_64.rpm",
+				"grafana-debuginfo-0:7.5.11-2.el8.aarch64.rpm",
+				"grafana-debuginfo-0:7.5.11-2.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: grafana security, bug fix, and enhancement update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

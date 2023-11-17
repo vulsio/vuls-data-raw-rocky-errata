@@ -1,43 +1,43 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.0",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-190->CWE-787",
-      "name": "CVE-2021-38185",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38185"
-    }
-  ],
-  "description": "The cpio packages provide the GNU cpio utility for creating and extracting archives, or copying files from one place to another.\n\nSecurity Fix(es):\n\n* cpio: integer overflow in ds_fgetstr() in dstring.c can lead to an out-of-bounds write via a crafted pattern file (CVE-2021-38185)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1991731",
-      "ticket": "1991731"
-    }
-  ],
-  "name": "RLSA-2022:1991",
-  "publishedAt": "2022-05-10T06:43:49Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "cpio-0:2.12-11.el8.aarch64.rpm",
-        "cpio-0:2.12-11.el8.src.rpm",
-        "cpio-0:2.12-11.el8.x86_64.rpm",
-        "cpio-debuginfo-0:2.12-11.el8.aarch64.rpm",
-        "cpio-debuginfo-0:2.12-11.el8.x86_64.rpm",
-        "cpio-debugsource-0:2.12-11.el8.aarch64.rpm",
-        "cpio-debugsource-0:2.12-11.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: cpio security update",
-  "topic": "An update is available for cpio.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->CWE-787",
+			"name": "CVE-2021-38185",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-38185"
+		}
+	],
+	"description": "The cpio packages provide the GNU cpio utility for creating and extracting archives, or copying files from one place to another.\n\nSecurity Fix(es):\n\n* cpio: integer overflow in ds_fgetstr() in dstring.c can lead to an out-of-bounds write via a crafted pattern file (CVE-2021-38185)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1991731",
+			"ticket": "1991731"
+		}
+	],
+	"name": "RLSA-2022:1991",
+	"publishedAt": "2022-05-10T06:43:49Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cpio-0:2.12-11.el8.aarch64.rpm",
+				"cpio-0:2.12-11.el8.src.rpm",
+				"cpio-0:2.12-11.el8.x86_64.rpm",
+				"cpio-debuginfo-0:2.12-11.el8.aarch64.rpm",
+				"cpio-debuginfo-0:2.12-11.el8.x86_64.rpm",
+				"cpio-debugsource-0:2.12-11.el8.aarch64.rpm",
+				"cpio-debugsource-0:2.12-11.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: cpio security update",
+	"topic": "An update is available for cpio.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

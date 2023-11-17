@@ -1,39 +1,39 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.9",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-185",
-      "name": "CVE-2022-40897",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40897"
-    }
-  ],
-  "description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2158559",
-      "ticket": "2158559"
-    }
-  ],
-  "name": "RLSA-2023:0952",
-  "publishedAt": "2023-04-06T15:53:31.763565Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "python3-setuptools-0:53.0.0-10.el9_1.1.noarch.rpm",
-        "python3-setuptools-wheel-0:53.0.0-10.el9_1.1.noarch.rpm",
-        "python-setuptools-0:53.0.0-10.el9_1.1.src.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: python-setuptools security update",
-  "topic": "An update is available for python-setuptools.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-185",
+			"name": "CVE-2022-40897",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-40897"
+		}
+	],
+	"description": "The python-setuptools package provides a collection of enhancements to Python distribution utilities allowing convenient building and distribution of Python packages.\n\nSecurity Fix(es):\n\n* pypa-setuptools: Regular Expression Denial of Service (ReDoS) in package_index.py (CVE-2022-40897)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2158559",
+			"ticket": "2158559"
+		}
+	],
+	"name": "RLSA-2023:0952",
+	"publishedAt": "2023-04-06T15:53:31.763565Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"python3-setuptools-0:53.0.0-10.el9_1.1.noarch.rpm",
+				"python3-setuptools-wheel-0:53.0.0-10.el9_1.1.noarch.rpm",
+				"python-setuptools-0:53.0.0-10.el9_1.1.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-setuptools security update",
+	"topic": "An update is available for python-setuptools.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,53 +1,53 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "3.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-835",
-      "name": "CVE-2020-18442",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-18442"
-    }
-  ],
-  "description": "The zziplib is a lightweight library to easily extract data from zip files.\n\nSecurity Fix(es):\n\n* zziplib: infinite loop via the return value of zzip_file_read() as used in unzzip_cat_file() (CVE-2020-18442)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1973826",
-      "ticket": "1973826"
-    }
-  ],
-  "name": "RLSA-2021:4316",
-  "publishedAt": "2021-11-09T08:59:11Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "zziplib-0:0.13.68-9.el8.aarch64.rpm",
-        "zziplib-0:0.13.68-9.el8.i686.rpm",
-        "zziplib-0:0.13.68-9.el8.src.rpm",
-        "zziplib-0:0.13.68-9.el8.x86_64.rpm",
-        "zziplib-debuginfo-0:0.13.68-9.el8.aarch64.rpm",
-        "zziplib-debuginfo-0:0.13.68-9.el8.i686.rpm",
-        "zziplib-debuginfo-0:0.13.68-9.el8.x86_64.rpm",
-        "zziplib-debugsource-0:0.13.68-9.el8.aarch64.rpm",
-        "zziplib-debugsource-0:0.13.68-9.el8.i686.rpm",
-        "zziplib-debugsource-0:0.13.68-9.el8.x86_64.rpm",
-        "zziplib-devel-0:0.13.68-9.el8.aarch64.rpm",
-        "zziplib-devel-0:0.13.68-9.el8.i686.rpm",
-        "zziplib-devel-0:0.13.68-9.el8.x86_64.rpm",
-        "zziplib-utils-0:0.13.68-9.el8.aarch64.rpm",
-        "zziplib-utils-0:0.13.68-9.el8.x86_64.rpm",
-        "zziplib-utils-debuginfo-0:0.13.68-9.el8.aarch64.rpm",
-        "zziplib-utils-debuginfo-0:0.13.68-9.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: zziplib security update",
-  "topic": "An update is available for zziplib.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-835",
+			"name": "CVE-2020-18442",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-18442"
+		}
+	],
+	"description": "The zziplib is a lightweight library to easily extract data from zip files.\n\nSecurity Fix(es):\n\n* zziplib: infinite loop via the return value of zzip_file_read() as used in unzzip_cat_file() (CVE-2020-18442)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1973826",
+			"ticket": "1973826"
+		}
+	],
+	"name": "RLSA-2021:4316",
+	"publishedAt": "2021-11-09T08:59:11Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"zziplib-0:0.13.68-9.el8.aarch64.rpm",
+				"zziplib-0:0.13.68-9.el8.i686.rpm",
+				"zziplib-0:0.13.68-9.el8.src.rpm",
+				"zziplib-0:0.13.68-9.el8.x86_64.rpm",
+				"zziplib-debuginfo-0:0.13.68-9.el8.aarch64.rpm",
+				"zziplib-debuginfo-0:0.13.68-9.el8.i686.rpm",
+				"zziplib-debuginfo-0:0.13.68-9.el8.x86_64.rpm",
+				"zziplib-debugsource-0:0.13.68-9.el8.aarch64.rpm",
+				"zziplib-debugsource-0:0.13.68-9.el8.i686.rpm",
+				"zziplib-debugsource-0:0.13.68-9.el8.x86_64.rpm",
+				"zziplib-devel-0:0.13.68-9.el8.aarch64.rpm",
+				"zziplib-devel-0:0.13.68-9.el8.i686.rpm",
+				"zziplib-devel-0:0.13.68-9.el8.x86_64.rpm",
+				"zziplib-utils-0:0.13.68-9.el8.aarch64.rpm",
+				"zziplib-utils-0:0.13.68-9.el8.x86_64.rpm",
+				"zziplib-utils-debuginfo-0:0.13.68-9.el8.aarch64.rpm",
+				"zziplib-utils-debuginfo-0:0.13.68-9.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: zziplib security update",
+	"topic": "An update is available for zziplib.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

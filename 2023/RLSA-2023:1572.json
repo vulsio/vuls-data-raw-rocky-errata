@@ -1,43 +1,43 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.8",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "CWE-22->CWE-269",
-      "name": "CVE-2022-3560",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3560"
-    }
-  ],
-  "description": "The pesign packages provide the pesign utility for signing UEFI binaries as well as other associated tools.\n\nSecurity Fix(es):\n\n* pesign: Local privilege escalation on pesign systemd service (CVE-2022-3560)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2135420",
-      "ticket": "2135420"
-    }
-  ],
-  "name": "RLSA-2023:1572",
-  "publishedAt": "2023-04-06T15:52:43.180890Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "pesign-0:0.112-27.el8_7.aarch64.rpm",
-        "pesign-0:0.112-27.el8_7.src.rpm",
-        "pesign-0:0.112-27.el8_7.x86_64.rpm",
-        "pesign-debuginfo-0:0.112-27.el8_7.aarch64.rpm",
-        "pesign-debuginfo-0:0.112-27.el8_7.x86_64.rpm",
-        "pesign-debugsource-0:0.112-27.el8_7.aarch64.rpm",
-        "pesign-debugsource-0:0.112-27.el8_7.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_IMPORTANT",
-  "shortCode": "RL",
-  "synopsis": "Important: pesign security update",
-  "topic": "An update is available for pesign.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-22->CWE-269",
+			"name": "CVE-2022-3560",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3560"
+		}
+	],
+	"description": "The pesign packages provide the pesign utility for signing UEFI binaries as well as other associated tools.\n\nSecurity Fix(es):\n\n* pesign: Local privilege escalation on pesign systemd service (CVE-2022-3560)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2135420",
+			"ticket": "2135420"
+		}
+	],
+	"name": "RLSA-2023:1572",
+	"publishedAt": "2023-04-06T15:52:43.180890Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pesign-0:0.112-27.el8_7.aarch64.rpm",
+				"pesign-0:0.112-27.el8_7.src.rpm",
+				"pesign-0:0.112-27.el8_7.x86_64.rpm",
+				"pesign-debuginfo-0:0.112-27.el8_7.aarch64.rpm",
+				"pesign-debuginfo-0:0.112-27.el8_7.x86_64.rpm",
+				"pesign-debugsource-0:0.112-27.el8_7.aarch64.rpm",
+				"pesign-debugsource-0:0.112-27.el8_7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: pesign security update",
+	"topic": "An update is available for pesign.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

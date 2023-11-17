@@ -1,205 +1,205 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-665->CWE-908",
-      "name": "CVE-2022-22719",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22719"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
-      "cwe": "CWE-190->CWE-787",
-      "name": "CVE-2022-22721",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22721"
-    },
-    {
-      "cvss3BaseScore": "8.1",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
-      "cwe": "(CWE-190|CWE-787)",
-      "name": "CVE-2022-23943",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23943"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L",
-      "cwe": "CWE-444",
-      "name": "CVE-2022-26377",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26377"
-    },
-    {
-      "cvss3BaseScore": "5.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
-      "cwe": "CWE-190->CWE-200",
-      "name": "CVE-2022-28614",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28614"
-    },
-    {
-      "cvss3BaseScore": "7.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
-      "cwe": "CWE-190->CWE-125",
-      "name": "CVE-2022-28615",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28615"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-770",
-      "name": "CVE-2022-29404",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29404"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "(CWE-770|CWE-789)",
-      "name": "CVE-2022-30522",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30522"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
-      "cwe": "CWE-200",
-      "name": "CVE-2022-30556",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30556"
-    },
-    {
-      "cvss3BaseScore": "7.3",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
-      "cwe": "(CWE-345|CWE-348)",
-      "name": "CVE-2022-31813",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31813"
-    }
-  ],
-  "description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_sed: Read/write beyond bounds (CVE-2022-23943)\n\n* httpd: mod_lua: Use of uninitialized value of in r:parsebody (CVE-2022-22719)\n\n* httpd: core: Possible buffer overflow with very large or unlimited LimitXMLRequestBody (CVE-2022-22721)\n\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-26377)\n\n* httpd: mod_lua: DoS in r:parsebody (CVE-2022-29404)\n\n* httpd: mod_sed: DoS vulnerability (CVE-2022-30522)\n\n* httpd: mod_proxy: X-Forwarded-For dropped by hop-by-hop mechanism (CVE-2022-31813)\n\n* httpd: Out-of-bounds read via ap_rwrite() (CVE-2022-28614)\n\n* httpd: Out-of-bounds read in ap_strcmp_match() (CVE-2022-28615)\n\n* httpd: mod_lua: Information disclosure with websockets (CVE-2022-30556)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064319",
-      "ticket": "2064319"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064320",
-      "ticket": "2064320"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064322",
-      "ticket": "2064322"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2094997",
-      "ticket": "2094997"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095002",
-      "ticket": "2095002"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095006",
-      "ticket": "2095006"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095012",
-      "ticket": "2095012"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095015",
-      "ticket": "2095015"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095018",
-      "ticket": "2095018"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095020",
-      "ticket": "2095020"
-    }
-  ],
-  "name": "RLSA-2022:7647",
-  "publishedAt": "2022-11-08T06:25:28Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "httpd-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "httpd-0:2.4.37-51.module+el8.7.0+1059+126e9251.src.rpm",
-        "httpd-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "httpd-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "httpd-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "httpd-debugsource-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "httpd-debugsource-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "httpd-devel-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "httpd-devel-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "httpd-filesystem-0:2.4.37-51.module+el8.7.0+1059+126e9251.noarch.rpm",
-        "httpd-manual-0:2.4.37-51.module+el8.7.0+1059+126e9251.noarch.rpm",
-        "httpd-tools-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "httpd-tools-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "httpd-tools-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "httpd-tools-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_http2-0:1.15.7-5.module+el8.6.0+823+f143cee1.aarch64.rpm",
-        "mod_http2-0:1.15.7-5.module+el8.6.0+823+f143cee1.src.rpm",
-        "mod_http2-0:1.15.7-5.module+el8.6.0+823+f143cee1.x86_64.rpm",
-        "mod_http2-debuginfo-0:1.15.7-5.module+el8.6.0+823+f143cee1.aarch64.rpm",
-        "mod_http2-debuginfo-0:1.15.7-5.module+el8.6.0+823+f143cee1.x86_64.rpm",
-        "mod_http2-debugsource-0:1.15.7-5.module+el8.6.0+823+f143cee1.aarch64.rpm",
-        "mod_http2-debugsource-0:1.15.7-5.module+el8.6.0+823+f143cee1.x86_64.rpm",
-        "mod_ldap-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_ldap-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_ldap-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_ldap-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
-        "mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.src.rpm",
-        "mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
-        "mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
-        "mod_proxy_html-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_proxy_html-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_proxy_html-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_proxy_html-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_session-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_session-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_session-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_session-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_ssl-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_ssl-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
-        "mod_ssl-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
-        "mod_ssl-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: httpd:2.4 security update",
-  "topic": "An update is available for httpd, mod_http2, mod_md.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-665->CWE-908",
+			"name": "CVE-2022-22719",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22719"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+			"cwe": "CWE-190->CWE-787",
+			"name": "CVE-2022-22721",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22721"
+		},
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "(CWE-190|CWE-787)",
+			"name": "CVE-2022-23943",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-23943"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:L/I:L/A:L",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-26377",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-26377"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-190->CWE-200",
+			"name": "CVE-2022-28614",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28614"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:H",
+			"cwe": "CWE-190->CWE-125",
+			"name": "CVE-2022-28615",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28615"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-770",
+			"name": "CVE-2022-29404",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29404"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "(CWE-770|CWE-789)",
+			"name": "CVE-2022-30522",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30522"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2022-30556",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30556"
+		},
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "(CWE-345|CWE-348)",
+			"name": "CVE-2022-31813",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31813"
+		}
+	],
+	"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd: mod_sed: Read/write beyond bounds (CVE-2022-23943)\n\n* httpd: mod_lua: Use of uninitialized value of in r:parsebody (CVE-2022-22719)\n\n* httpd: core: Possible buffer overflow with very large or unlimited LimitXMLRequestBody (CVE-2022-22721)\n\n* httpd: mod_proxy_ajp: Possible request smuggling (CVE-2022-26377)\n\n* httpd: mod_lua: DoS in r:parsebody (CVE-2022-29404)\n\n* httpd: mod_sed: DoS vulnerability (CVE-2022-30522)\n\n* httpd: mod_proxy: X-Forwarded-For dropped by hop-by-hop mechanism (CVE-2022-31813)\n\n* httpd: Out-of-bounds read via ap_rwrite() (CVE-2022-28614)\n\n* httpd: Out-of-bounds read in ap_strcmp_match() (CVE-2022-28615)\n\n* httpd: mod_lua: Information disclosure with websockets (CVE-2022-30556)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064319",
+			"ticket": "2064319"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064320",
+			"ticket": "2064320"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2064322",
+			"ticket": "2064322"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2094997",
+			"ticket": "2094997"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095002",
+			"ticket": "2095002"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095006",
+			"ticket": "2095006"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095012",
+			"ticket": "2095012"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095015",
+			"ticket": "2095015"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095018",
+			"ticket": "2095018"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2095020",
+			"ticket": "2095020"
+		}
+	],
+	"name": "RLSA-2022:7647",
+	"publishedAt": "2022-11-08T06:25:28Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"httpd-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"httpd-0:2.4.37-51.module+el8.7.0+1059+126e9251.src.rpm",
+				"httpd-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"httpd-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"httpd-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"httpd-debugsource-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"httpd-debugsource-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"httpd-devel-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"httpd-devel-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"httpd-filesystem-0:2.4.37-51.module+el8.7.0+1059+126e9251.noarch.rpm",
+				"httpd-manual-0:2.4.37-51.module+el8.7.0+1059+126e9251.noarch.rpm",
+				"httpd-tools-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"httpd-tools-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"httpd-tools-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"httpd-tools-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_http2-0:1.15.7-5.module+el8.6.0+823+f143cee1.aarch64.rpm",
+				"mod_http2-0:1.15.7-5.module+el8.6.0+823+f143cee1.src.rpm",
+				"mod_http2-0:1.15.7-5.module+el8.6.0+823+f143cee1.x86_64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-5.module+el8.6.0+823+f143cee1.aarch64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-5.module+el8.6.0+823+f143cee1.x86_64.rpm",
+				"mod_http2-debugsource-0:1.15.7-5.module+el8.6.0+823+f143cee1.aarch64.rpm",
+				"mod_http2-debugsource-0:1.15.7-5.module+el8.6.0+823+f143cee1.x86_64.rpm",
+				"mod_ldap-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_ldap-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_ldap-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_ldap-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.src.rpm",
+				"mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.src.rpm",
+				"mod_md-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.aarch64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.aarch64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.5.0+695+1fa8055e.x86_64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.4.0+553+7a69454b.x86_64.rpm",
+				"mod_proxy_html-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_proxy_html-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_proxy_html-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_proxy_html-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_session-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_session-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_session-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_session-debuginfo-0:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_ssl-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_ssl-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm",
+				"mod_ssl-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.aarch64.rpm",
+				"mod_ssl-debuginfo-1:2.4.37-51.module+el8.7.0+1059+126e9251.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: httpd:2.4 security update",
+	"topic": "An update is available for httpd, mod_http2, mod_md.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

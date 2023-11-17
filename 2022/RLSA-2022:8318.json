@@ -1,78 +1,78 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
-      "cwe": "CWE-416",
-      "name": "CVE-2022-32746",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32746"
-    }
-  ],
-  "description": "The libldb packages provide an extensible library that implements an LDAP-like API to access remote LDAP servers, or use local TDB databases.\n\nThe following packages have been upgraded to a later upstream version: libldb (2.5.2). (BZ#2077490)\n\nSecurity Fix(es):\n\n* samba: AD users can induce a use-after-free in the server process with an LDAP add or modify request (CVE-2022-32746)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "description": "The following packages have been upgraded to a later upstream version: libldb (2.5.2).",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2077490",
-      "ticket": "2077490"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108215",
-      "ticket": "2108215"
-    }
-  ],
-  "name": "RLSA-2022:8318",
-  "publishedAt": "2022-11-15T06:21:32Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "ldb-tools-0:2.5.2-1.el9.aarch64.rpm",
-        "ldb-tools-0:2.5.2-1.el9.ppc64le.rpm",
-        "ldb-tools-0:2.5.2-1.el9.s390x.rpm",
-        "ldb-tools-0:2.5.2-1.el9.x86_64.rpm",
-        "ldb-tools-debuginfo-0:2.5.2-1.el9.aarch64.rpm",
-        "ldb-tools-debuginfo-0:2.5.2-1.el9.ppc64le.rpm",
-        "ldb-tools-debuginfo-0:2.5.2-1.el9.s390x.rpm",
-        "ldb-tools-debuginfo-0:2.5.2-1.el9.x86_64.rpm",
-        "libldb-0:2.5.2-1.el9.aarch64.rpm",
-        "libldb-0:2.5.2-1.el9.i686.rpm",
-        "libldb-0:2.5.2-1.el9.ppc64le.rpm",
-        "libldb-0:2.5.2-1.el9.s390x.rpm",
-        "libldb-0:2.5.2-1.el9.src.rpm",
-        "libldb-0:2.5.2-1.el9.x86_64.rpm",
-        "libldb-debuginfo-0:2.5.2-1.el9.aarch64.rpm",
-        "libldb-debuginfo-0:2.5.2-1.el9.ppc64le.rpm",
-        "libldb-debuginfo-0:2.5.2-1.el9.s390x.rpm",
-        "libldb-debuginfo-0:2.5.2-1.el9.x86_64.rpm",
-        "libldb-debugsource-0:2.5.2-1.el9.aarch64.rpm",
-        "libldb-debugsource-0:2.5.2-1.el9.ppc64le.rpm",
-        "libldb-debugsource-0:2.5.2-1.el9.s390x.rpm",
-        "libldb-debugsource-0:2.5.2-1.el9.x86_64.rpm",
-        "libldb-devel-0:2.5.2-1.el9.aarch64.rpm",
-        "libldb-devel-0:2.5.2-1.el9.i686.rpm",
-        "libldb-devel-0:2.5.2-1.el9.ppc64le.rpm",
-        "libldb-devel-0:2.5.2-1.el9.s390x.rpm",
-        "libldb-devel-0:2.5.2-1.el9.x86_64.rpm",
-        "python3-ldb-0:2.5.2-1.el9.aarch64.rpm",
-        "python3-ldb-0:2.5.2-1.el9.i686.rpm",
-        "python3-ldb-0:2.5.2-1.el9.ppc64le.rpm",
-        "python3-ldb-0:2.5.2-1.el9.s390x.rpm",
-        "python3-ldb-0:2.5.2-1.el9.x86_64.rpm",
-        "python3-ldb-debuginfo-0:2.5.2-1.el9.aarch64.rpm",
-        "python3-ldb-debuginfo-0:2.5.2-1.el9.ppc64le.rpm",
-        "python3-ldb-debuginfo-0:2.5.2-1.el9.s390x.rpm",
-        "python3-ldb-debuginfo-0:2.5.2-1.el9.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: libldb security, bug fix, and enhancement update",
-  "topic": "An update is available for libldb.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-32746",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32746"
+		}
+	],
+	"description": "The libldb packages provide an extensible library that implements an LDAP-like API to access remote LDAP servers, or use local TDB databases.\n\nThe following packages have been upgraded to a later upstream version: libldb (2.5.2). (BZ#2077490)\n\nSecurity Fix(es):\n\n* samba: AD users can induce a use-after-free in the server process with an LDAP add or modify request (CVE-2022-32746)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"description": "The following packages have been upgraded to a later upstream version: libldb (2.5.2).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2077490",
+			"ticket": "2077490"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2108215",
+			"ticket": "2108215"
+		}
+	],
+	"name": "RLSA-2022:8318",
+	"publishedAt": "2022-11-15T06:21:32Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"ldb-tools-0:2.5.2-1.el9.aarch64.rpm",
+				"ldb-tools-0:2.5.2-1.el9.ppc64le.rpm",
+				"ldb-tools-0:2.5.2-1.el9.s390x.rpm",
+				"ldb-tools-0:2.5.2-1.el9.x86_64.rpm",
+				"ldb-tools-debuginfo-0:2.5.2-1.el9.aarch64.rpm",
+				"ldb-tools-debuginfo-0:2.5.2-1.el9.ppc64le.rpm",
+				"ldb-tools-debuginfo-0:2.5.2-1.el9.s390x.rpm",
+				"ldb-tools-debuginfo-0:2.5.2-1.el9.x86_64.rpm",
+				"libldb-0:2.5.2-1.el9.aarch64.rpm",
+				"libldb-0:2.5.2-1.el9.i686.rpm",
+				"libldb-0:2.5.2-1.el9.ppc64le.rpm",
+				"libldb-0:2.5.2-1.el9.s390x.rpm",
+				"libldb-0:2.5.2-1.el9.src.rpm",
+				"libldb-0:2.5.2-1.el9.x86_64.rpm",
+				"libldb-debuginfo-0:2.5.2-1.el9.aarch64.rpm",
+				"libldb-debuginfo-0:2.5.2-1.el9.ppc64le.rpm",
+				"libldb-debuginfo-0:2.5.2-1.el9.s390x.rpm",
+				"libldb-debuginfo-0:2.5.2-1.el9.x86_64.rpm",
+				"libldb-debugsource-0:2.5.2-1.el9.aarch64.rpm",
+				"libldb-debugsource-0:2.5.2-1.el9.ppc64le.rpm",
+				"libldb-debugsource-0:2.5.2-1.el9.s390x.rpm",
+				"libldb-debugsource-0:2.5.2-1.el9.x86_64.rpm",
+				"libldb-devel-0:2.5.2-1.el9.aarch64.rpm",
+				"libldb-devel-0:2.5.2-1.el9.i686.rpm",
+				"libldb-devel-0:2.5.2-1.el9.ppc64le.rpm",
+				"libldb-devel-0:2.5.2-1.el9.s390x.rpm",
+				"libldb-devel-0:2.5.2-1.el9.x86_64.rpm",
+				"python3-ldb-0:2.5.2-1.el9.aarch64.rpm",
+				"python3-ldb-0:2.5.2-1.el9.i686.rpm",
+				"python3-ldb-0:2.5.2-1.el9.ppc64le.rpm",
+				"python3-ldb-0:2.5.2-1.el9.s390x.rpm",
+				"python3-ldb-0:2.5.2-1.el9.x86_64.rpm",
+				"python3-ldb-debuginfo-0:2.5.2-1.el9.aarch64.rpm",
+				"python3-ldb-debuginfo-0:2.5.2-1.el9.ppc64le.rpm",
+				"python3-ldb-debuginfo-0:2.5.2-1.el9.s390x.rpm",
+				"python3-ldb-debuginfo-0:2.5.2-1.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libldb security, bug fix, and enhancement update",
+	"topic": "An update is available for libldb.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

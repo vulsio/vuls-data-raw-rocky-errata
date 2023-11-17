@@ -1,62 +1,62 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 9"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-125->CWE-126",
-      "name": "CVE-2022-31212",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31212"
-    },
-    {
-      "cvss3BaseScore": "7.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-476",
-      "name": "CVE-2022-31213",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31213"
-    }
-  ],
-  "description": "dbus-broker is an implementation of a message bus as defined by the D-Bus specification. Its aim is to provide high performance and reliability, while keeping compatibility to the D-Bus reference implementation. It is exclusively written for Linux systems, and makes use of many modern features provided by recent Linux kernel releases.\n\nSecurity Fix(es):\n\n* dbus-broker: a stack buffer over-read if a malicious Exec line is supplied (CVE-2022-31212)\n\n* dbus-broker: null pointer reference when supplying a malformed XML config file (CVE-2022-31213)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2094718",
-      "ticket": "2094718"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2094722",
-      "ticket": "2094722"
-    }
-  ],
-  "name": "RLSA-2022:6608",
-  "publishedAt": "2022-09-20T11:40:32Z",
-  "rpms": {
-    "Rocky Linux 9": {
-      "nvras": [
-        "dbus-broker-0:28-5.1.el9.aarch64.rpm",
-        "dbus-broker-0:28-5.1.el9.ppc64le.rpm",
-        "dbus-broker-0:28-5.1.el9.s390x.rpm",
-        "dbus-broker-0:28-5.1.el9.src.rpm",
-        "dbus-broker-0:28-5.1.el9.x86_64.rpm",
-        "dbus-broker-debuginfo-0:28-5.1.el9.aarch64.rpm",
-        "dbus-broker-debuginfo-0:28-5.1.el9.ppc64le.rpm",
-        "dbus-broker-debuginfo-0:28-5.1.el9.s390x.rpm",
-        "dbus-broker-debuginfo-0:28-5.1.el9.x86_64.rpm",
-        "dbus-broker-debugsource-0:28-5.1.el9.aarch64.rpm",
-        "dbus-broker-debugsource-0:28-5.1.el9.ppc64le.rpm",
-        "dbus-broker-debugsource-0:28-5.1.el9.s390x.rpm",
-        "dbus-broker-debugsource-0:28-5.1.el9.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: dbus-broker security update",
-  "topic": "An update is available for dbus-broker.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125->CWE-126",
+			"name": "CVE-2022-31212",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31212"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2022-31213",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31213"
+		}
+	],
+	"description": "dbus-broker is an implementation of a message bus as defined by the D-Bus specification. Its aim is to provide high performance and reliability, while keeping compatibility to the D-Bus reference implementation. It is exclusively written for Linux systems, and makes use of many modern features provided by recent Linux kernel releases.\n\nSecurity Fix(es):\n\n* dbus-broker: a stack buffer over-read if a malicious Exec line is supplied (CVE-2022-31212)\n\n* dbus-broker: null pointer reference when supplying a malformed XML config file (CVE-2022-31213)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2094718",
+			"ticket": "2094718"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2094722",
+			"ticket": "2094722"
+		}
+	],
+	"name": "RLSA-2022:6608",
+	"publishedAt": "2022-09-20T11:40:32Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"dbus-broker-0:28-5.1.el9.aarch64.rpm",
+				"dbus-broker-0:28-5.1.el9.ppc64le.rpm",
+				"dbus-broker-0:28-5.1.el9.s390x.rpm",
+				"dbus-broker-0:28-5.1.el9.src.rpm",
+				"dbus-broker-0:28-5.1.el9.x86_64.rpm",
+				"dbus-broker-debuginfo-0:28-5.1.el9.aarch64.rpm",
+				"dbus-broker-debuginfo-0:28-5.1.el9.ppc64le.rpm",
+				"dbus-broker-debuginfo-0:28-5.1.el9.s390x.rpm",
+				"dbus-broker-debuginfo-0:28-5.1.el9.x86_64.rpm",
+				"dbus-broker-debugsource-0:28-5.1.el9.aarch64.rpm",
+				"dbus-broker-debugsource-0:28-5.1.el9.ppc64le.rpm",
+				"dbus-broker-debugsource-0:28-5.1.el9.s390x.rpm",
+				"dbus-broker-debugsource-0:28-5.1.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: dbus-broker security update",
+	"topic": "An update is available for dbus-broker.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

@@ -1,186 +1,186 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-20->CWE-125",
-      "name": "CVE-2020-11095",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11095"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-20->CWE-129->CWE-125",
-      "name": "CVE-2020-11096",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11096"
-    },
-    {
-      "cvss3BaseScore": "5.4",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-20->CWE-129->CWE-125",
-      "name": "CVE-2020-11097",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11097"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-129->CWE-125",
-      "name": "CVE-2020-11098",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11098"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-125",
-      "name": "CVE-2020-11099",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11099"
-    },
-    {
-      "cvss3BaseScore": "3.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
-      "cwe": "CWE-190->CWE-122",
-      "name": "CVE-2020-15103",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15103"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-125",
-      "name": "CVE-2020-4030",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4030"
-    },
-    {
-      "cvss3BaseScore": "6.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
-      "cwe": "CWE-805->CWE-125",
-      "name": "CVE-2020-4033",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4033"
-    }
-  ],
-  "description": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. The xfreerdp client can connect to RDP servers such as Microsoft Windows machines, xrdp, and VirtualBox.\n\nThe following packages have been upgraded to a later upstream version: freerdp (2.2.0). (BZ#1881971)\n\nSecurity Fix(es):\n\n* freerdp: out of bounds read in TrioParse (CVE-2020-4030)\n\n* freerdp: out of bound reads resulting in accessing memory location outside of static array PRIMARY_DRAWING_ORDER_FIELD_BYTES (CVE-2020-11095)\n\n* freerdp: out of bounds read in PRIMARY_DRAWING_ORDER_FIELD_BYTES (CVE-2020-11097)\n\n* freerdp: out of bounds read in license_read_new_or_upgrade_license_packet (CVE-2020-11099)\n\n* freerdp: integer overflow due to missing input sanitation in rdpegfx channel (CVE-2020-15103)\n\n* freerdp: out-of-bounds read in RLEDECOMPRESS (CVE-2020-4033)\n\n* freerdp: out-of-bound read in update_read_cache_bitmap_v3_order (CVE-2020-11096)\n\n* freerdp: out-of-bound read in glyph_cache_put (CVE-2020-11098)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854843",
-      "ticket": "1854843"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854847",
-      "ticket": "1854847"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854850",
-      "ticket": "1854850"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854876",
-      "ticket": "1854876"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854895",
-      "ticket": "1854895"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854899",
-      "ticket": "1854899"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854910",
-      "ticket": "1854910"
-    },
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1858909",
-      "ticket": "1858909"
-    },
-    {
-      "description": "The following packages have been upgraded to a later upstream version: freerdp (2.2.0).",
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1881971",
-      "ticket": "1881971"
-    }
-  ],
-  "name": "RLSA-2021:1849",
-  "publishedAt": "2021-05-18T06:14:36Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "freerdp-2:2.2.0-1.el8.aarch64.rpm",
-        "freerdp-2:2.2.0-1.el8.src.rpm",
-        "freerdp-2:2.2.0-1.el8.x86_64.rpm",
-        "freerdp-debuginfo-2:2.2.0-1.el8.aarch64.rpm",
-        "freerdp-debuginfo-2:2.2.0-1.el8.i686.rpm",
-        "freerdp-debuginfo-2:2.2.0-1.el8.x86_64.rpm",
-        "freerdp-debugsource-2:2.2.0-1.el8.aarch64.rpm",
-        "freerdp-debugsource-2:2.2.0-1.el8.i686.rpm",
-        "freerdp-debugsource-2:2.2.0-1.el8.x86_64.rpm",
-        "freerdp-devel-2:2.2.0-1.el8.aarch64.rpm",
-        "freerdp-devel-2:2.2.0-1.el8.i686.rpm",
-        "freerdp-devel-2:2.2.0-1.el8.x86_64.rpm",
-        "freerdp-libs-2:2.2.0-1.el8.aarch64.rpm",
-        "freerdp-libs-2:2.2.0-1.el8.i686.rpm",
-        "freerdp-libs-2:2.2.0-1.el8.x86_64.rpm",
-        "freerdp-libs-debuginfo-2:2.2.0-1.el8.aarch64.rpm",
-        "freerdp-libs-debuginfo-2:2.2.0-1.el8.i686.rpm",
-        "freerdp-libs-debuginfo-2:2.2.0-1.el8.x86_64.rpm",
-        "libwinpr-2:2.2.0-1.el8.aarch64.rpm",
-        "libwinpr-2:2.2.0-1.el8.i686.rpm",
-        "libwinpr-2:2.2.0-1.el8.x86_64.rpm",
-        "libwinpr-debuginfo-2:2.2.0-1.el8.aarch64.rpm",
-        "libwinpr-debuginfo-2:2.2.0-1.el8.i686.rpm",
-        "libwinpr-debuginfo-2:2.2.0-1.el8.x86_64.rpm",
-        "libwinpr-devel-2:2.2.0-1.el8.aarch64.rpm",
-        "libwinpr-devel-2:2.2.0-1.el8.i686.rpm",
-        "libwinpr-devel-2:2.2.0-1.el8.x86_64.rpm",
-        "freerdp-2:2.2.0-10.el8.aarch64.rpm",
-        "freerdp-2:2.2.0-10.el8.src.rpm",
-        "freerdp-2:2.2.0-10.el8.x86_64.rpm",
-        "freerdp-debuginfo-2:2.2.0-10.el8.aarch64.rpm",
-        "freerdp-debuginfo-2:2.2.0-10.el8.i686.rpm",
-        "freerdp-debuginfo-2:2.2.0-10.el8.x86_64.rpm",
-        "freerdp-debugsource-2:2.2.0-10.el8.aarch64.rpm",
-        "freerdp-debugsource-2:2.2.0-10.el8.x86_64.rpm",
-        "freerdp-devel-2:2.2.0-10.el8.aarch64.rpm",
-        "freerdp-devel-2:2.2.0-10.el8.i686.rpm",
-        "freerdp-devel-2:2.2.0-10.el8.x86_64.rpm",
-        "freerdp-libs-2:2.2.0-10.el8.aarch64.rpm",
-        "freerdp-libs-2:2.2.0-10.el8.i686.rpm",
-        "freerdp-libs-2:2.2.0-10.el8.x86_64.rpm",
-        "freerdp-libs-debuginfo-2:2.2.0-10.el8.aarch64.rpm",
-        "freerdp-libs-debuginfo-2:2.2.0-10.el8.i686.rpm",
-        "freerdp-libs-debuginfo-2:2.2.0-10.el8.x86_64.rpm",
-        "libwinpr-2:2.2.0-10.el8.aarch64.rpm",
-        "libwinpr-2:2.2.0-10.el8.i686.rpm",
-        "libwinpr-2:2.2.0-10.el8.x86_64.rpm",
-        "libwinpr-debuginfo-2:2.2.0-10.el8.aarch64.rpm",
-        "libwinpr-debuginfo-2:2.2.0-10.el8.i686.rpm",
-        "libwinpr-debuginfo-2:2.2.0-10.el8.x86_64.rpm",
-        "libwinpr-devel-2:2.2.0-10.el8.aarch64.rpm",
-        "libwinpr-devel-2:2.2.0-10.el8.i686.rpm",
-        "libwinpr-devel-2:2.2.0-10.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_MODERATE",
-  "shortCode": "RL",
-  "synopsis": "Moderate: freerdp security, bug fix, and enhancement update",
-  "topic": "An update is available for freerdp.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-20->CWE-125",
+			"name": "CVE-2020-11095",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11095"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-20->CWE-129->CWE-125",
+			"name": "CVE-2020-11096",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11096"
+		},
+		{
+			"cvss3BaseScore": "5.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-20->CWE-129->CWE-125",
+			"name": "CVE-2020-11097",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11097"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-129->CWE-125",
+			"name": "CVE-2020-11098",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11098"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-125",
+			"name": "CVE-2020-11099",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-11099"
+		},
+		{
+			"cvss3BaseScore": "3.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-190->CWE-122",
+			"name": "CVE-2020-15103",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15103"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-125",
+			"name": "CVE-2020-4030",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4030"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-805->CWE-125",
+			"name": "CVE-2020-4033",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-4033"
+		}
+	],
+	"description": "FreeRDP is a free implementation of the Remote Desktop Protocol (RDP), released under the Apache license. The xfreerdp client can connect to RDP servers such as Microsoft Windows machines, xrdp, and VirtualBox.\n\nThe following packages have been upgraded to a later upstream version: freerdp (2.2.0). (BZ#1881971)\n\nSecurity Fix(es):\n\n* freerdp: out of bounds read in TrioParse (CVE-2020-4030)\n\n* freerdp: out of bound reads resulting in accessing memory location outside of static array PRIMARY_DRAWING_ORDER_FIELD_BYTES (CVE-2020-11095)\n\n* freerdp: out of bounds read in PRIMARY_DRAWING_ORDER_FIELD_BYTES (CVE-2020-11097)\n\n* freerdp: out of bounds read in license_read_new_or_upgrade_license_packet (CVE-2020-11099)\n\n* freerdp: integer overflow due to missing input sanitation in rdpegfx channel (CVE-2020-15103)\n\n* freerdp: out-of-bounds read in RLEDECOMPRESS (CVE-2020-4033)\n\n* freerdp: out-of-bound read in update_read_cache_bitmap_v3_order (CVE-2020-11096)\n\n* freerdp: out-of-bound read in glyph_cache_put (CVE-2020-11098)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854843",
+			"ticket": "1854843"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854847",
+			"ticket": "1854847"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854850",
+			"ticket": "1854850"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854876",
+			"ticket": "1854876"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854895",
+			"ticket": "1854895"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854899",
+			"ticket": "1854899"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1854910",
+			"ticket": "1854910"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1858909",
+			"ticket": "1858909"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: freerdp (2.2.0).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1881971",
+			"ticket": "1881971"
+		}
+	],
+	"name": "RLSA-2021:1849",
+	"publishedAt": "2021-05-18T06:14:36Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"freerdp-2:2.2.0-1.el8.aarch64.rpm",
+				"freerdp-2:2.2.0-1.el8.src.rpm",
+				"freerdp-2:2.2.0-1.el8.x86_64.rpm",
+				"freerdp-debuginfo-2:2.2.0-1.el8.aarch64.rpm",
+				"freerdp-debuginfo-2:2.2.0-1.el8.i686.rpm",
+				"freerdp-debuginfo-2:2.2.0-1.el8.x86_64.rpm",
+				"freerdp-debugsource-2:2.2.0-1.el8.aarch64.rpm",
+				"freerdp-debugsource-2:2.2.0-1.el8.i686.rpm",
+				"freerdp-debugsource-2:2.2.0-1.el8.x86_64.rpm",
+				"freerdp-devel-2:2.2.0-1.el8.aarch64.rpm",
+				"freerdp-devel-2:2.2.0-1.el8.i686.rpm",
+				"freerdp-devel-2:2.2.0-1.el8.x86_64.rpm",
+				"freerdp-libs-2:2.2.0-1.el8.aarch64.rpm",
+				"freerdp-libs-2:2.2.0-1.el8.i686.rpm",
+				"freerdp-libs-2:2.2.0-1.el8.x86_64.rpm",
+				"freerdp-libs-debuginfo-2:2.2.0-1.el8.aarch64.rpm",
+				"freerdp-libs-debuginfo-2:2.2.0-1.el8.i686.rpm",
+				"freerdp-libs-debuginfo-2:2.2.0-1.el8.x86_64.rpm",
+				"libwinpr-2:2.2.0-1.el8.aarch64.rpm",
+				"libwinpr-2:2.2.0-1.el8.i686.rpm",
+				"libwinpr-2:2.2.0-1.el8.x86_64.rpm",
+				"libwinpr-debuginfo-2:2.2.0-1.el8.aarch64.rpm",
+				"libwinpr-debuginfo-2:2.2.0-1.el8.i686.rpm",
+				"libwinpr-debuginfo-2:2.2.0-1.el8.x86_64.rpm",
+				"libwinpr-devel-2:2.2.0-1.el8.aarch64.rpm",
+				"libwinpr-devel-2:2.2.0-1.el8.i686.rpm",
+				"libwinpr-devel-2:2.2.0-1.el8.x86_64.rpm",
+				"freerdp-2:2.2.0-10.el8.aarch64.rpm",
+				"freerdp-2:2.2.0-10.el8.src.rpm",
+				"freerdp-2:2.2.0-10.el8.x86_64.rpm",
+				"freerdp-debuginfo-2:2.2.0-10.el8.aarch64.rpm",
+				"freerdp-debuginfo-2:2.2.0-10.el8.i686.rpm",
+				"freerdp-debuginfo-2:2.2.0-10.el8.x86_64.rpm",
+				"freerdp-debugsource-2:2.2.0-10.el8.aarch64.rpm",
+				"freerdp-debugsource-2:2.2.0-10.el8.x86_64.rpm",
+				"freerdp-devel-2:2.2.0-10.el8.aarch64.rpm",
+				"freerdp-devel-2:2.2.0-10.el8.i686.rpm",
+				"freerdp-devel-2:2.2.0-10.el8.x86_64.rpm",
+				"freerdp-libs-2:2.2.0-10.el8.aarch64.rpm",
+				"freerdp-libs-2:2.2.0-10.el8.i686.rpm",
+				"freerdp-libs-2:2.2.0-10.el8.x86_64.rpm",
+				"freerdp-libs-debuginfo-2:2.2.0-10.el8.aarch64.rpm",
+				"freerdp-libs-debuginfo-2:2.2.0-10.el8.i686.rpm",
+				"freerdp-libs-debuginfo-2:2.2.0-10.el8.x86_64.rpm",
+				"libwinpr-2:2.2.0-10.el8.aarch64.rpm",
+				"libwinpr-2:2.2.0-10.el8.i686.rpm",
+				"libwinpr-2:2.2.0-10.el8.x86_64.rpm",
+				"libwinpr-debuginfo-2:2.2.0-10.el8.aarch64.rpm",
+				"libwinpr-debuginfo-2:2.2.0-10.el8.i686.rpm",
+				"libwinpr-debuginfo-2:2.2.0-10.el8.x86_64.rpm",
+				"libwinpr-devel-2:2.2.0-10.el8.aarch64.rpm",
+				"libwinpr-devel-2:2.2.0-10.el8.i686.rpm",
+				"libwinpr-devel-2:2.2.0-10.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: freerdp security, bug fix, and enhancement update",
+	"topic": "An update is available for freerdp.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }

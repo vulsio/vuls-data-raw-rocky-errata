@@ -1,43 +1,43 @@
 {
-  "affectedProducts": [
-    "Rocky Linux 8"
-  ],
-  "cves": [
-    {
-      "cvss3BaseScore": "5.5",
-      "cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
-      "cwe": "CWE-190",
-      "name": "CVE-2019-16167",
-      "sourceBy": "MITRE",
-      "sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16167"
-    }
-  ],
-  "description": "The sysstat packages provide the sar and iostat commands. These commands enable system monitoring of disk, network, and other I/O activity.\n\nSecurity Fix(es):\n\n* sysstat: memory corruption due to an integer overflow in remap_struct in sa_common.c (CVE-2019-16167)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
-  "fixes": [
-    {
-      "sourceBy": "Red Hat",
-      "sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1768970",
-      "ticket": "1768970"
-    }
-  ],
-  "name": "RLSA-2020:4638",
-  "publishedAt": "2020-11-03T12:22:41Z",
-  "rpms": {
-    "Rocky Linux 8": {
-      "nvras": [
-        "sysstat-0:11.7.3-5.el8.aarch64.rpm",
-        "sysstat-0:11.7.3-5.el8.src.rpm",
-        "sysstat-0:11.7.3-5.el8.x86_64.rpm",
-        "sysstat-debuginfo-0:11.7.3-5.el8.aarch64.rpm",
-        "sysstat-debuginfo-0:11.7.3-5.el8.x86_64.rpm",
-        "sysstat-debugsource-0:11.7.3-5.el8.aarch64.rpm",
-        "sysstat-debugsource-0:11.7.3-5.el8.x86_64.rpm"
-      ]
-    }
-  },
-  "severity": "SEVERITY_LOW",
-  "shortCode": "RL",
-  "synopsis": "Low: sysstat security update",
-  "topic": "An update is available for sysstat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
-  "type": "TYPE_SECURITY"
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2019-16167",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-16167"
+		}
+	],
+	"description": "The sysstat packages provide the sar and iostat commands. These commands enable system monitoring of disk, network, and other I/O activity.\n\nSecurity Fix(es):\n\n* sysstat: memory corruption due to an integer overflow in remap_struct in sa_common.c (CVE-2019-16167)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1768970",
+			"ticket": "1768970"
+		}
+	],
+	"name": "RLSA-2020:4638",
+	"publishedAt": "2020-11-03T12:22:41Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"sysstat-0:11.7.3-5.el8.aarch64.rpm",
+				"sysstat-0:11.7.3-5.el8.src.rpm",
+				"sysstat-0:11.7.3-5.el8.x86_64.rpm",
+				"sysstat-debuginfo-0:11.7.3-5.el8.aarch64.rpm",
+				"sysstat-debuginfo-0:11.7.3-5.el8.x86_64.rpm",
+				"sysstat-debugsource-0:11.7.3-5.el8.aarch64.rpm",
+				"sysstat-debugsource-0:11.7.3-5.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: sysstat security update",
+	"topic": "An update is available for sysstat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
 }
