@@ -1,0 +1,278 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-2154",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2154"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-2166",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2166"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-2372",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2372"
+		},
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-2389",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-2389"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-35604",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35604"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-46657",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46657"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-46658",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46658"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-46662",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46662"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-46666",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46666"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2021-46667",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46667"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21451",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21451"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-89",
+			"name": "CVE-2022-27385",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-27385"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-667",
+			"name": "CVE-2022-31621",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31621"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-404",
+			"name": "CVE-2022-31624",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31624"
+		}
+	],
+	"description": "MariaDB is a multi-user, multi-threaded SQL database server that is binary compatible with MySQL. \n\nThe following packages have been upgraded to a later upstream version: mariadb (10.5.13), galera (26.4.9). (BZ#2050546)\n\nSecurity Fix(es):\n\n* mysql: Server: DML unspecified vulnerability (CPU Apr 2021) (CVE-2021-2154)\n\n* mysql: Server: DML unspecified vulnerability (CPU Apr 2021) (CVE-2021-2166)\n\n* mysql: InnoDB unspecified vulnerability (CPU Jul 2021) (CVE-2021-2372)\n\n* mysql: InnoDB unspecified vulnerability (CPU Jul 2021) (CVE-2021-2389)\n\n* mysql: InnoDB unspecified vulnerability (CPU Oct 2021) (CVE-2021-35604)\n\n* mariadb: Integer overflow in sql_lex.cc integer leading to crash (CVE-2021-46667)\n\n* mariadb: Crash in get_sort_by_table() in subquery with ORDER BY having outer ref (CVE-2021-46657)\n\n* mariadb: save_window_function_values triggers an abort during IN subquery (CVE-2021-46658)\n\n* mariadb: Crash in set_var.cc via certain UPDATE queries with nested subqueries (CVE-2021-46662)\n\n* mariadb: Crash caused by mishandling of a pushdown from a HAVING clause to a WHERE clause (CVE-2021-46666)\n\n* mariadb: No password masking in audit log when using ALTER USER <user> IDENTIFIED BY <password> command (BZ#1981332)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* mariadb-10.5-module: /etc/security/user_map.conf getting overwritten with mariadb-server upgrade (BZ#2050515)\n\n* mariadb-server:10.5 in centos8 stream is not shipping wsrep_sst_rsync_tunnel (BZ#2050524)\n\n* Galera doesn't work without 'procps-ng' package MariaDB-10.5 (BZ#2050542)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951752",
+			"ticket": "1951752"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951755",
+			"ticket": "1951755"
+		},
+		{
+			"description": "* mariadb: No password masking in audit log when using ALTER USER <user> IDENTIFIED BY <password> command",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1981332",
+			"ticket": "1981332"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992303",
+			"ticket": "1992303"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992309",
+			"ticket": "1992309"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2016101",
+			"ticket": "2016101"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2049294",
+			"ticket": "2049294"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2049305",
+			"ticket": "2049305"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050019",
+			"ticket": "2050019"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050028",
+			"ticket": "2050028"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050030",
+			"ticket": "2050030"
+		},
+		{
+			"description": "* mariadb-10.5-module: /etc/security/user_map.conf getting overwritten with mariadb-server upgrade",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050515",
+			"ticket": "2050515"
+		},
+		{
+			"description": "* mariadb-server:10.5 in centos8 stream is not shipping wsrep_sst_rsync_tunnel",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050524",
+			"ticket": "2050524"
+		},
+		{
+			"description": "* Galera doesn't work without 'procps-ng' package MariaDB-10.5",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050542",
+			"ticket": "2050542"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: mariadb (10.5.13), galera (26.4.9).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050546",
+			"ticket": "2050546"
+		}
+	],
+	"name": "RLSA-2022:1557",
+	"publishedAt": "2022-04-26T13:50:46Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"Judy-0:1.0.5-18.module+el8.4.0+427+adf35707.src.rpm",
+				"galera-0:26.4.9-4.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"galera-0:26.4.9-4.module+el8.5.0+773+f75e97f7.src.rpm",
+				"galera-0:26.4.9-4.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"galera-debuginfo-0:26.4.9-4.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"galera-debuginfo-0:26.4.9-4.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"galera-debugsource-0:26.4.9-4.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"galera-debugsource-0:26.4.9-4.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"Judy-0:1.0.5-18.module+el8.4.0+427+adf35707.aarch64.rpm",
+				"Judy-0:1.0.5-18.module+el8.4.0+427+adf35707.x86_64.rpm",
+				"Judy-debuginfo-0:1.0.5-18.module+el8.4.0+427+adf35707.aarch64.rpm",
+				"Judy-debuginfo-0:1.0.5-18.module+el8.4.0+427+adf35707.x86_64.rpm",
+				"Judy-debugsource-0:1.0.5-18.module+el8.4.0+427+adf35707.aarch64.rpm",
+				"Judy-debugsource-0:1.0.5-18.module+el8.4.0+427+adf35707.x86_64.rpm",
+				"mariadb-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-3:10.5.13-1.module+el8.5.0+773+f75e97f7.src.rpm",
+				"mariadb-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-backup-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-backup-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-backup-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-backup-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-common-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-common-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-debugsource-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-debugsource-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-devel-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-devel-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-embedded-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-embedded-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-embedded-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-embedded-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-embedded-devel-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-embedded-devel-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-errmsg-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-errmsg-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-gssapi-server-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-gssapi-server-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-gssapi-server-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-gssapi-server-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-oqgraph-engine-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-oqgraph-engine-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-oqgraph-engine-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-oqgraph-engine-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-pam-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-pam-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-pam-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-pam-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-server-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-server-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-server-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-server-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-server-galera-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-server-galera-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-server-utils-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-server-utils-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-server-utils-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-server-utils-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-test-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-test-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm",
+				"mariadb-test-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.aarch64.rpm",
+				"mariadb-test-debuginfo-3:10.5.13-1.module+el8.5.0+773+f75e97f7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: mariadb:10.5 security, bug fix, and enhancement update",
+	"topic": "An update is available for Judy, mariadb, galera.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

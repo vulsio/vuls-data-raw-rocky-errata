@@ -1,0 +1,101 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-613",
+			"name": "CVE-2022-30698",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30698"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-613",
+			"name": "CVE-2022-30699",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30699"
+		}
+	],
+	"description": "The unbound packages provide a validating, recursive, and caching DNS or DNSSEC resolver. \n\nThe following packages have been upgraded to a later upstream version: unbound (1.16.2). (BZ#2027735)\n\nSecurity Fix(es):\n\n* unbound: the novel ghost domain where malicious users to trigger continued resolvability of malicious domain names (CVE-2022-30698)\n\n* unbound: novel ghost domain attack where malicious users to trigger continued resolvability of malicious domain names (CVE-2022-30699)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1959468",
+			"ticket": "1959468"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2018806",
+			"ticket": "2018806"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2023549",
+			"ticket": "2023549"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: unbound (1.16.2).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2027735",
+			"ticket": "2027735"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2038251",
+			"ticket": "2038251"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2081958",
+			"ticket": "2081958"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2116725",
+			"ticket": "2116725"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2116729",
+			"ticket": "2116729"
+		}
+	],
+	"name": "RLSA-2022:7622",
+	"publishedAt": "2022-11-08T06:24:55Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-unbound-0:1.16.2-2.el8.aarch64.rpm",
+				"python3-unbound-0:1.16.2-2.el8.x86_64.rpm",
+				"python3-unbound-debuginfo-0:1.16.2-2.el8.aarch64.rpm",
+				"python3-unbound-debuginfo-0:1.16.2-2.el8.x86_64.rpm",
+				"unbound-0:1.16.2-2.el8.aarch64.rpm",
+				"unbound-0:1.16.2-2.el8.src.rpm",
+				"unbound-0:1.16.2-2.el8.x86_64.rpm",
+				"unbound-debuginfo-0:1.16.2-2.el8.aarch64.rpm",
+				"unbound-debuginfo-0:1.16.2-2.el8.i686.rpm",
+				"unbound-debuginfo-0:1.16.2-2.el8.x86_64.rpm",
+				"unbound-debugsource-0:1.16.2-2.el8.aarch64.rpm",
+				"unbound-debugsource-0:1.16.2-2.el8.x86_64.rpm",
+				"unbound-devel-0:1.16.2-2.el8.aarch64.rpm",
+				"unbound-devel-0:1.16.2-2.el8.i686.rpm",
+				"unbound-devel-0:1.16.2-2.el8.x86_64.rpm",
+				"unbound-libs-0:1.16.2-2.el8.aarch64.rpm",
+				"unbound-libs-0:1.16.2-2.el8.i686.rpm",
+				"unbound-libs-0:1.16.2-2.el8.x86_64.rpm",
+				"unbound-libs-debuginfo-0:1.16.2-2.el8.aarch64.rpm",
+				"unbound-libs-debuginfo-0:1.16.2-2.el8.i686.rpm",
+				"unbound-libs-debuginfo-0:1.16.2-2.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: unbound security, bug fix, and enhancement update",
+	"topic": "An update is available for unbound.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

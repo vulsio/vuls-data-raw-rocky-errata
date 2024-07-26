@@ -1,0 +1,57 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-20->CWE-120",
+			"name": "CVE-2024-28219",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28219"
+		}
+	],
+	"description": "The python-pillow packages contain a Python image processing library that provides extensive file format support, an efficient internal representation, and powerful image-processing capabilities.\n\nSecurity Fix(es):\n\n* python-pillow: buffer overflow in _imagingcms.c (CVE-2024-28219)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2272563",
+			"ticket": "2272563"
+		}
+	],
+	"name": "RLSA-2024:4227",
+	"publishedAt": "2024-07-15T12:17:49.133583Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-pillow-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python3-pillow-0:5.1.1-21.el8_10.i686.rpm",
+				"python3-pillow-0:5.1.1-21.el8_10.x86_64.rpm",
+				"python3-pillow-debuginfo-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python3-pillow-debuginfo-0:5.1.1-21.el8_10.i686.rpm",
+				"python3-pillow-debuginfo-0:5.1.1-21.el8_10.x86_64.rpm",
+				"python3-pillow-devel-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python3-pillow-devel-0:5.1.1-21.el8_10.i686.rpm",
+				"python3-pillow-devel-0:5.1.1-21.el8_10.x86_64.rpm",
+				"python3-pillow-doc-0:5.1.1-21.el8_10.noarch.rpm",
+				"python3-pillow-tk-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python3-pillow-tk-0:5.1.1-21.el8_10.x86_64.rpm",
+				"python3-pillow-tk-debuginfo-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python3-pillow-tk-debuginfo-0:5.1.1-21.el8_10.x86_64.rpm",
+				"python-pillow-0:5.1.1-21.el8_10.src.rpm",
+				"python-pillow-debuginfo-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python-pillow-debuginfo-0:5.1.1-21.el8_10.i686.rpm",
+				"python-pillow-debuginfo-0:5.1.1-21.el8_10.x86_64.rpm",
+				"python-pillow-debugsource-0:5.1.1-21.el8_10.aarch64.rpm",
+				"python-pillow-debugsource-0:5.1.1-21.el8_10.i686.rpm",
+				"python-pillow-debugsource-0:5.1.1-21.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-pillow security update",
+	"topic": "An update is available for python-pillow.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

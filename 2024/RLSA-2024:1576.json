@@ -1,0 +1,103 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-33621",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33621"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-28755",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28755"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-28756",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28756"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-36617",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-36617"
+		}
+	],
+	"description": "Ruby is an extensible, interpreted, object-oriented, scripting language. It has features to process text files and to perform system management tasks.\n\nThe following packages have been upgraded to a later upstream version: ruby (3.1). (Rocky Linux-29052)\n\nSecurity Fix(es):\n\n* ruby/cgi-gem: HTTP response splitting in CGI (CVE-2021-33621)\n\n* ruby: ReDoS vulnerability in URI (CVE-2023-28755)\n\n* ruby: ReDoS vulnerability - upstream's incomplete fix for CVE-2023-28755 (CVE-2023-36617)\n\n* ruby: ReDoS vulnerability in Time (CVE-2023-28756)\n\nBug Fix(es):\n\n* ruby/rubygem-irb: IRB has hard dependency on rubygem-rdoc (Rocky Linux-29048)\n\n* ruby: Ruby cannot read private key in FIPS mode on Rocky Linux 9 (Rocky Linux-12437)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2149706",
+			"ticket": "2149706"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2184059",
+			"ticket": "2184059"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2184061",
+			"ticket": "2184061"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2218614",
+			"ticket": "2218614"
+		}
+	],
+	"name": "RLSA-2024:1576",
+	"publishedAt": "2024-04-05T14:57:12.936995Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"rubygem-mysql2-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.aarch64.rpm",
+				"rubygem-mysql2-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.ppc64le.rpm",
+				"rubygem-mysql2-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.s390x.rpm",
+				"rubygem-mysql2-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.src.rpm",
+				"rubygem-mysql2-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.x86_64.rpm",
+				"rubygem-mysql2-debuginfo-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.aarch64.rpm",
+				"rubygem-mysql2-debuginfo-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.ppc64le.rpm",
+				"rubygem-mysql2-debuginfo-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.s390x.rpm",
+				"rubygem-mysql2-debuginfo-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.x86_64.rpm",
+				"rubygem-mysql2-debugsource-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.aarch64.rpm",
+				"rubygem-mysql2-debugsource-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.ppc64le.rpm",
+				"rubygem-mysql2-debugsource-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.s390x.rpm",
+				"rubygem-mysql2-debugsource-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.x86_64.rpm",
+				"rubygem-mysql2-doc-0:0.5.4-1.module+el9.1.0+13172+8d1baf64.noarch.rpm",
+				"rubygem-pg-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.aarch64.rpm",
+				"rubygem-pg-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.ppc64le.rpm",
+				"rubygem-pg-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.s390x.rpm",
+				"rubygem-pg-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.src.rpm",
+				"rubygem-pg-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.x86_64.rpm",
+				"rubygem-pg-debuginfo-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.aarch64.rpm",
+				"rubygem-pg-debuginfo-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.ppc64le.rpm",
+				"rubygem-pg-debuginfo-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.s390x.rpm",
+				"rubygem-pg-debuginfo-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.x86_64.rpm",
+				"rubygem-pg-debugsource-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.aarch64.rpm",
+				"rubygem-pg-debugsource-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.ppc64le.rpm",
+				"rubygem-pg-debugsource-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.s390x.rpm",
+				"rubygem-pg-debugsource-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.x86_64.rpm",
+				"rubygem-pg-doc-0:1.3.5-1.module+el9.1.0+13172+8d1baf64.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: ruby:3.1 security, bug fix, and enhancement update",
+	"topic": "An update is available for module.rubygem-mysql2, rubygem-mysql2, module.rubygem-pg, rubygem-pg.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

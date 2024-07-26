@@ -1,0 +1,348 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2018-10103",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10103"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2018-10105",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-10105"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14461",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14461"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14462",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14462"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14463",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14463"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14464",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14464"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14465",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14465"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14466",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14466"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14467",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14467"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14468",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14468"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14469",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14469"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14470",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14470"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2018-14879",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14879"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14880",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14880"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14881",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14881"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-14882",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-14882"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-16227",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16227"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-665",
+			"name": "CVE-2018-16228",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16228"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-16229",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16229"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-16230",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16230"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2018-16300",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16300"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2018-16451",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16451"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2018-16452",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-16452"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2019-15166",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-15166"
+		}
+	],
+	"description": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nThe following packages have been upgraded to a later upstream version: tcpdump (4.9.3). (BZ#1804063)\n\nSecurity Fix(es):\n\n* tcpdump: SMB data printing mishandled (CVE-2018-10103)\n\n* tcpdump: SMB data printing mishandled (CVE-2018-10105)\n\n* tcpdump: Out of bounds read/write in get_next_file() in tcpdump.c (CVE-2018-14879)\n\n* tcpdump: Buffer over-read in ldp_tlv_print() function in print-ldp.c (CVE-2018-14461)\n\n* tcpdump: Buffer over-read in icmp_print() function in print-icmp.c (CVE-2018-14462)\n\n* tcpdump: Buffer over-read in vrrp_print() function in print-vrrp.c (CVE-2018-14463)\n\n* tcpdump: Buffer over-read in lmp_print_data_link_subobjs() function in print-lmp.c (CVE-2018-14464)\n\n* tcpdump: Buffer over-read in rsvp_obj_print() function in print-rsvp.c (CVE-2018-14465)\n\n* tcpdump: Buffer over-read in print-icmp6.c (CVE-2018-14466)\n\n* tcpdump: Buffer over-read in bgp_capabilities_print() in print-bgp.c (CVE-2018-14467)\n\n* tcpdump: Buffer over-read in mfr_print() function in print-fr.c (CVE-2018-14468)\n\n* tcpdump: Buffer over-read in ikev1_n_print() function in print-isakmp.c (CVE-2018-14469)\n\n* tcpdump: Buffer over-read in babel_print_v2() in print-babel.c (CVE-2018-14470)\n\n* tcpdump: Buffer over-read in ospf6_print_lshdr() function in print-ospf6.c (CVE-2018-14880)\n\n* tcpdump: Buffer over-read in bgp_capabilities_print() function in print-bgp.c (CVE-2018-14881)\n\n* tcpdump: Buffer over-read in function rpl_dio_printopt in print-icmp6.c (CVE-2018-14882)\n\n* tcpdump: Buffer over-read in print-802_11.c (CVE-2018-16227)\n\n* tcpdump: Access to uninitialized buffer in print_prefix() function in print-hncp.c (CVE-2018-16228)\n\n* tcpdump: Buffer over-read in dccp_print_option() function in print-dccp.c (CVE-2018-16229)\n\n* tcpdump: Buffer over-read in bgp_attr_print() function in print-bgp.c (CVE-2018-16230)\n\n* tcpdump: Resource exhaustion in bgp_attr_print() function in print-bgp.c (CVE-2018-16300)\n\n* tcpdump: Buffer over-read in print_trans() function in print-smb.c (CVE-2018-16451)\n\n* tcpdump: Resource exhaustion in smb_fdata() funtion in smbutil.c (CVE-2018-16452)\n\n* tcpdump: Buffer overflow in lmp_print_data_link_subobjs() in print-lmp.c (CVE-2019-15166)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760430",
+			"ticket": "1760430"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760445",
+			"ticket": "1760445"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760447",
+			"ticket": "1760447"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760449",
+			"ticket": "1760449"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760453",
+			"ticket": "1760453"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760455",
+			"ticket": "1760455"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760457",
+			"ticket": "1760457"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760458",
+			"ticket": "1760458"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760461",
+			"ticket": "1760461"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760463",
+			"ticket": "1760463"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760464",
+			"ticket": "1760464"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760468",
+			"ticket": "1760468"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760504",
+			"ticket": "1760504"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760505",
+			"ticket": "1760505"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760506",
+			"ticket": "1760506"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760507",
+			"ticket": "1760507"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760509",
+			"ticket": "1760509"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760512",
+			"ticket": "1760512"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760513",
+			"ticket": "1760513"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760514",
+			"ticket": "1760514"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760516",
+			"ticket": "1760516"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760517",
+			"ticket": "1760517"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760518",
+			"ticket": "1760518"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1760520",
+			"ticket": "1760520"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: tcpdump (4.9.3).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1804063",
+			"ticket": "1804063"
+		}
+	],
+	"name": "RLSA-2020:4760",
+	"publishedAt": "2020-11-03T12:33:49Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"tcpdump-14:4.9.3-1.el8.aarch64.rpm",
+				"tcpdump-14:4.9.3-1.el8.src.rpm",
+				"tcpdump-14:4.9.3-1.el8.x86_64.rpm",
+				"tcpdump-debuginfo-14:4.9.3-1.el8.aarch64.rpm",
+				"tcpdump-debuginfo-14:4.9.3-1.el8.x86_64.rpm",
+				"tcpdump-debugsource-14:4.9.3-1.el8.aarch64.rpm",
+				"tcpdump-debugsource-14:4.9.3-1.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: tcpdump security, bug fix, and enhancement update",
+	"topic": "An update is available for tcpdump.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

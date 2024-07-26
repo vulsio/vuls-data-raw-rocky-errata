@@ -1,0 +1,104 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-20569",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20569"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-2162",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2162"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-42753",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-42753"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4622",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4622"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5633",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5633"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: use after free in unix_stream_sendpage (CVE-2023-4622)\n\n* kernel: vmwgfx: reference count issue leads to use-after-free in surface handling (CVE-2023-5633)\n\n* kernel: netfilter: potential slab-out-of-bound access due to integer underflow (CVE-2023-42753)\n\n* Kernel: UAF during login when accessing the shost ipaddress (CVE-2023-2162)\n\n* hw amd: Return Address Predictor vulnerability leading to information disclosure (CVE-2023-20569)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the latest Rocky Linux-8.9.z1 Batch (JIRA:Rocky Linux-17347)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2187773",
+			"ticket": "2187773"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2207625",
+			"ticket": "2207625"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2237760",
+			"ticket": "2237760"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2239843",
+			"ticket": "2239843"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245663",
+			"ticket": "2245663"
+		}
+	],
+	"name": "RLSA-2024:0134",
+	"publishedAt": "2024-01-12T19:57:11.890226Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-513.11.1.rt7.313.el8_9.src.rpm",
+				"kernel-rt-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-513.11.1.rt7.313.el8_9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,74 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-29409",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29409"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-39325",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44487",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487"
+		}
+	],
+	"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nThe golang packages provide the Go programming language compiler.\n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: rapid stream resets can cause excessive work [CVE-2023-44487] (CVE-2023-39325)\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\n* golang: crypto/tls: slow verification of certificate chains containing large RSA keys (CVE-2023-29409)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Midstream dist-git patches (BZ#2223637)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2228743",
+			"ticket": "2228743"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2242803",
+			"ticket": "2242803"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2243296",
+			"ticket": "2243296"
+		}
+	],
+	"name": "RLSA-2023:5738",
+	"publishedAt": "2023-10-24T18:37:03.734111Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"golang-0:1.19.13-1.el9_2.ppc64le.rpm",
+				"golang-0:1.19.13-1.el9_2.s390x.rpm",
+				"golang-0:1.19.13-1.el9_2.src.rpm",
+				"golang-bin-0:1.19.13-1.el9_2.ppc64le.rpm",
+				"golang-bin-0:1.19.13-1.el9_2.s390x.rpm",
+				"golang-docs-0:1.19.13-1.el9_2.noarch.rpm",
+				"golang-misc-0:1.19.13-1.el9_2.noarch.rpm",
+				"golang-src-0:1.19.13-1.el9_2.noarch.rpm",
+				"golang-tests-0:1.19.13-1.el9_2.noarch.rpm",
+				"go-toolset-0:1.19.13-1.el9_2.ppc64le.rpm",
+				"go-toolset-0:1.19.13-1.el9_2.s390x.rpm",
+				"go-toolset-0:1.19.13-1.el9_2.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: go-toolset and golang security and bug fix update",
+	"topic": "An update is available for go-toolset, golang.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

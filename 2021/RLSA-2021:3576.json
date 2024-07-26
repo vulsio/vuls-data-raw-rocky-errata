@@ -1,0 +1,96 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2021-36222",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36222"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2021-37750",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-37750"
+		}
+	],
+	"description": "Kerberos is a network authentication system, which can improve the security of your network by eliminating the insecure practice of sending passwords over the network in unencrypted form. It allows clients and servers to authenticate to each other with the help of a trusted third party, the Kerberos key distribution center (KDC).\n\nSecurity Fix(es):\n\n* krb5: Sending a request containing PA-ENCRYPTED-CHALLENGE padata element without using FAST could result in NULL dereference in KDC which leads to DoS (CVE-2021-36222)\n\n* krb5: NULL pointer dereference in process_tgs_req() in kdc/do_tgs_req.c via a FAST inner body that lacks server field (CVE-2021-37750)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1983720",
+			"ticket": "1983720"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1996834",
+			"ticket": "1996834"
+		}
+	],
+	"name": "RLSA-2021:3576",
+	"publishedAt": "2021-09-21T07:09:33Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"krb5-0:1.18.2-8.3.el8_4.src.rpm",
+				"krb5-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-debugsource-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-debugsource-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-debugsource-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-devel-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-devel-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-devel-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-devel-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-devel-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-devel-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-libs-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-libs-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-libs-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-libs-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-libs-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-libs-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-pkinit-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-pkinit-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-pkinit-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-pkinit-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-pkinit-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-pkinit-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-server-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-server-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-server-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-server-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-server-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-server-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-server-ldap-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-server-ldap-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-server-ldap-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-server-ldap-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-server-ldap-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"krb5-server-ldap-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-workstation-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-workstation-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"krb5-workstation-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"krb5-workstation-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"libkadm5-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"libkadm5-0:1.18.2-8.3.el8_4.i686.rpm",
+				"libkadm5-0:1.18.2-8.3.el8_4.x86_64.rpm",
+				"libkadm5-debuginfo-0:1.18.2-8.3.el8_4.aarch64.rpm",
+				"libkadm5-debuginfo-0:1.18.2-8.3.el8_4.i686.rpm",
+				"libkadm5-debuginfo-0:1.18.2-8.3.el8_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: krb5 security update",
+	"topic": "An update is available for krb5.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

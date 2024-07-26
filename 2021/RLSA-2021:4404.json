@@ -1,0 +1,63 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-276",
+			"name": "CVE-2021-20269",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20269"
+		}
+	],
+	"description": "The kexec-tools packages contain the /sbin/kexec binary and utilities that together form the user-space component of the kernel's kexec feature. The /sbin/kexec binary facilitates a new kernel to boot using the kernel's kexec feature either on a normal or a panic reboot. The kexec fastboot mechanism allows booting a Linux kernel from the context of an already running kernel. \n\nSecurity Fix(es):\n\n* kexec-tools: incorrect permissions on kdump dmesg file (CVE-2021-20269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1892558",
+			"ticket": "1892558"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1915819",
+			"ticket": "1915819"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1918499",
+			"ticket": "1918499"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1934261",
+			"ticket": "1934261"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1965267",
+			"ticket": "1965267"
+		}
+	],
+	"name": "RLSA-2021:4404",
+	"publishedAt": "2021-11-09T09:17:49Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kexec-tools-0:2.0.20-57.el8.aarch64.rpm",
+				"kexec-tools-0:2.0.20-57.el8.src.rpm",
+				"kexec-tools-0:2.0.20-57.el8.x86_64.rpm",
+				"kexec-tools-debuginfo-0:2.0.20-57.el8.aarch64.rpm",
+				"kexec-tools-debuginfo-0:2.0.20-57.el8.x86_64.rpm",
+				"kexec-tools-debugsource-0:2.0.20-57.el8.aarch64.rpm",
+				"kexec-tools-debugsource-0:2.0.20-57.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: kexec-tools security, bug fix, and enhancement update",
+	"topic": "An update is available for kexec-tools.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

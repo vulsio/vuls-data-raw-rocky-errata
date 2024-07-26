@@ -1,0 +1,120 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45288",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45289",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45290",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24783",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24784",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24784"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24785",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24785"
+		}
+	],
+	"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS (CVE-2023-45288)\n\n* golang: net/http/cookiejar: incorrect forwarding of sensitive headers and cookies on HTTP redirect (CVE-2023-45289)\n\n* golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n\n* golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm (CVE-2024-24783)\n\n* golang: net/mail: comments in display names are incorrectly handled (CVE-2024-24784)\n\n* golang: html/template: errors returned from MarshalJSON methods may break template escaping (CVE-2024-24785)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268017",
+			"ticket": "2268017"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268018",
+			"ticket": "2268018"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268019",
+			"ticket": "2268019"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268021",
+			"ticket": "2268021"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268022",
+			"ticket": "2268022"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268273",
+			"ticket": "2268273"
+		}
+	],
+	"name": "RLSA-2024:3259",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"delve-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.aarch64.rpm",
+				"delve-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.src.rpm",
+				"delve-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.x86_64.rpm",
+				"delve-debuginfo-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.aarch64.rpm",
+				"delve-debuginfo-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.x86_64.rpm",
+				"delve-debugsource-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.aarch64.rpm",
+				"delve-debugsource-0:1.21.2-3.module+el8.10.0+1814+f68f8a63.x86_64.rpm",
+				"golang-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.aarch64.rpm",
+				"golang-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.src.rpm",
+				"golang-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.x86_64.rpm",
+				"golang-bin-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.aarch64.rpm",
+				"golang-bin-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.x86_64.rpm",
+				"golang-docs-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.noarch.rpm",
+				"golang-misc-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.noarch.rpm",
+				"golang-src-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.noarch.rpm",
+				"golang-tests-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.noarch.rpm",
+				"go-toolset-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.aarch64.rpm",
+				"go-toolset-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.src.rpm",
+				"go-toolset-0:1.21.9-1.module+el8.10.0+1814+f68f8a63.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: go-toolset:rhel8 security update",
+	"topic": "An update is available for module.golang, go-toolset, delve, module.go-toolset, module.delve, golang.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45290",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290"
+		}
+	],
+	"description": "A replacement for libslirp and VPNKit, written in pure Go. It is based on the network stack of gVisor and is used to provide networking for podman-machine virtual machines. Compared to libslirp, gvisor-tap-vsock brings a configurable DNS server and dynamic port forwarding.\n\nSecurity Fix(es):\n\n* golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268017",
+			"ticket": "2268017"
+		}
+	],
+	"name": "RLSA-2024:3830",
+	"publishedAt": "2024-06-14T14:00:40.182624Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"gvisor-tap-vsock-6:0.7.3-3.el9_4.aarch64.rpm",
+				"gvisor-tap-vsock-6:0.7.3-3.el9_4.ppc64le.rpm",
+				"gvisor-tap-vsock-6:0.7.3-3.el9_4.s390x.rpm",
+				"gvisor-tap-vsock-6:0.7.3-3.el9_4.src.rpm",
+				"gvisor-tap-vsock-6:0.7.3-3.el9_4.x86_64.rpm",
+				"gvisor-tap-vsock-debuginfo-6:0.7.3-3.el9_4.aarch64.rpm",
+				"gvisor-tap-vsock-debuginfo-6:0.7.3-3.el9_4.ppc64le.rpm",
+				"gvisor-tap-vsock-debuginfo-6:0.7.3-3.el9_4.s390x.rpm",
+				"gvisor-tap-vsock-debuginfo-6:0.7.3-3.el9_4.x86_64.rpm",
+				"gvisor-tap-vsock-debugsource-6:0.7.3-3.el9_4.aarch64.rpm",
+				"gvisor-tap-vsock-debugsource-6:0.7.3-3.el9_4.ppc64le.rpm",
+				"gvisor-tap-vsock-debugsource-6:0.7.3-3.el9_4.s390x.rpm",
+				"gvisor-tap-vsock-debugsource-6:0.7.3-3.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gvisor-tap-vsock security and bug fix update",
+	"topic": "An update is available for gvisor-tap-vsock.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

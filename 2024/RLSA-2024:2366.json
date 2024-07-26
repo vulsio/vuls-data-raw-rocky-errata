@@ -1,0 +1,68 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24258",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24258"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24259",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24259"
+		}
+	],
+	"description": "freeglut is a completely open source alternative to the OpenGL Utility Toolkit (GLUT) library with an OSI approved free software license.\n\nSecurity Fix(es):\n\n* freeglut: memory leak via glutAddSubMenu() function (CVE-2024-24258)\n\n* freeglut: memory leak via glutAddMenuEntry() function (CVE-2024-24259)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2263939",
+			"ticket": "2263939"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2263943",
+			"ticket": "2263943"
+		}
+	],
+	"name": "RLSA-2024:2366",
+	"publishedAt": "2024-05-10T14:32:42.380544Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"freeglut-0:3.2.1-10.el9.aarch64.rpm",
+				"freeglut-0:3.2.1-10.el9.i686.rpm",
+				"freeglut-0:3.2.1-10.el9.ppc64le.rpm",
+				"freeglut-0:3.2.1-10.el9.s390x.rpm",
+				"freeglut-0:3.2.1-10.el9.src.rpm",
+				"freeglut-0:3.2.1-10.el9.x86_64.rpm",
+				"freeglut-debuginfo-0:3.2.1-10.el9.aarch64.rpm",
+				"freeglut-debuginfo-0:3.2.1-10.el9.ppc64le.rpm",
+				"freeglut-debuginfo-0:3.2.1-10.el9.s390x.rpm",
+				"freeglut-debuginfo-0:3.2.1-10.el9.x86_64.rpm",
+				"freeglut-debugsource-0:3.2.1-10.el9.aarch64.rpm",
+				"freeglut-debugsource-0:3.2.1-10.el9.ppc64le.rpm",
+				"freeglut-debugsource-0:3.2.1-10.el9.s390x.rpm",
+				"freeglut-debugsource-0:3.2.1-10.el9.x86_64.rpm",
+				"freeglut-devel-0:3.2.1-10.el9.aarch64.rpm",
+				"freeglut-devel-0:3.2.1-10.el9.i686.rpm",
+				"freeglut-devel-0:3.2.1-10.el9.ppc64le.rpm",
+				"freeglut-devel-0:3.2.1-10.el9.s390x.rpm",
+				"freeglut-devel-0:3.2.1-10.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: freeglut security update",
+	"topic": "An update is available for freeglut.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

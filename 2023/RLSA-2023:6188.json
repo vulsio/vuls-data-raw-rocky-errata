@@ -1,0 +1,127 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44488",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44488"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5721",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5721"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5724",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5724"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5725",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5725"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5728",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5728"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5730",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5730"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5732",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5732"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.4.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: Queued up rendering could have allowed websites to clickjack (CVE-2023-5721)\n\n* Mozilla: Memory safety bugs fixed in Firefox 119, Firefox ESR 115.4, and Thunderbird 115.4 (CVE-2023-5730)\n\n* libvpx: crash related to VP9 encoding in libvpx (CVE-2023-44488)\n\n* Mozilla: Large WebGL draw could have led to a crash (CVE-2023-5724)\n\n* Mozilla: WebExtensions could open arbitrary URLs (CVE-2023-5725)\n\n* Mozilla: Improper object tracking during GC in the JavaScript engine could have led to a crash. (CVE-2023-5728)\n\n* Mozilla: Address bar spoofing via bidirectional characters (CVE-2023-5732)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2241806",
+			"ticket": "2241806"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245896",
+			"ticket": "2245896"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245898",
+			"ticket": "2245898"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245899",
+			"ticket": "2245899"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245900",
+			"ticket": "2245900"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245903",
+			"ticket": "2245903"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2245906",
+			"ticket": "2245906"
+		}
+	],
+	"name": "RLSA-2023:6188",
+	"publishedAt": "2023-11-11T23:00:15.383639Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"firefox-0:115.4.0-1.el9_2.aarch64.rpm",
+				"firefox-0:115.4.0-1.el9_2.ppc64le.rpm",
+				"firefox-0:115.4.0-1.el9_2.s390x.rpm",
+				"firefox-0:115.4.0-1.el9_2.src.rpm",
+				"firefox-debuginfo-0:115.4.0-1.el9_2.aarch64.rpm",
+				"firefox-debuginfo-0:115.4.0-1.el9_2.ppc64le.rpm",
+				"firefox-debuginfo-0:115.4.0-1.el9_2.s390x.rpm",
+				"firefox-debugsource-0:115.4.0-1.el9_2.aarch64.rpm",
+				"firefox-debugsource-0:115.4.0-1.el9_2.ppc64le.rpm",
+				"firefox-debugsource-0:115.4.0-1.el9_2.s390x.rpm",
+				"firefox-x11-0:115.4.0-1.el9_2.aarch64.rpm",
+				"firefox-x11-0:115.4.0-1.el9_2.ppc64le.rpm",
+				"firefox-x11-0:115.4.0-1.el9_2.s390x.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

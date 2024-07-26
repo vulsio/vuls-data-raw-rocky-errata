@@ -1,0 +1,89 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-296",
+			"name": "CVE-2020-26117",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-26117"
+		}
+	],
+	"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nThe following packages have been upgraded to a later upstream version: tigervnc (1.11.0). (BZ#1880985)\n\nSecurity Fix(es):\n\n* tigervnc: certificate exceptions stored as authorities (CVE-2020-26117)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1841537",
+			"ticket": "1841537"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1853608",
+			"ticket": "1853608"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: tigervnc (1.11.0).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1880985",
+			"ticket": "1880985"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1882841",
+			"ticket": "1882841"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1883415",
+			"ticket": "1883415"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1897498",
+			"ticket": "1897498"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1897504",
+			"ticket": "1897504"
+		}
+	],
+	"name": "RLSA-2021:1783",
+	"publishedAt": "2021-05-18T06:04:56Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"tigervnc-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-0:1.11.0-6.el8.src.rpm",
+				"tigervnc-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-debuginfo-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-debuginfo-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-debugsource-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-debugsource-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-icons-0:1.11.0-6.el8.noarch.rpm",
+				"tigervnc-license-0:1.11.0-6.el8.noarch.rpm",
+				"tigervnc-selinux-0:1.11.0-6.el8.noarch.rpm",
+				"tigervnc-server-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-server-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-server-debuginfo-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-server-debuginfo-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-server-minimal-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-server-minimal-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-server-module-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-server-module-0:1.11.0-6.el8.x86_64.rpm",
+				"tigervnc-server-module-debuginfo-0:1.11.0-6.el8.aarch64.rpm",
+				"tigervnc-server-module-debuginfo-0:1.11.0-6.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: tigervnc security, bug fix, and enhancement update",
+	"topic": "An update is available for tigervnc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

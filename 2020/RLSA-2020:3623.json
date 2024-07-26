@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "9.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2020-15810",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15810"
+		},
+		{
+			"cvss3BaseScore": "9.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2020-15811",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15811"
+		}
+	],
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: HTTP Request Smuggling could result in cache poisoning (CVE-2020-15810)\n\n* squid: HTTP Request Splitting could result in cache poisoning (CVE-2020-15811)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1871700",
+			"ticket": "1871700"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1871702",
+			"ticket": "1871702"
+		}
+	],
+	"name": "RLSA-2020:3623",
+	"publishedAt": "2020-09-03T12:36:52Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.src.rpm",
+				"libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: squid:4 security update",
+	"topic": "An update is available for libecap.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

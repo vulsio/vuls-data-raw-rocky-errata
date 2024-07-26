@@ -1,0 +1,117 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.2",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:L",
+			"cwe": "CWE-20",
+			"name": "CVE-2018-3750",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-3750"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-471",
+			"name": "CVE-2019-10746",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10746"
+		},
+		{
+			"cvss3BaseScore": "4.2",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-471",
+			"name": "CVE-2019-10747",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-10747"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2020-7754",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7754"
+		},
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-400",
+			"name": "CVE-2020-7788",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-7788"
+		},
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2020-8265",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8265"
+		},
+		{
+			"cvss3BaseScore": "5.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2020-8287",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-8287"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (12.20.1), nodejs-nodemon (2.0.3).\n\nSecurity Fix(es):\n\n* nodejs-mixin-deep: prototype pollution in function mixin-deep (CVE-2019-10746)\n\n* nodejs-set-value: prototype pollution in function set-value (CVE-2019-10747)\n\n* nodejs-npm-user-validate: improper input validation when validating user emails leads to ReDoS (CVE-2020-7754)\n\n* nodejs-ini: prototype pollution via malicious INI file (CVE-2020-7788)\n\n* nodejs: use-after-free in the TLS implementation (CVE-2020-8265)\n\n* nodejs: HTTP request smuggling via two copies of a header field in an http request (CVE-2020-8287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1795475",
+			"ticket": "1795475"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1795479",
+			"ticket": "1795479"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1892430",
+			"ticket": "1892430"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1907444",
+			"ticket": "1907444"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1912854",
+			"ticket": "1912854"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1912863",
+			"ticket": "1912863"
+		}
+	],
+	"name": "RLSA-2021:0549",
+	"publishedAt": "2021-02-16T07:34:29Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.src.rpm",
+				"nodejs-packaging-0:17-3.module+el8.3.0+101+f84c7154.noarch.rpm",
+				"nodejs-packaging-0:17-3.module+el8.3.0+101+f84c7154.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nodejs:12 security update",
+	"topic": "An update is available for nodejs-nodemon, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

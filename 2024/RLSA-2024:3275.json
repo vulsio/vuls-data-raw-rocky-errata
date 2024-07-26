@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-29483",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-29483"
+		}
+	],
+	"description": "The python-dns package contains the dnslib module that implements a DNS client and additional modules that define certain symbolic constants used by DNS, such as dnstype, dnsclass and dnsopcode.\n\nSecurity Fix(es):\n\n* dnspython: denial of service in stub resolver (CVE-2023-29483)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2274520",
+			"ticket": "2274520"
+		}
+	],
+	"name": "RLSA-2024:3275",
+	"publishedAt": "2024-06-14T13:59:16.809606Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-dns-0:1.15.0-12.el8_10.noarch.rpm",
+				"python-dns-0:1.15.0-12.el8_10.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-dns security update",
+	"topic": "An update is available for python-dns.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

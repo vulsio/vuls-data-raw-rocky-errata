@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45288",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288"
+		}
+	],
+	"description": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.\n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS (CVE-2023-45288,VU#421644.3)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268273",
+			"ticket": "2268273"
+		}
+	],
+	"name": "RLSA-2024:2699",
+	"publishedAt": "2024-05-09T18:50:42.874058Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"git-lfs-0:3.2.0-3.el8_9.aarch64.rpm",
+				"git-lfs-0:3.2.0-3.el8_9.src.rpm",
+				"git-lfs-0:3.2.0-3.el8_9.x86_64.rpm",
+				"git-lfs-debuginfo-0:3.2.0-3.el8_9.aarch64.rpm",
+				"git-lfs-debuginfo-0:3.2.0-3.el8_9.x86_64.rpm",
+				"git-lfs-debugsource-0:3.2.0-3.el8_9.aarch64.rpm",
+				"git-lfs-debugsource-0:3.2.0-3.el8_9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: git-lfs security update",
+	"topic": "An update is available for git-lfs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,91 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-4269",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4269"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-4378",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4378"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-0266",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0266"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-0386",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0386"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: stack overflow in do_proc_dointvec and proc_skip_spaces (CVE-2022-4378)\n\n* ALSA: pcm: Move rwsem lock inside snd_ctl_elem_read to prevent UAF (CVE-2023-0266)\n\n* kernel: FUSE filesystem low-privileged user privileges escalation (CVE-2023-0386)\n\n* kernel: net: CPU soft lockup in TC mirred egress-to-ingress action (CVE-2022-4269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Lazy irq_work does not raise softirq on PREEMPT_RT [rhel-8] (BZ#2172163)\n\n* The latest Rocky Linux 8.7.z3 kernel changes need to be merged into the RT source tree to keep source parity between the two kernels. (BZ#2172278)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2150272",
+			"ticket": "2150272"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2152548",
+			"ticket": "2152548"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2159505",
+			"ticket": "2159505"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2163379",
+			"ticket": "2163379"
+		}
+	],
+	"name": "RLSA-2023:1584",
+	"publishedAt": "2023-04-26T15:28:18.591743Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-425.19.2.rt7.230.el8_7.src.rpm",
+				"kernel-rt-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-425.19.2.rt7.230.el8_7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

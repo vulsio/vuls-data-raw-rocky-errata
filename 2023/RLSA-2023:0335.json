@@ -1,0 +1,114 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-42010",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42010"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2022-42011",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42011"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2022-42012",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-42012"
+		}
+	],
+	"description": "D-Bus is a system for sending messages between applications. It is used both for the system-wide message bus service, and as a per-user-login-session messaging facility.\n\nSecurity Fix(es):\n\n* dbus: dbus-daemon crashes when receiving message with incorrectly nested parentheses and curly brackets (CVE-2022-42010)\n\n* dbus: dbus-daemon can be crashed by messages with array length inconsistent with element type (CVE-2022-42011)\n\n* dbus: `_dbus_marshal_byteswap` doesn't process fds in messages with \"foreign\" endianness correctly (CVE-2022-42012)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2133616",
+			"ticket": "2133616"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2133617",
+			"ticket": "2133617"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2133618",
+			"ticket": "2133618"
+		}
+	],
+	"name": "RLSA-2023:0335",
+	"publishedAt": "2023-01-23T14:30:24Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"dbus-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-1:1.12.20-7.el9_1.src.rpm",
+				"dbus-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-common-1:1.12.20-7.el9_1.noarch.rpm",
+				"dbus-daemon-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-daemon-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-daemon-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-daemon-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-daemon-debuginfo-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-daemon-debuginfo-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-daemon-debuginfo-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-daemon-debuginfo-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-debuginfo-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-debuginfo-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-debuginfo-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-debuginfo-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-debugsource-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-debugsource-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-debugsource-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-debugsource-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-devel-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-devel-1:1.12.20-7.el9_1.i686.rpm",
+				"dbus-devel-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-devel-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-devel-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-libs-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-libs-1:1.12.20-7.el9_1.i686.rpm",
+				"dbus-libs-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-libs-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-libs-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-libs-debuginfo-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-libs-debuginfo-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-libs-debuginfo-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-libs-debuginfo-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-tools-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-tools-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-tools-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-tools-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-tools-debuginfo-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-tools-debuginfo-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-tools-debuginfo-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-tools-debuginfo-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-x11-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-x11-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-x11-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-x11-1:1.12.20-7.el9_1.x86_64.rpm",
+				"dbus-x11-debuginfo-1:1.12.20-7.el9_1.aarch64.rpm",
+				"dbus-x11-debuginfo-1:1.12.20-7.el9_1.ppc64le.rpm",
+				"dbus-x11-debuginfo-1:1.12.20-7.el9_1.s390x.rpm",
+				"dbus-x11-debuginfo-1:1.12.20-7.el9_1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: dbus security update",
+	"topic": "An update is available for dbus.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

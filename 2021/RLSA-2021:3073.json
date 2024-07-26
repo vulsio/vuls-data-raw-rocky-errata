@@ -1,0 +1,84 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-22918",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22918"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-23362",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23362"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-27290",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27290"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (12.22.3). (BZ#1978201)\n\nSecurity Fix(es):\n\n* nodejs-hosted-git-info: Regular Expression denial of service via shortcutMatch in fromUrl() (CVE-2021-23362)\n\n* nodejs-ssri: Regular expression DoS (ReDoS) when parsing malicious SRI in strict mode (CVE-2021-27290)\n\n* libuv: out-of-bounds read in uv__idna_toascii() can lead to information disclosures or crashes (CVE-2021-22918)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1941471",
+			"ticket": "1941471"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1943208",
+			"ticket": "1943208"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1979338",
+			"ticket": "1979338"
+		}
+	],
+	"name": "RLSA-2021:3073",
+	"publishedAt": "2021-08-10T12:00:47Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:12.22.3-2.module+el8.4.0+638+5344c6f7.aarch64.rpm",
+				"nodejs-1:12.22.3-2.module+el8.4.0+638+5344c6f7.src.rpm",
+				"nodejs-1:12.22.3-2.module+el8.4.0+638+5344c6f7.x86_64.rpm",
+				"nodejs-debuginfo-1:12.22.3-2.module+el8.4.0+638+5344c6f7.aarch64.rpm",
+				"nodejs-debuginfo-1:12.22.3-2.module+el8.4.0+638+5344c6f7.x86_64.rpm",
+				"nodejs-debugsource-1:12.22.3-2.module+el8.4.0+638+5344c6f7.aarch64.rpm",
+				"nodejs-debugsource-1:12.22.3-2.module+el8.4.0+638+5344c6f7.x86_64.rpm",
+				"nodejs-devel-1:12.22.3-2.module+el8.4.0+638+5344c6f7.aarch64.rpm",
+				"nodejs-devel-1:12.22.3-2.module+el8.4.0+638+5344c6f7.x86_64.rpm",
+				"nodejs-docs-1:12.22.3-2.module+el8.4.0+638+5344c6f7.noarch.rpm",
+				"nodejs-full-i18n-1:12.22.3-2.module+el8.4.0+638+5344c6f7.aarch64.rpm",
+				"nodejs-full-i18n-1:12.22.3-2.module+el8.4.0+638+5344c6f7.x86_64.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.src.rpm",
+				"nodejs-packaging-0:17-3.module+el8.3.0+101+f84c7154.noarch.rpm",
+				"nodejs-packaging-0:17-3.module+el8.3.0+101+f84c7154.src.rpm",
+				"npm-1:6.14.13-1.12.22.3.2.module+el8.4.0+638+5344c6f7.aarch64.rpm",
+				"npm-1:6.14.13-1.12.22.3.2.module+el8.4.0+638+5344c6f7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nodejs:12 security, bug fix, and enhancement update",
+	"topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

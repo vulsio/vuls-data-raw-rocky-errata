@@ -1,0 +1,193 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48281",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48281"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2023-0795",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0795"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2023-0796",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0796"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2023-0797",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0797"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:L/I:N/A:H",
+			"cwe": "CWE-125",
+			"name": "CVE-2023-0798",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0798"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-0799",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0799"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2023-0800",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0800"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2023-0801",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0801"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2023-0802",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0802"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2023-0803",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0803"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2023-0804",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0804"
+		}
+	],
+	"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: heap-based buffer overflow in processCropSelections() in tools/tiffcrop.c (CVE-2022-48281)\n\n* libtiff: out-of-bounds read in extractContigSamplesShifted16bits() in tools/tiffcrop.c (CVE-2023-0795)\n\n* libtiff: out-of-bounds read in extractContigSamplesShifted24bits() in tools/tiffcrop.c (CVE-2023-0796)\n\n* libtiff: out-of-bounds read in _TIFFmemcpy() in libtiff/tif_unix.c when called by functions in tools/tiffcrop.c (CVE-2023-0797)\n\n* libtiff: out-of-bounds read in extractContigSamplesShifted8bits() in tools/tiffcrop.c (CVE-2023-0798)\n\n* libtiff: use-after-free in extractContigSamplesShifted32bits() in tools/tiffcrop.c (CVE-2023-0799)\n\n* libtiff: out-of-bounds write in extractContigSamplesShifted16bits() in tools/tiffcrop.c (CVE-2023-0800)\n\n* libtiff: out-of-bounds write in _TIFFmemcpy() in libtiff/tif_unix.c when called by functions in tools/tiffcrop.c (CVE-2023-0801)\n\n* libtiff: out-of-bounds write in extractContigSamplesShifted32bits() in tools/tiffcrop.c (CVE-2023-0802)\n\n* libtiff: out-of-bounds write in extractContigSamplesShifted16bits() in tools/tiffcrop.c (CVE-2023-0803)\n\n* libtiff: out-of-bounds write in extractContigSamplesShifted24bits() in tools/tiffcrop.c (CVE-2023-0804)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2163606",
+			"ticket": "2163606"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170119",
+			"ticket": "2170119"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170146",
+			"ticket": "2170146"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170151",
+			"ticket": "2170151"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170157",
+			"ticket": "2170157"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170162",
+			"ticket": "2170162"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170167",
+			"ticket": "2170167"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170172",
+			"ticket": "2170172"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170178",
+			"ticket": "2170178"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170187",
+			"ticket": "2170187"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170192",
+			"ticket": "2170192"
+		}
+	],
+	"name": "RLSA-2023:3711",
+	"publishedAt": "2023-08-31T16:55:40.275990Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"libtiff-0:4.4.0-8.el9_2.i686.rpm",
+				"libtiff-0:4.4.0-8.el9_2.ppc64le.rpm",
+				"libtiff-0:4.4.0-8.el9_2.aarch64.rpm",
+				"libtiff-0:4.4.0-8.el9_2.s390x.rpm",
+				"libtiff-0:4.4.0-8.el9_2.src.rpm",
+				"libtiff-0:4.4.0-8.el9_2.x86_64.rpm",
+				"libtiff-debuginfo-0:4.4.0-8.el9_2.aarch64.rpm",
+				"libtiff-debuginfo-0:4.4.0-8.el9_2.ppc64le.rpm",
+				"libtiff-debuginfo-0:4.4.0-8.el9_2.s390x.rpm",
+				"libtiff-debuginfo-0:4.4.0-8.el9_2.x86_64.rpm",
+				"libtiff-debugsource-0:4.4.0-8.el9_2.aarch64.rpm",
+				"libtiff-debugsource-0:4.4.0-8.el9_2.ppc64le.rpm",
+				"libtiff-debugsource-0:4.4.0-8.el9_2.s390x.rpm",
+				"libtiff-debugsource-0:4.4.0-8.el9_2.x86_64.rpm",
+				"libtiff-devel-0:4.4.0-8.el9_2.aarch64.rpm",
+				"libtiff-devel-0:4.4.0-8.el9_2.i686.rpm",
+				"libtiff-devel-0:4.4.0-8.el9_2.ppc64le.rpm",
+				"libtiff-devel-0:4.4.0-8.el9_2.s390x.rpm",
+				"libtiff-devel-0:4.4.0-8.el9_2.x86_64.rpm",
+				"libtiff-tools-0:4.4.0-8.el9_2.aarch64.rpm",
+				"libtiff-tools-0:4.4.0-8.el9_2.ppc64le.rpm",
+				"libtiff-tools-0:4.4.0-8.el9_2.s390x.rpm",
+				"libtiff-tools-0:4.4.0-8.el9_2.x86_64.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-8.el9_2.aarch64.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-8.el9_2.ppc64le.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-8.el9_2.s390x.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-8.el9_2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libtiff security update",
+	"topic": "An update is available for libtiff.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

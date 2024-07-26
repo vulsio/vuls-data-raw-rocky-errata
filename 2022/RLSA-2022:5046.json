@@ -1,0 +1,70 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-212",
+			"name": "CVE-2022-30184",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30184"
+		}
+	],
+	"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.106 and .NET Runtime 6.0.6.\n\nSecurity Fix(es):\n\n* dotnet: NuGet Credential leak due to loss of control of third party symbol server domain (CVE-2022-30184)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2096963",
+			"ticket": "2096963"
+		}
+	],
+	"name": "RLSA-2022:5046",
+	"publishedAt": "2022-06-15T07:46:48Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"aspnetcore-runtime-6.0-0:6.0.6-1.el8_6.aarch64.rpm",
+				"aspnetcore-runtime-6.0-0:6.0.6-1.el8_6.x86_64.rpm",
+				"aspnetcore-targeting-pack-6.0-0:6.0.6-1.el8_6.aarch64.rpm",
+				"aspnetcore-targeting-pack-6.0-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-0:6.0.106-1.el8_6.x86_64.rpm",
+				"dotnet6.0-0:6.0.106-1.el8_6.src.rpm",
+				"dotnet6.0-debuginfo-0:6.0.106-1.el8_6.aarch64.rpm",
+				"dotnet6.0-debuginfo-0:6.0.106-1.el8_6.x86_64.rpm",
+				"dotnet-apphost-pack-6.0-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-apphost-pack-6.0-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-apphost-pack-6.0-debuginfo-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-apphost-pack-6.0-debuginfo-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-host-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-host-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-host-debuginfo-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-host-debuginfo-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-hostfxr-6.0-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-hostfxr-6.0-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-hostfxr-6.0-debuginfo-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-hostfxr-6.0-debuginfo-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-runtime-6.0-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-runtime-6.0-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-runtime-6.0-debuginfo-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-runtime-6.0-debuginfo-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-sdk-6.0-0:6.0.106-1.el8_6.aarch64.rpm",
+				"dotnet-sdk-6.0-0:6.0.106-1.el8_6.x86_64.rpm",
+				"dotnet-sdk-6.0-debuginfo-0:6.0.106-1.el8_6.aarch64.rpm",
+				"dotnet-sdk-6.0-debuginfo-0:6.0.106-1.el8_6.x86_64.rpm",
+				"dotnet-targeting-pack-6.0-0:6.0.6-1.el8_6.aarch64.rpm",
+				"dotnet-targeting-pack-6.0-0:6.0.6-1.el8_6.x86_64.rpm",
+				"dotnet-templates-6.0-0:6.0.106-1.el8_6.aarch64.rpm",
+				"dotnet-templates-6.0-0:6.0.106-1.el8_6.x86_64.rpm",
+				"netstandard-targeting-pack-2.1-0:6.0.106-1.el8_6.aarch64.rpm",
+				"netstandard-targeting-pack-2.1-0:6.0.106-1.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: .NET 6.0 security and bugfix update",
+	"topic": "An update is available for dotnet6.0.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

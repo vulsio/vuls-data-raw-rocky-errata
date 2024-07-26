@@ -1,0 +1,61 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-787",
+			"name": "CVE-2021-3634",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3634"
+		}
+	],
+	"description": "libssh is a library which implements the SSH protocol. It can be used to implement client and server applications.\n\nThe following packages have been upgraded to a later upstream version: libssh (0.9.6). (BZ#1896651)\n\nSecurity Fix(es):\n\n* libssh: possible heap-based buffer overflow when rekeying (CVE-2021-3634)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"description": "The following packages have been upgraded to a later upstream version: libssh (0.9.6).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1896651",
+			"ticket": "1896651"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1978810",
+			"ticket": "1978810"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2020159",
+			"ticket": "2020159"
+		}
+	],
+	"name": "RLSA-2022:2031",
+	"publishedAt": "2022-05-10T08:14:06Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libssh-0:0.9.6-3.el8.aarch64.rpm",
+				"libssh-0:0.9.6-3.el8.i686.rpm",
+				"libssh-0:0.9.6-3.el8.src.rpm",
+				"libssh-0:0.9.6-3.el8.x86_64.rpm",
+				"libssh-config-0:0.9.6-3.el8.noarch.rpm",
+				"libssh-debuginfo-0:0.9.6-3.el8.aarch64.rpm",
+				"libssh-debuginfo-0:0.9.6-3.el8.i686.rpm",
+				"libssh-debuginfo-0:0.9.6-3.el8.x86_64.rpm",
+				"libssh-debugsource-0:0.9.6-3.el8.aarch64.rpm",
+				"libssh-debugsource-0:0.9.6-3.el8.i686.rpm",
+				"libssh-debugsource-0:0.9.6-3.el8.x86_64.rpm",
+				"libssh-devel-0:0.9.6-3.el8.aarch64.rpm",
+				"libssh-devel-0:0.9.6-3.el8.i686.rpm",
+				"libssh-devel-0:0.9.6-3.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: libssh security, bug fix, and enhancement update",
+	"topic": "An update is available for libssh.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

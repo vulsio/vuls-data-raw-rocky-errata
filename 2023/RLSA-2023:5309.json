@@ -1,0 +1,41 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4863",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4863"
+		}
+	],
+	"description": "The libwebp packages provide a library and tools for the WebP graphics format. WebP is an image format with a lossy compression of digital photographic images. WebP consists of a codec based on the VP8 format, and a container based on the Resource Interchange File Format (RIFF). Webmasters, web developers and browser developers can use WebP to compress, archive, and distribute digital images more efficiently.\n\nSecurity Fix(es):\n\n* libwebp: Heap buffer overflow in WebP Codec (CVE-2023-4863)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238431",
+			"ticket": "2238431"
+		}
+	],
+	"name": "RLSA-2023:5309",
+	"publishedAt": "2023-09-26T13:26:19.935816Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libwebp-0:1.0.0-8.el8_8.1.aarch64.rpm",
+				"libwebp-0:1.0.0-8.el8_8.1.src.rpm",
+				"libwebp-debuginfo-0:1.0.0-8.el8_8.1.aarch64.rpm",
+				"libwebp-debugsource-0:1.0.0-8.el8_8.1.aarch64.rpm",
+				"libwebp-devel-0:1.0.0-8.el8_8.1.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: libwebp security update",
+	"topic": "An update is available for libwebp.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

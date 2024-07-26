@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28834",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834"
+		}
+	],
+	"description": "The gnutls package provide the GNU Transport Layer Security (GnuTLS) library,\nwhich implements cryptographic algorithms and protocols such as SSL, TLS, and\nDTLS.\n\nThis package update fixes a timing side-channel in deterministic ECDSA.\n\nSecurity Fix(es):\n\n* gnutls: vulnerable to Minerva side-channel information leak (CVE-2024-28834)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s)\nlisted in the References section.",
+	"name": "RLSA-2024:1784",
+	"publishedAt": "2024-05-06T13:04:07.180395Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gnutls-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-0:3.6.16-8.el8_9.3.src.rpm",
+				"gnutls-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-c++-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-c++-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-c++-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-c++-debuginfo-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-c++-debuginfo-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-c++-debuginfo-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-dane-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-dane-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-dane-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-dane-debuginfo-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-dane-debuginfo-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-dane-debuginfo-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-debuginfo-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-debuginfo-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-debuginfo-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-debugsource-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-debugsource-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-debugsource-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-devel-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-devel-0:3.6.16-8.el8_9.3.i686.rpm",
+				"gnutls-devel-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-utils-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-utils-0:3.6.16-8.el8_9.3.x86_64.rpm",
+				"gnutls-utils-debuginfo-0:3.6.16-8.el8_9.3.aarch64.rpm",
+				"gnutls-utils-debuginfo-0:3.6.16-8.el8_9.3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gnutls security update",
+	"topic": "An update is available for gnutls.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

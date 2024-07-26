@@ -1,0 +1,79 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2020-12362",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12362"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2020-12363",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12363"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2020-12364",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12364"
+		}
+	],
+	"description": "The linux-firmware packages contain all of the firmware files that are required by various devices to operate.\n\nSecurity Fix(es):\n\n* kernel: Integer overflow in Intel(R) Graphics Drivers (CVE-2020-12362)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1918613",
+			"ticket": "1918613"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1930246",
+			"ticket": "1930246"
+		}
+	],
+	"name": "RLSA-2021:1620",
+	"publishedAt": "2021-05-18T05:40:51Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"iwl1000-firmware-1:39.31.5.1-102.el8.1.noarch.rpm",
+				"iwl100-firmware-0:39.31.5.1-102.el8.1.noarch.rpm",
+				"iwl105-firmware-0:18.168.6.1-102.el8.1.noarch.rpm",
+				"iwl135-firmware-0:18.168.6.1-102.el8.1.noarch.rpm",
+				"iwl2000-firmware-0:18.168.6.1-102.el8.1.noarch.rpm",
+				"iwl2030-firmware-0:18.168.6.1-102.el8.1.noarch.rpm",
+				"iwl3160-firmware-1:25.30.13.0-102.el8.1.noarch.rpm",
+				"iwl3945-firmware-0:15.32.2.9-102.el8.1.noarch.rpm",
+				"iwl4965-firmware-0:228.61.2.24-102.el8.1.noarch.rpm",
+				"iwl5000-firmware-0:8.83.5.1_1-102.el8.1.noarch.rpm",
+				"iwl5150-firmware-0:8.24.2.2-102.el8.1.noarch.rpm",
+				"iwl6000-firmware-0:9.221.4.1-102.el8.1.noarch.rpm",
+				"iwl6000g2a-firmware-0:18.168.6.1-102.el8.1.noarch.rpm",
+				"iwl6000g2b-firmware-0:18.168.6.1-102.el8.1.noarch.rpm",
+				"iwl6050-firmware-0:41.28.5.1-102.el8.1.noarch.rpm",
+				"iwl7260-firmware-1:25.30.13.0-102.el8.1.noarch.rpm",
+				"libertas-sd8686-firmware-0:20201218-102.git05789708.el8.noarch.rpm",
+				"libertas-sd8787-firmware-0:20201218-102.git05789708.el8.noarch.rpm",
+				"libertas-usb8388-firmware-2:20201218-102.git05789708.el8.noarch.rpm",
+				"libertas-usb8388-olpc-firmware-0:20201218-102.git05789708.el8.noarch.rpm",
+				"linux-firmware-0:20201218-102.git05789708.el8.noarch.rpm",
+				"linux-firmware-0:20201218-102.git05789708.el8.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: linux-firmware security, bug fix, and enhancement update",
+	"topic": "An update is available for linux-firmware.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

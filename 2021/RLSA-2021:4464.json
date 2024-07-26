@@ -1,0 +1,189 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-347",
+			"name": "CVE-2021-3445",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3445"
+		}
+	],
+	"description": "dnf is a package manager that allows users to manage packages on their systems. It supports RPMs, modules and comps groups & environments.\n\nSecurity Fix(es):\n\n* libdnf: Signature verification bypass via signature placed in the main RPM header (CVE-2021-3445)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1804234",
+			"ticket": "1804234"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1818118",
+			"ticket": "1818118"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1847035",
+			"ticket": "1847035"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1893176",
+			"ticket": "1893176"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1898293",
+			"ticket": "1898293"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1904490",
+			"ticket": "1904490"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1906970",
+			"ticket": "1906970"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1913962",
+			"ticket": "1913962"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1914827",
+			"ticket": "1914827"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1918475",
+			"ticket": "1918475"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1926261",
+			"ticket": "1926261"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1926771",
+			"ticket": "1926771"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1929163",
+			"ticket": "1929163"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1929667",
+			"ticket": "1929667"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932079",
+			"ticket": "1932079"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1934499",
+			"ticket": "1934499"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1940345",
+			"ticket": "1940345"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951409",
+			"ticket": "1951409"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951411",
+			"ticket": "1951411"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1951414",
+			"ticket": "1951414"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1957280",
+			"ticket": "1957280"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961632",
+			"ticket": "1961632"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961633",
+			"ticket": "1961633"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961634",
+			"ticket": "1961634"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1967454",
+			"ticket": "1967454"
+		}
+	],
+	"name": "RLSA-2021:4464",
+	"publishedAt": "2021-11-09T09:25:37Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"dnf-0:4.7.0-4.el8.noarch.rpm",
+				"dnf-0:4.7.0-4.el8.src.rpm",
+				"dnf-automatic-0:4.7.0-4.el8.noarch.rpm",
+				"dnf-data-0:4.7.0-4.el8.noarch.rpm",
+				"dnf-plugins-core-0:4.0.21-3.el8.noarch.rpm",
+				"dnf-plugins-core-0:4.0.21-3.el8.src.rpm",
+				"libdnf-0:0.63.0-3.el8.aarch64.rpm",
+				"libdnf-0:0.63.0-3.el8.i686.rpm",
+				"libdnf-0:0.63.0-3.el8.src.rpm",
+				"libdnf-0:0.63.0-3.el8.x86_64.rpm",
+				"libdnf-debuginfo-0:0.63.0-3.el8.aarch64.rpm",
+				"libdnf-debuginfo-0:0.63.0-3.el8.i686.rpm",
+				"libdnf-debuginfo-0:0.63.0-3.el8.x86_64.rpm",
+				"libdnf-debugsource-0:0.63.0-3.el8.aarch64.rpm",
+				"libdnf-debugsource-0:0.63.0-3.el8.i686.rpm",
+				"libdnf-debugsource-0:0.63.0-3.el8.x86_64.rpm",
+				"libdnf-devel-0:0.63.0-3.el8.aarch64.rpm",
+				"libdnf-devel-0:0.63.0-3.el8.i686.rpm",
+				"libdnf-devel-0:0.63.0-3.el8.x86_64.rpm",
+				"python3-dnf-0:4.7.0-4.el8.noarch.rpm",
+				"python3-dnf-plugin-post-transaction-actions-0:4.0.21-3.el8.noarch.rpm",
+				"python3-dnf-plugins-core-0:4.0.21-3.el8.noarch.rpm",
+				"python3-dnf-plugin-versionlock-0:4.0.21-3.el8.noarch.rpm",
+				"python3-hawkey-0:0.63.0-3.el8.aarch64.rpm",
+				"python3-hawkey-0:0.63.0-3.el8.x86_64.rpm",
+				"python3-hawkey-debuginfo-0:0.63.0-3.el8.aarch64.rpm",
+				"python3-hawkey-debuginfo-0:0.63.0-3.el8.x86_64.rpm",
+				"python3-libdnf-0:0.63.0-3.el8.aarch64.rpm",
+				"python3-libdnf-0:0.63.0-3.el8.x86_64.rpm",
+				"python3-libdnf-debuginfo-0:0.63.0-3.el8.aarch64.rpm",
+				"python3-libdnf-debuginfo-0:0.63.0-3.el8.x86_64.rpm",
+				"yum-0:4.7.0-4.el8.noarch.rpm",
+				"yum-utils-0:4.0.21-3.el8.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: dnf security and bug fix update",
+	"topic": "An update is available for dnf-plugins-core, dnf, libdnf.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,90 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-30581",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30581"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-30588",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30588"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-30589",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30589"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-30590",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-30590"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe package has been upgraded to a later upstream version: nodejs (16.20.1). (BZ#2223678, BZ#2223680, BZ#2223682, BZ#2223684, BZ#2223686, BZ#2223688)\n\nSecurity Fix(es):\n\n* nodejs: mainModule.proto bypass experimental policy mechanism (CVE-2023-30581)\n\n* nodejs: process interuption due to invalid Public Key information in x509 certificates (CVE-2023-30588)\n\n* nodejs: HTTP Request Smuggling via Empty headers separated by CR (CVE-2023-30589)\n\n* nodejs: DiffieHellman do not generate keys after setting a private key (CVE-2023-30590)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219824",
+			"ticket": "2219824"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219838",
+			"ticket": "2219838"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219841",
+			"ticket": "2219841"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2219842",
+			"ticket": "2219842"
+		},
+		{
+			"description": "The package has been upgraded to a later upstream version: nodejs (16.20.1). (BZ#2223678, BZ#2223680, BZ#2223682, BZ#2223684, BZ#2223686, BZ#2223688)",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2223678",
+			"ticket": "2223678"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2223688",
+			"ticket": "2223688"
+		}
+	],
+	"name": "RLSA-2023:4537",
+	"publishedAt": "2023-08-08T12:34:39.911838Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-nodemon-0:2.0.20-3.module+el8.7.0+1178+d52dba78.noarch.rpm",
+				"nodejs-nodemon-0:2.0.20-3.module+el8.7.0+1178+d52dba78.src.rpm",
+				"nodejs-packaging-0:25-1.module+el8.7.0+1108+49363b0d.noarch.rpm",
+				"nodejs-packaging-0:25-1.module+el8.7.0+1108+49363b0d.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nodejs:16 security, bug fix, and enhancement update",
+	"topic": "An update is available for nodejs-packaging, module.nodejs-nodemon, module.nodejs-packaging, nodejs-nodemon.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

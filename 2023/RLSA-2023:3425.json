@@ -1,0 +1,53 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-94",
+			"name": "CVE-2023-24805",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-24805"
+		}
+	],
+	"description": "The cups-filters package contains back ends, filters, and other software that was once part of the core Common UNIX Printing System (CUPS) distribution but is now maintained independently. \n\nSecurity Fix(es):\n\n* cups-filters: remote code execution in cups-filters, beh CUPS backend (CVE-2023-24805)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2203051",
+			"ticket": "2203051"
+		}
+	],
+	"name": "RLSA-2023:3425",
+	"publishedAt": "2023-08-31T16:54:34.048467Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cups-filters-0:1.20.0-29.el8_8.2.aarch64.rpm",
+				"cups-filters-0:1.20.0-29.el8_8.2.src.rpm",
+				"cups-filters-0:1.20.0-29.el8_8.2.x86_64.rpm",
+				"cups-filters-debuginfo-0:1.20.0-29.el8_8.2.aarch64.rpm",
+				"cups-filters-debuginfo-0:1.20.0-29.el8_8.2.i686.rpm",
+				"cups-filters-debuginfo-0:1.20.0-29.el8_8.2.x86_64.rpm",
+				"cups-filters-debugsource-0:1.20.0-29.el8_8.2.aarch64.rpm",
+				"cups-filters-debugsource-0:1.20.0-29.el8_8.2.x86_64.rpm",
+				"cups-filters-devel-0:1.20.0-29.el8_8.2.aarch64.rpm",
+				"cups-filters-devel-0:1.20.0-29.el8_8.2.i686.rpm",
+				"cups-filters-devel-0:1.20.0-29.el8_8.2.x86_64.rpm",
+				"cups-filters-libs-0:1.20.0-29.el8_8.2.aarch64.rpm",
+				"cups-filters-libs-0:1.20.0-29.el8_8.2.i686.rpm",
+				"cups-filters-libs-0:1.20.0-29.el8_8.2.x86_64.rpm",
+				"cups-filters-libs-debuginfo-0:1.20.0-29.el8_8.2.aarch64.rpm",
+				"cups-filters-libs-debuginfo-0:1.20.0-29.el8_8.2.i686.rpm",
+				"cups-filters-libs-debuginfo-0:1.20.0-29.el8_8.2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: cups-filters security update",
+	"topic": "An update is available for cups-filters.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

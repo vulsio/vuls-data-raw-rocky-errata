@@ -1,0 +1,67 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48622",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48622"
+		}
+	],
+	"description": "The gdk-pixbuf2 packages provide an image loading library that can be extended\nby loadable modules for new image formats. It is used by toolkits such as GTK+\nor clutter.\n\nSecurity Fix(es):\n\n* gdk-pixbuf2: heap memory corruption on gdk-pixbuf (CVE-2022-48622)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2260545",
+			"ticket": "2260545"
+		}
+	],
+	"name": "RLSA-2024:3341",
+	"publishedAt": "2024-06-14T13:59:16.809606Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gdk-pixbuf2-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-0:2.36.12-6.el8_10.src.rpm",
+				"gdk-pixbuf2-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-debuginfo-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-debuginfo-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-debuginfo-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-debugsource-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-debugsource-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-debugsource-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-devel-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-devel-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-devel-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-devel-debuginfo-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-devel-debuginfo-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-devel-debuginfo-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-modules-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-modules-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-modules-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-modules-debuginfo-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-modules-debuginfo-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-modules-debuginfo-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-xlib-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-xlib-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-xlib-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-xlib-debuginfo-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-xlib-debuginfo-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-xlib-debuginfo-0:2.36.12-6.el8_10.x86_64.rpm",
+				"gdk-pixbuf2-xlib-devel-0:2.36.12-6.el8_10.aarch64.rpm",
+				"gdk-pixbuf2-xlib-devel-0:2.36.12-6.el8_10.i686.rpm",
+				"gdk-pixbuf2-xlib-devel-0:2.36.12-6.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gdk-pixbuf2 security update",
+	"topic": "An update is available for gdk-pixbuf2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

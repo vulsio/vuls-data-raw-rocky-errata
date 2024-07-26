@@ -1,0 +1,50 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-444",
+			"name": "CVE-2021-36740",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-36740"
+		}
+	],
+	"description": "Varnish Cache is a high-performance HTTP accelerator. It stores web pages in memory so web servers don't have to create the same web page over and over again, giving the website a significant speed up.\n\nSecurity Fix(es):\n\n* varnish: HTTP/2 request smuggling attack via a large Content-Length header for a POST request (CVE-2021-36740)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1982409",
+			"ticket": "1982409"
+		}
+	],
+	"name": "RLSA-2021:2988",
+	"publishedAt": "2021-08-02T14:30:38Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"varnish-0:6.0.6-2.module+el8.3.0+179+20b582cc.aarch64.rpm",
+				"varnish-0:6.0.6-2.module+el8.3.0+179+20b582cc.src.rpm",
+				"varnish-0:6.0.6-2.module+el8.3.0+179+20b582cc.x86_64.rpm",
+				"varnish-devel-0:6.0.6-2.module+el8.3.0+179+20b582cc.aarch64.rpm",
+				"varnish-devel-0:6.0.6-2.module+el8.3.0+179+20b582cc.x86_64.rpm",
+				"varnish-docs-0:6.0.6-2.module+el8.3.0+179+20b582cc.aarch64.rpm",
+				"varnish-docs-0:6.0.6-2.module+el8.3.0+179+20b582cc.x86_64.rpm",
+				"varnish-modules-0:0.15.0-5.module+el8.3.0+179+20b582cc.aarch64.rpm",
+				"varnish-modules-0:0.15.0-5.module+el8.3.0+179+20b582cc.src.rpm",
+				"varnish-modules-0:0.15.0-5.module+el8.3.0+179+20b582cc.x86_64.rpm",
+				"varnish-modules-debuginfo-0:0.15.0-5.module+el8.3.0+179+20b582cc.aarch64.rpm",
+				"varnish-modules-debuginfo-0:0.15.0-5.module+el8.3.0+179+20b582cc.x86_64.rpm",
+				"varnish-modules-debugsource-0:0.15.0-5.module+el8.3.0+179+20b582cc.aarch64.rpm",
+				"varnish-modules-debugsource-0:0.15.0-5.module+el8.3.0+179+20b582cc.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: varnish:6 security update",
+	"topic": "An update is available for varnish, varnish-modules.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

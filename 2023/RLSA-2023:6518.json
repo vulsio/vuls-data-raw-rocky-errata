@@ -1,0 +1,93 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-28100",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28100"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-28101",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28101"
+		}
+	],
+	"description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nThe following packages have been upgraded to a later upstream version: flatpak (1.12.8). (BZ#2221792)\n\nSecurity Fix(es):\n\n* flatpak: TIOCLINUX can send commands outside sandbox if running on a virtual console (CVE-2023-28100)\n\n* flatpak: Metadata with ANSI control codes can cause misleading terminal output (CVE-2023-28101)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2179219",
+			"ticket": "2179219"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2179220",
+			"ticket": "2179220"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: flatpak (1.12.8).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2221792",
+			"ticket": "2221792"
+		}
+	],
+	"name": "RLSA-2023:6518",
+	"publishedAt": "2024-05-10T14:32:38.114770Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"flatpak-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-0:1.12.8-1.el9.i686.rpm",
+				"flatpak-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-0:1.12.8-1.el9.src.rpm",
+				"flatpak-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-debuginfo-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-debuginfo-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-debuginfo-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-debuginfo-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-debugsource-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-debugsource-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-debugsource-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-debugsource-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-devel-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-devel-0:1.12.8-1.el9.i686.rpm",
+				"flatpak-devel-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-devel-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-devel-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-libs-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-libs-0:1.12.8-1.el9.i686.rpm",
+				"flatpak-libs-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-libs-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-libs-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-libs-debuginfo-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-libs-debuginfo-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-libs-debuginfo-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-libs-debuginfo-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-selinux-0:1.12.8-1.el9.noarch.rpm",
+				"flatpak-session-helper-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-session-helper-0:1.12.8-1.el9.i686.rpm",
+				"flatpak-session-helper-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-session-helper-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-session-helper-0:1.12.8-1.el9.x86_64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.8-1.el9.aarch64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.8-1.el9.ppc64le.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.8-1.el9.s390x.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.8-1.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: flatpak security, bug fix, and enhancement update",
+	"topic": "An update is available for flatpak.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

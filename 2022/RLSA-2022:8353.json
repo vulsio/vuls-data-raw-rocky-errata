@@ -1,0 +1,106 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:L",
+			"cwe": "CWE-20->CWE-77",
+			"name": "CVE-2015-20107",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-20107"
+		},
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+			"cwe": "CWE-601",
+			"name": "CVE-2021-28861",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28861"
+		}
+	],
+	"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nThe following packages have been upgraded to a later upstream version: python3.9 (3.9.14). (BZ#2128249)\n\nSecurity Fix(es):\n\n* python: mailcap: findmatch() function does not sanitize the second argument (CVE-2015-20107)\n\n* python: open redirection vulnerability in lib/http/server.py may lead to information disclosure (CVE-2021-28861)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2054702",
+			"ticket": "2054702"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2059951",
+			"ticket": "2059951"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2075390",
+			"ticket": "2075390"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2120642",
+			"ticket": "2120642"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: python3.9 (3.9.14).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2128249",
+			"ticket": "2128249"
+		}
+	],
+	"name": "RLSA-2022:8353",
+	"publishedAt": "2022-11-15T06:22:23Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"python3-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3.9-0:3.9.14-1.el9_1.1.src.rpm",
+				"python3.9-debuginfo-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3.9-debuginfo-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3.9-debuginfo-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3.9-debuginfo-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3-debug-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-debug-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-debug-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-debug-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-debug-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3-devel-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-devel-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-devel-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-devel-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-devel-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3-idle-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-idle-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-idle-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-idle-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-idle-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3-libs-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-libs-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-libs-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-libs-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-libs-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3-test-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-test-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-test-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-test-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-test-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python3-tkinter-0:3.9.14-1.el9_1.1.aarch64.rpm",
+				"python3-tkinter-0:3.9.14-1.el9_1.1.i686.rpm",
+				"python3-tkinter-0:3.9.14-1.el9_1.1.ppc64le.rpm",
+				"python3-tkinter-0:3.9.14-1.el9_1.1.s390x.rpm",
+				"python3-tkinter-0:3.9.14-1.el9_1.1.x86_64.rpm",
+				"python-unversioned-command-0:3.9.14-1.el9_1.1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python3.9 security, bug fix, and enhancement update",
+	"topic": "An update is available for python3.9.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,81 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-22883",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22883"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-22884",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22884"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nThe following packages have been upgraded to a later upstream version: nodejs (14.16.0).\n\nSecurity Fix(es):\n\n* nodejs: HTTP2 'unknownProtocol' cause DoS by resource exhaustion (CVE-2021-22883)\n\n* nodejs: DNS rebinding in --inspect (CVE-2021-22884)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Node.js should not be built with \"--debug-nghttp2\" (BZ#1932427)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932014",
+			"ticket": "1932014"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932024",
+			"ticket": "1932024"
+		},
+		{
+			"description": "* Node.js should not be built with \"--debug-nghttp2\"",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1932427",
+			"ticket": "1932427"
+		}
+	],
+	"name": "RLSA-2021:0744",
+	"publishedAt": "2021-03-08T09:55:44Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:14.16.0-2.module+el8.3.0+100+234774f7.aarch64.rpm",
+				"nodejs-1:14.16.0-2.module+el8.3.0+100+234774f7.src.rpm",
+				"nodejs-1:14.16.0-2.module+el8.3.0+100+234774f7.x86_64.rpm",
+				"nodejs-debuginfo-1:14.16.0-2.module+el8.3.0+100+234774f7.aarch64.rpm",
+				"nodejs-debuginfo-1:14.16.0-2.module+el8.3.0+100+234774f7.x86_64.rpm",
+				"nodejs-debugsource-1:14.16.0-2.module+el8.3.0+100+234774f7.aarch64.rpm",
+				"nodejs-debugsource-1:14.16.0-2.module+el8.3.0+100+234774f7.x86_64.rpm",
+				"nodejs-devel-1:14.16.0-2.module+el8.3.0+100+234774f7.aarch64.rpm",
+				"nodejs-devel-1:14.16.0-2.module+el8.3.0+100+234774f7.x86_64.rpm",
+				"nodejs-docs-1:14.16.0-2.module+el8.3.0+100+234774f7.noarch.rpm",
+				"nodejs-full-i18n-1:14.16.0-2.module+el8.3.0+100+234774f7.aarch64.rpm",
+				"nodejs-full-i18n-1:14.16.0-2.module+el8.3.0+100+234774f7.x86_64.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.src.rpm",
+				"nodejs-packaging-0:23-3.module+el8.7.0+1071+4bdda2a8.noarch.rpm",
+				"nodejs-packaging-0:23-3.module+el8.3.0+100+234774f7.noarch.rpm",
+				"nodejs-packaging-0:23-3.module+el8.5.0+733+de4fee6c.noarch.rpm",
+				"nodejs-packaging-0:23-3.module+el8.7.0+1071+4bdda2a8.src.rpm",
+				"nodejs-packaging-0:23-3.module+el8.3.0+100+234774f7.src.rpm",
+				"nodejs-packaging-0:23-3.module+el8.5.0+733+de4fee6c.src.rpm",
+				"npm-1:6.14.11-1.14.16.0.2.module+el8.3.0+100+234774f7.aarch64.rpm",
+				"npm-1:6.14.11-1.14.16.0.2.module+el8.3.0+100+234774f7.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nodejs:14 security and bug fix update",
+	"topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,79 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2021-22570",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22570"
+		}
+	],
+	"description": "The protobuf packages provide Protocol Buffers, Google's data interchange format. Protocol Buffers can encode structured data in an efficient yet extensible format, and provide a flexible, efficient, and automated mechanism for serializing structured data.\n\nSecurity Fix(es):\n\n* protobuf: Incorrect parsing of nullchar in the proto symbol leads to Nullptr dereference (CVE-2021-22570)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2049429",
+			"ticket": "2049429"
+		}
+	],
+	"name": "RLSA-2022:7970",
+	"publishedAt": "2022-11-15T06:12:20Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"protobuf-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-0:3.14.0-13.el9.i686.rpm",
+				"protobuf-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-0:3.14.0-13.el9.src.rpm",
+				"protobuf-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-compiler-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-compiler-0:3.14.0-13.el9.i686.rpm",
+				"protobuf-compiler-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-compiler-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-compiler-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-compiler-debuginfo-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-compiler-debuginfo-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-compiler-debuginfo-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-compiler-debuginfo-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-debuginfo-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-debuginfo-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-debuginfo-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-debuginfo-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-debugsource-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-debugsource-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-debugsource-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-debugsource-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-devel-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-devel-0:3.14.0-13.el9.i686.rpm",
+				"protobuf-devel-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-devel-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-devel-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-lite-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-lite-0:3.14.0-13.el9.i686.rpm",
+				"protobuf-lite-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-lite-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-lite-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-lite-debuginfo-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-lite-debuginfo-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-lite-debuginfo-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-lite-debuginfo-0:3.14.0-13.el9.x86_64.rpm",
+				"protobuf-lite-devel-0:3.14.0-13.el9.aarch64.rpm",
+				"protobuf-lite-devel-0:3.14.0-13.el9.i686.rpm",
+				"protobuf-lite-devel-0:3.14.0-13.el9.ppc64le.rpm",
+				"protobuf-lite-devel-0:3.14.0-13.el9.s390x.rpm",
+				"protobuf-lite-devel-0:3.14.0-13.el9.x86_64.rpm",
+				"python3-protobuf-0:3.14.0-13.el9.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: protobuf security update",
+	"topic": "An update is available for protobuf.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,113 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-776",
+			"name": "CVE-2015-9541",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-9541"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2018-21035",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-21035"
+		},
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-73",
+			"name": "CVE-2020-0569",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0569"
+		},
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-73",
+			"name": "CVE-2020-0570",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-0570"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-391",
+			"name": "CVE-2020-13962",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13962"
+		}
+	],
+	"description": "Qt is a software toolkit for developing applications. The qt5-base packages contain base tools for string, xml, and network handling in Qt. \n\nSecurity Fix(es):\n\n* qt: XML entity expansion vulnerability (CVE-2015-9541)\n\n* qt5-qtwebsockets: websocket implementation allows only limited size for frames and messages therefore attacker can cause DOS (CVE-2018-21035)\n\n* qt: files placed by attacker can influence the working directory and lead to malicious code execution (CVE-2020-0569)\n\n* qt: files placed by attacker can influence the working directory and lead to malicious code execution (CVE-2020-0570)\n\n* qt5: incorrectly calls SSL_shutdown() in OpenSSL mid-handshake causing denial of service in TLS applications (CVE-2020-13962)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1800600",
+			"ticket": "1800600"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1800604",
+			"ticket": "1800604"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1801369",
+			"ticket": "1801369"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1810964",
+			"ticket": "1810964"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1832857",
+			"ticket": "1832857"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1849734",
+			"ticket": "1849734"
+		}
+	],
+	"name": "RLSA-2020:4690",
+	"publishedAt": "2020-11-03T12:27:18Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"qt5-qtwebsockets-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-0:5.12.5-2.el8.i686.rpm",
+				"qt5-qtwebsockets-0:5.12.5-2.el8.src.rpm",
+				"qt5-qtwebsockets-0:5.12.5-2.el8.x86_64.rpm",
+				"qt5-qtwebsockets-debuginfo-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-debuginfo-0:5.12.5-2.el8.i686.rpm",
+				"qt5-qtwebsockets-debuginfo-0:5.12.5-2.el8.x86_64.rpm",
+				"qt5-qtwebsockets-debugsource-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-debugsource-0:5.12.5-2.el8.i686.rpm",
+				"qt5-qtwebsockets-debugsource-0:5.12.5-2.el8.x86_64.rpm",
+				"qt5-qtwebsockets-devel-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-devel-0:5.12.5-2.el8.i686.rpm",
+				"qt5-qtwebsockets-devel-0:5.12.5-2.el8.x86_64.rpm",
+				"qt5-qtwebsockets-devel-debuginfo-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-devel-debuginfo-0:5.12.5-2.el8.i686.rpm",
+				"qt5-qtwebsockets-devel-debuginfo-0:5.12.5-2.el8.x86_64.rpm",
+				"qt5-qtwebsockets-examples-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-examples-0:5.12.5-2.el8.x86_64.rpm",
+				"qt5-qtwebsockets-examples-debuginfo-0:5.12.5-2.el8.aarch64.rpm",
+				"qt5-qtwebsockets-examples-debuginfo-0:5.12.5-2.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: qt5-qtbase and qt5-qtwebsockets security and bug fix update",
+	"topic": "An update is available for qt5-qtwebsockets.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,118 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-39417",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39417"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-39418",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39418"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5868",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5868"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5869",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5869"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5870",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5870"
+		}
+	],
+	"description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nSecurity Fix(es):\n\n* postgresql: Buffer overrun from integer overflow in array modification (CVE-2023-5869)\n\n* postgresql: Memory disclosure in aggregate function calls (CVE-2023-5868)\n\n* postgresql: extension script @substitutions@ within quoting allow SQL injection (CVE-2023-39417)\n\n* postgresql: Role pg_signal_backend can signal certain superuser processes. (CVE-2023-5870)\n\n* postgresql: MERGE fails to enforce UPDATE or SELECT row security policies (CVE-2023-39418)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2228111",
+			"ticket": "2228111"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2228112",
+			"ticket": "2228112"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2247168",
+			"ticket": "2247168"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2247169",
+			"ticket": "2247169"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2247170",
+			"ticket": "2247170"
+		}
+	],
+	"name": "RLSA-2023:7785",
+	"publishedAt": "2024-01-09T04:08:12.474359Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"pgaudit-0:1.7.0-1.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.2.0+14925+a515b28a.src.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"pg_repack-0:1.4.8-1.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"pg_repack-0:1.4.8-1.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"pg_repack-0:1.4.8-1.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"pg_repack-0:1.4.8-1.module+el9.2.0+14925+a515b28a.src.rpm",
+				"pg_repack-debuginfo-0:1.4.8-1.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"pg_repack-debuginfo-0:1.4.8-1.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"pg_repack-debuginfo-0:1.4.8-1.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"pg_repack-debugsource-0:1.4.8-1.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"pg_repack-debugsource-0:1.4.8-1.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"pg_repack-debugsource-0:1.4.8-1.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.src.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.s390x.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.aarch64.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.ppc64le.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.2.0+14925+a515b28a.s390x.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: postgresql:15 security update",
+	"topic": "An update is available for module.pgaudit, pgaudit, module.pg_repack, module.postgres-decoderbufs, pg_repack, postgres-decoderbufs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

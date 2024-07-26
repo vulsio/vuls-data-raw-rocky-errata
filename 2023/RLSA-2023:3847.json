@@ -1,0 +1,89 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-28466",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-28466"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: tls: race condition in do_tls_getsockopt may lead to use-after-free or NULL pointer dereference (CVE-2023-28466)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* RPL-P IOTG/RPL-S IOTG: cpu frequency issues (BZ#2179332)\n\n* iscsi target deadlocks when the same host acts as an initiator to itself (i.e. connects via 127.0.0.1) (BZ#2182092)\n\n* HPEMC Rocky Linux 8 REGRESSION: acpi-cpufreq: Skip initialization if a cpufreq driver exists (BZ#2186305)\n\n* kernel[-rt]: task deadline_test:2526 blocked for more than 600 seconds. (BZ#2188623)\n\n* Dying percpu kworkers cause issues on isolated CPUs [rhel-8] (BZ#2189595)\n\n* block layer: cherry pick recent upstream fixes (up to v6.3-rc1) for 8.9 (BZ#2193236)\n\n* xfs: deadlock in xfs_btree_split_worker (BZ#2196390)\n\n* Rocky Linux 8.9 hwpoison: data loss when memory error occurs on hugetlb pagecache (BZ#2196665)\n\n* Intel E810 card unable to create a MACVLAN on interface already configured as SRIOV (BZ#2203214)\n\n* mlxsw: kselftest case -usr-libexec-kselftests-drivers-net-mlxsw-devlink-trap-policer-sh trigger call trace (BZ#2207564)\n\n* Invalid character detected by rpminspect in Documentation/translations/zh_CN/process/magic-number.rst (BZ#2208284)\n\nEnhancement(s):\n\n* Intel 8.9 FEAT SPR power: Intel SST SNC4 support (BZ#2185604)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2179000",
+			"ticket": "2179000"
+		}
+	],
+	"name": "RLSA-2023:3847",
+	"publishedAt": "2023-08-31T16:54:20.523044Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bpftool-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"bpftool-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"bpftool-debuginfo-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"bpftool-debuginfo-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-0:4.18.0-477.15.1.el8_8.src.rpm",
+				"kernel-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-abi-stablelists-0:4.18.0-477.15.1.el8_8.noarch.rpm",
+				"kernel-core-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-core-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-cross-headers-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-cross-headers-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debug-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debug-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debug-core-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debug-core-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debug-devel-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debug-devel-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debuginfo-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debuginfo-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debuginfo-common-aarch64-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debuginfo-common-x86_64-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debug-modules-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debug-modules-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-devel-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-devel-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-doc-0:4.18.0-477.15.1.el8_8.noarch.rpm",
+				"kernel-headers-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-headers-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-modules-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-modules-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-modules-extra-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-modules-extra-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-tools-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-tools-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-tools-libs-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-tools-libs-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"perf-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"perf-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"perf-debuginfo-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"perf-debuginfo-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"python3-perf-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"python3-perf-0:4.18.0-477.15.1.el8_8.x86_64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-477.15.1.el8_8.aarch64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-477.15.1.el8_8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: kernel security, bug fix, and enhancement update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

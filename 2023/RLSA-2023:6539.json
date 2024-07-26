@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-31484",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-31484"
+		}
+	],
+	"description": "The CPAN module is a tool to query, download and build perl modules from CPAN sites.\n\nSecurity Fix(es):\n\n* perl: CPAN.pm does not verify TLS certificates when downloading distributions over HTTPS (CVE-2023-31484)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2218667",
+			"ticket": "2218667"
+		}
+	],
+	"name": "RLSA-2023:6539",
+	"publishedAt": "2024-05-10T14:32:42.380544Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"perl-CPAN-0:2.29-3.el9.noarch.rpm",
+				"perl-CPAN-0:2.29-3.el9.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: perl-CPAN security update",
+	"topic": "An update is available for perl-CPAN.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

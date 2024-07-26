@@ -1,0 +1,89 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28834",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28834"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28835",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28835"
+		}
+	],
+	"description": "The gnutls package provide the GNU Transport Layer Security (GnuTLS) library, which implements cryptographic algorithms and protocols such as SSL, TLS, and DTLS.\n\nSecurity Fix(es):\n\n* gnutls: vulnerable to Minerva side-channel information leak (CVE-2024-28834)\n\n* gnutls: potential crash during chain building/verification (CVE-2024-28835)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2269084",
+			"ticket": "2269084"
+		}
+	],
+	"name": "RLSA-2024:2570",
+	"publishedAt": "2024-05-10T14:32:36.204878Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"gnutls-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-0:3.8.3-4.el9_4.i686.rpm",
+				"gnutls-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-0:3.8.3-4.el9_4.src.rpm",
+				"gnutls-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-c++-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-c++-0:3.8.3-4.el9_4.i686.rpm",
+				"gnutls-c++-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-c++-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-c++-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-c++-debuginfo-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-c++-debuginfo-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-c++-debuginfo-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-c++-debuginfo-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-dane-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-dane-0:3.8.3-4.el9_4.i686.rpm",
+				"gnutls-dane-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-dane-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-dane-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-dane-debuginfo-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-dane-debuginfo-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-dane-debuginfo-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-dane-debuginfo-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-debuginfo-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-debuginfo-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-debuginfo-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-debuginfo-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-debugsource-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-debugsource-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-debugsource-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-debugsource-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-devel-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-devel-0:3.8.3-4.el9_4.i686.rpm",
+				"gnutls-devel-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-devel-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-devel-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-utils-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-utils-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-utils-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-utils-0:3.8.3-4.el9_4.x86_64.rpm",
+				"gnutls-utils-debuginfo-0:3.8.3-4.el9_4.aarch64.rpm",
+				"gnutls-utils-debuginfo-0:3.8.3-4.el9_4.ppc64le.rpm",
+				"gnutls-utils-debuginfo-0:3.8.3-4.el9_4.s390x.rpm",
+				"gnutls-utils-debuginfo-0:3.8.3-4.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gnutls security update",
+	"topic": "An update is available for gnutls.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

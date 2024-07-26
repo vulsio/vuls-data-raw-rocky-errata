@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-190->CWE-122",
+			"name": "CVE-2020-15999",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-15999"
+		}
+	],
+	"description": "FreeType is a free, high-quality, portable font engine that can open and manage font files. FreeType loads, hints, and renders individual glyphs efficiently.\n\nSecurity Fix(es):\n\n* freetype: Heap-based buffer overflow due to integer truncation in Load_SBit_Png (CVE-2020-15999)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1890210",
+			"ticket": "1890210"
+		}
+	],
+	"name": "RLSA-2020:4952",
+	"publishedAt": "2020-11-05T08:26:43Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"freetype-0:2.9.1-4.el8_3.1.aarch64.rpm",
+				"freetype-0:2.9.1-4.el8_3.1.i686.rpm",
+				"freetype-0:2.9.1-4.el8_3.1.src.rpm",
+				"freetype-0:2.9.1-4.el8_3.1.x86_64.rpm",
+				"freetype-debuginfo-0:2.9.1-4.el8_3.1.aarch64.rpm",
+				"freetype-debuginfo-0:2.9.1-4.el8_3.1.i686.rpm",
+				"freetype-debuginfo-0:2.9.1-4.el8_3.1.x86_64.rpm",
+				"freetype-debugsource-0:2.9.1-4.el8_3.1.aarch64.rpm",
+				"freetype-debugsource-0:2.9.1-4.el8_3.1.i686.rpm",
+				"freetype-debugsource-0:2.9.1-4.el8_3.1.x86_64.rpm",
+				"freetype-devel-0:2.9.1-4.el8_3.1.aarch64.rpm",
+				"freetype-devel-0:2.9.1-4.el8_3.1.i686.rpm",
+				"freetype-devel-0:2.9.1-4.el8_3.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: freetype security update",
+	"topic": "An update is available for freetype.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

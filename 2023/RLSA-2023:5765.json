@@ -1,0 +1,53 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44487",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nA Rocky Enterprise Software Foundation Security Bulletin which addresses further details about this flaw is available in the References section.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2242803",
+			"ticket": "2242803"
+		}
+	],
+	"name": "RLSA-2023:5765",
+	"publishedAt": "2023-10-24T18:36:46.161269Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"nodejs-1:16.20.2-3.el9_2.aarch64.rpm",
+				"nodejs-1:16.20.2-3.el9_2.src.rpm",
+				"nodejs-1:16.20.2-3.el9_2.x86_64.rpm",
+				"nodejs-debuginfo-1:16.20.2-3.el9_2.aarch64.rpm",
+				"nodejs-debuginfo-1:16.20.2-3.el9_2.x86_64.rpm",
+				"nodejs-debugsource-1:16.20.2-3.el9_2.aarch64.rpm",
+				"nodejs-debugsource-1:16.20.2-3.el9_2.x86_64.rpm",
+				"nodejs-docs-1:16.20.2-3.el9_2.noarch.rpm",
+				"nodejs-full-i18n-1:16.20.2-3.el9_2.aarch64.rpm",
+				"nodejs-full-i18n-1:16.20.2-3.el9_2.x86_64.rpm",
+				"nodejs-libs-1:16.20.2-3.el9_2.aarch64.rpm",
+				"nodejs-libs-1:16.20.2-3.el9_2.i686.rpm",
+				"nodejs-libs-1:16.20.2-3.el9_2.x86_64.rpm",
+				"nodejs-libs-debuginfo-1:16.20.2-3.el9_2.aarch64.rpm",
+				"nodejs-libs-debuginfo-1:16.20.2-3.el9_2.x86_64.rpm",
+				"npm-1:8.19.4-1.16.20.2.3.el9_2.aarch64.rpm",
+				"npm-1:8.19.4-1.16.20.2.3.el9_2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nodejs security update",
+	"topic": "An update is available for nodejs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

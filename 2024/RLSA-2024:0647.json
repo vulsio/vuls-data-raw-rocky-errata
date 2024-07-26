@@ -1,0 +1,92 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-35937",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35937"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-35938",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35938"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-35939",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-35939"
+		}
+	],
+	"description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages.\n\nSecurity Fix(es):\n\n* rpm: TOCTOU race in checks for unsafe symlinks (CVE-2021-35937)\n\n* rpm: races with chown/chmod/capabilities calls during installation (CVE-2021-35938)\n\n* rpm: checks for unsafe symlinks are not performed for intermediary directories (CVE-2021-35939)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1964114",
+			"ticket": "1964114"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1964125",
+			"ticket": "1964125"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1964129",
+			"ticket": "1964129"
+		}
+	],
+	"name": "RLSA-2024:0647",
+	"publishedAt": "2024-02-12T20:17:16.806645Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-rpm-0:4.14.3-28.el8_9.aarch64.rpm",
+				"python3-rpm-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-0:4.14.3-28.el8_9.src.rpm",
+				"rpm-apidocs-0:4.14.3-28.el8_9.noarch.rpm",
+				"rpm-build-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-build-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-build-libs-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-build-libs-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-cron-0:4.14.3-28.el8_9.noarch.rpm",
+				"rpm-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-debugsource-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-devel-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-devel-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-libs-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-libs-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-fapolicyd-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-fapolicyd-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-ima-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-ima-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-prioreset-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-prioreset-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-selinux-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-selinux-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-syslog-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-syslog-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-systemd-inhibit-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-plugin-systemd-inhibit-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-sign-0:4.14.3-28.el8_9.aarch64.rpm",
+				"rpm-sign-debuginfo-0:4.14.3-28.el8_9.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: rpm security update",
+	"topic": "An update is available for rpm.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

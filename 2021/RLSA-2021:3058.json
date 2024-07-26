@@ -1,0 +1,64 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2021-27218",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27218"
+		}
+	],
+	"description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib: integer overflow in g_byte_array_new_take function when called with a buffer of 4GB or more on a 64-bit platform (CVE-2021-27218)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1929847",
+			"ticket": "1929847"
+		}
+	],
+	"name": "RLSA-2021:3058",
+	"publishedAt": "2021-08-10T11:56:26Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"glib2-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-0:2.56.4-10.el8_4.1.i686.rpm",
+				"glib2-0:2.56.4-10.el8_4.1.src.rpm",
+				"glib2-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-debuginfo-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-debuginfo-0:2.56.4-10.el8_4.1.i686.rpm",
+				"glib2-debuginfo-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-debugsource-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-debugsource-0:2.56.4-10.el8_4.1.i686.rpm",
+				"glib2-debugsource-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-devel-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-devel-0:2.56.4-10.el8_4.1.i686.rpm",
+				"glib2-devel-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-devel-debuginfo-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-devel-debuginfo-0:2.56.4-10.el8_4.1.i686.rpm",
+				"glib2-devel-debuginfo-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-doc-0:2.56.4-10.el8_4.1.noarch.rpm",
+				"glib2-fam-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-fam-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-fam-debuginfo-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-fam-debuginfo-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-static-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-static-0:2.56.4-10.el8_4.1.i686.rpm",
+				"glib2-static-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-tests-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-tests-0:2.56.4-10.el8_4.1.x86_64.rpm",
+				"glib2-tests-debuginfo-0:2.56.4-10.el8_4.1.aarch64.rpm",
+				"glib2-tests-debuginfo-0:2.56.4-10.el8_4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: glib2 security update",
+	"topic": "An update is available for glib2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

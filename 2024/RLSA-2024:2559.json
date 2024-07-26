@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28102",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28102"
+		}
+	],
+	"description": "The python-jwcrypto package provides Python implementations of the JSON Web Key (JWK), JSON Web Signature (JWS), JSON Web Encryption (JWE), and JSON Web Token (JWT) JOSE (JSON Object Signing and Encryption) standards.\n\nSecurity Fix(es):\n\n* python-jwcrypto: malicious JWE token can cause denial of service (CVE-2024-28102)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268758",
+			"ticket": "2268758"
+		}
+	],
+	"name": "RLSA-2024:2559",
+	"publishedAt": "2024-05-10T14:32:42.380544Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"python3-jwcrypto-0:0.8-5.el9_4.noarch.rpm",
+				"python-jwcrypto-0:0.8-5.el9_4.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-jwcrypto security update",
+	"topic": "An update is available for python-jwcrypto.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

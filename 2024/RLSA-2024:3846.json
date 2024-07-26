@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-3651",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3651"
+		}
+	],
+	"description": "The hsakmt packages include a thunk library for AMD's Heterogeneous System Architecture (HSA) Linux kernel driver (amdkfd).\n\nSecurity Fix(es):\n\n* python-idna: potential DoS via resource consumption via specially crafted inputs to idna.encode() (CVE-2024-3651)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2274779",
+			"ticket": "2274779"
+		}
+	],
+	"name": "RLSA-2024:3846",
+	"publishedAt": "2024-06-14T14:00:33.093068Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"python3-idna-0:2.10-7.el9_4.1.noarch.rpm",
+				"python-idna-0:2.10-7.el9_4.1.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-idna security update",
+	"topic": "An update is available for python-idna.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

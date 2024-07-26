@@ -1,0 +1,103 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-617",
+			"name": "CVE-2021-25215",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-25215"
+		}
+	],
+	"description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: An assertion check can fail while answering queries for DNAME records that require the DNAME to be processed to resolve itself (CVE-2021-25215)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1953857",
+			"ticket": "1953857"
+		}
+	],
+	"name": "RLSA-2021:1989",
+	"publishedAt": "2021-05-18T17:09:01Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bind-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-32:9.11.26-4.el8_4.src.rpm",
+				"bind-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-chroot-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-chroot-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-debuginfo-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-debugsource-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-debugsource-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-debugsource-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-devel-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-devel-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-devel-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-export-devel-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-export-devel-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-export-devel-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-export-libs-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-export-libs-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-export-libs-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-export-libs-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-export-libs-debuginfo-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-export-libs-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-libs-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-libs-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-libs-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-libs-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-libs-debuginfo-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-libs-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-libs-lite-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-libs-lite-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-libs-lite-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-libs-lite-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-libs-lite-debuginfo-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-libs-lite-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-license-32:9.11.26-4.el8_4.noarch.rpm",
+				"bind-lite-devel-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-lite-devel-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-lite-devel-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-devel-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-devel-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-pkcs11-devel-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-libs-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-libs-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-pkcs11-libs-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-libs-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-libs-debuginfo-32:9.11.26-4.el8_4.i686.rpm",
+				"bind-pkcs11-libs-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-utils-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-utils-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-pkcs11-utils-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-pkcs11-utils-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-sdb-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-sdb-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-sdb-chroot-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-sdb-chroot-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-sdb-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-sdb-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-utils-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-utils-32:9.11.26-4.el8_4.x86_64.rpm",
+				"bind-utils-debuginfo-32:9.11.26-4.el8_4.aarch64.rpm",
+				"bind-utils-debuginfo-32:9.11.26-4.el8_4.x86_64.rpm",
+				"python3-bind-32:9.11.26-4.el8_4.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: bind security update",
+	"topic": "An update is available for bind.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

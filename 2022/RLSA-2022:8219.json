@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:L",
+			"cwe": "CWE-120",
+			"name": "CVE-2022-1328",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1328"
+		}
+	],
+	"description": "Mutt is a low resource, highly configurable, text-based MIME e-mail client. Mutt supports most e-mail storing formats, such as mbox and Maildir, as well as most protocols, including POP3 and IMAP.\n\nSecurity Fix(es):\n\n* mutt: buffer overflow in uudecoder function (CVE-2022-1328)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2076058",
+			"ticket": "2076058"
+		}
+	],
+	"name": "RLSA-2022:8219",
+	"publishedAt": "2022-11-15T06:18:39Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"mutt-debuginfo-5:2.2.6-1.el9.s390x.rpm",
+				"mutt-5:2.2.6-1.el9.aarch64.rpm",
+				"mutt-5:2.2.6-1.el9.ppc64le.rpm",
+				"mutt-5:2.2.6-1.el9.s390x.rpm",
+				"mutt-5:2.2.6-1.el9.src.rpm",
+				"mutt-5:2.2.6-1.el9.x86_64.rpm",
+				"mutt-debuginfo-5:2.2.6-1.el9.aarch64.rpm",
+				"mutt-debuginfo-5:2.2.6-1.el9.ppc64le.rpm",
+				"mutt-debuginfo-5:2.2.6-1.el9.x86_64.rpm",
+				"mutt-debugsource-5:2.2.6-1.el9.aarch64.rpm",
+				"mutt-debugsource-5:2.2.6-1.el9.ppc64le.rpm",
+				"mutt-debugsource-5:2.2.6-1.el9.s390x.rpm",
+				"mutt-debugsource-5:2.2.6-1.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: mutt security update",
+	"topic": "An update is available for mutt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

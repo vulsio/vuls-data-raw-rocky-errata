@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-41043",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-41043"
+		}
+	],
+	"description": "The tcpdump packages contain the tcpdump utility for monitoring network traffic. The tcpdump utility can capture and display the packet headers on a particular network interface or on all interfaces.\n\nSecurity Fix(es):\n\n* tcpslice: use-after-free in extract_slice() (CVE-2021-41043)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2040392",
+			"ticket": "2040392"
+		}
+	],
+	"name": "RLSA-2024:0769",
+	"publishedAt": "2024-03-12T15:41:47.805432Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"tcpdump-14:4.9.3-3.el8_9.1.aarch64.rpm",
+				"tcpdump-14:4.9.3-3.el8_9.1.src.rpm",
+				"tcpdump-14:4.9.3-3.el8_9.1.x86_64.rpm",
+				"tcpdump-debuginfo-14:4.9.3-3.el8_9.1.aarch64.rpm",
+				"tcpdump-debuginfo-14:4.9.3-3.el8_9.1.x86_64.rpm",
+				"tcpdump-debugsource-14:4.9.3-3.el8_9.1.aarch64.rpm",
+				"tcpdump-debugsource-14:4.9.3-3.el8_9.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: tcpdump security update",
+	"topic": "An update is available for tcpdump.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

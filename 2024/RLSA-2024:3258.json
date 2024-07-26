@@ -1,0 +1,94 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-31080",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31080"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-31081",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31081"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-31083",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31083"
+		}
+	],
+	"description": "X.Org is an open-source implementation of the X Window System. It provides the basic low-level functionality that full-fledged graphical user interfaces are designed upon.\n\nSecurity Fix(es):\n\n* xorg-x11-server: Heap buffer overread/data leakage in ProcXIGetSelectedEvents (CVE-2024-31080)\n\n* xorg-x11-server: Heap buffer overread/data leakage in ProcXIPassiveGrabDevice (CVE-2024-31081)\n\n* xorg-x11-server: Use-after-free in ProcRenderAddGlyphs (CVE-2024-31083)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2271997",
+			"ticket": "2271997"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2271998",
+			"ticket": "2271998"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2272000",
+			"ticket": "2272000"
+		}
+	],
+	"name": "RLSA-2024:3258",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"xorg-x11-server-common-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-common-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-debuginfo-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-0:1.20.11-23.el8_10.src.rpm",
+				"xorg-x11-server-debuginfo-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-debugsource-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-debugsource-0:1.20.11-23.el8_10.i686.rpm",
+				"xorg-x11-server-debugsource-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-devel-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-devel-0:1.20.11-23.el8_10.i686.rpm",
+				"xorg-x11-server-devel-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-source-0:1.20.11-23.el8_10.noarch.rpm",
+				"xorg-x11-server-Xdmx-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xdmx-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xdmx-debuginfo-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xdmx-debuginfo-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xephyr-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xephyr-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xephyr-debuginfo-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xephyr-debuginfo-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xnest-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xnest-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xnest-debuginfo-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xnest-debuginfo-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xorg-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xorg-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xorg-debuginfo-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xorg-debuginfo-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xvfb-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xvfb-0:1.20.11-23.el8_10.x86_64.rpm",
+				"xorg-x11-server-Xvfb-debuginfo-0:1.20.11-23.el8_10.aarch64.rpm",
+				"xorg-x11-server-Xvfb-debuginfo-0:1.20.11-23.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: xorg-x11-server security update",
+	"topic": "An update is available for xorg-x11-server.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

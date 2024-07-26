@@ -1,0 +1,45 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-3287",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3287"
+		}
+	],
+	"description": "The fwupd packages provide a service that allows session software to update device firmware.\n\nSecurity Fix(es):\n\n* fwupd: world readable password in /etc/fwupd/redfish.conf (CVE-2022-3287)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.9 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2129904",
+			"ticket": "2129904"
+		}
+	],
+	"name": "RLSA-2023:7189",
+	"publishedAt": "2023-11-28T22:42:52.397971Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"fwupd-0:1.7.8-2.el8.rocky.0.1.aarch64.rpm",
+				"fwupd-0:1.7.8-2.el8.rocky.0.1.src.rpm",
+				"fwupd-0:1.7.8-2.el8.rocky.0.1.x86_64.rpm",
+				"fwupd-debuginfo-0:1.7.8-2.el8.rocky.0.1.aarch64.rpm",
+				"fwupd-debuginfo-0:1.7.8-2.el8.rocky.0.1.x86_64.rpm",
+				"fwupd-debugsource-0:1.7.8-2.el8.rocky.0.1.aarch64.rpm",
+				"fwupd-debugsource-0:1.7.8-2.el8.rocky.0.1.x86_64.rpm",
+				"fwupd-devel-0:1.7.8-2.el8.rocky.0.1.aarch64.rpm",
+				"fwupd-devel-0:1.7.8-2.el8.rocky.0.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: fwupd security update",
+	"topic": "An update is available for fwupd.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

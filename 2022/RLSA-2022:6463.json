@@ -1,0 +1,47 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-347",
+			"name": "CVE-2022-34903",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-34903"
+		}
+	],
+	"description": "The GNU Privacy Guard (GnuPG or GPG) is a tool for encrypting data and creating digital signatures, compliant with OpenPGP and S/MIME standards.\n\nSecurity Fix(es):\n\n* gpg: Signature spoofing via status line injection (CVE-2022-34903)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2102868",
+			"ticket": "2102868"
+		}
+	],
+	"name": "RLSA-2022:6463",
+	"publishedAt": "2022-09-13T07:37:17Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gnupg2-0:2.2.20-3.el8_6.aarch64.rpm",
+				"gnupg2-0:2.2.20-3.el8_6.src.rpm",
+				"gnupg2-0:2.2.20-3.el8_6.x86_64.rpm",
+				"gnupg2-debuginfo-0:2.2.20-3.el8_6.aarch64.rpm",
+				"gnupg2-debuginfo-0:2.2.20-3.el8_6.x86_64.rpm",
+				"gnupg2-debugsource-0:2.2.20-3.el8_6.aarch64.rpm",
+				"gnupg2-debugsource-0:2.2.20-3.el8_6.x86_64.rpm",
+				"gnupg2-smime-0:2.2.20-3.el8_6.aarch64.rpm",
+				"gnupg2-smime-0:2.2.20-3.el8_6.x86_64.rpm",
+				"gnupg2-smime-debuginfo-0:2.2.20-3.el8_6.aarch64.rpm",
+				"gnupg2-smime-debuginfo-0:2.2.20-3.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gnupg2 security update",
+	"topic": "An update is available for gnupg2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

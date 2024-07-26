@@ -1,0 +1,50 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4016",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4016"
+		}
+	],
+	"description": "The procps-ng packages contain a set of system utilities that provide system information, including ps, free, skill, pkill, pgrep, snice, tload, top, uptime, vmstat, w, watch, and pwdx.\n\nSecurity Fix(es):\n\n* procps: ps buffer overflow (CVE-2023-4016)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.9 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2228494",
+			"ticket": "2228494"
+		}
+	],
+	"name": "RLSA-2023:7187",
+	"publishedAt": "2023-11-28T22:42:52.397971Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"procps-ng-0:3.3.15-14.el8.aarch64.rpm",
+				"procps-ng-0:3.3.15-14.el8.i686.rpm",
+				"procps-ng-0:3.3.15-14.el8.src.rpm",
+				"procps-ng-0:3.3.15-14.el8.x86_64.rpm",
+				"procps-ng-debuginfo-0:3.3.15-14.el8.aarch64.rpm",
+				"procps-ng-debuginfo-0:3.3.15-14.el8.i686.rpm",
+				"procps-ng-debuginfo-0:3.3.15-14.el8.x86_64.rpm",
+				"procps-ng-debugsource-0:3.3.15-14.el8.aarch64.rpm",
+				"procps-ng-debugsource-0:3.3.15-14.el8.i686.rpm",
+				"procps-ng-debugsource-0:3.3.15-14.el8.x86_64.rpm",
+				"procps-ng-devel-0:3.3.15-14.el8.aarch64.rpm",
+				"procps-ng-devel-0:3.3.15-14.el8.i686.rpm",
+				"procps-ng-devel-0:3.3.15-14.el8.x86_64.rpm",
+				"procps-ng-i18n-0:3.3.15-14.el8.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: procps-ng security update",
+	"topic": "An update is available for procps-ng.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

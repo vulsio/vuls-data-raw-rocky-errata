@@ -1,0 +1,103 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-2873",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2873"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-3564",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3564"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-4378",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4378"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-4379",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4379"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-0179",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0179"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: use-after-free caused by l2cap_reassemble_sdu() in net/bluetooth/l2cap_core.c (CVE-2022-3564)\n\n* kernel: stack overflow in do_proc_dointvec and proc_skip_spaces (CVE-2022-4378)\n\n* kernel: use-after-free in __nfs42_ssc_open() in fs/nfs/nfs4file.c leading to remote Denial of Service attack (CVE-2022-4379)\n\n* kernel: Netfilter integer overflow vulnerability in nft_payload_copy_vlan (CVE-2023-0179)\n\n* kernel: an out-of-bounds vulnerability in i2c-ismt driver (CVE-2022-2873)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the latest Rocky Linux-9.1.z2 Batch (BZ#2160463)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2119048",
+			"ticket": "2119048"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2150999",
+			"ticket": "2150999"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2152548",
+			"ticket": "2152548"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2152807",
+			"ticket": "2152807"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2161713",
+			"ticket": "2161713"
+		}
+	],
+	"name": "RLSA-2023:0979",
+	"publishedAt": "2023-03-02T01:17:39.649581Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"kernel-rt-0:5.14.0-162.18.1.rt21.181.el9_1.src.rpm",
+				"kernel-rt-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-core-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-core-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-devel-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debuginfo-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-modules-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-devel-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-kvm-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-modules-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm",
+				"kernel-rt-modules-extra-0:5.14.0-162.18.1.rt21.181.el9_1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,139 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-32002",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32002"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-32004",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32004"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-32020",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32020"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-32021",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32021"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-32465",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32465"
+		}
+	],
+	"description": "Git is a distributed revision control system with a decentralized architecture. As opposed to centralized version control systems with a client-server model, Git ensures that each working copy of a Git repository is an exact copy with complete revision history. This not only allows the user to work on and contribute to projects without the need to have permission to push the changes to their official repositories, but also makes it possible for the user to work with no network connection.\n\nSecurity Fix(es):\n\n* git: Recursive clones RCE (CVE-2024-32002)\n\n* git: RCE while cloning local repos (CVE-2024-32004)\n\n* git: additional local RCE (CVE-2024-32465)\n\n* git: insecure hardlinks (CVE-2024-32020)\n\n* git: symlink bypass (CVE-2024-32021)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280421",
+			"ticket": "2280421"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280428",
+			"ticket": "2280428"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280446",
+			"ticket": "2280446"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280466",
+			"ticket": "2280466"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280484",
+			"ticket": "2280484"
+		}
+	],
+	"name": "RLSA-2024:4083",
+	"publishedAt": "2024-07-02T14:11:35.145045Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"git-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-0:2.43.5-1.el9_4.src.rpm",
+				"git-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-all-0:2.43.5-1.el9_4.noarch.rpm",
+				"git-core-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-core-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-core-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-core-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-core-debuginfo-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-core-debuginfo-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-core-debuginfo-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-core-debuginfo-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-core-doc-0:2.43.5-1.el9_4.noarch.rpm",
+				"git-credential-libsecret-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-credential-libsecret-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-credential-libsecret-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-credential-libsecret-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-credential-libsecret-debuginfo-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-credential-libsecret-debuginfo-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-credential-libsecret-debuginfo-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-credential-libsecret-debuginfo-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-daemon-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-daemon-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-daemon-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-daemon-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-daemon-debuginfo-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-daemon-debuginfo-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-daemon-debuginfo-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-daemon-debuginfo-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-debuginfo-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-debuginfo-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-debuginfo-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-debuginfo-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-debugsource-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-debugsource-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-debugsource-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-debugsource-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-email-0:2.43.5-1.el9_4.noarch.rpm",
+				"git-gui-0:2.43.5-1.el9_4.noarch.rpm",
+				"git-instaweb-0:2.43.5-1.el9_4.noarch.rpm",
+				"gitk-0:2.43.5-1.el9_4.noarch.rpm",
+				"git-subtree-0:2.43.5-1.el9_4.aarch64.rpm",
+				"git-subtree-0:2.43.5-1.el9_4.ppc64le.rpm",
+				"git-subtree-0:2.43.5-1.el9_4.s390x.rpm",
+				"git-subtree-0:2.43.5-1.el9_4.x86_64.rpm",
+				"git-svn-0:2.43.5-1.el9_4.noarch.rpm",
+				"gitweb-0:2.43.5-1.el9_4.noarch.rpm",
+				"perl-Git-0:2.43.5-1.el9_4.noarch.rpm",
+				"perl-Git-SVN-0:2.43.5-1.el9_4.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: git security update",
+	"topic": "An update is available for git.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

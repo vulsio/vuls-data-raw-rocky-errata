@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2013-7488",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-7488"
+		}
+	],
+	"description": "Convert::ASN1 encodes and decodes ASN.1 data structures using BER/DER rules.\n\nSecurity Fix(es):\n\n* perl-Convert-ASN1: allows remote attackers to cause an infinite loop via unexpected input (CVE-2013-7488)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1821879",
+			"ticket": "1821879"
+		}
+	],
+	"name": "RLSA-2024:3049",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"perl-Convert-ASN1-0:0.27-18.el8.noarch.rpm",
+				"perl-Convert-ASN1-0:0.27-18.el8.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: perl-Convert-ASN1 security update",
+	"topic": "An update is available for perl-Convert-ASN1.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

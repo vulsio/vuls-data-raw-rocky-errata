@@ -1,0 +1,74 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6601",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6601"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6603",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6603"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6604",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6604"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nSecurity Fix(es):\n\n* Mozilla: Memory safety bugs fixed in Firefox 128, Firefox ESR 115.13, and Thunderbird 115.13 (CVE-2024-6604)\n\n* Mozilla: Race condition in permission assignment (CVE-2024-6601)\n\n* Mozilla: Memory corruption in thread creation (CVE-2024-6603)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2296636",
+			"ticket": "2296636"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2296639",
+			"ticket": "2296639"
+		}
+	],
+	"name": "RLSA-2024:4500",
+	"publishedAt": "2024-07-15T12:18:45.298153Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"firefox-0:115.13.0-3.el9_4.aarch64.rpm",
+				"firefox-0:115.13.0-3.el9_4.ppc64le.rpm",
+				"firefox-0:115.13.0-3.el9_4.s390x.rpm",
+				"firefox-0:115.13.0-3.el9_4.src.rpm",
+				"firefox-0:115.13.0-3.el9_4.x86_64.rpm",
+				"firefox-debuginfo-0:115.13.0-3.el9_4.aarch64.rpm",
+				"firefox-debuginfo-0:115.13.0-3.el9_4.ppc64le.rpm",
+				"firefox-debuginfo-0:115.13.0-3.el9_4.s390x.rpm",
+				"firefox-debuginfo-0:115.13.0-3.el9_4.x86_64.rpm",
+				"firefox-debugsource-0:115.13.0-3.el9_4.aarch64.rpm",
+				"firefox-debugsource-0:115.13.0-3.el9_4.ppc64le.rpm",
+				"firefox-debugsource-0:115.13.0-3.el9_4.s390x.rpm",
+				"firefox-debugsource-0:115.13.0-3.el9_4.x86_64.rpm",
+				"firefox-x11-0:115.13.0-3.el9_4.aarch64.rpm",
+				"firefox-x11-0:115.13.0-3.el9_4.ppc64le.rpm",
+				"firefox-x11-0:115.13.0-3.el9_4.s390x.rpm",
+				"firefox-x11-0:115.13.0-3.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

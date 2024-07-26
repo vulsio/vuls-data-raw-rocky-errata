@@ -1,0 +1,155 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-22930",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22930"
+		},
+		{
+			"cvss3BaseScore": "5.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-22931",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22931"
+		},
+		{
+			"cvss3BaseScore": "3.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-22939",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22939"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-416",
+			"name": "CVE-2021-22940",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22940"
+		},
+		{
+			"cvss3BaseScore": "5.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-23343",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23343"
+		},
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+			"cwe": "CWE-22",
+			"name": "CVE-2021-32803",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32803"
+		},
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H",
+			"cwe": "CWE-22",
+			"name": "CVE-2021-32804",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-32804"
+		},
+		{
+			"cvss3BaseScore": "5.6",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-79",
+			"name": "CVE-2021-3672",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3672"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22930)\n\n* nodejs: Use-after-free on close http2 on stream canceling (CVE-2021-22940)\n\n* c-ares: Missing input validation of host names may lead to domain hijacking (CVE-2021-3672)\n\n* nodejs: Improper handling of untypical characters in domain names (CVE-2021-22931)\n\n* nodejs-tar: Insufficient symlink protection allowing arbitrary file creation and overwrite (CVE-2021-32803)\n\n* nodejs-tar: Insufficient absolute path sanitization allowing arbitrary file creation and overwrite (CVE-2021-32804)\n\n* nodejs: Incomplete validation of tls rejectUnauthorized parameter (CVE-2021-22939)\n\n* nodejs-path-parse: ReDoS via splitDeviceRe, splitTailRe and splitPathRe (CVE-2021-23343)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* nodejs:12/nodejs: Make FIPS options always available (BZ#1993927)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1956818",
+			"ticket": "1956818"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1988342",
+			"ticket": "1988342"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1988394",
+			"ticket": "1988394"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1990409",
+			"ticket": "1990409"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1990415",
+			"ticket": "1990415"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1993019",
+			"ticket": "1993019"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1993029",
+			"ticket": "1993029"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1993039",
+			"ticket": "1993039"
+		},
+		{
+			"description": "* nodejs:12/nodejs: Make FIPS options always available",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1993927",
+			"ticket": "1993927"
+		}
+	],
+	"name": "RLSA-2021:3623",
+	"publishedAt": "2021-09-21T12:33:58Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:12.22.5-1.module+el8.4.0+647+e905fa21.aarch64.rpm",
+				"nodejs-1:12.22.5-1.module+el8.4.0+647+e905fa21.src.rpm",
+				"nodejs-1:12.22.5-1.module+el8.4.0+647+e905fa21.x86_64.rpm",
+				"nodejs-debuginfo-1:12.22.5-1.module+el8.4.0+647+e905fa21.aarch64.rpm",
+				"nodejs-debuginfo-1:12.22.5-1.module+el8.4.0+647+e905fa21.x86_64.rpm",
+				"nodejs-debugsource-1:12.22.5-1.module+el8.4.0+647+e905fa21.aarch64.rpm",
+				"nodejs-debugsource-1:12.22.5-1.module+el8.4.0+647+e905fa21.x86_64.rpm",
+				"nodejs-devel-1:12.22.5-1.module+el8.4.0+647+e905fa21.aarch64.rpm",
+				"nodejs-devel-1:12.22.5-1.module+el8.4.0+647+e905fa21.x86_64.rpm",
+				"nodejs-docs-1:12.22.5-1.module+el8.4.0+647+e905fa21.noarch.rpm",
+				"nodejs-full-i18n-1:12.22.5-1.module+el8.4.0+647+e905fa21.aarch64.rpm",
+				"nodejs-full-i18n-1:12.22.5-1.module+el8.4.0+647+e905fa21.x86_64.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.noarch.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.6.0+982+9fdca2d4.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.3.0+100+234774f7.src.rpm",
+				"nodejs-nodemon-0:2.0.3-1.module+el8.4.0+638+5344c6f7.src.rpm",
+				"nodejs-packaging-0:17-3.module+el8.3.0+101+f84c7154.noarch.rpm",
+				"nodejs-packaging-0:17-3.module+el8.3.0+101+f84c7154.src.rpm",
+				"npm-1:6.14.14-1.12.22.5.1.module+el8.4.0+647+e905fa21.aarch64.rpm",
+				"npm-1:6.14.14-1.12.22.5.1.module+el8.4.0+647+e905fa21.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nodejs:12 security and bug fix update",
+	"topic": "An update is available for nodejs-nodemon, nodejs, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

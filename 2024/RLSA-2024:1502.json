@@ -1,0 +1,42 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-1394",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1394"
+		}
+	],
+	"description": "grafana-pcp is an open source Grafana plugin for PCP.\n\nSecurity Fix(es):\n\n* grafana-pcp: golang-fips/openssl: Memory leaks in code encrypting and decrypting RSA payloads (CVE-2024-1394)",
+	"name": "RLSA-2024:1502",
+	"publishedAt": "2024-05-10T14:32:42.380544Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"grafana-pcp-0:5.1.1-2.el9_3.aarch64.rpm",
+				"grafana-pcp-0:5.1.1-2.el9_3.ppc64le.rpm",
+				"grafana-pcp-0:5.1.1-2.el9_3.s390x.rpm",
+				"grafana-pcp-0:5.1.1-2.el9_3.src.rpm",
+				"grafana-pcp-0:5.1.1-2.el9_3.x86_64.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-2.el9_3.aarch64.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-2.el9_3.ppc64le.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-2.el9_3.s390x.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-2.el9_3.x86_64.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-2.el9_3.aarch64.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-2.el9_3.ppc64le.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-2.el9_3.s390x.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-2.el9_3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: grafana-pcp security update",
+	"topic": "An update is available for grafana-pcp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

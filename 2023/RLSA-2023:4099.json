@@ -1,0 +1,87 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-2828",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2828"
+		}
+	],
+	"description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: named's configured cache size limit can be significantly exceeded (CVE-2023-2828)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2216227",
+			"ticket": "2216227"
+		}
+	],
+	"name": "RLSA-2023:4099",
+	"publishedAt": "2023-08-08T12:34:57.744690Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"bind-devel-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-32:9.16.23-11.el9_2.1.src.rpm",
+				"bind-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-chroot-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-chroot-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-chroot-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-chroot-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-debuginfo-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-debuginfo-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-debuginfo-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-debuginfo-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-debugsource-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-debugsource-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-debugsource-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-debugsource-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-devel-32:9.16.23-11.el9_2.1.i686.rpm",
+				"bind-devel-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-devel-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-devel-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-dnssec-doc-32:9.16.23-11.el9_2.1.noarch.rpm",
+				"bind-dnssec-utils-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-dnssec-utils-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-dnssec-utils-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-dnssec-utils-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-doc-32:9.16.23-11.el9_2.1.noarch.rpm",
+				"bind-libs-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-libs-32:9.16.23-11.el9_2.1.i686.rpm",
+				"bind-libs-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-libs-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-libs-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-libs-debuginfo-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-libs-debuginfo-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-libs-debuginfo-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-libs-debuginfo-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-license-32:9.16.23-11.el9_2.1.noarch.rpm",
+				"bind-utils-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-utils-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-utils-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-utils-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"bind-utils-debuginfo-32:9.16.23-11.el9_2.1.aarch64.rpm",
+				"bind-utils-debuginfo-32:9.16.23-11.el9_2.1.ppc64le.rpm",
+				"bind-utils-debuginfo-32:9.16.23-11.el9_2.1.s390x.rpm",
+				"bind-utils-debuginfo-32:9.16.23-11.el9_2.1.x86_64.rpm",
+				"python3-bind-32:9.16.23-11.el9_2.1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: bind security update",
+	"topic": "An update is available for bind.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

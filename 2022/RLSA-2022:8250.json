@@ -1,0 +1,110 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-1705",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1705"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30630",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30630"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30631",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30631"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30632",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30632"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30635",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2022-32148",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148"
+		}
+	],
+	"description": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.\n\nSecurity Fix(es):\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107342",
+			"ticket": "2107342"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107371",
+			"ticket": "2107371"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107374",
+			"ticket": "2107374"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107383",
+			"ticket": "2107383"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107386",
+			"ticket": "2107386"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107388",
+			"ticket": "2107388"
+		}
+	],
+	"name": "RLSA-2022:8250",
+	"publishedAt": "2022-11-15T06:19:30Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"grafana-pcp-0:3.2.0-3.el9.aarch64.rpm",
+				"grafana-pcp-0:3.2.0-3.el9.ppc64le.rpm",
+				"grafana-pcp-0:3.2.0-3.el9.s390x.rpm",
+				"grafana-pcp-0:3.2.0-3.el9.src.rpm",
+				"grafana-pcp-0:3.2.0-3.el9.x86_64.rpm",
+				"grafana-pcp-debuginfo-0:3.2.0-3.el9.aarch64.rpm",
+				"grafana-pcp-debuginfo-0:3.2.0-3.el9.ppc64le.rpm",
+				"grafana-pcp-debuginfo-0:3.2.0-3.el9.s390x.rpm",
+				"grafana-pcp-debuginfo-0:3.2.0-3.el9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grafana-pcp security update",
+	"topic": "An update is available for grafana-pcp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

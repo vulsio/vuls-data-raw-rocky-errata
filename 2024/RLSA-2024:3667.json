@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2947",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2947"
+		}
+	],
+	"description": "Cockpit enables users to administer GNU/Linux servers using a web browser. It offers network configuration, log inspection, diagnostic reports, SELinux troubleshooting, interactive command-line sessions, and more.\n\nSecurity Fix(es):\n\n* cockpit: command injection when deleting a sosreport with a crafted name (CVE-2024-2947)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2271614",
+			"ticket": "2271614"
+		}
+	],
+	"name": "RLSA-2024:3667",
+	"publishedAt": "2024-06-14T13:59:16.809606Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cockpit-0:310.4-1.el8_10.aarch64.rpm",
+				"cockpit-0:310.4-1.el8_10.src.rpm",
+				"cockpit-0:310.4-1.el8_10.x86_64.rpm",
+				"cockpit-bridge-0:310.4-1.el8_10.aarch64.rpm",
+				"cockpit-bridge-0:310.4-1.el8_10.x86_64.rpm",
+				"cockpit-debuginfo-0:310.4-1.el8_10.aarch64.rpm",
+				"cockpit-debuginfo-0:310.4-1.el8_10.x86_64.rpm",
+				"cockpit-debugsource-0:310.4-1.el8_10.aarch64.rpm",
+				"cockpit-debugsource-0:310.4-1.el8_10.x86_64.rpm",
+				"cockpit-doc-0:310.4-1.el8_10.noarch.rpm",
+				"cockpit-system-0:310.4-1.el8_10.noarch.rpm",
+				"cockpit-ws-0:310.4-1.el8_10.aarch64.rpm",
+				"cockpit-ws-0:310.4-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: cockpit security update",
+	"topic": "An update is available for cockpit.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,75 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38497",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38497"
+		}
+	],
+	"description": "Rust Toolset provides the Rust programming language compiler rustc, the cargo build tool and dependency manager, and required libraries. \n\nSecurity Fix(es):\n\n* rust-cargo: cargo does not respect the umask when extracting dependencies (CVE-2023-38497)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2228038",
+			"ticket": "2228038"
+		}
+	],
+	"name": "RLSA-2023:4635",
+	"publishedAt": "2023-08-24T04:21:04.204171Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"cargo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"cargo-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"clippy-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"clippy-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-0:1.66.1-2.module+el8.8.0+1428+0690fcea.src.rpm",
+				"rust-analysis-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-analyzer-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-analyzer-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-debugger-common-0:1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm",
+				"rust-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-debugsource-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-doc-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rustfmt-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rustfmt-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-gdb-0:1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm",
+				"rust-lldb-0:1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm",
+				"rust-src-0:1.66.1-2.module+el8.8.0+1428+0690fcea.noarch.rpm",
+				"rust-std-static-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-std-static-wasm32-unknown-unknown-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-std-static-wasm32-wasi-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"rust-toolset-0:1.66.1-2.module+el8.8.0+1428+0690fcea.aarch64.rpm",
+				"cargo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"cargo-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"clippy-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"clippy-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-analysis-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-analyzer-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-analyzer-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-debugsource-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-doc-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rustfmt-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rustfmt-debuginfo-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-std-static-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-std-static-wasm32-unknown-unknown-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-std-static-wasm32-wasi-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm",
+				"rust-toolset-0:1.66.1-2.module+el8.8.0+1428+0690fcea.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: rust-toolset:rhel8 security update",
+	"topic": "An update is available for module.rust, rust.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-22195",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22195"
+		}
+	],
+	"description": "The python-jinja2 package contains Jinja2, a template engine written in pure Python. Jinja2 provides a Django inspired non-XML syntax but supports inline expressions and an optional sandboxed environment. \n\nSecurity Fix(es):\n\n* jinja2: HTML attribute injection when passing user input as keys to xmlattr filter (CVE-2024-22195)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2257854",
+			"ticket": "2257854"
+		}
+	],
+	"name": "RLSA-2024:3102",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-jinja2-0:2.10.1-4.el8.noarch.rpm",
+				"python-jinja2-0:2.10.1-4.el8.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-jinja2 security update",
+	"topic": "An update is available for python-jinja2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,46 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->(CWE-125|CWE-787)",
+			"name": "CVE-2021-29477",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29477"
+		}
+	],
+	"description": "Redis is an advanced key-value store. It is often referred to as a data-structure server since keys can contain strings, hashes, lists, sets, and sorted sets. For performance, Redis works with an in-memory data set. You can persist it either by dumping the data set to disk every once in a while, or by appending each command to a log.\n\nSecurity Fix(es):\n\n* redis: Integer overflow via STRALGO LCS command (CVE-2021-29477)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1957410",
+			"ticket": "1957410"
+		}
+	],
+	"name": "RLSA-2021:2034",
+	"publishedAt": "2021-05-19T07:13:43Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"redis-0:6.0.9-3.module+el8.4.0+395+8d498eeb.aarch64.rpm",
+				"redis-0:6.0.9-3.module+el8.4.0+395+8d498eeb.src.rpm",
+				"redis-0:6.0.9-3.module+el8.4.0+395+8d498eeb.x86_64.rpm",
+				"redis-debuginfo-0:6.0.9-3.module+el8.4.0+395+8d498eeb.aarch64.rpm",
+				"redis-debuginfo-0:6.0.9-3.module+el8.4.0+395+8d498eeb.x86_64.rpm",
+				"redis-debugsource-0:6.0.9-3.module+el8.4.0+395+8d498eeb.aarch64.rpm",
+				"redis-debugsource-0:6.0.9-3.module+el8.4.0+395+8d498eeb.x86_64.rpm",
+				"redis-devel-0:6.0.9-3.module+el8.4.0+395+8d498eeb.aarch64.rpm",
+				"redis-devel-0:6.0.9-3.module+el8.4.0+395+8d498eeb.x86_64.rpm",
+				"redis-doc-0:6.0.9-3.module+el8.4.0+395+8d498eeb.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: redis:6 security update",
+	"topic": "An update is available for redis.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

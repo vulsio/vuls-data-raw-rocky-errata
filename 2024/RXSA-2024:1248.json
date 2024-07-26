@@ -1,0 +1,227 @@
+{
+	"affectedProducts": [
+		"Rocky Linux SIG Cloud 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4244",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4244"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-51042",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-51042"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5717",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5717"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6356",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6356"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6535",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6535"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6536",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6536"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6606",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6606"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6610",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6610"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6817",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6817"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-0193",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0193"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-0646",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0646"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: inactive elements in nft_pipapo_walk (CVE-2023-6817)\n\n* kernel: netfilter: use-after-free in nft_trans_gc_catchall_sync leads to privilege escalation (CVE-2024-0193)\n\n* kernel: ktls overwrites readonly memory pages when using function splice with a ktls socket as destination (CVE-2024-0646)\n\n* kernel: Use-after-free in nft_verdict_dump due to a race between set GC and transaction (CVE-2023-4244)\n\n* kernel: A heap out-of-bounds write when function perf_read_group is called and sibling_list is smaller than its child's sibling_list (CVE-2023-5717)\n\n* kernel: NULL pointer dereference in nvmet_tcp_build_iovec (CVE-2023-6356)\n\n* kernel: NULL pointer dereference in nvmet_tcp_execute_request (CVE-2023-6535)\n\n* kernel: NULL pointer dereference in __nvmet_req_complete (CVE-2023-6536)\n\n* kernel: Out-Of-Bounds Read vulnerability in smbCalcSize (CVE-2023-6606)\n\n* kernel: OOB Access in smb2_dump_detail (CVE-2023-6610)\n\n* kernel: use-after-free in amdgpu_cs_wait_all_fences in drivers/gpu/drm/amd/amdgpu/amdgpu_cs.c (CVE-2023-51042)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2235306",
+			"ticket": "2235306"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2246945",
+			"ticket": "2246945"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2253611",
+			"ticket": "2253611"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2253614",
+			"ticket": "2253614"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2253908",
+			"ticket": "2253908"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2254052",
+			"ticket": "2254052"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2254053",
+			"ticket": "2254053"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2254054",
+			"ticket": "2254054"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2255139",
+			"ticket": "2255139"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2255653",
+			"ticket": "2255653"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2259866",
+			"ticket": "2259866"
+		}
+	],
+	"name": "RXSA-2024:1248",
+	"publishedAt": "2024-03-27T04:37:19.422545Z",
+	"rpms": {
+		"Rocky Linux SIG Cloud 9": {
+			"nvras": [
+				"bpftool-0:7.2.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"bpftool-0:7.2.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"bpftool-debuginfo-0:7.2.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"bpftool-debuginfo-0:7.2.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-0:5.14.0-362.24.1.el9_3.cloud.0.6.src.rpm",
+				"kernel-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-abi-stablelists-0:5.14.0-362.24.1.el9_3.cloud.0.6.noarch.rpm",
+				"kernel-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-cross-headers-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-cross-headers-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-devel-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-devel-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-modules-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-modules-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-devel-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-devel-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-devel-matched-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-devel-matched-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-doc-0:5.14.0-362.24.1.el9_3.cloud.0.6.noarch.rpm",
+				"kernel-headers-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-headers-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-modules-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-modules-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-modules-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-modules-core-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-modules-extra-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-modules-extra-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-tools-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-tools-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-tools-libs-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-tools-libs-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"perf-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"perf-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"perf-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"perf-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"python3-perf-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"python3-perf-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm",
+				"rtla-0:5.14.0-362.24.1.el9_3.cloud.0.6.aarch64.rpm",
+				"rtla-0:5.14.0-362.24.1.el9_3.cloud.0.6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RX",
+	"synopsis": "Important: kernel security update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux SIG Cloud 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

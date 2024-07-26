@@ -1,0 +1,121 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5688",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5688"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5690",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5690"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5691",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5691"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5693",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5693"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5696",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5696"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5700",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5700"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5702",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5702"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 115.12.0 ESR.\n\nSecurity Fix(es):\n  \n* firefox: Use-after-free in networking (CVE-2024-5702)\n\n* firefox: Use-after-free in JavaScript object transplant (CVE-2024-5688)\n\n* firefox: External protocol handlers leaked by timing attack (CVE-2024-5690)\n\n* firefox:  Sandboxed iframes were able to bypass sandbox restrictions to open a new window (CVE-2024-5691)\n\n* firefox: Cross-Origin Image leak via Offscreen Canvas (CVE-2024-5693)\n\n* firefox: Memory Corruption in Text Fragments (CVE-2024-5696)\n\n* firefox: Memory safety bugs fixed in Firefox 127, Firefox ESR 115.12, and Thunderbird 115.12 (CVE-2024-5700) \n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291394",
+			"ticket": "2291394"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291395",
+			"ticket": "2291395"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291396",
+			"ticket": "2291396"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291397",
+			"ticket": "2291397"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291399",
+			"ticket": "2291399"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291400",
+			"ticket": "2291400"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291401",
+			"ticket": "2291401"
+		}
+	],
+	"name": "RLSA-2024:3954",
+	"publishedAt": "2024-07-02T14:10:24.883859Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"firefox-0:115.12.0-1.el8_10.aarch64.rpm",
+				"firefox-0:115.12.0-1.el8_10.src.rpm",
+				"firefox-0:115.12.0-1.el8_10.x86_64.rpm",
+				"firefox-debuginfo-0:115.12.0-1.el8_10.aarch64.rpm",
+				"firefox-debuginfo-0:115.12.0-1.el8_10.x86_64.rpm",
+				"firefox-debugsource-0:115.12.0-1.el8_10.aarch64.rpm",
+				"firefox-debugsource-0:115.12.0-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

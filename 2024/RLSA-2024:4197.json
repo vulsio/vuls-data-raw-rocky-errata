@@ -1,0 +1,81 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38709",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38709"
+		}
+	],
+	"description": "The httpd packages provide the Apache HTTP Server, a powerful, efficient, and extensible web server.\n\nSecurity Fix(es):\n\n* httpd:2.4: httpd: HTTP response splitting (CVE-2023-38709)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273491",
+			"ticket": "2273491"
+		}
+	],
+	"name": "RLSA-2024:4197",
+	"publishedAt": "2024-07-02T14:10:24.883859Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"mod_http2-0:1.15.7-10.module+el8.10.0+1775+6b057638.aarch64.rpm",
+				"mod_http2-0:1.15.7-10.module+el8.10.0+1775+6b057638.src.rpm",
+				"mod_http2-0:1.15.7-10.module+el8.10.0+1775+6b057638.x86_64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-10.module+el8.10.0+1775+6b057638.aarch64.rpm",
+				"mod_http2-debuginfo-0:1.15.7-10.module+el8.10.0+1775+6b057638.x86_64.rpm",
+				"mod_http2-debugsource-0:1.15.7-10.module+el8.10.0+1775+6b057638.aarch64.rpm",
+				"mod_http2-debugsource-0:1.15.7-10.module+el8.10.0+1775+6b057638.x86_64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.aarch64.rpm",
+				"mod_md-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.src.rpm",
+				"mod_md-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.x86_64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.aarch64.rpm",
+				"mod_md-debuginfo-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.x86_64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.aarch64.rpm",
+				"mod_md-debugsource-1:2.0.8-8.module+el8.9.0+1370+89cc8ad5.x86_64.rpm",
+				"httpd-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"httpd-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.src.rpm",
+				"httpd-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"httpd-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"httpd-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"httpd-debugsource-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"httpd-debugsource-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"httpd-devel-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"httpd-devel-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"httpd-filesystem-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.noarch.rpm",
+				"httpd-manual-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.noarch.rpm",
+				"httpd-tools-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"httpd-tools-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"httpd-tools-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"httpd-tools-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_ldap-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_ldap-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_ldap-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_ldap-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_proxy_html-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_proxy_html-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_proxy_html-debuginfo-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_proxy_html-debuginfo-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_session-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_session-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_session-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_session-debuginfo-0:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_ssl-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_ssl-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm",
+				"mod_ssl-debuginfo-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.aarch64.rpm",
+				"mod_ssl-debuginfo-1:2.4.37-65.module+el8.10.0+1830+22f0c9e0.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: httpd:2.4/httpd security update",
+	"topic": "An update is available for module.mod_md, module.mod_http2, mod_http2, mod_md.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

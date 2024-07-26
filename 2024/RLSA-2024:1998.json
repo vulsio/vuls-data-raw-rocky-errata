@@ -1,0 +1,36 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2357",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2357"
+		}
+	],
+	"description": "Libreswan is an implementation of IPsec and IKE for Linux. IPsec is the Internet Protocol Security and uses strong cryptography to provide both authentication and encryption services. These services allow you to build secure tunnels through untrusted networks such as virtual private network (VPN).\n\nSecurity Fix(es):\n\n* libreswan: Missing PreSharedKey for connection can cause crash (CVE-2024-2357)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"name": "RLSA-2024:1998",
+	"publishedAt": "2024-05-06T13:04:21.002456Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libreswan-0:4.12-2.el8_9.2.aarch64.rpm",
+				"libreswan-0:4.12-2.el8_9.2.src.rpm",
+				"libreswan-0:4.12-2.el8_9.2.x86_64.rpm",
+				"libreswan-debuginfo-0:4.12-2.el8_9.2.aarch64.rpm",
+				"libreswan-debuginfo-0:4.12-2.el8_9.2.x86_64.rpm",
+				"libreswan-debugsource-0:4.12-2.el8_9.2.aarch64.rpm",
+				"libreswan-debugsource-0:4.12-2.el8_9.2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libreswan security update",
+	"topic": "An update is available for libreswan.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

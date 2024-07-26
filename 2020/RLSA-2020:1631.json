@@ -1,0 +1,143 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-416",
+			"name": "CVE-2018-7263",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-7263"
+		}
+	],
+	"description": "The GStreamer library provides a streaming media framework based on graphs of media data filters.\n\nThe libmad package is an MPEG audio decoder capable of 24-bit output. \n\nSimple DirectMedia Layer (SDL) is a cross-platform multimedia library designed to provide fast access to the graphics frame buffer and audio device.\n\nSecurity Fix(es):\n\n* libmad: Double-free in the mad_decoder_run() function (CVE-2018-7263)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1488585",
+			"ticket": "1488585"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1547504",
+			"ticket": "1547504"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1693292",
+			"ticket": "1693292"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1724677",
+			"ticket": "1724677"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1751780",
+			"ticket": "1751780"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1756299",
+			"ticket": "1756299"
+		}
+	],
+	"name": "RLSA-2020:1631",
+	"publishedAt": "2020-04-28T08:58:37Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"orc-0:0.4.28-3.el8.aarch64.rpm",
+				"gstreamer1-0:1.16.1-2.el8.aarch64.rpm",
+				"gstreamer1-0:1.16.1-2.el8.i686.rpm",
+				"gstreamer1-0:1.16.1-2.el8.src.rpm",
+				"gstreamer1-0:1.16.1-2.el8.x86_64.rpm",
+				"gstreamer1-debuginfo-0:1.16.1-2.el8.aarch64.rpm",
+				"gstreamer1-debuginfo-0:1.16.1-2.el8.i686.rpm",
+				"gstreamer1-debuginfo-0:1.16.1-2.el8.x86_64.rpm",
+				"gstreamer1-debugsource-0:1.16.1-2.el8.aarch64.rpm",
+				"gstreamer1-debugsource-0:1.16.1-2.el8.i686.rpm",
+				"gstreamer1-debugsource-0:1.16.1-2.el8.x86_64.rpm",
+				"gstreamer1-devel-0:1.16.1-2.el8.aarch64.rpm",
+				"gstreamer1-devel-0:1.16.1-2.el8.i686.rpm",
+				"gstreamer1-devel-0:1.16.1-2.el8.x86_64.rpm",
+				"gstreamer1-plugins-bad-free-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-bad-free-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-bad-free-0:1.16.1-1.el8.src.rpm",
+				"gstreamer1-plugins-bad-free-0:1.16.1-1.el8.x86_64.rpm",
+				"gstreamer1-plugins-bad-free-debuginfo-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-bad-free-debuginfo-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-bad-free-debuginfo-0:1.16.1-1.el8.x86_64.rpm",
+				"gstreamer1-plugins-bad-free-debugsource-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-bad-free-debugsource-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-bad-free-debugsource-0:1.16.1-1.el8.x86_64.rpm",
+				"gstreamer1-plugins-bad-free-devel-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-bad-free-devel-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-bad-free-devel-0:1.16.1-1.el8.x86_64.rpm",
+				"gstreamer1-plugins-ugly-free-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-ugly-free-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-ugly-free-0:1.16.1-1.el8.src.rpm",
+				"gstreamer1-plugins-ugly-free-0:1.16.1-1.el8.x86_64.rpm",
+				"gstreamer1-plugins-ugly-free-debuginfo-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-ugly-free-debuginfo-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-ugly-free-debuginfo-0:1.16.1-1.el8.x86_64.rpm",
+				"gstreamer1-plugins-ugly-free-debugsource-0:1.16.1-1.el8.aarch64.rpm",
+				"gstreamer1-plugins-ugly-free-debugsource-0:1.16.1-1.el8.i686.rpm",
+				"gstreamer1-plugins-ugly-free-debugsource-0:1.16.1-1.el8.x86_64.rpm",
+				"libmad-0:0.15.1b-25.el8.aarch64.rpm",
+				"libmad-0:0.15.1b-25.el8.i686.rpm",
+				"libmad-0:0.15.1b-25.el8.src.rpm",
+				"libmad-0:0.15.1b-25.el8.x86_64.rpm",
+				"libmad-debuginfo-0:0.15.1b-25.el8.aarch64.rpm",
+				"libmad-debuginfo-0:0.15.1b-25.el8.i686.rpm",
+				"libmad-debuginfo-0:0.15.1b-25.el8.x86_64.rpm",
+				"libmad-debugsource-0:0.15.1b-25.el8.aarch64.rpm",
+				"libmad-debugsource-0:0.15.1b-25.el8.i686.rpm",
+				"libmad-debugsource-0:0.15.1b-25.el8.x86_64.rpm",
+				"libmad-devel-0:0.15.1b-25.el8.aarch64.rpm",
+				"libmad-devel-0:0.15.1b-25.el8.i686.rpm",
+				"libmad-devel-0:0.15.1b-25.el8.x86_64.rpm",
+				"orc-0:0.4.28-3.el8.i686.rpm",
+				"orc-0:0.4.28-3.el8.src.rpm",
+				"orc-0:0.4.28-3.el8.x86_64.rpm",
+				"orc-compiler-0:0.4.28-3.el8.aarch64.rpm",
+				"orc-compiler-0:0.4.28-3.el8.x86_64.rpm",
+				"orc-compiler-debuginfo-0:0.4.28-3.el8.aarch64.rpm",
+				"orc-compiler-debuginfo-0:0.4.28-3.el8.x86_64.rpm",
+				"orc-debuginfo-0:0.4.28-3.el8.aarch64.rpm",
+				"orc-debuginfo-0:0.4.28-3.el8.i686.rpm",
+				"orc-debuginfo-0:0.4.28-3.el8.x86_64.rpm",
+				"orc-debugsource-0:0.4.28-3.el8.aarch64.rpm",
+				"orc-debugsource-0:0.4.28-3.el8.i686.rpm",
+				"orc-debugsource-0:0.4.28-3.el8.x86_64.rpm",
+				"orc-devel-0:0.4.28-3.el8.aarch64.rpm",
+				"orc-devel-0:0.4.28-3.el8.i686.rpm",
+				"orc-devel-0:0.4.28-3.el8.x86_64.rpm",
+				"SDL2-0:2.0.10-2.el8.aarch64.rpm",
+				"SDL2-0:2.0.10-2.el8.i686.rpm",
+				"SDL2-0:2.0.10-2.el8.src.rpm",
+				"SDL2-0:2.0.10-2.el8.x86_64.rpm",
+				"SDL2-debuginfo-0:2.0.10-2.el8.aarch64.rpm",
+				"SDL2-debuginfo-0:2.0.10-2.el8.i686.rpm",
+				"SDL2-debuginfo-0:2.0.10-2.el8.x86_64.rpm",
+				"SDL2-debugsource-0:2.0.10-2.el8.aarch64.rpm",
+				"SDL2-debugsource-0:2.0.10-2.el8.i686.rpm",
+				"SDL2-debugsource-0:2.0.10-2.el8.x86_64.rpm",
+				"SDL2-devel-0:2.0.10-2.el8.aarch64.rpm",
+				"SDL2-devel-0:2.0.10-2.el8.i686.rpm",
+				"SDL2-devel-0:2.0.10-2.el8.x86_64.rpm",
+				"SDL2-static-0:2.0.10-2.el8.aarch64.rpm",
+				"SDL2-static-0:2.0.10-2.el8.i686.rpm",
+				"SDL2-static-0:2.0.10-2.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: GStreamer, libmad, and SDL security, bug fix, and enhancement update",
+	"topic": "An update is available for libmad, gstreamer1-plugins-ugly-free, gstreamer1-plugins-bad-free, SDL2, orc, gstreamer1.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,86 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-22922",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22922"
+		},
+		{
+			"cvss3BaseScore": "5.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-522",
+			"name": "CVE-2021-22923",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22923"
+		},
+		{
+			"cvss3BaseScore": "3.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-295",
+			"name": "CVE-2021-22924",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-22924"
+		}
+	],
+	"description": "The curl packages provide the libcurl library and the curl utility for downloading files from servers using various protocols, including HTTP, FTP, and LDAP.\n\nSecurity Fix(es):\n\n* curl: Content not matching hash in Metalink is not being discarded (CVE-2021-22922)\n\n* curl: Metalink download sends credentials (CVE-2021-22923)\n\n* curl: Bad connection reuse due to flawed path name checks (CVE-2021-22924)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1981435",
+			"ticket": "1981435"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1981438",
+			"ticket": "1981438"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1981460",
+			"ticket": "1981460"
+		}
+	],
+	"name": "RLSA-2021:3582",
+	"publishedAt": "2021-09-21T07:12:18Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libcurl-0:7.61.1-18.el8_4.1.i686.rpm",
+				"curl-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"curl-0:7.61.1-18.el8_4.1.src.rpm",
+				"curl-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"curl-debuginfo-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"curl-debuginfo-0:7.61.1-18.el8_4.1.i686.rpm",
+				"curl-debuginfo-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"curl-debugsource-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"curl-debugsource-0:7.61.1-18.el8_4.1.i686.rpm",
+				"curl-debugsource-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"libcurl-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"libcurl-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"libcurl-debuginfo-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"libcurl-debuginfo-0:7.61.1-18.el8_4.1.i686.rpm",
+				"libcurl-debuginfo-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"libcurl-devel-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"libcurl-devel-0:7.61.1-18.el8_4.1.i686.rpm",
+				"libcurl-devel-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"libcurl-minimal-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"libcurl-minimal-0:7.61.1-18.el8_4.1.i686.rpm",
+				"libcurl-minimal-0:7.61.1-18.el8_4.1.x86_64.rpm",
+				"libcurl-minimal-debuginfo-0:7.61.1-18.el8_4.1.aarch64.rpm",
+				"libcurl-minimal-debuginfo-0:7.61.1-18.el8_4.1.i686.rpm",
+				"libcurl-minimal-debuginfo-0:7.61.1-18.el8_4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: curl security update",
+	"topic": "An update is available for curl.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

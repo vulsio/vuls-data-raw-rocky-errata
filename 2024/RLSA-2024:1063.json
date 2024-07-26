@@ -1,0 +1,52 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45230",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45230"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45234",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45234"
+		}
+	],
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* edk2: Buffer overflow in the DHCPv6 client via a long Server ID option (CVE-2023-45230)\n\n* edk2: Buffer overflow when processing DNS Servers option in a DHCPv6 Advertise message (CVE-2023-45234)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2258685",
+			"ticket": "2258685"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2258697",
+			"ticket": "2258697"
+		}
+	],
+	"name": "RLSA-2024:1063",
+	"publishedAt": "2024-03-12T15:41:47.805432Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"edk2-0:20220126gitbb1bba3d77-6.el8_9.6.src.rpm",
+				"edk2-aarch64-0:20220126gitbb1bba3d77-6.el8_9.6.noarch.rpm",
+				"edk2-ovmf-0:20220126gitbb1bba3d77-6.el8_9.6.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: edk2 security update",
+	"topic": "An update is available for edk2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-46316",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46316"
+		}
+	],
+	"description": "The traceroute utility displays the route used by IP packets on their way to a specified network (or Internet) host.\n\nSecurity Fix(es):\n\n* traceroute: improper command line parsing (CVE-2023-46316)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2246303",
+			"ticket": "2246303"
+		}
+	],
+	"name": "RLSA-2024:3211",
+	"publishedAt": "2024-06-14T13:59:16.809606Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"traceroute-3:2.1.0-8.el8.aarch64.rpm",
+				"traceroute-3:2.1.0-8.el8.src.rpm",
+				"traceroute-3:2.1.0-8.el8.x86_64.rpm",
+				"traceroute-debuginfo-3:2.1.0-8.el8.aarch64.rpm",
+				"traceroute-debuginfo-3:2.1.0-8.el8.x86_64.rpm",
+				"traceroute-debugsource-3:2.1.0-8.el8.aarch64.rpm",
+				"traceroute-debugsource-3:2.1.0-8.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: traceroute security update",
+	"topic": "An update is available for traceroute.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,39 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:L/A:H",
+			"cwe": "CWE-611",
+			"name": "CVE-2020-13692",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13692"
+		}
+	],
+	"description": "PostgreSQL is an advanced object-relational database management system. The postgresql-jdbc package includes the .jar files needed for Java programs to access a PostgreSQL database.\n\nSecurity Fix(es):\n\n* postgresql-jdbc: XML external entity (XXE) vulnerability in PgSQLXML (CVE-2020-13692)\n\nThis update introduces a backwards incompatible change required to resolve this issue. Refer to the Rocky Enterprise Software Foundation Knowledgebase article 5266441 linked to in the References section for information on how to re-enable the old insecure behavior.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1852985",
+			"ticket": "1852985"
+		}
+	],
+	"name": "RLSA-2020:3176",
+	"publishedAt": "2020-07-28T12:19:54Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"postgresql-jdbc-0:42.2.3-3.el8_2.noarch.rpm",
+				"postgresql-jdbc-0:42.2.3-3.el8_2.src.rpm",
+				"postgresql-jdbc-javadoc-0:42.2.3-3.el8_2.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: postgresql-jdbc security update",
+	"topic": "An update is available for postgresql-jdbc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

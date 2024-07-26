@@ -1,0 +1,107 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-22025",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22025"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-25629",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25629"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27982",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27982"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27983",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27983"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28182",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28182"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language.\n\nSecurity Fix(es):\n\n* c-ares: Out of bounds read in ares__read_line() (CVE-2024-25629)\n\n* nghttp2: CONTINUATION frames DoS (CVE-2024-28182)\n\n* nodejs: using the fetch() function to retrieve content from an untrusted URL leads to denial of service (CVE-2024-22025)\n\n* nodejs: CONTINUATION frames DoS (CVE-2024-27983)\n\n* nodejs: HTTP Request Smuggling via Content Length Obfuscation (CVE-2024-27982)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE\npage(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265713",
+			"ticket": "2265713"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268639",
+			"ticket": "2268639"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2270559",
+			"ticket": "2270559"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2272764",
+			"ticket": "2272764"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275392",
+			"ticket": "2275392"
+		}
+	],
+	"name": "RLSA-2024:2778",
+	"publishedAt": "2024-05-09T18:50:42.874058Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:20.12.2-2.module+el8.9.0+1804+2708cc21.aarch64.rpm",
+				"nodejs-1:20.12.2-2.module+el8.9.0+1804+2708cc21.src.rpm",
+				"nodejs-1:20.12.2-2.module+el8.9.0+1804+2708cc21.x86_64.rpm",
+				"nodejs-debuginfo-1:20.12.2-2.module+el8.9.0+1804+2708cc21.aarch64.rpm",
+				"nodejs-debuginfo-1:20.12.2-2.module+el8.9.0+1804+2708cc21.x86_64.rpm",
+				"nodejs-debugsource-1:20.12.2-2.module+el8.9.0+1804+2708cc21.aarch64.rpm",
+				"nodejs-debugsource-1:20.12.2-2.module+el8.9.0+1804+2708cc21.x86_64.rpm",
+				"nodejs-devel-1:20.12.2-2.module+el8.9.0+1804+2708cc21.aarch64.rpm",
+				"nodejs-devel-1:20.12.2-2.module+el8.9.0+1804+2708cc21.x86_64.rpm",
+				"nodejs-docs-1:20.12.2-2.module+el8.9.0+1804+2708cc21.noarch.rpm",
+				"nodejs-full-i18n-1:20.12.2-2.module+el8.9.0+1804+2708cc21.aarch64.rpm",
+				"nodejs-full-i18n-1:20.12.2-2.module+el8.9.0+1804+2708cc21.x86_64.rpm",
+				"nodejs-nodemon-0:3.0.1-1.module+el8.8.0+1459+02651ab6.noarch.rpm",
+				"nodejs-nodemon-0:3.0.1-1.module+el8.8.0+1459+02651ab6.src.rpm",
+				"nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
+				"nodejs-packaging-0:2021.06-4.module+el8.7.0+1072+5b168780.src.rpm",
+				"nodejs-packaging-bundler-0:2021.06-4.module+el8.7.0+1072+5b168780.noarch.rpm",
+				"npm-1:10.5.0-1.20.12.2.2.module+el8.9.0+1804+2708cc21.aarch64.rpm",
+				"npm-1:10.5.0-1.20.12.2.2.module+el8.9.0+1804+2708cc21.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: nodejs:20 security update",
+	"topic": "An update is available for nodejs-nodemon, module.nodejs, nodejs, module.nodejs-nodemon, module.nodejs-packaging, nodejs-packaging.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

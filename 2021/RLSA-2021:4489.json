@@ -1,0 +1,116 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-125",
+			"name": "CVE-2021-20266",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20266"
+		}
+	],
+	"description": "The RPM Package Manager (RPM) is a command-line driven package management system capable of installing, uninstalling, verifying, querying, and updating software packages.\n\nSecurity Fix(es):\n\n* rpm: missing length checks in hdrblobInit() (CVE-2021-20266)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1840142",
+			"ticket": "1840142"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1927741",
+			"ticket": "1927741"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1938928",
+			"ticket": "1938928"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1996665",
+			"ticket": "1996665"
+		}
+	],
+	"name": "RLSA-2021:4489",
+	"publishedAt": "2021-11-09T09:32:33Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-rpm-0:4.14.3-19.el8.aarch64.rpm",
+				"python3-rpm-0:4.14.3-19.el8.x86_64.rpm",
+				"python3-rpm-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"python3-rpm-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-0:4.14.3-19.el8.src.rpm",
+				"rpm-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-apidocs-0:4.14.3-19.el8.noarch.rpm",
+				"rpm-build-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-build-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-build-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-build-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-build-libs-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-build-libs-0:4.14.3-19.el8.i686.rpm",
+				"rpm-build-libs-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-build-libs-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-build-libs-debuginfo-0:4.14.3-19.el8.i686.rpm",
+				"rpm-build-libs-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-cron-0:4.14.3-19.el8.noarch.rpm",
+				"rpm-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-debuginfo-0:4.14.3-19.el8.i686.rpm",
+				"rpm-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-debugsource-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-debugsource-0:4.14.3-19.el8.i686.rpm",
+				"rpm-debugsource-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-devel-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-devel-0:4.14.3-19.el8.i686.rpm",
+				"rpm-devel-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-devel-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-devel-debuginfo-0:4.14.3-19.el8.i686.rpm",
+				"rpm-devel-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-libs-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-libs-0:4.14.3-19.el8.i686.rpm",
+				"rpm-libs-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-libs-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-libs-debuginfo-0:4.14.3-19.el8.i686.rpm",
+				"rpm-libs-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-fapolicyd-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-fapolicyd-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-fapolicyd-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-fapolicyd-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-ima-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-ima-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-ima-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-ima-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-prioreset-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-prioreset-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-prioreset-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-prioreset-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-selinux-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-selinux-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-selinux-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-selinux-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-syslog-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-syslog-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-syslog-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-syslog-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-systemd-inhibit-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-systemd-inhibit-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-plugin-systemd-inhibit-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-plugin-systemd-inhibit-debuginfo-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-sign-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-sign-0:4.14.3-19.el8.x86_64.rpm",
+				"rpm-sign-debuginfo-0:4.14.3-19.el8.aarch64.rpm",
+				"rpm-sign-debuginfo-0:4.14.3-19.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: rpm security, bug fix, and enhancement update",
+	"topic": "An update is available for rpm.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,130 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:N/I:N/A:H",
+			"cwe": "CWE-401->CWE-400",
+			"name": "CVE-2021-28651",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28651"
+		},
+		{
+			"cvss3BaseScore": "6.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:N/A:H",
+			"cwe": "CWE-401",
+			"name": "CVE-2021-28652",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28652"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-28662",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28662"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-31806",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31806"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2021-31807",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31807"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2021-31808",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31808"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-33620",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33620"
+		}
+	],
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nThe following packages have been upgraded to a later upstream version: squid (4.15). (BZ#1964384)\n\nSecurity Fix(es):\n\n* squid: denial of service in URN processing (CVE-2021-28651)\n\n* squid: denial of service issue in Cache Manager (CVE-2021-28652)\n\n* squid: denial of service in HTTP response processing (CVE-2021-28662)\n\n* squid: improper input validation in HTTP Range header (CVE-2021-31806)\n\n* squid: incorrect memory management in HTTP Range header (CVE-2021-31807)\n\n* squid: integer overflow in HTTP Range header (CVE-2021-31808)\n\n* squid: denial of service in HTTP response processing (CVE-2021-33620)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1959537",
+			"ticket": "1959537"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962243",
+			"ticket": "1962243"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962246",
+			"ticket": "1962246"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962254",
+			"ticket": "1962254"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962595",
+			"ticket": "1962595"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962597",
+			"ticket": "1962597"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1962599",
+			"ticket": "1962599"
+		}
+	],
+	"name": "RLSA-2021:4292",
+	"publishedAt": "2021-11-09T08:56:14Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.src.rpm",
+				"libecap-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-debuginfo-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-debugsource-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.aarch64.rpm",
+				"libecap-devel-0:1.0.1-2.module+el8.4.0+404+316a0dc5.x86_64.rpm",
+				"squid-7:4.15-1.module+el8.5.0+705+218dec94.aarch64.rpm",
+				"squid-7:4.15-1.module+el8.5.0+705+218dec94.src.rpm",
+				"squid-7:4.15-1.module+el8.5.0+705+218dec94.x86_64.rpm",
+				"squid-debuginfo-7:4.15-1.module+el8.5.0+705+218dec94.aarch64.rpm",
+				"squid-debuginfo-7:4.15-1.module+el8.5.0+705+218dec94.x86_64.rpm",
+				"squid-debugsource-7:4.15-1.module+el8.5.0+705+218dec94.aarch64.rpm",
+				"squid-debugsource-7:4.15-1.module+el8.5.0+705+218dec94.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: squid:4 security, bug fix, and enhancement update",
+	"topic": "An update is available for squid, libecap.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

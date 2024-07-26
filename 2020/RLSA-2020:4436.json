@@ -1,0 +1,73 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-347",
+			"name": "CVE-2020-10759",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10759"
+		}
+	],
+	"description": "The gnome-software packages contain an application that makes it easy to add, remove, and update software in the GNOME desktop.\n\nThe appstream-data package provides the distribution specific AppStream metadata required for the GNOME and KDE software centers. \n\nThe fwupd packages provide a service that allows session software to update device firmware.\n\nThe following packages have been upgraded to a later upstream version: gnome-software (3.36.1), fwupd (1.4.2).\n\nSecurity Fix(es):\n\n* fwupd: Possible bypass in signature verification (CVE-2020-10759)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1797932",
+			"ticket": "1797932"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1815502",
+			"ticket": "1815502"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1839774",
+			"ticket": "1839774"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1844316",
+			"ticket": "1844316"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1844488",
+			"ticket": "1844488"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1845714",
+			"ticket": "1845714"
+		}
+	],
+	"name": "RLSA-2020:4436",
+	"publishedAt": "2020-11-03T12:04:30Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"appstream-data-0:8-20200724.el8.noarch.rpm",
+				"appstream-data-0:8-20200724.el8.src.rpm",
+				"libxmlb-0:0.1.15-1.el8.aarch64.rpm",
+				"libxmlb-0:0.1.15-1.el8.i686.rpm",
+				"libxmlb-0:0.1.15-1.el8.src.rpm",
+				"libxmlb-0:0.1.15-1.el8.x86_64.rpm",
+				"libxmlb-debuginfo-0:0.1.15-1.el8.aarch64.rpm",
+				"libxmlb-debuginfo-0:0.1.15-1.el8.i686.rpm",
+				"libxmlb-debuginfo-0:0.1.15-1.el8.x86_64.rpm",
+				"libxmlb-debugsource-0:0.1.15-1.el8.aarch64.rpm",
+				"libxmlb-debugsource-0:0.1.15-1.el8.i686.rpm",
+				"libxmlb-debugsource-0:0.1.15-1.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: gnome-software and fwupd security, bug fix, and enhancement update",
+	"topic": "An update is available for appstream-data, libxmlb.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

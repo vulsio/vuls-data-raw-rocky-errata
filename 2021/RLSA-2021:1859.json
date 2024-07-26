@@ -1,0 +1,70 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2020-24303",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-24303"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-115",
+			"name": "CVE-2020-27846",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-27846"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.3.6). (BZ#1850471)\n\nSecurity Fix(es):\n\n* crewjam/saml: authentication bypass in saml authentication (CVE-2020-27846)\n\n* grafana: XSS via a query alias for the Elasticsearch and Testdata datasource (CVE-2020-24303)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1843170",
+			"ticket": "1843170"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: grafana (7.3.6).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1850471",
+			"ticket": "1850471"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1892418",
+			"ticket": "1892418"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1907670",
+			"ticket": "1907670"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1916083",
+			"ticket": "1916083"
+		}
+	],
+	"name": "RLSA-2021:1859",
+	"publishedAt": "2021-05-18T06:16:06Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-0:7.3.6-2.el8.aarch64.rpm",
+				"grafana-0:7.3.6-2.el8.src.rpm",
+				"grafana-0:7.3.6-2.el8.x86_64.rpm",
+				"grafana-debuginfo-0:7.3.6-2.el8.aarch64.rpm",
+				"grafana-debuginfo-0:7.3.6-2.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grafana security, bug fix, and enhancement update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

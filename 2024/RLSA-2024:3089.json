@@ -1,0 +1,52 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-37327",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-37327"
+		}
+	],
+	"description": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.\n\nSecurity Fix(es):\n\n* gstreamer-plugins-good: integer overflow leading to heap overwrite in FLAC image tag handling (CVE-2023-37327)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2254539",
+			"ticket": "2254539"
+		}
+	],
+	"name": "RLSA-2024:3089",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gstreamer1-plugins-good-0:1.16.1-4.el8.aarch64.rpm",
+				"gstreamer1-plugins-good-0:1.16.1-4.el8.i686.rpm",
+				"gstreamer1-plugins-good-0:1.16.1-4.el8.src.rpm",
+				"gstreamer1-plugins-good-0:1.16.1-4.el8.x86_64.rpm",
+				"gstreamer1-plugins-good-debuginfo-0:1.16.1-4.el8.aarch64.rpm",
+				"gstreamer1-plugins-good-debuginfo-0:1.16.1-4.el8.i686.rpm",
+				"gstreamer1-plugins-good-debuginfo-0:1.16.1-4.el8.x86_64.rpm",
+				"gstreamer1-plugins-good-debugsource-0:1.16.1-4.el8.aarch64.rpm",
+				"gstreamer1-plugins-good-debugsource-0:1.16.1-4.el8.i686.rpm",
+				"gstreamer1-plugins-good-debugsource-0:1.16.1-4.el8.x86_64.rpm",
+				"gstreamer1-plugins-good-gtk-0:1.16.1-4.el8.aarch64.rpm",
+				"gstreamer1-plugins-good-gtk-0:1.16.1-4.el8.i686.rpm",
+				"gstreamer1-plugins-good-gtk-0:1.16.1-4.el8.x86_64.rpm",
+				"gstreamer1-plugins-good-gtk-debuginfo-0:1.16.1-4.el8.aarch64.rpm",
+				"gstreamer1-plugins-good-gtk-debuginfo-0:1.16.1-4.el8.i686.rpm",
+				"gstreamer1-plugins-good-gtk-debuginfo-0:1.16.1-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gstreamer1-plugins-good security update",
+	"topic": "An update is available for gstreamer1-plugins-good.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

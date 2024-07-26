@@ -1,0 +1,64 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48554",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48554"
+		}
+	],
+	"description": "The file command is used to identify a particular file according to the type of data the file contains. It can identify many different file types, including Executable and Linkable Format (ELF) binary files, system libraries, RPM packages, and different graphics formats.\n\nSecurity Fix(es):\n\n* file: stack-based buffer over-read in file_copystr in funcs.c (CVE-2022-48554)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2235714",
+			"ticket": "2235714"
+		}
+	],
+	"name": "RLSA-2024:2512",
+	"publishedAt": "2024-05-10T14:32:36.204878Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"file-0:5.39-16.el9.aarch64.rpm",
+				"file-0:5.39-16.el9.ppc64le.rpm",
+				"file-0:5.39-16.el9.s390x.rpm",
+				"file-0:5.39-16.el9.src.rpm",
+				"file-0:5.39-16.el9.x86_64.rpm",
+				"file-debuginfo-0:5.39-16.el9.aarch64.rpm",
+				"file-debuginfo-0:5.39-16.el9.ppc64le.rpm",
+				"file-debuginfo-0:5.39-16.el9.s390x.rpm",
+				"file-debuginfo-0:5.39-16.el9.x86_64.rpm",
+				"file-debugsource-0:5.39-16.el9.aarch64.rpm",
+				"file-debugsource-0:5.39-16.el9.ppc64le.rpm",
+				"file-debugsource-0:5.39-16.el9.s390x.rpm",
+				"file-debugsource-0:5.39-16.el9.x86_64.rpm",
+				"file-devel-0:5.39-16.el9.aarch64.rpm",
+				"file-devel-0:5.39-16.el9.i686.rpm",
+				"file-devel-0:5.39-16.el9.ppc64le.rpm",
+				"file-devel-0:5.39-16.el9.s390x.rpm",
+				"file-devel-0:5.39-16.el9.x86_64.rpm",
+				"file-libs-0:5.39-16.el9.aarch64.rpm",
+				"file-libs-0:5.39-16.el9.i686.rpm",
+				"file-libs-0:5.39-16.el9.ppc64le.rpm",
+				"file-libs-0:5.39-16.el9.s390x.rpm",
+				"file-libs-0:5.39-16.el9.x86_64.rpm",
+				"file-libs-debuginfo-0:5.39-16.el9.aarch64.rpm",
+				"file-libs-debuginfo-0:5.39-16.el9.ppc64le.rpm",
+				"file-libs-debuginfo-0:5.39-16.el9.s390x.rpm",
+				"file-libs-debuginfo-0:5.39-16.el9.x86_64.rpm",
+				"python3-file-magic-0:5.39-16.el9.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: file security update",
+	"topic": "An update is available for file.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

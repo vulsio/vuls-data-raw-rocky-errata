@@ -1,0 +1,111 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "CWE-203",
+			"name": "CVE-2020-14145",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-14145"
+		}
+	],
+	"description": "OpenSSH is an SSH protocol implementation supported by a number of Linux, UNIX, and similar operating systems. It includes the core files necessary for both the OpenSSH client and server.\n\nSecurity Fix(es):\n\n* openssh: Observable discrepancy leading to an information leak in the algorithm negotiation (CVE-2020-14145)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1836277",
+			"ticket": "1836277"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1843372",
+			"ticket": "1843372"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1852930",
+			"ticket": "1852930"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1868996",
+			"ticket": "1868996"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1879503",
+			"ticket": "1879503"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1901518",
+			"ticket": "1901518"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1909988",
+			"ticket": "1909988"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1913041",
+			"ticket": "1913041"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1933517",
+			"ticket": "1933517"
+		}
+	],
+	"name": "RLSA-2021:4368",
+	"publishedAt": "2021-11-09T09:11:41Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"openssh-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-0:8.0p1-10.el8.src.rpm",
+				"openssh-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-askpass-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-askpass-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-askpass-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-askpass-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-cavs-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-cavs-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-cavs-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-cavs-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-clients-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-clients-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-clients-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-clients-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-debugsource-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-debugsource-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-keycat-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-keycat-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-keycat-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-keycat-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-ldap-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-ldap-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-ldap-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-ldap-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-server-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-server-0:8.0p1-10.el8.x86_64.rpm",
+				"openssh-server-debuginfo-0:8.0p1-10.el8.aarch64.rpm",
+				"openssh-server-debuginfo-0:8.0p1-10.el8.x86_64.rpm",
+				"pam_ssh_agent_auth-0:0.10.3-7.10.el8.aarch64.rpm",
+				"pam_ssh_agent_auth-0:0.10.3-7.10.el8.x86_64.rpm",
+				"pam_ssh_agent_auth-debuginfo-0:0.10.3-7.10.el8.aarch64.rpm",
+				"pam_ssh_agent_auth-debuginfo-0:0.10.3-7.10.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: openssh security update",
+	"topic": "An update is available for openssh.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

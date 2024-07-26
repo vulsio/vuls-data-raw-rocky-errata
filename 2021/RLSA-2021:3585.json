@@ -1,0 +1,53 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-29923",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-29923"
+		}
+	],
+	"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* golang: net: incorrect parsing of extraneous zero characters at the beginning of an IP address octet (CVE-2021-29923)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1992006",
+			"ticket": "1992006"
+		}
+	],
+	"name": "RLSA-2021:3585",
+	"publishedAt": "2021-09-21T07:12:48Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"delve-0:1.5.0-2.module+el8.4.0+396+d2d16ae3.src.rpm",
+				"delve-0:1.5.0-2.module+el8.4.0+396+d2d16ae3.x86_64.rpm",
+				"delve-debuginfo-0:1.5.0-2.module+el8.4.0+396+d2d16ae3.x86_64.rpm",
+				"delve-debugsource-0:1.5.0-2.module+el8.4.0+396+d2d16ae3.x86_64.rpm",
+				"golang-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.aarch64.rpm",
+				"golang-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.src.rpm",
+				"golang-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.x86_64.rpm",
+				"golang-bin-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.aarch64.rpm",
+				"golang-bin-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.x86_64.rpm",
+				"golang-docs-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.noarch.rpm",
+				"golang-misc-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.noarch.rpm",
+				"golang-race-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.x86_64.rpm",
+				"golang-src-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.noarch.rpm",
+				"golang-tests-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.noarch.rpm",
+				"go-toolset-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.aarch64.rpm",
+				"go-toolset-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.src.rpm",
+				"go-toolset-0:1.15.14-2.module+el8.4.0+646+fc1a61b2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: go-toolset:rhel8 security update",
+	"topic": "An update is available for delve, golang, go-toolset.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

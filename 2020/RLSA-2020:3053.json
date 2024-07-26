@@ -1,0 +1,171 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2020-1983",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1983"
+		},
+		{
+			"cvss3BaseScore": "7.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-863",
+			"name": "CVE-2021-20188",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-20188"
+		}
+	],
+	"description": "The container-tools module contains tools for working with containers, notably podman, buildah, skopeo, and runc.\n\nSecurity Fix(es):\n\n* QEMU: slirp: use-after-free in ip_reass() function in ip_input.c (CVE-2020-1983)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.2 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1703261",
+			"ticket": "1703261"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1782408",
+			"ticket": "1782408"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1784950",
+			"ticket": "1784950"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1785480",
+			"ticket": "1785480"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1806044",
+			"ticket": "1806044"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1807379",
+			"ticket": "1807379"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1808483",
+			"ticket": "1808483"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1809648",
+			"ticket": "1809648"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1810874",
+			"ticket": "1810874"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1811779",
+			"ticket": "1811779"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1815170",
+			"ticket": "1815170"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1815991",
+			"ticket": "1815991"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1822037",
+			"ticket": "1822037"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1826486",
+			"ticket": "1826486"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1829061",
+			"ticket": "1829061"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1829825",
+			"ticket": "1829825"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1833390",
+			"ticket": "1833390"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1836440",
+			"ticket": "1836440"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1838991",
+			"ticket": "1838991"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1839065",
+			"ticket": "1839065"
+		}
+	],
+	"name": "RLSA-2020:3053",
+	"publishedAt": "2020-07-21T15:01:40Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+770+e2f49861.noarch.rpm",
+				"python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.4.0+559+c02fa3b2.noarch.rpm",
+				"python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+708+6758137d.noarch.rpm",
+				"python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+770+e2f49861.src.rpm",
+				"python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.4.0+559+c02fa3b2.src.rpm",
+				"python-podman-api-0:1.2.0-0.2.gitd0a45fe.module+el8.5.0+708+6758137d.src.rpm",
+				"runc-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.aarch64.rpm",
+				"runc-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.aarch64.rpm",
+				"runc-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.src.rpm",
+				"runc-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.src.rpm",
+				"runc-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.x86_64.rpm",
+				"runc-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.x86_64.rpm",
+				"runc-debuginfo-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.aarch64.rpm",
+				"runc-debuginfo-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.aarch64.rpm",
+				"runc-debuginfo-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.x86_64.rpm",
+				"runc-debuginfo-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.x86_64.rpm",
+				"runc-debugsource-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.aarch64.rpm",
+				"runc-debugsource-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.aarch64.rpm",
+				"runc-debugsource-0:1.0.0-66.rc10.module+el8.5.0+770+e2f49861.x86_64.rpm",
+				"runc-debugsource-0:1.0.0-66.rc10.module+el8.5.0+708+6758137d.x86_64.rpm",
+				"toolbox-0:0.0.7-1.module+el8.5.0+770+e2f49861.noarch.rpm",
+				"toolbox-0:0.0.7-1.module+el8.4.0+559+c02fa3b2.noarch.rpm",
+				"toolbox-0:0.0.7-1.module+el8.5.0+708+6758137d.noarch.rpm",
+				"toolbox-0:0.0.7-1.module+el8.5.0+770+e2f49861.src.rpm",
+				"toolbox-0:0.0.7-1.module+el8.4.0+559+c02fa3b2.src.rpm",
+				"toolbox-0:0.0.7-1.module+el8.5.0+708+6758137d.src.rpm",
+				"udica-0:0.2.1-2.module+el8.5.0+770+e2f49861.noarch.rpm",
+				"udica-0:0.2.1-2.module+el8.4.0+559+c02fa3b2.noarch.rpm",
+				"udica-0:0.2.1-2.module+el8.5.0+708+6758137d.noarch.rpm",
+				"udica-0:0.2.1-2.module+el8.5.0+770+e2f49861.src.rpm",
+				"udica-0:0.2.1-2.module+el8.4.0+559+c02fa3b2.src.rpm",
+				"udica-0:0.2.1-2.module+el8.5.0+708+6758137d.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: container-tools:rhel8 security, bug fix, and enhancement update",
+	"topic": "An update is available for python-podman-api, udica, toolbox, runc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

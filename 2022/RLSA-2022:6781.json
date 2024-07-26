@@ -1,0 +1,92 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2022-3080",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-3080"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-401",
+			"name": "CVE-2022-38177",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38177"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-401",
+			"name": "CVE-2022-38178",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-38178"
+		}
+	],
+	"description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: BIND 9 resolvers configured to answer from cache with zero stale-answer-timeout may terminate unexpectedly (CVE-2022-3080)\n\n* bind: memory leak in ECDSA DNSSEC verification code (CVE-2022-38177)\n\n* bind: memory leaks in EdDSA DNSSEC verification code (CVE-2022-38178)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2128600",
+			"ticket": "2128600"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2128601",
+			"ticket": "2128601"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2128602",
+			"ticket": "2128602"
+		}
+	],
+	"name": "RLSA-2022:6781",
+	"publishedAt": "2022-10-04T14:35:34Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bind9.16-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-32:9.16.23-0.7.el8_6.1.src.rpm",
+				"bind9.16-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-chroot-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-chroot-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-debuginfo-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-debuginfo-32:9.16.23-0.7.el8_6.1.i686.rpm",
+				"bind9.16-debuginfo-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-debugsource-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-debugsource-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-devel-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-devel-32:9.16.23-0.7.el8_6.1.i686.rpm",
+				"bind9.16-devel-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-dnssec-utils-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-dnssec-utils-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-dnssec-utils-debuginfo-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-dnssec-utils-debuginfo-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-doc-32:9.16.23-0.7.el8_6.1.noarch.rpm",
+				"bind9.16-libs-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-libs-32:9.16.23-0.7.el8_6.1.i686.rpm",
+				"bind9.16-libs-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-libs-debuginfo-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-libs-debuginfo-32:9.16.23-0.7.el8_6.1.i686.rpm",
+				"bind9.16-libs-debuginfo-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-license-32:9.16.23-0.7.el8_6.1.noarch.rpm",
+				"bind9.16-utils-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-utils-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"bind9.16-utils-debuginfo-32:9.16.23-0.7.el8_6.1.aarch64.rpm",
+				"bind9.16-utils-debuginfo-32:9.16.23-0.7.el8_6.1.x86_64.rpm",
+				"python3-bind9.16-32:9.16.23-0.7.el8_6.1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: bind9.16 security update",
+	"topic": "An update is available for bind9.16.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

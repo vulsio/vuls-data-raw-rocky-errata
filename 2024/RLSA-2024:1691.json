@@ -1,0 +1,51 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-30156",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30156"
+		}
+	],
+	"description": "Varnish Cache is a high-performance HTTP accelerator. It stores web pages in memory so web servers don't have to create the same web page over and over again, giving the website a significant speed up.\n\nSecurity Fix(es):\n\n* varnish: HTTP/2 Broken Window Attack may result in denial of service (CVE-2024-30156)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE\npage(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2271486",
+			"ticket": "2271486"
+		}
+	],
+	"name": "RLSA-2024:1691",
+	"publishedAt": "2024-05-10T14:32:38.114770Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"varnish-0:6.6.2-4.el9_3.1.aarch64.rpm",
+				"varnish-0:6.6.2-4.el9_3.1.i686.rpm",
+				"varnish-0:6.6.2-4.el9_3.1.ppc64le.rpm",
+				"varnish-0:6.6.2-4.el9_3.1.s390x.rpm",
+				"varnish-0:6.6.2-4.el9_3.1.src.rpm",
+				"varnish-0:6.6.2-4.el9_3.1.x86_64.rpm",
+				"varnish-devel-0:6.6.2-4.el9_3.1.aarch64.rpm",
+				"varnish-devel-0:6.6.2-4.el9_3.1.i686.rpm",
+				"varnish-devel-0:6.6.2-4.el9_3.1.ppc64le.rpm",
+				"varnish-devel-0:6.6.2-4.el9_3.1.s390x.rpm",
+				"varnish-devel-0:6.6.2-4.el9_3.1.x86_64.rpm",
+				"varnish-docs-0:6.6.2-4.el9_3.1.aarch64.rpm",
+				"varnish-docs-0:6.6.2-4.el9_3.1.ppc64le.rpm",
+				"varnish-docs-0:6.6.2-4.el9_3.1.s390x.rpm",
+				"varnish-docs-0:6.6.2-4.el9_3.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: varnish security update",
+	"topic": "An update is available for varnish.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

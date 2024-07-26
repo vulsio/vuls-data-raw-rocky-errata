@@ -1,0 +1,65 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2020-21710",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-21710"
+		}
+	],
+	"description": "The Ghostscript suite contains utilities for rendering PostScript and PDF documents. Ghostscript translates PostScript code to common bitmap formats so that the code can be displayed or printed.\n\nSecurity Fix(es):\n\n* ghostscript: Divide by zero in eps_print_page in gdevepsn.c (CVE-2020-21710)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2235001",
+			"ticket": "2235001"
+		}
+	],
+	"name": "RLSA-2024:2966",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"ghostscript-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-0:9.27-12.el8.src.rpm",
+				"ghostscript-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-debuginfo-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-debuginfo-0:9.27-12.el8.i686.rpm",
+				"ghostscript-debuginfo-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-debugsource-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-debugsource-0:9.27-12.el8.i686.rpm",
+				"ghostscript-debugsource-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-doc-0:9.27-12.el8.noarch.rpm",
+				"ghostscript-tools-dvipdf-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-tools-dvipdf-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-tools-fonts-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-tools-fonts-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-tools-printing-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-tools-printing-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-x11-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-x11-0:9.27-12.el8.x86_64.rpm",
+				"ghostscript-x11-debuginfo-0:9.27-12.el8.aarch64.rpm",
+				"ghostscript-x11-debuginfo-0:9.27-12.el8.x86_64.rpm",
+				"libgs-0:9.27-12.el8.aarch64.rpm",
+				"libgs-0:9.27-12.el8.i686.rpm",
+				"libgs-0:9.27-12.el8.x86_64.rpm",
+				"libgs-debuginfo-0:9.27-12.el8.aarch64.rpm",
+				"libgs-debuginfo-0:9.27-12.el8.i686.rpm",
+				"libgs-debuginfo-0:9.27-12.el8.x86_64.rpm",
+				"libgs-devel-0:9.27-12.el8.aarch64.rpm",
+				"libgs-devel-0:9.27-12.el8.i686.rpm",
+				"libgs-devel-0:9.27-12.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: ghostscript security update",
+	"topic": "An update is available for ghostscript.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

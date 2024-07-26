@@ -1,0 +1,66 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-20",
+			"name": "CVE-2024-24789",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24789"
+		},
+		{
+			"cvss3BaseScore": "6.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-115",
+			"name": "CVE-2024-24790",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24790"
+		}
+	],
+	"description": "The golang packages provide the Go programming language compiler.\n\nSecurity Fix(es):\n\n* golang: archive/zip: Incorrect handling of certain ZIP files (CVE-2024-24789)\n\n* golang: net/netip: Unexpected behavior from Is methods for IPv4-mapped IPv6 addresses (CVE-2024-24790)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292668",
+			"ticket": "2292668"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292787",
+			"ticket": "2292787"
+		}
+	],
+	"name": "RLSA-2024:4212",
+	"publishedAt": "2024-07-15T12:18:45.298153Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"golang-0:1.21.11-1.el9_4.aarch64.rpm",
+				"golang-0:1.21.11-1.el9_4.ppc64le.rpm",
+				"golang-0:1.21.11-1.el9_4.s390x.rpm",
+				"golang-0:1.21.11-1.el9_4.src.rpm",
+				"golang-0:1.21.11-1.el9_4.x86_64.rpm",
+				"golang-bin-0:1.21.11-1.el9_4.aarch64.rpm",
+				"golang-bin-0:1.21.11-1.el9_4.ppc64le.rpm",
+				"golang-bin-0:1.21.11-1.el9_4.s390x.rpm",
+				"golang-bin-0:1.21.11-1.el9_4.x86_64.rpm",
+				"golang-docs-0:1.21.11-1.el9_4.noarch.rpm",
+				"golang-misc-0:1.21.11-1.el9_4.noarch.rpm",
+				"golang-src-0:1.21.11-1.el9_4.noarch.rpm",
+				"golang-tests-0:1.21.11-1.el9_4.noarch.rpm",
+				"go-toolset-0:1.21.11-1.el9_4.aarch64.rpm",
+				"go-toolset-0:1.21.11-1.el9_4.ppc64le.rpm",
+				"go-toolset-0:1.21.11-1.el9_4.s390x.rpm",
+				"go-toolset-0:1.21.11-1.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: golang security update",
+	"topic": "An update is available for golang.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

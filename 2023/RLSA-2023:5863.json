@@ -1,0 +1,54 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-39325",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-39325"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44487",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44487"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB.\n\nSecurity Fix(es):\n\n* grafana: golang: net/http, x/net/http2: rapid stream resets can cause excessive work (CVE-2023-39325)\n\n* HTTP/2: Multiple HTTP/2 enabled web servers are vulnerable to a DDoS attack (Rapid Reset Attack) (CVE-2023-44487)\n\nA Rocky Enterprise Software Foundation Security Bulletin which addresses further details about this flaw is available in the References section.\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2242803",
+			"ticket": "2242803"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2243296",
+			"ticket": "2243296"
+		}
+	],
+	"name": "RLSA-2023:5863",
+	"publishedAt": "2023-10-24T18:35:47.290826Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-0:7.5.15-5.el8_8.aarch64.rpm",
+				"grafana-0:7.5.15-5.el8_8.src.rpm",
+				"grafana-0:7.5.15-5.el8_8.x86_64.rpm",
+				"grafana-debuginfo-0:7.5.15-5.el8_8.aarch64.rpm",
+				"grafana-debuginfo-0:7.5.15-5.el8_8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grafana security update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

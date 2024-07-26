@@ -1,0 +1,123 @@
+{
+	"affectedProducts": [
+		"Rocky Linux SIG Cloud 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-1192",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1192"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-20569",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-20569"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45871",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45871"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5345",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5345"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: use-after-free vulnerability in the smb client component (CVE-2023-5345)\n\n* kernel: IGB driver inadequate buffer size for frames larger than MTU (CVE-2023-45871)\n\n* hw amd: Return Address Predictor vulnerability leading to information disclosure (CVE-2023-20569)\n\n* kernel: use-after-free in smb2_is_status_io_timeout() (CVE-2023-1192)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2154178",
+			"ticket": "2154178"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2207625",
+			"ticket": "2207625"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2242172",
+			"ticket": "2242172"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2244723",
+			"ticket": "2244723"
+		}
+	],
+	"name": "RXSA-2023:7749",
+	"publishedAt": "2024-01-12T19:59:56.586504Z",
+	"rpms": {
+		"Rocky Linux SIG Cloud 9": {
+			"nvras": [
+				"bpftool-0:7.2.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"bpftool-debuginfo-0:7.2.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-0:5.14.0-362.13.1.el9_3.cloud.0.3.src.rpm",
+				"kernel-64k-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-devel-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-devel-matched-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-modules-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-modules-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-debug-modules-extra-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-devel-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-devel-matched-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-modules-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-modules-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-64k-modules-extra-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-abi-stablelists-0:5.14.0-362.13.1.el9_3.cloud.0.3.noarch.rpm",
+				"kernel-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-cross-headers-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-devel-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-modules-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-devel-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-devel-matched-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-doc-0:5.14.0-362.13.1.el9_3.cloud.0.3.noarch.rpm",
+				"kernel-headers-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-modules-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-modules-core-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-modules-extra-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-tools-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-tools-libs-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"perf-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"perf-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"python3-perf-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm",
+				"rtla-0:5.14.0-362.13.1.el9_3.cloud.0.3.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RX",
+	"synopsis": "Important: kernel security update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux SIG Cloud 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

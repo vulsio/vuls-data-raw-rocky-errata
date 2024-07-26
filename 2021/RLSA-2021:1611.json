@@ -1,0 +1,170 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.5",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "CWE-863",
+			"name": "CVE-2019-3842",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-3842"
+		},
+		{
+			"cvss3BaseScore": "6.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-440",
+			"name": "CVE-2020-13776",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-13776"
+		}
+	],
+	"description": "The systemd packages contain systemd, a system and service manager for Linux, compatible with the SysV and LSB init scripts. It provides aggressive parallelism capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, and keeps track of processes using Linux cgroups. In addition, it supports snapshotting and restoring of the system state, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. It can also work as a drop-in replacement for sysvinit.\n\nSecurity Fix(es):\n\n* systemd: Spoofing of XDG_SEAT allows for actions to be checked against \"allow_active\" instead of \"allow_any\" (CVE-2019-3842)\n\n* systemd: Mishandles numerical usernames beginning with decimal digits or 0x followed by hexadecimal digits (CVE-2020-13776)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.4 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1668521",
+			"ticket": "1668521"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1740657",
+			"ticket": "1740657"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1755287",
+			"ticket": "1755287"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1764282",
+			"ticket": "1764282"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1812972",
+			"ticket": "1812972"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1819868",
+			"ticket": "1819868"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1845534",
+			"ticket": "1845534"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1862714",
+			"ticket": "1862714"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1865840",
+			"ticket": "1865840"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1868831",
+			"ticket": "1868831"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1868877",
+			"ticket": "1868877"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1870638",
+			"ticket": "1870638"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1871139",
+			"ticket": "1871139"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1880270",
+			"ticket": "1880270"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1885553",
+			"ticket": "1885553"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1887181",
+			"ticket": "1887181"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1888912",
+			"ticket": "1888912"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1889996",
+			"ticket": "1889996"
+		}
+	],
+	"name": "RLSA-2021:1611",
+	"publishedAt": "2021-05-18T05:39:12Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"systemd-0:239-45.el8.aarch64.rpm",
+				"systemd-0:239-45.el8.i686.rpm",
+				"systemd-0:239-45.el8.src.rpm",
+				"systemd-0:239-45.el8.x86_64.rpm",
+				"systemd-container-0:239-45.el8.aarch64.rpm",
+				"systemd-container-0:239-45.el8.i686.rpm",
+				"systemd-container-0:239-45.el8.x86_64.rpm",
+				"systemd-container-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-container-debuginfo-0:239-45.el8.i686.rpm",
+				"systemd-container-debuginfo-0:239-45.el8.x86_64.rpm",
+				"systemd-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-debuginfo-0:239-45.el8.i686.rpm",
+				"systemd-debuginfo-0:239-45.el8.x86_64.rpm",
+				"systemd-debugsource-0:239-45.el8.aarch64.rpm",
+				"systemd-debugsource-0:239-45.el8.i686.rpm",
+				"systemd-debugsource-0:239-45.el8.x86_64.rpm",
+				"systemd-devel-0:239-45.el8.aarch64.rpm",
+				"systemd-devel-0:239-45.el8.i686.rpm",
+				"systemd-devel-0:239-45.el8.x86_64.rpm",
+				"systemd-journal-remote-0:239-45.el8.aarch64.rpm",
+				"systemd-journal-remote-0:239-45.el8.x86_64.rpm",
+				"systemd-journal-remote-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-journal-remote-debuginfo-0:239-45.el8.x86_64.rpm",
+				"systemd-libs-0:239-45.el8.aarch64.rpm",
+				"systemd-libs-0:239-45.el8.i686.rpm",
+				"systemd-libs-0:239-45.el8.x86_64.rpm",
+				"systemd-libs-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-libs-debuginfo-0:239-45.el8.i686.rpm",
+				"systemd-libs-debuginfo-0:239-45.el8.x86_64.rpm",
+				"systemd-pam-0:239-45.el8.aarch64.rpm",
+				"systemd-pam-0:239-45.el8.x86_64.rpm",
+				"systemd-pam-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-pam-debuginfo-0:239-45.el8.x86_64.rpm",
+				"systemd-tests-0:239-45.el8.aarch64.rpm",
+				"systemd-tests-0:239-45.el8.x86_64.rpm",
+				"systemd-tests-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-tests-debuginfo-0:239-45.el8.x86_64.rpm",
+				"systemd-udev-0:239-45.el8.aarch64.rpm",
+				"systemd-udev-0:239-45.el8.x86_64.rpm",
+				"systemd-udev-debuginfo-0:239-45.el8.aarch64.rpm",
+				"systemd-udev-debuginfo-0:239-45.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: systemd security, bug fix, and enhancement update",
+	"topic": "An update is available for systemd.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

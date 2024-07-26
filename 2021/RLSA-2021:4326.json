@@ -1,0 +1,56 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-20->CWE-77",
+			"name": "CVE-2021-31535",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-31535"
+		}
+	],
+	"description": "The libX11 packages contain the core X11 protocol client library.\n\nSecurity Fix(es):\n\n* libX11: missing request length checks (CVE-2021-31535)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1961822",
+			"ticket": "1961822"
+		}
+	],
+	"name": "RLSA-2021:4326",
+	"publishedAt": "2021-11-09T09:01:07Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libX11-0:1.6.8-5.el8.aarch64.rpm",
+				"libX11-0:1.6.8-5.el8.i686.rpm",
+				"libX11-0:1.6.8-5.el8.src.rpm",
+				"libX11-0:1.6.8-5.el8.x86_64.rpm",
+				"libX11-common-0:1.6.8-5.el8.noarch.rpm",
+				"libX11-debuginfo-0:1.6.8-5.el8.aarch64.rpm",
+				"libX11-debuginfo-0:1.6.8-5.el8.i686.rpm",
+				"libX11-debuginfo-0:1.6.8-5.el8.x86_64.rpm",
+				"libX11-debugsource-0:1.6.8-5.el8.aarch64.rpm",
+				"libX11-debugsource-0:1.6.8-5.el8.i686.rpm",
+				"libX11-debugsource-0:1.6.8-5.el8.x86_64.rpm",
+				"libX11-devel-0:1.6.8-5.el8.aarch64.rpm",
+				"libX11-devel-0:1.6.8-5.el8.i686.rpm",
+				"libX11-devel-0:1.6.8-5.el8.x86_64.rpm",
+				"libX11-xcb-0:1.6.8-5.el8.aarch64.rpm",
+				"libX11-xcb-0:1.6.8-5.el8.i686.rpm",
+				"libX11-xcb-0:1.6.8-5.el8.x86_64.rpm",
+				"libX11-xcb-debuginfo-0:1.6.8-5.el8.aarch64.rpm",
+				"libX11-xcb-debuginfo-0:1.6.8-5.el8.i686.rpm",
+				"libX11-xcb-debuginfo-0:1.6.8-5.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libX11 security update",
+	"topic": "An update is available for libX11.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

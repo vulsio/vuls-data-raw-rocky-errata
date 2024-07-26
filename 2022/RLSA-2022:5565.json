@@ -1,0 +1,52 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-366",
+			"name": "CVE-2022-1729",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1729"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: race condition in perf_event_open leads to privilege escalation (CVE-2022-1729)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* The latest Rocky Linux 8.6.z1 kernel changes need to be merged into the RT source tree to keep source parity between the two kernels. (BZ#2098244)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2086753",
+			"ticket": "2086753"
+		}
+	],
+	"name": "RLSA-2022:5565",
+	"publishedAt": "2022-07-13T06:31:32Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-372.16.1.rt7.173.el8_6.src.rpm",
+				"kernel-rt-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-372.16.1.rt7.173.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

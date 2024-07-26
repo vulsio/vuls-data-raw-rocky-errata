@@ -1,0 +1,91 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "(CWE-125|CWE-1285|CWE-129|CWE-786|CWE-823)",
+			"name": "CVE-2023-46724",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46724"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2023-46728",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-46728"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-126",
+			"name": "CVE-2023-49285",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49285"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-253->CWE-617",
+			"name": "CVE-2023-49286",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-49286"
+		}
+	],
+	"description": "Squid is a high-performance proxy caching server for web clients, supporting FTP, Gopher, and HTTP data objects.\n\nSecurity Fix(es):\n\n* squid: Denial of Service in SSL Certificate validation (CVE-2023-46724)\n\n* squid: NULL pointer dereference in the gopher protocol code (CVE-2023-46728)\n\n* squid: Buffer over-read in the HTTP Message processing feature (CVE-2023-49285)\n\n* squid: Incorrect Check of Function Return Value In Helper Process management (CVE-2023-49286)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2247567",
+			"ticket": "2247567"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2248521",
+			"ticket": "2248521"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2252923",
+			"ticket": "2252923"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2252926",
+			"ticket": "2252926"
+		}
+	],
+	"name": "RLSA-2024:0046",
+	"publishedAt": "2024-01-09T04:07:10.107611Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libecap-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.aarch64.rpm",
+				"libecap-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.src.rpm",
+				"libecap-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm",
+				"libecap-debuginfo-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.aarch64.rpm",
+				"libecap-debuginfo-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm",
+				"libecap-debugsource-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.aarch64.rpm",
+				"libecap-debugsource-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm",
+				"libecap-devel-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.aarch64.rpm",
+				"libecap-devel-0:1.0.1-2.module+el8.9.0+1437+df5ea8f0.x86_64.rpm",
+				"squid-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.aarch64.rpm",
+				"squid-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.src.rpm",
+				"squid-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.x86_64.rpm",
+				"squid-debuginfo-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.aarch64.rpm",
+				"squid-debuginfo-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.x86_64.rpm",
+				"squid-debugsource-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.aarch64.rpm",
+				"squid-debugsource-7:4.15-7.module+el8.9.0+1568+6d4fd5d4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: squid:4 security update",
+	"topic": "An update is available for module.libecap, module.squid, squid, libecap.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

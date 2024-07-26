@@ -1,0 +1,140 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1104",
+			"name": "CVE-2022-46871",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46871"
+		},
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N",
+			"cwe": "CWE-357",
+			"name": "CVE-2022-46877",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-46877"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-450",
+			"name": "CVE-2023-23598",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23598"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-77",
+			"name": "CVE-2023-23599",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23599"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-829",
+			"name": "CVE-2023-23601",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23601"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-1385",
+			"name": "CVE-2023-23602",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23602"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-185",
+			"name": "CVE-2023-23603",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23603"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2023-23605",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-23605"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nThis update upgrades Firefox to version 102.7.0 ESR.\n\nSecurity Fix(es):\n\n* Mozilla: libusrsctp library out of date (CVE-2022-46871)\n\n* Mozilla: Arbitrary file read from GTK drag and drop on Linux (CVE-2023-23598)\n\n* Mozilla: Memory safety bugs fixed in Firefox 109 and Firefox ESR 102.7 (CVE-2023-23605)\n\n* Mozilla: Malicious command could be hidden in devtools output (CVE-2023-23599)\n\n* Mozilla: URL being dragged from cross-origin iframe into same tab triggers navigation (CVE-2023-23601)\n\n* Mozilla: Content Security Policy wasn't being correctly applied to WebSockets in WebWorkers (CVE-2023-23602)\n\n* Mozilla: Fullscreen notification bypass (CVE-2022-46877)\n\n* Mozilla: Calls to <code>console.log</code> allowed bypasing Content Security Policy via format directive (CVE-2023-23603)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162336",
+			"ticket": "2162336"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162338",
+			"ticket": "2162338"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162339",
+			"ticket": "2162339"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162340",
+			"ticket": "2162340"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162341",
+			"ticket": "2162341"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162342",
+			"ticket": "2162342"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162343",
+			"ticket": "2162343"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2162344",
+			"ticket": "2162344"
+		}
+	],
+	"name": "RLSA-2023:0285",
+	"publishedAt": "2023-01-23T08:23:43Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"firefox-0:102.7.0-1.el9_1.aarch64.rpm",
+				"firefox-0:102.7.0-1.el9_1.ppc64le.rpm",
+				"firefox-0:102.7.0-1.el9_1.s390x.rpm",
+				"firefox-0:102.7.0-1.el9_1.src.rpm",
+				"firefox-0:102.7.0-1.el9_1.x86_64.rpm",
+				"firefox-debuginfo-0:102.7.0-1.el9_1.aarch64.rpm",
+				"firefox-debuginfo-0:102.7.0-1.el9_1.ppc64le.rpm",
+				"firefox-debuginfo-0:102.7.0-1.el9_1.s390x.rpm",
+				"firefox-debuginfo-0:102.7.0-1.el9_1.x86_64.rpm",
+				"firefox-debugsource-0:102.7.0-1.el9_1.aarch64.rpm",
+				"firefox-debugsource-0:102.7.0-1.el9_1.ppc64le.rpm",
+				"firefox-debugsource-0:102.7.0-1.el9_1.s390x.rpm",
+				"firefox-debugsource-0:102.7.0-1.el9_1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

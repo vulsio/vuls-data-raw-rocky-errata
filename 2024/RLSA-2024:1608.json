@@ -1,0 +1,66 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-0914",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0914"
+		}
+	],
+	"description": "The opencryptoki packages contain version 2.11 of the PKCS#11 API, implemented for IBM Cryptocards, such as IBM 4764 and 4765 crypto cards. These packages includes support for the IBM 4758 Cryptographic CoProcessor (with the PKCS#11 firmware loaded), the IBM eServer Cryptographic Accelerator (FC 4960 on IBM eServer System p), the IBM Crypto Express2 (FC 0863 or FC 0870 on IBM System z), and the IBM CP Assist for Cryptographic Function (FC 3863 on IBM System z). The opencryptoki packages also bring a software token implementation that can be used without any cryptographic hardware. These packages contain the Slot Daemon (pkcsslotd) and general utilities.\n\nSecurity Fix(es):\n\n* opencryptoki: timing side-channel in handling of RSA PKCS#1 v1.5 padded ciphertexts (Marvin) (CVE-2024-0914)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2260407",
+			"ticket": "2260407"
+		}
+	],
+	"name": "RLSA-2024:1608",
+	"publishedAt": "2024-04-05T14:55:53.600745Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"opencryptoki-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-0:3.21.0-10.el8_9.src.rpm",
+				"opencryptoki-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-debuginfo-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-debuginfo-0:3.21.0-10.el8_9.i686.rpm",
+				"opencryptoki-debuginfo-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-debugsource-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-debugsource-0:3.21.0-10.el8_9.i686.rpm",
+				"opencryptoki-debugsource-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-devel-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-devel-0:3.21.0-10.el8_9.i686.rpm",
+				"opencryptoki-devel-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-icsftok-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-icsftok-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-icsftok-debuginfo-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-icsftok-debuginfo-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-libs-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-libs-0:3.21.0-10.el8_9.i686.rpm",
+				"opencryptoki-libs-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-libs-debuginfo-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-libs-debuginfo-0:3.21.0-10.el8_9.i686.rpm",
+				"opencryptoki-libs-debuginfo-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-swtok-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-swtok-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-swtok-debuginfo-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-swtok-debuginfo-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-tpmtok-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-tpmtok-0:3.21.0-10.el8_9.x86_64.rpm",
+				"opencryptoki-tpmtok-debuginfo-0:3.21.0-10.el8_9.aarch64.rpm",
+				"opencryptoki-tpmtok-debuginfo-0:3.21.0-10.el8_9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: opencryptoki security update",
+	"topic": "An update is available for opencryptoki.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

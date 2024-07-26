@@ -1,0 +1,88 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45288",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45288"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45289",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45289"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45290",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45290"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24783",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24783"
+		}
+	],
+	"description": "Git Large File Storage (LFS) replaces large files such as audio samples, videos, datasets, and graphics with text pointers inside Git, while storing the file contents on a remote server.\n\nSecurity Fix(es):\n\n* golang: net/http, x/net/http2: unlimited number of CONTINUATION frames causes DoS (CVE-2023-45288)\n\n* golang: net/http/cookiejar: incorrect forwarding of sensitive headers and cookies on HTTP redirect (CVE-2023-45289)\n\n* golang: net/http: memory exhaustion in Request.ParseMultipartForm (CVE-2023-45290)\n\n* golang: crypto/x509: Verify panics on certificates with an unknown public key algorithm (CVE-2024-24783)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268017",
+			"ticket": "2268017"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268018",
+			"ticket": "2268018"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268019",
+			"ticket": "2268019"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268273",
+			"ticket": "2268273"
+		}
+	],
+	"name": "RLSA-2024:2724",
+	"publishedAt": "2024-05-10T14:32:42.380544Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"git-lfs-0:3.4.1-2.el9_4.aarch64.rpm",
+				"git-lfs-0:3.4.1-2.el9_4.ppc64le.rpm",
+				"git-lfs-0:3.4.1-2.el9_4.s390x.rpm",
+				"git-lfs-0:3.4.1-2.el9_4.src.rpm",
+				"git-lfs-0:3.4.1-2.el9_4.x86_64.rpm",
+				"git-lfs-debuginfo-0:3.4.1-2.el9_4.aarch64.rpm",
+				"git-lfs-debuginfo-0:3.4.1-2.el9_4.ppc64le.rpm",
+				"git-lfs-debuginfo-0:3.4.1-2.el9_4.s390x.rpm",
+				"git-lfs-debuginfo-0:3.4.1-2.el9_4.x86_64.rpm",
+				"git-lfs-debugsource-0:3.4.1-2.el9_4.aarch64.rpm",
+				"git-lfs-debugsource-0:3.4.1-2.el9_4.ppc64le.rpm",
+				"git-lfs-debugsource-0:3.4.1-2.el9_4.s390x.rpm",
+				"git-lfs-debugsource-0:3.4.1-2.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: git-lfs security update",
+	"topic": "An update is available for git-lfs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,63 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H",
+			"cwe": "CWE-190->CWE-787",
+			"name": "CVE-2022-29824",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-29824"
+		}
+	],
+	"description": "The libxml2 library is a development toolbox providing the implementation of various XML standards.\n\nSecurity Fix(es):\n\n* libxml2: integer overflows in xmlBuf and xmlBuffer lead to out-of-bounds write (CVE-2022-29824)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082158",
+			"ticket": "2082158"
+		}
+	],
+	"name": "RLSA-2022:5250",
+	"publishedAt": "2022-06-28T08:27:27Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"libxml2-0:2.9.13-1.el9_0.1.aarch64.rpm",
+				"libxml2-0:2.9.13-1.el9_0.1.i686.rpm",
+				"libxml2-0:2.9.13-1.el9_0.1.ppc64le.rpm",
+				"libxml2-0:2.9.13-1.el9_0.1.s390x.rpm",
+				"libxml2-0:2.9.13-1.el9_0.1.src.rpm",
+				"libxml2-0:2.9.13-1.el9_0.1.x86_64.rpm",
+				"libxml2-debuginfo-0:2.9.13-1.el9_0.1.aarch64.rpm",
+				"libxml2-debuginfo-0:2.9.13-1.el9_0.1.ppc64le.rpm",
+				"libxml2-debuginfo-0:2.9.13-1.el9_0.1.s390x.rpm",
+				"libxml2-debuginfo-0:2.9.13-1.el9_0.1.x86_64.rpm",
+				"libxml2-debugsource-0:2.9.13-1.el9_0.1.aarch64.rpm",
+				"libxml2-debugsource-0:2.9.13-1.el9_0.1.ppc64le.rpm",
+				"libxml2-debugsource-0:2.9.13-1.el9_0.1.s390x.rpm",
+				"libxml2-debugsource-0:2.9.13-1.el9_0.1.x86_64.rpm",
+				"libxml2-devel-0:2.9.13-1.el9_0.1.aarch64.rpm",
+				"libxml2-devel-0:2.9.13-1.el9_0.1.i686.rpm",
+				"libxml2-devel-0:2.9.13-1.el9_0.1.ppc64le.rpm",
+				"libxml2-devel-0:2.9.13-1.el9_0.1.s390x.rpm",
+				"libxml2-devel-0:2.9.13-1.el9_0.1.x86_64.rpm",
+				"python3-libxml2-0:2.9.13-1.el9_0.1.aarch64.rpm",
+				"python3-libxml2-0:2.9.13-1.el9_0.1.ppc64le.rpm",
+				"python3-libxml2-0:2.9.13-1.el9_0.1.s390x.rpm",
+				"python3-libxml2-0:2.9.13-1.el9_0.1.x86_64.rpm",
+				"python3-libxml2-debuginfo-0:2.9.13-1.el9_0.1.aarch64.rpm",
+				"python3-libxml2-debuginfo-0:2.9.13-1.el9_0.1.ppc64le.rpm",
+				"python3-libxml2-debuginfo-0:2.9.13-1.el9_0.1.s390x.rpm",
+				"python3-libxml2-debuginfo-0:2.9.13-1.el9_0.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libxml2 security update",
+	"topic": "An update is available for libxml2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

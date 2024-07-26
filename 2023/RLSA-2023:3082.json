@@ -1,0 +1,66 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-27530",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27530"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-27539",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-27539"
+		}
+	],
+	"description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* rubygem-rack: Denial of service in Multipart MIME parsing (CVE-2023-27530)\n\n* rubygem-rack: denial of service in header parsing (CVE-2023-27539)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Command 'pcs config checkpoint diff' does not show configuration differences between checkpoints (BZ#2180700)\n\n* Need a way to add a scsi fencing device to a cluster without requiring a restart of all cluster resources (BZ#2180706)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2176477",
+			"ticket": "2176477"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2179649",
+			"ticket": "2179649"
+		},
+		{
+			"description": "* Command 'pcs config checkpoint diff' does not show configuration differences between checkpoints",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2180700",
+			"ticket": "2180700"
+		},
+		{
+			"description": "* Need a way to add a scsi fencing device to a cluster without requiring a restart of all cluster resources",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2180706",
+			"ticket": "2180706"
+		}
+	],
+	"name": "RLSA-2023:3082",
+	"publishedAt": "2023-05-18T19:18:23.655859Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pcs-0:0.10.15-4.el8_8.1.aarch64.rpm",
+				"pcs-0:0.10.15-4.el8_8.1.src.rpm",
+				"pcs-snmp-0:0.10.15-4.el8_8.1.aarch64.rpm",
+				"pcs-0:0.10.15-4.el8_8.1.x86_64.rpm",
+				"pcs-snmp-0:0.10.15-4.el8_8.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: pcs security and bug fix update",
+	"topic": "An update is available for pcs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

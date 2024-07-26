@@ -1,0 +1,77 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2022-2526",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2526"
+		}
+	],
+	"description": "The systemd packages contain systemd, a system and service manager for Linux, compatible with the SysV and LSB init scripts. It provides aggressive parallelism capabilities, uses socket and D-Bus activation for starting services, offers on-demand starting of daemons, and keeps track of processes using Linux cgroups. In addition, it supports snapshotting and restoring of the system state, maintains mount and automount points, and implements an elaborate transactional dependency-based service control logic. It can also work as a drop-in replacement for sysvinit.\n\nSecurity Fix(es):\n\n* systemd-resolved: use-after-free when dealing with DnsStream in resolved-dns-stream.c (CVE-2022-2526)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2109926",
+			"ticket": "2109926"
+		}
+	],
+	"name": "RLSA-2022:6206",
+	"publishedAt": "2022-08-29T15:56:37Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"systemd-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-0:239-58.el8_6.4.i686.rpm",
+				"systemd-0:239-58.el8_6.4.src.rpm",
+				"systemd-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-container-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-container-0:239-58.el8_6.4.i686.rpm",
+				"systemd-container-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-container-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-container-debuginfo-0:239-58.el8_6.4.i686.rpm",
+				"systemd-container-debuginfo-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-debuginfo-0:239-58.el8_6.4.i686.rpm",
+				"systemd-debuginfo-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-debugsource-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-debugsource-0:239-58.el8_6.4.i686.rpm",
+				"systemd-debugsource-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-devel-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-devel-0:239-58.el8_6.4.i686.rpm",
+				"systemd-devel-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-journal-remote-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-journal-remote-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-journal-remote-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-journal-remote-debuginfo-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-libs-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-libs-0:239-58.el8_6.4.i686.rpm",
+				"systemd-libs-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-libs-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-libs-debuginfo-0:239-58.el8_6.4.i686.rpm",
+				"systemd-libs-debuginfo-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-pam-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-pam-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-pam-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-pam-debuginfo-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-tests-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-tests-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-tests-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-tests-debuginfo-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-udev-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-udev-0:239-58.el8_6.4.x86_64.rpm",
+				"systemd-udev-debuginfo-0:239-58.el8_6.4.aarch64.rpm",
+				"systemd-udev-debuginfo-0:239-58.el8_6.4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: systemd security update",
+	"topic": "An update is available for systemd.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

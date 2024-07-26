@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2021-3246",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3246"
+		}
+	],
+	"description": "libsndfile is a C library for reading and writing files containing sampled sound, such as AIFF, AU, or WAV. \n\nSecurity Fix(es):\n\n* libsndfile: Heap buffer overflow via crafted WAV file allows arbitrary code execution (CVE-2021-3246)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1984319",
+			"ticket": "1984319"
+		}
+	],
+	"name": "RLSA-2021:3253",
+	"publishedAt": "2021-08-24T07:29:56Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libsndfile-0:1.0.28-10.el8_4.1.aarch64.rpm",
+				"libsndfile-0:1.0.28-10.el8_4.1.i686.rpm",
+				"libsndfile-0:1.0.28-10.el8_4.1.src.rpm",
+				"libsndfile-0:1.0.28-10.el8_4.1.x86_64.rpm",
+				"libsndfile-debuginfo-0:1.0.28-10.el8_4.1.aarch64.rpm",
+				"libsndfile-debuginfo-0:1.0.28-10.el8_4.1.i686.rpm",
+				"libsndfile-debuginfo-0:1.0.28-10.el8_4.1.x86_64.rpm",
+				"libsndfile-debugsource-0:1.0.28-10.el8_4.1.aarch64.rpm",
+				"libsndfile-debugsource-0:1.0.28-10.el8_4.1.i686.rpm",
+				"libsndfile-debugsource-0:1.0.28-10.el8_4.1.x86_64.rpm",
+				"libsndfile-devel-0:1.0.28-10.el8_4.1.aarch64.rpm",
+				"libsndfile-devel-0:1.0.28-10.el8_4.1.i686.rpm",
+				"libsndfile-devel-0:1.0.28-10.el8_4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: libsndfile security update",
+	"topic": "An update is available for libsndfile.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

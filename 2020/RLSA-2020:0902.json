@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2020-10531",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-10531"
+		}
+	],
+	"description": "The International Components for Unicode (ICU) library provides robust and full-featured Unicode services.\n\nSecurity Fix(es):\n\n* ICU: Integer overflow in UnicodeString::doAppend() (CVE-2020-10531)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1807349",
+			"ticket": "1807349"
+		}
+	],
+	"name": "RLSA-2020:0902",
+	"publishedAt": "2020-03-19T10:43:49Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"icu-0:60.3-2.el8_1.aarch64.rpm",
+				"icu-0:60.3-2.el8_1.src.rpm",
+				"icu-0:60.3-2.el8_1.x86_64.rpm",
+				"icu-debuginfo-0:60.3-2.el8_1.aarch64.rpm",
+				"icu-debuginfo-0:60.3-2.el8_1.i686.rpm",
+				"icu-debuginfo-0:60.3-2.el8_1.x86_64.rpm",
+				"icu-debugsource-0:60.3-2.el8_1.aarch64.rpm",
+				"icu-debugsource-0:60.3-2.el8_1.i686.rpm",
+				"icu-debugsource-0:60.3-2.el8_1.x86_64.rpm",
+				"libicu-0:60.3-2.el8_1.aarch64.rpm",
+				"libicu-0:60.3-2.el8_1.i686.rpm",
+				"libicu-0:60.3-2.el8_1.x86_64.rpm",
+				"libicu-debuginfo-0:60.3-2.el8_1.aarch64.rpm",
+				"libicu-debuginfo-0:60.3-2.el8_1.i686.rpm",
+				"libicu-debuginfo-0:60.3-2.el8_1.x86_64.rpm",
+				"libicu-devel-0:60.3-2.el8_1.aarch64.rpm",
+				"libicu-devel-0:60.3-2.el8_1.i686.rpm",
+				"libicu-devel-0:60.3-2.el8_1.x86_64.rpm",
+				"libicu-devel-debuginfo-0:60.3-2.el8_1.aarch64.rpm",
+				"libicu-devel-debuginfo-0:60.3-2.el8_1.i686.rpm",
+				"libicu-devel-debuginfo-0:60.3-2.el8_1.x86_64.rpm",
+				"libicu-doc-0:60.3-2.el8_1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: icu security update",
+	"topic": "An update is available for icu.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

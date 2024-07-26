@@ -1,0 +1,67 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-0494",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0494"
+		}
+	],
+	"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: DeepCopyPointerClasses use-after-free leads to privilege elevation (CVE-2023-0494)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2165995",
+			"ticket": "2165995"
+		}
+	],
+	"name": "RLSA-2023:0622",
+	"publishedAt": "2023-02-16T06:36:03.545804Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"tigervnc-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-0:1.12.0-5.el9_1.1.src.rpm",
+				"tigervnc-debuginfo-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-debuginfo-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-debuginfo-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-debugsource-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-debugsource-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-debugsource-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-icons-0:1.12.0-5.el9_1.1.noarch.rpm",
+				"tigervnc-license-0:1.12.0-5.el9_1.1.noarch.rpm",
+				"tigervnc-selinux-0:1.12.0-5.el9_1.1.noarch.rpm",
+				"tigervnc-server-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-server-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-server-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-server-debuginfo-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-server-debuginfo-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-server-debuginfo-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-server-minimal-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-server-minimal-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-server-minimal-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-server-module-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-server-module-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-server-module-0:1.12.0-5.el9_1.1.s390x.rpm",
+				"tigervnc-server-module-debuginfo-0:1.12.0-5.el9_1.1.aarch64.rpm",
+				"tigervnc-server-module-debuginfo-0:1.12.0-5.el9_1.1.ppc64le.rpm",
+				"tigervnc-server-module-debuginfo-0:1.12.0-5.el9_1.1.s390x.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: tigervnc security update",
+	"topic": "An update is available for tigervnc.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

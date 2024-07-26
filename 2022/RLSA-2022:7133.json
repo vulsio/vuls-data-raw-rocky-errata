@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2022-2850",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-2850"
+		}
+	],
+	"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: SIGSEGV in sync_repl (CVE-2022-2850)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2118691",
+			"ticket": "2118691"
+		}
+	],
+	"name": "RLSA-2022:7133",
+	"publishedAt": "2022-10-25T07:33:40Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"389-ds-base-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.src.rpm",
+				"389-ds-base-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-debugsource-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-debugsource-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-devel-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-devel-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-legacy-tools-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-legacy-tools-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-legacy-tools-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-legacy-tools-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-libs-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-libs-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-libs-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-libs-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-snmp-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-snmp-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"389-ds-base-snmp-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.aarch64.rpm",
+				"389-ds-base-snmp-debuginfo-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.x86_64.rpm",
+				"python3-lib389-0:1.4.3.28-8.module+el8.6.0+1048+263f2d23.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: 389-ds:1.4 security update",
+	"topic": "An update is available for 389-ds-base.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

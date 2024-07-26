@@ -1,0 +1,67 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-25126",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25126"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26141",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26141"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26146",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26146"
+		}
+	],
+	"description": "The pcs packages provide a command-line configuration system for the Pacemaker and Corosync utilities.\n\nSecurity Fix(es):\n\n* rubygem-rack: Denial of Service Vulnerability in Rack Content-Type Parsing (CVE-2024-25126)\n\n* rubygem-rack: Possible DoS Vulnerability with Range Header in Rack (CVE-2024-26141)\n\n* rubygem-rack: Possible Denial of Service Vulnerability in Rack Header Parsing (CVE-2024-26146)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265593",
+			"ticket": "2265593"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265594",
+			"ticket": "2265594"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265595",
+			"ticket": "2265595"
+		}
+	],
+	"name": "RLSA-2024:2953",
+	"publishedAt": "2024-06-14T13:59:33.077645Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pcs-0:0.10.18-2.el8_10.aarch64.rpm",
+				"pcs-0:0.10.18-2.el8_10.src.rpm",
+				"pcs-0:0.10.18-2.el8_10.x86_64.rpm",
+				"pcs-snmp-0:0.10.18-2.el8_10.aarch64.rpm",
+				"pcs-snmp-0:0.10.18-2.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: pcs security update",
+	"topic": "An update is available for pcs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48624",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48624"
+		}
+	],
+	"description": "The \"less\" utility is a text file browser that resembles \"more\", but allows\nusers to move backwards in the file as well as forwards. Since \"less\" does not\nread the entire input file at startup, it also starts more quickly than ordinary\ntext editors.\n\nSecurity Fix(es):\n\n* less: missing quoting of shell metacharacters in LESSCLOSE handling\n(CVE-2022-48624)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265081",
+			"ticket": "2265081"
+		}
+	],
+	"name": "RLSA-2024:1692",
+	"publishedAt": "2024-05-10T14:32:36.204878Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"less-0:590-3.el9_3.aarch64.rpm",
+				"less-0:590-3.el9_3.ppc64le.rpm",
+				"less-0:590-3.el9_3.s390x.rpm",
+				"less-0:590-3.el9_3.src.rpm",
+				"less-0:590-3.el9_3.x86_64.rpm",
+				"less-debuginfo-0:590-3.el9_3.aarch64.rpm",
+				"less-debuginfo-0:590-3.el9_3.ppc64le.rpm",
+				"less-debuginfo-0:590-3.el9_3.s390x.rpm",
+				"less-debuginfo-0:590-3.el9_3.x86_64.rpm",
+				"less-debugsource-0:590-3.el9_3.aarch64.rpm",
+				"less-debugsource-0:590-3.el9_3.ppc64le.rpm",
+				"less-debugsource-0:590-3.el9_3.s390x.rpm",
+				"less-debugsource-0:590-3.el9_3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: less security update",
+	"topic": "An update is available for less.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

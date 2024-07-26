@@ -1,0 +1,145 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2021-46143",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46143"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22822",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22822"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22823",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22823"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22824",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22824"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22825",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22825"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22826",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22826"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2022-22827",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-22827"
+		}
+	],
+	"description": "XML-RPC is a remote procedure call (RPC) protocol that uses XML to encode its calls and HTTP as a transport mechanism. The xmlrpc-c packages provide a network protocol to allow a client program to make a simple RPC (remote procedure call) over the Internet. It converts an RPC into an XML document, sends it to a remote server using HTTP, and gets back the response in XML.\n\nSecurity Fix(es):\n\n* expat: Integer overflow in doProlog in xmlparse.c (CVE-2021-46143)\n\n* expat: Integer overflow in addBinding in xmlparse.c (CVE-2022-22822)\n\n* expat: Integer overflow in build_model in xmlparse.c (CVE-2022-22823)\n\n* expat: Integer overflow in defineAttribute in xmlparse.c (CVE-2022-22824)\n\n* expat: Integer overflow in lookup in xmlparse.c (CVE-2022-22825)\n\n* expat: Integer overflow in nextScaffoldPart in xmlparse.c (CVE-2022-22826)\n\n* expat: Integer overflow in storeAtts in xmlparse.c (CVE-2022-22827)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044455",
+			"ticket": "2044455"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044457",
+			"ticket": "2044457"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044464",
+			"ticket": "2044464"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044467",
+			"ticket": "2044467"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044479",
+			"ticket": "2044479"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044484",
+			"ticket": "2044484"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044488",
+			"ticket": "2044488"
+		}
+	],
+	"name": "RLSA-2022:7692",
+	"publishedAt": "2022-11-08T06:26:32Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"xmlrpc-c-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-0:1.51.0-8.el8.src.rpm",
+				"xmlrpc-c-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-c++-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-c++-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-c++-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-c++-debuginfo-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-c++-debuginfo-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-c++-debuginfo-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-client-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-client++-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-client-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-client++-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-client-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-client++-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-client-debuginfo-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-client++-debuginfo-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-client-debuginfo-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-client++-debuginfo-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-client-debuginfo-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-client++-debuginfo-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-debuginfo-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-debuginfo-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-debuginfo-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-debugsource-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-debugsource-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-debugsource-0:1.51.0-8.el8.x86_64.rpm",
+				"xmlrpc-c-devel-0:1.51.0-8.el8.aarch64.rpm",
+				"xmlrpc-c-devel-0:1.51.0-8.el8.i686.rpm",
+				"xmlrpc-c-devel-0:1.51.0-8.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: xmlrpc-c security update",
+	"topic": "An update is available for xmlrpc-c.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

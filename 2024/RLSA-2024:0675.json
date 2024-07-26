@@ -1,0 +1,87 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44441",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44441"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44442",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44442"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44443",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44443"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44444",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44444"
+		}
+	],
+	"description": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.\n\nSecurity Fix(es):\n\n* gimp: dds buffer overflow RCE (CVE-2023-44441)\n\n* gimp: PSD buffer overflow RCE (CVE-2023-44442)\n\n* gimp: psp integer overflow RCE (CVE-2023-44443)\n\n* gimp: psp off-by-one RCE (CVE-2023-44444)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2249938",
+			"ticket": "2249938"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2249942",
+			"ticket": "2249942"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2249944",
+			"ticket": "2249944"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2249946",
+			"ticket": "2249946"
+		}
+	],
+	"name": "RLSA-2024:0675",
+	"publishedAt": "2024-05-10T14:32:42.380544Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"gimp-2:2.99.8-4.el9_3.ppc64le.rpm",
+				"gimp-2:2.99.8-4.el9_3.src.rpm",
+				"gimp-2:2.99.8-4.el9_3.x86_64.rpm",
+				"gimp-debuginfo-2:2.99.8-4.el9_3.ppc64le.rpm",
+				"gimp-debuginfo-2:2.99.8-4.el9_3.x86_64.rpm",
+				"gimp-debugsource-2:2.99.8-4.el9_3.ppc64le.rpm",
+				"gimp-debugsource-2:2.99.8-4.el9_3.x86_64.rpm",
+				"gimp-libs-2:2.99.8-4.el9_3.i686.rpm",
+				"gimp-libs-2:2.99.8-4.el9_3.ppc64le.rpm",
+				"gimp-libs-2:2.99.8-4.el9_3.x86_64.rpm",
+				"gimp-libs-debuginfo-2:2.99.8-4.el9_3.ppc64le.rpm",
+				"gimp-libs-debuginfo-2:2.99.8-4.el9_3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: gimp security update",
+	"topic": "An update is available for gimp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

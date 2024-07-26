@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-77",
+			"name": "CVE-2020-1946",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-1946"
+		}
+	],
+	"description": "The SpamAssassin tool provides a way to reduce unsolicited commercial email (spam) from incoming email.\n\nSecurity Fix(es):\n\n* spamassassin: Malicious rule configuration files can be configured to run system commands (CVE-2020-1946)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1943276",
+			"ticket": "1943276"
+		}
+	],
+	"name": "RLSA-2021:4315",
+	"publishedAt": "2021-11-09T08:58:53Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"spamassassin-0:3.4.4-4.el8.aarch64.rpm",
+				"spamassassin-0:3.4.4-4.el8.src.rpm",
+				"spamassassin-0:3.4.4-4.el8.x86_64.rpm",
+				"spamassassin-debuginfo-0:3.4.4-4.el8.aarch64.rpm",
+				"spamassassin-debuginfo-0:3.4.4-4.el8.x86_64.rpm",
+				"spamassassin-debugsource-0:3.4.4-4.el8.aarch64.rpm",
+				"spamassassin-debugsource-0:3.4.4-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: spamassassin security update",
+	"topic": "An update is available for spamassassin.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

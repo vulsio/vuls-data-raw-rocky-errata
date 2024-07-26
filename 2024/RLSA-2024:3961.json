@@ -1,0 +1,62 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-32462",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-32462"
+		}
+	],
+	"description": "Flatpak is a system for building, distributing, and running sandboxed desktop applications on Linux.\n\nSecurity Fix(es):\n\n* flatpak: sandbox escape via RequestBackground portal (CVE-2024-32462)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275981",
+			"ticket": "2275981"
+		}
+	],
+	"name": "RLSA-2024:3961",
+	"publishedAt": "2024-07-02T14:10:24.883859Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"flatpak-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-0:1.12.9-1.el8_10.src.rpm",
+				"flatpak-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-debuginfo-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-debuginfo-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-debuginfo-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-debugsource-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-debugsource-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-debugsource-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-devel-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-devel-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-devel-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-libs-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-libs-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-libs-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-libs-debuginfo-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-libs-debuginfo-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-libs-debuginfo-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-selinux-0:1.12.9-1.el8_10.noarch.rpm",
+				"flatpak-session-helper-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-session-helper-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-session-helper-0:1.12.9-1.el8_10.x86_64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.9-1.el8_10.aarch64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.9-1.el8_10.i686.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.9-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: flatpak security update",
+	"topic": "An update is available for flatpak.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

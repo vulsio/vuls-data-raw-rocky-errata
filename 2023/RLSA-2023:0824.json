@@ -1,0 +1,205 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-449",
+			"name": "CVE-2023-0616",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0616"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-119",
+			"name": "CVE-2023-0767",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0767"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1021",
+			"name": "CVE-2023-25728",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25728"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-84",
+			"name": "CVE-2023-25729",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25729"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-821",
+			"name": "CVE-2023-25730",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25730"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-787",
+			"name": "CVE-2023-25732",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25732"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-25735",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25735"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-704",
+			"name": "CVE-2023-25737",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25737"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-25739",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25739"
+		},
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-173",
+			"name": "CVE-2023-25742",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25742"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-357",
+			"name": "CVE-2023-25743",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25743"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2023-25744",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25744"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2023-25746",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-25746"
+		}
+	],
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 102.8.0.\n\nSecurity Fix(es):\n\n* Mozilla: Arbitrary memory write via PKCS 12 in NSS (CVE-2023-0767)\n\n* Mozilla: Content security policy leak in violation reports using iframes (CVE-2023-25728)\n\n* Mozilla: Screen hijack via browser fullscreen mode (CVE-2023-25730)\n\n* Mozilla: Potential use-after-free from compartment mismatch in SpiderMonkey (CVE-2023-25735)\n\n* Mozilla: Invalid downcast in SVGUtils::SetupStrokeGeometry (CVE-2023-25737)\n\n* Mozilla: Use-after-free in mozilla::dom::ScriptLoadContext::~ScriptLoadContext (CVE-2023-25739)\n\n* Mozilla: Fullscreen notification not shown in Firefox Focus (CVE-2023-25743)\n\n* Mozilla: Memory safety bugs fixed in Firefox 110 and Firefox ESR 102.8 (CVE-2023-25744)\n\n* Mozilla: Memory safety bugs fixed in Firefox ESR 102.8 (CVE-2023-25746)\n\n* Mozilla: Extensions could have opened external schemes without user knowledge (CVE-2023-25729)\n\n* Mozilla: Out of bounds memory write from EncodeInputStream (CVE-2023-25732)\n\n* Mozilla: User Interface lockup with messages combining S/MIME and OpenPGP (CVE-2023-0616)\n\n* Mozilla: Web Crypto ImportKey crashes tab (CVE-2023-25742)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170374",
+			"ticket": "2170374"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170375",
+			"ticket": "2170375"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170376",
+			"ticket": "2170376"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170377",
+			"ticket": "2170377"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170378",
+			"ticket": "2170378"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170379",
+			"ticket": "2170379"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170381",
+			"ticket": "2170381"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170382",
+			"ticket": "2170382"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170383",
+			"ticket": "2170383"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170390",
+			"ticket": "2170390"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170391",
+			"ticket": "2170391"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2170402",
+			"ticket": "2170402"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2171397",
+			"ticket": "2171397"
+		}
+	],
+	"name": "RLSA-2023:0824",
+	"publishedAt": "2023-02-22T01:09:41.706793Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"thunderbird-0:102.8.0-2.el9_1.aarch64.rpm",
+				"thunderbird-0:102.8.0-2.el9_1.ppc64le.rpm",
+				"thunderbird-0:102.8.0-2.el9_1.s390x.rpm",
+				"thunderbird-0:102.8.0-2.el9_1.src.rpm",
+				"thunderbird-0:102.8.0-2.el9_1.x86_64.rpm",
+				"thunderbird-debuginfo-0:102.8.0-2.el9_1.aarch64.rpm",
+				"thunderbird-debuginfo-0:102.8.0-2.el9_1.ppc64le.rpm",
+				"thunderbird-debuginfo-0:102.8.0-2.el9_1.s390x.rpm",
+				"thunderbird-debuginfo-0:102.8.0-2.el9_1.x86_64.rpm",
+				"thunderbird-debugsource-0:102.8.0-2.el9_1.aarch64.rpm",
+				"thunderbird-debugsource-0:102.8.0-2.el9_1.ppc64le.rpm",
+				"thunderbird-debugsource-0:102.8.0-2.el9_1.s390x.rpm",
+				"thunderbird-debugsource-0:102.8.0-2.el9_1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: thunderbird security update",
+	"topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

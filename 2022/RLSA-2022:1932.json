@@ -1,0 +1,44 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:H/A:L",
+			"cwe": "(CWE-77|CWE-79)",
+			"name": "CVE-2021-43818",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-43818"
+		}
+	],
+	"description": "lxml is an XML processing library providing access to libxml2 and libxslt libraries using the Python ElementTree API. \n\nSecurity Fix(es):\n\n* python-lxml: HTML Cleaner allows crafted and SVG embedded scripts to pass through (CVE-2021-43818)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.6 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2032569",
+			"ticket": "2032569"
+		}
+	],
+	"name": "RLSA-2022:1932",
+	"publishedAt": "2022-05-10T08:08:19Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-lxml-0:4.2.3-4.el8.aarch64.rpm",
+				"python3-lxml-0:4.2.3-4.el8.x86_64.rpm",
+				"python3-lxml-debuginfo-0:4.2.3-4.el8.aarch64.rpm",
+				"python3-lxml-debuginfo-0:4.2.3-4.el8.x86_64.rpm",
+				"python-lxml-0:4.2.3-4.el8.src.rpm",
+				"python-lxml-0:4.2.3-4.module+el8.4.0+403+9ae17a31.src.rpm",
+				"python-lxml-debugsource-0:4.2.3-4.module+el8.4.0+403+9ae17a31.aarch64.rpm",
+				"python-lxml-debugsource-0:4.2.3-4.module+el8.4.0+403+9ae17a31.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-lxml security update",
+	"topic": "An update is available for python-lxml.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

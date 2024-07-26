@@ -1,0 +1,99 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-862->CWE-400",
+			"name": "CVE-2021-27358",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-27358"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-682",
+			"name": "CVE-2021-3114",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3114"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-33195",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33195"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-33197",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-33197"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-20",
+			"name": "CVE-2021-34558",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-34558"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.5.9). (BZ#1921191)\n\nSecurity Fix(es):\n\n* golang: crypto/elliptic: incorrect operations on the P-224 curve (CVE-2021-3114)\n\n* grafana: snapshot feature allow an unauthenticated remote attacker to trigger a DoS via a remote API call (CVE-2021-27358)\n\n* golang: net: lookup functions may return invalid host names (CVE-2021-33195)\n\n* golang: net/http/httputil: ReverseProxy forwards connection headers if first one is empty (CVE-2021-33197)\n\n* golang: crypto/tls: certificate of wrong type is causing TLS client to panic (CVE-2021-34558)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1918750",
+			"ticket": "1918750"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: grafana (7.5.9).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1921191",
+			"ticket": "1921191"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1941024",
+			"ticket": "1941024"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1983596",
+			"ticket": "1983596"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1989564",
+			"ticket": "1989564"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1989570",
+			"ticket": "1989570"
+		}
+	],
+	"name": "RLSA-2021:4226",
+	"publishedAt": "2021-11-09T08:46:47Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-0:7.5.9-4.el8.aarch64.rpm",
+				"grafana-0:7.5.9-4.el8.src.rpm",
+				"grafana-0:7.5.9-4.el8.x86_64.rpm",
+				"grafana-debuginfo-0:7.5.9-4.el8.aarch64.rpm",
+				"grafana-debuginfo-0:7.5.9-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grafana security, bug fix, and enhancement update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

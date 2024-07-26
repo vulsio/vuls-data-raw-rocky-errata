@@ -1,0 +1,134 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-349",
+			"name": "CVE-2022-1834",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1834"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-829",
+			"name": "CVE-2022-31736",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31736"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2022-31737",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31737"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-1021",
+			"name": "CVE-2022-31738",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31738"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-770",
+			"name": "CVE-2022-31740",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31740"
+		},
+		{
+			"cvss3BaseScore": "8.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-457",
+			"name": "CVE-2022-31741",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31741"
+		},
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-829",
+			"name": "CVE-2022-31742",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31742"
+		},
+		{
+			"cvss3BaseScore": "9.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2022-31747",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-31747"
+		}
+	],
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nThis update upgrades Thunderbird to version 91.10.0.\n\nSecurity Fix(es):\n\n* Mozilla: Braille space character caused incorrect sender email to be shown for a digitally signed email (CVE-2022-1834)\n\n* Mozilla: Cross-Origin resource's length leaked (CVE-2022-31736)\n\n* Mozilla: Heap buffer overflow in WebGL (CVE-2022-31737)\n\n* Mozilla: Browser window spoof using fullscreen mode (CVE-2022-31738)\n\n* Mozilla: Register allocation problem in WASM on arm64 (CVE-2022-31740)\n\n* Mozilla: Uninitialized variable leads to invalid memory read (CVE-2022-31741)\n\n* Mozilla: Memory safety bugs fixed in Firefox 101 and Firefox ESR 91.10 (CVE-2022-31747)\n\n* Mozilla: Querying a WebAuthn token with a large number of allowCredential entries may have leaked cross-origin information (CVE-2022-31742)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092018",
+			"ticket": "2092018"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092019",
+			"ticket": "2092019"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092021",
+			"ticket": "2092021"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092023",
+			"ticket": "2092023"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092024",
+			"ticket": "2092024"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092025",
+			"ticket": "2092025"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092026",
+			"ticket": "2092026"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2092416",
+			"ticket": "2092416"
+		}
+	],
+	"name": "RLSA-2022:4887",
+	"publishedAt": "2022-06-02T07:48:48Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"thunderbird-0:91.10.0-1.el8_6.aarch64.rpm",
+				"thunderbird-0:91.10.0-1.el8_6.src.rpm",
+				"thunderbird-0:91.10.0-1.el8_6.x86_64.rpm",
+				"thunderbird-debuginfo-0:91.10.0-1.el8_6.aarch64.rpm",
+				"thunderbird-debuginfo-0:91.10.0-1.el8_6.x86_64.rpm",
+				"thunderbird-debugsource-0:91.10.0-1.el8_6.aarch64.rpm",
+				"thunderbird-debugsource-0:91.10.0-1.el8_6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: thunderbird security update",
+	"topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

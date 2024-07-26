@@ -1,0 +1,77 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44442",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44442"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-44444",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-44444"
+		}
+	],
+	"description": "The GIMP (GNU Image Manipulation Program) is an image composition and editing program. GIMP provides a large image manipulation toolbox, including channel operations and layers, effects, sub-pixel imaging and anti-aliasing, and conversions, all with multi-level undo.\n\nSecurity Fix(es):\n\n* gimp: PSD buffer overflow RCE (CVE-2023-44442)\n\n* gimp: psp off-by-one RCE (CVE-2023-44444)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2249942",
+			"ticket": "2249942"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2249946",
+			"ticket": "2249946"
+		}
+	],
+	"name": "RLSA-2024:0861",
+	"publishedAt": "2024-03-12T15:42:26.241001Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gimp-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-2:2.8.22-25.module+el8.9.0+1723+9bc93544.src.rpm",
+				"gimp-debuginfo-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-debugsource-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-devel-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-devel-tools-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-devel-tools-debuginfo-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-libs-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"gimp-libs-debuginfo-2:2.8.22-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"pygobject2-0:2.28.7-4.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"pygobject2-0:2.28.7-4.module+el8.3.0+157+a69fdc85.src.rpm",
+				"pygobject2-codegen-0:2.28.7-4.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"pygobject2-debuginfo-0:2.28.7-4.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"pygobject2-debugsource-0:2.28.7-4.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"pygobject2-devel-0:2.28.7-4.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"pygobject2-doc-0:2.28.7-4.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"pygtk2-0:2.24.0-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"pygtk2-0:2.24.0-25.module+el8.9.0+1723+9bc93544.src.rpm",
+				"pygtk2-codegen-0:2.24.0-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"pygtk2-debuginfo-0:2.24.0-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"pygtk2-debugsource-0:2.24.0-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"pygtk2-devel-0:2.24.0-25.module+el8.9.0+1723+9bc93544.aarch64.rpm",
+				"pygtk2-doc-0:2.24.0-25.module+el8.9.0+1723+9bc93544.noarch.rpm",
+				"python2-cairo-0:1.16.3-6.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"python2-cairo-debuginfo-0:1.16.3-6.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"python2-cairo-devel-0:1.16.3-6.module+el8.3.0+157+a69fdc85.aarch64.rpm",
+				"python2-pycairo-0:1.16.3-6.module+el8.3.0+157+a69fdc85.src.rpm",
+				"python2-pycairo-debugsource-0:1.16.3-6.module+el8.3.0+157+a69fdc85.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: gimp:2.8 security update",
+	"topic": "An update is available for pygtk2, pygobject2, python2-pycairo, module.python2-pycairo, module.gimp, module.pygtk2, gimp, module.pygobject2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

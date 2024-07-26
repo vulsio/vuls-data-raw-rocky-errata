@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2020-28241",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-28241"
+		}
+	],
+	"description": "The libmaxminddb package contains the MaxMind DB library.\n\nSecurity Fix(es):\n\n* libmaxminddb: improper initialization in dump_entry_data_list() in maxminddb.c (CVE-2020-28241)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1895379",
+			"ticket": "1895379"
+		}
+	],
+	"name": "RLSA-2024:0768",
+	"publishedAt": "2024-03-12T15:41:47.805432Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libmaxminddb-0:1.2.0-10.el8_9.1.aarch64.rpm",
+				"libmaxminddb-0:1.2.0-10.el8_9.1.i686.rpm",
+				"libmaxminddb-0:1.2.0-10.el8_9.1.src.rpm",
+				"libmaxminddb-0:1.2.0-10.el8_9.1.x86_64.rpm",
+				"libmaxminddb-debuginfo-0:1.2.0-10.el8_9.1.aarch64.rpm",
+				"libmaxminddb-debuginfo-0:1.2.0-10.el8_9.1.i686.rpm",
+				"libmaxminddb-debuginfo-0:1.2.0-10.el8_9.1.x86_64.rpm",
+				"libmaxminddb-debugsource-0:1.2.0-10.el8_9.1.aarch64.rpm",
+				"libmaxminddb-debugsource-0:1.2.0-10.el8_9.1.i686.rpm",
+				"libmaxminddb-debugsource-0:1.2.0-10.el8_9.1.x86_64.rpm",
+				"libmaxminddb-devel-0:1.2.0-10.el8_9.1.aarch64.rpm",
+				"libmaxminddb-devel-0:1.2.0-10.el8_9.1.i686.rpm",
+				"libmaxminddb-devel-0:1.2.0-10.el8_9.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libmaxminddb security update",
+	"topic": "An update is available for libmaxminddb.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

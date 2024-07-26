@@ -1,0 +1,50 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190->CWE-787",
+			"name": "CVE-2020-12762",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-12762"
+		}
+	],
+	"description": "JSON-C implements a reference counting object model that allows users to easily construct JavaScript Object Notation (JSON) objects in C, output them as JSON formatted strings, and parse JSON formatted strings back into the C representation of JSON objects.\n\nSecurity Fix(es):\n\n* json-c: integer overflow and out-of-bounds write via a large JSON file (CVE-2020-12762)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1835253",
+			"ticket": "1835253"
+		}
+	],
+	"name": "RLSA-2021:4382",
+	"publishedAt": "2021-11-09T13:10:09Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"json-c-0:0.13.1-2.el8.aarch64.rpm",
+				"json-c-0:0.13.1-2.el8.i686.rpm",
+				"json-c-0:0.13.1-2.el8.src.rpm",
+				"json-c-0:0.13.1-2.el8.x86_64.rpm",
+				"json-c-debuginfo-0:0.13.1-2.el8.aarch64.rpm",
+				"json-c-debuginfo-0:0.13.1-2.el8.i686.rpm",
+				"json-c-debuginfo-0:0.13.1-2.el8.x86_64.rpm",
+				"json-c-debugsource-0:0.13.1-2.el8.aarch64.rpm",
+				"json-c-debugsource-0:0.13.1-2.el8.i686.rpm",
+				"json-c-debugsource-0:0.13.1-2.el8.x86_64.rpm",
+				"json-c-devel-0:0.13.1-2.el8.aarch64.rpm",
+				"json-c-devel-0:0.13.1-2.el8.i686.rpm",
+				"json-c-devel-0:0.13.1-2.el8.x86_64.rpm",
+				"json-c-doc-0:0.13.1-2.el8.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: json-c security and bug fix update",
+	"topic": "An update is available for json-c.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

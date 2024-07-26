@@ -1,0 +1,724 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21412",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21412"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21413",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21413"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21414",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21414"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21415",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21415"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21417",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21417"
+		},
+		{
+			"cvss3BaseScore": "5.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21418",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21418"
+		},
+		{
+			"cvss3BaseScore": "2.7",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21423",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21423"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21425",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21425"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21427",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21427"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21435",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21435"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21436",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21436"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21437",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21437"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21438",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21438"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21440",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21440"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21444",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21444"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21451",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21451"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21452",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21452"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21454",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21454"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21455",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21455"
+		},
+		{
+			"cvss3BaseScore": "5.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21457",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21457"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21459",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21459"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:H/I:N/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21460",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21460"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21462",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21462"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21478",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21478"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:L/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21479",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21479"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21509",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21509"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21515",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21515"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21517",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21517"
+		},
+		{
+			"cvss3BaseScore": "4.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21522",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21522"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21525",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21525"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21526",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21526"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21527",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21527"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21528",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21528"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21529",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21529"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21530",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21530"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21531",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21531"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21534",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21534"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21537",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21537"
+		},
+		{
+			"cvss3BaseScore": "3.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:L",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21538",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21538"
+		},
+		{
+			"cvss3BaseScore": "5.0",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21539",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21539"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21547",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21547"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21553",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21553"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21556",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21556"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21569",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21569"
+		},
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21592",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21592"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21605",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21605"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21607",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21607"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21635",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21635"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21638",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21638"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-21641",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21641"
+		},
+		{
+			"cvss3BaseScore": "4.9",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-21866",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21866"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-21872",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-21872"
+		}
+	],
+	"description": "MySQL is a multi-user, multi-threaded SQL database server. It consists of the MySQL server daemon (mysqld) and many client programs and libraries.\n\nThe following packages have been upgraded to a later upstream version: mysql (8.0.30). (BZ#2122589)\n\nSecurity Fix(es):\n\n* mysql: Server: Optimizer multiple unspecified vulnerabilities (CPU Apr 2022) (CVE-2022-21412, CVE-2022-21414, CVE-2022-21435, CVE-2022-21436, CVE-2022-21437, CVE-2022-21438, CVE-2022-21440, CVE-2022-21452, CVE-2022-21459, CVE-2022-21462, CVE-2022-21478, CVE-2022-21479)\n\n* mysql: Server: DML unspecified vulnerability (CPU Apr 2022) (CVE-2022-21413)\n\n* mysql: Server: Replication unspecified vulnerability (CPU Apr 2022) (CVE-2022-21415)\n\n* mysql: InnoDB multiple unspecified vulnerabilities (CPU Apr 2022) (CVE-2022-21417, CVE-2022-21418, CVE-2022-21451, CVE-2022-21423)\n\n* mysql: Server: DDL multiple unspecified vulnerabilities (CPU Apr 2022) (CVE-2022-21425, CVE-2022-21444)\n\n* mysql: Server: FTS unspecified vulnerability (CPU Apr 2022) (CVE-2022-21427)\n\n* mysql: Server: Group Replication Plugin unspecified vulnerability (CPU Apr 2022) (CVE-2022-21454)\n\n* mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Jul 2022) (CVE-2022-21455)\n\n* mysql: Server: PAM Auth Plugin unspecified vulnerability (CPU Apr 2022) (CVE-2022-21457)\n\n* mysql: Server: Logging unspecified vulnerability (CPU Apr 2022) (CVE-2022-21460)\n\n* mysql: Server: Optimizer multiple unspecified vulnerabilities (CPU Jul 2022) (CVE-2022-21509, CVE-2022-21525, CVE-2022-21526, CVE-2022-21527, CVE-2022-21528, CVE-2022-21529, CVE-2022-21530, CVE-2022-21531, CVE-2022-21553, CVE-2022-21556, CVE-2022-21569)\n\n* mysql: Server: Options unspecified vulnerability (CPU Jul 2022) (CVE-2022-21515)\n\n* mysql: InnoDB multiple unspecified vulnerabilities (CPU Jul 2022) (CVE-2022-21517, CVE-2022-21537, CVE-2022-21539)\n\n* mysql: Server: Stored Procedure multiple unspecified vulnerabilities (CPU Jul 2022) (CVE-2022-21522, CVE-2022-21534)\n\n* mysql: Server: Federated unspecified vulnerability (CPU Jul 2022) (CVE-2022-21547)\n\n* mysql: Server: Security: Encryption unspecified vulnerability (CPU Jul 2022) (CVE-2022-21538)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* Default logrotate set to wrong log file (BZ#2122592)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082636",
+			"ticket": "2082636"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082637",
+			"ticket": "2082637"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082638",
+			"ticket": "2082638"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082639",
+			"ticket": "2082639"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082640",
+			"ticket": "2082640"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082641",
+			"ticket": "2082641"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082642",
+			"ticket": "2082642"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082643",
+			"ticket": "2082643"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082644",
+			"ticket": "2082644"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082645",
+			"ticket": "2082645"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082646",
+			"ticket": "2082646"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082647",
+			"ticket": "2082647"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082648",
+			"ticket": "2082648"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082649",
+			"ticket": "2082649"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082650",
+			"ticket": "2082650"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082651",
+			"ticket": "2082651"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082652",
+			"ticket": "2082652"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082653",
+			"ticket": "2082653"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082654",
+			"ticket": "2082654"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082655",
+			"ticket": "2082655"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082656",
+			"ticket": "2082656"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082657",
+			"ticket": "2082657"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082658",
+			"ticket": "2082658"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2082659",
+			"ticket": "2082659"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115282",
+			"ticket": "2115282"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115283",
+			"ticket": "2115283"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115284",
+			"ticket": "2115284"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115285",
+			"ticket": "2115285"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115286",
+			"ticket": "2115286"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115287",
+			"ticket": "2115287"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115288",
+			"ticket": "2115288"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115289",
+			"ticket": "2115289"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115290",
+			"ticket": "2115290"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115291",
+			"ticket": "2115291"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115292",
+			"ticket": "2115292"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115293",
+			"ticket": "2115293"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115294",
+			"ticket": "2115294"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115295",
+			"ticket": "2115295"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115296",
+			"ticket": "2115296"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115297",
+			"ticket": "2115297"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115298",
+			"ticket": "2115298"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115299",
+			"ticket": "2115299"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115300",
+			"ticket": "2115300"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2115301",
+			"ticket": "2115301"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: mysql (8.0.30).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122589",
+			"ticket": "2122589"
+		},
+		{
+			"description": "* Default logrotate set to wrong log file",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2122592",
+			"ticket": "2122592"
+		}
+	],
+	"name": "RLSA-2022:6590",
+	"publishedAt": "2022-09-20T11:37:11Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"mysql-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-0:8.0.30-3.el9_0.src.rpm",
+				"mysql-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-common-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-common-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-common-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-common-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-debuginfo-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-debuginfo-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-debuginfo-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-debuginfo-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-debugsource-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-debugsource-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-debugsource-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-debugsource-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-devel-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-devel-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-devel-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-devel-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-devel-debuginfo-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-devel-debuginfo-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-devel-debuginfo-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-devel-debuginfo-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-errmsg-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-errmsg-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-errmsg-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-errmsg-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-libs-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-libs-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-libs-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-libs-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-libs-debuginfo-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-libs-debuginfo-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-libs-debuginfo-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-libs-debuginfo-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-server-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-server-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-server-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-server-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-server-debuginfo-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-server-debuginfo-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-server-debuginfo-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-server-debuginfo-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-test-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-test-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-test-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-test-0:8.0.30-3.el9_0.x86_64.rpm",
+				"mysql-test-debuginfo-0:8.0.30-3.el9_0.aarch64.rpm",
+				"mysql-test-debuginfo-0:8.0.30-3.el9_0.ppc64le.rpm",
+				"mysql-test-debuginfo-0:8.0.30-3.el9_0.s390x.rpm",
+				"mysql-test-debuginfo-0:8.0.30-3.el9_0.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: mysql security, bug fix, and enhancement update",
+	"topic": "An update is available for mysql.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

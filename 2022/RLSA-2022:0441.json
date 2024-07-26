@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-787",
+			"name": "CVE-2021-45417",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-45417"
+		}
+	],
+	"description": "Advanced Intrusion Detection Environment (AIDE) is a utility that creates a database of files on the system, and then uses that database to ensure file integrity and detect system intrusions.\n\nSecurity Fix(es):\n\n* aide: heap-based buffer overflow on outputs larger than B64_BUF (CVE-2021-45417)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2041489",
+			"ticket": "2041489"
+		}
+	],
+	"name": "RLSA-2022:0441",
+	"publishedAt": "2022-02-07T08:12:10Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"aide-debuginfo-0:0.16-14.el8_5.1.x86_64.rpm",
+				"aide-debugsource-0:0.16-14.el8_5.1.aarch64.rpm",
+				"aide-debugsource-0:0.16-14.el8_5.1.x86_64.rpm",
+				"aide-0:0.16-14.el8_5.1.x86_64.rpm",
+				"aide-debuginfo-0:0.16-14.el8_5.1.aarch64.rpm",
+				"aide-0:0.16-14.el8_5.1.aarch64.rpm",
+				"aide-0:0.16-14.el8_5.1.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: aide security update",
+	"topic": "An update is available for aide.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

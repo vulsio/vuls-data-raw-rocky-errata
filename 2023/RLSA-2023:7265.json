@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-34058",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34058"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-34059",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-34059"
+		}
+	],
+	"description": "The Open Virtual Machine Tools are the open source implementation of the VMware Tools. They are a set of guest operating system virtualization components that enhance performance and user experience of virtual machines.\n\nSecurity Fix(es):\n\n* open-vm-tools: SAML token signature bypass (CVE-2023-34058)\n\n* open-vm-tools: file descriptor hijack vulnerability in the vmware-user-suid-wrapper (CVE-2023-34059)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2246080",
+			"ticket": "2246080"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2246096",
+			"ticket": "2246096"
+		}
+	],
+	"name": "RLSA-2023:7265",
+	"publishedAt": "2023-11-28T22:43:02.525343Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"open-vm-tools-0:12.2.5-3.el8_9.1.src.rpm",
+				"open-vm-tools-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-debuginfo-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-debugsource-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-desktop-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-desktop-debuginfo-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-salt-minion-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-sdmp-0:12.2.5-3.el8_9.1.x86_64.rpm",
+				"open-vm-tools-sdmp-debuginfo-0:12.2.5-3.el8_9.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: open-vm-tools security update",
+	"topic": "An update is available for open-vm-tools.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

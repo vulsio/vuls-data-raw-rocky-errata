@@ -1,0 +1,48 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-3049",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3049"
+		}
+	],
+	"description": "The Booth cluster ticket manager is a component to bridge high availability\nclusters spanning multiple sites, in particular, to provide decision inputs to\nlocal Pacemaker cluster resource managers. It operates as a distributed\nconsensus-based service, presumably on a separate physical network. Tickets\nfacilitated by a Booth formation are the units of authorization that can be\nbound to certain resources. This will ensure that the resources are run at only\none (granted) site at a time.\n\nSecurity Fix(es):\n\n* booth: specially crafted hash can lead to invalid HMAC being accepted by Booth server  (CVE-2024-3049)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2272082",
+			"ticket": "2272082"
+		}
+	],
+	"name": "RLSA-2024:3659",
+	"publishedAt": "2024-06-14T13:59:33.077645Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"booth-0:1.1-1.el8_10.1.aarch64.rpm",
+				"booth-0:1.1-1.el8_10.1.src.rpm",
+				"booth-0:1.1-1.el8_10.1.x86_64.rpm",
+				"booth-arbitrator-0:1.1-1.el8_10.1.noarch.rpm",
+				"booth-core-0:1.1-1.el8_10.1.aarch64.rpm",
+				"booth-core-0:1.1-1.el8_10.1.x86_64.rpm",
+				"booth-core-debuginfo-0:1.1-1.el8_10.1.aarch64.rpm",
+				"booth-core-debuginfo-0:1.1-1.el8_10.1.x86_64.rpm",
+				"booth-debugsource-0:1.1-1.el8_10.1.aarch64.rpm",
+				"booth-debugsource-0:1.1-1.el8_10.1.x86_64.rpm",
+				"booth-site-0:1.1-1.el8_10.1.noarch.rpm",
+				"booth-test-0:1.1-1.el8_10.1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: booth security update",
+	"topic": "An update is available for booth.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

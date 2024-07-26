@@ -1,0 +1,478 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "3.8",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:C/C:N/I:N/A:L",
+			"cwe": "CWE-476",
+			"name": "CVE-2019-12155",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12155"
+		},
+		{
+			"cvss3BaseScore": "3.3",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:L",
+			"cwe": "CWE-122",
+			"name": "CVE-2019-9755",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9755"
+		},
+		{
+			"cvss3BaseScore": "2.8",
+			"cvss3ScoringVector": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:C/C:L/I:N/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2019-9824",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-9824"
+		}
+	],
+	"description": "Kernel-based Virtual Machine (KVM) offers a full virtualization solution for Linux on numerous hardware platforms. The virt:Rocky Linux module contains packages which provide user-space components used to run virtual machines using KVM. The packages also provide APIs for managing and interacting with the virtualized systems.\n\nSecurity Fix(es):\n\n* ntfs-3g: heap-based buffer overflow leads to local root privilege escalation (CVE-2019-9755)\n\n* QEMU: slirp: information leakage in tcp_emu() due to uninitialized stack variables (CVE-2019-9824)\n\n* QEMU: qxl: null pointer dereference while releasing spice resources (CVE-2019-12155)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1531543",
+			"ticket": "1531543"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1662272",
+			"ticket": "1662272"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1664463",
+			"ticket": "1664463"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1667249",
+			"ticket": "1667249"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1673010",
+			"ticket": "1673010"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1673396",
+			"ticket": "1673396"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1673401",
+			"ticket": "1673401"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1678515",
+			"ticket": "1678515"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1678979",
+			"ticket": "1678979"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1679483",
+			"ticket": "1679483"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1679966",
+			"ticket": "1679966"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1680231",
+			"ticket": "1680231"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1683681",
+			"ticket": "1683681"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1684383",
+			"ticket": "1684383"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1685151",
+			"ticket": "1685151"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1686895",
+			"ticket": "1686895"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1687541",
+			"ticket": "1687541"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1687596",
+			"ticket": "1687596"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1688062",
+			"ticket": "1688062"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1689297",
+			"ticket": "1689297"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1691356",
+			"ticket": "1691356"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1691624",
+			"ticket": "1691624"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1693299",
+			"ticket": "1693299"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1693433",
+			"ticket": "1693433"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1694148",
+			"ticket": "1694148"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1697627",
+			"ticket": "1697627"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1698133",
+			"ticket": "1698133"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1707192",
+			"ticket": "1707192"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1707598",
+			"ticket": "1707598"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1707706",
+			"ticket": "1707706"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1710575",
+			"ticket": "1710575"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1712670",
+			"ticket": "1712670"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1712810",
+			"ticket": "1712810"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1712946",
+			"ticket": "1712946"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1714933",
+			"ticket": "1714933"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1716347",
+			"ticket": "1716347"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1716907",
+			"ticket": "1716907"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1716908",
+			"ticket": "1716908"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1717088",
+			"ticket": "1717088"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1719578",
+			"ticket": "1719578"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1721434",
+			"ticket": "1721434"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1721983",
+			"ticket": "1721983"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1722668",
+			"ticket": "1722668"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1722735",
+			"ticket": "1722735"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1727821",
+			"ticket": "1727821"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1728530",
+			"ticket": "1728530"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1728657",
+			"ticket": "1728657"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1728958",
+			"ticket": "1728958"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1729675",
+			"ticket": "1729675"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1732642",
+			"ticket": "1732642"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1737790",
+			"ticket": "1737790"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1738839",
+			"ticket": "1738839"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1738886",
+			"ticket": "1738886"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1740797",
+			"ticket": "1740797"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1741825",
+			"ticket": "1741825"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1741837",
+			"ticket": "1741837"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1742819",
+			"ticket": "1742819"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1744415",
+			"ticket": "1744415"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1747185",
+			"ticket": "1747185"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1747440",
+			"ticket": "1747440"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1749227",
+			"ticket": "1749227"
+		}
+	],
+	"name": "RLSA-2019:3345",
+	"publishedAt": "2019-11-05T17:33:34Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libiscsi-0:1.18.0-8.module+el8.7.0+1084+97b81f61.src.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.4.0+534+4680a14e.i686.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.6.0+847+b490afdd.i686.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.4.0+534+4680a14e.src.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.6.0+847+b490afdd.src.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"libiscsi-0:1.18.0-8.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.4.0+534+4680a14e.i686.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.6.0+847+b490afdd.i686.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"libiscsi-debuginfo-0:1.18.0-8.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.4.0+534+4680a14e.i686.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.6.0+847+b490afdd.i686.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"libiscsi-debugsource-0:1.18.0-8.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.4.0+534+4680a14e.i686.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.6.0+847+b490afdd.i686.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"libiscsi-devel-0:1.18.0-8.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.4.0+534+4680a14e.i686.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.6.0+847+b490afdd.i686.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"libiscsi-utils-0:1.18.0-8.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.4.0+534+4680a14e.i686.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.6.0+847+b490afdd.i686.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"libiscsi-utils-debuginfo-0:1.18.0-8.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"netcf-0:0.2.8-12.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"netcf-0:0.2.8-12.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"netcf-0:0.2.8-12.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"netcf-0:0.2.8-12.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"netcf-0:0.2.8-12.module+el8.4.0+534+4680a14e.i686.rpm",
+				"netcf-0:0.2.8-12.module+el8.6.0+847+b490afdd.i686.rpm",
+				"netcf-0:0.2.8-12.module+el8.7.0+1084+97b81f61.src.rpm",
+				"netcf-0:0.2.8-12.module+el8.4.0+534+4680a14e.src.rpm",
+				"netcf-0:0.2.8-12.module+el8.6.0+847+b490afdd.src.rpm",
+				"netcf-0:0.2.8-12.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"netcf-0:0.2.8-12.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"netcf-0:0.2.8-12.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.4.0+534+4680a14e.i686.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.6.0+847+b490afdd.i686.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"netcf-debuginfo-0:0.2.8-12.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.4.0+534+4680a14e.i686.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.6.0+847+b490afdd.i686.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"netcf-debugsource-0:0.2.8-12.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.4.0+534+4680a14e.i686.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.6.0+847+b490afdd.i686.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"netcf-devel-0:0.2.8-12.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.4.0+534+4680a14e.i686.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.6.0+847+b490afdd.i686.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"netcf-libs-0:0.2.8-12.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.7.0+1084+97b81f61.aarch64.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.4.0+534+4680a14e.aarch64.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.6.0+847+b490afdd.aarch64.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.4.0+534+4680a14e.i686.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.6.0+847+b490afdd.i686.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"netcf-libs-debuginfo-0:0.2.8-12.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.7.0+1084+97b81f61.i686.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.4.0+534+4680a14e.i686.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.6.0+847+b490afdd.i686.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.7.0+1084+97b81f61.src.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.4.0+534+4680a14e.src.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.6.0+847+b490afdd.src.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.7.0+1084+97b81f61.x86_64.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.4.0+534+4680a14e.x86_64.rpm",
+				"sgabios-1:0.20170427git-3.module+el8.6.0+847+b490afdd.x86_64.rpm",
+				"sgabios-bin-1:0.20170427git-3.module+el8.7.0+1084+97b81f61.noarch.rpm",
+				"sgabios-bin-1:0.20170427git-3.module+el8.4.0+534+4680a14e.noarch.rpm",
+				"sgabios-bin-1:0.20170427git-3.module+el8.6.0+847+b490afdd.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: virt:rhel security, bug fix, and enhancement update",
+	"topic": "An update is available for libiscsi, netcf, sgabios.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

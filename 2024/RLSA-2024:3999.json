@@ -1,0 +1,87 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-33871",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-33871"
+		}
+	],
+	"description": "The Ghostscript suite contains utilities for rendering PostScript and PDF documents. Ghostscript translates PostScript code to common bitmap formats so that the code can be displayed or printed.\n\nSecurity Fix(es):\n\n* ghostscript: OPVP device arbitrary code execution via custom Driver library (CVE-2024-33871)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2283508",
+			"ticket": "2283508"
+		}
+	],
+	"name": "RLSA-2024:3999",
+	"publishedAt": "2024-07-02T14:11:30.465192Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"ghostscript-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-0:9.54.0-16.el9_4.i686.rpm",
+				"ghostscript-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-0:9.54.0-16.el9_4.src.rpm",
+				"ghostscript-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-debuginfo-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-debuginfo-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-debuginfo-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-debuginfo-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-debugsource-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-debugsource-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-debugsource-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-debugsource-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-doc-0:9.54.0-16.el9_4.noarch.rpm",
+				"ghostscript-tools-dvipdf-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-tools-dvipdf-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-tools-dvipdf-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-tools-dvipdf-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-tools-fonts-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-tools-fonts-0:9.54.0-16.el9_4.i686.rpm",
+				"ghostscript-tools-fonts-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-tools-fonts-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-tools-fonts-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-tools-printing-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-tools-printing-0:9.54.0-16.el9_4.i686.rpm",
+				"ghostscript-tools-printing-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-tools-printing-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-tools-printing-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-x11-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-x11-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-x11-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-x11-0:9.54.0-16.el9_4.x86_64.rpm",
+				"ghostscript-x11-debuginfo-0:9.54.0-16.el9_4.aarch64.rpm",
+				"ghostscript-x11-debuginfo-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"ghostscript-x11-debuginfo-0:9.54.0-16.el9_4.s390x.rpm",
+				"ghostscript-x11-debuginfo-0:9.54.0-16.el9_4.x86_64.rpm",
+				"libgs-0:9.54.0-16.el9_4.aarch64.rpm",
+				"libgs-0:9.54.0-16.el9_4.i686.rpm",
+				"libgs-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"libgs-0:9.54.0-16.el9_4.s390x.rpm",
+				"libgs-0:9.54.0-16.el9_4.x86_64.rpm",
+				"libgs-debuginfo-0:9.54.0-16.el9_4.aarch64.rpm",
+				"libgs-debuginfo-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"libgs-debuginfo-0:9.54.0-16.el9_4.s390x.rpm",
+				"libgs-debuginfo-0:9.54.0-16.el9_4.x86_64.rpm",
+				"libgs-devel-0:9.54.0-16.el9_4.aarch64.rpm",
+				"libgs-devel-0:9.54.0-16.el9_4.i686.rpm",
+				"libgs-devel-0:9.54.0-16.el9_4.ppc64le.rpm",
+				"libgs-devel-0:9.54.0-16.el9_4.s390x.rpm",
+				"libgs-devel-0:9.54.0-16.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: ghostscript security update",
+	"topic": "An update is available for ghostscript.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

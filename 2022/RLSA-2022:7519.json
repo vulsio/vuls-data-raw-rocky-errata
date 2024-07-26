@@ -1,0 +1,229 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2021-23648",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-23648"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-444",
+			"name": "CVE-2022-1705",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1705"
+		},
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-1962",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-1962"
+		},
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-200->CWE-201",
+			"name": "CVE-2022-21673",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21673"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-772",
+			"name": "CVE-2022-21698",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21698"
+		},
+		{
+			"cvss3BaseScore": "6.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:N/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2022-21702",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21702"
+		},
+		{
+			"cvss3BaseScore": "6.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-352",
+			"name": "CVE-2022-21703",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21703"
+		},
+		{
+			"cvss3BaseScore": "4.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:N/A:N",
+			"cwe": "CWE-863->CWE-425",
+			"name": "CVE-2022-21713",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-21713"
+		},
+		{
+			"cvss3BaseScore": "7.3",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-28131",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-28131"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30630",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30630"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30631",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30631"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30632",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30632"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30633",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30633"
+		},
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-1325",
+			"name": "CVE-2022-30635",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-30635"
+		},
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N",
+			"cwe": "CWE-200",
+			"name": "CVE-2022-32148",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-32148"
+		}
+	],
+	"description": "Grafana is an open source, feature rich metrics dashboard and graph editor for Graphite, InfluxDB & OpenTSDB. \n\nThe following packages have been upgraded to a later upstream version: grafana (7.5.15). (BZ#2055348)\n\nSecurity Fix(es):\n\n* sanitize-url: XSS due to improper sanitization in sanitizeUrl function (CVE-2021-23648)\n\n* golang: net/http: improper sanitization of Transfer-Encoding header (CVE-2022-1705)\n\n* golang: go/parser: stack exhaustion in all Parse* functions (CVE-2022-1962)\n\n* grafana: Forward OAuth Identity Token can allow users to access some data sources (CVE-2022-21673)\n\n* prometheus/client_golang: Denial of service using InstrumentHandlerCounter (CVE-2022-21698)\n\n* grafana: XSS vulnerability in data source handling (CVE-2022-21702)\n\n* grafana: CSRF vulnerability can lead to privilege escalation (CVE-2022-21703)\n\n* grafana: IDOR vulnerability can lead to information disclosure (CVE-2022-21713)\n\n* golang: encoding/xml: stack exhaustion in Decoder.Skip (CVE-2022-28131)\n\n* golang: io/fs: stack exhaustion in Glob (CVE-2022-30630)\n\n* golang: compress/gzip: stack exhaustion in Reader.Read (CVE-2022-30631)\n\n* golang: path/filepath: stack exhaustion in Glob (CVE-2022-30632)\n\n* golang: encoding/xml: stack exhaustion in Unmarshal (CVE-2022-30633)\n\n* golang: encoding/gob: stack exhaustion in Decoder.Decode (CVE-2022-30635)\n\n* golang: net/http/httputil: NewSingleHostReverseProxy - omit X-Forwarded-For not working (CVE-2022-32148)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.7 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2044628",
+			"ticket": "2044628"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2045880",
+			"ticket": "2045880"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050648",
+			"ticket": "2050648"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050742",
+			"ticket": "2050742"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2050743",
+			"ticket": "2050743"
+		},
+		{
+			"description": "The following packages have been upgraded to a later upstream version: grafana (7.5.15).",
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2055348",
+			"ticket": "2055348"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2065290",
+			"ticket": "2065290"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107342",
+			"ticket": "2107342"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107371",
+			"ticket": "2107371"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107374",
+			"ticket": "2107374"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107376",
+			"ticket": "2107376"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107383",
+			"ticket": "2107383"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107386",
+			"ticket": "2107386"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107388",
+			"ticket": "2107388"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107390",
+			"ticket": "2107390"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2107392",
+			"ticket": "2107392"
+		}
+	],
+	"name": "RLSA-2022:7519",
+	"publishedAt": "2022-11-08T06:21:47Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-0:7.5.15-3.el8.aarch64.rpm",
+				"grafana-0:7.5.15-3.el8.src.rpm",
+				"grafana-0:7.5.15-3.el8.x86_64.rpm",
+				"grafana-debuginfo-0:7.5.15-3.el8.aarch64.rpm",
+				"grafana-debuginfo-0:7.5.15-3.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grafana security, bug fix, and enhancement update",
+	"topic": "An update is available for grafana.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

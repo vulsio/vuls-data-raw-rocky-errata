@@ -1,0 +1,53 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-400",
+			"name": "CVE-2019-20446",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-20446"
+		}
+	],
+	"description": "The librsvg2 packages provide a Scalable Vector Graphics (SVG) library based on the libart library.\n\nSecurity Fix(es):\n\n* librsvg: Resource exhaustion via crafted SVG file with nested patterns (CVE-2019-20446)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.3 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1797608",
+			"ticket": "1797608"
+		}
+	],
+	"name": "RLSA-2020:4709",
+	"publishedAt": "2020-11-03T12:29:09Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"librsvg2-0:2.42.7-4.el8.aarch64.rpm",
+				"librsvg2-0:2.42.7-4.el8.i686.rpm",
+				"librsvg2-0:2.42.7-4.el8.src.rpm",
+				"librsvg2-0:2.42.7-4.el8.x86_64.rpm",
+				"librsvg2-debuginfo-0:2.42.7-4.el8.aarch64.rpm",
+				"librsvg2-debuginfo-0:2.42.7-4.el8.i686.rpm",
+				"librsvg2-debuginfo-0:2.42.7-4.el8.x86_64.rpm",
+				"librsvg2-debugsource-0:2.42.7-4.el8.aarch64.rpm",
+				"librsvg2-debugsource-0:2.42.7-4.el8.i686.rpm",
+				"librsvg2-debugsource-0:2.42.7-4.el8.x86_64.rpm",
+				"librsvg2-devel-0:2.42.7-4.el8.aarch64.rpm",
+				"librsvg2-devel-0:2.42.7-4.el8.i686.rpm",
+				"librsvg2-devel-0:2.42.7-4.el8.x86_64.rpm",
+				"librsvg2-tools-0:2.42.7-4.el8.aarch64.rpm",
+				"librsvg2-tools-0:2.42.7-4.el8.x86_64.rpm",
+				"librsvg2-tools-debuginfo-0:2.42.7-4.el8.aarch64.rpm",
+				"librsvg2-tools-debuginfo-0:2.42.7-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: librsvg2 security update",
+	"topic": "An update is available for librsvg2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

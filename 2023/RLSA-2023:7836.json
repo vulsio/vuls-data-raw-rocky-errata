@@ -1,0 +1,130 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-3468",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-3468"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38469",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38469"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38470",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38470"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38471",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38471"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38472",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38472"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-38473",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-38473"
+		}
+	],
+	"description": "Avahi is an implementation of the DNS Service Discovery and Multicast DNS specifications for Zero Configuration Networking. It facilitates service discovery on a local network. Avahi and Avahi-aware applications allow you to plug your computer into a network and, with no configuration, view other people to chat with, view printers to print with, and find shared files on other computers.\n\nSecurity Fix(es):\n\n* avahi: Local DoS by event-busy-loop from writing long lines to /run/avahi-daemon/socket (CVE-2021-3468)\n\n* avahi: Reachable assertion in avahi_dns_packet_append_record (CVE-2023-38469)\n\n* avahi: Reachable assertion in avahi_escape_label (CVE-2023-38470)\n\n* avahi: Reachable assertion in dbus_set_host_name (CVE-2023-38471)\n\n* avahi: Reachable assertion in avahi_rdata_parse (CVE-2023-38472)\n\n* avahi: Reachable assertion in avahi_alternative_host_name (CVE-2023-38473)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1939614",
+			"ticket": "1939614"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2191687",
+			"ticket": "2191687"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2191690",
+			"ticket": "2191690"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2191691",
+			"ticket": "2191691"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2191692",
+			"ticket": "2191692"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2191694",
+			"ticket": "2191694"
+		}
+	],
+	"name": "RLSA-2023:7836",
+	"publishedAt": "2024-01-09T04:07:32.387758Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"avahi-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-0:0.7-21.el8_9.1.src.rpm",
+				"avahi-autoipd-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-autoipd-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-compat-howl-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-compat-howl-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-compat-howl-devel-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-compat-libdns_sd-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-compat-libdns_sd-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-compat-libdns_sd-devel-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-debugsource-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-devel-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-glib-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-glib-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-glib-devel-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-gobject-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-gobject-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-gobject-devel-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-libs-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-libs-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-tools-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-tools-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-ui-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-ui-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-ui-devel-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-ui-gtk3-0:0.7-21.el8_9.1.aarch64.rpm",
+				"avahi-ui-gtk3-debuginfo-0:0.7-21.el8_9.1.aarch64.rpm",
+				"python3-avahi-0:0.7-21.el8_9.1.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: avahi security update",
+	"topic": "An update is available for avahi.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

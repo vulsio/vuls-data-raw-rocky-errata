@@ -1,0 +1,55 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2019-6706",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-6706"
+		}
+	],
+	"description": "The lua packages provide support for Lua, a powerful light-weight programming language designed for extending applications. Lua is also frequently used as a general-purpose, stand-alone language.\n\nSecurity Fix(es):\n\n* lua: use-after-free in lua_upvaluejoin in lapi.c resulting in denial of service (CVE-2019-6706)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.1 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1670019",
+			"ticket": "1670019"
+		}
+	],
+	"name": "RLSA-2019:3706",
+	"publishedAt": "2019-11-05T20:53:20Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"lua-0:5.3.4-11.el8.aarch64.rpm",
+				"lua-0:5.3.4-11.el8.i686.rpm",
+				"lua-0:5.3.4-11.el8.src.rpm",
+				"lua-0:5.3.4-11.el8.x86_64.rpm",
+				"lua-debuginfo-0:5.3.4-11.el8.aarch64.rpm",
+				"lua-debuginfo-0:5.3.4-11.el8.i686.rpm",
+				"lua-debuginfo-0:5.3.4-11.el8.x86_64.rpm",
+				"lua-debugsource-0:5.3.4-11.el8.aarch64.rpm",
+				"lua-debugsource-0:5.3.4-11.el8.i686.rpm",
+				"lua-debugsource-0:5.3.4-11.el8.x86_64.rpm",
+				"lua-devel-0:5.3.4-11.el8.aarch64.rpm",
+				"lua-devel-0:5.3.4-11.el8.i686.rpm",
+				"lua-devel-0:5.3.4-11.el8.x86_64.rpm",
+				"lua-libs-0:5.3.4-11.el8.aarch64.rpm",
+				"lua-libs-0:5.3.4-11.el8.i686.rpm",
+				"lua-libs-0:5.3.4-11.el8.x86_64.rpm",
+				"lua-libs-debuginfo-0:5.3.4-11.el8.aarch64.rpm",
+				"lua-libs-debuginfo-0:5.3.4-11.el8.i686.rpm",
+				"lua-libs-debuginfo-0:5.3.4-11.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: lua security and bug fix update",
+	"topic": "An update is available for lua.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

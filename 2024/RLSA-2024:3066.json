@@ -1,0 +1,62 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2020-18651",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-18651"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2020-18652",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2020-18652"
+		}
+	],
+	"description": "Exempi provides a library for easy parsing of XMP metadata.\n\nSecurity Fix(es):\n\n* exempi: denial of service via opening of crafted audio file with ID3V2 frame (CVE-2020-18651)\n\n* exempi: denial of service via opening of crafted webp file (CVE-2020-18652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2235669",
+			"ticket": "2235669"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2235673",
+			"ticket": "2235673"
+		}
+	],
+	"name": "RLSA-2024:3066",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"exempi-debuginfo-0:2.4.5-4.el8.x86_64.rpm",
+				"exempi-0:2.4.5-4.el8.aarch64.rpm",
+				"exempi-0:2.4.5-4.el8.i686.rpm",
+				"exempi-0:2.4.5-4.el8.src.rpm",
+				"exempi-0:2.4.5-4.el8.x86_64.rpm",
+				"exempi-debuginfo-0:2.4.5-4.el8.aarch64.rpm",
+				"exempi-debuginfo-0:2.4.5-4.el8.i686.rpm",
+				"exempi-debugsource-0:2.4.5-4.el8.aarch64.rpm",
+				"exempi-debugsource-0:2.4.5-4.el8.i686.rpm",
+				"exempi-debugsource-0:2.4.5-4.el8.x86_64.rpm",
+				"exempi-devel-0:2.4.5-4.el8.aarch64.rpm",
+				"exempi-devel-0:2.4.5-4.el8.i686.rpm",
+				"exempi-devel-0:2.4.5-4.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: exempi security update",
+	"topic": "An update is available for exempi.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,130 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-45884",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45884"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-45886",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45886"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-45919",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-45919"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-1192",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-1192"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-2163",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-2163"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-3812",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-3812"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5178",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5178"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: bpf: Incorrect verifier pruning leads to unsafe code paths being incorrectly marked as safe (CVE-2023-2163)\n\n* kernel: tun: bugs for oversize packet when napi frags enabled in tun_napi_alloc_frags (CVE-2023-3812)\n\n* kernel: use after free in nvmet_tcp_free_crypto in NVMe (CVE-2023-5178)\n\n* kernel: use-after-free due to race condition occurring in dvb_register_device() (CVE-2022-45884)\n\n* kernel: use-after-free due to race condition occurring in dvb_net.c (CVE-2022-45886)\n\n* kernel: use-after-free due to race condition occurring in dvb_ca_en50221.c (CVE-2022-45919)\n\n* kernel: use-after-free in smb2_is_status_io_timeout() (CVE-2023-1192)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2148510",
+			"ticket": "2148510"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2148517",
+			"ticket": "2148517"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2151956",
+			"ticket": "2151956"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2154178",
+			"ticket": "2154178"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2224048",
+			"ticket": "2224048"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2240249",
+			"ticket": "2240249"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2241924",
+			"ticket": "2241924"
+		}
+	],
+	"name": "RLSA-2023:7548",
+	"publishedAt": "2023-12-06T23:16:07.668357Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-513.9.1.rt7.311.el8_9.src.rpm",
+				"kernel-rt-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-513.9.1.rt7.311.el8_9.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

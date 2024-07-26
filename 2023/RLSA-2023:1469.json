@@ -1,0 +1,77 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-833",
+			"name": "CVE-2022-4269",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4269"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-460->CWE-824",
+			"name": "CVE-2022-4744",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-4744"
+		},
+		{
+			"cvss3BaseScore": "7.8",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-416",
+			"name": "CVE-2023-0266",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-0266"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: tun: avoid double free in tun_free_netdev (CVE-2022-4744)\n\n* ALSA: pcm: Move rwsem lock inside snd_ctl_elem_read to prevent UAF (CVE-2023-0266)\n\n* kernel: net: CPU soft lockup in TC mirred egress-to-ingress action (CVE-2022-4269)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nBug Fix(es):\n\n* kernel-rt: update RT source tree to the latest Rocky Linux-9.1.z3 Batch (BZ#2170460)",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2150272",
+			"ticket": "2150272"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2156322",
+			"ticket": "2156322"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2163379",
+			"ticket": "2163379"
+		}
+	],
+	"name": "RLSA-2023:1469",
+	"publishedAt": "2023-04-06T15:23:50.022506Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"kernel-rt-0:5.14.0-162.22.2.rt21.186.el9_1.src.rpm",
+				"kernel-rt-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-core-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-core-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-devel-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debuginfo-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-modules-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-devel-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-kvm-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-modules-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm",
+				"kernel-rt-modules-extra-0:5.14.0-162.22.2.rt21.186.el9_1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security and bug fix update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

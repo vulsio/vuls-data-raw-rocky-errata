@@ -1,0 +1,53 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "5.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48281",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48281"
+		}
+	],
+	"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: heap-based buffer overflow in processCropSelections() in tools/tiffcrop.c (CVE-2022-48281)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2163606",
+			"ticket": "2163606"
+		}
+	],
+	"name": "RLSA-2023:3827",
+	"publishedAt": "2023-08-31T16:54:34.048467Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libtiff-0:4.0.9-28.el8_8.x86_64.rpm",
+				"libtiff-debuginfo-0:4.0.9-28.el8_8.aarch64.rpm",
+				"libtiff-debuginfo-0:4.0.9-28.el8_8.i686.rpm",
+				"libtiff-debuginfo-0:4.0.9-28.el8_8.x86_64.rpm",
+				"libtiff-debugsource-0:4.0.9-28.el8_8.aarch64.rpm",
+				"libtiff-debugsource-0:4.0.9-28.el8_8.i686.rpm",
+				"libtiff-devel-0:4.0.9-28.el8_8.aarch64.rpm",
+				"libtiff-devel-0:4.0.9-28.el8_8.i686.rpm",
+				"libtiff-devel-0:4.0.9-28.el8_8.x86_64.rpm",
+				"libtiff-debugsource-0:4.0.9-28.el8_8.x86_64.rpm",
+				"libtiff-0:4.0.9-28.el8_8.aarch64.rpm",
+				"libtiff-0:4.0.9-28.el8_8.i686.rpm",
+				"libtiff-0:4.0.9-28.el8_8.src.rpm",
+				"libtiff-tools-0:4.0.9-28.el8_8.aarch64.rpm",
+				"libtiff-tools-0:4.0.9-28.el8_8.x86_64.rpm",
+				"libtiff-tools-debuginfo-0:4.0.9-28.el8_8.aarch64.rpm",
+				"libtiff-tools-debuginfo-0:4.0.9-28.el8_8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libtiff security update",
+	"topic": "An update is available for libtiff.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,102 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-30045",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30045"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-30046",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30046"
+		}
+	],
+	"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 7.0.119 and .NET Runtime 7.0.19.\n\nSecurity Fix(es):\n\n* dotnet: stack buffer overrun in Double Parse (CVE-2024-30045)\n\n* dotnet: denial of service in ASP.NET Core due to deadlock in Http2OutputProducer.Stop() (CVE-2024-30046)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2279695",
+			"ticket": "2279695"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2279697",
+			"ticket": "2279697"
+		}
+	],
+	"name": "RLSA-2024:2843",
+	"publishedAt": "2024-06-14T14:00:35.848917Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"aspnetcore-runtime-7.0-0:7.0.19-1.el9_4.aarch64.rpm",
+				"aspnetcore-runtime-7.0-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"aspnetcore-runtime-7.0-0:7.0.19-1.el9_4.s390x.rpm",
+				"aspnetcore-runtime-7.0-0:7.0.19-1.el9_4.x86_64.rpm",
+				"aspnetcore-targeting-pack-7.0-0:7.0.19-1.el9_4.aarch64.rpm",
+				"aspnetcore-targeting-pack-7.0-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"aspnetcore-targeting-pack-7.0-0:7.0.19-1.el9_4.s390x.rpm",
+				"aspnetcore-targeting-pack-7.0-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet7.0-0:7.0.119-1.el9_4.src.rpm",
+				"dotnet-apphost-pack-7.0-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-apphost-pack-7.0-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-apphost-pack-7.0-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-apphost-pack-7.0-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-apphost-pack-7.0-debuginfo-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-apphost-pack-7.0-debuginfo-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-apphost-pack-7.0-debuginfo-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-apphost-pack-7.0-debuginfo-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-hostfxr-7.0-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-hostfxr-7.0-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-hostfxr-7.0-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-hostfxr-7.0-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-hostfxr-7.0-debuginfo-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-hostfxr-7.0-debuginfo-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-hostfxr-7.0-debuginfo-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-hostfxr-7.0-debuginfo-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-runtime-7.0-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-runtime-7.0-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-runtime-7.0-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-runtime-7.0-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-runtime-7.0-debuginfo-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-runtime-7.0-debuginfo-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-runtime-7.0-debuginfo-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-runtime-7.0-debuginfo-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-sdk-7.0-0:7.0.119-1.el9_4.aarch64.rpm",
+				"dotnet-sdk-7.0-0:7.0.119-1.el9_4.ppc64le.rpm",
+				"dotnet-sdk-7.0-0:7.0.119-1.el9_4.s390x.rpm",
+				"dotnet-sdk-7.0-0:7.0.119-1.el9_4.x86_64.rpm",
+				"dotnet-sdk-7.0-debuginfo-0:7.0.119-1.el9_4.aarch64.rpm",
+				"dotnet-sdk-7.0-debuginfo-0:7.0.119-1.el9_4.ppc64le.rpm",
+				"dotnet-sdk-7.0-debuginfo-0:7.0.119-1.el9_4.s390x.rpm",
+				"dotnet-sdk-7.0-debuginfo-0:7.0.119-1.el9_4.x86_64.rpm",
+				"dotnet-sdk-7.0-source-built-artifacts-0:7.0.119-1.el9_4.aarch64.rpm",
+				"dotnet-sdk-7.0-source-built-artifacts-0:7.0.119-1.el9_4.ppc64le.rpm",
+				"dotnet-sdk-7.0-source-built-artifacts-0:7.0.119-1.el9_4.s390x.rpm",
+				"dotnet-sdk-7.0-source-built-artifacts-0:7.0.119-1.el9_4.x86_64.rpm",
+				"dotnet-targeting-pack-7.0-0:7.0.19-1.el9_4.aarch64.rpm",
+				"dotnet-targeting-pack-7.0-0:7.0.19-1.el9_4.ppc64le.rpm",
+				"dotnet-targeting-pack-7.0-0:7.0.19-1.el9_4.s390x.rpm",
+				"dotnet-targeting-pack-7.0-0:7.0.19-1.el9_4.x86_64.rpm",
+				"dotnet-templates-7.0-0:7.0.119-1.el9_4.aarch64.rpm",
+				"dotnet-templates-7.0-0:7.0.119-1.el9_4.ppc64le.rpm",
+				"dotnet-templates-7.0-0:7.0.119-1.el9_4.s390x.rpm",
+				"dotnet-templates-7.0-0:7.0.119-1.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: .NET 7.0 security update",
+	"topic": "An update is available for dotnet7.0.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

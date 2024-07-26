@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-23672",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23672"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24549",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24549"
+		}
+	],
+	"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* Apache Tomcat: HTTP/2 header handling DoS (CVE-2024-24549)\n\n* Apache Tomcat: WebSocket DoS with incomplete closing handshake (CVE-2024-23672)\n\nBug Fix(es) and Enhancement(s):\n\n* Rebase tomcat to version 9.0.87 (JIRA:Rocky Linux-34815)\n\n* Amend tomcat's changelog so that fixed CVEs are mentioned explicitly (JIRA:Rocky Linux-35328)\n\nFor more details about the security issue(s), including the impact, a CVSS\nscore, acknowledgments, and other related information, refer to the CVE\npage(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2269607",
+			"ticket": "2269607"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2269608",
+			"ticket": "2269608"
+		}
+	],
+	"name": "RLSA-2024:3307",
+	"publishedAt": "2024-06-14T14:00:40.182624Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"tomcat-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-1:9.0.87-1.el9_4.1.src.rpm",
+				"tomcat-admin-webapps-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-docs-webapp-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-el-3.0-api-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-jsp-2.3-api-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-lib-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-servlet-4.0-api-1:9.0.87-1.el9_4.1.noarch.rpm",
+				"tomcat-webapps-1:9.0.87-1.el9_4.1.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: tomcat security and bug fix update",
+	"topic": "An update is available for tomcat.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

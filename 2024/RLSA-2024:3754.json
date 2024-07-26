@@ -1,0 +1,91 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2698",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2698"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-3183",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3183"
+		}
+	],
+	"description": "Rocky Enterprise Software Foundation Identity Management (IdM) is a centralized authentication, identity management, and authorization solution for both traditional and cloud-based enterprise environments.\n\nSecurity Fix(es):\n\n* freeipa: delegation rules allow a proxy service to impersonate any user to access another target service (CVE-2024-2698)\n\n* freeipa: user can obtain a hash of the passwords of all domain users and perform offline brute force (CVE-2024-3183)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2270353",
+			"ticket": "2270353"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2270685",
+			"ticket": "2270685"
+		}
+	],
+	"name": "RLSA-2024:3754",
+	"publishedAt": "2024-06-14T14:00:35.848917Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"ipa-0:4.11.0-15.el9_4.src.rpm",
+				"ipa-client-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-client-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-client-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-client-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-client-common-0:4.11.0-15.el9_4.noarch.rpm",
+				"ipa-client-debuginfo-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-client-debuginfo-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-client-debuginfo-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-client-debuginfo-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-client-epn-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-client-epn-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-client-epn-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-client-epn-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-client-samba-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-client-samba-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-client-samba-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-client-samba-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-common-0:4.11.0-15.el9_4.noarch.rpm",
+				"ipa-selinux-0:4.11.0-15.el9_4.noarch.rpm",
+				"ipa-server-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-server-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-server-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-server-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-server-common-0:4.11.0-15.el9_4.noarch.rpm",
+				"ipa-server-debuginfo-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-server-debuginfo-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-server-debuginfo-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-server-debuginfo-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-server-dns-0:4.11.0-15.el9_4.noarch.rpm",
+				"ipa-server-trust-ad-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-server-trust-ad-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-server-trust-ad-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-server-trust-ad-0:4.11.0-15.el9_4.x86_64.rpm",
+				"ipa-server-trust-ad-debuginfo-0:4.11.0-15.el9_4.aarch64.rpm",
+				"ipa-server-trust-ad-debuginfo-0:4.11.0-15.el9_4.ppc64le.rpm",
+				"ipa-server-trust-ad-debuginfo-0:4.11.0-15.el9_4.s390x.rpm",
+				"ipa-server-trust-ad-debuginfo-0:4.11.0-15.el9_4.x86_64.rpm",
+				"python3-ipaclient-0:4.11.0-15.el9_4.noarch.rpm",
+				"python3-ipalib-0:4.11.0-15.el9_4.noarch.rpm",
+				"python3-ipaserver-0:4.11.0-15.el9_4.noarch.rpm",
+				"python3-ipatests-0:4.11.0-15.el9_4.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: ipa security update",
+	"topic": "An update is available for ipa.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

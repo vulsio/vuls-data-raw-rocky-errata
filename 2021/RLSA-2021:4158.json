@@ -1,0 +1,41 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+			"cwe": "CWE-79",
+			"name": "CVE-2021-28957",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-28957"
+		}
+	],
+	"description": "lxml is an XML processing library providing access to libxml2 and libxslt libraries using the Python ElementTree API. \n\nSecurity Fix(es):\n\n* python-lxml: Missing input sanitization for formaction HTML5 attributes may lead to XSS (CVE-2021-28957)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1941534",
+			"ticket": "1941534"
+		}
+	],
+	"name": "RLSA-2021:4158",
+	"publishedAt": "2021-11-09T08:26:20Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3-lxml-0:4.2.3-3.el8.aarch64.rpm",
+				"python3-lxml-0:4.2.3-3.el8.x86_64.rpm",
+				"python3-lxml-debuginfo-0:4.2.3-3.el8.aarch64.rpm",
+				"python3-lxml-debuginfo-0:4.2.3-3.el8.x86_64.rpm",
+				"python-lxml-0:4.2.3-3.el8.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python-lxml security update",
+	"topic": "An update is available for python-lxml.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
