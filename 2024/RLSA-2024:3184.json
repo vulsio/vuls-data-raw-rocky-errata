@@ -1,0 +1,93 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4692",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4692"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4693",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4693"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-1048",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1048"
+		}
+	],
+	"description": "The grub2 packages provide version 2 of the Grand Unified Boot Loader (GRUB), a highly configurable and customizable boot loader with modular architecture. The packages support a variety of kernel formats, file systems, computer architectures, and hardware devices.\n\nSecurity Fix(es):\n\n* grub2: grub2-set-bootflag can be abused by local (pseudo-)users (CVE-2024-1048)\n\n* grub2: Out-of-bounds write at fs/ntfs.c may lead to unsigned code execution (CVE-2023-4692)\n\n* grub2: out-of-bounds read at fs/ntfs.c (CVE-2023-4693)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2236613",
+			"ticket": "2236613"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238343",
+			"ticket": "2238343"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2256827",
+			"ticket": "2256827"
+		}
+	],
+	"name": "RLSA-2024:3184",
+	"publishedAt": "2024-06-14T13:59:16.809606Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grub2-1:2.02-156.el8.rocky.0.1.src.rpm",
+				"grub2-common-1:2.02-156.el8.rocky.0.1.noarch.rpm",
+				"grub2-debuginfo-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-debuginfo-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-debugsource-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-debugsource-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-efi-aa64-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-efi-aa64-cdboot-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-efi-aa64-modules-1:2.02-156.el8.rocky.0.1.noarch.rpm",
+				"grub2-efi-ia32-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-efi-ia32-cdboot-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-efi-ia32-modules-1:2.02-156.el8.rocky.0.1.noarch.rpm",
+				"grub2-efi-x64-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-efi-x64-cdboot-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-efi-x64-modules-1:2.02-156.el8.rocky.0.1.noarch.rpm",
+				"grub2-pc-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-pc-modules-1:2.02-156.el8.rocky.0.1.noarch.rpm",
+				"grub2-tools-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-tools-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-debuginfo-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-tools-debuginfo-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-efi-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-efi-debuginfo-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-extra-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-tools-extra-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-extra-debuginfo-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-tools-extra-debuginfo-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-minimal-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-tools-minimal-1:2.02-156.el8.rocky.0.1.x86_64.rpm",
+				"grub2-tools-minimal-debuginfo-1:2.02-156.el8.rocky.0.1.aarch64.rpm",
+				"grub2-tools-minimal-debuginfo-1:2.02-156.el8.rocky.0.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grub2 security update",
+	"topic": "An update is available for grub2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

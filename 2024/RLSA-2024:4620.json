@@ -1,0 +1,46 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "8.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-120",
+			"name": "CVE-2024-5564",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5564"
+		}
+	],
+	"description": "Libndp is a library (used by NetworkManager) that provides a wrapper for the IPv6 Neighbor Discovery Protocol. It also provides a tool named ndptool for sending and receiving NDP messages.\n\nSecurity Fix(es):\n\n* libndp: buffer overflow in route information length field (CVE-2024-5564)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284122",
+			"ticket": "2284122"
+		}
+	],
+	"name": "RLSA-2024:4620",
+	"publishedAt": "2024-07-26T12:32:49.384788Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libndp-0:1.7-7.el8_10.aarch64.rpm",
+				"libndp-0:1.7-7.el8_10.i686.rpm",
+				"libndp-0:1.7-7.el8_10.src.rpm",
+				"libndp-0:1.7-7.el8_10.x86_64.rpm",
+				"libndp-debuginfo-0:1.7-7.el8_10.aarch64.rpm",
+				"libndp-debuginfo-0:1.7-7.el8_10.i686.rpm",
+				"libndp-debuginfo-0:1.7-7.el8_10.x86_64.rpm",
+				"libndp-debugsource-0:1.7-7.el8_10.aarch64.rpm",
+				"libndp-debugsource-0:1.7-7.el8_10.i686.rpm",
+				"libndp-debugsource-0:1.7-7.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: libndp security update",
+	"topic": "An update is available for libndp.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
