@@ -1,0 +1,415 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47459",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47459"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48743",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48743"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52458",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52458"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52809",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52809"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26737",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26737"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26773",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26773"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26852",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26852"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26880",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26880"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26982",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26982"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27030",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27030"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27046",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27046"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35857",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35857"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35885",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35885"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35907",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35907"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36924",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36924"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36952",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36952"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38580",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38580"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: block: null pointer dereference in ioctl.c when length and logical block size are misaligned (CVE-2023-52458)\n\n* kernel: ext4: avoid allocating blocks from corrupted group in ext4_mb_try_best_found() (CVE-2024-26773)\n\n* kernel: bpf: Fix racing between bpf_timer_cancel_and_free and bpf_timer_cancel (CVE-2024-26737)\n\n* kernel: dm: call the resume method on internal suspend (CVE-2024-26880)\n\n* kernel: net/ipv6: avoid possible UAF in ip6_route_mpath_notify() (CVE-2024-26852)\n\n* kernel: Squashfs: check the inode number is not the invalid value of zero (CVE-2024-26982)\n\n* kernel: nfp: flower: handle acti_netdevs allocation failure (CVE-2024-27046)\n\n* kernel: octeontx2-af: Use separate handlers for interrupts (CVE-2024-27030)\n\n* kernel: icmp: prevent possible NULL dereferences from icmp_build_probe() (CVE-2024-35857)\n\n* kernel: mlxbf_gige: call request_irq() after NAPI initialized (CVE-2024-35907)\n\n* kernel: mlxbf_gige: stop interface during shutdown (CVE-2024-35885)\n\n* kernel: scsi: libfc: Fix potential NULL pointer dereference in fc_lport_ptp_setup() (CVE-2023-52809)\n\n* kernel: can: j1939: j1939_netdev_start(): fix UAF for rx_kref of j1939_priv (CVE-2021-47459)\n\n* kernel: scsi: lpfc: Release hbalock before calling lpfc_worker_wake_up() (CVE-2024-36924)\n\n* kernel: scsi: lpfc: Move NPIV's transport unregistration to after resource clean up (CVE-2024-36952)\n\n* kernel: net: amd-xgbe: Fix skb data length underflow (CVE-2022-48743)\n\n* kernel: epoll: be better about file lifetimes (CVE-2024-38580)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265794",
+			"ticket": "2265794"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273236",
+			"ticket": "2273236"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273274",
+			"ticket": "2273274"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275690",
+			"ticket": "2275690"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275761",
+			"ticket": "2275761"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278337",
+			"ticket": "2278337"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278435",
+			"ticket": "2278435"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278473",
+			"ticket": "2278473"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281247",
+			"ticket": "2281247"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281647",
+			"ticket": "2281647"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281700",
+			"ticket": "2281700"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282669",
+			"ticket": "2282669"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282898",
+			"ticket": "2282898"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284506",
+			"ticket": "2284506"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284598",
+			"ticket": "2284598"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293316",
+			"ticket": "2293316"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293412",
+			"ticket": "2293412"
+		}
+	],
+	"name": "RLSA-2024:4928",
+	"publishedAt": "2024-08-01T01:29:12.010642Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"bpftool-debuginfo-0:7.3.0-427.28.1.el9_4.x86_64.rpm",
+				"bpftool-0:7.3.0-427.28.1.el9_4.aarch64.rpm",
+				"bpftool-0:7.3.0-427.28.1.el9_4.ppc64le.rpm",
+				"bpftool-0:7.3.0-427.28.1.el9_4.s390x.rpm",
+				"bpftool-0:7.3.0-427.28.1.el9_4.x86_64.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.28.1.el9_4.aarch64.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.28.1.el9_4.ppc64le.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-0:5.14.0-427.28.1.el9_4.src.rpm",
+				"kernel-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-64k-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-devel-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-devel-matched-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-modules-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-modules-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-modules-extra-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-devel-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-devel-matched-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-modules-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-modules-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-64k-modules-extra-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-abi-stablelists-0:5.14.0-427.28.1.el9_4.noarch.rpm",
+				"kernel-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-core-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-core-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-cross-headers-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-cross-headers-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-cross-headers-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-cross-headers-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-core-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-core-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-devel-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-devel-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-devel-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-devel-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debuginfo-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-modules-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-modules-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-modules-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-modules-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-debug-uki-virt-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-devel-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-devel-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-devel-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-devel-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-devel-matched-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-devel-matched-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-devel-matched-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-devel-matched-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-doc-0:5.14.0-427.28.1.el9_4.noarch.rpm",
+				"kernel-headers-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-headers-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-headers-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-headers-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-modules-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-modules-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-modules-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-modules-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-modules-core-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-modules-core-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-modules-core-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-modules-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-modules-extra-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-modules-extra-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-modules-extra-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-modules-extra-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-devel-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-modules-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-modules-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-devel-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-kvm-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-modules-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-modules-core-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-rt-modules-extra-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-tools-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-tools-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-tools-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-tools-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-tools-libs-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-tools-libs-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-tools-libs-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-uki-virt-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"kernel-zfcpdump-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-core-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-devel-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-devel-matched-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-modules-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-modules-core-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-modules-extra-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"libperf-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"libperf-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"libperf-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"libperf-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"libperf-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"libperf-debuginfo-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"libperf-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"libperf-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"perf-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"perf-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"perf-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"perf-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"perf-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"perf-debuginfo-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"perf-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"perf-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"python3-perf-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"python3-perf-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"python3-perf-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"python3-perf-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"rtla-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"rtla-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"rtla-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"rtla-0:5.14.0-427.28.1.el9_4.x86_64.rpm",
+				"rv-0:5.14.0-427.28.1.el9_4.aarch64.rpm",
+				"rv-0:5.14.0-427.28.1.el9_4.ppc64le.rpm",
+				"rv-0:5.14.0-427.28.1.el9_4.s390x.rpm",
+				"rv-0:5.14.0-427.28.1.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: kernel security update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

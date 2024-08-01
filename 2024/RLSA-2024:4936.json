@@ -1,0 +1,87 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-3596",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3596"
+		}
+	],
+	"description": "FreeRADIUS is a high-performance and highly configurable free Remote Authentication Dial In User Service (RADIUS) server, designed to allow centralized authentication and authorization for a network.\n\nSecurity Fix(es):\n\n* freeradius: forgery attack (CVE-2024-3596)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2263240",
+			"ticket": "2263240"
+		}
+	],
+	"name": "RLSA-2024:4936",
+	"publishedAt": "2024-08-01T01:28:22.605677Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"freeradius-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-0:3.0.20-15.module+el8.10.0+1841+f214069a.src.rpm",
+				"freeradius-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-debugsource-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-debugsource-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-devel-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-devel-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-doc-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-doc-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-krb5-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-krb5-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-krb5-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-krb5-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-ldap-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-ldap-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-ldap-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-ldap-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-mysql-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-mysql-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-mysql-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-mysql-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-perl-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-perl-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-perl-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-perl-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-postgresql-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-postgresql-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-postgresql-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-postgresql-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-rest-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-rest-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-rest-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-rest-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-sqlite-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-sqlite-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-sqlite-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-sqlite-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-unixODBC-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-unixODBC-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-unixODBC-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-unixODBC-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-utils-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-utils-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"freeradius-utils-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"freeradius-utils-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"python3-freeradius-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"python3-freeradius-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm",
+				"python3-freeradius-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.aarch64.rpm",
+				"python3-freeradius-debuginfo-0:3.0.20-15.module+el8.10.0+1841+f214069a.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: freeradius:3.0 security update",
+	"topic": "An update is available for freeradius, module.freeradius.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
