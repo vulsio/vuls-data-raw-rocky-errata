@@ -1,0 +1,56 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4874",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4874"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-4875",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-4875"
+		}
+	],
+	"description": "Mutt is a low resource, highly configurable, text-based MIME e-mail client. Mutt supports most e-mail storing formats, such as mbox and Maildir, as well as most protocols, including POP3 and IMAP.\n\nSecurity Fix(es):\n\n* mutt: null pointer dereference (CVE-2023-4874)\n\n* mutt: null pointer dereference (CVE-2023-4875)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238240",
+			"ticket": "2238240"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238241",
+			"ticket": "2238241"
+		}
+	],
+	"name": "RLSA-2024:3058",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"mutt-5:2.0.7-3.el8.aarch64.rpm",
+				"mutt-5:2.0.7-3.el8.src.rpm",
+				"mutt-5:2.0.7-3.el8.x86_64.rpm",
+				"mutt-debuginfo-5:2.0.7-3.el8.aarch64.rpm",
+				"mutt-debuginfo-5:2.0.7-3.el8.x86_64.rpm",
+				"mutt-debugsource-5:2.0.7-3.el8.aarch64.rpm",
+				"mutt-debugsource-5:2.0.7-3.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: mutt security update",
+	"topic": "An update is available for mutt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

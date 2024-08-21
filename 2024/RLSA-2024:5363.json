@@ -1,0 +1,792 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47606",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47606"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52651",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52651"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52864",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52864"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-21823",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21823"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26600",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26600"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26808",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26808"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26828",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26828"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26853",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26853"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26868",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26868"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26897",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26897"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27049",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27049"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27052",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27052"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27065",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27065"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27417",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27417"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27434",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27434"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-33621",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-33621"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35789",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35789"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35800",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35800"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35823",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35823"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35845",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35845"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35848",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35848"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35852",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35852"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35899",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35899"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35911",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35911"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35937",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35937"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35969",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35969"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36005",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36005"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36017",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36017"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36020",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36020"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36489",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36489"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36903",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36903"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36921",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36921"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36922",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36922"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36929",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36929"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36941",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36941"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36971",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36971"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-37353",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37353"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-37356",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37356"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38391",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38391"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38558",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38558"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38575",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38575"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-39487",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39487"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-40928",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-40928"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-40954",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-40954"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-40958",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-40958"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-40961",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-40961"
+		}
+	],
+	"description": "Errata Tool Automation could not update the description because it is longer (4803) than ET limit of 4000 characters. (OSCI-6058)\nPlease update the description manually.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265838",
+			"ticket": "2265838"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273405",
+			"ticket": "2273405"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275600",
+			"ticket": "2275600"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275655",
+			"ticket": "2275655"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275715",
+			"ticket": "2275715"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275748",
+			"ticket": "2275748"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278380",
+			"ticket": "2278380"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278417",
+			"ticket": "2278417"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278429",
+			"ticket": "2278429"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278519",
+			"ticket": "2278519"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278989",
+			"ticket": "2278989"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281057",
+			"ticket": "2281057"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281097",
+			"ticket": "2281097"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281133",
+			"ticket": "2281133"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281190",
+			"ticket": "2281190"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281237",
+			"ticket": "2281237"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281257",
+			"ticket": "2281257"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281265",
+			"ticket": "2281265"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281272",
+			"ticket": "2281272"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281639",
+			"ticket": "2281639"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281667",
+			"ticket": "2281667"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281821",
+			"ticket": "2281821"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281900",
+			"ticket": "2281900"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281949",
+			"ticket": "2281949"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282719",
+			"ticket": "2282719"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284400",
+			"ticket": "2284400"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284417",
+			"ticket": "2284417"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284474",
+			"ticket": "2284474"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284496",
+			"ticket": "2284496"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284511",
+			"ticket": "2284511"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284513",
+			"ticket": "2284513"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284543",
+			"ticket": "2284543"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292331",
+			"ticket": "2292331"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293208",
+			"ticket": "2293208"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293418",
+			"ticket": "2293418"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293441",
+			"ticket": "2293441"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293657",
+			"ticket": "2293657"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293658",
+			"ticket": "2293658"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293686",
+			"ticket": "2293686"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293687",
+			"ticket": "2293687"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293688",
+			"ticket": "2293688"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297056",
+			"ticket": "2297056"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297512",
+			"ticket": "2297512"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297538",
+			"ticket": "2297538"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297542",
+			"ticket": "2297542"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297545",
+			"ticket": "2297545"
+		}
+	],
+	"name": "RLSA-2024:5363",
+	"publishedAt": "2024-08-21T14:53:21.142753Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"bpftool-0:7.3.0-427.31.1.el9_4.aarch64.rpm",
+				"bpftool-0:7.3.0-427.31.1.el9_4.ppc64le.rpm",
+				"bpftool-0:7.3.0-427.31.1.el9_4.s390x.rpm",
+				"bpftool-0:7.3.0-427.31.1.el9_4.x86_64.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.31.1.el9_4.aarch64.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.31.1.el9_4.ppc64le.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.31.1.el9_4.s390x.rpm",
+				"bpftool-debuginfo-0:7.3.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-0:5.14.0-427.31.1.el9_4.src.rpm",
+				"kernel-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-64k-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-devel-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-devel-matched-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-modules-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-modules-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-debug-modules-extra-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-devel-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-devel-matched-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-modules-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-modules-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-64k-modules-extra-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-abi-stablelists-0:5.14.0-427.31.1.el9_4.noarch.rpm",
+				"kernel-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-core-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-core-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-cross-headers-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-cross-headers-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-cross-headers-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-cross-headers-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-core-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-core-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-devel-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-devel-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-devel-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-devel-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-devel-matched-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debuginfo-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-modules-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-modules-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-modules-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-modules-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-modules-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-debug-modules-extra-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-debug-uki-virt-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-devel-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-devel-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-devel-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-devel-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-devel-matched-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-devel-matched-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-devel-matched-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-devel-matched-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-doc-0:5.14.0-427.31.1.el9_4.noarch.rpm",
+				"kernel-headers-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-headers-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-headers-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-headers-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-modules-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-modules-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-modules-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-modules-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-modules-core-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-modules-core-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-modules-core-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-modules-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-modules-extra-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-modules-extra-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-modules-extra-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-modules-extra-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-devel-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-modules-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-modules-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-devel-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-kvm-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-modules-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-modules-core-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-rt-modules-extra-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-tools-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-tools-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-tools-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-tools-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-tools-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-tools-libs-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-tools-libs-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-tools-libs-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"kernel-tools-libs-devel-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-uki-virt-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"kernel-zfcpdump-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-core-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-devel-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-devel-matched-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-modules-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-modules-core-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"kernel-zfcpdump-modules-extra-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"libperf-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"libperf-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"libperf-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"libperf-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"libperf-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"libperf-debuginfo-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"libperf-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"libperf-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"perf-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"perf-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"perf-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"perf-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"perf-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"perf-debuginfo-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"perf-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"perf-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"python3-perf-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"python3-perf-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"python3-perf-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"python3-perf-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"python3-perf-debuginfo-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"rtla-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"rtla-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"rtla-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"rtla-0:5.14.0-427.31.1.el9_4.x86_64.rpm",
+				"rv-0:5.14.0-427.31.1.el9_4.aarch64.rpm",
+				"rv-0:5.14.0-427.31.1.el9_4.ppc64le.rpm",
+				"rv-0:5.14.0-427.31.1.el9_4.s390x.rpm",
+				"rv-0:5.14.0-427.31.1.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel security update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

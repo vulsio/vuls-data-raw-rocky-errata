@@ -1,0 +1,1971 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-46939",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-46939"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47257",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47257"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47284",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47284"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47304",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47304"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47373",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47373"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47408",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47408"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47461",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47461"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47468",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47468"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47491",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47491"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47548",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47548"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47579",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47579"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2021-47624",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2021-47624"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48632",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48632"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48743",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48743"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48747",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48747"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2022-48757",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2022-48757"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52463",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52463"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52469",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52469"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52471",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52471"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52486",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52486"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52530",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52530"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52619",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52619"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52622",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52622"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52623",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52623"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52648",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52648"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52653",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52653"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52658",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52658"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52662",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52662"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52679",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52679"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52707",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52707"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52730",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52730"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52756",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52756"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52762",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52762"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52764",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52764"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52777",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52777"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52784",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52784"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52791",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52791"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52796",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52796"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52803",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52803"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52811",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52811"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52832",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52832"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52834",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52834"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52845",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52845"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52847",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52847"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-52864",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-52864"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-21823",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21823"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2201",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2201"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-25739",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-25739"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26586",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26586"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26614",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26614"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26640",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26640"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26660",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26660"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26669",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26669"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26686",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26686"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26704",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26704"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26733",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26733"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26740",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26740"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26772",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26772"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26773",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26773"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26802",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26802"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26810",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26810"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26837",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26837"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26840",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26840"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26843",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26843"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26852",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26852"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26853",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26853"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26870",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26870"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26878",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26878"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26921",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26921"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26925",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26925"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26940",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26940"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26958",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26958"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26960",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26960"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-26961",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-26961"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27010",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27010"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27011",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27011"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27019",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27019"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27020",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27020"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27025",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27025"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27065",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27065"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27388",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27388"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27395",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27395"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-27434",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-27434"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-31076",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-31076"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-33621",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-33621"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35790",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35790"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35801",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35801"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35807",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35807"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35810",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35810"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35814",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35814"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35847",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35847"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35876",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35876"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35893",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35893"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35896",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35896"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35897",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35897"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35899",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35899"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35900",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35900"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35910",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35910"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35912",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35912"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35924",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35924"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35925",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35925"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35930",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35930"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35937",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35937"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35938",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35938"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35946",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35946"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35947",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35947"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-35952",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-35952"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36000",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36000"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36005",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36005"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36006",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36006"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36010",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36010"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36016",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36016"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36017",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36017"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36020",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36020"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36025",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36025"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36270",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36270"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36286",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36286"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36489",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36489"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36886",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36886"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36889",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36889"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36896",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36896"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36904",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36904"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36905",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36905"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36917",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36917"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36921",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36921"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36927",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36927"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36929",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36929"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36933",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36933"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36940",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36940"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36941",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36941"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36950",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36950"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36954",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36954"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36960",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36960"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36971",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36971"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36978",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36978"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36979",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36979"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38538",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38538"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38555",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38555"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38573",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38573"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38575",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38575"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38596",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38596"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38615",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38615"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-38627",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-38627"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-39276",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39276"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-39472",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39472"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-39476",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39476"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-39487",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39487"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-39502",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-39502"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-40927",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-40927"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: efivarfs: force RO when remounting if SetVariable is not supported (CVE-2023-52463)\n\n* kernel: tracing: Restructure trace_clock_global() to never block (CVE-2021-46939)\n\n* kernel: ext4: avoid online resizing failures due to oversized flex bg (CVE-2023-52622)\n\n* kernel: net/sched: flower: Fix chain template offload (CVE-2024-26669)\n\n* kernel: stmmac: Clear variable when destroying workqueue (CVE-2024-26802)\n\n* kernel: efi: runtime: Fix potential overflow of soft-reserved region size (CVE-2024-26843)\n\n* kernel: quota: Fix potential NULL pointer dereference (CVE-2024-26878)\n\n* kernel: TIPC message reassembly use-after-free remote code execution vulnerability (CVE-2024-36886)\n\n* kernel: SUNRPC: fix a memleak in gss_import_v2_context (CVE-2023-52653)\n\n* kernel: dmaengine/idxd: hardware erratum allows potential security problem with direct access by untrusted application (CVE-2024-21823)\n\n* kernel: ext4: fix corruption during on-line resize (CVE-2024-35807)\n\n* kernel: x86/fpu: Keep xfd_state in sync with MSR_IA32_XFD (CVE-2024-35801)\n\n* kernel: dyndbg: fix old BUG_ON in &gt;control parser (CVE-2024-35947)\n\n* kernel: net/sched: act_skbmod: prevent kernel-infoleak (CVE-2024-35893)\n\n* kernel: x86/mce: Make sure to grab mce_sysfs_mutex in set_bank() (CVE-2024-35876)\n\n* kernel: platform/x86: wmi: Fix opening of char device (CVE-2023-52864)\n\n* kernel: tipc: Change nla_policy for bearer-related names to NLA_NUL_STRING (CVE-2023-52845)\n\n* kernel: Revert \"net/mlx5: Block entering switchdev mode with ns inconsistency\" (CVE-2023-52658)\n\n* kernel: crash due to a missing check for leb_size (CVE-2024-25739)\n\n* kernel: tcp: make sure init the accept_queue&#39;s spinlocks once (CVE-2024-26614)\n\n* kernel: tcp: add sanity checks to rx zerocopy (CVE-2024-26640)\n\n* kernel: NFSv4.2: fix nfs4_listxattr kernel BUG at mm/usercopy.c:102 (CVE-2024-26870)\n\n* kernel: nfs: fix UAF in direct writes (CVE-2024-26958)\n\n* kernel: SUNRPC: fix some memleaks in gssx_dec_option_array (CVE-2024-27388)\n\n* kernel: wifi: iwlwifi: mvm: don&#39;t set the MFP flag for the GTK (CVE-2024-27434)\n\n* kernel: of: Fix double free in of_parse_phandle_with_args_map (CVE-2023-52679)\n\n* kernel: scsi: lpfc: Fix possible memory leak in lpfc_rcv_padisc() (CVE-2024-35930)\n\n* kernel: wifi: iwlwifi: mvm: rfi: fix potential response leaks (CVE-2024-35912)\n\n* kernel: block: prevent division by zero in blk_rq_stat_sum() (CVE-2024-35925)\n\n* kernel: wifi: ath11k: decrease MHI channel buffer length to 8KB (CVE-2024-35938)\n\n* kernel: wifi: cfg80211: check A-MSDU format more carefully (CVE-2024-35937)\n\n* kernel: wifi: rtw89: fix null pointer access when abort scan (CVE-2024-35946)\n\n* kernel: netfilter: nf_tables: honor table dormant flag from netdev release event path (CVE-2024-36005)\n\n* kernel: mm/hugetlb: fix missing hugetlb_lock for resv uncharge (CVE-2024-36000)\n\n* kernel: mlxsw: spectrum_acl_tcam: Fix incorrect list API usage (CVE-2024-36006)\n\n* kernel: net: ieee802154: fix null deref in parse dev addr (CVE-2021-47257)\n\n* kernel: mmc: sdio: fix possible resource leaks in some error paths (CVE-2023-52730)\n\n* kernel: wifi: ath11k: fix gtk offload status event locking (CVE-2023-52777)\n\n* (CVE-2023-52832)\n* (CVE-2023-52803)\n* (CVE-2023-52756)\n* (CVE-2023-52834)\n* (CVE-2023-52791)\n* (CVE-2023-52764)\n* (CVE-2021-47468)\n* (CVE-2021-47284)\n* (CVE-2024-36025)\n* (CVE-2024-36941)\n* (CVE-2024-36940)\n* (CVE-2024-36904)\n* (CVE-2024-36896)\n* (CVE-2024-36954)\n* (CVE-2024-36950)\n* (CVE-2024-38575)\n* (CVE-2024-36917)\n* (CVE-2024-36016)\n* (CVE-2023-52762)\n* (CVE-2024-27025)\n* (CVE-2021-47548)\n* (CVE-2023-52619)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2263879",
+			"ticket": "2263879"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265645",
+			"ticket": "2265645"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2265797",
+			"ticket": "2265797"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2266341",
+			"ticket": "2266341"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2266347",
+			"ticket": "2266347"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2266497",
+			"ticket": "2266497"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2267787",
+			"ticket": "2267787"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268118",
+			"ticket": "2268118"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2269070",
+			"ticket": "2269070"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2269211",
+			"ticket": "2269211"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2270084",
+			"ticket": "2270084"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2270100",
+			"ticket": "2270100"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2271686",
+			"ticket": "2271686"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2271688",
+			"ticket": "2271688"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2272782",
+			"ticket": "2272782"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2272795",
+			"ticket": "2272795"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273109",
+			"ticket": "2273109"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273174",
+			"ticket": "2273174"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273236",
+			"ticket": "2273236"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273242",
+			"ticket": "2273242"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273247",
+			"ticket": "2273247"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273268",
+			"ticket": "2273268"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273427",
+			"ticket": "2273427"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2273654",
+			"ticket": "2273654"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275565",
+			"ticket": "2275565"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275573",
+			"ticket": "2275573"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275580",
+			"ticket": "2275580"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275694",
+			"ticket": "2275694"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275711",
+			"ticket": "2275711"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275748",
+			"ticket": "2275748"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275761",
+			"ticket": "2275761"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275928",
+			"ticket": "2275928"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2277166",
+			"ticket": "2277166"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2277238",
+			"ticket": "2277238"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2277840",
+			"ticket": "2277840"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278176",
+			"ticket": "2278176"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278178",
+			"ticket": "2278178"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278182",
+			"ticket": "2278182"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278218",
+			"ticket": "2278218"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278256",
+			"ticket": "2278256"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278258",
+			"ticket": "2278258"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278277",
+			"ticket": "2278277"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278279",
+			"ticket": "2278279"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278380",
+			"ticket": "2278380"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278484",
+			"ticket": "2278484"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278515",
+			"ticket": "2278515"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278535",
+			"ticket": "2278535"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278539",
+			"ticket": "2278539"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2278989",
+			"ticket": "2278989"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280440",
+			"ticket": "2280440"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281054",
+			"ticket": "2281054"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281133",
+			"ticket": "2281133"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281149",
+			"ticket": "2281149"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281207",
+			"ticket": "2281207"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281215",
+			"ticket": "2281215"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281221",
+			"ticket": "2281221"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281235",
+			"ticket": "2281235"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281268",
+			"ticket": "2281268"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281326",
+			"ticket": "2281326"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281360",
+			"ticket": "2281360"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281510",
+			"ticket": "2281510"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281519",
+			"ticket": "2281519"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281636",
+			"ticket": "2281636"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281641",
+			"ticket": "2281641"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281664",
+			"ticket": "2281664"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281667",
+			"ticket": "2281667"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281672",
+			"ticket": "2281672"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281675",
+			"ticket": "2281675"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281682",
+			"ticket": "2281682"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281725",
+			"ticket": "2281725"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281752",
+			"ticket": "2281752"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281758",
+			"ticket": "2281758"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281819",
+			"ticket": "2281819"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281821",
+			"ticket": "2281821"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281833",
+			"ticket": "2281833"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281938",
+			"ticket": "2281938"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281949",
+			"ticket": "2281949"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281968",
+			"ticket": "2281968"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2281989",
+			"ticket": "2281989"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282328",
+			"ticket": "2282328"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282373",
+			"ticket": "2282373"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282479",
+			"ticket": "2282479"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282553",
+			"ticket": "2282553"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282615",
+			"ticket": "2282615"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282623",
+			"ticket": "2282623"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282640",
+			"ticket": "2282640"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282642",
+			"ticket": "2282642"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282645",
+			"ticket": "2282645"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282717",
+			"ticket": "2282717"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282719",
+			"ticket": "2282719"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282727",
+			"ticket": "2282727"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282742",
+			"ticket": "2282742"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282743",
+			"ticket": "2282743"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282744",
+			"ticket": "2282744"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282759",
+			"ticket": "2282759"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282763",
+			"ticket": "2282763"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282766",
+			"ticket": "2282766"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282772",
+			"ticket": "2282772"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282780",
+			"ticket": "2282780"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282887",
+			"ticket": "2282887"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282896",
+			"ticket": "2282896"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282923",
+			"ticket": "2282923"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282925",
+			"ticket": "2282925"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282950",
+			"ticket": "2282950"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2283401",
+			"ticket": "2283401"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2283894",
+			"ticket": "2283894"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284400",
+			"ticket": "2284400"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284417",
+			"ticket": "2284417"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284421",
+			"ticket": "2284421"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284474",
+			"ticket": "2284474"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284477",
+			"ticket": "2284477"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284488",
+			"ticket": "2284488"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284496",
+			"ticket": "2284496"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284500",
+			"ticket": "2284500"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284513",
+			"ticket": "2284513"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284519",
+			"ticket": "2284519"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284539",
+			"ticket": "2284539"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284541",
+			"ticket": "2284541"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284556",
+			"ticket": "2284556"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284571",
+			"ticket": "2284571"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284590",
+			"ticket": "2284590"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2284625",
+			"ticket": "2284625"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2290408",
+			"ticket": "2290408"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292331",
+			"ticket": "2292331"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293078",
+			"ticket": "2293078"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293250",
+			"ticket": "2293250"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293276",
+			"ticket": "2293276"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293312",
+			"ticket": "2293312"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293316",
+			"ticket": "2293316"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293348",
+			"ticket": "2293348"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293371",
+			"ticket": "2293371"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293383",
+			"ticket": "2293383"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293418",
+			"ticket": "2293418"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293420",
+			"ticket": "2293420"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293444",
+			"ticket": "2293444"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293461",
+			"ticket": "2293461"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293653",
+			"ticket": "2293653"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293657",
+			"ticket": "2293657"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293684",
+			"ticket": "2293684"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293687",
+			"ticket": "2293687"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293700",
+			"ticket": "2293700"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293711",
+			"ticket": "2293711"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2294274",
+			"ticket": "2294274"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2295914",
+			"ticket": "2295914"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2296067",
+			"ticket": "2296067"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297056",
+			"ticket": "2297056"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2297474",
+			"ticket": "2297474"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2298108",
+			"ticket": "2298108"
+		}
+	],
+	"name": "RLSA-2024:5102",
+	"publishedAt": "2024-08-21T14:52:36.744300Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-553.16.1.rt7.357.el8_10.src.rpm",
+				"kernel-rt-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-553.16.1.rt7.357.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

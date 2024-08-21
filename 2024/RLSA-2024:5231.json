@@ -1,0 +1,126 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-1737",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1737"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-1975",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-1975"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-4076",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4076"
+		}
+	],
+	"description": "The Berkeley Internet Name Domain (BIND) is an implementation of the Domain Name System (DNS) protocols. BIND includes a DNS server (named); a resolver library (routines for applications to use when interfacing with DNS); and tools for verifying that the DNS server is operating correctly.\n\nSecurity Fix(es):\n\n* bind: bind9: BIND's database will be slow if a very large number of RRs exist at the same nam (CVE-2024-1737)\n\n* bind9: bind: SIG(0) can be used to exhaust CPU resources (CVE-2024-1975)\n\n* bind: bind9: Assertion failure when serving both stale cache data and authoritative zone content (CVE-2024-4076)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2298893",
+			"ticket": "2298893"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2298901",
+			"ticket": "2298901"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2298904",
+			"ticket": "2298904"
+		}
+	],
+	"name": "RLSA-2024:5231",
+	"publishedAt": "2024-08-21T14:53:26.062670Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"bind-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-32:9.16.23-18.el9_4.6.src.rpm",
+				"bind-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-chroot-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-chroot-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-chroot-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-chroot-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-debuginfo-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-debuginfo-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-debuginfo-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-debuginfo-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-debugsource-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-debugsource-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-debugsource-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-debugsource-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-devel-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-devel-32:9.16.23-18.el9_4.6.i686.rpm",
+				"bind-devel-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-devel-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-devel-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-dnssec-doc-32:9.16.23-18.el9_4.6.noarch.rpm",
+				"bind-dnssec-utils-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-dnssec-utils-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-dnssec-utils-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-dnssec-utils-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-dnssec-utils-debuginfo-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-doc-32:9.16.23-18.el9_4.6.noarch.rpm",
+				"bind-dyndb-ldap-0:11.9-10.el9_4.aarch64.rpm",
+				"bind-dyndb-ldap-0:11.9-10.el9_4.ppc64le.rpm",
+				"bind-dyndb-ldap-0:11.9-10.el9_4.s390x.rpm",
+				"bind-dyndb-ldap-0:11.9-10.el9_4.src.rpm",
+				"bind-dyndb-ldap-0:11.9-10.el9_4.x86_64.rpm",
+				"bind-dyndb-ldap-debuginfo-0:11.9-10.el9_4.aarch64.rpm",
+				"bind-dyndb-ldap-debuginfo-0:11.9-10.el9_4.ppc64le.rpm",
+				"bind-dyndb-ldap-debuginfo-0:11.9-10.el9_4.s390x.rpm",
+				"bind-dyndb-ldap-debuginfo-0:11.9-10.el9_4.x86_64.rpm",
+				"bind-dyndb-ldap-debugsource-0:11.9-10.el9_4.aarch64.rpm",
+				"bind-dyndb-ldap-debugsource-0:11.9-10.el9_4.ppc64le.rpm",
+				"bind-dyndb-ldap-debugsource-0:11.9-10.el9_4.s390x.rpm",
+				"bind-dyndb-ldap-debugsource-0:11.9-10.el9_4.x86_64.rpm",
+				"bind-libs-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-libs-32:9.16.23-18.el9_4.6.i686.rpm",
+				"bind-libs-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-libs-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-libs-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-libs-debuginfo-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-libs-debuginfo-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-libs-debuginfo-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-libs-debuginfo-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-license-32:9.16.23-18.el9_4.6.noarch.rpm",
+				"bind-utils-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-utils-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-utils-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-utils-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"bind-utils-debuginfo-32:9.16.23-18.el9_4.6.aarch64.rpm",
+				"bind-utils-debuginfo-32:9.16.23-18.el9_4.6.ppc64le.rpm",
+				"bind-utils-debuginfo-32:9.16.23-18.el9_4.6.s390x.rpm",
+				"bind-utils-debuginfo-32:9.16.23-18.el9_4.6.x86_64.rpm",
+				"python3-bind-32:9.16.23-18.el9_4.6.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: bind and bind-dyndb-ldap security update",
+	"topic": "An update is available for bind-dyndb-ldap, bind.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

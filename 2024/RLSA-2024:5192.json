@@ -1,0 +1,75 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5953",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5953"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6237",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6237"
+		}
+	],
+	"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration.\n\nSecurity Fix(es):\n\n* 389-ds-base: Malformed userPassword hash may cause Denial of Service (CVE-2024-5953)\n\n* 389-ds-base: unauthenticated user can trigger a DoS by sending a specific extended search request (CVE-2024-6237)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292104",
+			"ticket": "2292104"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293579",
+			"ticket": "2293579"
+		}
+	],
+	"name": "RLSA-2024:5192",
+	"publishedAt": "2024-08-21T14:53:26.062670Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"389-ds-base-0:2.4.5-9.el9_4.aarch64.rpm",
+				"389-ds-base-0:2.4.5-9.el9_4.ppc64le.rpm",
+				"389-ds-base-0:2.4.5-9.el9_4.s390x.rpm",
+				"389-ds-base-0:2.4.5-9.el9_4.src.rpm",
+				"389-ds-base-0:2.4.5-9.el9_4.x86_64.rpm",
+				"389-ds-base-debuginfo-0:2.4.5-9.el9_4.aarch64.rpm",
+				"389-ds-base-debuginfo-0:2.4.5-9.el9_4.ppc64le.rpm",
+				"389-ds-base-debuginfo-0:2.4.5-9.el9_4.s390x.rpm",
+				"389-ds-base-debuginfo-0:2.4.5-9.el9_4.x86_64.rpm",
+				"389-ds-base-debugsource-0:2.4.5-9.el9_4.aarch64.rpm",
+				"389-ds-base-debugsource-0:2.4.5-9.el9_4.ppc64le.rpm",
+				"389-ds-base-debugsource-0:2.4.5-9.el9_4.s390x.rpm",
+				"389-ds-base-debugsource-0:2.4.5-9.el9_4.x86_64.rpm",
+				"389-ds-base-devel-0:2.4.5-9.el9_4.aarch64.rpm",
+				"389-ds-base-devel-0:2.4.5-9.el9_4.ppc64le.rpm",
+				"389-ds-base-devel-0:2.4.5-9.el9_4.s390x.rpm",
+				"389-ds-base-devel-0:2.4.5-9.el9_4.x86_64.rpm",
+				"389-ds-base-libs-0:2.4.5-9.el9_4.aarch64.rpm",
+				"389-ds-base-libs-0:2.4.5-9.el9_4.ppc64le.rpm",
+				"389-ds-base-libs-0:2.4.5-9.el9_4.s390x.rpm",
+				"389-ds-base-libs-0:2.4.5-9.el9_4.x86_64.rpm",
+				"389-ds-base-libs-debuginfo-0:2.4.5-9.el9_4.aarch64.rpm",
+				"389-ds-base-libs-debuginfo-0:2.4.5-9.el9_4.ppc64le.rpm",
+				"389-ds-base-libs-debuginfo-0:2.4.5-9.el9_4.s390x.rpm",
+				"389-ds-base-libs-debuginfo-0:2.4.5-9.el9_4.x86_64.rpm",
+				"python3-lib389-0:2.4.5-9.el9_4.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: 389-ds-base security update",
+	"topic": "An update is available for 389-ds-base.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
