@@ -1,0 +1,62 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "6.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-122",
+			"name": "CVE-2023-6349",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6349"
+		},
+		{
+			"cvss3BaseScore": "7.1",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:L/UI:R/S:U/C:H/I:H/A:H",
+			"cwe": "CWE-190",
+			"name": "CVE-2024-5197",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5197"
+		}
+	],
+	"description": "The libvpx packages provide the VP8 SDK, which allows the encoding and decoding of the VP8 video codec, commonly used with the WebM multimedia container file format.\n\nSecurity Fix(es):\n\n* libvpx: Heap buffer overflow related to VP9 encoding (CVE-2023-6349)\n\n* libvpx: Integer overflow in vpx_img_alloc() (CVE-2024-5197)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2283553",
+			"ticket": "2283553"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291198",
+			"ticket": "2291198"
+		}
+	],
+	"name": "RLSA-2024:5941",
+	"publishedAt": "2024-09-17T00:54:54.665652Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libvpx-0:1.7.0-11.el8_10.aarch64.rpm",
+				"libvpx-0:1.7.0-11.el8_10.i686.rpm",
+				"libvpx-0:1.7.0-11.el8_10.src.rpm",
+				"libvpx-0:1.7.0-11.el8_10.x86_64.rpm",
+				"libvpx-debuginfo-0:1.7.0-11.el8_10.aarch64.rpm",
+				"libvpx-debuginfo-0:1.7.0-11.el8_10.i686.rpm",
+				"libvpx-debuginfo-0:1.7.0-11.el8_10.x86_64.rpm",
+				"libvpx-debugsource-0:1.7.0-11.el8_10.aarch64.rpm",
+				"libvpx-debugsource-0:1.7.0-11.el8_10.i686.rpm",
+				"libvpx-debugsource-0:1.7.0-11.el8_10.x86_64.rpm",
+				"libvpx-devel-0:1.7.0-11.el8_10.aarch64.rpm",
+				"libvpx-devel-0:1.7.0-11.el8_10.i686.rpm",
+				"libvpx-devel-0:1.7.0-11.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libvpx security update",
+	"topic": "An update is available for libvpx.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

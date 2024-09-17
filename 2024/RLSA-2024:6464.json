@@ -1,0 +1,73 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34397",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34397"
+		}
+	],
+	"description": "GLib provides the core application building blocks for libraries and applications written in C. It provides the core object system used in GNOME, the main loop implementation, and a large set of utility functions for strings and common data structures.\n\nSecurity Fix(es):\n\n* glib2: Signal subscription vulnerabilities (CVE-2024-34397)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2279632",
+			"ticket": "2279632"
+		}
+	],
+	"name": "RLSA-2024:6464",
+	"publishedAt": "2024-09-17T00:55:53.927829Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"glib2-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-0:2.68.4-14.el9_4.1.i686.rpm",
+				"glib2-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-0:2.68.4-14.el9_4.1.src.rpm",
+				"glib2-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-debuginfo-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-debuginfo-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-debuginfo-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-debuginfo-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-debugsource-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-debugsource-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-debugsource-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-debugsource-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-devel-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-devel-0:2.68.4-14.el9_4.1.i686.rpm",
+				"glib2-devel-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-devel-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-devel-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-devel-debuginfo-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-devel-debuginfo-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-devel-debuginfo-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-devel-debuginfo-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-doc-0:2.68.4-14.el9_4.1.noarch.rpm",
+				"glib2-static-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-static-0:2.68.4-14.el9_4.1.i686.rpm",
+				"glib2-static-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-static-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-static-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-tests-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-tests-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-tests-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-tests-0:2.68.4-14.el9_4.1.x86_64.rpm",
+				"glib2-tests-debuginfo-0:2.68.4-14.el9_4.1.aarch64.rpm",
+				"glib2-tests-debuginfo-0:2.68.4-14.el9_4.1.ppc64le.rpm",
+				"glib2-tests-debuginfo-0:2.68.4-14.el9_4.1.s390x.rpm",
+				"glib2-tests-debuginfo-0:2.68.4-14.el9_4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: glib2 security update",
+	"topic": "An update is available for glib2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

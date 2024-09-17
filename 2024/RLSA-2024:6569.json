@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5953",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5953"
+		}
+	],
+	"description": "389 Directory Server is an LDAP version 3 (LDAPv3) compliant server. The base packages include the Lightweight Directory Access Protocol (LDAP) server and command-line utilities for server administration. \n\nSecurity Fix(es):\n\n* 389-ds-base: Malformed userPassword hash may cause Denial of Service (CVE-2024-5953)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292104",
+			"ticket": "2292104"
+		}
+	],
+	"name": "RLSA-2024:6569",
+	"publishedAt": "2024-09-17T00:54:54.665652Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"389-ds-base-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.src.rpm",
+				"389-ds-base-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-debugsource-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-debugsource-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-devel-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-devel-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-legacy-tools-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-legacy-tools-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-legacy-tools-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-legacy-tools-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-libs-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-libs-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-libs-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-libs-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-snmp-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-snmp-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"389-ds-base-snmp-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.aarch64.rpm",
+				"389-ds-base-snmp-debuginfo-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.x86_64.rpm",
+				"python3-lib389-0:1.4.3.39-8.module+el8.10.0+1866+6d9051ff.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: 389-ds:1.4 security update",
+	"topic": "An update is available for module.389-ds-base, 389-ds-base.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,94 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-22018",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22018"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-22020",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-22020"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28863",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28863"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-36137",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-36137"
+		}
+	],
+	"description": "Node.js is a software development platform for building fast and scalable network applications in the JavaScript programming language. \n\nSecurity Fix(es):\n\n* node-tar: denial of service while parsing a tar file due to lack of folders depth validation (CVE-2024-28863)\n\n* nodejs: Bypass network import restriction via data URL (CVE-2024-22020)\n\n* nodejs: fs.lstat bypasses permission model (CVE-2024-22018)\n\n* nodejs: fs.fchown/fchmod bypasses permission model (CVE-2024-36137)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2293200",
+			"ticket": "2293200"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2296417",
+			"ticket": "2296417"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2296990",
+			"ticket": "2296990"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2299281",
+			"ticket": "2299281"
+		}
+	],
+	"name": "RLSA-2024:5814",
+	"publishedAt": "2024-09-17T00:54:54.665652Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"nodejs-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.aarch64.rpm",
+				"nodejs-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.src.rpm",
+				"nodejs-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.x86_64.rpm",
+				"nodejs-debuginfo-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.aarch64.rpm",
+				"nodejs-debuginfo-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.x86_64.rpm",
+				"nodejs-debugsource-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.aarch64.rpm",
+				"nodejs-debugsource-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.x86_64.rpm",
+				"nodejs-devel-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.aarch64.rpm",
+				"nodejs-devel-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.x86_64.rpm",
+				"nodejs-docs-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.noarch.rpm",
+				"nodejs-full-i18n-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.aarch64.rpm",
+				"nodejs-full-i18n-1:20.16.0-1.module+el8.10.0+1856+4cdb8df5.x86_64.rpm",
+				"nodejs-nodemon-0:3.0.1-1.module+el8.10.0+1666+930e28e8.noarch.rpm",
+				"nodejs-nodemon-0:3.0.1-1.module+el8.10.0+1666+930e28e8.src.rpm",
+				"nodejs-packaging-0:2021.06-4.module+el8.10.0+1667+4a788d89.noarch.rpm",
+				"nodejs-packaging-0:2021.06-4.module+el8.10.0+1667+4a788d89.src.rpm",
+				"nodejs-packaging-bundler-0:2021.06-4.module+el8.10.0+1667+4a788d89.noarch.rpm",
+				"npm-1:10.8.1-1.20.16.0.1.module+el8.10.0+1856+4cdb8df5.aarch64.rpm",
+				"npm-1:10.8.1-1.20.16.0.1.module+el8.10.0+1856+4cdb8df5.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nodejs:20 security update",
+	"topic": "An update is available for module.nodejs-packaging, nodejs-nodemon, nodejs-packaging, module.nodejs-nodemon, nodejs, module.nodejs.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

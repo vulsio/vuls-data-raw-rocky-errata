@@ -1,0 +1,45 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34750",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34750"
+		}
+	],
+	"description": "Apache Tomcat is a servlet container for the Java Servlet and JavaServer Pages (JSP) technologies.\n\nSecurity Fix(es):\n\n* tomcat: Improper Handling of Exceptional Conditions (CVE-2024-34750)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2295651",
+			"ticket": "2295651"
+		}
+	],
+	"name": "RLSA-2024:5694",
+	"publishedAt": "2024-09-17T00:54:54.665652Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"tomcat-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-1:9.0.87-1.el8_10.2.src.rpm",
+				"tomcat-admin-webapps-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-docs-webapp-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-el-3.0-api-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-jsp-2.3-api-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-lib-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-servlet-4.0-api-1:9.0.87-1.el8_10.2.noarch.rpm",
+				"tomcat-webapps-1:9.0.87-1.el8_10.2.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: tomcat security update",
+	"topic": "An update is available for tomcat.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

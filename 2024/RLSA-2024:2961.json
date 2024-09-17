@@ -1,0 +1,59 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2307",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2307"
+		}
+	],
+	"description": "Image Builder is a service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood.\n\nSecurity Fix(es):\n\n* osbuild-composer: race condition may disable GPG verification for package repositories (CVE-2024-2307)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268513",
+			"ticket": "2268513"
+		}
+	],
+	"name": "RLSA-2024:2961",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"osbuild-0:110-1.el8.rocky.0.2.noarch.rpm",
+				"osbuild-0:110-1.el8.rocky.0.2.src.rpm",
+				"osbuild-composer-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-0:101-1.el8.rocky.0.4.src.rpm",
+				"osbuild-composer-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-composer-core-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-core-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-composer-core-debuginfo-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-core-debuginfo-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-composer-debuginfo-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-debuginfo-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-composer-debugsource-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-debugsource-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-composer-worker-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-worker-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-composer-worker-debuginfo-0:101-1.el8.rocky.0.4.aarch64.rpm",
+				"osbuild-composer-worker-debuginfo-0:101-1.el8.rocky.0.4.x86_64.rpm",
+				"osbuild-depsolve-dnf-0:110-1.el8.rocky.0.2.noarch.rpm",
+				"osbuild-luks2-0:110-1.el8.rocky.0.2.noarch.rpm",
+				"osbuild-lvm2-0:110-1.el8.rocky.0.2.noarch.rpm",
+				"osbuild-ostree-0:110-1.el8.rocky.0.2.noarch.rpm",
+				"osbuild-selinux-0:110-1.el8.rocky.0.2.noarch.rpm",
+				"python3-osbuild-0:110-1.el8.rocky.0.2.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: Image builder components bug fix, enhancement and security update",
+	"topic": "An update is available for osbuild, osbuild-composer.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

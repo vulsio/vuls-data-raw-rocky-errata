@@ -1,0 +1,62 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.4",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+			"cwe": "CWE-74",
+			"name": "CVE-2024-42472",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-42472"
+		}
+	],
+	"description": "Bubblewrap (/usr/bin/bwrap) is a core execution engine for unprivileged containers that works as a setuid binary on kernels without user namespaces.\n\nSecurity Fix(es):\n\n* flatpak: Access to files outside sandbox for apps using persistent= (--persist) (CVE-2024-42472)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"name": "RLSA-2024:6422",
+	"publishedAt": "2024-09-17T00:54:42.512349Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bubblewrap-0:0.4.0-2.el8_10.aarch64.rpm",
+				"bubblewrap-0:0.4.0-2.el8_10.src.rpm",
+				"bubblewrap-0:0.4.0-2.el8_10.x86_64.rpm",
+				"bubblewrap-debuginfo-0:0.4.0-2.el8_10.aarch64.rpm",
+				"bubblewrap-debuginfo-0:0.4.0-2.el8_10.x86_64.rpm",
+				"bubblewrap-debugsource-0:0.4.0-2.el8_10.aarch64.rpm",
+				"bubblewrap-debugsource-0:0.4.0-2.el8_10.x86_64.rpm",
+				"flatpak-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-0:1.12.9-3.el8_10.src.rpm",
+				"flatpak-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-debuginfo-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-debuginfo-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-debuginfo-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-debugsource-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-debugsource-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-debugsource-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-devel-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-devel-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-devel-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-libs-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-libs-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-libs-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-libs-debuginfo-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-libs-debuginfo-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-libs-debuginfo-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-selinux-0:1.12.9-3.el8_10.noarch.rpm",
+				"flatpak-session-helper-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-session-helper-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-session-helper-0:1.12.9-3.el8_10.x86_64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.9-3.el8_10.aarch64.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.9-3.el8_10.i686.rpm",
+				"flatpak-session-helper-debuginfo-0:1.12.9-3.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: bubblewrap and flatpak security update",
+	"topic": "An update is available for flatpak, bubblewrap.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
