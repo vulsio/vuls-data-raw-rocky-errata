@@ -1,0 +1,65 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34156",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156"
+		}
+	],
+	"description": "A service for building customized OS artifacts, such as VM images and OSTree commits, that uses osbuild under the hood. Besides building images for local usage, it can also upload images directly to cloud.  It is compatible with composer-cli and cockpit-composer clients.\n\nSecurity Fix(es):\n\n* encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion (CVE-2024-34156)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2310528",
+			"ticket": "2310528"
+		}
+	],
+	"name": "RLSA-2024:7204",
+	"publishedAt": "2024-09-30T14:31:43.994145Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"osbuild-composer-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-0:101-2.el9_4.rocky.0.6.src.rpm",
+				"osbuild-composer-0:101-2.el9_4.rocky.0.6.x86_64.rpm",
+				"osbuild-composer-core-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-core-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-core-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-core-0:101-2.el9_4.rocky.0.6.x86_64.rpm",
+				"osbuild-composer-core-debuginfo-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-core-debuginfo-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-core-debuginfo-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-core-debuginfo-0:101-2.el9_4.rocky.0.6.x86_64.rpm",
+				"osbuild-composer-debuginfo-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-debuginfo-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-debuginfo-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-debuginfo-0:101-2.el9_4.rocky.0.6.x86_64.rpm",
+				"osbuild-composer-debugsource-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-debugsource-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-debugsource-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-debugsource-0:101-2.el9_4.rocky.0.6.x86_64.rpm",
+				"osbuild-composer-worker-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-worker-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-worker-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-worker-0:101-2.el9_4.rocky.0.6.x86_64.rpm",
+				"osbuild-composer-worker-debuginfo-0:101-2.el9_4.rocky.0.6.aarch64.rpm",
+				"osbuild-composer-worker-debuginfo-0:101-2.el9_4.rocky.0.6.ppc64le.rpm",
+				"osbuild-composer-worker-debuginfo-0:101-2.el9_4.rocky.0.6.s390x.rpm",
+				"osbuild-composer-worker-debuginfo-0:101-2.el9_4.rocky.0.6.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: osbuild-composer security update",
+	"topic": "An update is available for osbuild-composer.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

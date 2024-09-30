@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34156",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156"
+		}
+	],
+	"description": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.\n\nSecurity Fix(es):\n\n* encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion (CVE-2024-34156)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2310528",
+			"ticket": "2310528"
+		}
+	],
+	"name": "RLSA-2024:6946",
+	"publishedAt": "2024-09-30T14:31:43.994145Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"grafana-pcp-0:5.1.1-3.el9_4.aarch64.rpm",
+				"grafana-pcp-0:5.1.1-3.el9_4.ppc64le.rpm",
+				"grafana-pcp-0:5.1.1-3.el9_4.s390x.rpm",
+				"grafana-pcp-0:5.1.1-3.el9_4.src.rpm",
+				"grafana-pcp-0:5.1.1-3.el9_4.x86_64.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-3.el9_4.aarch64.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-3.el9_4.ppc64le.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-3.el9_4.s390x.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-3.el9_4.x86_64.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-3.el9_4.aarch64.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-3.el9_4.ppc64le.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-3.el9_4.s390x.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-3.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: grafana-pcp security update",
+	"topic": "An update is available for grafana-pcp.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

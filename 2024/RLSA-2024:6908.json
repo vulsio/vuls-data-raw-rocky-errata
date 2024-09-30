@@ -1,0 +1,94 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-24791",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-24791"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34155",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34155"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34156",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34156"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-34158",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-34158"
+		}
+	],
+	"description": "Go Toolset provides the Go programming language tools and libraries. Go is alternatively known as golang. \n\nSecurity Fix(es):\n\n* net/http: Denial of service due to improper 100-continue handling in net/http (CVE-2024-24791)\n\n* go/parser: golang: Calling any of the Parse functions containing deeply nested literals can cause a panic/stack exhaustion (CVE-2024-34155)\n\n* encoding/gob: golang: Calling Decoder.Decode on a message which contains deeply nested structures can cause a panic due to stack exhaustion (CVE-2024-34156)\n\n* go/build/constraint: golang: Calling Parse on a \"// +build\" build tag line with deeply nested expressions can cause a panic due to stack exhaustion (CVE-2024-34158)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2295310",
+			"ticket": "2295310"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2310527",
+			"ticket": "2310527"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2310528",
+			"ticket": "2310528"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2310529",
+			"ticket": "2310529"
+		}
+	],
+	"name": "RLSA-2024:6908",
+	"publishedAt": "2024-09-30T14:30:36.675668Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"delve-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.aarch64.rpm",
+				"delve-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.src.rpm",
+				"delve-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.x86_64.rpm",
+				"delve-debuginfo-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.aarch64.rpm",
+				"delve-debuginfo-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.x86_64.rpm",
+				"delve-debugsource-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.aarch64.rpm",
+				"delve-debugsource-0:1.21.2-4.module+el8.10.0+1868+7f5969f2.x86_64.rpm",
+				"golang-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.aarch64.rpm",
+				"golang-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.src.rpm",
+				"golang-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.x86_64.rpm",
+				"golang-bin-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.aarch64.rpm",
+				"golang-bin-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.x86_64.rpm",
+				"golang-docs-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm",
+				"golang-misc-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm",
+				"golang-src-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm",
+				"golang-tests-0:1.21.13-2.module+el8.10.0+1868+7f5969f2.noarch.rpm",
+				"go-toolset-0:1.21.13-1.module+el8.10.0+1868+7f5969f2.aarch64.rpm",
+				"go-toolset-0:1.21.13-1.module+el8.10.0+1868+7f5969f2.src.rpm",
+				"go-toolset-0:1.21.13-1.module+el8.10.0+1868+7f5969f2.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: go-toolset:rhel8 security update",
+	"topic": "An update is available for module.go-toolset, go-toolset, delve, golang, module.golang, module.delve.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

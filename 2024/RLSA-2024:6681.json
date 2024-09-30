@@ -1,0 +1,149 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-7652",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-7652"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8381",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8381"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8382",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8382"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8383",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8383"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8384",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8384"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8385",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8385"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8386",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8386"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8387",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8387"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nSecurity Fix(es):\n\n* firefox: 115.15/128.2 ESR ()\n\n* mozilla: Type confusion when looking up a property name in a &quot;with&quot; block (CVE-2024-8381)\n\n* mozilla: Internal event interfaces were exposed to web content when browser EventHandler listener callbacks ran (CVE-2024-8382)\n\n* mozilla: Firefox did not ask before openings news: links in an external application (CVE-2024-8383)\n\n* mozilla: Garbage collection could mis-color cross-compartment objects in OOM conditions (CVE-2024-8384)\n\n* mozilla: WASM type confusion involving ArrayTypes (CVE-2024-8385)\n\n* mozilla: SelectElements could be shown over another site if popups are allowed (CVE-2024-8386)\n\n* mozilla: Memory safety bugs fixed in Firefox 130, Firefox ESR 128.2, and Thunderbird 128.2 (CVE-2024-8387)\n\n* mozilla: Type Confusion in Async Generators in Javascript Engine (CVE-2024-7652)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2307328",
+			"ticket": "2307328"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309427",
+			"ticket": "2309427"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309428",
+			"ticket": "2309428"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309429",
+			"ticket": "2309429"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309430",
+			"ticket": "2309430"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309431",
+			"ticket": "2309431"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309432",
+			"ticket": "2309432"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309433",
+			"ticket": "2309433"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2310490",
+			"ticket": "2310490"
+		}
+	],
+	"name": "RLSA-2024:6681",
+	"publishedAt": "2024-09-30T14:31:43.994145Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"firefox-0:128.2.0-1.el9_4.0.1.aarch64.rpm",
+				"firefox-0:128.2.0-1.el9_4.0.1.ppc64le.rpm",
+				"firefox-0:128.2.0-1.el9_4.0.1.s390x.rpm",
+				"firefox-0:128.2.0-1.el9_4.0.1.src.rpm",
+				"firefox-0:128.2.0-1.el9_4.0.1.x86_64.rpm",
+				"firefox-debuginfo-0:128.2.0-1.el9_4.0.1.aarch64.rpm",
+				"firefox-debuginfo-0:128.2.0-1.el9_4.0.1.ppc64le.rpm",
+				"firefox-debuginfo-0:128.2.0-1.el9_4.0.1.s390x.rpm",
+				"firefox-debuginfo-0:128.2.0-1.el9_4.0.1.x86_64.rpm",
+				"firefox-debugsource-0:128.2.0-1.el9_4.0.1.aarch64.rpm",
+				"firefox-debugsource-0:128.2.0-1.el9_4.0.1.ppc64le.rpm",
+				"firefox-debugsource-0:128.2.0-1.el9_4.0.1.s390x.rpm",
+				"firefox-debugsource-0:128.2.0-1.el9_4.0.1.x86_64.rpm",
+				"firefox-x11-0:128.2.0-1.el9_4.0.1.aarch64.rpm",
+				"firefox-x11-0:128.2.0-1.el9_4.0.1.ppc64le.rpm",
+				"firefox-x11-0:128.2.0-1.el9_4.0.1.s390x.rpm",
+				"firefox-x11-0:128.2.0-1.el9_4.0.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

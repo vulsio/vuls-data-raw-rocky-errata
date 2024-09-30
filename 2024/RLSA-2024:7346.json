@@ -1,0 +1,89 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47076",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47076"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47175",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47175"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47176",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47176"
+		}
+	],
+	"description": "The cups-filters package contains back ends, filters, and other software that was once part of the core Common UNIX Printing System (CUPS) distribution but is now maintained independently. \n\nSecurity Fix(es):\n\n* cups-browsed: cups-browsed binds on UDP INADDR_ANY:631 trusting any packet from any source ()\n\n* cups-filters: libcupsfilters: `cfGetPrinterAttributes` API does not perform sanitization on returned IPP attributes (CVE-2024-47076)\n\n* cups: libppd: remote command injection via attacker controlled data in PPD file ()\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2314252",
+			"ticket": "2314252"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2314253",
+			"ticket": "2314253"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2314256",
+			"ticket": "2314256"
+		}
+	],
+	"name": "RLSA-2024:7346",
+	"publishedAt": "2024-09-30T14:31:39.795853Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"cups-filters-0:1.28.7-17.el9_4.aarch64.rpm",
+				"cups-filters-0:1.28.7-17.el9_4.ppc64le.rpm",
+				"cups-filters-0:1.28.7-17.el9_4.s390x.rpm",
+				"cups-filters-0:1.28.7-17.el9_4.src.rpm",
+				"cups-filters-0:1.28.7-17.el9_4.x86_64.rpm",
+				"cups-filters-debuginfo-0:1.28.7-17.el9_4.aarch64.rpm",
+				"cups-filters-debuginfo-0:1.28.7-17.el9_4.ppc64le.rpm",
+				"cups-filters-debuginfo-0:1.28.7-17.el9_4.s390x.rpm",
+				"cups-filters-debuginfo-0:1.28.7-17.el9_4.x86_64.rpm",
+				"cups-filters-debugsource-0:1.28.7-17.el9_4.aarch64.rpm",
+				"cups-filters-debugsource-0:1.28.7-17.el9_4.ppc64le.rpm",
+				"cups-filters-debugsource-0:1.28.7-17.el9_4.s390x.rpm",
+				"cups-filters-debugsource-0:1.28.7-17.el9_4.x86_64.rpm",
+				"cups-filters-devel-0:1.28.7-17.el9_4.aarch64.rpm",
+				"cups-filters-devel-0:1.28.7-17.el9_4.i686.rpm",
+				"cups-filters-devel-0:1.28.7-17.el9_4.ppc64le.rpm",
+				"cups-filters-devel-0:1.28.7-17.el9_4.s390x.rpm",
+				"cups-filters-devel-0:1.28.7-17.el9_4.x86_64.rpm",
+				"cups-filters-libs-0:1.28.7-17.el9_4.aarch64.rpm",
+				"cups-filters-libs-0:1.28.7-17.el9_4.i686.rpm",
+				"cups-filters-libs-0:1.28.7-17.el9_4.ppc64le.rpm",
+				"cups-filters-libs-0:1.28.7-17.el9_4.s390x.rpm",
+				"cups-filters-libs-0:1.28.7-17.el9_4.x86_64.rpm",
+				"cups-filters-libs-debuginfo-0:1.28.7-17.el9_4.aarch64.rpm",
+				"cups-filters-libs-debuginfo-0:1.28.7-17.el9_4.ppc64le.rpm",
+				"cups-filters-libs-debuginfo-0:1.28.7-17.el9_4.s390x.rpm",
+				"cups-filters-libs-debuginfo-0:1.28.7-17.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: cups-filters security update",
+	"topic": "An update is available for cups-filters.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

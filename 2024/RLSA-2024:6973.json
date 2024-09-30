@@ -1,0 +1,74 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-23184",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23184"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-23185",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-23185"
+		}
+	],
+	"description": "Dovecot is an IMAP server for Linux and other UNIX-like systems, written primarily with security in mind. It also contains a small POP3 server, and supports e-mail in either the maildir or mbox format. The SQL drivers and authentication plug-ins are provided as subpackages. \n\nSecurity Fix(es):\n\n* dovecot: using a large number of address headers may trigger a denial of service (CVE-2024-23184)\n\n* dovecot: very large headers can cause resource exhaustion when parsing message (CVE-2024-23185)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2305909",
+			"ticket": "2305909"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2305910",
+			"ticket": "2305910"
+		}
+	],
+	"name": "RLSA-2024:6973",
+	"publishedAt": "2024-09-30T14:30:36.675668Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"dovecot-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-1:2.3.16-6.el8_10.i686.rpm",
+				"dovecot-1:2.3.16-6.el8_10.src.rpm",
+				"dovecot-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-debuginfo-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-debuginfo-1:2.3.16-6.el8_10.i686.rpm",
+				"dovecot-debuginfo-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-debugsource-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-debugsource-1:2.3.16-6.el8_10.i686.rpm",
+				"dovecot-debugsource-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-devel-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-devel-1:2.3.16-6.el8_10.i686.rpm",
+				"dovecot-devel-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-mysql-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-mysql-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-mysql-debuginfo-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-mysql-debuginfo-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-pgsql-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-pgsql-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-pgsql-debuginfo-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-pgsql-debuginfo-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-pigeonhole-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-pigeonhole-1:2.3.16-6.el8_10.x86_64.rpm",
+				"dovecot-pigeonhole-debuginfo-1:2.3.16-6.el8_10.aarch64.rpm",
+				"dovecot-pigeonhole-debuginfo-1:2.3.16-6.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: dovecot security update",
+	"topic": "An update is available for dovecot.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

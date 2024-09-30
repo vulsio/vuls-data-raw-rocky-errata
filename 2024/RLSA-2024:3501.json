@@ -1,0 +1,63 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-28182",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-28182"
+		}
+	],
+	"description": "libnghttp2 is a library implementing the Hypertext Transfer Protocol version 2 (HTTP/2) protocol in C.\n\nSecurity Fix(es):\n\n* nghttp2: CONTINUATION frames DoS (CVE-2024-28182)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2268639",
+			"ticket": "2268639"
+		}
+	],
+	"name": "RLSA-2024:3501",
+	"publishedAt": "2024-06-14T14:00:33.093068Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"libnghttp2-0:1.43.0-5.el9_4.3.aarch64.rpm",
+				"libnghttp2-0:1.43.0-5.el9_4.3.i686.rpm",
+				"libnghttp2-0:1.43.0-5.el9_4.3.ppc64le.rpm",
+				"libnghttp2-0:1.43.0-5.el9_4.3.s390x.rpm",
+				"libnghttp2-0:1.43.0-5.el9_4.3.x86_64.rpm",
+				"libnghttp2-debuginfo-0:1.43.0-5.el9_4.3.aarch64.rpm",
+				"libnghttp2-debuginfo-0:1.43.0-5.el9_4.3.ppc64le.rpm",
+				"libnghttp2-debuginfo-0:1.43.0-5.el9_4.3.s390x.rpm",
+				"libnghttp2-debuginfo-0:1.43.0-5.el9_4.3.x86_64.rpm",
+				"libnghttp2-devel-0:1.43.0-5.el9_4.3.aarch64.rpm",
+				"libnghttp2-devel-0:1.43.0-5.el9_4.3.i686.rpm",
+				"libnghttp2-devel-0:1.43.0-5.el9_4.3.ppc64le.rpm",
+				"libnghttp2-devel-0:1.43.0-5.el9_4.3.s390x.rpm",
+				"libnghttp2-devel-0:1.43.0-5.el9_4.3.x86_64.rpm",
+				"nghttp2-0:1.43.0-5.el9_4.3.aarch64.rpm",
+				"nghttp2-0:1.43.0-5.el9_4.3.ppc64le.rpm",
+				"nghttp2-0:1.43.0-5.el9_4.3.s390x.rpm",
+				"nghttp2-0:1.43.0-5.el9_4.3.src.rpm",
+				"nghttp2-0:1.43.0-5.el9_4.3.x86_64.rpm",
+				"nghttp2-debuginfo-0:1.43.0-5.el9_4.3.aarch64.rpm",
+				"nghttp2-debuginfo-0:1.43.0-5.el9_4.3.ppc64le.rpm",
+				"nghttp2-debuginfo-0:1.43.0-5.el9_4.3.s390x.rpm",
+				"nghttp2-debuginfo-0:1.43.0-5.el9_4.3.x86_64.rpm",
+				"nghttp2-debugsource-0:1.43.0-5.el9_4.3.aarch64.rpm",
+				"nghttp2-debugsource-0:1.43.0-5.el9_4.3.ppc64le.rpm",
+				"nghttp2-debugsource-0:1.43.0-5.el9_4.3.s390x.rpm",
+				"nghttp2-debugsource-0:1.43.0-5.el9_4.3.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: nghttp2 security update",
+	"topic": "An update is available for nghttp2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

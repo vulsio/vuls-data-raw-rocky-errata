@@ -1,0 +1,89 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-4032",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4032"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6232",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6232"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6923",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6923"
+		}
+	],
+	"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: incorrect IPv4 and IPv6 private ranges (CVE-2024-4032)\n\n* cpython: python: email module doesn't properly quotes newlines in email headers, allowing header injection (CVE-2024-6923)\n\n* python: cpython: tarfile: ReDos via excessive backtracking while parsing header values (CVE-2024-6232)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292921",
+			"ticket": "2292921"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2302255",
+			"ticket": "2302255"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2309426",
+			"ticket": "2309426"
+		}
+	],
+	"name": "RLSA-2024:6975",
+	"publishedAt": "2024-09-30T14:30:24.512095Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"platform-python-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"platform-python-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"platform-python-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"platform-python-debug-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"platform-python-debug-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"platform-python-debug-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"platform-python-devel-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"platform-python-devel-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"platform-python-devel-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"python3-0:3.6.8-67.el8_10.rocky.0.src.rpm",
+				"python3-debuginfo-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"python3-debuginfo-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"python3-debugsource-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"python3-debugsource-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"python3-debugsource-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"python3-idle-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"python3-idle-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"python3-idle-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"python3-libs-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"python3-libs-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"python3-libs-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"python3-test-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"python3-test-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"python3-test-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm",
+				"python3-tkinter-0:3.6.8-67.el8_10.rocky.0.aarch64.rpm",
+				"python3-tkinter-0:3.6.8-67.el8_10.rocky.0.i686.rpm",
+				"python3-tkinter-0:3.6.8-67.el8_10.rocky.0.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python3 security update",
+	"topic": "An update is available for python3.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
