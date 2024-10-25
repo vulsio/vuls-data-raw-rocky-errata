@@ -1,0 +1,93 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-43483",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43483"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-43484",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43484"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-43485",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-43485"
+		}
+	],
+	"description": ".NET is a managed-software framework. It implements a subset of the .NET framework APIs and several new APIs, and it includes a CLR implementation.\n\nNew versions of .NET that address a security vulnerability are now available. The updated versions are .NET SDK 6.0.135 and .NET Runtime 6.0.35.\n\nSecurity Fix(es):\n\n* dotnet: System.IO.Packaging - Multiple DoS vectors in use of SortedList (CVE-2024-43484)\n* dotnet: Multiple .NET components susceptible to hash flooding (CVE-2024-43483)\n* dotnet: Denial of Service in System.Text.Json (CVE-2024-43485)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.Security Fix(es):\n\n* dotnet: System.IO.Packaging - Multiple DoS vectors in use of SortedList (CVE-2024-43484)\n\n* dotnet: Multiple .NET components susceptible to hash flooding (CVE-2024-43483)\n\n* dotnet: Denial of Service in System.Text.Json (CVE-2024-43485)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2315729",
+			"ticket": "2315729"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2315730",
+			"ticket": "2315730"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2315731",
+			"ticket": "2315731"
+		}
+	],
+	"name": "RLSA-2024:7851",
+	"publishedAt": "2024-10-25T17:16:21.716473Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"dotnet-apphost-pack-6.0-0:6.0.35-1.el8_10.x86_64.rpm",
+				"aspnetcore-runtime-6.0-0:6.0.35-1.el8_10.aarch64.rpm",
+				"aspnetcore-runtime-6.0-0:6.0.35-1.el8_10.x86_64.rpm",
+				"aspnetcore-targeting-pack-6.0-0:6.0.35-1.el8_10.aarch64.rpm",
+				"aspnetcore-targeting-pack-6.0-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet6.0-0:6.0.135-1.el8_10.src.rpm",
+				"dotnet6.0-debuginfo-0:6.0.135-1.el8_10.aarch64.rpm",
+				"dotnet6.0-debuginfo-0:6.0.135-1.el8_10.x86_64.rpm",
+				"dotnet6.0-debugsource-0:6.0.135-1.el8_10.aarch64.rpm",
+				"dotnet6.0-debugsource-0:6.0.135-1.el8_10.x86_64.rpm",
+				"dotnet-apphost-pack-6.0-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-apphost-pack-6.0-debuginfo-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-apphost-pack-6.0-debuginfo-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet-hostfxr-6.0-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-hostfxr-6.0-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet-hostfxr-6.0-debuginfo-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-hostfxr-6.0-debuginfo-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet-runtime-6.0-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-runtime-6.0-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet-runtime-6.0-debuginfo-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-runtime-6.0-debuginfo-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet-sdk-6.0-0:6.0.135-1.el8_10.aarch64.rpm",
+				"dotnet-sdk-6.0-0:6.0.135-1.el8_10.x86_64.rpm",
+				"dotnet-sdk-6.0-debuginfo-0:6.0.135-1.el8_10.aarch64.rpm",
+				"dotnet-sdk-6.0-debuginfo-0:6.0.135-1.el8_10.x86_64.rpm",
+				"dotnet-sdk-6.0-source-built-artifacts-0:6.0.135-1.el8_10.aarch64.rpm",
+				"dotnet-sdk-6.0-source-built-artifacts-0:6.0.135-1.el8_10.x86_64.rpm",
+				"dotnet-targeting-pack-6.0-0:6.0.35-1.el8_10.aarch64.rpm",
+				"dotnet-targeting-pack-6.0-0:6.0.35-1.el8_10.x86_64.rpm",
+				"dotnet-templates-6.0-0:6.0.135-1.el8_10.aarch64.rpm",
+				"dotnet-templates-6.0-0:6.0.135-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: .NET 6.0 security update",
+	"topic": "An update is available for dotnet6.0.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

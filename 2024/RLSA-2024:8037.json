@@ -1,0 +1,73 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-42934",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-42934"
+		}
+	],
+	"description": "The OpenIPMI packages provide command-line tools and utilities to access platform information using Intelligent Platform Management Interface (IPMI). System administrators can use OpenIPMI to manage systems and to perform system health monitoring.\n\nSecurity Fix(es):\n\n* openipmi: missing check on the authorization type on incoming LAN messages in IPMI simulator (CVE-2024-42934)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2308375",
+			"ticket": "2308375"
+		}
+	],
+	"name": "RLSA-2024:8037",
+	"publishedAt": "2024-10-25T17:17:22.727365Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"OpenIPMI-devel-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-0:2.0.32-5.el9_4.i686.rpm",
+				"OpenIPMI-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-0:2.0.32-5.el9_4.src.rpm",
+				"OpenIPMI-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-debuginfo-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-debuginfo-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-debuginfo-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-debuginfo-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-debugsource-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-debugsource-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-debugsource-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-debugsource-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-devel-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-devel-0:2.0.32-5.el9_4.i686.rpm",
+				"OpenIPMI-devel-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-devel-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-lanserv-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-lanserv-0:2.0.32-5.el9_4.i686.rpm",
+				"OpenIPMI-lanserv-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-lanserv-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-lanserv-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-lanserv-debuginfo-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-lanserv-debuginfo-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-lanserv-debuginfo-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-lanserv-debuginfo-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-libs-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-libs-0:2.0.32-5.el9_4.i686.rpm",
+				"OpenIPMI-libs-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-libs-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-libs-0:2.0.32-5.el9_4.x86_64.rpm",
+				"OpenIPMI-libs-debuginfo-0:2.0.32-5.el9_4.aarch64.rpm",
+				"OpenIPMI-libs-debuginfo-0:2.0.32-5.el9_4.ppc64le.rpm",
+				"OpenIPMI-libs-debuginfo-0:2.0.32-5.el9_4.s390x.rpm",
+				"OpenIPMI-libs-debuginfo-0:2.0.32-5.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: OpenIPMI security update",
+	"topic": "An update is available for OpenIPMI.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
