@@ -1,0 +1,63 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-7006",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-7006"
+		}
+	],
+	"description": "The libtiff packages contain a library of functions for manipulating Tagged Image File Format (TIFF) files.\n\nSecurity Fix(es):\n\n* libtiff: NULL pointer dereference in tif_dirinfo.c (CVE-2024-7006)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2302996",
+			"ticket": "2302996"
+		}
+	],
+	"name": "RLSA-2024:8914",
+	"publishedAt": "2024-11-08T15:57:54.689249Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"libtiff-0:4.4.0-12.el9_4.1.aarch64.rpm",
+				"libtiff-0:4.4.0-12.el9_4.1.i686.rpm",
+				"libtiff-0:4.4.0-12.el9_4.1.ppc64le.rpm",
+				"libtiff-0:4.4.0-12.el9_4.1.s390x.rpm",
+				"libtiff-0:4.4.0-12.el9_4.1.src.rpm",
+				"libtiff-0:4.4.0-12.el9_4.1.x86_64.rpm",
+				"libtiff-debuginfo-0:4.4.0-12.el9_4.1.aarch64.rpm",
+				"libtiff-debuginfo-0:4.4.0-12.el9_4.1.ppc64le.rpm",
+				"libtiff-debuginfo-0:4.4.0-12.el9_4.1.s390x.rpm",
+				"libtiff-debuginfo-0:4.4.0-12.el9_4.1.x86_64.rpm",
+				"libtiff-debugsource-0:4.4.0-12.el9_4.1.aarch64.rpm",
+				"libtiff-debugsource-0:4.4.0-12.el9_4.1.ppc64le.rpm",
+				"libtiff-debugsource-0:4.4.0-12.el9_4.1.s390x.rpm",
+				"libtiff-debugsource-0:4.4.0-12.el9_4.1.x86_64.rpm",
+				"libtiff-devel-0:4.4.0-12.el9_4.1.aarch64.rpm",
+				"libtiff-devel-0:4.4.0-12.el9_4.1.i686.rpm",
+				"libtiff-devel-0:4.4.0-12.el9_4.1.ppc64le.rpm",
+				"libtiff-devel-0:4.4.0-12.el9_4.1.s390x.rpm",
+				"libtiff-devel-0:4.4.0-12.el9_4.1.x86_64.rpm",
+				"libtiff-tools-0:4.4.0-12.el9_4.1.aarch64.rpm",
+				"libtiff-tools-0:4.4.0-12.el9_4.1.ppc64le.rpm",
+				"libtiff-tools-0:4.4.0-12.el9_4.1.s390x.rpm",
+				"libtiff-tools-0:4.4.0-12.el9_4.1.x86_64.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-12.el9_4.1.aarch64.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-12.el9_4.1.ppc64le.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-12.el9_4.1.s390x.rpm",
+				"libtiff-tools-debuginfo-0:4.4.0-12.el9_4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: libtiff security update",
+	"topic": "An update is available for libtiff.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

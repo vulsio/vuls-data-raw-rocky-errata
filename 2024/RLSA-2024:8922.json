@@ -1,0 +1,54 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2019-12900",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-12900"
+		}
+	],
+	"description": "The bzip2 packages contain a freely available, high-quality data compressor. It provides both standalone compression and decompression utilities, as well as a shared library for use with other programs. \n\nSecurity Fix(es):\n\n* bzip2: out-of-bounds write in function BZ2_decompress (CVE-2019-12900)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1724459",
+			"ticket": "1724459"
+		}
+	],
+	"name": "RLSA-2024:8922",
+	"publishedAt": "2024-11-08T15:56:34.521391Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bzip2-0:1.0.6-27.el8_10.aarch64.rpm",
+				"bzip2-0:1.0.6-27.el8_10.src.rpm",
+				"bzip2-0:1.0.6-27.el8_10.x86_64.rpm",
+				"bzip2-debuginfo-0:1.0.6-27.el8_10.aarch64.rpm",
+				"bzip2-debuginfo-0:1.0.6-27.el8_10.i686.rpm",
+				"bzip2-debuginfo-0:1.0.6-27.el8_10.x86_64.rpm",
+				"bzip2-debugsource-0:1.0.6-27.el8_10.aarch64.rpm",
+				"bzip2-debugsource-0:1.0.6-27.el8_10.i686.rpm",
+				"bzip2-debugsource-0:1.0.6-27.el8_10.x86_64.rpm",
+				"bzip2-devel-0:1.0.6-27.el8_10.aarch64.rpm",
+				"bzip2-devel-0:1.0.6-27.el8_10.i686.rpm",
+				"bzip2-devel-0:1.0.6-27.el8_10.x86_64.rpm",
+				"bzip2-libs-0:1.0.6-27.el8_10.aarch64.rpm",
+				"bzip2-libs-0:1.0.6-27.el8_10.i686.rpm",
+				"bzip2-libs-0:1.0.6-27.el8_10.x86_64.rpm",
+				"bzip2-libs-debuginfo-0:1.0.6-27.el8_10.aarch64.rpm",
+				"bzip2-libs-debuginfo-0:1.0.6-27.el8_10.i686.rpm",
+				"bzip2-libs-debuginfo-0:1.0.6-27.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: bzip2 security update",
+	"topic": "An update is available for bzip2.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

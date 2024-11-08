@@ -1,0 +1,38 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-37891",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-37891"
+		}
+	],
+	"description": "urllib3 is a powerful, user-friendly HTTP client for Python. urllib3 brings many critical features that are missing from the Python standard libraries: \n  • Thread safety.\n  • Connection pooling.\n  • Client-side SSL/TLS verification.\n  • File uploads with multipart encoding.\n  • Helpers for retrying requests and dealing with HTTP redirects.\n  • Support for gzip, deflate, brotli, and zstd encoding.\n  • Proxy support for HTTP and SOCKS.\n  • 100% test coverage.\n\nSecurity Fix(es):\n\n* urllib3: proxy-authorization request header is not stripped during cross-origin redirects (CVE-2024-37891)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2292788",
+			"ticket": "2292788"
+		}
+	],
+	"name": "RLSA-2024:8842",
+	"publishedAt": "2024-11-08T15:56:47.559546Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3.12-urllib3-0:1.26.19-1.el8_10.noarch.rpm",
+				"python3.12-urllib3-0:1.26.19-1.el8_10.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python3.12-urllib3 security update",
+	"topic": "An update is available for python3.12-urllib3.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

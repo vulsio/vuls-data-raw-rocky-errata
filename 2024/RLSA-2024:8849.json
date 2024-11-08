@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-45539",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-45539"
+		}
+	],
+	"description": "The haproxy packages provide a reliable, high-performance network load balancer for TCP and HTTP-based applications.\n\nSecurity Fix(es):\n\n* haproxy: untrimmed URI fragments may lead to exposure of confidential data on static servers (CVE-2023-45539)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2253037",
+			"ticket": "2253037"
+		}
+	],
+	"name": "RLSA-2024:8849",
+	"publishedAt": "2024-11-08T15:56:47.559546Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"haproxy-0:1.8.27-5.el8_10.1.x86_64.rpm",
+				"haproxy-debuginfo-0:1.8.27-5.el8_10.1.aarch64.rpm",
+				"haproxy-0:1.8.27-5.el8_10.1.aarch64.rpm",
+				"haproxy-0:1.8.27-5.el8_10.1.src.rpm",
+				"haproxy-debuginfo-0:1.8.27-5.el8_10.1.x86_64.rpm",
+				"haproxy-debugsource-0:1.8.27-5.el8_10.1.aarch64.rpm",
+				"haproxy-debugsource-0:1.8.27-5.el8_10.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: haproxy security update",
+	"topic": "An update is available for haproxy.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

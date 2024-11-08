@@ -1,0 +1,52 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2314",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2314"
+		}
+	],
+	"description": "BPF Compiler Collection (BCC) is a toolkit for easier creation of efficient kernel tracing and manipulation programs. BCC uses the extended Berkeley Packet Filter (eBPF) tool.\n\nSecurity Fix(es):\n\n* bcc: unprivileged users can force loading of compromised linux headers (CVE-2024-2314)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2269019",
+			"ticket": "2269019"
+		}
+	],
+	"name": "RLSA-2024:8831",
+	"publishedAt": "2024-11-08T15:56:47.559546Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bcc-0:0.25.0-9.el8_10.aarch64.rpm",
+				"bcc-0:0.25.0-9.el8_10.src.rpm",
+				"bcc-0:0.25.0-9.el8_10.x86_64.rpm",
+				"bcc-debuginfo-0:0.25.0-9.el8_10.aarch64.rpm",
+				"bcc-debuginfo-0:0.25.0-9.el8_10.x86_64.rpm",
+				"bcc-debugsource-0:0.25.0-9.el8_10.aarch64.rpm",
+				"bcc-debugsource-0:0.25.0-9.el8_10.x86_64.rpm",
+				"bcc-devel-0:0.25.0-9.el8_10.aarch64.rpm",
+				"bcc-devel-0:0.25.0-9.el8_10.x86_64.rpm",
+				"bcc-doc-0:0.25.0-9.el8_10.noarch.rpm",
+				"bcc-tools-0:0.25.0-9.el8_10.aarch64.rpm",
+				"bcc-tools-0:0.25.0-9.el8_10.x86_64.rpm",
+				"bcc-tools-debuginfo-0:0.25.0-9.el8_10.aarch64.rpm",
+				"bcc-tools-debuginfo-0:0.25.0-9.el8_10.x86_64.rpm",
+				"python3-bcc-0:0.25.0-9.el8_10.aarch64.rpm",
+				"python3-bcc-0:0.25.0-9.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: bcc security update",
+	"topic": "An update is available for bcc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

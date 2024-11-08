@@ -1,0 +1,44 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-6119",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-6119"
+		}
+	],
+	"description": "EDK (Embedded Development Kit) is a project to enable UEFI support for Virtual Machines. This package contains a sample 64-bit UEFI firmware for QEMU and KVM. \n\nSecurity Fix(es):\n\n* openssl: Possible denial of service in X.509 name checks (CVE-2024-6119)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2306158",
+			"ticket": "2306158"
+		}
+	],
+	"name": "RLSA-2024:8935",
+	"publishedAt": "2024-11-08T15:57:54.689249Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"edk2-0:20231122-6.el9_4.4.src.rpm",
+				"edk2-aarch64-0:20231122-6.el9_4.4.noarch.rpm",
+				"edk2-ovmf-0:20231122-6.el9_4.4.noarch.rpm",
+				"edk2-tools-0:20231122-6.el9_4.4.aarch64.rpm",
+				"edk2-tools-0:20231122-6.el9_4.4.x86_64.rpm",
+				"edk2-tools-debuginfo-0:20231122-6.el9_4.4.aarch64.rpm",
+				"edk2-tools-debuginfo-0:20231122-6.el9_4.4.x86_64.rpm",
+				"edk2-tools-doc-0:20231122-6.el9_4.4.noarch.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: edk2 security update",
+	"topic": "An update is available for edk2.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

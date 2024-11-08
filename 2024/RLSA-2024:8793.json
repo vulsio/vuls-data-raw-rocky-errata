@@ -1,0 +1,166 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10458",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10458"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10459",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10459"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10460",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10460"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10461",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10461"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10462",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10462"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10463",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10463"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10464",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10464"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10465",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10465"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10466",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10466"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10467",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10467"
+		}
+	],
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nSecurity Fix(es):\n\n* firefox: thunderbird: History interface could have been used to cause a Denial of Service condition in the browser (CVE-2024-10464)\n\n* firefox: thunderbird: XSS due to Content-Disposition being ignored in multipart/x-mixed-replace response (CVE-2024-10461)\n\n* firefox: thunderbird: Permission leak via embed or object elements (CVE-2024-10458)\n\n* firefox: thunderbird: Use-after-free in layout with accessibility (CVE-2024-10459)\n\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 132, Thunderbird 132, Firefox ESR 128.4, and Thunderbird 128.4 (CVE-2024-10467)\n\n* firefox: thunderbird: Clipboard \"paste\" button persisted across tabs (CVE-2024-10465)\n\n* firefox: DOM push subscription message could hang Firefox (CVE-2024-10466)\n\n* firefox: thunderbird: Cross origin video frame leak (CVE-2024-10463)\n\n* firefox: thunderbird: Origin of permission prompt could be spoofed by long URL (CVE-2024-10462)\n\n* firefox: thunderbird: Confusing display of origin for external protocol handler prompt (CVE-2024-10460)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322424",
+			"ticket": "2322424"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322425",
+			"ticket": "2322425"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322428",
+			"ticket": "2322428"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322429",
+			"ticket": "2322429"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322433",
+			"ticket": "2322433"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322434",
+			"ticket": "2322434"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322438",
+			"ticket": "2322438"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322439",
+			"ticket": "2322439"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322440",
+			"ticket": "2322440"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322444",
+			"ticket": "2322444"
+		}
+	],
+	"name": "RLSA-2024:8793",
+	"publishedAt": "2024-11-08T15:57:59.128395Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"thunderbird-0:128.4.0-1.el9_4.aarch64.rpm",
+				"thunderbird-0:128.4.0-1.el9_4.ppc64le.rpm",
+				"thunderbird-0:128.4.0-1.el9_4.s390x.rpm",
+				"thunderbird-0:128.4.0-1.el9_4.src.rpm",
+				"thunderbird-0:128.4.0-1.el9_4.x86_64.rpm",
+				"thunderbird-debuginfo-0:128.4.0-1.el9_4.aarch64.rpm",
+				"thunderbird-debuginfo-0:128.4.0-1.el9_4.ppc64le.rpm",
+				"thunderbird-debuginfo-0:128.4.0-1.el9_4.s390x.rpm",
+				"thunderbird-debuginfo-0:128.4.0-1.el9_4.x86_64.rpm",
+				"thunderbird-debugsource-0:128.4.0-1.el9_4.aarch64.rpm",
+				"thunderbird-debugsource-0:128.4.0-1.el9_4.ppc64le.rpm",
+				"thunderbird-debugsource-0:128.4.0-1.el9_4.s390x.rpm",
+				"thunderbird-debugsource-0:128.4.0-1.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: thunderbird security update",
+	"topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

@@ -1,0 +1,43 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9355",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9355"
+		}
+	],
+	"description": "The Grafana plugin for Performance Co-Pilot includes datasources for scalable time series from pmseries and Redis, live PCP metrics and bpftrace scripts from pmdabpftrace, as well as several dashboards.\n\nSecurity Fix(es):\n\n* golang-fips: Golang FIPS zeroed buffer (CVE-2024-9355)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2315719",
+			"ticket": "2315719"
+		}
+	],
+	"name": "RLSA-2024:8847",
+	"publishedAt": "2024-11-08T15:56:47.559546Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"grafana-pcp-0:5.1.1-9.el8_10.aarch64.rpm",
+				"grafana-pcp-0:5.1.1-9.el8_10.src.rpm",
+				"grafana-pcp-0:5.1.1-9.el8_10.x86_64.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-9.el8_10.aarch64.rpm",
+				"grafana-pcp-debuginfo-0:5.1.1-9.el8_10.x86_64.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-9.el8_10.aarch64.rpm",
+				"grafana-pcp-debugsource-0:5.1.1-9.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: grafana-pcp security update",
+	"topic": "An update is available for grafana-pcp.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
