@@ -1,0 +1,47 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2018-12699",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2018-12699"
+		}
+	],
+	"description": "The binutils packages provide a collection of binary utilities for the manipulation of object code in various object file formats. It includes the ar, as, gprof, ld, nm, objcopy, objdump, ranlib, readelf, size, strings, strip, and addr2line utilities.\n\nSecurity Fix(es):\n\n* binutils: heap-based buffer overflow in finish_stab in stabs.c (CVE-2018-12699)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=1595427",
+			"ticket": "1595427"
+		}
+	],
+	"name": "RLSA-2024:9689",
+	"publishedAt": "2024-11-19T16:00:48.844671Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"binutils-0:2.30-125.el8_10.aarch64.rpm",
+				"binutils-0:2.30-125.el8_10.src.rpm",
+				"binutils-0:2.30-125.el8_10.x86_64.rpm",
+				"binutils-debuginfo-0:2.30-125.el8_10.aarch64.rpm",
+				"binutils-debuginfo-0:2.30-125.el8_10.x86_64.rpm",
+				"binutils-debugsource-0:2.30-125.el8_10.aarch64.rpm",
+				"binutils-debugsource-0:2.30-125.el8_10.i686.rpm",
+				"binutils-debugsource-0:2.30-125.el8_10.x86_64.rpm",
+				"binutils-devel-0:2.30-125.el8_10.aarch64.rpm",
+				"binutils-devel-0:2.30-125.el8_10.i686.rpm",
+				"binutils-devel-0:2.30-125.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_LOW",
+	"shortCode": "RL",
+	"synopsis": "Low: binutils security update",
+	"topic": "An update is available for binutils.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

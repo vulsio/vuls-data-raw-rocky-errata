@@ -1,0 +1,58 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9632",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9632"
+		}
+	],
+	"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: tigervnc: heap-based buffer overflow privilege escalation vulnerability (CVE-2024-9632)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2317233",
+			"ticket": "2317233"
+		}
+	],
+	"name": "RLSA-2024:9540",
+	"publishedAt": "2024-11-19T16:01:03.545733Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"tigervnc-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-0:1.13.1-14.el8_10.src.rpm",
+				"tigervnc-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-debuginfo-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-debuginfo-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-debugsource-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-debugsource-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-icons-0:1.13.1-14.el8_10.noarch.rpm",
+				"tigervnc-license-0:1.13.1-14.el8_10.noarch.rpm",
+				"tigervnc-selinux-0:1.13.1-14.el8_10.noarch.rpm",
+				"tigervnc-server-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-server-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-server-debuginfo-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-server-debuginfo-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-server-minimal-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-server-minimal-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-server-module-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-server-module-0:1.13.1-14.el8_10.x86_64.rpm",
+				"tigervnc-server-module-debuginfo-0:1.13.1-14.el8_10.aarch64.rpm",
+				"tigervnc-server-module-debuginfo-0:1.13.1-14.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: tigervnc security update",
+	"topic": "An update is available for tigervnc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

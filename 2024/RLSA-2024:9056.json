@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-4453",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-4453"
+		}
+	],
+	"description": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-base packages contain a collection of well-maintained base plug-ins.\n\nSecurity Fix(es):\n\n* gstreamer: EXIF Metadata Parsing Integer Overflow (CVE-2024-4453)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2282999",
+			"ticket": "2282999"
+		}
+	],
+	"name": "RLSA-2024:9056",
+	"publishedAt": "2024-11-19T16:01:03.545733Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gstreamer1-plugins-base-0:1.16.1-4.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-base-0:1.16.1-4.el8_10.i686.rpm",
+				"gstreamer1-plugins-base-0:1.16.1-4.el8_10.src.rpm",
+				"gstreamer1-plugins-base-0:1.16.1-4.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-base-debuginfo-0:1.16.1-4.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-base-debuginfo-0:1.16.1-4.el8_10.i686.rpm",
+				"gstreamer1-plugins-base-debuginfo-0:1.16.1-4.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-base-debugsource-0:1.16.1-4.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-base-debugsource-0:1.16.1-4.el8_10.i686.rpm",
+				"gstreamer1-plugins-base-debugsource-0:1.16.1-4.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-base-devel-0:1.16.1-4.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-base-devel-0:1.16.1-4.el8_10.i686.rpm",
+				"gstreamer1-plugins-base-devel-0:1.16.1-4.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: gstreamer1-plugins-base security update",
+	"topic": "An update is available for gstreamer1-plugins-base.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

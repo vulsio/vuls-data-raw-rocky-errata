@@ -1,0 +1,63 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-5841",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-5841"
+		}
+	],
+	"description": "OpenEXR is an open-source high-dynamic-range floating-point image file format for high-quality image processing and storage. This document presents a brief overview of OpenEXR and explains concepts that are specific to this format.  This package containes the binaries for OpenEXR.\n\nSecurity Fix(es):\n\n* OpenEXR: Heap Overflow in Scanline Deep Data Parsing (CVE-2023-5841)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2262397",
+			"ticket": "2262397"
+		}
+	],
+	"name": "RLSA-2024:9548",
+	"publishedAt": "2024-11-19T16:02:19.758877Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"openexr-0:3.1.1-2.el9_4.1.aarch64.rpm",
+				"openexr-0:3.1.1-2.el9_4.1.ppc64le.rpm",
+				"openexr-0:3.1.1-2.el9_4.1.s390x.rpm",
+				"openexr-0:3.1.1-2.el9_4.1.src.rpm",
+				"openexr-0:3.1.1-2.el9_4.1.x86_64.rpm",
+				"openexr-debuginfo-0:3.1.1-2.el9_4.1.aarch64.rpm",
+				"openexr-debuginfo-0:3.1.1-2.el9_4.1.ppc64le.rpm",
+				"openexr-debuginfo-0:3.1.1-2.el9_4.1.s390x.rpm",
+				"openexr-debuginfo-0:3.1.1-2.el9_4.1.x86_64.rpm",
+				"openexr-debugsource-0:3.1.1-2.el9_4.1.aarch64.rpm",
+				"openexr-debugsource-0:3.1.1-2.el9_4.1.ppc64le.rpm",
+				"openexr-debugsource-0:3.1.1-2.el9_4.1.s390x.rpm",
+				"openexr-debugsource-0:3.1.1-2.el9_4.1.x86_64.rpm",
+				"openexr-devel-0:3.1.1-2.el9_4.1.aarch64.rpm",
+				"openexr-devel-0:3.1.1-2.el9_4.1.i686.rpm",
+				"openexr-devel-0:3.1.1-2.el9_4.1.ppc64le.rpm",
+				"openexr-devel-0:3.1.1-2.el9_4.1.s390x.rpm",
+				"openexr-devel-0:3.1.1-2.el9_4.1.x86_64.rpm",
+				"openexr-libs-0:3.1.1-2.el9_4.1.aarch64.rpm",
+				"openexr-libs-0:3.1.1-2.el9_4.1.i686.rpm",
+				"openexr-libs-0:3.1.1-2.el9_4.1.ppc64le.rpm",
+				"openexr-libs-0:3.1.1-2.el9_4.1.s390x.rpm",
+				"openexr-libs-0:3.1.1-2.el9_4.1.x86_64.rpm",
+				"openexr-libs-debuginfo-0:3.1.1-2.el9_4.1.aarch64.rpm",
+				"openexr-libs-debuginfo-0:3.1.1-2.el9_4.1.ppc64le.rpm",
+				"openexr-libs-debuginfo-0:3.1.1-2.el9_4.1.s390x.rpm",
+				"openexr-libs-debuginfo-0:3.1.1-2.el9_4.1.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: openexr security update",
+	"topic": "An update is available for openexr.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

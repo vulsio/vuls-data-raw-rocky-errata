@@ -1,0 +1,62 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-52530",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52530"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-52532",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-52532"
+		}
+	],
+	"description": "The libsoup packages provide an HTTP client and server library for GNOME.\n\nSecurity Fix(es):\n\n* libsoup: infinite loop while reading websocket data (CVE-2024-52532)\n\n* libsoup: HTTP request smuggling via stripping null bytes from the ends of header names (CVE-2024-52530)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2325276",
+			"ticket": "2325276"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2325284",
+			"ticket": "2325284"
+		}
+	],
+	"name": "RLSA-2024:9573",
+	"publishedAt": "2024-11-19T16:00:48.844671Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"libsoup-0:2.62.3-6.el8_10.aarch64.rpm",
+				"libsoup-0:2.62.3-6.el8_10.i686.rpm",
+				"libsoup-0:2.62.3-6.el8_10.src.rpm",
+				"libsoup-0:2.62.3-6.el8_10.x86_64.rpm",
+				"libsoup-debuginfo-0:2.62.3-6.el8_10.aarch64.rpm",
+				"libsoup-debuginfo-0:2.62.3-6.el8_10.i686.rpm",
+				"libsoup-debuginfo-0:2.62.3-6.el8_10.x86_64.rpm",
+				"libsoup-debugsource-0:2.62.3-6.el8_10.aarch64.rpm",
+				"libsoup-debugsource-0:2.62.3-6.el8_10.i686.rpm",
+				"libsoup-debugsource-0:2.62.3-6.el8_10.x86_64.rpm",
+				"libsoup-devel-0:2.62.3-6.el8_10.aarch64.rpm",
+				"libsoup-devel-0:2.62.3-6.el8_10.i686.rpm",
+				"libsoup-devel-0:2.62.3-6.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: libsoup security update",
+	"topic": "An update is available for libsoup.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

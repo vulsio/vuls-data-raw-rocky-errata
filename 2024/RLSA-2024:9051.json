@@ -1,0 +1,96 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9407",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9407"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9675",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9675"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9676",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9676"
+		}
+	],
+	"description": "The podman tool manages pods, container images, and containers. It is part of the libpod library, which is for applications that use container pods. Container pods is a concept in Kubernetes.\n\nSecurity Fix(es):\n\n* Buildah: Podman: Improper Input Validation in bind-propagation Option of Dockerfile RUN --mount Instruction (CVE-2024-9407)\n\n* buildah: Buildah allows arbitrary directory mount (CVE-2024-9675)\n\n* Podman: Buildah: CRI-O: symlink traversal vulnerability in the containers/storage library can cause Denial of Service (DoS) (CVE-2024-9676)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2315887",
+			"ticket": "2315887"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2317458",
+			"ticket": "2317458"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2317467",
+			"ticket": "2317467"
+		}
+	],
+	"name": "RLSA-2024:9051",
+	"publishedAt": "2024-11-19T16:02:24.506028Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"podman-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-4:4.9.4-16.el9_4.src.rpm",
+				"podman-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-debuginfo-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-debuginfo-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-debuginfo-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-debuginfo-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-debugsource-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-debugsource-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-debugsource-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-debugsource-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-docker-4:4.9.4-16.el9_4.noarch.rpm",
+				"podman-plugins-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-plugins-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-plugins-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-plugins-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-plugins-debuginfo-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-plugins-debuginfo-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-plugins-debuginfo-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-plugins-debuginfo-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-remote-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-remote-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-remote-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-remote-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-remote-debuginfo-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-remote-debuginfo-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-remote-debuginfo-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-remote-debuginfo-4:4.9.4-16.el9_4.x86_64.rpm",
+				"podman-tests-4:4.9.4-16.el9_4.aarch64.rpm",
+				"podman-tests-4:4.9.4-16.el9_4.ppc64le.rpm",
+				"podman-tests-4:4.9.4-16.el9_4.s390x.rpm",
+				"podman-tests-4:4.9.4-16.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: podman security update",
+	"topic": "An update is available for podman.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

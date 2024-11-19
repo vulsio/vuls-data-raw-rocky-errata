@@ -1,0 +1,49 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-41915",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-41915"
+		}
+	],
+	"description": "The Process Management Interface (PMI) provides process management functions for MPI implementations. PMI Exascale (PMIx) provides an extended version of the PMI standard specifically designed to support clusters up to and including exascale sizes.\n\nSecurity Fix(es):\n\n* pmix: race condition allows attackers to obtain ownership of arbitrary files (CVE-2023-41915)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 8.10 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2238898",
+			"ticket": "2238898"
+		}
+	],
+	"name": "RLSA-2024:3008",
+	"publishedAt": "2024-06-14T13:59:30.118978Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pmix-0:2.2.5-3.el8.aarch64.rpm",
+				"pmix-0:2.2.5-3.el8.i686.rpm",
+				"pmix-0:2.2.5-3.el8.src.rpm",
+				"pmix-0:2.2.5-3.el8.x86_64.rpm",
+				"pmix-debuginfo-0:2.2.5-3.el8.aarch64.rpm",
+				"pmix-debuginfo-0:2.2.5-3.el8.i686.rpm",
+				"pmix-debuginfo-0:2.2.5-3.el8.x86_64.rpm",
+				"pmix-debugsource-0:2.2.5-3.el8.aarch64.rpm",
+				"pmix-debugsource-0:2.2.5-3.el8.i686.rpm",
+				"pmix-debugsource-0:2.2.5-3.el8.x86_64.rpm",
+				"pmix-devel-0:2.2.5-3.el8.aarch64.rpm",
+				"pmix-devel-0:2.2.5-3.el8.i686.rpm",
+				"pmix-devel-0:2.2.5-3.el8.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: pmix security update",
+	"topic": "An update is available for pmix.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

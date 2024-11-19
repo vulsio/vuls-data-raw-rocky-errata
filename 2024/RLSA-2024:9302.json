@@ -1,0 +1,100 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-30203",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30203"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-30204",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30204"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-30205",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-30205"
+		}
+	],
+	"description": "GNU Emacs is a powerful, customizable, self-documenting text editor. It provides special code editing features, a scripting language (elisp), and the capability to read e-mail and news.\n\nSecurity Fix(es):\n\n* emacs: Gnus treats inline MIME contents as trusted (CVE-2024-30203)\n\n* emacs: LaTeX preview is enabled by default for e-mail attachments (CVE-2024-30204)\n\n* emacs: Org mode considers contents of remote files to be trusted (CVE-2024-30205)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.\n\nAdditional Changes:\n\nFor detailed information on changes in this release, see the Rocky Linux 9.5 Release Notes linked from the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280296",
+			"ticket": "2280296"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280297",
+			"ticket": "2280297"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2280298",
+			"ticket": "2280298"
+		}
+	],
+	"name": "RLSA-2024:9302",
+	"publishedAt": "2024-11-19T16:02:24.506028Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"emacs-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-1:27.2-10.el9_4.src.rpm",
+				"emacs-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-common-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-common-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-common-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-common-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-common-debuginfo-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-common-debuginfo-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-common-debuginfo-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-common-debuginfo-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-debuginfo-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-debuginfo-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-debuginfo-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-debuginfo-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-debugsource-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-debugsource-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-debugsource-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-debugsource-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-filesystem-1:27.2-10.el9_4.noarch.rpm",
+				"emacs-lucid-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-lucid-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-lucid-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-lucid-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-lucid-debuginfo-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-lucid-debuginfo-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-lucid-debuginfo-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-lucid-debuginfo-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-nox-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-nox-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-nox-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-nox-1:27.2-10.el9_4.x86_64.rpm",
+				"emacs-nox-debuginfo-1:27.2-10.el9_4.aarch64.rpm",
+				"emacs-nox-debuginfo-1:27.2-10.el9_4.ppc64le.rpm",
+				"emacs-nox-debuginfo-1:27.2-10.el9_4.s390x.rpm",
+				"emacs-nox-debuginfo-1:27.2-10.el9_4.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: emacs security update",
+	"topic": "An update is available for emacs.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
