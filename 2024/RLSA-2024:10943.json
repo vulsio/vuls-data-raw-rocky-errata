@@ -1,0 +1,193 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-46695",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-46695"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-49949",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-49949"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50082",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50082"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50099",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50099"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50110",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50110"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50142",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50142"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50192",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50192"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50256",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50256"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-50264",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-50264"
+		}
+	],
+	"description": "The kernel packages contain the Linux kernel, the core of any Linux operating system.\n\nSecurity Fix(es):\n\n* kernel: selinux,smack: don't bypass permissions check in inode_setsecctx hook (CVE-2024-46695)\n\n* kernel: net: avoid potential underflow in qdisc_pkt_len_init() with UFO (CVE-2024-49949)\n\n* kernel: blk-rq-qos: fix crash on rq_qos_wait vs. rq_qos_wake_function race (CVE-2024-50082)\n\n* kernel: arm64: probes: Remove broken LDR (literal) uprobe support (CVE-2024-50099)\n\n* kernel: xfrm: fix one more kernel-infoleak in algo dumping (CVE-2024-50110)\n\n* kernel: xfrm: validate new SA&#39;s prefixlen using SA family when sel.family is unset (CVE-2024-50142)\n\n* kernel: irqchip/gic-v4: Don't allow a VMOVP on a dying VPE (CVE-2024-50192)\n\n* kernel: netfilter: nf_reject_ipv6: fix potential crash in nf_send_reset6() (CVE-2024-50256)\n\n* kernel: vsock/virtio: Initialization of the dangling pointer occurring in vsk->trans (CVE-2024-50264)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2312083",
+			"ticket": "2312083"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2320505",
+			"ticket": "2320505"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2322308",
+			"ticket": "2322308"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2323904",
+			"ticket": "2323904"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2323930",
+			"ticket": "2323930"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2324315",
+			"ticket": "2324315"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2324612",
+			"ticket": "2324612"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2324889",
+			"ticket": "2324889"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2327168",
+			"ticket": "2327168"
+		}
+	],
+	"name": "RLSA-2024:10943",
+	"publishedAt": "2024-12-19T04:17:50.256560Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"bpftool-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"bpftool-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"bpftool-debuginfo-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"bpftool-debuginfo-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-0:4.18.0-553.32.1.el8_10.src.rpm",
+				"kernel-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-abi-stablelists-0:4.18.0-553.32.1.el8_10.noarch.rpm",
+				"kernel-core-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-core-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-cross-headers-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-cross-headers-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debug-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debug-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debug-core-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debug-core-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debug-debuginfo-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debug-devel-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debug-devel-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debuginfo-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debuginfo-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debuginfo-common-aarch64-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debuginfo-common-x86_64-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debug-modules-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debug-modules-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-debug-modules-extra-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-devel-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-devel-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-doc-0:4.18.0-553.32.1.el8_10.noarch.rpm",
+				"kernel-headers-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-headers-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-modules-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-modules-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-modules-extra-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-modules-extra-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-tools-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-tools-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-tools-debuginfo-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-tools-libs-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-tools-libs-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"kernel-tools-libs-devel-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"perf-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"perf-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"perf-debuginfo-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"perf-debuginfo-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"python3-perf-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"python3-perf-0:4.18.0-553.32.1.el8_10.x86_64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-553.32.1.el8_10.aarch64.rpm",
+				"python3-perf-debuginfo-0:4.18.0-553.32.1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: kernel security update",
+	"topic": "An update is available for kernel.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

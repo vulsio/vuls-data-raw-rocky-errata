@@ -1,0 +1,76 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11168",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11168"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9287",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287"
+		}
+	],
+	"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: Virtual environment (venv) activation scripts don't quote paths (CVE-2024-9287)\n\n* python: Improper validation of IPv6 and IPvFuture addresses (CVE-2024-11168)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2321440",
+			"ticket": "2321440"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2325776",
+			"ticket": "2325776"
+		}
+	],
+	"name": "RLSA-2024:10779",
+	"publishedAt": "2024-12-19T04:17:50.256560Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"platform-python-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"platform-python-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"platform-python-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"platform-python-debug-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"platform-python-debug-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"platform-python-debug-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"platform-python-devel-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"platform-python-devel-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"platform-python-devel-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"python3-0:3.6.8-69.el8_10.rocky.0.src.rpm",
+				"python3-debuginfo-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"python3-debuginfo-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"python3-debugsource-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"python3-debugsource-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"python3-debugsource-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"python3-idle-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"python3-idle-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"python3-idle-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"python3-libs-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"python3-libs-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"python3-libs-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"python3-test-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"python3-test-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"python3-test-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm",
+				"python3-tkinter-0:3.6.8-69.el8_10.rocky.0.aarch64.rpm",
+				"python3-tkinter-0:3.6.8-69.el8_10.rocky.0.i686.rpm",
+				"python3-tkinter-0:3.6.8-69.el8_10.rocky.0.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: python3:3.6.8 security update",
+	"topic": "An update is available for python3.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

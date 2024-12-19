@@ -1,0 +1,78 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-12254",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-12254"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9287",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9287"
+		}
+	],
+	"description": "Python is an interpreted, interactive, object-oriented programming language, which includes modules, classes, exceptions, very high level dynamic data types and dynamic typing. Python supports interfaces to many system calls and libraries, as well as to various windowing systems.\n\nSecurity Fix(es):\n\n* python: Virtual environment (venv) activation scripts don't quote paths (CVE-2024-9287)\n\n* python: Unbounded memory buffering in SelectorSocketTransport.writelines() (CVE-2024-12254)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2321440",
+			"ticket": "2321440"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2330804",
+			"ticket": "2330804"
+		}
+	],
+	"name": "RLSA-2024:10980",
+	"publishedAt": "2024-12-19T04:18:05.672002Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"python3.12-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-0:3.12.8-1.el8_10.src.rpm",
+				"python3.12-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-debug-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-debug-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-debug-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-debuginfo-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-debuginfo-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-debuginfo-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-debugsource-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-debugsource-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-debugsource-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-devel-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-devel-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-devel-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-idle-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-idle-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-idle-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-libs-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-libs-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-libs-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-rpm-macros-0:3.12.8-1.el8_10.noarch.rpm",
+				"python3.12-test-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-test-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-test-0:3.12.8-1.el8_10.x86_64.rpm",
+				"python3.12-tkinter-0:3.12.8-1.el8_10.aarch64.rpm",
+				"python3.12-tkinter-0:3.12.8-1.el8_10.i686.rpm",
+				"python3.12-tkinter-0:3.12.8-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: python3.12 security update",
+	"topic": "An update is available for python3.12.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

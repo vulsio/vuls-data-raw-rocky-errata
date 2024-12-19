@@ -1,0 +1,104 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47537",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47537"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47539",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47539"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47540",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47540"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47606",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47606"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-47613",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-47613"
+		}
+	],
+	"description": "GStreamer is a streaming media framework based on graphs of filters which operate on media data. The gstreamer1-plugins-good packages contain a collection of well-supported plug-ins of good quality and under the LGPL license.\n\nSecurity Fix(es):\n\n* gstreamer1-plugins-good: uninitialized stack memory in Matroska/WebM demuxer (CVE-2024-47540)\n\n* gstreamer1-plugins-good: OOB-write in isomp4/qtdemux.c (CVE-2024-47537)\n\n* gstreamer1-plugins-good: OOB-write in convert_to_s334_1a (CVE-2024-47539)\n\n* gstreamer1-plugins-good: null pointer dereference in gst_gdk_pixbuf_dec_flush (CVE-2024-47613)\n\n* gstreamer1-plugins-good: integer overflows in MP4/MOV demuxer and memory allocator that can lead to out-of-bounds writes (CVE-2024-47606)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2331719",
+			"ticket": "2331719"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2331722",
+			"ticket": "2331722"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2331726",
+			"ticket": "2331726"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2331753",
+			"ticket": "2331753"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2331760",
+			"ticket": "2331760"
+		}
+	],
+	"name": "RLSA-2024:11299",
+	"publishedAt": "2024-12-19T04:18:05.672002Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"gstreamer1-plugins-good-0:1.16.1-5.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-good-0:1.16.1-5.el8_10.i686.rpm",
+				"gstreamer1-plugins-good-0:1.16.1-5.el8_10.src.rpm",
+				"gstreamer1-plugins-good-0:1.16.1-5.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-good-debuginfo-0:1.16.1-5.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-good-debuginfo-0:1.16.1-5.el8_10.i686.rpm",
+				"gstreamer1-plugins-good-debuginfo-0:1.16.1-5.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-good-debugsource-0:1.16.1-5.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-good-debugsource-0:1.16.1-5.el8_10.i686.rpm",
+				"gstreamer1-plugins-good-debugsource-0:1.16.1-5.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-good-gtk-0:1.16.1-5.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-good-gtk-0:1.16.1-5.el8_10.i686.rpm",
+				"gstreamer1-plugins-good-gtk-0:1.16.1-5.el8_10.x86_64.rpm",
+				"gstreamer1-plugins-good-gtk-debuginfo-0:1.16.1-5.el8_10.aarch64.rpm",
+				"gstreamer1-plugins-good-gtk-debuginfo-0:1.16.1-5.el8_10.i686.rpm",
+				"gstreamer1-plugins-good-gtk-debuginfo-0:1.16.1-5.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: gstreamer1-plugins-good security update",
+	"topic": "An update is available for gstreamer1-plugins-good.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

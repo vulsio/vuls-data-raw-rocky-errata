@@ -1,0 +1,50 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-45321",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-45321"
+		}
+	],
+	"description": "The panminus is a script to get, unpack, build and install modules from CPAN.\n\nSecurity Fix(es):\n\n* perl-App-cpanminus: Insecure HTTP in App::cpanminus Allows Code Execution Vulnerability (CVE-2024-45321)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2308078",
+			"ticket": "2308078"
+		}
+	],
+	"name": "RLSA-2024:10219",
+	"publishedAt": "2024-12-19T04:18:05.672002Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"perl-App-cpanminus-0:1.7044-6.module+el8.10.0+1886+1635aa55.noarch.rpm",
+				"perl-App-cpanminus-0:1.7044-6.module+el8.10.0+1886+1635aa55.src.rpm",
+				"perl-CPAN-DistnameInfo-0:0.12-13.module+el8.10.0+1616+0d20cc68.noarch.rpm",
+				"perl-CPAN-DistnameInfo-0:0.12-13.module+el8.10.0+1616+0d20cc68.src.rpm",
+				"perl-CPAN-Meta-Check-0:0.014-6.module+el8.10.0+1890+1072d5cf.noarch.rpm",
+				"perl-CPAN-Meta-Check-0:0.014-6.module+el8.10.0+1890+1072d5cf.src.rpm",
+				"perl-File-pushd-0:1.014-6.module+el8.10.0+1890+1072d5cf.noarch.rpm",
+				"perl-File-pushd-0:1.014-6.module+el8.10.0+1890+1072d5cf.src.rpm",
+				"perl-Module-CPANfile-0:1.1002-7.module+el8.10.0+1890+1072d5cf.noarch.rpm",
+				"perl-Module-CPANfile-0:1.1002-7.module+el8.10.0+1890+1072d5cf.src.rpm",
+				"perl-Parse-PMFile-0:0.41-7.module+el8.10.0+1890+1072d5cf.noarch.rpm",
+				"perl-Parse-PMFile-0:0.41-7.module+el8.10.0+1890+1072d5cf.src.rpm",
+				"perl-String-ShellQuote-0:1.04-24.module+el8.10.0+1890+1072d5cf.noarch.rpm",
+				"perl-String-ShellQuote-0:1.04-24.module+el8.10.0+1890+1072d5cf.src.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: perl-App-cpanminus:1.7044 security update",
+	"topic": "An update is available for perl-Module-CPANfile, perl-App-cpanminus, module.perl-File-pushd, module.perl-String-ShellQuote, perl-CPAN-DistnameInfo, perl-File-pushd, module.perl-Parse-PMFile, module.perl-CPAN-Meta-Check, module.perl-Module-CPANfile, perl-Parse-PMFile, perl-String-ShellQuote, module.perl-CPAN-DistnameInfo, perl-CPAN-Meta-Check, module.perl-App-cpanminus.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

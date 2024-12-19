@@ -1,0 +1,133 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10976",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10976"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10978",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10978"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10979",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10979"
+		}
+	],
+	"description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nSecurity Fix(es):\n\n* postgresql: PostgreSQL SET ROLE, SET SESSION AUTHORIZATION reset to wrong user ID (CVE-2024-10978)\n\n* postgresql: PostgreSQL PL/Perl environment variable changes execute arbitrary code (CVE-2024-10979)\n\n* postgresql: PostgreSQL row security below e.g. subqueries disregards user ID changes (CVE-2024-10976)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2326251",
+			"ticket": "2326251"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2326253",
+			"ticket": "2326253"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2326263",
+			"ticket": "2326263"
+		}
+	],
+	"name": "RLSA-2024:10785",
+	"publishedAt": "2024-12-19T04:18:05.672002Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"pgaudit-0:1.4.0-7.module+el8.9.0+1735+a332307b.aarch64.rpm",
+				"pgaudit-0:1.4.0-7.module+el8.9.0+1735+a332307b.src.rpm",
+				"pgaudit-0:1.4.0-7.module+el8.9.0+1735+a332307b.x86_64.rpm",
+				"pgaudit-debuginfo-0:1.4.0-7.module+el8.9.0+1735+a332307b.aarch64.rpm",
+				"pgaudit-debuginfo-0:1.4.0-7.module+el8.9.0+1735+a332307b.x86_64.rpm",
+				"pgaudit-debugsource-0:1.4.0-7.module+el8.9.0+1735+a332307b.aarch64.rpm",
+				"pgaudit-debugsource-0:1.4.0-7.module+el8.9.0+1735+a332307b.x86_64.rpm",
+				"pg_repack-0:1.4.6-3.module+el8.10.0+1862+29bef648.aarch64.rpm",
+				"pg_repack-0:1.4.6-3.module+el8.10.0+1862+29bef648.src.rpm",
+				"pg_repack-0:1.4.6-3.module+el8.10.0+1862+29bef648.x86_64.rpm",
+				"pg_repack-debuginfo-0:1.4.6-3.module+el8.10.0+1862+29bef648.aarch64.rpm",
+				"pg_repack-debuginfo-0:1.4.6-3.module+el8.10.0+1862+29bef648.x86_64.rpm",
+				"pg_repack-debugsource-0:1.4.6-3.module+el8.10.0+1862+29bef648.aarch64.rpm",
+				"pg_repack-debugsource-0:1.4.6-3.module+el8.10.0+1862+29bef648.x86_64.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.10.0+1862+29bef648.aarch64.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.10.0+1862+29bef648.src.rpm",
+				"postgres-decoderbufs-0:0.10.0-2.module+el8.10.0+1862+29bef648.x86_64.rpm",
+				"postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.10.0+1862+29bef648.aarch64.rpm",
+				"postgres-decoderbufs-debuginfo-0:0.10.0-2.module+el8.10.0+1862+29bef648.x86_64.rpm",
+				"postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.10.0+1862+29bef648.aarch64.rpm",
+				"postgres-decoderbufs-debugsource-0:0.10.0-2.module+el8.10.0+1862+29bef648.x86_64.rpm",
+				"postgresql-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-0:12.22-1.module+el8.10.0+1897+c7883fde.src.rpm",
+				"postgresql-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-contrib-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-contrib-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-contrib-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-contrib-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-debugsource-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-debugsource-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-docs-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-docs-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-docs-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-docs-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-plperl-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-plperl-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-plperl-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-plperl-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-plpython3-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-plpython3-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-plpython3-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-plpython3-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-pltcl-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-pltcl-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-pltcl-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-pltcl-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-server-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-server-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-server-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-server-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-server-devel-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-server-devel-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-server-devel-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-server-devel-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-static-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-static-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-test-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-test-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-test-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-test-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-test-rpm-macros-0:12.22-1.module+el8.10.0+1897+c7883fde.noarch.rpm",
+				"postgresql-upgrade-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-upgrade-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-upgrade-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-upgrade-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-upgrade-devel-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-upgrade-devel-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm",
+				"postgresql-upgrade-devel-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.aarch64.rpm",
+				"postgresql-upgrade-devel-debuginfo-0:12.22-1.module+el8.10.0+1897+c7883fde.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: postgresql:12 security update",
+	"topic": "An update is available for pgaudit, postgresql, module.pgaudit, pg_repack, module.postgres-decoderbufs, module.pg_repack, postgres-decoderbufs, module.postgresql.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

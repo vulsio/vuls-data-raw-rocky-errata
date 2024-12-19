@@ -1,0 +1,88 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10976",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10976"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10978",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10978"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-10979",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-10979"
+		}
+	],
+	"description": "PostgreSQL is an advanced object-relational database management system (DBMS).\n\nSecurity Fix(es):\n\n* postgresql: PostgreSQL SET ROLE, SET SESSION AUTHORIZATION reset to wrong user ID (CVE-2024-10978)\n\n* postgresql: PostgreSQL PL/Perl environment variable changes execute arbitrary code (CVE-2024-10979)\n\n* postgresql: PostgreSQL row security below e.g. subqueries disregards user ID changes (CVE-2024-10976)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2326251",
+			"ticket": "2326251"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2326253",
+			"ticket": "2326253"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2326263",
+			"ticket": "2326263"
+		}
+	],
+	"name": "RLSA-2024:10787",
+	"publishedAt": "2024-12-19T04:19:20.875733Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"pgaudit-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.aarch64.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.ppc64le.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.s390x.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.src.rpm",
+				"pgaudit-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.x86_64.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.aarch64.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.ppc64le.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.s390x.rpm",
+				"pgaudit-debuginfo-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.x86_64.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.aarch64.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.ppc64le.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.s390x.rpm",
+				"pgaudit-debugsource-0:1.7.0-1.module+el9.4.0+25512+c6b50a48.x86_64.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.aarch64.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.ppc64le.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.s390x.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.src.rpm",
+				"postgres-decoderbufs-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.x86_64.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.aarch64.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.ppc64le.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.s390x.rpm",
+				"postgres-decoderbufs-debuginfo-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.x86_64.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.aarch64.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.ppc64le.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.s390x.rpm",
+				"postgres-decoderbufs-debugsource-0:1.9.7-1.Final.module+el9.4.0+25512+c6b50a48.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: postgresql:15 security update",
+	"topic": "An update is available for module.pgaudit, module.postgres-decoderbufs, postgres-decoderbufs, pgaudit.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

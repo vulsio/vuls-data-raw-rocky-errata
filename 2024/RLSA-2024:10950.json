@@ -1,0 +1,158 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 9"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-2756",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-2756"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-3096",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-3096"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-5458",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-5458"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8925",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8925"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-8927",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-8927"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-9026",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-9026"
+		}
+	],
+	"description": "PHP is an HTML-embedded scripting language commonly used with the Apache HTTP Server.\n\nSecurity Fix(es):\n\n* php: host/secure cookie bypass due to partial CVE-2022-31629 fix (CVE-2024-2756)\n\n* php: password_verify can erroneously return true, opening ATO risk (CVE-2024-3096)\n\n* php: Filter bypass in filter_var (FILTER_VALIDATE_URL) (CVE-2024-5458)\n\n* php: Erroneous parsing of multipart form data (CVE-2024-8925)\n\n* php: cgi.force_redirect configuration is bypassable due to the environment variable collision (CVE-2024-8927)\n\n* php: PHP-FPM Log Manipulation Vulnerability (CVE-2024-9026)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275058",
+			"ticket": "2275058"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2275061",
+			"ticket": "2275061"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2291252",
+			"ticket": "2291252"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2317049",
+			"ticket": "2317049"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2317051",
+			"ticket": "2317051"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2317144",
+			"ticket": "2317144"
+		}
+	],
+	"name": "RLSA-2024:10950",
+	"publishedAt": "2024-12-19T04:19:20.875733Z",
+	"rpms": {
+		"Rocky Linux 9": {
+			"nvras": [
+				"apcu-panel-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.noarch.rpm",
+				"php-pecl-apcu-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-apcu-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-apcu-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-apcu-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.src.rpm",
+				"php-pecl-apcu-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-apcu-debuginfo-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-apcu-debuginfo-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-apcu-debuginfo-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-apcu-debuginfo-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-apcu-debugsource-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-apcu-debugsource-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-apcu-debugsource-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-apcu-debugsource-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-apcu-devel-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-apcu-devel-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-apcu-devel-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-apcu-devel-0:5.1.21-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-rrd-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-rrd-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-rrd-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-rrd-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.src.rpm",
+				"php-pecl-rrd-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-rrd-debuginfo-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-rrd-debuginfo-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-rrd-debuginfo-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-rrd-debuginfo-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-rrd-debugsource-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-rrd-debugsource-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-rrd-debugsource-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-rrd-debugsource-0:2.0.3-4.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-xdebug3-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-xdebug3-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-xdebug3-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-xdebug3-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.src.rpm",
+				"php-pecl-xdebug3-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-xdebug3-debuginfo-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-xdebug3-debuginfo-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-xdebug3-debuginfo-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-xdebug3-debuginfo-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-xdebug3-debugsource-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-xdebug3-debugsource-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-xdebug3-debugsource-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-xdebug3-debugsource-0:3.1.4-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-zip-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-zip-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-zip-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-zip-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.src.rpm",
+				"php-pecl-zip-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-zip-debuginfo-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-zip-debuginfo-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-zip-debuginfo-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-zip-debuginfo-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm",
+				"php-pecl-zip-debugsource-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.aarch64.rpm",
+				"php-pecl-zip-debugsource-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.ppc64le.rpm",
+				"php-pecl-zip-debugsource-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.s390x.rpm",
+				"php-pecl-zip-debugsource-0:1.20.1-1.module+el9.3.0+16050+d5cd6ed5.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_MODERATE",
+	"shortCode": "RL",
+	"synopsis": "Moderate: php:8.1 security update",
+	"topic": "An update is available for module.php-pecl-xdebug3, module.php-pecl-apcu, module.php-pecl-zip, php-pecl-rrd, module.php-pecl-rrd, php-pecl-zip, php-pecl-apcu, php-pecl-xdebug3.\nThis update affects Rocky Linux 9.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

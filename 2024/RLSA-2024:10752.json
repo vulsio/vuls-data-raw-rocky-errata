@@ -1,0 +1,108 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11692",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11692"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11694",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11694"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11695",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11695"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11696",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11696"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11697",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11697"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11699",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11699"
+		}
+	],
+	"description": "Mozilla Firefox is an open-source web browser, designed for standards compliance, performance, and portability.\n\nSecurity Fix(es):\n\n* firefox: thunderbird: CSP Bypass and XSS Exposure via Web Compatibility Shims (CVE-2024-11694)\n\n* firefox: thunderbird: Unhandled Exception in Add-on Signature Verification (CVE-2024-11696)\n\n* firefox: thunderbird: Select list elements could be shown over another site (CVE-2024-11692)\n\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 133, Thunderbird 133, Firefox ESR 128.5, and Thunderbird 128.5 (CVE-2024-11699)\n\n* firefox: thunderbird: URL Bar Spoofing via Manipulated Punycode and Whitespace Characters (CVE-2024-11695)\n\n* firefox: thunderbird: Improper Keypress Handling in Executable File Confirmation Dialog (CVE-2024-11697)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2328941",
+			"ticket": "2328941"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2328943",
+			"ticket": "2328943"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2328946",
+			"ticket": "2328946"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2328947",
+			"ticket": "2328947"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2328948",
+			"ticket": "2328948"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2328950",
+			"ticket": "2328950"
+		}
+	],
+	"name": "RLSA-2024:10752",
+	"publishedAt": "2024-12-19T04:18:05.672002Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"firefox-0:128.5.1-1.el8_10.aarch64.rpm",
+				"firefox-0:128.5.1-1.el8_10.src.rpm",
+				"firefox-0:128.5.1-1.el8_10.x86_64.rpm",
+				"firefox-debuginfo-0:128.5.1-1.el8_10.aarch64.rpm",
+				"firefox-debuginfo-0:128.5.1-1.el8_10.x86_64.rpm",
+				"firefox-debugsource-0:128.5.1-1.el8_10.aarch64.rpm",
+				"firefox-debugsource-0:128.5.1-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: firefox security update",
+	"topic": "An update is available for firefox.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
