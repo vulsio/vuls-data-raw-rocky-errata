@@ -1,7 +1,7 @@
 {
 	"affectedProducts": [
-		"Rocky Linux 9",
-		"Rocky Linux 8"
+		"Rocky Linux 8",
+		"Rocky Linux 9"
 	],
 	"cves": [
 		{
