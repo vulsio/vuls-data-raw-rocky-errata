@@ -1,0 +1,88 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2023-6816",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2023-6816"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-0229",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-0229"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-21885",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21885"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-21886",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-21886"
+		}
+	],
+	"description": "Virtual Network Computing (VNC) is a remote display system which allows users to view a computing desktop environment not only on the machine where it is running, but from anywhere on the Internet and from a wide variety of machine architectures. TigerVNC is a suite of VNC servers and clients.\n\nSecurity Fix(es):\n\n* xorg-x11-server: Heap buffer overflow in DeviceFocusEvent and ProcXIQueryPointer (CVE-2023-6816)\n\n* xorg-x11-server: reattaching to different master device may lead to out-of-bounds memory access (CVE-2024-0229)\n\n* xorg-x11-server: heap buffer overflow in XISendDeviceHierarchyEvent (CVE-2024-21885)\n\n* xorg-x11-server: heap buffer overflow in DisableDevice (CVE-2024-21886)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2256540",
+			"ticket": "2256540"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2256542",
+			"ticket": "2256542"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2256690",
+			"ticket": "2256690"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2257691",
+			"ticket": "2257691"
+		}
+	],
+	"name": "RLSA-2024:0607",
+	"publishedAt": "2024-02-12T20:17:26.918627Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"tigervnc-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-0:1.13.1-2.el8_9.7.src.rpm",
+				"tigervnc-debuginfo-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-debugsource-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-icons-0:1.13.1-2.el8_9.7.noarch.rpm",
+				"tigervnc-license-0:1.13.1-2.el8_9.7.noarch.rpm",
+				"tigervnc-selinux-0:1.13.1-2.el8_9.7.noarch.rpm",
+				"tigervnc-server-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-server-debuginfo-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-server-minimal-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-server-minimal-debuginfo-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-server-module-0:1.13.1-2.el8_9.7.aarch64.rpm",
+				"tigervnc-server-module-debuginfo-0:1.13.1-2.el8_9.7.aarch64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: tigervnc security update",
+	"topic": "An update is available for tigervnc.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
