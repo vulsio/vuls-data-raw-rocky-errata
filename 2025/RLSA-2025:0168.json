@@ -1,0 +1,46 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "7.5",
+			"cvss3ScoringVector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+			"cwe": "CWE-476",
+			"name": "CVE-2024-53580",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53580"
+		}
+	],
+	"description": "Iperf is a tool which can measure maximum TCP bandwidth and tune various parameters and UDP characteristics. Iperf reports bandwidth, delay jitter, and data-gram loss.\n\nSecurity Fix(es):\n\n* iperf: Denial of Service in iperf Due to Improper JSON Handling (CVE-2024-53580)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2333146",
+			"ticket": "2333146"
+		}
+	],
+	"name": "RLSA-2025:0168",
+	"publishedAt": "2025-01-11T02:01:36.549945Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"iperf3-0:3.5-11.el8_10.aarch64.rpm",
+				"iperf3-0:3.5-11.el8_10.i686.rpm",
+				"iperf3-0:3.5-11.el8_10.src.rpm",
+				"iperf3-0:3.5-11.el8_10.x86_64.rpm",
+				"iperf3-debuginfo-0:3.5-11.el8_10.aarch64.rpm",
+				"iperf3-debuginfo-0:3.5-11.el8_10.i686.rpm",
+				"iperf3-debuginfo-0:3.5-11.el8_10.x86_64.rpm",
+				"iperf3-debugsource-0:3.5-11.el8_10.aarch64.rpm",
+				"iperf3-debugsource-0:3.5-11.el8_10.i686.rpm",
+				"iperf3-debugsource-0:3.5-11.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: iperf3 security update",
+	"topic": "An update is available for iperf3.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

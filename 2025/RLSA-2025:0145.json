@@ -1,0 +1,103 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-54479",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-54479"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-54502",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-54502"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-54505",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-54505"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-54508",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-54508"
+		}
+	],
+	"description": "WebKitGTK is the port of the portable web rendering engine WebKit to the GTK platform.\n\nSecurity Fix(es):\n\n* WebKitGTK: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-54479)\n\n* webkit: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-54502)\n\n* webkit: Processing maliciously crafted web content may lead to memory corruption (CVE-2024-54505)\n\n* webkit: Processing maliciously crafted web content may lead to an unexpected process crash (CVE-2024-54508)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2333841",
+			"ticket": "2333841"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2333843",
+			"ticket": "2333843"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2333844",
+			"ticket": "2333844"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2333845",
+			"ticket": "2333845"
+		}
+	],
+	"name": "RLSA-2025:0145",
+	"publishedAt": "2025-01-11T02:01:36.549945Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"webkit2gtk3-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-0:2.46.5-1.el8_10.src.rpm",
+				"webkit2gtk3-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-debuginfo-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-debuginfo-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-debuginfo-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-debugsource-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-debugsource-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-debugsource-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-devel-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-devel-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-devel-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-devel-debuginfo-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-devel-debuginfo-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-devel-debuginfo-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-jsc-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-jsc-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-jsc-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-jsc-debuginfo-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-jsc-debuginfo-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-jsc-debuginfo-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-jsc-devel-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-jsc-devel-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-jsc-devel-0:2.46.5-1.el8_10.x86_64.rpm",
+				"webkit2gtk3-jsc-devel-debuginfo-0:2.46.5-1.el8_10.aarch64.rpm",
+				"webkit2gtk3-jsc-devel-debuginfo-0:2.46.5-1.el8_10.i686.rpm",
+				"webkit2gtk3-jsc-devel-debuginfo-0:2.46.5-1.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: webkit2gtk3 security update",
+	"topic": "An update is available for webkit2gtk3.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

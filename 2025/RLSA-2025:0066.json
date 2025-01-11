@@ -1,0 +1,65 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-53088",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53088"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-53122",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-53122"
+		}
+	],
+	"description": "The kernel-rt packages provide the Real Time Linux Kernel, which enables fine-tuning for systems with extremely high determinism requirements.\n\nSecurity Fix(es):\n\n* kernel: i40e: fix race condition by adding filter's intermediate sync state (CVE-2024-53088)\n\n* kernel: mptcp: cope racing subflow creation in mptcp_rcv_space_adjust (CVE-2024-53122)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2327328",
+			"ticket": "2327328"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2329932",
+			"ticket": "2329932"
+		}
+	],
+	"name": "RLSA-2025:0066",
+	"publishedAt": "2025-01-11T02:01:45.794033Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"kernel-rt-0:4.18.0-553.34.1.rt7.375.el8_10.src.rpm",
+				"kernel-rt-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-core-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-core-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-debuginfo-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-devel-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debuginfo-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debuginfo-common-x86_64-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-kvm-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-modules-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-debug-modules-extra-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-devel-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-kvm-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-modules-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm",
+				"kernel-rt-modules-extra-0:4.18.0-553.34.1.rt7.375.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: kernel-rt security update",
+	"topic": "An update is available for kernel-rt.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}

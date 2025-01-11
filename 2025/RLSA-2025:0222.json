@@ -1,0 +1,48 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2024-11614",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2024-11614"
+		}
+	],
+	"description": "The dpdk packages provide the Data Plane Development Kit, which is a set of libraries and drivers for fast packet processing in the user space.\n\nSecurity Fix(es):\n\n* dpdk: Denial Of Service from malicious guest on hypervisors using DPDK Vhost library (CVE-2024-11614)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2327955",
+			"ticket": "2327955"
+		}
+	],
+	"name": "RLSA-2025:0222",
+	"publishedAt": "2025-01-11T02:01:36.549945Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"dpdk-0:23.11-2.el8_10.aarch64.rpm",
+				"dpdk-0:23.11-2.el8_10.src.rpm",
+				"dpdk-0:23.11-2.el8_10.x86_64.rpm",
+				"dpdk-debuginfo-0:23.11-2.el8_10.aarch64.rpm",
+				"dpdk-debuginfo-0:23.11-2.el8_10.x86_64.rpm",
+				"dpdk-debugsource-0:23.11-2.el8_10.aarch64.rpm",
+				"dpdk-debugsource-0:23.11-2.el8_10.x86_64.rpm",
+				"dpdk-devel-0:23.11-2.el8_10.aarch64.rpm",
+				"dpdk-devel-0:23.11-2.el8_10.x86_64.rpm",
+				"dpdk-doc-0:23.11-2.el8_10.noarch.rpm",
+				"dpdk-tools-0:23.11-2.el8_10.aarch64.rpm",
+				"dpdk-tools-0:23.11-2.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: dpdk security update",
+	"topic": "An update is available for dpdk.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
