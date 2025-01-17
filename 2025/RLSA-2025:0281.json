@@ -1,0 +1,56 @@
+{
+	"affectedProducts": [
+		"Rocky Linux 8"
+	],
+	"cves": [
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2025-0242",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0242"
+		},
+		{
+			"cvss3BaseScore": "UNKNOWN",
+			"cvss3ScoringVector": "UNKNOWN",
+			"cwe": "UNKNOWN",
+			"name": "CVE-2025-0243",
+			"sourceBy": "MITRE",
+			"sourceLink": "https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2025-0243"
+		}
+	],
+	"description": "Mozilla Thunderbird is a standalone mail and newsgroup client.\n\nSecurity Fix(es):\n\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 134, Thunderbird 134, Firefox ESR 128.6, and Thunderbird 128.6 (CVE-2025-0243)\n\n* firefox: thunderbird: Memory safety bugs fixed in Firefox 134, Thunderbird 134, Firefox ESR 115.19, Firefox ESR 128.6, Thunderbird 115.19, and Thunderbird 128.6 (CVE-2025-0242)\n\nFor more details about the security issue(s), including the impact, a CVSS score, acknowledgments, and other related information, refer to the CVE page(s) listed in the References section.",
+	"fixes": [
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2336175",
+			"ticket": "2336175"
+		},
+		{
+			"sourceBy": "Red Hat",
+			"sourceLink": "https://bugzilla.redhat.com/show_bug.cgi?id=2336181",
+			"ticket": "2336181"
+		}
+	],
+	"name": "RLSA-2025:0281",
+	"publishedAt": "2025-01-17T16:13:58.660055Z",
+	"rpms": {
+		"Rocky Linux 8": {
+			"nvras": [
+				"thunderbird-0:128.6.0-3.el8_10.aarch64.rpm",
+				"thunderbird-0:128.6.0-3.el8_10.src.rpm",
+				"thunderbird-0:128.6.0-3.el8_10.x86_64.rpm",
+				"thunderbird-debuginfo-0:128.6.0-3.el8_10.aarch64.rpm",
+				"thunderbird-debuginfo-0:128.6.0-3.el8_10.x86_64.rpm",
+				"thunderbird-debugsource-0:128.6.0-3.el8_10.aarch64.rpm",
+				"thunderbird-debugsource-0:128.6.0-3.el8_10.x86_64.rpm"
+			]
+		}
+	},
+	"severity": "SEVERITY_IMPORTANT",
+	"shortCode": "RL",
+	"synopsis": "Important: thunderbird security update",
+	"topic": "An update is available for thunderbird.\nThis update affects Rocky Linux 8.\nA Common Vulnerability Scoring System (CVSS) base score, which gives a detailed severity rating, is available for each vulnerability from the CVE list",
+	"type": "TYPE_SECURITY"
+}
